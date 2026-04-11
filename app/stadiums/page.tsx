@@ -11,49 +11,52 @@ export const metadata: Metadata = {
 export default function StadiumsPage() {
   return (
     <div className="space-y-8">
-      <div className="border-b border-zinc-800 pb-6">
+
+      {/* Breadcrumb */}
+      <nav className="breadcrumb">
+        <Link href="/">Home</Link>
+        <span className="breadcrumb-sep">›</span>
+        <span className="breadcrumb-current">Stadiums</span>
+      </nav>
+
+      {/* Header */}
+      <div className="page-header">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="badge-green">{stadiums.length} Venues</span>
+        </div>
         <h1>World Cup 2026 Stadiums</h1>
-        <p className="mt-2 text-zinc-400">
-          {stadiums.length} stadium guides — venue capacity, surface type,
-          location, and World Cup 2026 match schedules.
+        <p className="mt-2 text-zinc-400 text-sm">
+          Venue capacity, surface type, location, and World Cup 2026 match schedules.
         </p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-3">
         {stadiums.map((stadium) => (
-          <Link
-            key={stadium.slug}
-            href={`/stadiums/${stadium.slug}`}
-            className="block section-block hover:border-emerald-600 transition-colors"
-          >
+          <Link key={stadium.slug} href={`/stadiums/${stadium.slug}`} className="entity-card block">
             <div className="flex items-start justify-between mb-3">
-              <p className="font-bold text-white text-base leading-tight">
+              <p className="font-black text-white leading-tight" style={{ letterSpacing: "-0.02em" }}>
                 {stadium.name}
               </p>
               {stadium.hostingFinal && (
-                <span className="tag text-emerald-400 border-emerald-800 ml-2 shrink-0">
-                  Final
-                </span>
+                <span className="badge-green ml-2 shrink-0">Final</span>
               )}
             </div>
-            <p className="text-sm text-zinc-400">
-              {stadium.city}, {stadium.state}
-            </p>
-            <div className="mt-3 grid grid-cols-2 gap-2">
+            <p className="text-sm text-zinc-400">📍 {stadium.city}, {stadium.state}</p>
+            <div className="mt-4 grid grid-cols-2 gap-3">
               <div>
                 <p className="stat-label">Capacity</p>
-                <p className="text-sm font-semibold text-white">
+                <p className="text-sm font-bold text-white mt-0.5">
                   {stadium.capacity.toLocaleString()}
                 </p>
               </div>
               <div>
                 <p className="stat-label">WC Matches</p>
-                <p className="text-sm font-semibold text-white">
+                <p className="text-sm font-bold mt-0.5" style={{ color: "#00FF87" }}>
                   {stadium.worldCup2026Matches}
                 </p>
               </div>
             </div>
-            <p className="mt-3 text-xs text-zinc-500">
+            <p className="mt-3 text-xs text-zinc-600">
               {stadium.surface} · Opened {stadium.opened}
             </p>
           </Link>

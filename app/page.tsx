@@ -1,61 +1,72 @@
 import Link from "next/link";
 import { matches, teams, stadiums, players } from "@/lib/data";
 
+const FLAGS: Record<string, string> = {
+  france: "🇫🇷",
+  brazil: "🇧🇷",
+  morocco: "🇲🇦",
+  argentina: "🇦🇷",
+  usa: "🇺🇸",
+  spain: "🇪🇸",
+};
+
 export default function HomePage() {
   return (
-    <div className="space-y-12">
-      {/* Hero */}
-      <section className="py-8 border-b border-zinc-800">
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
-          World Cup 2026 — Match Previews, Stats &amp; Data
+    <div className="space-y-14">
+
+      {/* ── Hero ── */}
+      <section className="page-header pt-4">
+        <div className="flex items-center gap-2 mb-4">
+          <span className="badge-green">World Cup 2026</span>
+          <span className="badge-blue">Live Coverage</span>
+        </div>
+        <h1
+          className="text-4xl sm:text-5xl font-black text-white leading-none"
+          style={{ letterSpacing: "-0.04em" }}
+        >
+          World Cup 2026
+          <br />
+          <span style={{ color: "#00FF87" }}>Match Previews,</span> Stats &amp; Data
         </h1>
-        <p className="mt-3 text-zinc-400 max-w-2xl">
-          FootBrowse is your data-driven guide to the FIFA World Cup 2026.
-          Explore match previews, team profiles, stadium guides, and detailed
-          player statistics.
+        <p className="mt-4 text-zinc-400 max-w-xl leading-relaxed">
+          The data-driven guide to FIFA World Cup 2026 — every fixture,
+          squad, stadium, and star player. No noise. Just football.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3">
+        <div className="mt-6 flex flex-wrap gap-3">
           <Link
             href="/matches"
-            className="rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-500 transition-colors"
+            className="rounded-lg px-5 py-2.5 text-sm font-bold transition-all duration-200 hover:opacity-90"
+            style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}
           >
             Browse Matches
           </Link>
           <Link
             href="/teams"
-            className="rounded-md border border-zinc-700 px-4 py-2 text-sm font-semibold text-zinc-300 hover:border-zinc-500 hover:text-white transition-colors"
+            className="rounded-lg border border-zinc-700 px-5 py-2.5 text-sm font-bold text-zinc-300 hover:border-zinc-500 hover:text-white transition-all duration-200"
           >
             View Teams
           </Link>
         </div>
       </section>
 
-      {/* Upcoming Matches */}
+      {/* ── Upcoming Matches ── */}
       <section>
-        <div className="flex items-center justify-between mb-4">
-          <h2>Upcoming Matches</h2>
-          <Link
-            href="/matches"
-            className="text-sm text-emerald-400 hover:underline"
-          >
-            All matches →
-          </Link>
+        <div className="section-row">
+          <h2 className="section-title text-xl">Upcoming Matches</h2>
+          <Link href="/matches" className="arrow-link">All matches →</Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {matches.map((match) => (
-            <Link
-              key={match.slug}
-              href={`/matches/${match.slug}`}
-              className="block section-block hover:border-emerald-600 transition-colors"
-            >
-              <p className="text-xs text-zinc-500 uppercase tracking-widest mb-2">
+            <Link key={match.slug} href={`/matches/${match.slug}`} className="match-card block">
+              <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold mb-2">
                 {match.stage} · Group {match.group}
               </p>
-              <p className="font-bold text-white text-base">
-                {match.homeTeamName}{" "}
-                <span className="text-zinc-500">vs</span> {match.awayTeamName}
+              <p className="font-black text-white text-base" style={{ letterSpacing: "-0.02em" }}>
+                {FLAGS[match.homeTeamSlug]} {match.homeTeamName}{" "}
+                <span className="text-zinc-600 font-normal">vs</span>{" "}
+                {FLAGS[match.awayTeamSlug]} {match.awayTeamName}
               </p>
-              <p className="text-sm text-zinc-400 mt-1">
+              <p className="text-sm text-zinc-400 mt-2">
                 {new Date(match.date).toLocaleDateString("en-US", {
                   month: "short",
                   day: "numeric",
@@ -63,108 +74,110 @@ export default function HomePage() {
                 })}{" "}
                 · {match.stadiumName}
               </p>
+              <p className="mt-3 text-xs font-semibold" style={{ color: "#00FF87" }}>
+                Match preview →
+              </p>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* Teams */}
+      {/* ── Teams ── */}
       <section>
-        <div className="flex items-center justify-between mb-4">
-          <h2>Teams</h2>
-          <Link
-            href="/teams"
-            className="text-sm text-emerald-400 hover:underline"
-          >
-            All teams →
-          </Link>
+        <div className="section-row">
+          <h2 className="section-title text-xl">Teams</h2>
+          <Link href="/teams" className="arrow-link">All teams →</Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {teams.map((team) => (
-            <Link
-              key={team.slug}
-              href={`/teams/${team.slug}`}
-              className="block section-block hover:border-emerald-600 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <p className="font-bold text-white">{team.name}</p>
+            <Link key={team.slug} href={`/teams/${team.slug}`} className="entity-card block">
+              <div className="flex items-center justify-between mb-3">
+                <p className="font-black text-white text-base" style={{ letterSpacing: "-0.02em" }}>
+                  {FLAGS[team.slug]} {team.name}
+                </p>
                 <span className="tag">{team.shortName}</span>
               </div>
-              <p className="text-sm text-zinc-400 mt-1">
-                {team.confederation} · FIFA #{team.fifaRanking}
-              </p>
-              <p className="text-xs text-zinc-500 mt-0.5">
-                {team.worldCupTitles} World Cup title
-                {team.worldCupTitles !== 1 ? "s" : ""}
-              </p>
+              <div className="flex gap-4 text-sm">
+                <div>
+                  <p className="stat-label">FIFA Rank</p>
+                  <p className="text-sm font-bold text-white mt-0.5">#{team.fifaRanking}</p>
+                </div>
+                <div>
+                  <p className="stat-label">WC Titles</p>
+                  <p className="text-sm font-bold text-white mt-0.5">{team.worldCupTitles}</p>
+                </div>
+                <div>
+                  <p className="stat-label">Group</p>
+                  <p className="text-sm font-bold mt-0.5" style={{ color: "#00FF87" }}>
+                    {team.group}
+                  </p>
+                </div>
+              </div>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* Stadiums */}
+      {/* ── Stadiums ── */}
       <section>
-        <div className="flex items-center justify-between mb-4">
-          <h2>Stadiums</h2>
-          <Link
-            href="/stadiums"
-            className="text-sm text-emerald-400 hover:underline"
-          >
-            All stadiums →
-          </Link>
+        <div className="section-row">
+          <h2 className="section-title text-xl">Stadiums</h2>
+          <Link href="/stadiums" className="arrow-link">All stadiums →</Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-3">
           {stadiums.map((stadium) => (
-            <Link
-              key={stadium.slug}
-              href={`/stadiums/${stadium.slug}`}
-              className="block section-block hover:border-emerald-600 transition-colors"
-            >
-              <p className="font-bold text-white">{stadium.name}</p>
-              <p className="text-sm text-zinc-400 mt-1">
-                {stadium.city}, {stadium.state}
-              </p>
-              <p className="text-xs text-zinc-500 mt-0.5">
-                Cap. {stadium.capacity.toLocaleString()}
+            <Link key={stadium.slug} href={`/stadiums/${stadium.slug}`} className="entity-card block">
+              <div className="flex items-start justify-between mb-2">
+                <p className="font-black text-white leading-tight" style={{ letterSpacing: "-0.02em" }}>
+                  {stadium.name}
+                </p>
                 {stadium.hostingFinal && (
-                  <span className="ml-2 text-emerald-400 font-semibold">
-                    · Final Venue
-                  </span>
+                  <span className="badge-green ml-2 shrink-0">Final</span>
                 )}
+              </div>
+              <p className="text-sm text-zinc-400">{stadium.city}, {stadium.state}</p>
+              <p className="text-xs text-zinc-600 mt-2">
+                Cap. {stadium.capacity.toLocaleString()} · {stadium.worldCup2026Matches} WC matches
               </p>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* Players */}
+      {/* ── Players ── */}
       <section>
-        <div className="flex items-center justify-between mb-4">
-          <h2>Featured Players</h2>
-          <Link
-            href="/players"
-            className="text-sm text-emerald-400 hover:underline"
-          >
-            All players →
-          </Link>
+        <div className="section-row">
+          <h2 className="section-title text-xl">Featured Players</h2>
+          <Link href="/players" className="arrow-link">All players →</Link>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {players.map((player) => (
-            <Link
-              key={player.slug}
-              href={`/players/${player.slug}`}
-              className="block section-block hover:border-emerald-600 transition-colors"
-            >
-              <div className="flex items-center justify-between">
-                <p className="font-bold text-white">{player.name}</p>
-                <span className="tag">#{player.kitNumber}</span>
+            <Link key={player.slug} href={`/players/${player.slug}`} className="entity-card block">
+              <div className="flex items-center justify-between mb-2">
+                <p className="font-black text-white" style={{ letterSpacing: "-0.02em" }}>
+                  {player.name}
+                </p>
+                <span
+                  className="text-lg font-black tabular-nums"
+                  style={{ color: "#00FF87" }}
+                >
+                  #{player.kitNumber}
+                </span>
               </div>
-              <p className="text-sm text-zinc-400 mt-1">
-                {player.position} · {player.teamName}
+              <p className="text-sm text-zinc-400">
+                {FLAGS[player.teamSlug]} {player.teamName} · {player.position}
               </p>
-              <p className="text-xs text-zinc-500 mt-0.5">
-                {player.caps} caps · {player.internationalGoals} goals
-              </p>
+              <div className="mt-3 flex gap-4 text-xs">
+                <span className="text-zinc-500">
+                  <span className="font-bold text-zinc-300">{player.caps}</span> caps
+                </span>
+                <span className="text-zinc-500">
+                  <span className="font-bold text-zinc-300">{player.internationalGoals}</span> goals
+                </span>
+                <span className="text-zinc-500">
+                  <span className="font-bold text-zinc-300">{player.worldCupGoals}</span> WC goals
+                </span>
+              </div>
             </Link>
           ))}
         </div>

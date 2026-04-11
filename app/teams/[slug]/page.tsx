@@ -26,6 +26,15 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
+const FLAGS: Record<string, string> = {
+  france: "🇫🇷",
+  brazil: "🇧🇷",
+  morocco: "🇲🇦",
+  argentina: "🇦🇷",
+  usa: "🇺🇸",
+  spain: "🇪🇸",
+};
+
 export default function TeamPage({ params }: Props) {
   const team = getTeam(params.slug);
   if (!team) notFound();
@@ -36,30 +45,36 @@ export default function TeamPage({ params }: Props) {
 
   return (
     <article className="space-y-8">
+
       {/* Breadcrumb */}
-      <nav className="text-xs text-zinc-500 flex gap-1 items-center">
-        <Link href="/" className="hover:text-zinc-300">
-          Home
-        </Link>
-        <span>/</span>
-        <Link href="/teams" className="hover:text-zinc-300">
-          Teams
-        </Link>
-        <span>/</span>
-        <span className="text-zinc-300">{team.name}</span>
+      <nav className="breadcrumb">
+        <Link href="/">Home</Link>
+        <span className="breadcrumb-sep">›</span>
+        <Link href="/teams">Teams</Link>
+        <span className="breadcrumb-sep">›</span>
+        <span className="breadcrumb-current">{team.name}</span>
       </nav>
 
       {/* Header */}
-      <header className="border-b border-zinc-800 pb-6">
+      <header className="page-header">
         <div className="flex items-start justify-between flex-wrap gap-3">
           <div>
-            <p className="text-xs text-zinc-500 uppercase tracking-widest mb-2">
-              {team.confederation} · Group {team.group}
-            </p>
-            <h1>{team.name}</h1>
-            <p className="mt-1 text-sm text-zinc-400">Coach: {team.coach}</p>
+            <div className="flex items-center gap-2 mb-3">
+              <span className="badge-blue">{team.confederation}</span>
+              <span className="badge-green">Group {team.group}</span>
+            </div>
+            <h1
+              className="text-3xl sm:text-4xl font-black"
+              style={{ letterSpacing: "-0.04em" }}
+            >
+              {FLAGS[team.slug]} {team.name}
+            </h1>
+            <p className="mt-2 text-sm text-zinc-400">Coach: <span className="text-zinc-200 font-semibold">{team.coach}</span></p>
           </div>
-          <span className="rounded bg-zinc-800 px-3 py-1.5 text-sm font-bold text-zinc-200">
+          <span
+            className="rounded-lg px-4 py-2 text-2xl font-black text-white"
+            style={{ backgroundColor: "rgba(39,39,42,0.8)", letterSpacing: "-0.02em" }}
+          >
             {team.shortName}
           </span>
         </div>
@@ -67,11 +82,14 @@ export default function TeamPage({ params }: Props) {
 
       {/* AD SLOT */}
       {/* <!-- AD SLOT: team-page-top --> */}
-      <div className="ad-slot">Advertisement</div>
+      <div className="ad-slot">
+        <span className="ad-slot-label">Advertisement</span>
+        <span className="ad-slot-dims">728×90 — Leaderboard</span>
+      </div>
 
-      {/* Key Stats */}
+      {/* Stats */}
       <section>
-        <h2 className="mb-4">Team Statistics</h2>
+        <h2 className="section-title text-xl mb-4">Team Statistics</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div className="stat-card">
             <p className="stat-label">FIFA Ranking</p>
@@ -79,7 +97,9 @@ export default function TeamPage({ params }: Props) {
           </div>
           <div className="stat-card">
             <p className="stat-label">World Cup Titles</p>
-            <p className="stat-value">{team.worldCupTitles}</p>
+            <p className="stat-value" style={{ color: team.worldCupTitles > 0 ? "#00FF87" : "white" }}>
+              {team.worldCupTitles}
+            </p>
           </div>
           <div className="stat-card">
             <p className="stat-label">Founded</p>
@@ -87,39 +107,39 @@ export default function TeamPage({ params }: Props) {
           </div>
           <div className="stat-card">
             <p className="stat-label">Group</p>
-            <p className="stat-value">Group {team.group}</p>
+            <p className="stat-value" style={{ color: "#00FF87" }}>
+              {team.group}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Team Overview */}
+      {/* Overview */}
       <section className="section-block">
-        <h2 className="mb-3">Team Overview</h2>
-        <p className="text-zinc-300 leading-relaxed">{team.description}</p>
+        <h2 className="section-title text-xl mb-4">Team Overview</h2>
+        <p className="text-zinc-300 leading-relaxed text-sm">{team.description}</p>
       </section>
 
       {/* Players */}
       {players.length > 0 && (
         <section>
-          <h2 className="mb-4">Key Players</h2>
+          <h2 className="section-title text-xl mb-4">Key Players</h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {players.map((player) => (
-              <Link
-                key={player.slug}
-                href={`/players/${player.slug}`}
-                className="section-block hover:border-emerald-600 transition-colors"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="font-bold text-white">{player.name}</span>
-                  <span className="tag">#{player.kitNumber}</span>
+              <Link key={player.slug} href={`/players/${player.slug}`} className="entity-card block">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-black text-white" style={{ letterSpacing: "-0.02em" }}>
+                    {player.name}
+                  </span>
+                  <span className="text-base font-black tabular-nums" style={{ color: "#00FF87" }}>
+                    #{player.kitNumber}
+                  </span>
                 </div>
-                <p className="text-sm text-zinc-400 mt-1">{player.position}</p>
-                <p className="text-sm text-zinc-400 mt-0.5">
-                  {player.club} · {player.clubLeague}
-                </p>
-                <div className="mt-3 flex gap-4 text-xs text-zinc-500">
-                  <span>{player.caps} caps</span>
-                  <span>{player.internationalGoals} goals</span>
+                <p className="text-sm text-zinc-400">{player.position}</p>
+                <p className="text-xs text-zinc-500 mt-0.5">{player.club} · {player.clubLeague}</p>
+                <div className="mt-3 flex gap-4 text-xs text-zinc-600">
+                  <span><span className="text-zinc-300 font-bold">{player.caps}</span> caps</span>
+                  <span><span className="text-zinc-300 font-bold">{player.internationalGoals}</span> goals</span>
                 </div>
               </Link>
             ))}
@@ -129,22 +149,28 @@ export default function TeamPage({ params }: Props) {
 
       {/* AD SLOT */}
       {/* <!-- AD SLOT: team-page-mid --> */}
-      <div className="ad-slot">Advertisement</div>
+      <div className="ad-slot">
+        <span className="ad-slot-label">Advertisement</span>
+        <span className="ad-slot-dims">300×250 — Medium Rectangle</span>
+      </div>
 
-      {/* Matches */}
+      {/* Fixtures */}
       {matches.length > 0 && (
         <section>
-          <h2 className="mb-4">Group Stage Fixtures</h2>
+          <h2 className="section-title text-xl mb-4">Group Stage Fixtures</h2>
           <div className="space-y-3">
             {matches.map((match) => (
               <Link
                 key={match.slug}
                 href={`/matches/${match.slug}`}
-                className="flex items-center justify-between section-block hover:border-emerald-600 transition-colors"
+                className="match-card flex items-center justify-between"
               >
                 <div>
-                  <p className="font-medium text-white">
-                    {match.homeTeamName} vs {match.awayTeamName}
+                  <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold mb-1">
+                    {match.stage} · Group {match.group}
+                  </p>
+                  <p className="font-black text-white" style={{ letterSpacing: "-0.02em" }}>
+                    {FLAGS[match.homeTeamSlug]} {match.homeTeamName} vs {FLAGS[match.awayTeamSlug]} {match.awayTeamName}
                   </p>
                   <p className="text-sm text-zinc-400 mt-0.5">
                     {new Date(match.date).toLocaleDateString("en-US", {
@@ -155,9 +181,7 @@ export default function TeamPage({ params }: Props) {
                     · {match.stadiumName}
                   </p>
                 </div>
-                <span className="text-emerald-400 text-sm font-medium shrink-0 ml-4">
-                  Preview →
-                </span>
+                <span className="arrow-link shrink-0 ml-4">Preview →</span>
               </Link>
             ))}
           </div>
@@ -167,32 +191,31 @@ export default function TeamPage({ params }: Props) {
       {/* Home Stadium */}
       {homeStadium && (
         <section className="section-block">
-          <h2 className="mb-3">Home Stadium</h2>
-          <Link
-            href={`/stadiums/${homeStadium.slug}`}
-            className="group flex items-start justify-between"
-          >
+          <h2 className="section-title text-xl mb-4">Associated Venue</h2>
+          <Link href={`/stadiums/${homeStadium.slug}`} className="group flex items-start justify-between">
             <div>
-              <p className="font-bold text-white group-hover:text-emerald-400 transition-colors">
+              <p className="font-black text-white group-hover:opacity-70 transition-opacity" style={{ letterSpacing: "-0.02em" }}>
                 {homeStadium.name}
+                {homeStadium.hostingFinal && (
+                  <span className="badge-green ml-2 align-middle">Final Venue</span>
+                )}
               </p>
-              <p className="text-sm text-zinc-400 mt-1">
-                {homeStadium.city}, {homeStadium.state}
-              </p>
+              <p className="text-sm text-zinc-400 mt-1">{homeStadium.city}, {homeStadium.state}</p>
               <p className="text-sm text-zinc-500 mt-0.5">
-                Capacity: {homeStadium.capacity.toLocaleString()}
+                Cap. {homeStadium.capacity.toLocaleString()}
               </p>
             </div>
-            <span className="text-emerald-400 text-sm font-medium shrink-0 ml-4">
-              Stadium guide →
-            </span>
+            <span className="arrow-link shrink-0 ml-4">Venue guide →</span>
           </Link>
         </section>
       )}
 
       {/* AD SLOT */}
       {/* <!-- AD SLOT: team-page-bottom --> */}
-      <div className="ad-slot">Advertisement</div>
+      <div className="ad-slot">
+        <span className="ad-slot-label">Advertisement</span>
+        <span className="ad-slot-dims">728×90 — Leaderboard</span>
+      </div>
     </article>
   );
 }

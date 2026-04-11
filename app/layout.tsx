@@ -31,22 +31,41 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        {/* ── Header ── */}
-        <header className="border-b border-zinc-800 bg-zinc-900 sticky top-0 z-50">
+
+        {/* ── Header: backdrop-blur frosted glass ── */}
+        <header
+          className="sticky top-0 z-50 border-b"
+          style={{
+            backgroundColor: "rgba(10,10,10,0.82)",
+            backdropFilter: "blur(12px)",
+            WebkitBackdropFilter: "blur(12px)",
+            borderBottomColor: "rgba(39,39,42,0.7)",
+          }}
+        >
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
+
+            {/* Logo */}
             <Link
               href="/"
-              className="flex items-center gap-2 font-bold text-lg tracking-tight text-white hover:text-emerald-400 transition-colors"
+              className="flex items-center gap-2 font-black text-lg tracking-tight text-white transition-opacity hover:opacity-80"
+              style={{ letterSpacing: "-0.03em" }}
             >
-              <span className="text-emerald-400">⚽</span>
+              <span
+                className="flex items-center justify-center w-7 h-7 rounded-md text-sm font-black"
+                style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}
+              >
+                FB
+              </span>
               FootBrowse
             </Link>
-            <nav className="flex items-center gap-1 sm:gap-2">
+
+            {/* Nav */}
+            <nav className="flex items-center gap-0.5">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-3 py-1.5 rounded text-sm font-medium text-zinc-300 hover:text-white hover:bg-zinc-800 transition-colors"
+                  className="px-3 py-1.5 rounded-md text-sm font-semibold text-zinc-400 hover:text-white hover:bg-white/[0.06] transition-all duration-150"
                 >
                   {link.label}
                 </Link>
@@ -61,34 +80,95 @@ export default function RootLayout({
         </main>
 
         {/* ── Footer ── */}
-        <footer className="border-t border-zinc-800 bg-zinc-900 mt-auto">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <footer
+          className="mt-auto border-t"
+          style={{
+            backgroundColor: "rgba(12,12,12,0.95)",
+            borderTopColor: "rgba(39,39,42,0.8)",
+          }}
+        >
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+            <div className="flex flex-col sm:flex-row items-start justify-between gap-8">
+
+              {/* Brand */}
               <div>
-                <p className="font-bold text-white">
-                  <span className="text-emerald-400">⚽</span> FootBrowse
+                <p
+                  className="font-black text-white text-lg"
+                  style={{ letterSpacing: "-0.03em" }}
+                >
+                  <span
+                    className="inline-flex items-center justify-center w-6 h-6 rounded text-xs font-black mr-2 align-middle"
+                    style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}
+                  >
+                    FB
+                  </span>
+                  FootBrowse
                 </p>
-                <p className="text-xs text-zinc-500 mt-1">
-                  Your data-driven guide to World Cup 2026.
+                <p className="text-xs text-zinc-500 mt-2 max-w-xs leading-relaxed">
+                  Your data-driven guide to the FIFA World Cup 2026.
+                  Stats, fixtures, and profiles for every match, team,
+                  player, and stadium.
                 </p>
               </div>
-              <nav className="flex flex-wrap gap-x-4 gap-y-1">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="text-sm text-zinc-400 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </nav>
+
+              {/* Links */}
+              <div className="flex flex-col sm:flex-row gap-8">
+                <div>
+                  <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-600 font-bold mb-3">
+                    Browse
+                  </p>
+                  <nav className="flex flex-col gap-2">
+                    {navLinks.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="text-sm text-zinc-400 hover:text-white transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </nav>
+                </div>
+
+                <div>
+                  <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-600 font-bold mb-3">
+                    Follow
+                  </p>
+                  <nav className="flex flex-col gap-2">
+                    <a
+                      href="#"
+                      className="text-sm text-zinc-400 hover:text-white transition-colors"
+                    >
+                      X / Twitter
+                    </a>
+                    <a
+                      href="#"
+                      className="text-sm text-zinc-400 hover:text-white transition-colors"
+                    >
+                      Instagram
+                    </a>
+                    <a
+                      href="#"
+                      className="text-sm text-zinc-400 hover:text-white transition-colors"
+                    >
+                      YouTube
+                    </a>
+                  </nav>
+                </div>
+              </div>
             </div>
-            <p className="mt-6 text-xs text-zinc-600">
-              © {new Date().getFullYear()} FootBrowse. For informational
-              purposes only. Not affiliated with FIFA or any football
-              association.
-            </p>
+
+            <div
+              className="mt-8 pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2"
+              style={{ borderTop: "1px solid rgba(39,39,42,0.6)" }}
+            >
+              <p className="text-xs text-zinc-600">
+                © 2026 FootBrowse. All rights reserved.
+              </p>
+              <p className="text-xs text-zinc-700">
+                Not affiliated with FIFA or any football association.
+              </p>
+            </div>
           </div>
         </footer>
       </body>
