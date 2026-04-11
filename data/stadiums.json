@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford",
+    "state": "New Jersey",
+    "country": "USA",
+    "capacity": 82500,
+    "surface": "Artificial Turf",
+    "opened": 2010,
+    "hostingFinal": true,
+    "worldCup2026Matches": 8,
+    "description": "MetLife Stadium is the centrepiece of the 2026 World Cup, hosting the Final itself. Situated in the New York/New Jersey metropolitan area — the world's media capital — the venue is one of the largest in the United States and guarantees an unrivalled atmosphere for the tournament's biggest moments.",
+    "teams": ["france", "argentina"],
+    "matches": ["france-vs-brazil"]
+  },
+  {
+    "slug": "sofi-stadium",
+    "name": "SoFi Stadium",
+    "city": "Inglewood",
+    "state": "California",
+    "country": "USA",
+    "capacity": 70240,
+    "surface": "Grass",
+    "opened": 2020,
+    "hostingFinal": false,
+    "worldCup2026Matches": 6,
+    "description": "One of the most technologically advanced stadiums ever built, SoFi Stadium in Inglewood hosts World Cup 2026 matches in the Los Angeles area. Its striking translucent roof and state-of-the-art videoboard create a spectacular setting for international football.",
+    "teams": ["brazil", "usa"],
+    "matches": []
+  },
+  {
+    "slug": "att-stadium",
+    "name": "AT&T Stadium",
+    "city": "Arlington",
+    "state": "Texas",
+    "country": "USA",
+    "capacity": 80000,
+    "surface": "Grass",
+    "opened": 2009,
+    "hostingFinal": false,
+    "worldCup2026Matches": 6,
+    "description": "Known as 'Jerry World', AT&T Stadium in Arlington, Texas, is an iconic American sports venue. Its retractable roof, massive interior video board, and 80,000-seat capacity make it one of the premier World Cup 2026 venues, drawing fans from across the Lone Star State.",
+    "teams": ["morocco", "spain"],
+    "matches": ["france-vs-morocco"]
+  }
+]

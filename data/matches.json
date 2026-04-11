@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "france-vs-brazil",
+    "homeTeamSlug": "france",
+    "awayTeamSlug": "brazil",
+    "homeTeamName": "France",
+    "awayTeamName": "Brazil",
+    "homeTeamShort": "FRA",
+    "awayTeamShort": "BRA",
+    "date": "2026-06-15",
+    "kickoffTime": "18:00",
+    "timezone": "ET",
+    "stadiumSlug": "metlife-stadium",
+    "stadiumName": "MetLife Stadium",
+    "city": "East Rutherford, NJ",
+    "stage": "Group Stage",
+    "group": "D",
+    "matchday": 1,
+    "status": "upcoming",
+    "homeScore": null,
+    "awayScore": null,
+    "description": "One of the most anticipated group-stage clashes in World Cup 2026 history. Two-time champion France, led by Kylian Mbappé, face five-time champions Brazil and the dazzling Vinicius Júnior at the iconic MetLife Stadium in New Jersey. This heavyweight encounter in Group D is likely to set the tone for the entire tournament.",
+    "keyMatchups": [
+      "Mbappé vs Brazil's backline",
+      "Vinicius Jr vs France's defence",
+      "Midfield battle: Tchouaméni vs Paquetá"
+    ],
+    "headToHead": {
+      "played": 34,
+      "franceWins": 8,
+      "brazilWins": 16,
+      "draws": 10,
+      "lastMeeting": "2023-03-27",
+      "lastResult": "Brazil 5 - 1 France"
+    },
+    "featuredPlayers": ["kylian-mbappe", "vinicius-junior"]
+  },
+  {
+    "slug": "france-vs-morocco",
+    "homeTeamSlug": "france",
+    "awayTeamSlug": "morocco",
+    "homeTeamName": "France",
+    "awayTeamName": "Morocco",
+    "homeTeamShort": "FRA",
+    "awayTeamShort": "MAR",
+    "date": "2026-06-21",
+    "kickoffTime": "15:00",
+    "timezone": "ET",
+    "stadiumSlug": "att-stadium",
+    "stadiumName": "AT&T Stadium",
+    "city": "Arlington, TX",
+    "stage": "Group Stage",
+    "group": "D",
+    "matchday": 2,
+    "status": "upcoming",
+    "homeScore": null,
+    "awayScore": null,
+    "description": "A rematch of the electrifying 2022 World Cup semi-final in which France narrowly overcame Morocco 2-0. Morocco's Atlas Lions shocked the world four years ago and arrive in 2026 with a point to prove. This Group D encounter at AT&T Stadium in Texas promises to be an intense, emotionally charged affair.",
+    "keyMatchups": [
+      "Mbappé vs Hakimi",
+      "Ziyech vs Hernandez",
+      "Pressing game: Morocco vs France build-up"
+    ],
+    "headToHead": {
+      "played": 8,
+      "franceWins": 5,
+      "moroccoWins": 1,
+      "draws": 2,
+      "lastMeeting": "2022-12-14",
+      "lastResult": "France 2 - 0 Morocco"
+    },
+    "featuredPlayers": ["kylian-mbappe", "hakim-ziyech"]
+  },
+  {
+    "slug": "usa-vs-spain",
+    "homeTeamSlug": "usa",
+    "awayTeamSlug": "spain",
+    "homeTeamName": "United States",
+    "awayTeamName": "Spain",
+    "homeTeamShort": "USA",
+    "awayTeamShort": "ESP",
+    "date": "2026-06-19",
+    "kickoffTime": "20:00",
+    "timezone": "PT",
+    "stadiumSlug": "sofi-stadium",
+    "stadiumName": "SoFi Stadium",
+    "city": "Inglewood, CA",
+    "stage": "Group Stage",
+    "group": "B",
+    "matchday": 1,
+    "status": "upcoming",
+    "homeScore": null,
+    "awayScore": null,
+    "description": "The United States, on home soil for the first time since co-hosting in 1994, face Euro 2024 champions Spain in a glamour Group B opener at SoFi Stadium in Inglewood. Christian Pulisic leads the USMNT against a Spain side brimming with quality — led by the brilliant Pedri — in what could be a defining moment for American football.",
+    "keyMatchups": [
+      "Pulisic vs Carvajal",
+      "Pedri vs Adams in midfield",
+      "Turner vs Spain's attacking line"
+    ],
+    "headToHead": {
+      "played": 10,
+      "usaWins": 2,
+      "spainWins": 7,
+      "draws": 1,
+      "lastMeeting": "2021-11-14",
+      "lastResult": "USA 0 - 0 Spain"
+    },
+    "featuredPlayers": ["christian-pulisic", "pedri"]
+  }
+]

@@ -2,26 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    @apply text-2xl font-bold tracking-tight text-white sm:text-3xl;
+  }
+
+  h2 {
+    @apply text-xl font-semibold text-white;
+  }
+
+  h3 {
+    @apply text-lg font-semibold text-zinc-100;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@layer components {
+  .stat-card {
+    @apply rounded-md bg-zinc-900 border border-zinc-800 p-4;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .stat-label {
+    @apply text-xs uppercase tracking-widest text-zinc-500 font-medium;
+  }
+
+  .stat-value {
+    @apply text-xl font-bold text-white mt-1;
+  }
+
+  .section-block {
+    @apply rounded-lg border border-zinc-800 bg-zinc-900 p-5;
+  }
+
+  .tag {
+    @apply inline-block rounded bg-zinc-800 px-2 py-0.5 text-xs font-medium text-zinc-300;
+  }
+
+  .link-card {
+    @apply block rounded-md border border-zinc-800 bg-zinc-900 px-4 py-3 text-sm font-medium text-emerald-400 hover:border-emerald-500 hover:bg-zinc-800 transition-colors;
+  }
+
+  .ad-slot {
+    @apply rounded-md border border-dashed border-zinc-700 bg-zinc-900/50 py-8 text-center text-xs text-zinc-600 my-6;
   }
 }
