@@ -43,6 +43,12 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4267668572437273"
           crossOrigin="anonymous"
         />
+        {/* Travelpayouts verification */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var s=document.createElement("script");s.async=1;s.src="https://mn-tz.com/NTE3OTIy.js?t=517922";document.head.appendChild(s);})();`,
+          }}
+        />
       </head>
       <body className="min-h-screen flex flex-col">
         {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GA_ID && (
