@@ -192,6 +192,9 @@ export default function RootLayout({
                 © 2026 FootBrowse. All rights reserved.
               </p>
               <div className="flex items-center gap-4">
+                <Link href="/about" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">
+                  About
+                </Link>
                 <Link href="/privacy" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">
                   Privacy Policy
                 </Link>
