@@ -185,9 +185,17 @@ export default function RootLayout({
               <p className="text-xs text-zinc-600">
                 © 2026 FootBrowse. All rights reserved.
               </p>
-              <p className="text-xs text-zinc-700">
-                Not affiliated with FIFA or any football association.
-              </p>
+              <div className="flex items-center gap-4">
+                <Link href="/privacy" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">
+                  Privacy Policy
+                </Link>
+                <Link href="/terms" className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors">
+                  Terms of Service
+                </Link>
+                <p className="text-xs text-zinc-700">
+                  Not affiliated with FIFA.
+                </p>
+              </div>
             </div>
           </div>
         </footer>
