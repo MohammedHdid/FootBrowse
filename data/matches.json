@@ -97,7 +97,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Mexico+City,+Ciudad+de+México",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Azteca",
       "flight_cta": "Find flights to Mexico City"
@@ -229,7 +229,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Guadalajara,+Jalisco",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Akron",
       "flight_cta": "Find flights to Guadalajara"
@@ -361,7 +361,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Toronto,+Ontario",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BMO Field",
       "flight_cta": "Find flights to Toronto"
@@ -493,10 +493,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near SoFi Stadium",
-      "flight_cta": "Find flights to Los Angeles"
+      "flight_cta": "Find flights to Inglewood"
     },
     "content": {
       "preview": "USA faces Paraguay in a crucial Group D clash at SoFi Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -625,10 +625,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Gillette Stadium",
-      "flight_cta": "Find flights to Boston"
+      "flight_cta": "Find flights to Foxborough"
     },
     "content": {
       "preview": "Haiti faces Scotland in a crucial Group C clash at Gillette Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -757,7 +757,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BC Place",
       "flight_cta": "Find flights to Vancouver"
@@ -889,10 +889,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near MetLife Stadium",
-      "flight_cta": "Find flights to New York/NJ"
+      "flight_cta": "Find flights to East Rutherford"
     },
     "content": {
       "preview": "Brazil faces Morocco in a crucial Group C clash at MetLife Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -1021,10 +1021,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Santa+Clara,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Levi's Stadium",
-      "flight_cta": "Find flights to San Francisco"
+      "flight_cta": "Find flights to Santa Clara"
     },
     "content": {
       "preview": "Qatar faces Switzerland in a crucial Group B clash at Levi's Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -1153,7 +1153,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Philadelphia,+Pennsylvania",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lincoln Financial Field",
       "flight_cta": "Find flights to Philadelphia"
@@ -1285,7 +1285,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near NRG Stadium",
       "flight_cta": "Find flights to Houston"
@@ -1417,10 +1417,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near AT&T Stadium",
-      "flight_cta": "Find flights to Dallas"
+      "flight_cta": "Find flights to Arlington"
     },
     "content": {
       "preview": "Netherlands faces Japan in a crucial Group F clash at AT&T Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -1549,7 +1549,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Monterrey,+Nuevo+León",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio BBVA",
       "flight_cta": "Find flights to Monterrey"
@@ -1681,10 +1681,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Hard Rock Stadium",
-      "flight_cta": "Find flights to Miami"
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "content": {
       "preview": "Saudi Arabia faces Uruguay in a crucial Group H clash at Hard Rock Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -1813,7 +1813,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Mercedes-Benz Stadium",
       "flight_cta": "Find flights to Atlanta"
@@ -1945,10 +1945,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near SoFi Stadium",
-      "flight_cta": "Find flights to Los Angeles"
+      "flight_cta": "Find flights to Inglewood"
     },
     "content": {
       "preview": "Iran faces New Zealand in a crucial Group G clash at SoFi Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -2077,7 +2077,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Seattle,+Washington",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lumen Field",
       "flight_cta": "Find flights to Seattle"
@@ -2209,10 +2209,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near MetLife Stadium",
-      "flight_cta": "Find flights to New York/NJ"
+      "flight_cta": "Find flights to East Rutherford"
     },
     "content": {
       "preview": "France faces Senegal in a crucial Group I clash at MetLife Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -2341,10 +2341,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Gillette Stadium",
-      "flight_cta": "Find flights to Boston"
+      "flight_cta": "Find flights to Foxborough"
     },
     "content": {
       "preview": "Iraq faces Norway in a crucial Group I clash at Gillette Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -2473,7 +2473,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Kansas+City,+Missouri",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Arrowhead Stadium",
       "flight_cta": "Find flights to Kansas City"
@@ -2605,10 +2605,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Santa+Clara,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Levi's Stadium",
-      "flight_cta": "Find flights to San Francisco"
+      "flight_cta": "Find flights to Santa Clara"
     },
     "content": {
       "preview": "Austria faces Jordan in a crucial Group J clash at Levi's Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -2737,7 +2737,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Toronto,+Ontario",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BMO Field",
       "flight_cta": "Find flights to Toronto"
@@ -2869,10 +2869,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near AT&T Stadium",
-      "flight_cta": "Find flights to Dallas"
+      "flight_cta": "Find flights to Arlington"
     },
     "content": {
       "preview": "England faces Croatia in a crucial Group L clash at AT&T Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -3001,7 +3001,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near NRG Stadium",
       "flight_cta": "Find flights to Houston"
@@ -3133,7 +3133,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Mexico+City,+Ciudad+de+México",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Azteca",
       "flight_cta": "Find flights to Mexico City"
@@ -3265,7 +3265,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Mercedes-Benz Stadium",
       "flight_cta": "Find flights to Atlanta"
@@ -3397,10 +3397,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near SoFi Stadium",
-      "flight_cta": "Find flights to Los Angeles"
+      "flight_cta": "Find flights to Inglewood"
     },
     "content": {
       "preview": "Switzerland faces Bosnia and Herzegovina in a crucial Group B clash at SoFi Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -3529,7 +3529,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BC Place",
       "flight_cta": "Find flights to Vancouver"
@@ -3661,7 +3661,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Guadalajara,+Jalisco",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Akron",
       "flight_cta": "Find flights to Guadalajara"
@@ -3793,7 +3793,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Philadelphia,+Pennsylvania",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lincoln Financial Field",
       "flight_cta": "Find flights to Philadelphia"
@@ -3925,10 +3925,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Gillette Stadium",
-      "flight_cta": "Find flights to Boston"
+      "flight_cta": "Find flights to Foxborough"
     },
     "content": {
       "preview": "Scotland faces Morocco in a crucial Group C clash at Gillette Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -4057,10 +4057,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Santa+Clara,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Levi's Stadium",
-      "flight_cta": "Find flights to San Francisco"
+      "flight_cta": "Find flights to Santa Clara"
     },
     "content": {
       "preview": "Turkey faces Paraguay in a crucial Group D clash at Levi's Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -4189,7 +4189,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Seattle,+Washington",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lumen Field",
       "flight_cta": "Find flights to Seattle"
@@ -4321,7 +4321,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Toronto,+Ontario",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BMO Field",
       "flight_cta": "Find flights to Toronto"
@@ -4453,7 +4453,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Kansas+City,+Missouri",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Arrowhead Stadium",
       "flight_cta": "Find flights to Kansas City"
@@ -4585,7 +4585,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near NRG Stadium",
       "flight_cta": "Find flights to Houston"
@@ -4717,7 +4717,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Monterrey,+Nuevo+León",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio BBVA",
       "flight_cta": "Find flights to Monterrey"
@@ -4849,10 +4849,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Hard Rock Stadium",
-      "flight_cta": "Find flights to Miami"
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "content": {
       "preview": "Uruguay faces Cape Verde in a crucial Group H clash at Hard Rock Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -4981,7 +4981,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Mercedes-Benz Stadium",
       "flight_cta": "Find flights to Atlanta"
@@ -5113,10 +5113,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near SoFi Stadium",
-      "flight_cta": "Find flights to Los Angeles"
+      "flight_cta": "Find flights to Inglewood"
     },
     "content": {
       "preview": "Belgium faces Iran in a crucial Group G clash at SoFi Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -5245,7 +5245,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BC Place",
       "flight_cta": "Find flights to Vancouver"
@@ -5377,10 +5377,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near MetLife Stadium",
-      "flight_cta": "Find flights to New York/NJ"
+      "flight_cta": "Find flights to East Rutherford"
     },
     "content": {
       "preview": "Norway faces Senegal in a crucial Group I clash at MetLife Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -5509,7 +5509,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Philadelphia,+Pennsylvania",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lincoln Financial Field",
       "flight_cta": "Find flights to Philadelphia"
@@ -5641,10 +5641,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near AT&T Stadium",
-      "flight_cta": "Find flights to Dallas"
+      "flight_cta": "Find flights to Arlington"
     },
     "content": {
       "preview": "Argentina faces Austria in a crucial Group J clash at AT&T Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -5773,10 +5773,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Santa+Clara,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Levi's Stadium",
-      "flight_cta": "Find flights to San Francisco"
+      "flight_cta": "Find flights to Santa Clara"
     },
     "content": {
       "preview": "Jordan faces Algeria in a crucial Group J clash at Levi's Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -5905,10 +5905,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Gillette Stadium",
-      "flight_cta": "Find flights to Boston"
+      "flight_cta": "Find flights to Foxborough"
     },
     "content": {
       "preview": "England faces Ghana in a crucial Group L clash at Gillette Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -6037,7 +6037,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Toronto,+Ontario",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BMO Field",
       "flight_cta": "Find flights to Toronto"
@@ -6169,7 +6169,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near NRG Stadium",
       "flight_cta": "Find flights to Houston"
@@ -6301,7 +6301,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Guadalajara,+Jalisco",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Akron",
       "flight_cta": "Find flights to Guadalajara"
@@ -6433,10 +6433,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Hard Rock Stadium",
-      "flight_cta": "Find flights to Miami"
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "content": {
       "preview": "Scotland faces Brazil in a crucial Group C clash at Hard Rock Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -6565,7 +6565,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Mercedes-Benz Stadium",
       "flight_cta": "Find flights to Atlanta"
@@ -6697,7 +6697,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BC Place",
       "flight_cta": "Find flights to Vancouver"
@@ -6829,7 +6829,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Seattle,+Washington",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lumen Field",
       "flight_cta": "Find flights to Seattle"
@@ -6961,7 +6961,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Mexico+City,+Ciudad+de+México",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Azteca",
       "flight_cta": "Find flights to Mexico City"
@@ -7093,7 +7093,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Monterrey,+Nuevo+León",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio BBVA",
       "flight_cta": "Find flights to Monterrey"
@@ -7225,7 +7225,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Philadelphia,+Pennsylvania",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lincoln Financial Field",
       "flight_cta": "Find flights to Philadelphia"
@@ -7357,10 +7357,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near MetLife Stadium",
-      "flight_cta": "Find flights to New York/NJ"
+      "flight_cta": "Find flights to East Rutherford"
     },
     "content": {
       "preview": "Ecuador faces Germany in a crucial Group E clash at MetLife Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -7489,10 +7489,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near AT&T Stadium",
-      "flight_cta": "Find flights to Dallas"
+      "flight_cta": "Find flights to Arlington"
     },
     "content": {
       "preview": "Japan faces Sweden in a crucial Group F clash at AT&T Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -7621,7 +7621,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Kansas+City,+Missouri",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Arrowhead Stadium",
       "flight_cta": "Find flights to Kansas City"
@@ -7753,10 +7753,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near SoFi Stadium",
-      "flight_cta": "Find flights to Los Angeles"
+      "flight_cta": "Find flights to Inglewood"
     },
     "content": {
       "preview": "Turkey faces USA in a crucial Group D clash at SoFi Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -7885,10 +7885,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Santa+Clara,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Levi's Stadium",
-      "flight_cta": "Find flights to San Francisco"
+      "flight_cta": "Find flights to Santa Clara"
     },
     "content": {
       "preview": "Paraguay faces Australia in a crucial Group D clash at Levi's Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -8017,10 +8017,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Gillette Stadium",
-      "flight_cta": "Find flights to Boston"
+      "flight_cta": "Find flights to Foxborough"
     },
     "content": {
       "preview": "Norway faces France in a crucial Group I clash at Gillette Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -8149,7 +8149,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Toronto,+Ontario",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BMO Field",
       "flight_cta": "Find flights to Toronto"
@@ -8281,7 +8281,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Seattle,+Washington",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lumen Field",
       "flight_cta": "Find flights to Seattle"
@@ -8413,7 +8413,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near BC Place",
       "flight_cta": "Find flights to Vancouver"
@@ -8545,7 +8545,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near NRG Stadium",
       "flight_cta": "Find flights to Houston"
@@ -8677,7 +8677,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Guadalajara,+Jalisco",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Estadio Akron",
       "flight_cta": "Find flights to Guadalajara"
@@ -8809,10 +8809,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near MetLife Stadium",
-      "flight_cta": "Find flights to New York/NJ"
+      "flight_cta": "Find flights to East Rutherford"
     },
     "content": {
       "preview": "Panama faces England in a crucial Group L clash at MetLife Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -8941,7 +8941,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Philadelphia,+Pennsylvania",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Lincoln Financial Field",
       "flight_cta": "Find flights to Philadelphia"
@@ -9073,7 +9073,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Kansas+City,+Missouri",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Arrowhead Stadium",
       "flight_cta": "Find flights to Kansas City"
@@ -9205,10 +9205,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near AT&T Stadium",
-      "flight_cta": "Find flights to Dallas"
+      "flight_cta": "Find flights to Arlington"
     },
     "content": {
       "preview": "Jordan faces Argentina in a crucial Group J clash at AT&T Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -9337,10 +9337,10 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Hard Rock Stadium",
-      "flight_cta": "Find flights to Miami"
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "content": {
       "preview": "Colombia faces Portugal in a crucial Group K clash at Hard Rock Stadium. With both teams looking to secure their place in the knockout stages, this match promises high drama and intense action.",
@@ -9469,7 +9469,7 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID",
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "nearest_airport": "Local Airport",
       "hotel_cta": "Find hotels near Mercedes-Benz Stadium",
       "flight_cta": "Find flights to Atlanta"
@@ -9553,7 +9553,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Inglewood"
     },
     "schema_type": "SportsEvent"
   },
@@ -9607,7 +9608,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Foxborough"
     },
     "schema_type": "SportsEvent"
   },
@@ -9661,7 +9663,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Monterrey,+Nuevo+León",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Monterrey"
     },
     "schema_type": "SportsEvent"
   },
@@ -9715,7 +9718,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Houston"
     },
     "schema_type": "SportsEvent"
   },
@@ -9769,7 +9773,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to East Rutherford"
     },
     "schema_type": "SportsEvent"
   },
@@ -9823,7 +9828,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Arlington"
     },
     "schema_type": "SportsEvent"
   },
@@ -9877,7 +9883,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Mexico+City,+Ciudad+de+México",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Mexico City"
     },
     "schema_type": "SportsEvent"
   },
@@ -9931,7 +9938,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Atlanta"
     },
     "schema_type": "SportsEvent"
   },
@@ -9985,7 +9993,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Santa+Clara,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Santa Clara"
     },
     "schema_type": "SportsEvent"
   },
@@ -10039,7 +10048,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Seattle,+Washington",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Seattle"
     },
     "schema_type": "SportsEvent"
   },
@@ -10093,7 +10103,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Toronto,+Ontario",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Toronto"
     },
     "schema_type": "SportsEvent"
   },
@@ -10147,7 +10158,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Inglewood"
     },
     "schema_type": "SportsEvent"
   },
@@ -10201,7 +10213,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Vancouver"
     },
     "schema_type": "SportsEvent"
   },
@@ -10255,7 +10268,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "schema_type": "SportsEvent"
   },
@@ -10309,7 +10323,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Kansas+City,+Missouri",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Kansas City"
     },
     "schema_type": "SportsEvent"
   },
@@ -10363,7 +10378,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Arlington"
     },
     "schema_type": "SportsEvent"
   },
@@ -10417,7 +10433,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Philadelphia,+Pennsylvania",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Philadelphia"
     },
     "schema_type": "SportsEvent"
   },
@@ -10471,7 +10488,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Houston,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Houston"
     },
     "schema_type": "SportsEvent"
   },
@@ -10525,7 +10543,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to East Rutherford"
     },
     "schema_type": "SportsEvent"
   },
@@ -10579,7 +10598,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Mexico+City,+Ciudad+de+México",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Mexico City"
     },
     "schema_type": "SportsEvent"
   },
@@ -10633,7 +10653,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Arlington"
     },
     "schema_type": "SportsEvent"
   },
@@ -10687,7 +10708,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Seattle,+Washington",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Seattle"
     },
     "schema_type": "SportsEvent"
   },
@@ -10741,7 +10763,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Atlanta"
     },
     "schema_type": "SportsEvent"
   },
@@ -10795,7 +10818,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Vancouver,+British+Columbia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Vancouver"
     },
     "schema_type": "SportsEvent"
   },
@@ -10849,7 +10873,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Foxborough,+Massachusetts",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Foxborough"
     },
     "schema_type": "SportsEvent"
   },
@@ -10903,7 +10928,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Inglewood,+California",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Inglewood"
     },
     "schema_type": "SportsEvent"
   },
@@ -10957,7 +10983,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "schema_type": "SportsEvent"
   },
@@ -11011,7 +11038,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Kansas+City,+Missouri",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Kansas City"
     },
     "schema_type": "SportsEvent"
   },
@@ -11065,7 +11093,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Arlington,+Texas",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Arlington"
     },
     "schema_type": "SportsEvent"
   },
@@ -11119,7 +11148,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Atlanta,+Georgia",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Atlanta"
     },
     "schema_type": "SportsEvent"
   },
@@ -11173,7 +11203,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=Miami+Gardens,+Florida",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to Miami Gardens"
     },
     "schema_type": "SportsEvent"
   },
@@ -11227,7 +11258,8 @@
     ],
     "travel": {
       "hotel_affiliate_url": "https://www.booking.com/search?aid=REPLACE_ID&ss=East+Rutherford,+New+Jersey",
-      "flight_affiliate_url": "https://www.skyscanner.com/transport/flights/anywhere/?ref=REPLACE_ID"
+      "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
+      "flight_cta": "Find flights to East Rutherford"
     },
     "schema_type": "SportsEvent"
   }
