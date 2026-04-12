@@ -54,10 +54,9 @@ export default function RootLayout({
         )}
 
         <Script
-          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4267668572437273"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
 
         {/* ── Header: backdrop-blur frosted glass ── */}
