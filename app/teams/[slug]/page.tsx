@@ -21,27 +21,24 @@ export function generateMetadata({ params }: Props): Metadata {
   const team = getTeam(params.slug);
   if (!team) return {};
   return {
-    title: `${team.name} — World Cup 2026 Team Profile`,
-    description: `${team.name} (${team.shortName}) — FIFA ranking #${team.fifaRanking}, ${team.worldCupTitles} World Cup title${team.worldCupTitles !== 1 ? "s" : ""}. Coach: ${team.coach}. Group ${team.group} at World Cup 2026.`,
+    title: team.meta_title,
+    description: team.meta_description,
   };
 }
 
-const FLAGS: Record<string, string> = {
-  france: "🇫🇷",
-  brazil: "🇧🇷",
-  morocco: "🇲🇦",
-  argentina: "🇦🇷",
-  usa: "🇺🇸",
-  spain: "🇪🇸",
+const FORM_STYLE: Record<string, { bg: string; color: string; border: string }> = {
+  W: { bg: "rgba(0,255,135,0.1)", color: "#00FF87", border: "rgba(0,255,135,0.3)" },
+  D: { bg: "rgba(245,158,11,0.1)", color: "#F59E0B", border: "rgba(245,158,11,0.3)" },
+  L: { bg: "rgba(239,68,68,0.1)", color: "#EF4444", border: "rgba(239,68,68,0.3)" },
 };
 
 export default function TeamPage({ params }: Props) {
   const team = getTeam(params.slug);
   if (!team) notFound();
 
-  const players = getTeamPlayers(team.slug);
-  const matches = getTeamMatches(team.slug);
-  const homeStadium = getStadium(team.homeStadiumSlug);
+  const teamPlayers = getTeamPlayers(team.slug);
+  const teamMatches = getTeamMatches(team.slug);
+  const stadium = getStadium(team.stadium_slug);
 
   return (
     <article className="space-y-8">
@@ -55,55 +52,102 @@ export default function TeamPage({ params }: Props) {
         <span className="breadcrumb-current">{team.name}</span>
       </nav>
 
-      {/* Header */}
+      {/* Color bar */}
+      <div
+        className="h-1 w-full rounded-full"
+        style={{ backgroundColor: team.color_primary }}
+      />
+
+      {/* Hero */}
       <header className="page-header">
-        <div className="flex items-start justify-between flex-wrap gap-3">
-          <div>
-            <div className="flex items-center gap-2 mb-3">
+        <div className="flex items-start gap-5 flex-wrap sm:flex-nowrap">
+          {/* Flag */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={team.flag_large}
+            alt={`${team.name} flag`}
+            width={160}
+            height={107}
+            className="rounded-lg shadow-xl object-cover shrink-0"
+            style={{ width: 140, height: "auto" }}
+          />
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
               <span className="badge-blue">{team.confederation}</span>
               <span className="badge-green">Group {team.group}</span>
+              {team.wc_titles > 0 && (
+                <span className="tag">{team.wc_titles}× World Champion</span>
+              )}
             </div>
             <h1
-              className="text-3xl sm:text-4xl font-black"
+              className="text-3xl sm:text-4xl font-black text-white"
               style={{ letterSpacing: "-0.04em" }}
             >
-              {FLAGS[team.slug]} {team.name}
+              {team.name}
             </h1>
-            <p className="mt-2 text-sm text-zinc-400">Coach: <span className="text-zinc-200 font-semibold">{team.coach}</span></p>
+            <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-zinc-400">
+              <span>
+                Coach:{" "}
+                <span className="text-zinc-200 font-semibold">{team.coach}</span>
+              </span>
+              <span>
+                Captain:{" "}
+                <span className="text-zinc-200 font-semibold">{team.captain}</span>
+              </span>
+            </div>
+
+            {/* Form */}
+            <div className="mt-4 flex items-center gap-2">
+              <span className="text-xs text-zinc-600 uppercase tracking-widest font-semibold mr-1">
+                Form
+              </span>
+              {team.form.map((result, i) => {
+                const style = FORM_STYLE[result] ?? FORM_STYLE["D"];
+                return (
+                  <span
+                    key={i}
+                    className="w-7 h-7 rounded flex items-center justify-center text-xs font-black"
+                    style={{
+                      backgroundColor: style.bg,
+                      color: style.color,
+                      border: `1px solid ${style.border}`,
+                    }}
+                  >
+                    {result}
+                  </span>
+                );
+              })}
+            </div>
           </div>
-          <span
-            className="rounded-lg px-4 py-2 text-2xl font-black text-white"
-            style={{ backgroundColor: "rgba(39,39,42,0.8)", letterSpacing: "-0.02em" }}
-          >
-            {team.shortName}
-          </span>
         </div>
       </header>
 
       {/* AD SLOT */}
-      {/* <!-- AD SLOT: team-page-top --> */}
       <div className="ad-slot">
         <span className="ad-slot-label">Advertisement</span>
         <span className="ad-slot-dims">728×90 — Leaderboard</span>
       </div>
 
-      {/* Stats */}
+      {/* Stats grid */}
       <section>
-        <h2 className="section-title text-xl mb-4">Team Statistics</h2>
+        <h2 className="section-title text-xl mb-4">Tournament Stats</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div className="stat-card">
             <p className="stat-label">FIFA Ranking</p>
-            <p className="stat-value">#{team.fifaRanking}</p>
+            <p className="stat-value">#{team.fifa_rank}</p>
           </div>
           <div className="stat-card">
             <p className="stat-label">World Cup Titles</p>
-            <p className="stat-value" style={{ color: team.worldCupTitles > 0 ? "#00FF87" : "white" }}>
-              {team.worldCupTitles}
+            <p
+              className="stat-value"
+              style={{ color: team.wc_titles > 0 ? "#00FF87" : "white" }}
+            >
+              {team.wc_titles}
             </p>
           </div>
           <div className="stat-card">
-            <p className="stat-label">Founded</p>
-            <p className="stat-value">{team.founded}</p>
+            <p className="stat-label">WC Appearances</p>
+            <p className="stat-value">{team.wc_appearances}</p>
           </div>
           <div className="stat-card">
             <p className="stat-label">Group</p>
@@ -112,34 +156,164 @@ export default function TeamPage({ params }: Props) {
             </p>
           </div>
         </div>
+        {/* Best result */}
+        <div
+          className="mt-4 rounded-xl px-4 py-3 flex items-center gap-3"
+          style={{
+            backgroundColor: "rgba(255,255,255,0.03)",
+            border: "1px solid rgba(255,255,255,0.07)",
+          }}
+        >
+          <span className="text-lg">🏆</span>
+          <div>
+            <p className="text-xs text-zinc-600 uppercase tracking-widest font-semibold">
+              Best World Cup Result
+            </p>
+            <p className="text-sm font-bold text-white mt-0.5">{team.best_result}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Coaching staff & top scorer */}
+      <section className="section-block">
+        <h2 className="section-title text-xl mb-4">Staff &amp; Records</h2>
+        <dl className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-4">
+          <div>
+            <dt className="stat-label">Head Coach</dt>
+            <dd className="text-sm font-bold text-white mt-1">{team.coach}</dd>
+          </div>
+          <div>
+            <dt className="stat-label">Captain</dt>
+            <dd className="text-sm font-bold text-white mt-1">{team.captain}</dd>
+          </div>
+          <div>
+            <dt className="stat-label">All-Time Top Scorer</dt>
+            <dd className="text-sm font-bold mt-1" style={{ color: "#00FF87" }}>
+              {team.top_scorer_all_time}{" "}
+              <span className="text-zinc-400 font-normal">
+                ({team.top_scorer_all_time_goals} goals)
+              </span>
+            </dd>
+          </div>
+          <div>
+            <dt className="stat-label">Primary Colour</dt>
+            <dd className="flex items-center gap-2 mt-1">
+              <span
+                className="inline-block w-4 h-4 rounded-sm border border-zinc-700"
+                style={{ backgroundColor: team.color_primary }}
+              />
+              <span className="text-sm font-mono text-zinc-300">{team.color_primary}</span>
+            </dd>
+          </div>
+          <div>
+            <dt className="stat-label">Secondary Colour</dt>
+            <dd className="flex items-center gap-2 mt-1">
+              <span
+                className="inline-block w-4 h-4 rounded-sm border border-zinc-700"
+                style={{ backgroundColor: team.color_secondary }}
+              />
+              <span className="text-sm font-mono text-zinc-300">{team.color_secondary}</span>
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      {/* Strengths & Weaknesses */}
+      <section>
+        <h2 className="section-title text-xl mb-4">Analysis</h2>
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div
+            className="rounded-xl p-5"
+            style={{
+              backgroundColor: "rgba(0,255,135,0.04)",
+              border: "1px solid rgba(0,255,135,0.15)",
+            }}
+          >
+            <p
+              className="text-xs font-bold uppercase tracking-widest mb-3"
+              style={{ color: "#00FF87" }}
+            >
+              Strengths
+            </p>
+            <ul className="space-y-2">
+              {team.strengths.map((s) => (
+                <li key={s} className="flex items-start gap-2 text-sm text-zinc-300">
+                  <span style={{ color: "#00FF87" }}>+</span>
+                  {s}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div
+            className="rounded-xl p-5"
+            style={{
+              backgroundColor: "rgba(239,68,68,0.04)",
+              border: "1px solid rgba(239,68,68,0.15)",
+            }}
+          >
+            <p className="text-xs font-bold uppercase tracking-widest mb-3 text-red-400">
+              Weaknesses
+            </p>
+            <ul className="space-y-2">
+              {team.weaknesses.map((w) => (
+                <li key={w} className="flex items-start gap-2 text-sm text-zinc-300">
+                  <span className="text-red-500">−</span>
+                  {w}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </section>
 
       {/* Overview */}
       <section className="section-block">
         <h2 className="section-title text-xl mb-4">Team Overview</h2>
-        <p className="text-zinc-300 leading-relaxed text-sm">{team.description}</p>
+        <p className="text-zinc-300 leading-relaxed text-sm">{team.overview}</p>
       </section>
 
-      {/* Players */}
-      {players.length > 0 && (
+      {/* Key Players */}
+      {teamPlayers.length > 0 && (
         <section>
           <h2 className="section-title text-xl mb-4">Key Players</h2>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {players.map((player) => (
-              <Link key={player.slug} href={`/players/${player.slug}`} className="entity-card block">
+            {teamPlayers.map((player) => (
+              <Link
+                key={player.slug}
+                href={`/players/${player.slug}`}
+                className="entity-card block"
+              >
                 <div className="flex items-center justify-between mb-2">
-                  <span className="font-black text-white" style={{ letterSpacing: "-0.02em" }}>
+                  <span
+                    className="font-black text-white"
+                    style={{ letterSpacing: "-0.02em" }}
+                  >
                     {player.name}
                   </span>
-                  <span className="text-base font-black tabular-nums" style={{ color: "#00FF87" }}>
-                    #{player.kitNumber}
+                  <span
+                    className="text-base font-black tabular-nums"
+                    style={{ color: "#00FF87" }}
+                  >
+                    #{player.jersey_number}
                   </span>
                 </div>
                 <p className="text-sm text-zinc-400">{player.position}</p>
-                <p className="text-xs text-zinc-500 mt-0.5">{player.club} · {player.clubLeague}</p>
+                <p className="text-xs text-zinc-500 mt-0.5">
+                  {player.club} · {player.league}
+                </p>
                 <div className="mt-3 flex gap-4 text-xs text-zinc-600">
-                  <span><span className="text-zinc-300 font-bold">{player.caps}</span> caps</span>
-                  <span><span className="text-zinc-300 font-bold">{player.internationalGoals}</span> goals</span>
+                  <span>
+                    <span className="text-zinc-300 font-bold">{player.caps}</span> caps
+                  </span>
+                  <span>
+                    <span className="text-zinc-300 font-bold">
+                      {player.international_goals}
+                    </span>{" "}
+                    goals
+                  </span>
+                  <span>
+                    <span className="text-zinc-300 font-bold">{player.wc_goals}</span> WC
+                  </span>
                 </div>
               </Link>
             ))}
@@ -148,18 +322,17 @@ export default function TeamPage({ params }: Props) {
       )}
 
       {/* AD SLOT */}
-      {/* <!-- AD SLOT: team-page-mid --> */}
       <div className="ad-slot">
         <span className="ad-slot-label">Advertisement</span>
         <span className="ad-slot-dims">300×250 — Medium Rectangle</span>
       </div>
 
       {/* Fixtures */}
-      {matches.length > 0 && (
+      {teamMatches.length > 0 && (
         <section>
           <h2 className="section-title text-xl mb-4">Group Stage Fixtures</h2>
           <div className="space-y-3">
-            {matches.map((match) => (
+            {teamMatches.map((match) => (
               <Link
                 key={match.slug}
                 href={`/matches/${match.slug}`}
@@ -169,8 +342,11 @@ export default function TeamPage({ params }: Props) {
                   <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold mb-1">
                     {match.stage} · Group {match.group}
                   </p>
-                  <p className="font-black text-white" style={{ letterSpacing: "-0.02em" }}>
-                    {FLAGS[match.homeTeamSlug]} {match.homeTeamName} vs {FLAGS[match.awayTeamSlug]} {match.awayTeamName}
+                  <p
+                    className="font-black text-white"
+                    style={{ letterSpacing: "-0.02em" }}
+                  >
+                    {match.team_a.name} vs {match.team_b.name}
                   </p>
                   <p className="text-sm text-zinc-400 mt-0.5">
                     {new Date(match.date).toLocaleDateString("en-US", {
@@ -178,7 +354,7 @@ export default function TeamPage({ params }: Props) {
                       day: "numeric",
                       year: "numeric",
                     })}{" "}
-                    · {match.stadiumName}
+                    · {match.city}
                   </p>
                 </div>
                 <span className="arrow-link shrink-0 ml-4">Preview →</span>
@@ -188,21 +364,29 @@ export default function TeamPage({ params }: Props) {
         </section>
       )}
 
-      {/* Home Stadium */}
-      {homeStadium && (
+      {/* Stadium */}
+      {stadium && (
         <section className="section-block">
           <h2 className="section-title text-xl mb-4">Associated Venue</h2>
-          <Link href={`/stadiums/${homeStadium.slug}`} className="group flex items-start justify-between">
+          <Link
+            href={`/stadiums/${stadium.slug}`}
+            className="group flex items-start justify-between"
+          >
             <div>
-              <p className="font-black text-white group-hover:opacity-70 transition-opacity" style={{ letterSpacing: "-0.02em" }}>
-                {homeStadium.name}
-                {homeStadium.hostingFinal && (
+              <p
+                className="font-black text-white group-hover:opacity-70 transition-opacity"
+                style={{ letterSpacing: "-0.02em" }}
+              >
+                {stadium.name}
+                {stadium.is_final_venue && (
                   <span className="badge-green ml-2 align-middle">Final Venue</span>
                 )}
               </p>
-              <p className="text-sm text-zinc-400 mt-1">{homeStadium.city}, {homeStadium.state}</p>
+              <p className="text-sm text-zinc-400 mt-1">
+                {stadium.city}, {stadium.state}
+              </p>
               <p className="text-sm text-zinc-500 mt-0.5">
-                Cap. {homeStadium.capacity.toLocaleString()}
+                Cap. {stadium.capacity.toLocaleString()} · {stadium.wc_matches} WC matches
               </p>
             </div>
             <span className="arrow-link shrink-0 ml-4">Venue guide →</span>
@@ -211,7 +395,6 @@ export default function TeamPage({ params }: Props) {
       )}
 
       {/* AD SLOT */}
-      {/* <!-- AD SLOT: team-page-bottom --> */}
       <div className="ad-slot">
         <span className="ad-slot-label">Advertisement</span>
         <span className="ad-slot-dims">728×90 — Leaderboard</span>

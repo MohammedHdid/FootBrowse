@@ -3,18 +3,15 @@ import Link from "next/link";
 import { teams } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "World Cup 2026 Teams",
+  title: "World Cup 2026 Teams — Squads, Stats & Odds | FootBrowse",
   description:
-    "Explore all FIFA World Cup 2026 team profiles — rankings, squads, coaches, and match schedules on FootBrowse.",
+    "Explore all FIFA World Cup 2026 team profiles — rankings, squads, coaches, form and match schedules on FootBrowse.",
 };
 
-const FLAGS: Record<string, string> = {
-  france: "🇫🇷",
-  brazil: "🇧🇷",
-  morocco: "🇲🇦",
-  argentina: "🇦🇷",
-  usa: "🇺🇸",
-  spain: "🇪🇸",
+const FORM_STYLE: Record<string, { color: string }> = {
+  W: { color: "#00FF87" },
+  D: { color: "#F59E0B" },
+  L: { color: "#EF4444" },
 };
 
 export default function TeamsPage() {
@@ -42,20 +39,46 @@ export default function TeamsPage() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {teams.map((team) => (
           <Link key={team.slug} href={`/teams/${team.slug}`} className="entity-card block">
+            {/* Color accent bar */}
+            <div
+              className="h-0.5 w-full rounded-full mb-3 -mt-1"
+              style={{ backgroundColor: team.color_primary }}
+            />
+
             <div className="flex items-center justify-between mb-3">
-              <span className="font-black text-white text-lg" style={{ letterSpacing: "-0.02em" }}>
-                {FLAGS[team.slug]} {team.name}
-              </span>
-              <span className="tag">{team.shortName}</span>
+              <div className="flex items-center gap-2 min-w-0">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={team.flag_url}
+                  alt={`${team.name} flag`}
+                  width={28}
+                  height={18}
+                  className="rounded-sm object-cover shrink-0"
+                  style={{ width: 28, height: "auto" }}
+                />
+                <span
+                  className="font-black text-white text-base truncate"
+                  style={{ letterSpacing: "-0.02em" }}
+                >
+                  {team.name}
+                </span>
+              </div>
+              <span className="tag shrink-0 ml-2">{team.code.toUpperCase()}</span>
             </div>
+
             <div className="grid grid-cols-2 gap-3 mt-3">
               <div>
                 <p className="stat-label">FIFA Rank</p>
-                <p className="text-sm font-bold text-white mt-0.5">#{team.fifaRanking}</p>
+                <p className="text-sm font-bold text-white mt-0.5">#{team.fifa_rank}</p>
               </div>
               <div>
                 <p className="stat-label">WC Titles</p>
-                <p className="text-sm font-bold text-white mt-0.5">{team.worldCupTitles}</p>
+                <p
+                  className="text-sm font-bold mt-0.5"
+                  style={{ color: team.wc_titles > 0 ? "#00FF87" : "white" }}
+                >
+                  {team.wc_titles}
+                </p>
               </div>
               <div>
                 <p className="stat-label">Confederation</p>
@@ -68,6 +91,30 @@ export default function TeamsPage() {
                 </p>
               </div>
             </div>
+
+            {/* Form */}
+            <div className="mt-3 flex items-center gap-1.5">
+              <span className="text-[10px] text-zinc-600 uppercase tracking-widest font-semibold mr-0.5">
+                Form
+              </span>
+              {team.form.map((r, i) => {
+                const style = FORM_STYLE[r] ?? FORM_STYLE["D"];
+                return (
+                  <span
+                    key={i}
+                    className="w-5 h-5 rounded text-[10px] font-black flex items-center justify-center"
+                    style={{
+                      backgroundColor: `${style.color}15`,
+                      color: style.color,
+                      border: `1px solid ${style.color}40`,
+                    }}
+                  >
+                    {r}
+                  </span>
+                );
+              })}
+            </div>
+
             <p className="mt-3 text-xs text-zinc-600">Coach: {team.coach}</p>
           </Link>
         ))}

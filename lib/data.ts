@@ -27,15 +27,15 @@ export function getPlayer(slug: string): Player | undefined {
 }
 
 export function getTeamPlayers(teamSlug: string): Player[] {
-  return players.filter((p) => p.teamSlug === teamSlug);
+  return players.filter((p) => p.team_slug === teamSlug);
 }
 
 export function getTeamMatches(teamSlug: string): Match[] {
   return matches.filter(
-    (m) => m.homeTeamSlug === teamSlug || m.awayTeamSlug === teamSlug
+    (m) => m.team_a.slug === teamSlug || m.team_b.slug === teamSlug
   );
 }
 
 export function getStadiumMatches(stadiumSlug: string): Match[] {
-  return matches.filter((m) => m.stadiumSlug === stadiumSlug);
+  return matches.filter((m) => m.stadium_slug === stadiumSlug);
 }

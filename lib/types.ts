@@ -1,18 +1,30 @@
 export interface Team {
   slug: string;
   name: string;
-  shortName: string;
+  code: string;
+  flag_url: string;
+  flag_large: string;
   confederation: string;
-  fifaRanking: number;
-  worldCupTitles: number;
+  fifa_rank: number;
+  wc_titles: number;
+  wc_appearances: number;
+  best_result: string;
   coach: string;
-  founded: number;
-  homeStadium: string;
-  homeStadiumSlug: string;
-  keyPlayers: string[];
-  description: string;
+  captain: string;
+  color_primary: string;
+  color_secondary: string;
   group: string;
+  stadium_slug: string;
+  form: string[];
+  top_scorer_all_time: string;
+  top_scorer_all_time_goals: number;
+  overview: string;
+  strengths: string[];
+  weaknesses: string[];
+  players: string[];
   matches: string[];
+  meta_title: string;
+  meta_description: string;
 }
 
 export interface Stadium {
@@ -23,71 +35,132 @@ export interface Stadium {
   country: string;
   capacity: number;
   surface: string;
+  roof: string;
   opened: number;
-  hostingFinal: boolean;
-  worldCup2026Matches: number;
-  description: string;
-  teams: string[];
+  wc_matches: number;
+  is_final_venue: boolean;
+  photo_url: string;
+  photo_credit: string;
+  lat: number;
+  lng: number;
+  nearest_airport: string;
+  airport_distance_km: number;
+  nearest_city: string;
+  transport: string;
+  parking_available: boolean;
+  hotel_affiliate_url: string;
+  flight_affiliate_url: string;
   matches: string[];
+  overview: string;
+  meta_title: string;
+  meta_description: string;
 }
 
 export interface Player {
   slug: string;
   name: string;
-  nationality: string;
-  teamSlug: string;
-  teamName: string;
+  country: string;
+  country_code: string;
+  flag_url: string;
   position: string;
-  dateOfBirth: string;
-  age: number;
-  height: string;
+  jersey_number: number;
   club: string;
-  clubLeague: string;
-  kitNumber: number;
+  league: string;
+  age: number;
   caps: number;
-  internationalGoals: number;
-  worldCupGoals: number;
-  marketValue: string;
-  description: string;
+  international_goals: number;
+  wc_goals: number;
+  wc_appearances: number;
+  photo_url: string;
+  avatar_color: string;
+  market_value_eur: number;
   strengths: string[];
-  preferredFoot: string;
-  stadiumSlug: string;
+  overview: string;
+  team_slug: string;
+  matches: string[];
+  shirt_affiliate_url: string;
+  meta_title: string;
+  meta_description: string;
 }
 
-export interface HeadToHead {
+export interface TeamRef {
+  slug: string;
+  name: string;
+  code: string;
+  flag_url: string;
+  fifa_rank: number;
+  color_primary: string;
+}
+
+export interface H2H {
   played: number;
-  franceWins?: number;
-  brazilWins?: number;
-  moroccoWins?: number;
-  usaWins?: number;
-  spainWins?: number;
+  team_a_wins: number;
   draws: number;
-  lastMeeting: string;
-  lastResult: string;
+  team_b_wins: number;
+  last_match: string;
+  last_wc_meeting: string;
+  team_a_goals_scored: number;
+  team_b_goals_scored: number;
+}
+
+export interface Odds {
+  bookmaker: string;
+  bookmaker_logo: string;
+  team_a_win: number;
+  draw: number;
+  team_b_win: number;
+  affiliate_url: string;
+  cta: string;
+}
+
+export interface TvChannels {
+  country: string;
+  channels: string[];
+}
+
+export interface MatchTravel {
+  hotel_affiliate_url: string;
+  flight_affiliate_url: string;
+  nearest_airport: string;
+  hotel_cta: string;
+  flight_cta: string;
+}
+
+export interface FAQ {
+  q: string;
+  a: string;
+}
+
+export interface MatchContent {
+  preview: string;
+  prediction: string;
+  prediction_confidence: string;
+  key_battle: string;
+  stats_to_watch: string[];
+  faq: FAQ[];
 }
 
 export interface Match {
   slug: string;
-  homeTeamSlug: string;
-  awayTeamSlug: string;
-  homeTeamName: string;
-  awayTeamName: string;
-  homeTeamShort: string;
-  awayTeamShort: string;
-  date: string;
-  kickoffTime: string;
-  timezone: string;
-  stadiumSlug: string;
-  stadiumName: string;
-  city: string;
+  type?: string;
+  match_number?: number;
   stage: string;
-  group: string;
-  matchday: number;
-  status: 'upcoming' | 'live' | 'finished';
-  homeScore: number | null;
-  awayScore: number | null;
-  description: string;
-  keyMatchups: string[];
-  headToHead: HeadToHead;
-  featuredPlayers: string[];
+  group?: string;
+  date: string;
+  kickoff_utc: string;
+  kickoff_est: string;
+  kickoff_gmt: string;
+  kickoff_cet: string;
+  stadium_slug: string;
+  city: string;
+  team_a: TeamRef;
+  team_b: TeamRef;
+  h2h?: H2H;
+  odds?: Odds[];
+  tv_channels: TvChannels[];
+  travel: MatchTravel;
+  content: MatchContent;
+  meta_title?: string;
+  meta_description?: string;
+  schema_type: string;
 }
