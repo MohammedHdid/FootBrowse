@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@/components/Navbar";
+import CookieConsent from "@/components/CookieConsent";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -104,6 +105,8 @@ export default function RootLayout({
         <main className="flex-1 mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-8">
           {children}
         </main>
+
+        <CookieConsent />
 
         {/* ── Footer ── */}
         <footer
