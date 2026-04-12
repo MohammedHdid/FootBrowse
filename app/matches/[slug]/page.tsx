@@ -42,7 +42,7 @@ export default function MatchPage({ params }: Props) {
     })
     .slice(0, 4);
 
-  const faqJsonLd = {
+  const faqJsonLd = match.content.faq ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: match.content.faq.map((item) => ({
@@ -50,7 +50,7 @@ export default function MatchPage({ params }: Props) {
       name: item.q,
       acceptedAnswer: { "@type": "Answer", text: item.a },
     })),
-  };
+  } : null;
 
   const eventJsonLd = {
     "@context": "https://schema.org",
@@ -71,10 +71,12 @@ export default function MatchPage({ params }: Props) {
   return (
     <>
       {/* JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }}
@@ -97,7 +99,7 @@ export default function MatchPage({ params }: Props) {
         <header className="page-header">
           <div className="flex items-center gap-2 mb-5">
             <span className="badge-blue">{match.stage}</span>
-            <span className="badge-green">Group {match.group}</span>
+            {match.group && <span className="badge-green">Group {match.group}</span>}
           </div>
 
           <div className="flex items-center justify-between gap-4">
@@ -356,26 +358,28 @@ export default function MatchPage({ params }: Props) {
           </div>
 
           {/* Stats to watch */}
-          <div className="mt-5">
-            <p className="text-xs text-zinc-500 uppercase tracking-widest mb-3">Stats to Watch</p>
-            <ul className="space-y-2.5">
-              {match.content.stats_to_watch.map((stat, i) => (
-                <li key={i} className="flex items-start gap-3 text-sm text-zinc-300">
-                  <span
-                    className="mt-0.5 text-xs font-black w-5 h-5 rounded flex items-center justify-center shrink-0"
-                    style={{
-                      backgroundColor: "rgba(0,255,135,0.1)",
-                      color: "#00FF87",
-                      border: "1px solid rgba(0,255,135,0.2)",
-                    }}
-                  >
-                    {i + 1}
-                  </span>
-                  {stat}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {match.content.stats_to_watch && match.content.stats_to_watch.length > 0 && (
+            <div className="mt-5">
+              <p className="text-xs text-zinc-500 uppercase tracking-widest mb-3">Stats to Watch</p>
+              <ul className="space-y-2.5">
+                {match.content.stats_to_watch.map((stat, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-zinc-300">
+                    <span
+                      className="mt-0.5 text-xs font-black w-5 h-5 rounded flex items-center justify-center shrink-0"
+                      style={{
+                        backgroundColor: "rgba(0,255,135,0.1)",
+                        color: "#00FF87",
+                        border: "1px solid rgba(0,255,135,0.2)",
+                      }}
+                    >
+                      {i + 1}
+                    </span>
+                    {stat}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </section>
 
         {/* TV Channels */}
@@ -524,24 +528,26 @@ export default function MatchPage({ params }: Props) {
         )}
 
         {/* FAQ */}
-        <section className="section-block">
-          <h2 className="section-title text-xl mb-5">Frequently Asked Questions</h2>
-          <div className="space-y-4">
-            {match.content.faq.map((item, i) => (
-              <div
-                key={i}
-                className="rounded-xl p-4"
-                style={{
-                  backgroundColor: "rgba(255,255,255,0.03)",
-                  border: "1px solid rgba(255,255,255,0.07)",
-                }}
-              >
-                <p className="font-bold text-white text-sm mb-2">{item.q}</p>
-                <p className="text-sm text-zinc-400 leading-relaxed">{item.a}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        {match.content.faq && match.content.faq.length > 0 && (
+          <section className="section-block">
+            <h2 className="section-title text-xl mb-5">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {match.content.faq.map((item, i) => (
+                <div
+                  key={i}
+                  className="rounded-xl p-4"
+                  style={{
+                    backgroundColor: "rgba(255,255,255,0.03)",
+                    border: "1px solid rgba(255,255,255,0.07)",
+                  }}
+                >
+                  <p className="font-bold text-white text-sm mb-2">{item.q}</p>
+                  <p className="text-sm text-zinc-400 leading-relaxed">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Related Matches */}
         {relatedMatches.length > 0 && (
@@ -556,7 +562,7 @@ export default function MatchPage({ params }: Props) {
                 >
                   <div>
                     <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold mb-1">
-                      {m.stage} · Group {m.group}
+                      {m.stage} {m.group ? `· Group ${m.group}` : ""}
                     </p>
                     <p
                       className="font-black text-white"
