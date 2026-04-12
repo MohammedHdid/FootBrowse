@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     siteName: "FootBrowse",
     type: "website",
   },
+  other: {
+    "google-adsense-account": "ca-pub-4267668572437273",
+  },
 };
 
 const navLinks = [
@@ -49,6 +52,13 @@ export default function RootLayout({
             </Script>
           </>
         )}
+
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4267668572437273"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
 
         {/* ── Header: backdrop-blur frosted glass ── */}
         <header

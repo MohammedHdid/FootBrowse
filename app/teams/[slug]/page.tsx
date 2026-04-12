@@ -8,6 +8,7 @@ import {
   getTeamMatches,
   getStadium,
 } from "@/lib/data";
+import AdSlot from "@/components/AdSlot";
 
 interface Props {
   params: { slug: string };
@@ -122,11 +123,7 @@ export default function TeamPage({ params }: Props) {
         </div>
       </header>
 
-      {/* AD SLOT */}
-      <div className="ad-slot">
-        <span className="ad-slot-label">Advertisement</span>
-        <span className="ad-slot-dims">728×90 — Leaderboard</span>
-      </div>
+      <AdSlot slot="1234567890" format="auto" />
 
       {/* Stats grid */}
       <section>
@@ -321,11 +318,7 @@ export default function TeamPage({ params }: Props) {
         </section>
       )}
 
-      {/* AD SLOT */}
-      <div className="ad-slot">
-        <span className="ad-slot-label">Advertisement</span>
-        <span className="ad-slot-dims">300×250 — Medium Rectangle</span>
-      </div>
+      <AdSlot slot="1234567890" format="auto" />
 
       {/* Fixtures */}
       {teamMatches.length > 0 && (
@@ -394,11 +387,7 @@ export default function TeamPage({ params }: Props) {
         </section>
       )}
 
-      {/* AD SLOT */}
-      <div className="ad-slot">
-        <span className="ad-slot-label">Advertisement</span>
-        <span className="ad-slot-dims">728×90 — Leaderboard</span>
-      </div>
+      <AdSlot slot="1234567890" format="auto" />
     </article>
   );
 }

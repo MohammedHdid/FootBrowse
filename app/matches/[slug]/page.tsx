@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { matches, getMatch, getStadium, players as allPlayers } from "@/lib/data";
+import AdSlot from "@/components/AdSlot";
 
 interface Props {
   params: { slug: string };
@@ -191,11 +192,7 @@ export default function MatchPage({ params }: Props) {
           </div>
         </header>
 
-        {/* AD SLOT */}
-        <div className="ad-slot">
-          <span className="ad-slot-label">Advertisement</span>
-          <span className="ad-slot-dims">728×90 — Leaderboard</span>
-        </div>
+        <AdSlot slot="1234567890" format="auto" />
 
         {/* Match Preview */}
         <section className="section-block">
@@ -413,11 +410,7 @@ export default function MatchPage({ params }: Props) {
           </div>
         </section>
 
-        {/* AD SLOT */}
-        <div className="ad-slot">
-          <span className="ad-slot-label">Advertisement</span>
-          <span className="ad-slot-dims">300×250 — Medium Rectangle</span>
-        </div>
+        <AdSlot slot="1234567890" format="auto" />
 
         {/* Travel */}
         <section className="section-block">
@@ -595,11 +588,7 @@ export default function MatchPage({ params }: Props) {
           </section>
         )}
 
-        {/* AD SLOT */}
-        <div className="ad-slot">
-          <span className="ad-slot-label">Advertisement</span>
-          <span className="ad-slot-dims">728×90 — Leaderboard</span>
-        </div>
+        <AdSlot slot="1234567890" format="auto" />
       </article>
     </>
   );

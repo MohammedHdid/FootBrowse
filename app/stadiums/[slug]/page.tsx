@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { stadiums, getStadium, getStadiumMatches } from "@/lib/data";
 import StadiumHeroImage from "./StadiumHeroImage";
+import AdSlot from "@/components/AdSlot";
 
 interface Props {
   params: { slug: string };
@@ -93,11 +94,7 @@ export default function StadiumPage({ params }: Props) {
         <span className="breadcrumb-current">{stadium.name}</span>
       </nav>
 
-      {/* AD SLOT */}
-      <div className="ad-slot">
-        <span className="ad-slot-label">Advertisement</span>
-        <span className="ad-slot-dims">728×90 — Leaderboard</span>
-      </div>
+      <AdSlot slot="1234567890" format="auto" />
 
       {/* Venue Stats */}
       <section>
@@ -238,11 +235,7 @@ export default function StadiumPage({ params }: Props) {
         </div>
       </section>
 
-      {/* AD SLOT */}
-      <div className="ad-slot">
-        <span className="ad-slot-label">Advertisement</span>
-        <span className="ad-slot-dims">300×250 — Medium Rectangle</span>
-      </div>
+      <AdSlot slot="1234567890" format="auto" />
 
       {/* Hosted Matches */}
       {stadiumMatches.length > 0 && (
@@ -283,11 +276,7 @@ export default function StadiumPage({ params }: Props) {
         </section>
       )}
 
-      {/* AD SLOT */}
-      <div className="ad-slot">
-        <span className="ad-slot-label">Advertisement</span>
-        <span className="ad-slot-dims">728×90 — Leaderboard</span>
-      </div>
+      <AdSlot slot="1234567890" format="auto" />
     </article>
   );
 }
