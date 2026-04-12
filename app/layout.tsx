@@ -35,6 +35,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* AdSense — must be a real <script> in <head> for Google's crawler */}
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4267668572437273"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-screen flex flex-col">
         {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GA_ID && (
           <>
@@ -52,12 +61,6 @@ export default function RootLayout({
             </Script>
           </>
         )}
-
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4267668572437273"
-          crossOrigin="anonymous"
-          strategy="beforeInteractive"
-        />
 
         {/* ── Header: backdrop-blur frosted glass ── */}
         <header
