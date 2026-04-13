@@ -14,7 +14,7 @@
     "captain": "Alphonso Davies",
     "color_primary": "#FF0000",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "B",
     "stadium_slug": null,
     "form": [
       "W",
@@ -57,7 +57,7 @@
     "captain": "Santiago Giménez",
     "color_primary": "#006847",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "A",
     "stadium_slug": null,
     "form": [
       "W",
@@ -100,7 +100,7 @@
     "captain": "Christian Pulisic",
     "color_primary": "#002868",
     "color_secondary": "#BF0A30",
-    "group": "B",
+    "group": "D",
     "stadium_slug": "sofi-stadium",
     "form": [
       "W",
@@ -147,7 +147,7 @@
     "captain": "Wataru Endo",
     "color_primary": "#00205B",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "F",
     "stadium_slug": null,
     "form": [
       "W",
@@ -189,7 +189,7 @@
     "captain": "Chris Wood",
     "color_primary": "#000000",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "G",
     "stadium_slug": null,
     "form": [
       "W",
@@ -231,7 +231,7 @@
     "captain": "Ehsan Hajsafi",
     "color_primary": "#239F40",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "G",
     "stadium_slug": null,
     "form": [
       "W",
@@ -273,7 +273,7 @@
     "captain": "Eldor Shomurodov",
     "color_primary": "#1EB53A",
     "color_secondary": "#0099B5",
-    "group": null,
+    "group": "K",
     "stadium_slug": null,
     "form": [
       "W",
@@ -315,7 +315,7 @@
     "captain": "Baha' Faisal",
     "color_primary": "#007A3D",
     "color_secondary": "#CE1126",
-    "group": null,
+    "group": "J",
     "stadium_slug": null,
     "form": [
       "W",
@@ -357,7 +357,7 @@
     "captain": "Son Heung-min",
     "color_primary": "#C60C30",
     "color_secondary": "#003478",
-    "group": null,
+    "group": "A",
     "stadium_slug": null,
     "form": [
       "W",
@@ -399,7 +399,7 @@
     "captain": "Mat Ryan",
     "color_primary": "#FFD700",
     "color_secondary": "#00843D",
-    "group": null,
+    "group": "D",
     "stadium_slug": null,
     "form": [
       "W",
@@ -441,7 +441,7 @@
     "captain": "Hassan Al-Haydos",
     "color_primary": "#8D1B3D",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "B",
     "stadium_slug": null,
     "form": [
       "W",
@@ -483,7 +483,7 @@
     "captain": "Salem Al-Dawsari",
     "color_primary": "#006C35",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "H",
     "stadium_slug": null,
     "form": [
       "W",
@@ -525,7 +525,7 @@
     "captain": "Lionel Messi",
     "color_primary": "#74ACDF",
     "color_secondary": "#FFFFFF",
-    "group": "C",
+    "group": "J",
     "stadium_slug": "metlife-stadium",
     "form": [
       "W",
@@ -570,7 +570,7 @@
     "captain": "Vinicius Júnior",
     "color_primary": "#009C3B",
     "color_secondary": "#FEDD00",
-    "group": "D",
+    "group": "C",
     "stadium_slug": "sofi-stadium",
     "form": [
       "W",
@@ -617,7 +617,7 @@
     "captain": "Enner Valencia",
     "color_primary": "#FFD100",
     "color_secondary": "#003087",
-    "group": null,
+    "group": "E",
     "stadium_slug": null,
     "form": [
       "W",
@@ -659,7 +659,7 @@
     "captain": "Gustavo Gómez",
     "color_primary": "#D52B1E",
     "color_secondary": "#009900",
-    "group": null,
+    "group": "D",
     "stadium_slug": null,
     "form": [
       "W",
@@ -701,7 +701,7 @@
     "captain": "José María Giménez",
     "color_primary": "#5BBFED",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "H",
     "stadium_slug": null,
     "form": [
       "W",
@@ -743,7 +743,7 @@
     "captain": "James Rodríguez",
     "color_primary": "#FCD116",
     "color_secondary": "#003087",
-    "group": null,
+    "group": "K",
     "stadium_slug": null,
     "form": [
       "W",
@@ -785,7 +785,7 @@
     "captain": "Romain Saïss",
     "color_primary": "#C1272D",
     "color_secondary": "#006233",
-    "group": "D",
+    "group": "C",
     "stadium_slug": "att-stadium",
     "form": [
       "W",
@@ -831,7 +831,7 @@
     "captain": "Youssef Msakni",
     "color_primary": "#E70013",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "F",
     "stadium_slug": null,
     "form": [
       "W",
@@ -873,7 +873,7 @@
     "captain": "Mohamed Salah",
     "color_primary": "#CC2229",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "G",
     "stadium_slug": null,
     "form": [
       "W",
@@ -915,7 +915,7 @@
     "captain": "Riyad Mahrez",
     "color_primary": "#006233",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "J",
     "stadium_slug": null,
     "form": [
       "W",
@@ -957,7 +957,7 @@
     "captain": "Thomas Partey",
     "color_primary": "#006B3F",
     "color_secondary": "#FCD116",
-    "group": null,
+    "group": "L",
     "stadium_slug": null,
     "form": [
       "W",
@@ -999,7 +999,7 @@
     "captain": "Ryan Mendes",
     "color_primary": "#003893",
     "color_secondary": "#CF2027",
-    "group": null,
+    "group": "H",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1041,7 +1041,7 @@
     "captain": "Sadio Mané",
     "color_primary": "#00853F",
     "color_secondary": "#FDEF42",
-    "group": null,
+    "group": "I",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1083,7 +1083,7 @@
     "captain": "Percy Tau",
     "color_primary": "#007A4D",
     "color_secondary": "#FFB612",
-    "group": null,
+    "group": "A",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1125,7 +1125,7 @@
     "captain": "Franck Kessié",
     "color_primary": "#F77F00",
     "color_secondary": "#009A44",
-    "group": null,
+    "group": "E",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1167,7 +1167,7 @@
     "captain": "Harry Kane",
     "color_primary": "#FFFFFF",
     "color_secondary": "#CE1126",
-    "group": null,
+    "group": "L",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1209,7 +1209,7 @@
     "captain": "Kylian Mbappé",
     "color_primary": "#002395",
     "color_secondary": "#ED2939",
-    "group": "D",
+    "group": "I",
     "stadium_slug": "metlife-stadium",
     "form": [
       "W",
@@ -1257,7 +1257,7 @@
     "captain": "Luka Modrić",
     "color_primary": "#FF0000",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "L",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1299,7 +1299,7 @@
     "captain": "Cristiano Ronaldo",
     "color_primary": "#006600",
     "color_secondary": "#FF0000",
-    "group": null,
+    "group": "K",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1341,7 +1341,7 @@
     "captain": "Martin Ødegaard",
     "color_primary": "#EF2B2D",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "I",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1383,7 +1383,7 @@
     "captain": "Ilkay Gündoğan",
     "color_primary": "#000000",
     "color_secondary": "#DD0000",
-    "group": null,
+    "group": "E",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1425,7 +1425,7 @@
     "captain": "Virgil van Dijk",
     "color_primary": "#FF6600",
     "color_secondary": "#003087",
-    "group": null,
+    "group": "F",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1467,7 +1467,7 @@
     "captain": "Granit Xhaka",
     "color_primary": "#FF0000",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "B",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1509,7 +1509,7 @@
     "captain": "Andrew Robertson",
     "color_primary": "#003087",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "C",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1551,7 +1551,7 @@
     "captain": "Álvaro Morata",
     "color_primary": "#AA151B",
     "color_secondary": "#F1BF00",
-    "group": "E",
+    "group": "H",
     "stadium_slug": "att-stadium",
     "form": [
       "W",
@@ -1598,7 +1598,7 @@
     "captain": "Marcel Sabitzer",
     "color_primary": "#ED2939",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "J",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1636,11 +1636,11 @@
     "wc_titles": 0,
     "wc_appearances": 15,
     "best_result": "Third place (2018)",
-    "coach": "Domenico Tedesco",
+    "coach": "Rudi Garcia",
     "captain": "Kevin De Bruyne",
     "color_primary": "#000000",
     "color_secondary": "#FF0000",
-    "group": null,
+    "group": "G",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1678,11 +1678,11 @@
     "wc_titles": 0,
     "wc_appearances": 2,
     "best_result": "Group stage (2014)",
-    "coach": "Ivaylo Petev",
+    "coach": "Sergej Barbarez",
     "captain": "Edin Džeko",
     "color_primary": "#002395",
     "color_secondary": "#FCBB42",
-    "group": null,
+    "group": "B",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1720,11 +1720,11 @@
     "wc_titles": 0,
     "wc_appearances": 13,
     "best_result": "Runners-up (1958)",
-    "coach": "Jon Dahl Tomasson",
+    "coach": "Graham Potter",
     "captain": "Victor Nilsson Lindelöf",
     "color_primary": "#006AA7",
     "color_secondary": "#FECC02",
-    "group": null,
+    "group": "F",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1766,7 +1766,7 @@
     "captain": "Hakan Çalhanoğlu",
     "color_primary": "#E30A17",
     "color_secondary": "#FFFFFF",
-    "group": null,
+    "group": "D",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1804,11 +1804,11 @@
     "wc_titles": 0,
     "wc_appearances": 10,
     "best_result": "Runners-up (1934, 1962)",
-    "coach": "Ivan Hašek",
+    "coach": "Miroslav Koubek",
     "captain": "Tomáš Souček",
     "color_primary": "#D7141A",
     "color_secondary": "#11457E",
-    "group": null,
+    "group": "A",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1850,7 +1850,7 @@
     "captain": "Fidel Escobar",
     "color_primary": "#CC0001",
     "color_secondary": "#003580",
-    "group": null,
+    "group": "L",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1892,7 +1892,7 @@
     "captain": "Leandro Bacuna",
     "color_primary": "#002B7F",
     "color_secondary": "#F9E300",
-    "group": null,
+    "group": "E",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1934,7 +1934,7 @@
     "captain": "Duckens Nazon",
     "color_primary": "#00209F",
     "color_secondary": "#D21034",
-    "group": null,
+    "group": "C",
     "stadium_slug": null,
     "form": [
       "W",
@@ -1976,7 +1976,7 @@
     "captain": "Chancel Mbemba",
     "color_primary": "#007FFF",
     "color_secondary": "#F7D618",
-    "group": null,
+    "group": "K",
     "stadium_slug": null,
     "form": [
       "W",
@@ -2018,7 +2018,7 @@
     "captain": "Ali Adnan",
     "color_primary": "#CE1126",
     "color_secondary": "#007A3D",
-    "group": null,
+    "group": "I",
     "stadium_slug": null,
     "form": [
       "W",
