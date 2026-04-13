@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sync:players": "tsx scripts/sync-players.ts"
+    "sync:players": "tsx scripts/sync-players.ts",
+    "sync:sportsdb": "tsx scripts/sync-sportsdb.ts"
   },
   "dependencies": {
     "react": "^18",

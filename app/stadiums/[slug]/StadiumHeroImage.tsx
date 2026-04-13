@@ -31,7 +31,6 @@ export default function StadiumHeroImage({ src, alt }: Props) {
       alt={alt}
       width={1280}
       height={480}
-      unoptimized
       priority
       onError={() => setFailed(true)}
       className="w-full object-cover"

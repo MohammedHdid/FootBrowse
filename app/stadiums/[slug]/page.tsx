@@ -30,14 +30,61 @@ export default function StadiumPage({ params }: Props) {
 
   const stadiumMatches = getStadiumMatches(stadium.slug);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://footbrowse.com" },
+      { "@type": "ListItem", "position": 2, "name": "Stadiums", "item": "https://footbrowse.com/stadiums" },
+      { "@type": "ListItem", "position": 3, "name": stadium.name, "item": `https://footbrowse.com/stadiums/${stadium.slug}` }
+    ]
+  };
+
+  // Prefer TheSportsDB photos (no rate limiting), fallback to Wikipedia
+  const heroPhotoUrl = (stadium.sportsdb_photos && stadium.sportsdb_photos.length > 0)
+    ? stadium.sportsdb_photos[0]
+    : stadium.photo_url;
+  const heroPhotoCredit = (stadium.sportsdb_photos && stadium.sportsdb_photos.length > 0)
+    ? "TheSportsDB"
+    : stadium.photo_credit;
+
+  const stadiumJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "StadiumOrArena",
+    "name": stadium.name,
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": stadium.city,
+      "addressRegion": stadium.state,
+      "addressCountry": stadium.country
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": stadium.lat,
+      "longitude": stadium.lng
+    },
+    "maximumAttendeeCapacity": stadium.capacity,
+    "image": heroPhotoUrl,
+    "description": stadium.overview
+  };
+
   return (
-    <article className="space-y-8">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(stadiumJsonLd) }}
+      />
+      <article className="space-y-8">
 
       {/* Full-width photo hero with overlay */}
       <div className="relative overflow-hidden rounded-2xl" style={{ minHeight: 240 }}>
-        {stadium.photo_url ? (
+        {heroPhotoUrl ? (
           <>
-            <StadiumHeroImage src={stadium.photo_url} alt={stadium.name} />
+            <StadiumHeroImage src={heroPhotoUrl} alt={stadium.name} />
             {/* Dark gradient overlay */}
             <div
               className="absolute inset-0"
@@ -60,8 +107,8 @@ export default function StadiumPage({ params }: Props) {
               >
                 {stadium.name}
               </h1>
-              {stadium.photo_credit && (
-                <p className="text-xs text-zinc-600 mt-2">Photo: {stadium.photo_credit}</p>
+              {heroPhotoCredit && (
+                <p className="text-xs text-zinc-600 mt-2">Photo: {heroPhotoCredit}</p>
               )}
             </div>
           </>
@@ -302,5 +349,6 @@ export default function StadiumPage({ params }: Props) {
 
       <AdSlot slot="1234567890" format="auto" />
     </article>
+    </>
   );
 }

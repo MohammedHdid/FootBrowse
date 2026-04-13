@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import {
   teams,
   getTeam,
@@ -45,8 +46,57 @@ export default function TeamPage({ params }: Props) {
   const teamMatches = getTeamMatches(team.slug);
   const stadium = getStadium(team.stadium_slug);
 
+  // Build Schema.org sameAs from social links
+  const sameAs: string[] = [];
+  if (team.social_links?.facebook) sameAs.push(team.social_links.facebook);
+  if (team.social_links?.twitter) sameAs.push(team.social_links.twitter);
+  if (team.social_links?.instagram) sameAs.push(team.social_links.instagram);
+  if (team.social_links?.youtube) sameAs.push(team.social_links.youtube);
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://footbrowse.com" },
+      { "@type": "ListItem", "position": 2, "name": "Teams", "item": "https://footbrowse.com/teams" },
+      { "@type": "ListItem", "position": 3, "name": team.name, "item": `https://footbrowse.com/teams/${team.slug}` }
+    ]
+  };
+
+  const teamJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SportsTeam",
+    "name": team.name,
+    "alternateName": team.nickname || undefined,
+    "sport": "Football",
+    "logo": team.badge_url || team.flag_large,
+    "url": `https://footbrowse.com/teams/${team.slug}`,
+    "memberOf": {
+      "@type": "SportsOrganization",
+      "name": "FIFA",
+      "url": "https://www.fifa.com"
+    },
+    "description": team.overview,
+    "coach": {
+      "@type": "Person",
+      "name": team.coach,
+      ...(team.coach_photo ? { "image": team.coach_photo } : {}),
+    },
+    "foundingDate": team.year_formed ? String(team.year_formed) : undefined,
+    ...(sameAs.length > 0 ? { "sameAs": sameAs } : {}),
+  };
+
   return (
-    <article className="space-y-8">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(teamJsonLd) }}
+      />
+      <article className="space-y-8">
 
       {/* Breadcrumb */}
       <nav className="breadcrumb">
@@ -66,22 +116,46 @@ export default function TeamPage({ params }: Props) {
       {/* Hero */}
       <header className="page-header">
         <div className="flex items-start gap-5 flex-wrap sm:flex-nowrap">
-          {/* Flag */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={team.flag_large}
-            alt={`${team.name} flag`}
-            width={160}
-            height={107}
-            className="rounded-lg shadow-xl object-cover shrink-0"
-            style={{ width: 140, height: "auto" }}
-          />
+          {/* Flag + Badge */}
+          <div className="flex items-center gap-3 shrink-0">
+            <Image
+              src={team.flag_large}
+              alt={`${team.name} flag`}
+              width={160}
+              height={107}
+              priority
+              className="rounded-lg shadow-xl object-cover"
+              style={{ width: 110, height: "auto" }}
+            />
+            {team.badge_url && (
+              <Image
+                src={team.badge_url}
+                alt={`${team.name} badge`}
+                width={72}
+                height={72}
+                className="object-contain drop-shadow-lg"
+                style={{ width: 64, height: 64 }}
+              />
+            )}
+          </div>
           <div className="flex-1 min-w-0">
             <div className="flex flex-wrap items-center gap-2 mb-3">
               <span className="badge-blue">{team.confederation}</span>
               <span className="badge-green">Group {team.group}</span>
               {team.wc_titles > 0 && (
                 <span className="tag">{team.wc_titles}× World Champion</span>
+              )}
+              {team.year_formed && (
+                <span
+                  className="text-[10px] font-bold px-2 py-0.5 rounded-full"
+                  style={{
+                    backgroundColor: "rgba(255,255,255,0.05)",
+                    border: "1px solid rgba(255,255,255,0.1)",
+                    color: "#9CA3AF",
+                  }}
+                >
+                  Est. {team.year_formed}
+                </span>
               )}
             </div>
             <h1
@@ -90,6 +164,11 @@ export default function TeamPage({ params }: Props) {
             >
               {team.name}
             </h1>
+            {team.nickname && (
+              <p className="text-sm mt-1 italic" style={{ color: team.color_primary !== "#FFFFFF" && team.color_primary !== "#ffffff" ? team.color_primary : "#00FF87" }}>
+                &ldquo;{team.nickname}&rdquo;
+              </p>
+            )}
             <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-zinc-400">
               <span>
                 Coach:{" "}
@@ -171,14 +250,68 @@ export default function TeamPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Coaching staff & top scorer */}
+      {/* Last Match Result */}
+      {team.last_match && (
+        <section>
+          <h2 className="section-title text-xl mb-4">Last Match</h2>
+          <div
+            className="rounded-xl p-5"
+            style={{
+              backgroundColor: "rgba(59,130,246,0.04)",
+              border: "1px solid rgba(59,130,246,0.15)",
+            }}
+          >
+            <div className="flex items-center justify-between flex-wrap gap-3">
+              <div>
+                <p className="text-sm font-black text-white">{team.last_match.event}</p>
+                <p className="text-xs text-zinc-500 mt-1">{team.last_match.competition}</p>
+              </div>
+              <div className="text-right">
+                <p className="text-2xl font-black text-white tabular-nums">{team.last_match.score}</p>
+                <p className="text-xs text-zinc-500 mt-1">
+                  {new Date(team.last_match.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Head Coach Card */}
+      <section className="section-block">
+        <h2 className="section-title text-xl mb-4">Head Coach</h2>
+        <div
+          className="rounded-xl p-5 flex items-start gap-5"
+          style={{
+            backgroundColor: "rgba(255,255,255,0.02)",
+            border: "1px solid rgba(255,255,255,0.07)",
+          }}
+        >
+          {team.coach_photo && (
+            <Image
+              src={team.coach_photo}
+              alt={team.coach}
+              width={80}
+              height={80}
+              className="rounded-xl object-cover shrink-0 shadow-lg"
+              style={{ width: 80, height: 80 }}
+            />
+          )}
+          <div className="flex-1 min-w-0">
+            <p className="text-lg font-black text-white">{team.coach}</p>
+            {team.coach_bio && (
+              <p className="text-sm text-zinc-400 mt-2 leading-relaxed line-clamp-4">
+                {team.coach_bio}
+              </p>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Staff & Records */}
       <section className="section-block">
         <h2 className="section-title text-xl mb-4">Staff &amp; Records</h2>
         <dl className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-4">
-          <div>
-            <dt className="stat-label">Head Coach</dt>
-            <dd className="text-sm font-bold text-white mt-1">{team.coach}</dd>
-          </div>
           <div>
             <dt className="stat-label">All-Time Top Scorer</dt>
             <dd className="text-sm font-bold mt-1" style={{ color: "#00FF87" }}>
@@ -189,27 +322,44 @@ export default function TeamPage({ params }: Props) {
             </dd>
           </div>
           <div>
-            <dt className="stat-label">Primary Colour</dt>
+            <dt className="stat-label">Captain</dt>
+            <dd className="text-sm font-bold text-white mt-1">{team.captain}</dd>
+          </div>
+          <div>
+            <dt className="stat-label">Team Colours</dt>
             <dd className="flex items-center gap-2 mt-1">
               <span
                 className="inline-block w-4 h-4 rounded-sm border border-zinc-700"
                 style={{ backgroundColor: team.color_primary }}
               />
-              <span className="text-sm font-mono text-zinc-300">{team.color_primary}</span>
-            </dd>
-          </div>
-          <div>
-            <dt className="stat-label">Secondary Colour</dt>
-            <dd className="flex items-center gap-2 mt-1">
               <span
                 className="inline-block w-4 h-4 rounded-sm border border-zinc-700"
                 style={{ backgroundColor: team.color_secondary }}
               />
-              <span className="text-sm font-mono text-zinc-300">{team.color_secondary}</span>
+              <span className="text-sm font-mono text-zinc-400">
+                {team.color_primary}
+              </span>
             </dd>
           </div>
         </dl>
       </section>
+
+      {/* Kit Image */}
+      {team.kit_url && (
+        <section className="section-block">
+          <h2 className="section-title text-xl mb-4">Team Kit</h2>
+          <div className="flex justify-center">
+            <Image
+              src={team.kit_url}
+              alt={`${team.name} kit`}
+              width={200}
+              height={200}
+              className="object-contain drop-shadow-2xl"
+              style={{ width: 180, height: "auto", maxHeight: 240 }}
+            />
+          </div>
+        </section>
+      )}
 
       {/* Strengths & Weaknesses */}
       <section>
@@ -264,6 +414,47 @@ export default function TeamPage({ params }: Props) {
         <h2 className="section-title text-xl mb-4">Team Overview</h2>
         <p className="text-zinc-300 leading-relaxed text-sm">{team.overview}</p>
       </section>
+
+      {/* Social Links */}
+      {team.social_links && Object.keys(team.social_links).length > 0 && (
+        <section className="section-block">
+          <h2 className="section-title text-xl mb-4">Follow {team.name}</h2>
+          <div className="flex flex-wrap gap-3">
+            {team.social_links.facebook && (
+              <a href={team.social_links.facebook} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg transition-colors hover:bg-white/[0.06]"
+                style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#3B82F6" }}
+              >
+                Facebook
+              </a>
+            )}
+            {team.social_links.twitter && (
+              <a href={team.social_links.twitter} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg transition-colors hover:bg-white/[0.06]"
+                style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#1DA1F2" }}
+              >
+                Twitter / X
+              </a>
+            )}
+            {team.social_links.instagram && (
+              <a href={team.social_links.instagram} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg transition-colors hover:bg-white/[0.06]"
+                style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#E1306C" }}
+              >
+                Instagram
+              </a>
+            )}
+            {team.social_links.youtube && (
+              <a href={team.social_links.youtube} target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg transition-colors hover:bg-white/[0.06]"
+                style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", color: "#FF0000" }}
+              >
+                YouTube
+              </a>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Full Squad */}
       <section>
@@ -383,5 +574,6 @@ export default function TeamPage({ params }: Props) {
 
       <AdSlot slot="1234567890" format="auto" />
     </article>
+    </>
   );
 }

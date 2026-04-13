@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react"
+import Image from "next/image"
 
 interface Props {
   src: string
@@ -11,8 +12,7 @@ export default function MatchFlagImg({ src, alt, width = 22 }: Props) {
   const [imgSrc, setImgSrc] = useState(src || "/badge-tbd.svg")
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
+    <Image
       src={imgSrc}
       alt={alt}
       width={width}

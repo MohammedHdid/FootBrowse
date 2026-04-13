@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { stadiums } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -34,12 +35,13 @@ export default function StadiumsPage() {
         {stadiums.map((stadium) => (
           <Link key={stadium.slug} href={`/stadiums/${stadium.slug}`} className="entity-card block">
             {/* Photo thumbnail */}
-            {stadium.photo_url && (
+            {(stadium.sportsdb_photos?.[0] || stadium.photo_url) && (
               <div className="overflow-hidden rounded-lg mb-3 -mx-1 -mt-1" style={{ height: 120 }}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={stadium.photo_url}
-                  alt={stadium.name}
+                <Image
+                  src={stadium.sportsdb_photos?.[0] || stadium.photo_url}
+                  alt={`${stadium.name} thumbnail`}
+                  width={400}
+                  height={120}
                   className="w-full h-full object-cover opacity-70 hover:opacity-90 transition-opacity"
                   style={{ objectPosition: "center 40%" }}
                 />

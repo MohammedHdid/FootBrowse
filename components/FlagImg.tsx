@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getFlagUrl } from "@/lib/country-codes";
 
 interface Props {
@@ -22,10 +23,9 @@ export default function FlagImg({ nationality, size = 20, className = "" }: Prop
   }
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
+    <Image
       src={src}
-      alt={nationality}
+      alt={`${nationality} flag`}
       title={nationality}
       width={size}
       height={Math.round(size * 0.67)}

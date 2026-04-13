@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { players, getPlayer, getTeamPlayers } from "@/lib/data";
 import { getPositionStyle } from "@/lib/positions";
 import FlagImg from "@/components/FlagImg";
@@ -52,12 +53,49 @@ export default function PlayerPage({ params }: Props) {
     .filter((p) => p.slug !== player.slug)
     .slice(0, 4);
 
-  const bio =
-    player.bio ||
-    `${player.name} is a ${player.nationality} ${player.position} who plays for the ${player.teamName} national team at the 2026 FIFA World Cup.`;
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://footbrowse.com" },
+      { "@type": "ListItem", "position": 2, "name": "Players", "item": "https://footbrowse.com/players" },
+      { "@type": "ListItem", "position": 3, "name": player.name, "item": `https://footbrowse.com/players/${player.slug}` }
+    ]
+  };
+
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": player.name,
+    "jobTitle": "Professional Footballer",
+    "nationality": {
+      "@type": "Country",
+      "name": player.nationality
+    },
+    "memberOf": [
+      {
+        "@type": "SportsTeam",
+        "name": player.teamName,
+        "url": `https://footbrowse.com/teams/${player.teamSlug}`
+      }
+    ],
+    "image": player.photo_url || `https://footbrowse.com/favicon-96x96.png`,
+    "description": player.bio || `${player.name} is a professional footballer playing as ${player.position} for ${player.teamName}.`,
+    "birthDate": player.dateOfBirth
+  };
 
   return (
-    <article className="space-y-8">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
+      <article className="space-y-8">
 
       {/* Breadcrumb */}
       <nav className="breadcrumb">
@@ -84,12 +122,12 @@ export default function PlayerPage({ params }: Props) {
             }}
           >
             {player.photo_url ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
+              <Image
                 src={player.photo_url}
-                alt={player.name}
+                alt={`${player.name} profile photo`}
                 width={140}
                 height={160}
+                priority
                 className="w-full h-full object-cover object-top"
               />
             ) : (
@@ -205,7 +243,7 @@ export default function PlayerPage({ params }: Props) {
       {/* ── BIO ───────────────────────────────────────────────── */}
       <section className="section-block">
         <h2 className="section-title text-xl mb-4">Player Profile</h2>
-        <p className="text-zinc-300 leading-relaxed text-sm">{bio}</p>
+        <p className="text-zinc-300 leading-relaxed text-sm">{player.bio || `${player.name} is a professional footballer playing as ${player.position} for ${player.teamName} at the FIFA World Cup 2026.`}</p>
       </section>
 
       <AdSlot slot="1234567890" format="auto" />
@@ -231,10 +269,11 @@ export default function PlayerPage({ params }: Props) {
                     style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
                   >
                     {related.photo_url ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
+                      <Image
                         src={related.photo_url}
-                        alt={related.name}
+                        alt={`${related.name} photo`}
+                        width={120}
+                        height={120}
                         className="w-full h-full object-cover object-top"
                       />
                     ) : (
@@ -279,10 +318,9 @@ export default function PlayerPage({ params }: Props) {
           className="group flex items-center justify-between"
         >
           <div className="flex items-center gap-3">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={player.teamCrest}
-              alt={player.teamName}
+              alt={`${player.teamName} crest`}
               width={40}
               height={40}
               className="object-contain shrink-0"
@@ -304,5 +342,6 @@ export default function PlayerPage({ params }: Props) {
 
       <AdSlot slot="1234567890" format="auto" />
     </article>
+    </>
   );
 }

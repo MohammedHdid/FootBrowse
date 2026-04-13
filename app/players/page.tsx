@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { playersByTeam } from "@/lib/data";
 import { getPositionStyle } from "@/lib/positions";
 import FlagImg from "@/components/FlagImg";
@@ -63,10 +64,9 @@ export default function PlayersPage() {
                 <div className="flex items-start gap-3 mb-2">
                   {/* Photo or position-coloured chip */}
                   {player.photo_url ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
+                    <Image
                       src={player.photo_url}
-                      alt={player.name}
+                      alt={`${player.name} photo`}
                       width={44}
                       height={44}
                       className="rounded-lg object-cover object-top shrink-0"

@@ -25,6 +25,29 @@ export interface Team {
   matches: string[];
   meta_title: string;
   meta_description: string;
+  // TheSportsDB enrichment fields
+  nickname?: string;
+  badge_url?: string;
+  logo_url?: string;
+  fanart_url?: string;
+  kit_url?: string;
+  year_formed?: number;
+  social_links?: {
+    facebook?: string;
+    twitter?: string;
+    instagram?: string;
+    youtube?: string;
+  };
+  coach_photo?: string | null;
+  coach_bio?: string | null;
+  last_match?: {
+    date: string;
+    event: string;
+    score: string;
+    competition: string;
+  } | null;
+  sportsdb_id?: string;
+  sportsdb_description?: string;
 }
 
 export interface Stadium {
@@ -54,6 +77,9 @@ export interface Stadium {
   overview: string;
   meta_title: string;
   meta_description: string;
+  // TheSportsDB enrichment fields
+  sportsdb_photos?: string[];
+  sportsdb_description?: string;
 }
 
 /** Legacy player shape — kept for reference only, not used in pages */

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import type { SyncedPlayer } from "@/lib/types";
@@ -73,10 +74,11 @@ export default function SquadTable({ squad }: Props) {
                         style={{ backgroundColor: pos.bg, border: `1px solid ${pos.border}` }}
                       >
                         {player.photo_url ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img
+                          <Image
                             src={player.photo_url}
-                            alt={player.name}
+                            alt={`${player.name} thumbnail`}
+                            width={28}
+                            height={28}
                             className="w-full h-full object-cover object-top"
                           />
                         ) : (

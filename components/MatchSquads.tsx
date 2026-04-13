@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import type { SyncedPlayer } from "@/lib/types";
 import { getPositionStyle } from "@/lib/positions";
 import FlagImg from "@/components/FlagImg";
@@ -94,8 +95,13 @@ function MiniTable({ squad, teamSlug }: { squad: SyncedPlayer[]; teamSlug: strin
                         style={{ backgroundColor: pos.bg, border: `1px solid ${pos.border}` }}
                       >
                         {player.photo_url ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img src={player.photo_url} alt={player.name} className="w-full h-full object-cover object-top" />
+                          <Image
+                            src={player.photo_url}
+                            alt={`${player.name} thumbnail`}
+                            width={24}
+                            height={24}
+                            className="w-full h-full object-cover object-top"
+                          />
                         ) : (
                           <span className="text-[8px] font-black" style={{ color: pos.color }}>{player.name.charAt(0)}</span>
                         )}
@@ -194,15 +200,14 @@ export default function MatchSquads({ teamA, teamB, squadA, squadB }: Props) {
         ].map(({ team, squad }) => (
           <div key={team.slug}>
             <div className="flex items-center gap-2 mb-3">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={`https://flagcdn.com/w40/${team.code}.png`}
-                alt={team.name}
-                width={28}
-                height={18}
-                className="rounded-sm object-cover shrink-0"
-                style={{ width: 28, height: "auto" }}
-              />
+                <Image
+                  src={`https://flagcdn.com/w40/${team.code}.png`}
+                  alt={`${team.name} flag`}
+                  width={28}
+                  height={18}
+                  className="rounded-sm object-cover shrink-0"
+                  style={{ width: 28, height: "auto" }}
+                />
               <Link
                 href={`/teams/${team.slug}`}
                 className="font-black text-white hover:opacity-70 transition-opacity"

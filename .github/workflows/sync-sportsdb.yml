@@ -1,0 +1,50 @@
+# Required GitHub Secrets:
+# No secrets required for TheSportsDB free tier (API key "123").
+# However, if you upgrade to a paid key, add it as SPORTSDB_API_KEY.
+
+name: Sync TheSportsDB Data
+
+on:
+  # Every Monday and Thursday at 03:00 UTC
+  schedule:
+    - cron: "0 3 * * 1,4"
+  # Also allow manual runs from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Enrich Team & Match Data
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run sync script
+        run: npm run sync:sportsdb
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/teams.json data/stadiums.json data/matches.json \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/teams.json data/stadiums.json data/matches.json
+          git commit -m "chore: sync enrichment data from thesportsdb [skip ci]"
+          git push

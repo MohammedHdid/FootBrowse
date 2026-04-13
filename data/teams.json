@@ -12,16 +12,12 @@
     "best_result": "Group stage",
     "coach": "Jesse Marsch",
     "captain": "Alphonso Davies",
-    "color_primary": "#FF0000",
+    "color_primary": "#C5281C",
     "color_secondary": "#FFFFFF",
     "group": "B",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "L"
+      "D"
     ],
     "top_scorer_all_time": "Cyle Larin",
     "top_scorer_all_time_goals": 30,
@@ -40,7 +36,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Canada World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Canada World Cup 2026 squad, fixtures, and full team guide. Profile of the 2026 co-hosts on FootBrowse."
+    "meta_description": "Canada World Cup 2026 squad, fixtures, and full team guide. Profile of the 2026 co-hosts on FootBrowse.",
+    "sportsdb_id": "140073",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/2t631f1595154867.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/kvexmu1595154868.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/u06ook1623254064.png",
+    "nickname": "The Canucks",
+    "year_formed": 1885,
+    "sportsdb_description": "The Canada men's national soccer team (CanMNT; French: Équipe du Canada de soccer masculin) represents Canada in men's international soccer competitions at the senior men's level officially since 1924. They are overseen by the Canadian Soccer Association and compete in the Confederation of North, Central American and Caribbean Association Football (CONCACAF).\r\n\r\nTheir most significant achievements are winning the 1985 CONCACAF Championship to qualify for the 1986 FIFA World Cup and winning the 2000 CONCACAF Gold Cup to qualify for the 2001 FIFA Confederations Cup. Canada is the only national team to win a Gold Cup aside from regional powerhouses Mexico and the United States. Canada also won a gold medal in the 1904 Summer Olympics. The 1986 World Cup was their only successful qualification campaign in their history. Canada will host the 2026 FIFA World Cup along with Mexico and the United States.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/canadasoccer",
+      "twitter": "https://www.twitter.com/CanadaSoccerEN",
+      "youtube": "https://www.youtube.com/CanadaSoccerTV"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/aezkxu1603548457.jpg",
+    "coach_bio": "Jesse Alan Marsch (born November 8, 1973) is an American professional soccer coach and former player who was most recently the manager of Premier League club Leeds United. Marsch played 14 seasons as a midfielder in Major League Soccer (MLS) with D.C. United, Chicago Fire, and Chivas USA, winning three league titles and four U.S. Open Cup titles, as well as earning two caps for the United States national team.\r\n\r\nIn 2010, Marsch retired from his playing career and became a coach, first serving as an assistant with the U.S. national team under Bob Bradley that reached the last 16 of the 2010 FIFA World Cup in South Africa. He then became the inaugural head coach of the Montreal Impact upon its entry to MLS in 2012. In 2015, after a year-long stint as the assistant coach for his alma mater, the Princeton Tigers, Marsch was hired as head coach of the New York Red Bulls and stayed in the role through the first half of the 2018 MLS season. In his first year coaching the team, the Red Bulls won the Supporters' Shield and Marsch was named MLS Coach of the Year. Marsch holds the record for most wins by a coach in franchise history.\r\n\r\nIn 2018, Marsch was appointed as an assistant coach at German Bundesliga club RB Leipzig under Ralf Rangnick; the team placed third in the league, was runner-up in the German Cup, and competed in the UEFA Europa League. The following season, Marsch was appointed the successor to Marco Rose as coach of Red Bull Salzburg in the Austrian Bundesliga; he led the club to a league and cup double in two consecutive seasons, as Salzburg made successive Champions League group stage appearances for the first time in club history. He returned to RB Leipzig as club coach for the 2021–22 season, leaving by mutual consent in December and joining Leeds United in February.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Canada vs Tunisia",
+      "score": "0-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "mexico",
@@ -55,15 +71,11 @@
     "best_result": "Quarter-finals (1970, 1986)",
     "coach": "Javier Aguirre",
     "captain": "Santiago Giménez",
-    "color_primary": "#006847",
-    "color_secondary": "#FFFFFF",
+    "color_primary": "#00933B",
+    "color_secondary": "#F5313E",
     "group": "A",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "Javier Hernández",
@@ -83,7 +95,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Mexico World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Mexico World Cup 2026 squad, fixtures, and full team guide. El Tri co-host the 2026 tournament — full profile on FootBrowse."
+    "meta_description": "Mexico World Cup 2026 squad, fixtures, and full team guide. El Tri co-host the 2026 tournament — full profile on FootBrowse.",
+    "sportsdb_id": "134497",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/3rmosi1748525208.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/76mvr81597946801.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/vvwxxs1473333592.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/0v0olq1670062881.png",
+    "nickname": "El Tri (The Tricolor)",
+    "year_formed": 1923,
+    "sportsdb_description": "The Mexico national football team (Spanish: Selección de fútbol de México) represents Mexico in international football. It is fielded by the Mexican Football Federation (Spanish: Federación Mexicana de Fútbol), the governing body of football in Mexico, and competes as a member of CONCACAF, which encompasses the countries of North and Central America, and the Caribbean. Mexico's home stadium is the Estadio Azteca in Mexico City, and the head coach is Juan Carlos Osorio.\r\n\r\nMexico has qualified to fifteen World Cups and has qualified consecutively since 1994, making it one of six countries to do so. The Mexico national team, along with Brazil and Germany, are the only nations to make it out of the group stage over the last six World Cups. Mexico played France in the very first match of the first World Cup on 13 July 1930. Mexico's best progression in World Cups has been reaching the quarter-finals in both the 1970 and 1986 World Cups, both of which were staged on Mexican soil.\r\n\r\nMexico is historically the most successful national team in the CONCACAF region, having won ten confederation titles, including seven CONCACAF Gold Cups and three CONCACAF Championships (the precursor to the Gold Cup), as well as three NAFC Championships, one North American Nations Cup, and one CONCACAF Cup. Mexico is the only team from CONCACAF to have won an official FIFA competition, winning the 1999 FIFA Confederations Cup. Although Mexico is under the jurisdiction of CONCACAF, the national team has been regularly invited to compete in the Copa América since 1993, finishing runner-up twice – in 1993 and 2001 – and obtaining the third-place medal on three occasions.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/FEMEXFUTOFICIAL",
+      "twitter": "https://twitter.com/FMF",
+      "instagram": "https://www.instagram.com/miseleccionmx"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/newfth1678830171.jpg",
+    "coach_bio": "Javier Aguirre Onaindía (Spanish pronunciation: ; born 1 December 1958), nicknamed El Vasco (The Basque), is a Mexican football manager and former footballer who played as a midfielder. He is currently manager of the Mexico national team.\r\n\r\nAguirre played for Mexico at the 1986 World Cup, and is currently manager of the team for his third time, coaching them previously on twice occasions, he took them to the World Cup in 2002 and 2010. He also won the 2009 CONCACAF Gold Cup and led them to the final of the 2001 Copa América. Later, he managed Japan and Egypt.\r\n\r\nAt club level, Aguirre led six clubs in Spain's La Liga. He finished fourth with Osasuna in 2006 and Atlético Madrid in 2008. He took Atlético and Mallorca to Copa del Rey finals, losing in 2005 and 2024 respectively. He also won the CONCACAF Champions League with Monterrey in 2021.",
+    "last_match": {
+      "date": "2026-04-01",
+      "event": "Mexico vs Belgium",
+      "score": "1-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "usa",
@@ -98,16 +131,12 @@
     "best_result": "Third place (1930)",
     "coach": "Mauricio Pochettino",
     "captain": "Christian Pulisic",
-    "color_primary": "#002868",
-    "color_secondary": "#BF0A30",
+    "color_primary": "#1F2742",
+    "color_secondary": "#FFFFFF",
     "group": "D",
     "stadium_slug": "sofi-stadium",
     "form": [
-      "W",
-      "W",
-      "D",
-      "L",
-      "W"
+      "L"
     ],
     "top_scorer_all_time": "Landon Donovan",
     "top_scorer_all_time_goals": 57,
@@ -130,7 +159,27 @@
       "usa-vs-spain"
     ],
     "meta_title": "USA World Cup 2026 — Squad, Fixtures & Odds | FootBrowse",
-    "meta_description": "United States World Cup 2026 squad, home fixtures, betting odds and predictions. Full USMNT team guide on FootBrowse."
+    "meta_description": "United States World Cup 2026 squad, home fixtures, betting odds and predictions. Full USMNT team guide on FootBrowse.",
+    "sportsdb_id": "134514",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/21f0oi1597948195.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/b09tk51597948183.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/vrvhmr1719511890.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/6jymhz1668512680.png",
+    "year_formed": 1930,
+    "sportsdb_description": "The United States men's national soccer team (USMNT) represents the United States in men's international soccer competitions. The team is controlled by the United States Soccer Federation and is a member of FIFA and CONCACAF.\r\n\r\nThe team has appeared in ten FIFA World Cups, including the first in 1930, where they reached the semi-finals. The U.S. participated in the 1934 and 1950 World Cups, winning 1–0 against England in the latter. After 1950, the U.S. did not qualify for the World Cup until 1990. The U.S. qualified as host of the 1994 World Cup, where they lost to Brazil in the round of sixteen. They qualified for five more consecutive World Cups after 1994 (for a total of seven straight appearances, a feat shared with only seven other nations), becoming one of the tournament's regular competitors and often advancing to the knockout stage. The U.S. reached the quarter-finals of the 2002 World Cup, where they lost to Germany. In the 2009 Confederations Cup, they eliminated top-ranked Spain in the semi-finals before losing to Brazil in the final, their only appearance in the final of a major intercontinental tournament.\r\n\r\nThe U.S. also competes in continental tournaments, including the CONCACAF Gold Cup and Copa América. The U.S. won seven Gold Cups and the inaugural edition of the CONCACAF Nations League, and has achieved a fourth-place finish in two Copa Américas, including the 1995 edition and 2016 edition. The team's head coach is Gregg Berhalter, since November 29, 2018. Earnie Stewart is the team's General Manager since August 1, 2018.\r\n\r\nThe United States does not have a dedicated national stadium like other national teams; instead, the team has played their home matches at 121 venues in 30 states and the District of Columbia. \r\n\r\nRobert F. Kennedy Memorial Stadium, located in the national capital of Washington, D.C., has hosted 24 matches, the most of any stadium.\r\n\r\nThe Rose Bowl, a 92,000-seat venue in Pasadena, has hosted 17 national team matches, as well as the 1994 World Cup final, the 1999 Women's World Cup final, and the 1984 Olympics gold medal match.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/officialussoccer/",
+      "twitter": "https://twitter.com/ussoccer",
+      "instagram": "https://www.instagram.com/ussoccer"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/ruel3u1549370038.jpg",
+    "coach_bio": "Mauricio Roberto Pochettino Trossero (born 2 March 1972) is an Argentine professional football manager and former player who is the current head coach of the United States men's national team.\r\n\r\nPochettino played as a centre-back and began his career in 1989 with Primera División club Newell's Old Boys, winning a league title and finishing as runner-up in the 1992 Copa Libertadores. In 1994, he transferred to newly promoted La Liga club Espanyol, helping establish their top-flight status and winning the 2000 Copa del Rey, their first trophy in 60 years. In 2001, he joined Ligue 1 club Paris Saint-Germain, and then had a stint with Bordeaux before returning to Espanyol in 2004, winning another Copa del Rey in 2006. Pochettino was capped 20 times for the Argentina national team and played at the 1999 Copa América and 2002 FIFA World Cup.\r\n\r\nAfter retiring as a player, Pochettino began his managerial career at Espanyol in 2009. He left the club in 2012 after poor results and financial disputes. In 2013, he was appointed at Premier League club Southampton, leading them to an eighth-place finish that season – equalling their highest ever Premier League finish. He signed for Tottenham Hotspur in 2014 and finished as league runners-up in the 2016–17 season, as well as leading the club to their maiden Champions League final. He was dismissed in 2019 after a string of poor results.\r\n\r\nIn 2021, Pochettino joined Paris Saint-Germain, where he won the Ligue 1 title and Coupe de France but left one year later. He took over as the manager of Chelsea for the 2023–24 season, mutually agreeing to part ways with the club after just one season. The same year he was appointed as a national team head coach for the first time, managing the United States.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "USA vs Portugal",
+      "score": "0-2",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "japan",
@@ -145,15 +194,11 @@
     "best_result": "Round of 16",
     "coach": "Hajime Moriyasu",
     "captain": "Wataru Endo",
-    "color_primary": "#00205B",
-    "color_secondary": "#FFFFFF",
+    "color_primary": "#000080",
+    "color_secondary": "#ffffff",
     "group": "F",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Kunishige Kamamoto",
@@ -172,7 +217,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Japan World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Japan World Cup 2026 squad, fixtures, and team guide. Full Samurai Blue profile on FootBrowse."
+    "meta_description": "Japan World Cup 2026 squad, fixtures, and team guide. Full Samurai Blue profile on FootBrowse.",
+    "sportsdb_id": "134503",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/ffsyxz1591989843.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2018-134503-Jersey.png",
+    "nickname": "サムライ・ブルー (Samurai Blue)",
+    "year_formed": 1917,
+    "sportsdb_description": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), nicknamed the Samurai Blue (サムライ・ブルー), represents Japan in men's international football and it is controlled by the Japan Football Association (JFA), the governing body for football in Japan. The current head coach is Hajime Moriyasu, who is also the current coach of the Japan U-23 team.\r\n\r\nJapan was not a major football force until the end of the 1980s, with its team small and amateur, but since the 1990s, when Japanese football became fully professionalized, Japan has quickly emerged as one of the most successful teams in Asia, having qualified for the last six consecutive FIFA World Cups with second round advancements in 2002, 2010, and 2018, and having won the AFC Asian Cup a record four times, in 1992, 2000, 2004 and 2011. The team has also finished second in the 2001 FIFA Confederations Cup and the 2019 AFC Asian Cup. Japan's incredible transformation from an amateur football team to become a fully professional and Asian powerhouse in just a short amount of time has served as an inspiration and example of how to develop football.\r\n\r\nTheir principal continental rivals are South Korea, North Korea, China and most recently, Australia; though they also develop rivalries against Iran, Iraq and Saudi Arabia.\r\n\r\nJapan was the first team from outside the Americas to participate in the Copa América, having been invited in 1999, 2011, 2015, and 2019 editions of the tournament, although they only played in the 1999 and 2019 events.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/samuraiblue",
+      "twitter": "https://twitter.com/jfa_samuraiblue",
+      "instagram": "https://instagram.com/japanfootballassociation",
+      "youtube": "https://youtube.com/jfa?sub_confirmation=1"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/b6v8381668791841.jpg",
+    "coach_bio": "Hajime Moriyasu (born 23 August 1968) is a Japanese football manager and former player. He made more than 250 appearances in 14 years with Sanfrecce Hiroshima, including a year on loan to Kyoto Purple Sanga, before spending his final season as a professional with Vegalta Sendai. He also played 35 times for the Japan national team. His brother Hiroshi and his sons Shohei and Keigo are also footballers. He is current manager of Japan senior and olympic teams.",
+    "last_match": {
+      "date": "2025-11-18",
+      "event": "Japan vs Bolivia",
+      "score": "3-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "new-zealand",
@@ -192,10 +257,6 @@
     "group": "G",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Vaughan Coveny",
@@ -214,7 +275,26 @@
     "players": [],
     "matches": [],
     "meta_title": "New Zealand World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "New Zealand World Cup 2026 squad, fixtures, and team guide. Full All Whites profile on FootBrowse."
+    "meta_description": "New Zealand World Cup 2026 squad, fixtures, and team guide. Full All Whites profile on FootBrowse.",
+    "sportsdb_id": "137449",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/91xpk81742982935.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/dyqm6g1740186929.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/0cvq801740186935.jpg",
+    "nickname": "All Whites",
+    "year_formed": 1922,
+    "sportsdb_description": "The New Zealand national football team (Māori: He papa whutupaoro a-motu o Aotearoa) represents New Zealand in men's international football competitions, The team is governed by the governing body for football in New Zealand, New Zealand Football (NZF), which is currently a member of FIFA and Oceania Football Confederation (OFC). The team's official nickname is the All Whites. New Zealand is a five-time OFC champion.\r\n\r\nThe team represented New Zealand at the FIFA World Cup tournaments in 1982 and 2010, and the FIFA Confederations Cup tournaments in 1999, 2003, 2009 and 2017. Because most New Zealand football clubs are semi-professional rather than fully professional, most professional New Zealand footballers play for clubs in English-speaking countries such as England, the United States and Australia.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/FootballNZ/",
+      "twitter": "https://twitter.com/nz_football",
+      "instagram": "https://instagram.com/_nzfootball",
+      "youtube": "https://www.youtube.com/user/NZFTV/videos?disable_polymer=1"
+    },
+    "last_match": {
+      "date": "2026-03-30",
+      "event": "New Zealand vs Chile",
+      "score": "4-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "iran",
@@ -234,11 +314,7 @@
     "group": "G",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "D"
+      "L"
     ],
     "top_scorer_all_time": "Ali Daei",
     "top_scorer_all_time_goals": 109,
@@ -256,7 +332,22 @@
     "players": [],
     "matches": [],
     "meta_title": "Iran World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Iran World Cup 2026 squad, fixtures, and team guide. Full Team Melli profile on FootBrowse."
+    "meta_description": "Iran World Cup 2026 squad, fixtures, and team guide. Full Team Melli profile on FootBrowse.",
+    "sportsdb_id": "134511",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/uttpvw1455465617.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/qjzw4e1597860577.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2cbewz1668513535.png",
+    "nickname": "Team Melli (تیم ملی)",
+    "year_formed": 1941,
+    "sportsdb_description": "The Iran national football team (Persian: تیم ملی فوتبال مردان ایران‎, romanized: Tīm-e Melli-e Fūtbāl-e Mardān-e Īrān), also known as Team Melli (Persian: تیم ملی‎, romanized: Tīm-e Melli, lit. 'the national team'), represents Iran in international football and is controlled by the Iran Football Federation. From December 2014 until May 2018, the men's national football team of Iran remained the highest-ranked team in Asia, representing the longest continuous period of time a team has been top of the continent in the rankings.\r\n\r\nIran is one of the most successful men's national teams in Asia with three Asian Cup championships (1968, 1972, and 1976). Iran's best performance at the Olympics was reaching the quarterfinals in the 1976 Montreal Games. Iran has qualified for the World Cup five times (1978, 1998, 2006, 2014, and 2018) but has never advanced past the group stage. They have, however, won two matches in the World Cup, one against the United States in 1998, and their opener against Morocco in 2018.",
+    "coach_photo": null,
+    "coach_bio": null,
+    "last_match": {
+      "date": "2026-03-27",
+      "event": "Iran vs Nigeria",
+      "score": "1-2",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "uzbekistan",
@@ -276,10 +367,6 @@
     "group": "K",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "Maksim Shatskikh",
@@ -298,7 +385,24 @@
     "players": [],
     "matches": [],
     "meta_title": "Uzbekistan World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Uzbekistan World Cup 2026 squad, fixtures, and debut guide. Full White Wolves profile on FootBrowse."
+    "meta_description": "Uzbekistan World Cup 2026 squad, fixtures, and debut guide. Full White Wolves profile on FootBrowse.",
+    "sportsdb_id": "140151",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/u5bgze1597943605.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/sd891j1597943605.png",
+    "nickname": "White Wolves",
+    "year_formed": 1992,
+    "sportsdb_description": "The Uzbekistan national football team (Uzbek: Oʻzbekiston milliy futbol terma jamoasi) represents Uzbekistan in international football and is controlled by the Uzbekistan Football Association, the governing body for football in Uzbekistan.\r\n\r\nUzbekistan is the most successful national team from Central Asia. Although they have never qualified to the World Cup, the team has qualified to every AFC Asian Cup since post-independence formation. During the 2011 Asian Cup, Uzbekistan reached the semi-finals of the tournament for the first time. Uzbekistan has also competed at other competitions such as the Asian Games, where they won the gold medal in the football tournament in 1994 in Japan, and finishing as the runners-up at the Afro-Asian Cup of Nations in 1995.",
+    "social_links": {
+      "facebook": "https://facebook.com/UzbekistanFA/"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/hbo1rn1711187356.jpg",
+    "coach_bio": "Srečko Katanec (pronounced  ⓘ; born 16 July 1963) is a Slovenian professional football manager and former player who is the head coach of the Uzbekistan national team. At international level, he was capped for both the Yugoslavia and Slovenia national teams.\r\n\r\nA former midfielder, who was also capable of playing as a defender, Katanec is regarded as one of the greatest Slovenian footballers of all time, having represented Yugoslavia at the 1984 and 1988 Summer Olympics, UEFA Euro 1984 and the 1990 FIFA World Cup. After Slovenian independence, Katanec made five appearances for the newly formed Slovenia national team before retiring from professional football.\r\n\r\nDuring his club career, Katanec won a Yugoslav League championship with FK Partizan and was a runner-up of the 1988–89 UEFA Cup with VfB Stuttgart. In his five-year spell with Sampdoria, he won the Serie A championship, the Coppa Italia and the European Cup Winners' Cup, as well as finishing as a runner-up in the 1992 European Cup Final, losing to Barcelona.\r\n\r\nAs manager of Slovenia, Katanec led the country to its first major tournament in history after qualifying for the 2000 European Championship and the 2002 FIFA World Cup.\r\n\r\nKatanec began playing football at the age of seven with NK Ljubljana. In 1981, he joined Olimpija; in 1985, he joined Dinamo Zagreb; while the next year, he signed with Partizan and was a Yugoslav champion in 1987.\r\n\r\nIn 1988, Katanec joined VfB Stuttgart in the German Bundesliga. The club reached the 1989 UEFA Cup Final, but lost to Diego Maradona's Napoli. Katanec played just one season for Stuttgart. In 1989, he signed for Italian Serie A side Sampdoria, where he won the European Cup Winners' Cup in his first season. In 1991, Sampdoria won the Scudetto as Serie A champions, while the next year, the club reached the 1992 European Cup Final, losing to Barcelona. In 1994, he also won the Coppa Italia with Sampdoria under manager Sven-Göran Eriksson.\r\n\r\nKatanec was a member of the Yugoslavia national team for the 1984 European Championship in France, but he has fonder memories of 1984 Olympics in Los Angeles, where Yugoslavia team won a bronze medal. He was playing successfully in the qualifying round for 1990 FIFA World Cup in Italy so he became the third Slovenian to play at a World Cup, where he appeared in three of Yugoslavia's five matches. These would be his last three caps for Yugoslavia. Altogether, he appeared in 31 matches and scored 5 goals.\r\n\r\nKatanec played five more matches (and scored a goal) for the independent Slovenia national team, but appeared in only one official match. That was a qualifying round for the 1996 European Championship, on 7 September 1994 in Maribor against Italy. Soon after, his contract with Sampdoria expired and he retired from professional football.\r\n\r\nBetween 1996 and 1997, Katanec was an assistant manager of Drago Kostanjšek at the Slovenia under-21 team. In December 1997, he became a head coach of Gorica, signing a two-and-a-half-year contract. In July 1998, he was announced as the Slovenian national team manager.\r\n\r\nWith Slovenia, he qualified for the 2000 UEFA European Championship after eliminating Ukraine in the qualifying play-offs, which was the country's first-ever appearance at the major tournament. At the tournament, Slovenia earned draws against FR Yugoslavia and Norway, and lost to Spain. Slovenia also managed to qualify for the 2002 FIFA World Cup, where they lost all three matches against Spain, South Africa and Paraguay. After the first game, Katanec had a huge argument with the team's star player Zlatko Zahovič, who was sent home. He resigned immediately after the World Cup. On 2 November 2002, he became the new manager of Olympiacos. Under Katanec's command, Olympiacos played worse than expected, and on 7 February 2003 the club terminated his contract with immediate effect due to poor performances and a bad atmosphere in the team.\r\n\r\nIn 2004, Katanec was a candidate to become the national team manager of Croatia; however, Zlatko Kranjčar was chosen instead of him.\r\n\r\nOn 17 February 2006, Katanec was appointed as Macedonia's head coach for the UEFA Euro 2008 qualifiers. Following a mixed set of results in the qualifying campaign for the 2010 FIFA World Cup, including a 1–0 win against Scotland and a 4–0 loss to the Netherlands, Katanec resigned from the position on 6 April 2009. On 23 June 2009, he was presented as a new head coach of the United Arab Emirates national team. He was sacked on 6 September 2011 after two successive defeats in the third round of qualifiers for the 2014 FIFA World Cup.\r\n\r\nOn 31 December 2012, he accepted the offer from the Football Association of Slovenia to become the manager of Slovenia for the second time, and was officially appointed on 4 January 2013. He resigned in October 2017 after failing to qualify for the 2018 FIFA World Cup.\r\n\r\nOn 4 September 2018, Katanec was appointed as head coach of the Iraq on a three-year contract. His first major competition was the 2019 AFC Asian Cup, where he managed to achieve what he had failed with Slovenia and the United Arab Emirates, by reaching the knockout stages in a major tournament for the first time, as his Iraq reached the round of 16 before losing to the eventual champions Qatar 1–0. Under his management, Iraq also achieved a notable 2–1 win over neighbour Iran in the 2022 World Cup qualifiers, as well as guiding Iraq to the third round of AFC qualifiers, but due to conflict with the federation over unpaid salaries, Katanec departed as coach in July 2021.\r\n\r\nOn 27 August 2021, Katanec was appointed as head coach of Uzbekistan on a four-year contract.\r\n\r\nKatanec was born in Ljubljana to Croat parents from Međimurje. He has two sons, Svit Oliver and Ian Oskar.",
+    "last_match": {
+      "date": "2026-03-30",
+      "event": "Uzbekistan vs Venezuela",
+      "score": "0-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "jordan",
@@ -318,11 +422,7 @@
     "group": "J",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
-      "W"
+      "D"
     ],
     "top_scorer_all_time": "Hasan Abdel-Fattah",
     "top_scorer_all_time_goals": 20,
@@ -340,7 +440,22 @@
     "players": [],
     "matches": [],
     "meta_title": "Jordan World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Jordan World Cup 2026 squad, fixtures, and debut guide. Full Nashama profile on FootBrowse."
+    "meta_description": "Jordan World Cup 2026 squad, fixtures, and debut guide. Full Nashama profile on FootBrowse.",
+    "sportsdb_id": "140145",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/59fo2s1742100034.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/52km6t1761234474.png",
+    "year_formed": 1953,
+    "sportsdb_description": "The Jordan national football team (Arabic: المنتخب الأردني لكرة القدم‎) represents Jordan in international football and is controlled by the Jordan Football Association, the governing body for football in Jordan. Jordan's home ground/stadium is the Amman International Stadium and King Abdullah II Stadium. Jordan have never qualified for the World Cup finals, but have appeared four times in the Asian Cup and reached its quarter-final stage in the 2004 and 2011 editions.\r\n\r\nJordan is a two-time champion of the Pan Arab Games, having won the 1997 and 1999 editions of the tournament. So far, Jordan has hosted the West Asian Football Federation Championship three times in (2000, 2007 and 2010), the Arab Nations Cup once in 1988, and the Pan Arab Games once in 1999.",
+    "social_links": {
+      "facebook": "https://facebook.com/JordanFootball/",
+      "twitter": "https://twitter.com/JordanFA"
+    },
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Jordan vs Nigeria",
+      "score": "2-2",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "south-korea",
@@ -355,16 +470,12 @@
     "best_result": "Fourth place (2002)",
     "coach": "Hong Myung-bo",
     "captain": "Son Heung-min",
-    "color_primary": "#C60C30",
-    "color_secondary": "#003478",
+    "color_primary": "#EC0F32",
+    "color_secondary": "#FFFFFF",
     "group": "A",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "W"
+      "L"
     ],
     "top_scorer_all_time": "Son Heung-min",
     "top_scorer_all_time_goals": 45,
@@ -382,7 +493,28 @@
     "players": [],
     "matches": [],
     "meta_title": "South Korea World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "South Korea World Cup 2026 squad, fixtures, and team guide. Full Taeguk Warriors profile on FootBrowse."
+    "meta_description": "South Korea World Cup 2026 squad, fixtures, and team guide. Full Taeguk Warriors profile on FootBrowse.",
+    "sportsdb_id": "134517",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/a8nqfs1589564916.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/4r9qrc1597947773.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2018-134517-Jersey.png",
+    "nickname": "태극전사 (Taegeuk Warriors)",
+    "year_formed": 1948,
+    "sportsdb_description": "The South Korea national football team (Korean: 대한민국 축구 국가대표팀; recognized as Korea Republic by FIFA) represents South Korea in men's international football and is governed by the Korea Football Association. Since the 1950s, South Korea has development and emerged as a major football power in Asia since the 80s and is historically the most successful Asian football team, having participated in nine consecutive and ten overall FIFA World Cup tournaments, the most for any Asian country. Despite initially going through five World Cup tournaments without winning a match, South Korea became the only Asian team to reach the semi-final stages when they co-hosted the 2002 tournament with Japan. South Korea also recorded five titles and seven-time runners-up in the AFC Asian Cup and the senior Asian Games. The team is commonly nicknamed the \"Reds\" by both fans and the media due to the color of their primary kit. The national team's supporting group is officially referred to as the Red Devils.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/KFA/",
+      "twitter": "https://twitter.com/thekfa",
+      "instagram": "https://www.instagram.com/thekfa",
+      "youtube": "https://www.youtube.com/thekfa"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/up6h1w1765217882.jpg",
+    "coach_bio": "Hong Myung-bo (Korean: 홍명보, Hanja: 洪明甫; Korean pronunciation: ; born 12 February 1969) is a South Korean football manager and former footballer who played as a sweeper. Hong is often considered one of the greatest Asian footballers of all time. He is currently the manager of the South Korea national team.\r\n\r\nHong was a member of the South Korean national team in four FIFA World Cups, and was the first Asian player to play in four consecutive FIFA World Cup tournaments. He is also the first Asian player ever to receive the Bronze Ball at the FIFA World Cup. He gained attention after showing his outstanding ability in the FIFA World Cup and AFC Asian Cup competitions. He received some votes in elections for the FIFA World Player of the Year, finishing 21st in 1996 and 17th in 2002. Furthermore, he was also selected for the FIFA 100, Pelé's selection about the 125 greatest living footballers in the world.",
+    "last_match": {
+      "date": "2026-03-28",
+      "event": "South Korea vs Ivory Coast",
+      "score": "0-4",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "australia",
@@ -395,18 +527,14 @@
     "wc_titles": 0,
     "wc_appearances": 7,
     "best_result": "Round of 16",
-    "coach": "Tony Popovic",
+    "coach": "Anthony Popovic",
     "captain": "Mat Ryan",
-    "color_primary": "#FFD700",
+    "color_primary": "#FFCD00",
     "color_secondary": "#00843D",
     "group": "D",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Tim Cahill",
     "top_scorer_all_time_goals": 50,
@@ -424,7 +552,29 @@
     "players": [],
     "matches": [],
     "meta_title": "Australia World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Australia World Cup 2026 squad, fixtures, and team guide. Full Socceroos profile on FootBrowse."
+    "meta_description": "Australia World Cup 2026 squad, fixtures, and team guide. Full Socceroos profile on FootBrowse.",
+    "sportsdb_id": "134500",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/lark6k1661780848.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/pmbrbx1597946657.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/cipyxq1725673468.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/vm3dcr1668513891.png",
+    "nickname": "Socceroos",
+    "year_formed": 1922,
+    "sportsdb_description": "The Australia national soccer team represents Australia in international men's soccer. Officially nicknamed the Socceroos, the team is controlled by the governing body for soccer in Australia, Football Federation Australia (FFA), which is currently a member of the Asian Football Confederation (AFC) and the regional ASEAN Football Federation (AFF) since leaving the Oceania Football Confederation (OFC) in 2006.\r\n\r\nAustralia is the only national team to have been a champion of two confederations, having won the OFC Nations Cup four times between 1980 and 2004, as well as the AFC Asian Cup at the 2015 event on home soil. The team has represented Australia at the FIFA World Cup tournament on five occasions, in 1974 and from 2006 to 2018. The team has also represented Australia at the FIFA Confederations Cup four times.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/Socceroos",
+      "twitter": "https://twitter.com/Socceroos",
+      "instagram": "https://www.instagram.com/socceroos/?hl=en",
+      "youtube": "https://www.youtube.com/channel/UC5qRwzD58S_sTEoLpl6AzTQ"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/sk78xn1640297929.jpg",
+    "coach_bio": "Tony Popovic (born 4 July 1973) is an Australian association football manager and former player. He is the current manager of A-League club Melbourne Victory.\r\n\r\nAs a player Popovic's usual position was centre-back. Starting in 1989 at Sydney United he went on to play for Sanfrecce Hiroshima of Japan and Premier League side Crystal Palace, among other clubs. He appeared with the Australian national team at the 2006 FIFA World Cup, where he played against reigning World Champions Brazil.\r\n\r\nPopovic started his coaching career in 2008 with Sydney FC. After a brief stint as assistant manager at Crystal Palace he was chosen as the inaugural manager of Western Sydney Wanderers at the start of the 2012–13 season. His major achievements as a manager are winning the 2012–13 A-League Premiership and 2014 AFC Champions League with the Wanderers and the 2018–19 A-League Premiership with Perth Glory.\r\n\r\nHe is the father of Kristian and Gabriel Popovic, both of whom are also professional footballers.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Australia vs Curaçao",
+      "score": "5-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "qatar",
@@ -437,19 +587,13 @@
     "wc_titles": 0,
     "wc_appearances": 2,
     "best_result": "Group stage (2022)",
-    "coach": "Marquez Lopez",
+    "coach": "Julen Lopetegui",
     "captain": "Hassan Al-Haydos",
-    "color_primary": "#8D1B3D",
+    "color_primary": "#8A1538",
     "color_secondary": "#FFFFFF",
     "group": "B",
     "stadium_slug": null,
-    "form": [
-      "W",
-      "D",
-      "W",
-      "D",
-      "D"
-    ],
+    "form": [],
     "top_scorer_all_time": "Hasan Al-Haydos",
     "top_scorer_all_time_goals": 66,
     "overview": "Qatar return to the World Cup for a second time, looking to improve on their 2022 group-stage exit on home soil. The Maroons are a technically polished side developed through the Aspire Academy system, and while they remain heavy underdogs, they have improved significantly as a footballing nation over the past decade.",
@@ -466,7 +610,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Qatar World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Qatar World Cup 2026 squad, fixtures, and team guide. Full Maroons profile on FootBrowse."
+    "meta_description": "Qatar World Cup 2026 squad, fixtures, and team guide. Full Maroons profile on FootBrowse.",
+    "sportsdb_id": "136472",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/rs3ir31642708685.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/syrgig1597936164.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/u9vbub1709615578.png",
+    "nickname": "العنابي (The Maroons)",
+    "year_formed": 1970,
+    "sportsdb_description": "The Qatar national football team (Arabic: منتخب قطر لكرة القدم‎) represents Qatar in international football, and is controlled by the Qatar Football Association.\r\n\r\nThe team has appeared in ten Asian Cup tournaments and won it once in 2019. They play their home games at Khalifa International Stadium and Jassim Bin Hamad Stadium. The latter is considered the home stadium for the team.\r\n\r\nQatar will host the 2022 FIFA World Cup and therefore qualify automatically for what will be their first appearance in the finals. This will be the first time the host nation has never previously competed at the World Cup since the second World Cup in 1934 and the first time that an Arab nation will host the competition.",
+    "social_links": {
+      "facebook": "https://facebook.com/QFA",
+      "twitter": "https://mobile.twitter.com/qfa",
+      "instagram": "https://instagram.com/qfa",
+      "youtube": "https://youtube.com/user/QfaTube"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/vi8ck51559749912.jpg",
+    "coach_bio": "Julen Lopetegui Argote (Spanish pronunciation: ; born 28 August 1966) is a Spanish professional football manager and former footballer who currently is the manager of the Qatar national team.\r\n\r\nA goalkeeper, he played 149 La Liga matches over nine seasons, representing Real Madrid, Logroñés, Barcelona and Rayo Vallecano in the competition. He added 168 appearances in the Segunda División for three clubs, winning one cap for Spain and being a member of the squad at the 1994 World Cup.\r\n\r\nLopetegui started working as a manager in 2003, and spent several years in charge of Spain's youth teams, leading the under-19 and under-21 sides to European titles. He was also head coach of the senior national team for two years, but was dismissed before the start of the 2018 World Cup following the announcement of his agreement to join Real Madrid after the tournament. In club football, he managed Rayo Vallecano, Castilla, Porto, Real Madrid, Sevilla, Wolverhampton Wanderers and West Ham United, winning the 2020 Europa League with Sevilla.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Qatar vs Argentina",
+      "score": "TBD",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "saudi-arabia",
@@ -479,18 +644,14 @@
     "wc_titles": 0,
     "wc_appearances": 7,
     "best_result": "Round of 16 (1994)",
-    "coach": "Roberto Mancini",
+    "coach": "Hervé Renard",
     "captain": "Salem Al-Dawsari",
-    "color_primary": "#006C35",
-    "color_secondary": "#FFFFFF",
+    "color_primary": "#125B34",
+    "color_secondary": "#7EC8AE",
     "group": "H",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "D",
-      "W"
+      "L"
     ],
     "top_scorer_all_time": "Sami Al-Jaber",
     "top_scorer_all_time_goals": 44,
@@ -508,7 +669,26 @@
     "players": [],
     "matches": [],
     "meta_title": "Saudi Arabia World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Saudi Arabia World Cup 2026 squad, fixtures, and team guide. Full Green Falcons profile on FootBrowse."
+    "meta_description": "Saudi Arabia World Cup 2026 squad, fixtures, and team guide. Full Green Falcons profile on FootBrowse.",
+    "sportsdb_id": "136137",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/24xwpq1594125742.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/12u0bb1668856387.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2018-136137-Jersey.png",
+    "nickname": "الأخضر (al-‘Akhḍar",
+    "year_formed": 1957,
+    "sportsdb_description": "The Saudi Arabia national football team (Arabic: المنتخب العربي السعودي لكرة القدم‎) represents Saudi Arabia in men's international football and The team's colours are green and white. Saudi Arabia are known as Al-Suqour (The Falcons) and Al-Akhdhar (The Green), The team represents both FIFA and Asian Football Confederation (AFC).\r\n\r\nConsidered one of Asia's most successful national teams, Saudi Arabia have won the Asian Cup three times (1984, 1988, and 1996), reached a joint record six Asian Cup finals and have qualified for the World Cup on five occasions since debuting at the 1994 tournament.\r\n\r\nIn the 1994 World Cup under the leadership of Jorge Solari, Saudi Arabia beat both Belgium and Morocco in the group stage before falling to Sweden in the Round of 16. Thus Saudi Arabia became the second Arab national football team in history to reach the Round of 16 in a World Cup, after Morocco's Round of 16 elimination in the 1986 FIFA World Cup, and one of the few Asian national football teams (others being Australia, Japan, South Korea, North Korea) to accomplish such a feat to date.",
+    "social_links": {
+      "twitter": "https://twitter.com/saudiff",
+      "youtube": "https://www.youtube.com/channel/UC0txKBtHxetdpcaRcRTmK3g"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/t13d9p1668712967.jpg",
+    "coach_bio": "Hervé Renard (born 30 September 1968) is a French football coach and former professional player who is manager of Saudi Arabia.\r\n\r\nHe has previously been the manager of the Zambian national team, with whom he won the 2012 Africa Cup of Nations; he also won the competition in 2015 Africa Cup of Nations with the Ivory Coast, becoming the first coach to win two Africa Cup of Nations with different countries.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Serbia vs Saudi Arabia",
+      "score": "2-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "argentina",
@@ -523,15 +703,11 @@
     "best_result": "Winner (1978, 1986, 2022)",
     "coach": "Lionel Scaloni",
     "captain": "Lionel Messi",
-    "color_primary": "#74ACDF",
-    "color_secondary": "#FFFFFF",
+    "color_primary": "#43A1D5",
+    "color_secondary": "#D5B048",
     "group": "J",
     "stadium_slug": "metlife-stadium",
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Lionel Messi",
@@ -553,7 +729,29 @@
     ],
     "matches": [],
     "meta_title": "Argentina World Cup 2026 — Squad, Fixtures & Odds | FootBrowse",
-    "meta_description": "Argentina World Cup 2026 squad, fixtures, betting odds and predictions. Defending champions guide on FootBrowse."
+    "meta_description": "Argentina World Cup 2026 squad, fixtures, betting odds and predictions. Defending champions guide on FootBrowse.",
+    "sportsdb_id": "134509",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/r7pn8c1726167467.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/3x3om01725673220.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/luidum1623577538.png",
+    "nickname": "La Albiceleste (The White and Sky Blues)",
+    "year_formed": 1893,
+    "sportsdb_description": "The Argentina national football team (Spanish: Selección de fútbol de Argentina) represents Argentina in men's international football and is administered by the Argentine Football Association, the governing body for football in Argentina. Argentina's home stadium is Estadio Monumental Antonio Vespucio Liberti in Buenos Aires.\r\n\r\nLa Selección (national team), also known as the La Albiceleste, has appeared in five World Cup finals, including the first final in 1930, which they lost 4–2 to Uruguay. Argentina won in their next final appearance in 1978, beating the Netherlands at extra time, 3–1. Argentina won again in 1986, through a 3–2 victory over West Germany, and a tournament campaign led by Diego Maradona. They made the World Cup finals once more in 1990, and lost 1–0 to West Germany following a controversial penalty call in the 87th minute. Argentina, led by Lionel Messi, made their fifth appearance in a World Cup final in 2014, again losing to Germany, 1–0 during extra-time. Argentina's World Cup winning managers are César Luis Menotti in 1978 and Carlos Bilardo in 1986.\r\n\r\nArgentina has also been very successful in the Copa América, winning it 14 times, second only to Uruguay. The team also won the 1992 King Fahd Cup and the 1993 Artemio Franchi Trophy. Argentina is known for having rivalries with Brazil, Uruguay, England, and Germany due to particular occurrences with one another throughout football history.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/AFAOFICIAL/",
+      "twitter": "https://twitter.com/AFA",
+      "instagram": "https://www.instagram.com/afa.oficial",
+      "youtube": "https://www.youtube.com/user/AFAOficial"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/d3jsh91641891885.jpg",
+    "coach_bio": "Lionel Sebastián Scaloni (born 16 May 1978) is an Argentine retired footballer, and is the current manager of the Argentina national team. A player of wide range, he operated as a right back or right midfielder.\r\n\r\nHe spent most of his professional career with Deportivo in Spain, amassing totals of 258 games and 15 goals over 12 seasons in La Liga with three teams. He also played several years in Italy, with Lazio and Atalanta.\r\n\r\nScaloni won seven caps for Argentina between 2003 and 2006, and was part of their 2006 World Cup squad.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Argentina vs Zambia",
+      "score": "5-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "brazil",
@@ -566,17 +764,13 @@
     "wc_titles": 5,
     "wc_appearances": 23,
     "best_result": "Winner (1958, 1962, 1970, 1994, 2002)",
-    "coach": "Dorival Júnior",
+    "coach": "Carlo Ancelotti",
     "captain": "Vinicius Júnior",
-    "color_primary": "#009C3B",
-    "color_secondary": "#FEDD00",
+    "color_primary": "#FFDC02",
+    "color_secondary": "#193375",
     "group": "C",
     "stadium_slug": "sofi-stadium",
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
       "W"
     ],
     "top_scorer_all_time": "Neymar",
@@ -600,7 +794,29 @@
       "france-vs-brazil"
     ],
     "meta_title": "Brazil World Cup 2026 — Squad, Fixtures & Odds | FootBrowse",
-    "meta_description": "Brazil World Cup 2026 squad, group stage fixtures, betting odds and predictions. Full team guide on FootBrowse."
+    "meta_description": "Brazil World Cup 2026 squad, group stage fixtures, betting odds and predictions. Full team guide on FootBrowse.",
+    "sportsdb_id": "134496",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/jl6dip1726167280.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/isajst1668434350.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/wa103u1668434474.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/6h95mg1661436061.png",
+    "nickname": "Seleção",
+    "year_formed": 1916,
+    "sportsdb_description": "The Brazil national football team (Portuguese: Seleção Brasileira de Futebol) represents Brazil in men's international football and is administered by the Brazilian Football Confederation (CBF), the governing body for football in Brazil. They have been a member of FIFA since 1923 and a member of CONMEBOL since 1916.\r\n\r\nBrazil is the most successful national team in the FIFA World Cup, being crowned winner five times: 1958, 1962, 1970, 1994 and 2002. Brazil also has the best overall performance in the World Cup, both in proportional and absolute terms, with a record of 73 victories in 109 matches played, 124 goal difference, 237 points, and 18 losses. Brazil is the only national team to have played in all World Cup editions without any absence nor need for playoffs.\r\n\r\nIn relation to ranking standings Brazil fare well, having the all-time highest average football Elo rating system since 1970, and the fourth all-time peak football Elo Rating established in 1962. In FIFA's own ranking, Brazil holds the record for most Team of the Year wins with 12. Many commentators, experts and former players have considered the Brazil team of 1970 to be the greatest football team ever. Other Brazilian teams are also highly estimated and regularly appear listed among the best teams of all time, such as the Brazil teams of 1958–62, with honorary mentions for the gifted 1982 side.\r\n\r\nBrazil is the only national team to have won the World Cup on four different continents: once in Europe (1958 Sweden), once in South America (1962 Chile), twice in North America (1970 Mexico and 1994 United States) and once in Asia (2002 Korea/Japan). They share with France and Argentina the feat to have won the three most important men's football titles recognized by FIFA: the World Cup, the Confederations Cup, and the Olympic tournament. They also share with Spain a record of 35 consecutive matches undefeated.\r\n\r\nBrazil has many rivals due to its successes, with notable rivalries with Argentina—known as the Superclássico das Américas in Portuguese, Italy—known as the Clásico Mundial in Spanish or the World Derby in English, Uruguay due to the traumatic Maracanazo, France (due to the fact that they usually have difficulties against France in World Cups), and Netherlands, due to the several important meetings between the two teams at World Cups, and the style of play of the two teams being considered similar. Brazil has also produced players considered as the best of the world at their time and among the best in history, such are the cases of Pelé (widely regarded as the greatest footballer of all time), Garrincha, Rivellino, Zico, Romário, Cafu, Roberto Carlos, Ronaldo, Rivaldo, Ronaldinho, Kaká and Neymar. A common quip about football is: \"Os ingleses o inventaram, os brasileiros o aperfeiçoaram\" (The English invented it, the Brazilians perfected it).",
+    "social_links": {
+      "facebook": "https://www.facebook.com/CBF",
+      "twitter": "https://twitter.com/cbf_futebol",
+      "instagram": "https://www.instagram.com/cbf_futebol",
+      "youtube": "https://www.youtube.com/@CBF"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/jbdjl01576946407.jpg",
+    "coach_bio": "Carlo Ancelotti Cavaliere OMRI, Ufficiale OSI (Italian pronunciation: ; born 10 June 1959) is an Italian professional football manager and former player who is the manager of La Liga club Real Madrid. He will become manager of the Brazil national team on 26 May 2025. Nicknamed \"Carletto\" in Italy and \"Don Carlo\" in Spain, he is regarded as one of the greatest football managers of all time. Ancelotti has won the UEFA Champions League five times, a record for a manager, and is the only manager to take part in six Champions League finals. Ancelotti is also the only manager to win league titles in all of Europe's top five leagues. He has won the FIFA Club World Cup three times and has won the UEFA Super Cup five times, a record for a manager.\r\n\r\nAs a player, Ancelotti won two European Cups with AC Milan in 1989 and 1990, making him one of seven people to have won the European Cup/Champions League as both a player and a manager. He played as a midfielder and began his career with Italian club Parma, helping the club get promoted to Serie B in the 1978–79 season. He moved to Roma the following season, where he won a Serie A title and four Coppa Italia titles. He then played for the late 1980s Milan team and won many titles, including two Scudetti and two European Cups. At international level, he had 26 appearances and one goal for the Italy national team. He represented Italy at two FIFA World Cups and at the UEFA Euro 1988, finishing in third place at the 1990 World Cup and being a semi-finalist at the Euro tournament.\r\n\r\nAs a manager, Ancelotti worked for Reggiana, Parma, and Juventus between 1995 and 2001. He then joined Milan in 2001 and went on to win both the 2002–03 Champions League and 2002–03 Coppa Italia. The following season, he won the Scudetto with an Italian record of 82 points. In 2007, he won his second Champions League with Milan. Ancelotti was awarded the Serie A Coach of the Year twice. He resigned from Milan after the 2008–09 season and was the club's longest-serving manager.\r\n\r\nIn 2009, Ancelotti became the manager of Chelsea and won the domestic double of the Premier League and the FA Cup in his first season. In 2011, he became the manager of Paris Saint-Germain; the following season, he won their first Ligue 1 title in 19 years and was awarded joint Ligue 1 Manager of the Year. Following his success in France, Ancelotti became the manager of Real Madrid. In his first season, he led Real Madrid to their tenth Champions League title and a Copa del Rey title. Despite winning more trophies with the club and being awarded the Miguel Muñoz Trophy in 2014–15 for the best manager in La Liga, Ancelotti was dismissed from Real Madrid in May 2015. He became the manager of Bayern Munich in 2016 and won the Bundesliga title in his first season. Following stints at Napoli and Everton between 2018 and 2021, he returned to Real Madrid in the summer of 2021, where he won two La Liga–Champions League doubles in 2022 and 2024.",
+    "last_match": {
+      "date": "2026-04-01",
+      "event": "Brazil vs Croatia",
+      "score": "3-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "ecuador",
@@ -615,16 +831,12 @@
     "best_result": "Round of 16 (2006)",
     "coach": "Sebastián Beccacece",
     "captain": "Enner Valencia",
-    "color_primary": "#FFD100",
-    "color_secondary": "#003087",
+    "color_primary": "#FFCE00",
+    "color_secondary": "#002255",
     "group": "E",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Enner Valencia",
     "top_scorer_all_time_goals": 40,
@@ -642,7 +854,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Ecuador World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Ecuador World Cup 2026 squad, fixtures, and team guide. Full La Tri profile on FootBrowse."
+    "meta_description": "Ecuador World Cup 2026 squad, fixtures, and team guide. Full La Tri profile on FootBrowse.",
+    "sportsdb_id": "134507",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/47wv2y1591989301.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/suv9my1591989309.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/u3kj4o1668512329.png",
+    "nickname": "La Tri (The Tri)",
+    "year_formed": 1962,
+    "sportsdb_description": "The Ecuador national football team (Spanish: Selección de fútbol de Ecuador) has represented Ecuador in men's international football since 1938, and is controlled by the Ecuadorian Football Federation (Federación Ecuatoriana de Fútbol). They joined FIFA in 1926 and CONMEBOL a year later.\r\n\r\nDiscarding an invitation to participate in the inaugural 1930 FIFA World Cup held in Uruguay, Ecuador didn't make their tournament debut until 2002. After finishing above Brazil and Uruguay in the standings, the qualifying campaign marked the emergence of several players, such as Agustín Delgado, Álex Aguinaga, Iván Hurtado, Ulises de la Cruz and Iván Kaviedes, who would set the stage for Ecuador's achievements in the next decade. Having reached the Round of 16 in a memorable 2006 World Cup campaign, they were expected to deliver at the 2007 Copa América but were eliminated in the group stage. Along with Venezuela, they have not won the continental tournament. La Tri's best performance was fourth in 1959 and 1993, both times on home soil.\r\n\r\nEcuador plays the majority of their home matches at the Estadio Olímpico Atahualpa in Quito. It is set to be demolished in late-2020 to make way for a new and more modern venue.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/fefecuador",
+      "twitter": "https://twitter.com/fefecuador",
+      "instagram": "https://www.instagram.com/fefecuador",
+      "youtube": "https://www.youtube.com/user/CanalFEF"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/olbhct1743391593.jpg",
+    "coach_bio": "Sebastián Andrés Beccacece (born 17 December 1980) is an Argentine professional football manager. He is the current head coach of the Ecuador national team.",
+    "last_match": {
+      "date": "2025-11-19",
+      "event": "Ecuador vs New Zealand",
+      "score": "2-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "paraguay",
@@ -657,16 +890,12 @@
     "best_result": "Quarter-finals (2010)",
     "coach": "Gustavo Alfaro",
     "captain": "Gustavo Gómez",
-    "color_primary": "#D52B1E",
+    "color_primary": "#FF000F",
     "color_secondary": "#009900",
     "group": "D",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
-      "W"
+      "D"
     ],
     "top_scorer_all_time": "Roque Santa Cruz",
     "top_scorer_all_time_goals": 32,
@@ -684,7 +913,26 @@
     "players": [],
     "matches": [],
     "meta_title": "Paraguay World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Paraguay World Cup 2026 squad, fixtures, and team guide. Full Los Guaraníes profile on FootBrowse."
+    "meta_description": "Paraguay World Cup 2026 squad, fixtures, and team guide. Full Los Guaraníes profile on FootBrowse.",
+    "sportsdb_id": "136471",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/khgav41553419195.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/5ihup51623589446.png",
+    "year_formed": 1919,
+    "sportsdb_description": "The Paraguay national football team (Spanish: Seléccion de fútbol de Paraguay) represents Paraguay in men's international football competitions, and are controlled by the Paraguayan Football Association (Asociación Fútbol de Paraguay). Paraguay is a member of CONMEBOL. The Albirroja has qualified for eight FIFA World Cup competitions (1930, 1950, 1958, 1986, 1998, 2002, 2006 and 2010), with their best performance coming in 2010 when they reached the quarter-finals. A regular participant at the Copa América, Paraguay have been crowned champions of the competition on two occasions (in 1953 and 1979). Paraguay's highest FIFA World Rankings was 8th (March 2001) and their lowest was 103 (May 1995). Paraguay was awarded second place with Best Move of the Year in 1996 for their rise in the FIFA Rankings.\r\n\r\nThe national team's most successful period was under the coaching of Argentine Gerardo Martino, who was awarded with the South American Coach of the Year in 2007 and took Paraguay to the quarter-final stages of a FIFA World Cup competition for the first time in history (in 2010) and also to the final of the 2011 Copa América, where Paraguay finished as runners-up. In the entire national team's history at the FIFA World Cup, both Carlos Gamarra and José Luis Chilavert hold the distinction of being selected as part of the All-Star Team, being for the 1998 edition. Paulo da Silva holds the most appearances for the national team with 150 matches and Roque Santa Cruz is the all-time leading goal scorer with 32 goals. Denis Caniza, who was present with the national team from 1996 to 2010, is the only player to have represented Paraguay in four consecutive FIFA World Cup competitions (1998, 2002, 2006, 2010).\r\n\r\nWhile Paraguay is not a major football force in South America, Paraguay is also a respected side in the CONMEBOL, partly for having won two Copa América titles and a major participant in the FIFA World Cup, having reached the quarter-finals once. Paraguay is also noted for its distinctive style of play, while most of South American teams are renowned for being skillful and stylish, Paraguay sets aside by a very conservative defensive counterattack style.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/apf1906/",
+      "twitter": "https://twitter.com/APFOficial",
+      "instagram": "https://www.instagram.com/apfoficial",
+      "youtube": "https://www.youtube.com/channel/UCl3ws3H-mW0Ug9cWJEfBn3Q"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/kt07ch1668777359.jpg",
+    "coach_bio": "Gustavo Julio Alfaro (born 14 August 1962) is an Argentine former footballer and currently a manager for Ecuador national football team.\r\n\r\nAlfaro had a short career as a footballer, he was captain of the Atlético de Rafaela, with which he won promotion to the Argentine Primera División in 1989. Alfaro retired from football in 1992 to concentrate on his coaching career. He won his first league title with Arsenal de Sarandí in the 2012 Clausura.",
+    "last_match": {
+      "date": "2025-09-04",
+      "event": "Paraguay vs Ecuador",
+      "score": "0-0",
+      "competition": "World Cup Qualifying CONMEBOL"
+    }
   },
   {
     "slug": "uruguay",
@@ -699,15 +947,11 @@
     "best_result": "Winner (1930, 1950)",
     "coach": "Marcelo Bielsa",
     "captain": "José María Giménez",
-    "color_primary": "#5BBFED",
+    "color_primary": "#55B5E5",
     "color_secondary": "#FFFFFF",
     "group": "H",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Luis Suárez",
@@ -726,7 +970,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Uruguay World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Uruguay World Cup 2026 squad, fixtures, and team guide. Full La Celeste profile on FootBrowse."
+    "meta_description": "Uruguay World Cup 2026 squad, fixtures, and team guide. Full La Celeste profile on FootBrowse.",
+    "sportsdb_id": "134504",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/6vjbr11726167756.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2018-134504-Jersey.png",
+    "nickname": "La Celeste (The Sky Blue)",
+    "year_formed": 1901,
+    "sportsdb_description": "The Uruguay national football team (Spanish: Selección de fútbol de Uruguay) represents Uruguay in international football, and is controlled by the Uruguayan Football Association, the governing body for football in Uruguay. The current head coach is Óscar Tabárez. The Uruguayan team is commonly referred to as La Celeste (The Sky Blue). They have won the Copa América 15 times, the most successful national team in the tournament, the most recent title being the 2011 edition. The team has won the FIFA World Cup twice, including the first World Cup in 1930 as hosts, defeating Argentina 4–2 in the final. They won their second title in 1950, upsetting host Brazil 2–1 in the final match, which received an attendance higher than any football match ever.\r\n\r\nThey have won Gold medals at the Olympic football tournament twice, in 1924 and 1928, before the creation of the World Cup. Uruguay also won the 1980 Mundialito, a tournament among former World Cup champions. In total, Uruguay have won 20 official titles, a world record for the most international titles held by any country.\r\n\r\nTheir success is amplified by the fact that the nation has a very small population of around 3.4 million inhabitants (2011 est.). Uruguay is by far the smallest country in the world to have won a World Cup in terms of population, 1.75 million inhabitants in 1930. The second-smallest country, by population, to have won the World Cup is Argentina with a population of nearly 28 million people in 1978. Uruguay is also the smallest country ever to win any World Cup medals; only six FIFA member nations with a currently smaller population than Uruguay's have ever qualified to any World Cup: Northern Ireland (three times), Slovenia (twice), Wales, Jamaica, Trinidad and Tobago and Iceland.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/aufoficial/",
+      "twitter": "https://twitter.com/AUFOficial",
+      "instagram": "https://www.instagram.com/aufoficial",
+      "youtube": "https://www.youtube.com/user/AufOficial"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/r5f1301549543465.jpg",
+    "coach_bio": "Marcelo Alberto Bielsa Caldera (nicknamed El Loco Bielsa, meaning \"The Crazy Bielsa\"; born 21 July 1955) is an Argentine professional football manager who was most recently the head coach of Premier League club Leeds United. He is a former player and played as a defender for Newell's Old Boys, Instituto and Argentino de Rosario.\r\n\r\nBielsa played as a defender in Newell's Old Boys' First Division team, but retired when he was 25 to focus on coaching. Bielsa has managed several football clubs and also the national teams of Argentina and Chile. He developed his career as coach of Newell's Old Boys where he won several titles in the early 1990s, before moving to Mexico in 1992, briefly coaching Club Atlas and Club América. Bielsa returned to Argentina in 1997 to manage Vélez Sarsfield, leading them to the 1998 league title (Clausura).\r\n\r\nWith Chile, he achieved cult status due to the improved results of the national team under his leadership. His personality and gestures during his stint in Chile captured the attention of media and unleashed a series of minor controversies both in sports and politics. He had a two year-spell in Spain at Athletic Bilbao between 2011 and 2013, leading them to domestic and continental cup finals in the first season, though they lost both. In August 2015, Bielsa resigned as coach of Marseille after just over a year at the French club.\r\n\r\nIn June 2018, Bielsa was appointed manager of then Championship club Leeds United, leading the club to promotion back to the Premier League in 2020 after a 16-year absence as a result of winning the 2019–20 EFL Championship. Leeds United is the club at which he has spent the most time as manager in his career; taking charge of 170 games before departing in February 2022.",
+    "last_match": {
+      "date": "2025-10-10",
+      "event": "Uruguay vs Dominican Republic",
+      "score": "1-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "colombia",
@@ -746,11 +1010,7 @@
     "group": "K",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "W",
-      "D"
+      "L"
     ],
     "top_scorer_all_time": "Radamel Falcao",
     "top_scorer_all_time_goals": 36,
@@ -768,7 +1028,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Colombia World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Colombia World Cup 2026 squad, fixtures, and team guide. Full Los Cafeteros profile on FootBrowse."
+    "meta_description": "Colombia World Cup 2026 squad, fixtures, and team guide. Full Los Cafeteros profile on FootBrowse.",
+    "sportsdb_id": "134501",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/216ygz1691180247.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/mxtxop1670063590.png",
+    "nickname": "Los Cafeteros (The Coffee Growers)",
+    "year_formed": 1938,
+    "sportsdb_description": "The Colombia national football team (Spanish: Selección de fútbol de Colombia) represents Colombia in men's international football and is managed by the Colombian Football Federation, the governing body for football in Colombia. They are an member of CONMEBOL and is currently ranked 10th in the FIFA World Rankings. The team are nicknamed Los Cafeteros due to the coffee production in their country.\r\n\r\nSince the mid-1980s, the national team has been a symbol of fighting the country's negative reputation. This has made the sport popular and made the national team a sign of nationalism, pride, and passion for many Colombians worldwide. Colombia is known for having a passionate fan base.\r\n\r\nThe Colombian team has participated in six World Cups (1962, 1990, 1994, 1998, 2014 and 2018). In Brazil 2014 he achieved his best participation coming to the quarter-finals of that event and was in fifth position of the tournament. Its greatest international achievement is the Copa América, won in 2001, with Colombia hosting the event; it has also reached a runner-up in 1975 and reached semi-finals in 1987, 1991, 1993, 1995, 2004 and 2016. On the other hand, the team managed to make outstanding appearances at the continental level, obtaining from the Central American and Caribbean Games the gold and bronze medals in 1946 and 1938 respectively, and the Bolivarian Games the gold medal in 1951 and the silver medal in 1961, 1973 and 1981.\r\n\r\nColombia had its strongest period during the 1990s. A 1993 match resulted in a 5–0 win over Argentina which began a special \"mutual respect\" rivalry between both nations. The goalkeeper René Higuita achieved fame from his eccentric scorpion kick clearance against England at Wembley Stadium in 1995. Stars from Colombia's team included Carlos Valderrama and Faustino Asprilla. During this era Colombia qualified for 1990, 1994, and 1998 World Cups, only reaching the second round in 1990. Following the murder of Andrés Escobar after the 1994 World Cup, Colombia's team faded in the latter half of the 1990s. They were the champions of the 2001 Copa América, which they hosted and set a new Copa América record of conceding no goals and winning each match. Prior to that success, they were runners-up to Peru in the 1975 Copa América. In total, Colombia has gained a top-four result in seven Copa Américas. Colombia was the first team to win FIFA best mover in 1993 where the achievement was first introduced and the second team after Croatia to win it twice in 2012.\r\n\r\nColombia missed three World Cups between 2002 and 2010. During the 2014 World Cup qualifiers, Colombia showed improvement over the 2011 Copa América, bringing its rank up to the top ten for the first time since 2002 and into the top five consistently for the first time since 2004. After a 16-year-long wait, in 2014 Colombia finally returned to the World Cup, where they were able to advance to the quarter-finals, the furthest Colombia has ever made it in a World Cup. Colombia's midfielder James Rodríguez won two awards, the Golden Boot for most goals (6) and Best Goal of the Tournament.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/FCFSeleccionColPage/",
+      "twitter": "https://twitter.com/FCFSeleccionCol",
+      "instagram": "https://www.instagram.com/fcfseleccioncol"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/gufmmj1758580605.jpg",
+    "coach_bio": "Néstor Gabriel Lorenzo (born 26 February 1966) is an Argentine football manager and former player who played as a defender. He is the current head coach of the Colombia national team.\r\n\r\nLorenzo played for Argentinos Juniors, A.S. Bari, Swindon Town, Club Atlético San Lorenzo de Almagro, Ferrocarril Oeste and Boca Juniors. Lorenzo also represented Argentina in the 1990 FIFA World Cup in Italy, including the final which the Argentines lost to Germany.",
+    "last_match": {
+      "date": "2026-03-29",
+      "event": "Colombia vs France",
+      "score": "1-3",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "morocco",
@@ -784,14 +1064,10 @@
     "coach": "Walid Regragui",
     "captain": "Romain Saïss",
     "color_primary": "#C1272D",
-    "color_secondary": "#006233",
+    "color_secondary": "#17A376",
     "group": "C",
     "stadium_slug": "att-stadium",
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Marouane Chamakh",
@@ -814,7 +1090,29 @@
       "france-vs-morocco"
     ],
     "meta_title": "Morocco World Cup 2026 — Squad, Fixtures & Odds | FootBrowse",
-    "meta_description": "Morocco World Cup 2026 squad, group stage fixtures, betting odds and predictions. Full Atlas Lions team guide on FootBrowse."
+    "meta_description": "Morocco World Cup 2026 squad, group stage fixtures, betting odds and predictions. Full Atlas Lions team guide on FootBrowse.",
+    "sportsdb_id": "136139",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/hbmwkj1731791275.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/4yyad31742006394.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/ycfwoq1742006397.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2018-136139-Jersey.png",
+    "nickname": "Les Lions de l",
+    "year_formed": 1957,
+    "sportsdb_description": "The Morocco national football team, nicknamed Les Lions de l'Atlas (French: Équipe du Maroc de football) represents Morocco in international men's football and it is controlled by the Royal Moroccan Football Federation, also known as FRMF, or in French: Fédération Royale Marocaine de football. the governing body for football in Morocco, The team represents both Confederation of African Football and FIFA.\r\n\r\nWinners of the African Nations Cup in 1976, they were the first African team to win a group at the World Cup, which they did in 1986, finishing ahead of Portugal, Poland, and England. They were also the first African team to make it to the second round, barely losing to eventual runners-up West Germany 1–0 in 1986.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/officielfrmf/",
+      "twitter": "https://twitter.com/FRMFOFFICIEL",
+      "instagram": "https://www.instagram.com/equipedumaroc",
+      "youtube": "https://www.youtube.com/channel/UCbQlejA3nCVMq-9qw-oZEtQ"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/m9is5p1639670485.jpg",
+    "coach_bio": "Walid Regragui (born 23 September 1975) is a Moroccan football manager and a retired professional footballer who played as a defender. He is the head coach of the Morocco national football team.\r\nBorn in France, Regragui was a full international for Morocco. Clubs he played for include Toulouse, AC Ajaccio, Grenoble and Racing Santander. In the summer of 2009, he moved from Grenoble to Moroccan side Moghreb Tétouan for his last playing career.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Morocco vs Paraguay",
+      "score": "2-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "tunisia",
@@ -834,10 +1132,6 @@
     "group": "F",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Issam Jemâa",
@@ -856,7 +1150,22 @@
     "players": [],
     "matches": [],
     "meta_title": "Tunisia World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Tunisia World Cup 2026 squad, fixtures, and team guide. Full Eagles of Carthage profile on FootBrowse."
+    "meta_description": "Tunisia World Cup 2026 squad, fixtures, and team guide. Full Eagles of Carthage profile on FootBrowse.",
+    "sportsdb_id": "136142",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/7r89rg1526727277.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/ghk06z1742004672.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/8l8dfh1742004674.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/0zh4na1640339283.png",
+    "year_formed": 1957,
+    "sportsdb_description": "The Tunisia national football team (Arabic: منتخب تونس لكرة القدم‎), nicknamed Les Aigles de Carthage (The Eagles of Carthage or The Carthage Eagles), is the national team of Tunisia and is controlled by the Tunisian Football Federation. They have qualified for four FIFA World Cups, the first one in 1978, but have yet to make it out of the first round. Nevertheless, they created history in that 1978 tournament in Argentina by becoming the first African side to win a World Cup match, beating Mexico 3–1. They also held defending champions West Germany to a goalless draw before bowing out. They have since qualified for three tournaments in succession, in 1998, 2002, 2006, and have qualified for the 2018 finals.\r\n\r\nTunisia also won the 2004 Africa Cup of Nations, when they hosted the tournament.",
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/7gtemx1668865943.jpg",
+    "coach_bio": "Jalel Kadri (born on 14 December 1971), is a Tunisian football coach who is currently the head coach of the Tunisian national football team.\r\nHis first coaching positions include AS Djerba, AS Kasserine, AS Gabès and US Monastir. During the 2008–09 season, he was head coach at ES Zarzis, then from spring to summer 2010 at EGS Gafsa, and from November 2011 to May 2012 at Al-Ansar FC. He then coached ES Beni-Khalled from May to September 2012. \r\n On 30 January he was appointed coach after being eliminated from the quarter-finals of the Africon against Burkina Faso. In the process, he leads the team to qualify for the 2022 FIFA World Cup.",
+    "last_match": {
+      "date": "2025-12-23",
+      "event": "Tunisia vs Uganda",
+      "score": "3-1",
+      "competition": "African Cup of Nations"
+    }
   },
   {
     "slug": "egypt",
@@ -871,16 +1180,12 @@
     "best_result": "Group stage",
     "coach": "Hossam Hassan",
     "captain": "Mohamed Salah",
-    "color_primary": "#CC2229",
-    "color_secondary": "#FFFFFF",
+    "color_primary": "#C8102E",
+    "color_secondary": "#000000",
     "group": "G",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
-      "W"
+      "D"
     ],
     "top_scorer_all_time": "Hossam Hassan",
     "top_scorer_all_time_goals": 69,
@@ -898,7 +1203,20 @@
     "players": [],
     "matches": [],
     "meta_title": "Egypt World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Egypt World Cup 2026 squad, fixtures, and team guide. Full Pharaohs profile on FootBrowse."
+    "meta_description": "Egypt World Cup 2026 squad, fixtures, and team guide. Full Pharaohs profile on FootBrowse.",
+    "sportsdb_id": "136138",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/uheyzo1742102234.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/0ewzff1740102372.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/i0szwr1740102374.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/2018-136138-Jersey.png",
+    "year_formed": 1920,
+    "sportsdb_description": "The Egypt national football team (Egyptian Arabic: مُنتخب مَــصـر‎, Montakhab Masr), known as The Pharaohs, represents Egypt in men's International association football and is governed by the Egyptian Football Association (EFA) founded in 1921, the governing body for football in Egypt. The team's historical stadium is Cairo International Stadium but since 2012 the team has played most home games at Borg El Arab Stadium of Alexandria. The current team manager is Héctor Cúper.\r\n\r\nEgypt is the most successful national team in Africa, having won the Africa Cup of Nations a record seven times: the inaugural edition in 1957 and on home soil in 1959, as well as the 1986 edition, Burkina Faso in 1998, 2006, Ghana in 2008 and Angola in 2010 edition. Egypt has also been as high as ninth in the FIFA World Rankings, making the team one of only three African national teams to enter the world's top ten. Despite their respectable continental record, Egypt has so far made only two appearances in the World Cup (in 1934 and 1990), failing to win a game on both occasions. The Egypt national team was the first African and Middle Eastern team to qualify for the World Cup.\r\n\r\nEgypt qualified for the 2017 Africa Cup of Nations and eventually finished runners-up after losing to Cameroon in the final. The tournament helped Egypt rise from 60 in December 2016 to 19 in May 2017 in the FIFA World Rankings.\r\n\r\nOn October 8, 2017, Egypt qualified for the 2018 World Cup, their first appearance for 28 years and third overall.",
+    "last_match": {
+      "date": "2026-01-17",
+      "event": "Egypt vs Nigeria",
+      "score": "0-0",
+      "competition": "African Cup of Nations"
+    }
   },
   {
     "slug": "algeria",
@@ -913,16 +1231,12 @@
     "best_result": "Round of 16 (2014)",
     "coach": "Djamel Belmadi",
     "captain": "Riyad Mahrez",
-    "color_primary": "#006233",
+    "color_primary": "#00792c",
     "color_secondary": "#FFFFFF",
     "group": "J",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "W"
+      "D"
     ],
     "top_scorer_all_time": "Islam Slimani",
     "top_scorer_all_time_goals": 42,
@@ -940,7 +1254,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Algeria World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Algeria World Cup 2026 squad, fixtures, and team guide. Full Desert Foxes profile on FootBrowse."
+    "meta_description": "Algeria World Cup 2026 squad, fixtures, and team guide. Full Desert Foxes profile on FootBrowse.",
+    "sportsdb_id": "134516",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/rrwpry1455460218.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/9faygn1725671229.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/jiavvu1725673094.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/rwxs7t1616674744.png",
+    "nickname": "الأفناك  (The Fennecs)",
+    "year_formed": 1964,
+    "sportsdb_description": "The Algeria national football team (Arabic: منتخب الجزائر لكرة القدم‎) represents Algeria in men's international football and it is governed by the Algerian Football Federation. The team plays their home matches at the Mustapha Tchaker Stadium in Blida and Stade du 5 Juillet in Algiers. Algeria joined FIFA on 1 January 1964, a year and a half after gaining independence. The team is a member of the FIFA and Confederation of African Football (CAF).\r\n\r\nThe North African team has qualified for four World Cups in 1982, 1986, 2010 and 2014. Algeria has won the African Cup of Nations twice, once in 1990, when they hosted the tournament, and again in Egypt in 2019. At the 2014 World Cup in Brazil, Algeria became the first African team to score four goals in a match at the World Cup, against South Korea.\r\n\r\nThe traditional rivals of Algeria are mainly Morocco, Tunisia and Egypt, Algeria has also had very competitive matches against Nigeria, especially in the 1980s during Algeria's best football generation, against Mali due to sharing common border and a long-standing competitive rivalry, and against Senegal, where Algeria's first global success began. For the Algerians, their biggest victory was their 2–1 win against West Germany during the 1982 FIFA World Cup in which the African nation shocked the world. Algeria has produced many talented players throughout time and is considered one of the best teams in African Football history.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/Lesverts.faf",
+      "twitter": "https://twitter.com/lesverts",
+      "instagram": "https://instagram.com/lesverts.faf",
+      "youtube": "https://youtube.com/channel/UCC3irKw3dbJgiL-V_ksFLVQ"
+    },
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Algeria vs Uruguay",
+      "score": "0-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "ghana",
@@ -955,15 +1289,11 @@
     "best_result": "Quarter-finals (2010)",
     "coach": "Otto Addo",
     "captain": "Thomas Partey",
-    "color_primary": "#006B3F",
-    "color_secondary": "#FCD116",
+    "color_primary": "#ffffff",
+    "color_secondary": "#D40023",
     "group": "L",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Asamoah Gyan",
@@ -982,7 +1312,22 @@
     "players": [],
     "matches": [],
     "meta_title": "Ghana World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Ghana World Cup 2026 squad, fixtures, and team guide. Full Black Stars profile on FootBrowse."
+    "meta_description": "Ghana World Cup 2026 squad, fixtures, and team guide. Full Black Stars profile on FootBrowse.",
+    "sportsdb_id": "134513",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/j589xw1751526124.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/jhalsc1740105058.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/bww3ep1740105057.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/yqpwpx1424078616.png",
+    "year_formed": 1950,
+    "sportsdb_description": "The Ghana national football team represents Ghana in international association football and has done so since the 1950s. The team is nicknamed the Black Stars after the Black Star of Africa in the flag of Ghana. It is administered by the Ghana Football Association, the governing body for football in Ghana and the oldest football association in Africa (founded in 1920). Prior to 1957, the team played as the Gold Coast.\r\n\r\nAlthough the team qualified for the senior FIFA World Cup for the first time in 2006, they had qualified for four Olympic Games Football Tournaments when the tournament was still a full senior national team competition; their best achievement was the third position at the 1992 Summer Olympics. The team has won the Africa Cup of Nations four times (in 1963, 1965, 1978, and 1982) and has been runner-up five times (in 1968, 1970, 1992, 2010, and 2015). After going through 2005 unbeaten, the Ghana national football team won the FIFA Best Mover of the Year Award and reached the second round of the 2006 FIFA World Cup. At the 2010 FIFA World Cup in South Africa, they became only the third African team to reach the World Cup quarter-finals, and in 2014 they competed in their third consecutive World Cup.",
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/t545cz1668798188.jpg",
+    "coach_bio": "Nana Otto Addo (born 9 June 1975) is a German-born Ghanaian football manager and former player. He is currently the manager of the Ghana national football team, and works as a talent coach for Borussia Dortmund.",
+    "last_match": {
+      "date": "2025-10-12",
+      "event": "Ghana vs Comoros",
+      "score": "1-0",
+      "competition": "World Cup Qualifying CAF"
+    }
   },
   {
     "slug": "cape-verde",
@@ -997,16 +1342,12 @@
     "best_result": "Debut",
     "coach": "Bubista",
     "captain": "Ryan Mendes",
-    "color_primary": "#003893",
-    "color_secondary": "#CF2027",
+    "color_primary": "#003DA5",
+    "color_secondary": "#FFD100",
     "group": "H",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "W"
+      "D"
     ],
     "top_scorer_all_time": "Ryan Mendes",
     "top_scorer_all_time_goals": 25,
@@ -1024,7 +1365,24 @@
     "players": [],
     "matches": [],
     "meta_title": "Cape Verde World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Cape Verde World Cup 2026 squad, fixtures, and debut guide. Full Blue Sharks profile on FootBrowse."
+    "meta_description": "Cape Verde World Cup 2026 squad, fixtures, and debut guide. Full Blue Sharks profile on FootBrowse.",
+    "sportsdb_id": "136477",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/5jn0o71593280376.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/osoruq1740100324.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/bxr9ge1740100326.jpg",
+    "year_formed": 1978,
+    "sportsdb_description": "The Cape Verde national football team (Portuguese: Seleção nacional de futebol de Cabo Verde) represents Cape Verde in men's international association football and is controlled by the Cape Verdean Football Federation. The team has never qualified for FIFA World Cups and The team has qualified for two tournaments of Africa Cup of Nations, 2013 and 2015, They made their first appearance in 2013 and The team also represents both FIFA and Confederation of African Football (CAF).",
+    "social_links": {
+      "facebook": "https://pt-br.facebook.com/federacaocaboverdianafutebol/",
+      "twitter": "https://twitter.com/fcfcomunica",
+      "youtube": "https://www.youtube.com/channel/UCrgwITA93fV_H_cZTpkFg3w"
+    },
+    "last_match": {
+      "date": "2026-03-30",
+      "event": "Cape Verde vs Finland",
+      "score": "1-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "senegal",
@@ -1039,16 +1397,12 @@
     "best_result": "Quarter-finals (2002)",
     "coach": "Aliou Cissé",
     "captain": "Sadio Mané",
-    "color_primary": "#00853F",
-    "color_secondary": "#FDEF42",
+    "color_primary": "#11A335",
+    "color_secondary": "#FFDC00",
     "group": "I",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Sadio Mané",
     "top_scorer_all_time_goals": 37,
@@ -1066,7 +1420,20 @@
     "players": [],
     "matches": [],
     "meta_title": "Senegal World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Senegal World Cup 2026 squad, fixtures, and team guide. Full Lions of Teranga profile on FootBrowse."
+    "meta_description": "Senegal World Cup 2026 squad, fixtures, and team guide. Full Lions of Teranga profile on FootBrowse.",
+    "sportsdb_id": "136143",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/wh8dya1526727459.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/5farzr1668513075.png",
+    "year_formed": 1959,
+    "sportsdb_description": "The Senegal national football team, nicknamed the Lions of Teranga, is the national team of Senegal and is controlled by the Fédération Sénégalaise de Football. It made its first FIFA World Cup appearance in 2002 and caused a huge upset by defeating World and European champions France 1–0 in the tournament's opening game.\r\n\r\nSenegal eventually reached the quarter-finals of the 2002 World Cup, one of only three African teams to do so (the first being Cameroon in 1990; the other being Ghana in 2010). In the group, after defeating France, they drew with Denmark and Uruguay, and beat Sweden in extra time in the round of 16, before losing to Turkey in the quarter-finals. Senegal qualified for the 2018 World Cup after defeating South Africa 0-2 on 10 November 2017. This marks Senegal's second qualification to the World Cup in their history.\r\n\r\nSenegal's first appearance in the Africa Cup of Nations was in 1965, when Senegal, after finishing second in their group, lost 1–0 to the Ivory Coast to finish in fourth place. In the 1990 Africa Cup of Nations, Senegal again finished fourth. Senegal hosted the 1992 tournament, in which, after qualifying for the quarter-finals by finishing second in their group, Senegal lost 1–0 to Cameroon. Senegal's best finish in the tournament came in 2002, when they lost the final on a penalty shootout after drawing 0–0 with Cameroon.\r\n\r\nSenegal has won the Amilcar Cabral Cup, a regional soccer tournament for West African nations, eight times, more than any other country, with Guinea in second place with five titles.",
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/rzq1tk1644576744.jpg",
+    "coach_bio": "Aliou Cissé (born 24 March 1976) is a Senegalese football coach and former player who is the manager of the Senegal national team. Cissé is best known for being the first Senegal captain to reach the Africa Cup Of nations final in 2002 and the first Senegal manager to win the tournament in 2022 after reaching the final in 2019.\r\n\r\nHaving begun his career in France, he later played for English clubs Birmingham City and Portsmouth. Cissé was a defensive midfielder who also, on occasion, played at centre back.\r\n\r\nCissé has been the head coach of Senegal since 2015, having briefly taken charge of them following Amara Traoré's sacking, in a caretaker role in 2012. He was also the assistant coach of the under-23 side from 2012 to 2013, becoming head coach from 2013 to 2015.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Senegal vs Gambia",
+      "score": "3-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "south-africa",
@@ -1081,16 +1448,12 @@
     "best_result": "Group stage",
     "coach": "Hugo Broos",
     "captain": "Percy Tau",
-    "color_primary": "#007A4D",
-    "color_secondary": "#FFB612",
+    "color_primary": "#FFB81C",
+    "color_secondary": "#007749",
     "group": "A",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
-      "D"
+      "L"
     ],
     "top_scorer_all_time": "Benni McCarthy",
     "top_scorer_all_time_goals": 31,
@@ -1108,7 +1471,17 @@
     "players": [],
     "matches": [],
     "meta_title": "South Africa World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "South Africa World Cup 2026 squad, fixtures, and team guide. Full Bafana Bafana profile on FootBrowse."
+    "meta_description": "South Africa World Cup 2026 squad, fixtures, and team guide. Full Bafana Bafana profile on FootBrowse.",
+    "sportsdb_id": "136482",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/xjz9j91553368824.png",
+    "year_formed": 1924,
+    "sportsdb_description": "The South Africa men's national football team represents South Africa in association football and is controlled by the South African Football Association, the governing body for football in South Africa. South Africa's home ground is FNB Stadium, so named due to a naming rights deal, in Johannesburg. The team is currently under the charge of Stuart Baxter, who was appointed as coach on 5 April 2017. The team's greatest achievement was winning the Africa Cup of Nations at home in 1996.\r\n\r\nHaving played their first match in 1924, they returned to the world stage in 1992, after 16 years of being banned from FIFA, and 40 years of effective suspension due to the apartheid system. South Africa became the first African nation to host the FIFA World Cup when it was granted host status for the 2010 edition. The team's Siphiwe Tshabalala was also the first player to score in this World Cup during the opening game against Mexico, which was followed by an iconic Macarena-style goal celebration from five South African players. Despite defeating France 2–1 in their final game of the Group Stage, they failed to progress from the first round of the tournament, becoming the first host nation in the history of the FIFA World Cup to exit in the group stage. Despite this, the team ranked 20th out of 32 sides, ranking higher than 12 teams who qualified.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "South Africa vs Panama",
+      "score": "1-2",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "ivory-coast",
@@ -1123,15 +1496,11 @@
     "best_result": "Group stage",
     "coach": "Emerse Faé",
     "captain": "Franck Kessié",
-    "color_primary": "#F77F00",
-    "color_secondary": "#009A44",
+    "color_primary": "#F5821F",
+    "color_secondary": "#26AD90",
     "group": "E",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Didier Drogba",
@@ -1150,7 +1519,20 @@
     "players": [],
     "matches": [],
     "meta_title": "Ivory Coast World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Ivory Coast World Cup 2026 squad, fixtures, and team guide. Full Elephants profile on FootBrowse."
+    "meta_description": "Ivory Coast World Cup 2026 squad, fixtures, and team guide. Full Elephants profile on FootBrowse.",
+    "sportsdb_id": "134502",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/rwxuuu1455465643.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/nm5l8x1740105862.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/wob0x21740105865.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/iu11wd1735339426.png",
+    "year_formed": 1960,
+    "sportsdb_description": "The Ivory Coast national football team (French: Équipe de Côte d'Ivoire de football), nicknamed Les Éléphants (The Elephants), represents Ivory Coast in international football and is controlled by the Ivorian Football Federation (FIF). Until 2005, their greatest accomplishment was winning the 1992 African Cup of Nations against Ghana on penalties at the Stade Leopold Senghor in Dakar, Senegal. Their second success came in the 2015 edition, again defeating Ghana on penalties at the Estadio de Bata in Bata, Equatorial Guinea.\r\n\r\nThe team qualified for three consecutive FIFA World Cups between 2006 and 2014, but has never advanced beyond the group stage.\r\n\r\nIvory Coast has produced several notable players who have played in Europe, including Didier Drogba, Yaya Touré, Emmanuel Eboué, Wilfried Bony, Seydou Doumbia, Gervinho, Eric Bailly, Serge Aurier, Wilfried Zaha, Salomon Kalou and Kolo Touré. Having become a fixed presence in the World Cup (since 2006) and having won the 2015 Africa Cup of Nations, the team is generally considered to be one of the best African teams of the last decade. This is also confirmed by FIFA Ranking in the reference period, never been so high for Les Éléphants.",
+    "last_match": {
+      "date": "2026-01-06",
+      "event": "Ivory Coast vs Burkina Faso",
+      "score": "3-0",
+      "competition": "African Cup of Nations"
+    }
   },
   {
     "slug": "england",
@@ -1165,16 +1547,12 @@
     "best_result": "Winner (1966)",
     "coach": "Thomas Tuchel",
     "captain": "Harry Kane",
-    "color_primary": "#FFFFFF",
-    "color_secondary": "#CE1126",
+    "color_primary": "#ffffff",
+    "color_secondary": "#5aadd6",
     "group": "L",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
-      "W"
+      "L"
     ],
     "top_scorer_all_time": "Wayne Rooney",
     "top_scorer_all_time_goals": 53,
@@ -1192,7 +1570,27 @@
     "players": [],
     "matches": [],
     "meta_title": "England World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "England World Cup 2026 squad, fixtures, and team guide. Full Three Lions profile on FootBrowse."
+    "meta_description": "England World Cup 2026 squad, fixtures, and team guide. Full Three Lions profile on FootBrowse.",
+    "sportsdb_id": "133914",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/3eklex1591997885.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/xvvxws1420840850.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/tlu76t1668513489.png",
+    "nickname": "The Three Lions",
+    "year_formed": 1872,
+    "sportsdb_description": "The England national football team represents England in men's international football and is governed by The Football Association, the governing body for football in England. It competes in the three major international tournaments; the FIFA World Cup, the UEFA European Championship and the UEFA Nations League. England, as a country of the United Kingdom, is not a member of the International Olympic Committee and therefore the national team does not compete at the Olympic Games.\r\n\r\nEngland is one of the two oldest national teams in football, alongside Scotland, whom they played in the world's first international football match in 1872. England's home ground is Wembley Stadium, London, and their headquarters is at St George's Park, Burton upon Trent. The team's manager is Gareth Southgate.\r\n\r\nSince first entering the tournament in 1950, England has qualified for the FIFA World Cup 15 times. They won the 1966 World Cup, when they hosted the finals, and finished fourth in 1990 and 2018. Since first entering in 1964, England have never won the UEFA European Championship, with their best performances being third-place finishes in 1968 and 1996, the latter as hosts.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/EnglandTeam",
+      "twitter": "https://twitter.com/fa",
+      "instagram": "https://www.instagram.com/england",
+      "youtube": "https://www.youtube.com/user/fatv"
+    },
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "England vs Japan",
+      "score": "0-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "france",
@@ -1207,15 +1605,11 @@
     "best_result": "Winner (1998, 2018)",
     "coach": "Didier Deschamps",
     "captain": "Kylian Mbappé",
-    "color_primary": "#002395",
+    "color_primary": "#21304D",
     "color_secondary": "#ED2939",
     "group": "I",
     "stadium_slug": "metlife-stadium",
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
       "W"
     ],
     "top_scorer_all_time": "Thierry Henry",
@@ -1240,7 +1634,29 @@
       "france-vs-morocco"
     ],
     "meta_title": "France World Cup 2026 — Squad, Fixtures & Odds | FootBrowse",
-    "meta_description": "France World Cup 2026 squad, group stage fixtures, betting odds and predictions. Full team guide on FootBrowse."
+    "meta_description": "France World Cup 2026 squad, group stage fixtures, betting odds and predictions. Full team guide on FootBrowse.",
+    "sportsdb_id": "133913",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/p3n0z51726166851.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/a9iwwu1590266006.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/hzqkcg1565185909.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/0zir3s1668513851.png",
+    "nickname": "Les Bleus",
+    "year_formed": 1904,
+    "sportsdb_description": "The France national football team (French: Équipe de France de football) represents France in men's international football and is controlled by the French Football Federation, also known as FFF, or in French: Fédération française de football. The team's colours are blue, white and red, and the coq gaulois its symbol. France are colloquially known as Les Bleus (The Blues). They are the reigning world champions, having won the most recent World Cup final in 2018.\r\n\r\nFrance plays their home matches at the Stade de France in Saint-Denis, Île-de-France, and their manager is Didier Deschamps. They have won two FIFA World Cups, two UEFA European Championships, two FIFA Confederations Cups and one Olympic tournament. France experienced much of its success in four major eras: in the 1950s, 1980s, late 1990s/early 2000s, and mid/late 2010s, respectively, which resulted in numerous major honours. France was one of the four European teams that participated in the inaugural World Cup in 1930 and, although having been eliminated in the qualification stage six times, is one of only three teams that have entered every World Cup qualifying cycle.\r\n\r\nIn 1958, the team, led by Raymond Kopa and Just Fontaine, finished in third place at the FIFA World Cup. In 1984, France, led by Ballon d'Or winner Michel Platini, won UEFA Euro 1984 and Football at the 1984 Summer Olympics.\r\n\r\nUnder the captaincy of Didier Deschamps and three-time FIFA World Player of the Year Zinedine Zidane, France won the FIFA World Cup in 1998. Two years later, the team triumphed at UEFA Euro 2000. France won the FIFA Confederations Cup in 2001 and 2003, and reached the 2006 FIFA World Cup final, which it lost 5–3 on penalties to Italy. The team also reached the final of UEFA Euro 2016, where they lost 1–0 to Portugal in extra time. France won the 2018 FIFA World Cup, defeating Croatia 4–2 in the final match on 15 July 2018. This was the second time they had won the tournament after winning it on home soil in 1998.\r\n\r\nFrance was the first national team to win the three most important men's titles recognized by FIFA: the World Cup, the Confederations Cup, and the Olympic tournament after victory in the Confederations Cup in 2001. The Confederations Cup started in 1992. Prior to this, Uruguay and Italy had won both the Olympic tournament and the World Cup in the 1920s and 1930s. England and Germany had also won both tournaments; albeit England competes as Great Britain in the Olympics and East Germany won the Olympic tournament in 1976. Since 2001, Argentina (after the 2004 Olympics) and Brazil (after the 2016 Olympics) are the other two national teams that have won these three titles. They have also won their respective continental championship (Copa América for Argentina and Brazil, and UEFA European Championship for France).",
+    "social_links": {
+      "facebook": "https://www.facebook.com/fff",
+      "twitter": "https://twitter.com/fff",
+      "instagram": "https://instagram.com/equipedefrance",
+      "youtube": "https://www.youtube.com/user/LesBleusTV"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/464fdi1620132742.jpg",
+    "coach_bio": "Didier Claude Deschamps (born 15 October 1968) is a French former professional footballer who has been manager of the France national team since 2012. He played as a defensive midfielder for several clubs, in France, Italy, England and Spain, such as Marseille, Juventus, Chelsea and Valencia, as well as Nantes and Bordeaux. Nicknamed \"the water-carrier\" by former France teammate Eric Cantona, Deschamps was an intelligent and hard-working defensive midfielder who excelled at winning back possession and subsequently starting attacking plays, and also stood out for his leadership throughout his career. As a French international, he was capped on 103 occasions and took part at three UEFA European Football Championships and one FIFA World Cup, captaining his nation to victories in the 1998 World Cup and Euro 2000.\r\n\r\nIn addition to winning two Ligue 1 titles in 1991 and 1992, Deschamps was part of the Marseille squad that became the first, and so far only, French club to win the UEFA Champions League, a feat which the team achieved in 1993; with the Champions League victory, Deschamps became the youngest captain ever to lead his team to win the title. With Juventus he played three Champions League finals in a row between 1996 and 1998, winning the title in 1996. With the Turin side, he also won the UEFA Super Cup and the Intercontinental Cup, as well as three Serie A titles, among other trophies. With Chelsea, he won the 1999–2000 FA Cup, and also reached another Champions League final with Valencia in 2001, before retiring later that season. After Franz Beckenbauer and followed by Iker Casillas, he was only the second captain in the history of football to have lifted the Champions League trophy, the World Cup trophy, and the European Championship trophy.\r\n\r\nAs a manager, Deschamps began his career with Monaco, and helped the club to win the Coupe de la Ligue in 2003, and reached the 2004 UEFA Champions League Final, being named Ligue 1 Manager of the Year in 2004. During the 2006–07 season, he helped his former club Juventus win the Serie B title and return to Serie A following their relegation due to their involvement in the 2006 Calciopoli Scandal the previous season. He subsequently managed another one of his former clubs, Marseille, where he won the Ligue 1 title during the 2009–10 season, as well as three consecutive Coupe de la Ligue titles between 2010 and 2012, and consecutive Trophée des Champions titles in 2010 and 2011. On 8 July 2012, Deschamps was named as the new manager of the French national team, leading the team to the quarter-finals of the 2014 FIFA World Cup, the final of UEFA Euro 2016, and he won the final of 2018 FIFA World Cup beating Croatia 4–2. After France's victory at the 2018 FIFA World Cup, Deschamps became the third man to win the World Cup as both a player and a manager; alongside Mário Zagallo and Franz Beckenbauer, following Beckenbauer as only the second to do so as captain.",
+    "last_match": {
+      "date": "2025-11-13",
+      "event": "France vs Ukraine",
+      "score": "4-0",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "croatia",
@@ -1255,16 +1671,12 @@
     "best_result": "Runners-up (2018)",
     "coach": "Zlatko Dalić",
     "captain": "Luka Modrić",
-    "color_primary": "#FF0000",
+    "color_primary": "#ED1C24",
     "color_secondary": "#FFFFFF",
     "group": "L",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Davor Šuker",
     "top_scorer_all_time_goals": 45,
@@ -1282,7 +1694,29 @@
     "players": [],
     "matches": [],
     "meta_title": "Croatia World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Croatia World Cup 2026 squad, fixtures, and team guide. Full Vatreni profile on FootBrowse."
+    "meta_description": "Croatia World Cup 2026 squad, fixtures, and team guide. Full Vatreni profile on FootBrowse.",
+    "sportsdb_id": "133912",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/vvtsyu1455465317.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/s3gxxc1720451284.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/6esmoq1720451796.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/udij301716845831.png",
+    "nickname": "Vatreni",
+    "year_formed": 1993,
+    "sportsdb_description": "The Croatia national football team (Croatian: Hrvatska nogometna reprezentacija) represents Croatia in men's international football matches. The team is controlled by the Croatian Football Federation (HNS), the governing body for football in Croatia. Football is widely supported throughout the country due to the ever-present popularity of the sport. Most home matches are played at the Stadion Maksimir in Zagreb, although other smaller venues are also used occasionally. They are one of the youngest national teams (since formation) to reach the knockout stage of a major tournament, as well as the youngest team to occupy the top 10 in the FIFA World Rankings.\r\n\r\nCroatia has represented itself as an independent nation since 1993, when the team was officially recognised by both FIFA and UEFA following dissolution of Yugoslavia. However, short-lived national sides were briefly active during periods of political upheaval, representing sovereign states such as the Banovina of Croatia from 1939 to 1941, or the Independent State of Croatia from 1941 to 1944. Before the current team was formed, most Croatian players represented Yugoslavia instead. The modern-day team has played competitive matches since 1994, starting with a successful qualifying campaign for the 1996 European Championship. In 1998, they competed in their first FIFA World Cup, finishing 3rd and providing the tournament's top scorer, Davor Šuker. Exactly twenty years later, under their second golden generation, Croatia reached the 2018 World Cup Final, securing second place after losing to France. Captain Luka Modrić was awarded best player of the tournament for his performances, thus making him the first ever Croatian player to win the award.\r\n\r\nAmong other nicknames, the team is colloquially referred to as the Vatreni (Blazers) or the Kockasti (The Chequered Ones). In the Italian-speaking counties the team is known as Il furioso incendio (The Blazing Fire). Since becoming eligible to compete, Croatia has only failed to qualify for two major tournaments; the 2000 European Championship and the 2010 FIFA World Cup. Their biggest defeat came in 2018 with a 6–0 loss to Spain, while their highest-scoring victory was a 10–0 friendly win over San Marino in 2016. The national team is also known for some long-standing rivalries, such as the Derby Adriatico with Italy, or the politically-charged rivalry with Serbia, both of which have led to controversial or disruptive matches.\r\n\r\nThe team represents the second-smallest country by population and land mass to reach the World Cup final, behind Uruguay and Netherlands respectively. At major tournaments, Croatia holds joint-records for longest period between one goal and another of a player (2002–2014), most penalty shootouts played (2), most extra time periods played (3) and most penalties saved in a match (3). They are also one of only two teams—along with Colombia—to be named FIFA's \"Best Mover of the Year\" more than once, winning the award in 1994 and 1998. Upon admission to FIFA, Croatia was ranked 125th in the world; following the 1998 World Cup campaign, the side rose to third place in the rankings, making it the most volatile team in FIFA Rankings history.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/cff.hns",
+      "twitter": "https://twitter.com/HNS_CFF",
+      "instagram": "https://instagram.com/hns_cff",
+      "youtube": "https://www.youtube.com/user/hnscff"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/a5qb5h1668792392.jpg",
+    "coach_bio": "Zlatko Dalić (born 26 October 1966) is a Croatian professional football manager and former player. He is the manager of the Croatia national team who led them to finish runners-up at the 2018 FIFA World Cup. \r\nAfter ending his playing career in 2000, he became assistant coach at Varteks. From May 2002 to May 2005, Dalić worked as the club's sports director, and during the 2003–04 and 2004–05 seasons he simultaneously acted as assistant coach for Miroslav Blažević.\r\nIn May 2005, he was appointed manager of Varteks and in his first season at the helm he won third place in the Croatian First League and reached the final of the Croatian Cup. In the first leg of the final, which was played in Rijeka, Varteks lost 0–4 to HNK Rijeka. In the second leg in Varaždin, Dalić nearly created a sensation leading the team to a 5–1 win, but they were one goal short from lifting the silverware.",
+    "last_match": {
+      "date": "2025-11-14",
+      "event": "Croatia vs Faroe Islands",
+      "score": "3-1",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "portugal",
@@ -1297,15 +1731,11 @@
     "best_result": "Third place (1966)",
     "coach": "Roberto Martínez",
     "captain": "Cristiano Ronaldo",
-    "color_primary": "#006600",
-    "color_secondary": "#FF0000",
+    "color_primary": "#ff0000",
+    "color_secondary": "#006200",
     "group": "K",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "W",
       "W"
     ],
     "top_scorer_all_time": "Cristiano Ronaldo",
@@ -1324,7 +1754,29 @@
     "players": [],
     "matches": [],
     "meta_title": "Portugal World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Portugal World Cup 2026 squad, fixtures, and team guide. Full Seleção das Quinas profile on FootBrowse."
+    "meta_description": "Portugal World Cup 2026 squad, fixtures, and team guide. Full Seleção das Quinas profile on FootBrowse.",
+    "sportsdb_id": "133908",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/swqvpy1455466083.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/4jwa1i1599314931.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/jzmhcf1731702538.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/k3yzuo1621854687.png",
+    "nickname": "A Seleção",
+    "year_formed": 1921,
+    "sportsdb_description": "The Portugal national football team (Portuguese: Seleção Portuguesa de Futebol) represents Portugal in international men's football competition since 1921. It is controlled by the Portuguese Football Federation, the governing body for football in Portugal.\r\n\r\nPortugal's first participation in a major tournament finals was at the 1966 World Cup, which saw a team featuring Ballon d'Or winner Eusébio finish in third place. The next two times Portugal qualified for the World Cup finals were in 1986 and 2002, going out in the first round both times. Portugal also made it to the semi-finals of the UEFA Euro 1984 final tournament, losing 3–2 after extra time to the hosts and eventual winners France.\r\n\r\nDuring this period, Portugal was not part of a group of teams that were candidates to win titles, but from 2000 until this present day, the team evolved, being present in all the final stages of major tournaments. This was in great part due to the production of several world-class players by Portugal, such as Luís Figo, Rui Costa, Ricardo Carvalho, and Cristiano Ronaldo who is counted among the best players in history. This golden generation helped Portugal reach the semi-finals of Euro 2000, losing 2–1 after extra time to eventual winners France, securing the second place at Euro 2004 Final after losing to Greece on home soil, as well as reaching the semi-finals of the 2006 World Cup losing to finalist France, after a penalty, ending in the fourth place after losing to 3–1 to hosts Germany, thus being the best result of the country in the World Cup since 1966. Despite losing many players of the golden generation, new players such as Fábio Coentrão, João Moutinho, Nani and Pepe helped the Portuguese reach the semi-finals of Euro 2012, losing to Spain in penalties, with Cristiano Ronaldo finishing as joint top scorer of the tournament with three goals.\r\n\r\nIn 2014, Fernando Santos was appointed as the new head coach for the national team. Two years later at Euro 2016, Santos brought Portugal its first ever major trophy, defeating hosts France 1–0 after extra time, with the winning goal scored by Eder. With the win, Portugal qualified and made its first appearance in the FIFA Confederations Cup held in Russia, where they finished in third place. Portugal hosted the brand new 2018–19 UEFA Nations League as well as winning the trophy, defeating the Netherlands 1–0, with the winning goal scored by Gonçalo Guedes, making it the second major tournament earned by the Portuguese in three finals.\r\n\r\nPortugal is colloquially referred to as the Seleção das Quinas (The Navigators) and has notable rivalries with Brazil, with whom they share many common cultural ties and with Spain—known as A Guerra Ibérica in Portuguese or The Iberean War in English, with the rivalry between two countries going back to 1581.\r\n\r\nThe team's home stadium is the Estádio Nacional, in Oeiras, although most of their home games are frequently played in other stadiums across the country. The current head coach is Fernando Santos and the captain is Cristiano Ronaldo, who also holds the team record for most caps and for most goals.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/PORTUGAL/",
+      "twitter": "https://twitter.com/selecaoportugal?lang=pt",
+      "instagram": "https://www.instagram.com/portugal",
+      "youtube": "https://www.youtube.com/user/FPFutebolOficial"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/7en2pp1595276594.jpg",
+    "coach_bio": "Roberto Martínez Montoliu (born 13 July 1973) is a Spanish football coach and former professional player who is currently the head coach of the Portugal national team.\r\n\r\nMartínez played as a defensive midfielder and began his career at Real Zaragoza, with whom he won the Copa del Rey. He spent a year at lower league side CF Balaguer, before signing for English Third Division side Wigan Athletic. Becoming part of a small Spanish contingent at the club known as \"the three amigos\" alongside Jesús Seba and Isidro Díaz, he was a regular first team player for six years, the longest period of time he spent at one club. During his time there, he won the Football League Third Division and the Football League Trophy. He moved to Scottish side Motherwell, then to Walsall, before joining Swansea City in 2003. He became club captain and helped the team to win promotion to League One in 2005. He moved to Chester City in 2006, and was again chosen to be captain.\r\n\r\nIn 2007, he retired from playing to become manager of Swansea City, leading them to promotion from League One as champions, establishing a possession-based style of play. He then joined Wigan Athletic in 2009, helping the club avoid relegation for three consecutive seasons. In his fourth season Wigan were relegated, but won the FA Cup in 2013 for the first time in the club's history. At the end of that season he became manager of Everton, finishing in fifth place in his first season at the club. In May 2016, he was sacked as their manager with the club in 12th position, and became Belgium's head coach on 3 August 2016. Martinez guided them to third place in 2018 FIFA World Cup, their best-ever position in the competition, as well as holding first place for Belgium in the FIFA World Rankings from 2018 to 2022. He resigned from Belgium after the 2022 FIFA World Cup. In January 2023, he was appointed as the coach of Portugal.",
+    "last_match": {
+      "date": "2025-11-16",
+      "event": "Portugal vs Armenia",
+      "score": "9-1",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "norway",
@@ -1337,18 +1789,14 @@
     "wc_titles": 0,
     "wc_appearances": 4,
     "best_result": "Round of 16 (1998)",
-    "coach": "Ståle Solbakken",
+    "coach": "Lars Lagerbäck",
     "captain": "Martin Ødegaard",
     "color_primary": "#EF2B2D",
     "color_secondary": "#FFFFFF",
     "group": "I",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "W"
+      "D"
     ],
     "top_scorer_all_time": "Jørgen Juve",
     "top_scorer_all_time_goals": 33,
@@ -1366,7 +1814,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Norway World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Norway World Cup 2026 squad, fixtures, and team guide. Full profile featuring Erling Haaland on FootBrowse."
+    "meta_description": "Norway World Cup 2026 squad, fixtures, and team guide. Full profile featuring Erling Haaland on FootBrowse.",
+    "sportsdb_id": "136516",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/gyfn811591973155.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/lfdoca1599315067.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/dacmdp1649795103.png",
+    "nickname": "Løvene (The Lions)",
+    "year_formed": 1902,
+    "sportsdb_description": "The Norway national football team (Norwegian: Norges herrelandslag i fotball, or informally Landslaget) represents Norway in men's international football and is controlled by the Norwegian Football Federation, the governing body for football in Norway. Norway's home ground is Ullevaal Stadion in Oslo and their head coach is Lars Lagerbäck. In February 2019, they were ranked by FIFA at No. 48., Norway has participated three times in the FIFA World Cup (1938, 1994, 1998), and once in the UEFA European Championship (2000).\r\n\r\nNorway is, along with Senegal, the only national team that remains unbeaten in all matches against Brazil. In four matches, Norway has a play record against Brazil of 2 wins and 2 draws, in three friendlies matches (in 1988, 1997 and 2006) and a 1998 World Cup group stage match.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/fotballandslaget/",
+      "twitter": "https://twitter.com/NFF_info",
+      "instagram": "https://www.instagram.com/fotballandslaget"
+    },
+    "coach_photo": null,
+    "coach_bio": "Lars Edvin \"Lasse\" Lagerbäck (born 16 July 1948) is a Swedish football manager and former player. He is the manager of the Norway national football team. Lagerbäck has managed a number of national teams prior to his current position. He managed the Swedish national team from 1998 until 2009, leading Sweden to five consecutive championships. He resigned as manager in 2009 after Sweden's failure to qualify for the 2010 FIFA World Cup in South Africa. After a short stint as manager of Nigeria, he led Iceland to unprecedented success as they qualified for their first finals competition, Euro 2016, and reached the quarter-finals, beating England in the last 16. Apart from his coaching duties, Lagerbäck has in recent years been a pundit for Premier League and UEFA Champions League broadcasting on Swedish television. He currently holds the record for managing a team in the finals of the European Championships with 4 appearances.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Norway vs Switzerland",
+      "score": "0-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "germany",
@@ -1381,15 +1849,11 @@
     "best_result": "Winner (1954, 1974, 1990, 2014)",
     "coach": "Julian Nagelsmann",
     "captain": "Ilkay Gündoğan",
-    "color_primary": "#000000",
-    "color_secondary": "#DD0000",
+    "color_primary": "#FFFFFF",
+    "color_secondary": "#000000",
     "group": "E",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Miroslav Klose",
@@ -1408,7 +1872,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Germany World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Germany World Cup 2026 squad, fixtures, and team guide. Full Die Mannschaft profile on FootBrowse."
+    "meta_description": "Germany World Cup 2026 squad, fixtures, and team guide. Full Die Mannschaft profile on FootBrowse.",
+    "sportsdb_id": "133907",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/1xysi51726167152.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/1048po1718110681.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/1lrzhg1718112975.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/r4f0ix1670063218.png",
+    "nickname": "Nationalelf",
+    "year_formed": 1899,
+    "sportsdb_description": "The Germany national football team (German: Deutsche Fußballnationalmannschaft or Die Mannschaft) represents Germany in men's international football and played its first match in 1908. The team is governed by the German Football Association (Deutscher Fußball-Bund), founded in 1900. Between 1949 and 1990, separate German national teams were recognised by FIFA due to Allied occupation and division: the DFB's team representing the Federal Republic of Germany (named West Germany from 1949–1990), the Saarland team representing the Saar Protectorate (1950–1956) and the East German team representing the German Democratic Republic (1952–1990). The latter two were absorbed along with their records; the present team represents the reunified Federal Republic. The official name and code \"Germany FR (FRG)\" was shortened to \"Germany (GER)\" following reunification in 1990.\r\n\r\nGermany is one of the most successful national teams in international competitions, having won four World Cups (1954, 1974, 1990, 2014), three European Championships (1972, 1980, 1996), and one Confederations Cup (2017). They have also been runners-up three times in the European Championships, four times in the World Cup, and a further four third-place finishes at World Cups. East Germany won Olympic Gold in 1976.\r\n\r\nGermany is the only nation to have won both the FIFA World Cup and the FIFA Women's World Cup.\r\n\r\nAt the end of the 2014 World Cup, Germany earned the highest Elo rating of any national football team in history, with a record 2,205 points. Germany is also the only European nation that has won a FIFA World Cup in the Americas. The manager of the national team is Joachim Löw.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/fanclubnationalmannschaft",
+      "twitter": "https://twitter.com/dfb_fanclub",
+      "instagram": "https://instagram.com/dfb_fanclub"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/x9iybb1628244756.jpg",
+    "coach_bio": "Julian Nagelsmann (born 23 July 1987) is a German professional football coach who is currently the manager of the Germany national team. He has previously managed TSG Hoffenheim, RB Leipzig and Bayern Munich in the Bundesliga.\r\n\r\nBorn in Bavaria, Nagelsmann retired as a footballer at age 20 after a succession of injuries. In 2010, he began his coaching career as a youth coach at TSG Hoffenheim, eventually coaching their first team in 2015, where he led them to a third-place finish in the Bundesliga and Champions League qualification. He departed Hoffenheim in 2019 and was appointed at fellow Bundesliga club RB Leipzig, reaching the semi-finals of the UEFA Champions League in 2020.\r\n\r\nNagelsmann was appointed by Bayern Munich in 2021 for a world record managerial transfer worth €25 million (£21.7 million), making him the most expensive manager ever. He won the Bundesliga title in his debut season, but was dismissed as manager from the club in March 2023.\r\n\r\nIn September 2023, he was appointed as the coach of the Germany national team.",
+    "last_match": {
+      "date": "2026-03-30",
+      "event": "Germany vs Ghana",
+      "score": "2-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "netherlands",
@@ -1423,15 +1908,11 @@
     "best_result": "Runners-up (1974, 1978, 2010)",
     "coach": "Ronald Koeman",
     "captain": "Virgil van Dijk",
-    "color_primary": "#FF6600",
-    "color_secondary": "#003087",
+    "color_primary": "#F36C21",
+    "color_secondary": "#FFFFFF",
     "group": "F",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "Robin van Persie",
@@ -1450,7 +1931,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Netherlands World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Netherlands World Cup 2026 squad, fixtures, and team guide. Full Oranje profile on FootBrowse."
+    "meta_description": "Netherlands World Cup 2026 squad, fixtures, and team guide. Full Oranje profile on FootBrowse.",
+    "sportsdb_id": "133905",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/1p0hr41593787110.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/eo30rc1668866416.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/r34a2d1668513111.png",
+    "nickname": "Oranje",
+    "year_formed": 1905,
+    "sportsdb_description": "The Netherlands national football team (Dutch: Het Nederlands Elftal) has represented the Netherlands in international football matches since 1905. The national team is controlled by the Royal Dutch Football Association (KNVB), which is a part of UEFA, and under the jurisdiction of FIFA the governing body for football in the Netherlands. Most of the Netherlands' home matches are played at the Johan Cruyff Arena and the Stadion Feijenoord. The team is colloquially referred to as Het Nederlands Elftal (The Dutch Eleven) or Oranje, after the House of Orange-Nassau. Like the country itself, the team is sometimes (also colloquially) referred to as Holland. The fan club is known as \"Het Oranje Legioen\".\r\n\r\nThe Netherlands has competed in ten FIFA World Cups, appearing in the finals three times (in 1974, 1978 and 2010). They have also appeared in nine UEFA European Championships, winning the 1988 tournament in West Germany. Additionally, the team won a bronze medal at the Olympic tournament in 1908, 1912 and 1920. The Netherlands has long-standing football rivalries with neighbors Belgium and Germany.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/onsoranje",
+      "twitter": "https://twitter.com/onsoranje",
+      "instagram": "https://www.instagram.com/onsoranje",
+      "youtube": "https://www.youtube.com/onsoranje"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/cmwxwz1600893612.jpg",
+    "coach_bio": "Ronald Koeman (born 21 March 1963) is a Dutch professional football manager and former player who is the manager of the Netherlands national team. Koeman scored over 250 goals whilst playing in defence for the majority of his career. Koeman was capable of playing both as a defender and as a midfielder; he frequently played as a sweeper, although he was equally known for his goalscoring, long-range shooting, and accuracy from free kicks and penalties. Because of his goalscoring, he is considered one of the best attacking center backs of all time.\r\n\r\nBorn in Zaandam, Koeman began his career at Groningen before transferring to the Netherlands' most successful club Ajax in 1983, where they won the national Eredivisie title in 1984–85. He then joined Ajax's rivals PSV in 1986, winning three consecutive Eredivisie titles (1986–87, 1987–88 and 1988–89) and the European Cup in 1988. Ronald Koeman is one of five European players to ever win a treble with their club and a cup with their national team in the same year. The other four players are his teammates Hans van Breukelen, Berry van Aerle, Gerald Vanenburg and Wim Kieft. In 1989, Koeman moved to Barcelona and became part of Johan Cruyff's \"Dream Team\", helping the club win La Liga four years in a row between 1991 and 1994, and the 1991–92 European Cup, where he scored the winning goal of the final against Sampdoria.\r\n\r\nAt international level, Koeman was one of the stars of the Netherlands national team, alongside Marco van Basten, Ruud Gullit, Frank Rijkaard and Dennis Bergkamp. During his career with the Netherlands, Koeman won UEFA Euro 1988 and played at the UEFA Euro 1992, 1990 and 1994 FIFA World Cups, captaining the team at the latter.\r\n\r\nIn his managerial career, Koeman has won three Eredivisie titles: twice with Ajax (2001–02 and 2003–04) and once with PSV (2006–07). He is the only individual to have both played for and managed the \"Big Three\" of Dutch football: Ajax, PSV and Feyenoord. Abroad, he had spells in Portugal with Benfica and Spain with Valencia, coaching Los Ché to victory in the 2007–08 Copa del Rey, and managed Premier League clubs Southampton and Everton in the 2010s. He was the manager of the Netherlands national team between 2018 and 2020, finishing runners-up in the 2019 UEFA Nations League. In August 2020, he was appointed manager of Barcelona, with whom he won the 2020–21 Copa del Rey, but was sacked in October 2021, following a poor start to the new season. In 2023, he was reappointed as the manager of the Netherlands national team.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Netherlands vs Ecuador",
+      "score": "1-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "switzerland",
@@ -1470,11 +1972,7 @@
     "group": "B",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "L"
     ],
     "top_scorer_all_time": "Alexander Frei",
     "top_scorer_all_time_goals": 42,
@@ -1492,7 +1990,27 @@
     "players": [],
     "matches": [],
     "meta_title": "Switzerland World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Switzerland World Cup 2026 squad, fixtures, and team guide. Full Nati profile on FootBrowse."
+    "meta_description": "Switzerland World Cup 2026 squad, fixtures, and team guide. Full Nati profile on FootBrowse.",
+    "sportsdb_id": "134506",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/mb7yqe1717365808.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/8rptij1599314635.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/qif5nn1621780184.png",
+    "year_formed": 1924,
+    "sportsdb_description": "The Switzerland national football team (German: Schweizer Fußballnationalmannschaft, French: Équipe de Suisse de football, Italian: Nazionale di calcio della Svizzera, Romansh: Squadra naziunala da ballape da la Svizra) represents Switzerland in international football. The national team is controlled by the Swiss Football Association.\r\n\r\nSwitzerland's best ever performance at the FIFA World Cup are three quarter-final appearances, in 1934, 1938 and 1954. They hosted the competition in 1954, where they played with Austria in the quarter-final match, losing 7–5, which today still stands as the highest scoring ever World Cup match. At the 2006 FIFA World Cup, Switzerland set a FIFA World Cup record by being eliminated from the tournament despite not conceding a single goal, being eliminated by Ukraine in a penalty shootout in the round of sixteen; failing to score a single penalty, thus becoming the first nation to do so. They didn't concede a goal until a match against Chile at the 2010 FIFA World Cup, conceding in the 75th minute; setting a World Cup finals record for consecutive minutes without conceding a goal.\r\n\r\nSwitzerland and Austria were the co-hosts of UEFA Euro 2008, where the Swiss made their third appearance in the competition, but failed for a third time to progress from the group stage.\r\n\r\nOverall, Switzerland's best ever result at an official football competition was the silver medal they earned in 1924, after losing to Uruguay 3–0 in the final of the 1924 Olympic Games.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/SFA",
+      "twitter": "https://twitter.com/SFV_ASF",
+      "instagram": "https://www.instagram.com/nationalteams_sfvasf",
+      "youtube": "https://www.youtube.com/channel/UCQMc_xMoCdug9JggI8hYa5Q"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/6tdccv1668797947.jpg",
+    "coach_bio": "Murat Yakin (born 15 September 1974) is a Swiss football coach and former player. He is the manager of the Switzerland national football team\r\nOn 9 August 2021, Yakin was appointed as the manager of the Switzerland national team. In 2022 FIFA World Cup qualification, Northern Ireland held reigning European champions Italy to a goalless draw, thereby ensuring that Switzerland qualified for the tournament and Italy had to play in the playoffs. In gratitude, he sent 9.3 kg of Swiss chocolate to the Irish Football Association..",
+    "last_match": {
+      "date": "2026-03-27",
+      "event": "Switzerland vs Germany",
+      "score": "3-4",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "scotland",
@@ -1512,11 +2030,7 @@
     "group": "C",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "L"
     ],
     "top_scorer_all_time": "Kenny Dalglish",
     "top_scorer_all_time_goals": 30,
@@ -1534,7 +2048,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Scotland World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Scotland World Cup 2026 squad, fixtures, and team guide. Full Tartan Army guide on FootBrowse."
+    "meta_description": "Scotland World Cup 2026 squad, fixtures, and team guide. Full Tartan Army guide on FootBrowse.",
+    "sportsdb_id": "136450",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/3691i11552945146.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/kz9e6m1718110195.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/einsjg1718110475.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/yumqbk1621850049.png",
+    "year_formed": 1872,
+    "sportsdb_description": "The Scotland national football team represents Scotland in men's international football and is controlled by the Scottish Football Association. It competes in the three major professional tournaments, the FIFA World Cup, UEFA Nations League and the UEFA European Championship. Scotland, as a country of the United Kingdom, is not a member of the International Olympic Committee and therefore the national team does not compete in the Olympic Games. The majority of Scotland's home matches are played at the national stadium, Hampden Park.\r\n\r\nScotland is the joint oldest national football team in the world, alongside England, whom they played in the world's first international football match in 1872. Scotland has a long-standing rivalry with England, whom they played annually from 1872 until 1989. The teams have met only seven times since then, most recently in June 2017.\r\n\r\nScotland have qualified for the FIFA World Cup on eight occasions and the UEFA European Championship twice, but have never progressed beyond the first group stage of a finals tournament. The last major tournament they qualified for was the 1998 World Cup. The team have achieved some noteworthy results, such as beating the 1966 FIFA World Cup winners England 3–2 at Wembley Stadium in 1967. Archie Gemmill scored what has been described as one of the greatest World Cup goals ever in a 3–2 win during the 1978 World Cup against the Netherlands, who reached the final of the tournament. In their qualifying group for UEFA Euro 2008, Scotland defeated 2006 World Cup runners-up France 1–0 in both fixtures.\r\n\r\nScotland supporters are collectively known as the Tartan Army. The Scottish Football Association operates a roll of honour for every player who has made more than 50 appearances for Scotland. Kenny Dalglish holds the record for Scotland appearances, having played 102 times between 1971 and 1986. Dalglish scored 30 goals for Scotland and shares the record for most goals scored with Denis Law.",
+    "social_links": {
+      "facebook": "https://en-gb.facebook.com/scotlandnationalteam/",
+      "twitter": "https://twitter.com/ScotlandNT",
+      "instagram": "https://www.instagram.com/scotlandnationalteam",
+      "youtube": "https://www.youtube.com/channel/UCsaS5aZjlJPJCzNwjEc3waw"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/kainkm1549399439.jpg",
+    "coach_bio": "Stephen Clarke (born 29 August 1963) is a Scottish professional football manager and former player who is the manager of the Scotland national team.\r\n\r\nClarke played for St Mirren, Chelsea and the Scotland national team, winning three major trophies with Chelsea towards the end of his career. After retiring as a player, he moved into coaching and worked at Newcastle United, Chelsea, West Ham United and Liverpool. Clarke has since managed West Bromwich Albion and Reading. After a spell coaching at Aston Villa, Clarke was appointed Kilmarnock manager in October 2017 and led them to a European place with a club record points total in his only full season in charge. In May 2019, he was appointed manager of the Scotland national team. He led the team to qualifications for UEFA Euro 2020, their first major tournament for 23 years, and UEFA Euro 2024.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Scotland vs Ivory Coast",
+      "score": "0-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "spain",
@@ -1549,15 +2084,11 @@
     "best_result": "Winner (2010)",
     "coach": "Luis de la Fuente",
     "captain": "Álvaro Morata",
-    "color_primary": "#AA151B",
-    "color_secondary": "#F1BF00",
+    "color_primary": "#8B0D11",
+    "color_secondary": "#FCB507",
     "group": "H",
     "stadium_slug": "att-stadium",
     "form": [
-      "W",
-      "W",
-      "W",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "David Villa",
@@ -1581,7 +2112,28 @@
       "usa-vs-spain"
     ],
     "meta_title": "Spain World Cup 2026 — Squad, Fixtures & Odds | FootBrowse",
-    "meta_description": "Spain World Cup 2026 squad, group stage fixtures, betting odds and predictions. Euro 2024 champions guide on FootBrowse."
+    "meta_description": "Spain World Cup 2026 squad, group stage fixtures, betting odds and predictions. Euro 2024 champions guide on FootBrowse.",
+    "sportsdb_id": "133909",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/5p8fhy1616514698.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/0i95441670576167.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/h2r6rq1670063000.png",
+    "nickname": "La Furia Roja",
+    "year_formed": 1920,
+    "sportsdb_description": "The Spain national football team (Spanish: Selección Española de Fútbol) has represented Spain in international men's football competition since 1920. It is governed by the Royal Spanish Football Federation, the governing body for football in Spain.\r\n\r\nSpain are one of the eight national teams to have been crowned worldwide champions, having participated in a total of 15 of 21 FIFA World Cups and qualifying consistently since 1978. Spain has also won three continental titles, having appeared at 10 of 15 UEFA European Championships.\r\n\r\nSpain became the first European team to win a FIFA World Cup outside of Europe, having won the 2010 tournament in South Africa, as well as having won back-to-back European titles in Euro 2008 and Euro 2012, defeating Germany and Italy in the respective finals, making them the only national team with three consecutive major titles. Because of this, from 2008 to 2013, the national team won the FIFA Team of the Year, the second-most of any nation, behind only Brazil. Also between February 2007 and June 2009, Spain went undefeated for a record-equalling 35 consecutive matches, a record shared with Brazil. Their achievements have led many experts and commentators to consider the 2008–2012 Spanish squads, among the best ever international sides in world football.",
+    "social_links": {
+      "facebook": "https://facebook.com/SeFutbol/",
+      "twitter": "https://twitter.com/SeFutbol",
+      "youtube": "https://youtube.com/channel/UCJ2F8qpzHRk3RdJZ4YXLbxQ"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/hp6wfl1628779634.jpg",
+    "coach_bio": "Luis de la Fuente Castillo (born 21 June 1961) is a Spanish football coach and former professional footballer who played as a left-back. He is the manager of the Spain national football team.\r\n\r\nHe amassed La Liga totals of 254 matches and six goals over 13 seasons, with Athletic Bilbao and Sevilla.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Spain vs Egypt",
+      "score": "0-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "austria",
@@ -1601,10 +2153,6 @@
     "group": "J",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "W",
-      "D",
       "W"
     ],
     "top_scorer_all_time": "Toni Polster",
@@ -1623,7 +2171,29 @@
     "players": [],
     "matches": [],
     "meta_title": "Austria World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Austria World Cup 2026 squad, fixtures, and team guide. Full profile on FootBrowse."
+    "meta_description": "Austria World Cup 2026 squad, fixtures, and team guide. Full profile on FootBrowse.",
+    "sportsdb_id": "135986",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/874p631628721400.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/9cas5n1622190843.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/9p4kr91725673617.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/hv4xv41716845784.png",
+    "nickname": "Das Team",
+    "year_formed": 1902,
+    "sportsdb_description": "The Austria national football team (German: Österreichische Fußballnationalmannschaft) represents Austria in men's international football competition and it's controlled by the Austrian Football Association (German: Österreichischer Fußballbund). Austria has qualified for seven FIFA World Cups, most recently in 1998. The country played in the UEFA European Championship for the first time in 2008, when it co-hosted the event with Switzerland, and most recently qualified in 2016.",
+    "social_links": {
+      "facebook": "https://www.oefb.at/oefb/#",
+      "twitter": "https://www.oefb.at/oefb/#",
+      "instagram": "https://www.instagram.com/oefb_1904",
+      "youtube": "https://www.youtube.com/c/%C3%96FBTV"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/nxh8tm1641305468.jpg",
+    "coach_bio": "Ralf Rangnick (born 29 June 1958) is a German professional football manager, executive and former player who is the manager of the Austria national team.\r\n\r\nRangnick began his coaching career in 1983, succeeding his career as a player, at age 25. In 1997, he was hired by former club Ulm 1846, with whom he won the Regionalliga Süd in his debut season. Rangnick was then appointed by Bundesliga club VfB Stuttgart, winning the UEFA Intertoto Cup in 2000, but was dismissed in 2001. He subsequently joined Hannover 96, winning the 2. Bundesliga, but was dismissed in 2004. After a brief period with Schalke 04, Rangnick joined 1899 Hoffenheim in 2006, and achieved successive promotions to the Bundesliga. He departed the club in 2011 and returned to Schalke 04, where he won the 2011 DFB-Pokal and reached the semi-finals of the UEFA Champions League. He later served as head coach at RB Leipzig across two periods between 2015 and 2019.\r\n\r\nRangnick joined Red Bull as director of football in 2012, helping oversee their expansion into European football, emphasising the recruitment of unproven players and developing youth systems with a worldwide scouting base and an attacking on-pitch philosophy across their clubs. As a result, Red Bull clubs rose in market value from €120 million to €1.2 billion during his tenure. Their clubs have also seen sustained domestic success and generated sizable profits with player transfers, which led to Rangnick's promotion to head of sport and development in 2019. He resigned from Red Bull in 2020 and joined Russian club Lokomotiv Moscow as manager of sports and development in 2021. Later that year, Rangnick was appointed as interim manager of Manchester United until the end of the 2021–22 season.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Austria vs South Korea",
+      "score": "1-0",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "belgium",
@@ -1636,17 +2206,13 @@
     "wc_titles": 0,
     "wc_appearances": 15,
     "best_result": "Third place (2018)",
-    "coach": "Rudi Garcia",
+    "coach": "Domenico Tedesco",
     "captain": "Kevin De Bruyne",
-    "color_primary": "#000000",
-    "color_secondary": "#FF0000",
+    "color_primary": "#E30613",
+    "color_secondary": "#FFD500",
     "group": "G",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
       "W"
     ],
     "top_scorer_all_time": "Romelu Lukaku",
@@ -1665,7 +2231,29 @@
     "players": [],
     "matches": [],
     "meta_title": "Belgium World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Belgium World Cup 2026 squad, fixtures, and team guide. Full Red Devils profile on FootBrowse."
+    "meta_description": "Belgium World Cup 2026 squad, fixtures, and team guide. Full Red Devils profile on FootBrowse.",
+    "sportsdb_id": "134515",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/8xlvxv1592062265.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/0kz0ai1592062266.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/4y8o2n1727329982.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/fp4dtm1716845875.png",
+    "nickname": "De Rode Duivels",
+    "year_formed": 1904,
+    "sportsdb_description": "The Belgium national football team officially represents Belgium in men's international football since their maiden match in 1904. The squad is under the global jurisdiction of FIFA and is governed in Europe by UEFA—both of which were co-founded by the Belgian team's supervising body, the Royal Belgian Football Association. Periods of regular Belgian representation at the highest international level, from 1920 to 1938, from 1982 to 2002 and again from 2014 onwards, have alternated with mostly unsuccessful qualification rounds. Most of Belgium's home matches are played at the King Baudouin Stadium in Brussels.\r\n\r\nBelgium's national team have participated in three quadrennial major football competitions. It appeared in the end stages of thirteen FIFA World Cups and five UEFA European Championships, and featured at three Olympic football tournaments, including the 1920 Olympic tournament which they won. Other notable performances are victories over four reigning world champions—West Germany, Brazil, Argentina and France—between 1954 and 2002. Belgium has long-standing football rivalries with its Dutch and French counterparts, having played both teams nearly every year from 1905 to 1967. The squad has been known as the Red Devils since 1906; its fan club is named \"1895\".\r\n\r\nDuring the national player career of forward Paul Van Himst, the most-praised Belgian footballer of the 20th century, Belgium took third place at UEFA Euro 1972. After that, they experienced two golden ages with many gifted players. In the first period, which lasted from the 1980s to the early 1990s, the team finished as runners-up at UEFA Euro 1980 and fourth in the 1986 World Cup. In the second, under guidance of Marc Wilmots and later Roberto Martínez in the 2010s, Belgium topped the FIFA World Rankings for the first time in November 2015 and finished third at the 2018 World Cup.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/RoyalBelgianFA/",
+      "twitter": "https://twitter.com/RoyalBelgianFA",
+      "instagram": "https://www.instagram.com/RoyalBelgianFA",
+      "youtube": "https://www.youtube.com/belgianfootball"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/vs6jr71622208802.jpg",
+    "coach_bio": "Domenico Tedesco (born 12 September 1985) is an Italian-German football manager who is the head coach of Belgium national football team.\r\n\r\nIn 2017, he took over as manager of Schalke 04 and guided them to a second place finish in the Bundesliga in his debut season. He was sacked in March 2019 and subsequently took charge of Spartak Moscow in the Russian league in October 2019. He left Spartak in June 2021 before being appointed at RB Leipzig in December, leading them to win the 2022 DFB-Pokal. He was sacked by Leipzig in September 2022.",
+    "last_match": {
+      "date": "2025-11-18",
+      "event": "Belgium vs Liechtenstein",
+      "score": "7-0",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "bosnia-and-herzegovina",
@@ -1727,11 +2315,7 @@
     "group": "F",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Zlatan Ibrahimović",
     "top_scorer_all_time_goals": 62,
@@ -1749,7 +2333,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Sweden World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Sweden World Cup 2026 squad, fixtures, and team guide. Full Blågult profile on FootBrowse."
+    "meta_description": "Sweden World Cup 2026 squad, fixtures, and team guide. Full Blågult profile on FootBrowse.",
+    "sportsdb_id": "133916",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/h5adzg1591981772.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/cm7iew1591981773.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/084e891621850479.png",
+    "nickname": "Blågult",
+    "year_formed": 1904,
+    "sportsdb_description": "The Sweden national football team (Swedish: svenska fotbollslandslaget) represents Sweden in men's international football and it is controlled by the Swedish Football Association, the governing body of football in Sweden. Sweden's home ground is Friends Arena in Solna and the team is coached by Janne Andersson. From 1945 to late 1950s, they were considered one of the greatest teams in Europe.\r\n\r\nSweden has made twelve appearances at the World Cup with their first coming in 1934. They have also made six appearances at the European Championship. Sweden finished second at the 1958 FIFA World Cup, and third in both 1950 and 1994. Sweden's other accomplishments also include a gold medal at the 1948 Summer Olympics, and bronze medals in 1924 and 1952. They also reached the semi-finals at UEFA Euro 1992.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/nationalsporten",
+      "twitter": "https://twitter.com/svenskfotboll",
+      "instagram": "https://www.svenskfotboll.se/link/d3956be88b9c48838eabb78984cd0708.aspx",
+      "youtube": "https://www.youtube.com/user/svenskfotboll"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/kn1gia1549572899.jpg",
+    "coach_bio": "Graham Stephen Potter (born 20 May 1975) is an English professional football manager who is the manager of the Sweden national team.\r\n\r\nIn a 13-year playing career, Potter, who played as a left-back, made 307 appearances in the Football League. He also played in the Premier League for Southampton, and the Football Conference for Shrewsbury Town. At international level, he was capped once for England at under-21 level.\r\n\r\nPotter started his professional managerial career in January 2011 with Swedish club Östersund. He won three promotions and the Svenska Cupen with Östersund, leading them to the 2017–18 UEFA Europa League knockout stage. He was appointed manager of Championship club Swansea City in June 2018, and moved on to Brighton & Hove Albion of the Premier League a year later. After a successful spell at Brighton, he was hired by Chelsea in 2022, but was dismissed in April 2023, following a steep drop in form. In January 2025, he was hired by West Ham United.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Sweden vs Poland",
+      "score": "3-2",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "turkey",
@@ -1769,10 +2374,6 @@
     "group": "D",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
       "W"
     ],
     "top_scorer_all_time": "Hakan Şükür",
@@ -1791,7 +2392,21 @@
     "players": [],
     "matches": [],
     "meta_title": "Turkey World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Turkey World Cup 2026 squad, fixtures, and team guide. Full Crescent Stars profile on FootBrowse."
+    "meta_description": "Turkey World Cup 2026 squad, fixtures, and team guide. Full Crescent Stars profile on FootBrowse.",
+    "sportsdb_id": "135985",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/70c4oo1591982459.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/u1dwat1621772802.png",
+    "nickname": "Ay-Yıldızlılar (The Crescent-Stars)",
+    "year_formed": 1923,
+    "sportsdb_description": "The Turkey national football team (Turkish: Türkiye Millî Futbol Takımı) represents Turkey in men's international football and is controlled by the Turkish Football Federation, the governing body for football in Turkey. The team represents both FIFA and UEFA.\r\n\r\nTurkey has qualified three times for the FIFA World Cup, in 1950, 1954, and 2002, although they withdrew from the 1950 event. Turkey has also qualified five times for the UEFA European Championship, in 1996, 2000, 2008, 2016, and 2020. They have reached the semi-finals of three major tournaments: the 2002 World Cup, the 2003 FIFA Confederations Cup, and Euro 2008. After their third-place finish at the 2002 World Cup, which marked a high point in Turkish football history, Turkey occupied a spot in the top ten of the FIFA World Rankings for the first time since the rankings were introduced in December 1992.",
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/d1sjsy1661854263.jpg",
+    "coach_bio": "Vincenzo Montella Cavaliere OMRI (born 18 June 1974) is an Italian football manager and former striker. He is the current head coach of the Turkey national football team.\r\n\r\nMontella's nickname during his playing career was \"Aeroplanino\", in reference to his small stature and trademark goal celebration, in which he spread his arms like wings. A prolific goalscorer, throughout his playing career Montella played as a forward for Italian clubs Empoli, Genoa, Sampdoria and Roma, and also had a spell on loan in England with Fulham. He is mostly remembered for his performances with Roma (1999–2007), where he won the Serie A title and the Supercoppa Italiana during the 2000–01 season, also later reaching the 2003 Coppa Italia final with the club. In 2013, Montella was inducted into the AS Roma Hall of Fame. At international level, he made 20 appearances for Italy between 1999 and 2005, scoring three goals; he was notably a member of the Italian team that reached the final of UEFA Euro 2000, and he also represented his country at the 2002 FIFA World Cup.\r\n\r\nMontella began his managerial career as Roma's caretaker manager in 2011, later coaching Catania the following season. In 2012, he moved to Fiorentina, where he spent three seasons, leading the club to three consecutive fourth-place league finishes, the 2014 Coppa Italia final and the UEFA Europa League semi-finals in 2015. After a season-long spell with Sampdoria, he was appointed Milan's manager in 2016, and later that year, he won his first title as a coach with the club, the Supercoppa Italiana. He was sacked by the club in 2017, and was subsequently appointed manager of Spanish side Sevilla. Despite reaching the Copa del Rey final and reaching the Champions League quarter-finals for the first time in the club's history, he was sacked by Sevilla four months after his appointment, following a run that included nine matches without a victory. He returned to Fiorentina in 2019, with the second spell lasting over eight months. After a period managing Adana Demirspor in the Turkish league, he as appointed as coach of the Turkish national team in September 2023.",
+    "last_match": {
+      "date": "2026-03-26",
+      "event": "Turkey vs Romania",
+      "score": "1-0",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "czech-republic",
@@ -1804,17 +2419,13 @@
     "wc_titles": 0,
     "wc_appearances": 10,
     "best_result": "Runners-up (1934, 1962)",
-    "coach": "Miroslav Koubek",
+    "coach": "Ivan Hašek",
     "captain": "Tomáš Souček",
     "color_primary": "#D7141A",
     "color_secondary": "#11457E",
     "group": "A",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "Jan Koller",
@@ -1833,7 +2444,26 @@
     "players": [],
     "matches": [],
     "meta_title": "Czech Republic World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Czech Republic World Cup 2026 squad, fixtures, and team guide. Full Lions profile on FootBrowse."
+    "meta_description": "Czech Republic World Cup 2026 squad, fixtures, and team guide. Full Lions profile on FootBrowse.",
+    "sportsdb_id": "133904",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/1o0cx31654205806.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/xkulop1621850228.png",
+    "year_formed": 1994,
+    "sportsdb_description": "The Czech national football team (Czech: Česká fotbalová reprezentace) represents the Czech Republic in international football, and are controlled by the Football Association of the Czech Republic, the governing body for football in the Czech Republic. Historically, the team participated in FIFA and UEFA competitions as Bohemia, Austria-Hungary and Czechoslovakia. The Czech team, as Czechoslovakia, finished as Runners Up to hosts Italy at the second-ever FIFA World Cup in 1934 and again were Runners Up to Pelé's Brazil at the 1962 World Cup in Chile. They won the European Championship in 1976 over West Germany.\r\n\r\nThe national team was founded in 1901, existing under the previously mentioned names before the dissolution of Czechoslovakia in 1993. Their first international competition as the Czech Republic was the UEFA Euro 1996, where they finished runners-up, and they have taken part in every European Championship since. Following the separation, however, they have only featured in one FIFA World Cup, the 2006 tournament, where they were eliminated in the first round of the competition.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/narodak",
+      "twitter": "https://twitter.com/ceskarepre_cz",
+      "instagram": "https://instagram.com/ceskarepre",
+      "youtube": "https://www.youtube.com/user/ceskarepre"
+    },
+    "coach_photo": null,
+    "coach_bio": "Ivan Hašek (born 6 September 1963) is a Czech professional football coach and former player who currently manages the Czech national football team.\r\n\r\nHašek played as a central midfielder, and spent 11 years of his career with Sparta Prague, appearing in more than 300 official games with the club, and later acting as its manager. Hašek represented Czechoslovakia at the 1990 World Cup, and was also president of the Football Association of the Czech Republic.\r\n\r\nAs a manager, he worked with clubs in the Middle East in the mid-2010s, before being appointed as coach of Lebanon in 2021. He returned to Czech Republic to be the national team coach in 2024.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Czech Republic vs Denmark",
+      "score": "2-2",
+      "competition": "World Cup Qualifying UEFA"
+    }
   },
   {
     "slug": "panama",
@@ -1853,11 +2483,7 @@
     "group": "L",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "D",
-      "W"
+      "L"
     ],
     "top_scorer_all_time": "Blas Pérez",
     "top_scorer_all_time_goals": 43,
@@ -1875,7 +2501,28 @@
     "players": [],
     "matches": [],
     "meta_title": "Panama World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Panama World Cup 2026 squad, fixtures, and team guide. Full Los Canaleros profile on FootBrowse."
+    "meta_description": "Panama World Cup 2026 squad, fixtures, and team guide. Full Los Canaleros profile on FootBrowse.",
+    "sportsdb_id": "136141",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/asp2ck1715849700.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/cu6g8j1597947384.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/4mcxyn1616674835.png",
+    "nickname": "Los Canaleros (The Canal Men)",
+    "year_formed": 1938,
+    "sportsdb_description": "The Panama national football team (Spanish: Selección de fútbol de Panamá) represents Panama in men's international association football and it is governed by Panamanian Football Federation, The team represents all three FIFA, CONCACAF and the regional UNCAF.\r\n\r\nPanama qualified for the FIFA World Cup for the first time for the 2018 tournament in Russia and scored their first goal of the World Cup against England, although they lost the match 6–1. Having finished dead last, it was Panama's worst performance in its debut appearance.\r\n\r\nPanama finished as runners-up in the 2005 Gold Cup and 2013 Gold Cup, losing to the United States on both occasions. Panama has also competed in the sub-regional Central American Cup championship which they won in 2009, beating Costa Rica in the final (0–0 on full-time, 5–3 on penalties). They finished in third place on three occasions (1993, 2011, 2014), and finished as runners-up in the 2017 edition, which they hosted.\r\n\r\nThe national team is nicknamed \"Los Canaleros\" (\"The Canal Men\"), in reference to the Panama Canal.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/fepafut/?fref=ts",
+      "twitter": "https://twitter.com/fepafut",
+      "instagram": "https://www.instagram.com/fepafut",
+      "youtube": "https://www.youtube.com/subscription_center?add_user=fepafutvideos"
+    },
+    "coach_photo": "https://r2.thesportsdb.com/images/media/player/thumb/b1yffq1611001577.jpg",
+    "coach_bio": "Thomas Christiansen Tarín (born 11 March 1973) is a Danish-Spanish former footballer who played as a striker, currently the head coach of Panama.\r\n\r\nLeft-footed, he played for a number of clubs in Danish, Spanish and German football over a 15-year professional career, being crowned the top goalscorer of the 2002–03 Bundesliga whilst with Bochum. Born in Denmark, he represented the Spain national team.\r\n\r\nIn 2013, Christiansen started working as a manager.",
+    "last_match": {
+      "date": "2026-01-23",
+      "event": "Panama vs Mexico",
+      "score": "0-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "curacao",
@@ -1895,10 +2542,6 @@
     "group": "E",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "Leandro Bacuna",
@@ -1917,7 +2560,21 @@
     "players": [],
     "matches": [],
     "meta_title": "Curaçao World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Curaçao World Cup 2026 squad, fixtures, and debut guide. Full Knipselmannen profile on FootBrowse."
+    "meta_description": "Curaçao World Cup 2026 squad, fixtures, and debut guide. Full Knipselmannen profile on FootBrowse.",
+    "sportsdb_id": "140271",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/itygvb1600955363.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/x5uzc11600955378.png",
+    "year_formed": 2011,
+    "sportsdb_description": "The Curaçao national football team (Dutch: Curaçaos voetbalelftal; Papiamentu, Selekshon di Futbòl Kòrsou) represents Curaçao in International association football and is controlled by the Curaçao Football Federation (Federashon Futbòl Kòrsou; FFK).\r\n\r\nFollowing a constitutional change that allowed its predecessor, the Colony of Curaçao and Dependencies to become a unified constituent country consisting of several island territories as the Netherlands Antilles and its dissolution in 2010, Curaçao has played under a new constitutional status as a separate constituent country since 2011.\r\n\r\nBoth FIFA and CONCACAF recognize the Curaçao national team to be the direct and sole successor of the dependant Curaçao (1921–1958) and the Netherlands Antilles national football teams.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/Federashonfutbolkorsou/"
+    },
+    "last_match": {
+      "date": "2025-10-14",
+      "event": "Curaçao vs Trinidad and Tobago",
+      "score": "1-1",
+      "competition": "World Cup Qualifying CONCACAF"
+    }
   },
   {
     "slug": "haiti",
@@ -1937,10 +2594,6 @@
     "group": "C",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
       "D"
     ],
     "top_scorer_all_time": "Philippe Vorbe",
@@ -1959,7 +2612,21 @@
     "players": [],
     "matches": [],
     "meta_title": "Haiti World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Haiti World Cup 2026 squad, fixtures, and team guide. Full Grenadiers profile on FootBrowse."
+    "meta_description": "Haiti World Cup 2026 squad, fixtures, and team guide. Full Grenadiers profile on FootBrowse.",
+    "sportsdb_id": "140175",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/gml8wx1598135302.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/hla5gm1740070974.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/vf79d01740070975.jpg",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/jkimra1626624843.png",
+    "nickname": "Les Grenadiers (The Grenadiers)",
+    "year_formed": 1925,
+    "sportsdb_description": "The Haiti national football team (French: Équipe d'Haïti de football, Haitian Creole: Ekip foutbòl Ayiti) represents Haiti in international football. Haiti is administered by the Fédération Haïtienne de Football (FHF), the governing body for football in Haiti. They have been a member of FIFA since 1934, a member of CONCACAF since 1961 and a member of the Caribbean Football Union (CFU) since 1978. Haiti's home ground is Stade Sylvio Cator in Port-au-Prince and their head coach was Patrice Neveu, until December 2016.\r\n\r\nHaiti has one of the longest football traditions in the region and were the second Caribbean team to make the World Cup, after qualifying from winning the 1973 CONCACAF Championship. It was their only appearance in 1974, where they were beaten in the opening group stage by its other three teams, who were all pre-tournament favorites; Italy, Poland, and Argentina.\r\n\r\nIn 2016, Haiti qualified for the 100th anniversary of the Copa América, by defeating Trinidad and Tobago.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "Haiti vs Iceland",
+      "score": "1-1",
+      "competition": "International Friendlies"
+    }
   },
   {
     "slug": "dr-congo",
@@ -1979,11 +2646,7 @@
     "group": "K",
     "stadium_slug": null,
     "form": [
-      "W",
-      "W",
-      "D",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Shabani Nonda",
     "top_scorer_all_time_goals": 29,
@@ -2001,7 +2664,19 @@
     "players": [],
     "matches": [],
     "meta_title": "DR Congo World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "DR Congo World Cup 2026 squad, fixtures, and team guide. Full Leopards profile on FootBrowse."
+    "meta_description": "DR Congo World Cup 2026 squad, fixtures, and team guide. Full Leopards profile on FootBrowse.",
+    "sportsdb_id": "136475",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/s85jjw1728749022.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/3kj9y61740102240.png",
+    "fanart_url": "https://r2.thesportsdb.com/images/media/team/fanart/blkspx1740102242.jpg",
+    "year_formed": 1948,
+    "sportsdb_description": "The Democratic Republic of the Congo national football team (formerly known as Zaire, alternatively known as Congo-Kinshasa) is the national team of the Democratic Republic of the Congo and is controlled by the Congolese Association Football Federation. They are nicknamed the Leopards.\r\n\r\nDR Congo have been ranked as high as 28 in the FIFA Rankings. As Zaire they were the first Sub-Saharan African team to qualify for the FIFA World Cup and twice won the Africa Cup of Nations.",
+    "last_match": {
+      "date": "2026-03-31",
+      "event": "DR Congo vs Jamaica",
+      "score": "1-0",
+      "competition": "World Cup Qualifying Inter-Confederation Play-offs"
+    }
   },
   {
     "slug": "iraq",
@@ -2021,11 +2696,7 @@
     "group": "I",
     "stadium_slug": null,
     "form": [
-      "W",
-      "D",
-      "W",
-      "W",
-      "D"
+      "W"
     ],
     "top_scorer_all_time": "Hussein Saeed",
     "top_scorer_all_time_goals": 78,
@@ -2043,6 +2714,24 @@
     "players": [],
     "matches": [],
     "meta_title": "Iraq World Cup 2026 — Squad, Fixtures & Guide | FootBrowse",
-    "meta_description": "Iraq World Cup 2026 squad, fixtures, and team guide. Full Lions of Mesopotamia profile on FootBrowse."
+    "meta_description": "Iraq World Cup 2026 squad, fixtures, and team guide. Full Lions of Mesopotamia profile on FootBrowse.",
+    "sportsdb_id": "140148",
+    "badge_url": "https://r2.thesportsdb.com/images/media/team/badge/aqidfn1742100110.png",
+    "logo_url": "https://r2.thesportsdb.com/images/media/team/logo/14jl2g1761234378.png",
+    "kit_url": "https://r2.thesportsdb.com/images/media/team/equipment/vo3mp51623598890.png",
+    "nickname": "Usood Al-Rafidain (Lions of Mesopotamia)",
+    "year_formed": 1957,
+    "sportsdb_description": "The Iraq national football team (Arabic: المنتخب العراقي لكرة القدم‎) represents Iraq in international football and is controlled by the Iraq Football Association (IFA), the governing body for football in Iraq. Most of Iraq's home matches are played at the Basra International Stadium.\r\n\r\nIraq has made one FIFA World Cup appearance, in 1986 in Mexico, but lost all three of their games to Paraguay, Belgium and Mexico. The 2007 AFC Asian Cup marked a high point in Iraq's football history when they were crowned champions against all the odds. Iraq defeated some of the favourites in the competition including Australia, South Korea and Saudi Arabia. Their triumph also qualified them for the 2009 FIFA Confederations Cup.\r\n\r\nIn the decade after the 2007 victory, Iraq finished fourth at the 2015 AFC Asian Cup. The team reached an all-time high of 39th in the FIFA World Rankings in October 2004.",
+    "social_links": {
+      "facebook": "https://www.facebook.com/iraqfa",
+      "twitter": "https://www.twitter.com/IRAQFA",
+      "instagram": "https://instagram.com/iraq.fa"
+    },
+    "last_match": {
+      "date": "2026-04-01",
+      "event": "Iraq vs Bolivia",
+      "score": "2-1",
+      "competition": "World Cup Qualifying Inter-Confederation Play-offs"
+    }
   }
 ]

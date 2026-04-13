@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { matches, teams, stadiums, playersByTeam } from "@/lib/data";
 import FlagImg from "@/components/FlagImg";
 
@@ -20,6 +21,37 @@ const POS_PRIORITY: Record<string, number> = {
 };
 
 export default function HomePage() {
+  const siteUrl = "https://footbrowse.com";
+  const logoUrl = `${siteUrl}/favicon-96x96.png`;
+
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FootBrowse",
+    "url": siteUrl,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${siteUrl}/matches?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "FootBrowse",
+    "url": siteUrl,
+    "logo": logoUrl,
+    "sameAs": [
+      "https://twitter.com/footbrowse",
+      "https://instagram.com/footbrowse",
+      "https://youtube.com/@footbrowse"
+    ]
+  };
+
   // Pick the most attack-minded player with a photo from each team
   const spotlightPlayers = Object.values(playersByTeam)
     .filter((squad) => squad.length > 0)
@@ -35,6 +67,15 @@ export default function HomePage() {
 
   return (
     <div className="space-y-14">
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
 
       {/* ── Hero ── */}
       <section className="page-header pt-4">
@@ -88,8 +129,7 @@ export default function HomePage() {
                 {match.stage} · Group {match.group}
               </p>
               <div className="flex items-center gap-2 mb-1">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={match.team_a.flag_url}
                   alt={match.team_a.name}
                   width={24}
@@ -104,8 +144,7 @@ export default function HomePage() {
                   {match.team_a.name}
                 </span>
                 <span className="text-zinc-600 font-normal mx-1">vs</span>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={match.team_b.flag_url}
                   alt={match.team_b.name}
                   width={24}
@@ -147,8 +186,7 @@ export default function HomePage() {
             <Link key={team.slug} href={`/teams/${team.slug}`} className="entity-card block">
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-2 min-w-0">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <Image
                     src={team.flag_url}
                     alt={`${team.name} flag`}
                     width={28}
@@ -193,12 +231,13 @@ export default function HomePage() {
           {[...stadiums].sort((a, b) => b.capacity - a.capacity).slice(0, 6).map((stadium) => (
             <Link key={stadium.slug} href={`/stadiums/${stadium.slug}`} className="entity-card block overflow-hidden !p-0">
               {/* Stadium photo */}
-              {stadium.photo_url && (
+              {(stadium.sportsdb_photos?.[0] || stadium.photo_url) && (
                 <div className="w-full h-28 overflow-hidden relative">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={stadium.photo_url}
-                    alt={stadium.name}
+                  <Image
+                    src={stadium.sportsdb_photos?.[0] || stadium.photo_url}
+                    alt={`${stadium.name} photo`}
+                    width={400}
+                    height={112}
                     className="w-full h-full object-cover"
                   />
                   {stadium.is_final_venue && (
@@ -232,10 +271,9 @@ export default function HomePage() {
               <Link key={player.slug} href={`/players/${player.slug}`} className="entity-card block">
                 <div className="flex items-start gap-3 mb-2">
                   {player.photo_url ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
+                    <Image
                       src={player.photo_url}
-                      alt={player.name}
+                      alt={`${player.name} photo`}
                       width={48}
                       height={48}
                       className="rounded-lg object-cover object-top shrink-0"

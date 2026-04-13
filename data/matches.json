@@ -29,14 +29,14 @@
       "color_primary": "#007749"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 3,
-      "draws": 0,
-      "team_b_wins": 0,
-      "last_match": "Mexico 1-1 South Africa · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 0
+      "played": 2,
+      "team_a_wins": 0,
+      "draws": 1,
+      "team_b_wins": 1,
+      "last_match": "South Africa vs Mexico 1-1 · 2010",
+      "last_wc_meeting": "South Africa vs Mexico 1-1 (2010)",
+      "team_a_goals_scored": 2,
+      "team_b_goals_scored": 3
     },
     "odds": [
       {
@@ -161,14 +161,14 @@
       "color_primary": "#11457E"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 3,
-      "draws": 4,
-      "team_b_wins": 2,
-      "last_match": "South Korea 1-1 Czech Republic · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 8
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -293,14 +293,14 @@
       "color_primary": "#002395"
     },
     "h2h": {
-      "played": 1,
-      "team_a_wins": 2,
+      "played": 0,
+      "team_a_wins": 0,
       "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Canada 1-1 Bosnia and Herzegovina · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 3,
-      "team_b_goals_scored": -1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -425,14 +425,14 @@
       "color_primary": "#D52B1E"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 6,
-      "draws": 2,
-      "team_b_wins": 2,
-      "last_match": "USA 1-1 Paraguay · 2022 Friendly",
+      "played": 1,
+      "team_a_wins": 1,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "USA vs Paraguay 2-1 · 2025",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 14,
-      "team_b_goals_scored": 6
+      "team_a_goals_scored": 2,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -557,14 +557,14 @@
       "color_primary": "#0065BD"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 3,
-      "draws": 2,
-      "team_b_wins": 5,
-      "last_match": "Haiti 1-1 Scotland · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 8,
-      "team_b_goals_scored": 12
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -689,14 +689,14 @@
       "color_primary": "#E30A17"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 4,
-      "draws": 3,
-      "team_b_wins": 3,
-      "last_match": "Australia 1-1 Turkey · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 11,
-      "team_b_goals_scored": 9
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -821,14 +821,14 @@
       "color_primary": "#C1272D"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 2,
-      "draws": 2,
+      "played": 2,
+      "team_a_wins": 1,
+      "draws": 0,
       "team_b_wins": 1,
-      "last_match": "Brazil 1-1 Morocco · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 4
+      "last_match": "Morocco vs Brazil 2-1 · 2023",
+      "last_wc_meeting": "Brazil vs Morocco 3-0 (1998)",
+      "team_a_goals_scored": 4,
+      "team_b_goals_scored": 2
     },
     "odds": [
       {
@@ -953,14 +953,14 @@
       "color_primary": "#FF0000"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 2,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Qatar 1-1 Switzerland · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -1085,14 +1085,14 @@
       "color_primary": "#FFDD00"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 2,
-      "draws": 3,
-      "team_b_wins": 2,
-      "last_match": "Ivory Coast 1-1 Ecuador · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 7
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -1217,14 +1217,14 @@
       "color_primary": "#002B7F"
     },
     "h2h": {
-      "played": 8,
-      "team_a_wins": 5,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Germany 1-1 Curaçao · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 12,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -1350,13 +1350,13 @@
     },
     "h2h": {
       "played": 1,
-      "team_a_wins": 0,
-      "draws": 1,
+      "team_a_wins": 1,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Netherlands 1-1 Japan · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
+      "last_match": "Netherlands vs Japan 1-0 · 2010",
+      "last_wc_meeting": "Netherlands vs Japan 1-0 (2010)",
       "team_a_goals_scored": 1,
-      "team_b_goals_scored": 1
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -1481,14 +1481,14 @@
       "color_primary": "#E70013"
     },
     "h2h": {
-      "played": 2,
+      "played": 0,
       "team_a_wins": 0,
-      "draws": 2,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Sweden 1-1 Tunisia · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 2,
-      "team_b_goals_scored": 2
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -1613,14 +1613,14 @@
       "color_primary": "#0038A8"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 4,
-      "last_match": "Saudi Arabia 1-1 Uruguay · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 10
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "Uruguay vs Saudi Arabia 1-0 · 2018",
+      "last_wc_meeting": "Uruguay vs Saudi Arabia 1-0 (2018)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -1745,13 +1745,13 @@
       "color_primary": "#003893"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 3,
+      "played": 0,
+      "team_a_wins": 0,
       "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Spain 1-1 Cape Verde · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
+      "team_a_goals_scored": 0,
       "team_b_goals_scored": 0
     },
     "odds": [
@@ -1877,14 +1877,14 @@
       "color_primary": "#000000"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 4,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Iran 1-1 New Zealand · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -2009,14 +2009,14 @@
       "color_primary": "#CE1126"
     },
     "h2h": {
-      "played": 8,
-      "team_a_wins": 5,
-      "draws": 2,
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 1,
-      "last_match": "Belgium 1-1 Egypt · 2022 Friendly",
+      "last_match": "Belgium vs Egypt 1-2 · 2022",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 12,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 1,
+      "team_b_goals_scored": 2
     },
     "odds": [
       {
@@ -2141,14 +2141,14 @@
       "color_primary": "#00853F"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 3,
-      "draws": 4,
-      "team_b_wins": 2,
-      "last_match": "France 1-1 Senegal · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 8
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "France vs Senegal 0-1 · 2002",
+      "last_wc_meeting": "France vs Senegal 0-1 (2002)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -2273,14 +2273,14 @@
       "color_primary": "#BA0C2F"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 3,
-      "draws": 4,
-      "team_b_wins": 2,
-      "last_match": "Iraq 1-1 Norway · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 8
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -2405,14 +2405,14 @@
       "color_primary": "#006233"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 6,
-      "draws": 2,
-      "team_b_wins": 2,
-      "last_match": "Argentina 1-1 Algeria · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 14,
-      "team_b_goals_scored": 6
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -2537,14 +2537,14 @@
       "color_primary": "#000000"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 6,
-      "draws": 2,
-      "team_b_wins": 2,
-      "last_match": "Austria 1-1 Jordan · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 14,
-      "team_b_goals_scored": 6
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -2669,14 +2669,14 @@
       "color_primary": "#002F6C"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 1,
-      "draws": 1,
-      "team_b_wins": 3,
-      "last_match": "Ghana 1-1 Panama · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 3,
-      "team_b_goals_scored": 7
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -2802,12 +2802,12 @@
     },
     "h2h": {
       "played": 2,
-      "team_a_wins": 0,
-      "draws": 2,
+      "team_a_wins": 2,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "England 1-1 Croatia · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 2,
+      "last_match": "England vs Croatia 5-1 · 2009",
+      "last_wc_meeting": "England vs Croatia 5-1 (2009)",
+      "team_a_goals_scored": 9,
       "team_b_goals_scored": 2
     },
     "odds": [
@@ -2933,14 +2933,14 @@
       "color_primary": "#007FFF"
     },
     "h2h": {
-      "played": 4,
-      "team_a_wins": 3,
-      "draws": 1,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Portugal 1-1 DR Congo · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -3065,14 +3065,14 @@
       "color_primary": "#FCD116"
     },
     "h2h": {
-      "played": 8,
-      "team_a_wins": 2,
-      "draws": 2,
-      "team_b_wins": 4,
-      "last_match": "Uzbekistan 1-1 Colombia · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 10
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -3197,13 +3197,13 @@
       "color_primary": "#007749"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 3,
+      "played": 0,
+      "team_a_wins": 0,
       "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Czech Republic 1-1 South Africa · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
+      "team_a_goals_scored": 0,
       "team_b_goals_scored": 0
     },
     "odds": [
@@ -3329,14 +3329,14 @@
       "color_primary": "#002395"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 4,
-      "draws": 2,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Switzerland 1-1 Bosnia and Herzegovina · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 2
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -3461,13 +3461,13 @@
       "color_primary": "#8A1538"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 0,
-      "last_match": "Canada 1-1 Qatar · 2022 Friendly",
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "Canada vs Qatar 0-2 · 2022",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
+      "team_a_goals_scored": 0,
       "team_b_goals_scored": 2
     },
     "odds": [
@@ -3593,14 +3593,14 @@
       "color_primary": "#C60C30"
     },
     "h2h": {
-      "played": 7,
+      "played": 3,
       "team_a_wins": 2,
-      "draws": 3,
-      "team_b_wins": 2,
-      "last_match": "Mexico 1-1 South Korea · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
+      "draws": 1,
+      "team_b_wins": 0,
+      "last_match": "Mexico vs South Korea 2-2 · 2025",
+      "last_wc_meeting": "South Korea vs Mexico 1-2 (2018)",
       "team_a_goals_scored": 7,
-      "team_b_goals_scored": 7
+      "team_b_goals_scored": 4
     },
     "odds": [
       {
@@ -3725,14 +3725,14 @@
       "color_primary": "#00209F"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 4,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Brazil 1-1 Haiti · 2022 Friendly",
+      "played": 1,
+      "team_a_wins": 1,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "Brazil vs Haiti 7-1 · 2016",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 7,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -3857,14 +3857,14 @@
       "color_primary": "#C1272D"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 3,
-      "last_match": "Scotland 1-1 Morocco · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 8
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "Scotland vs Morocco 0-3 · 1998",
+      "last_wc_meeting": "Scotland vs Morocco 0-3 (1998)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 3
     },
     "odds": [
       {
@@ -3989,14 +3989,14 @@
       "color_primary": "#D52B1E"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 3,
-      "draws": 4,
-      "team_b_wins": 2,
-      "last_match": "Turkey 1-1 Paraguay · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 8
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -4121,14 +4121,14 @@
       "color_primary": "#00843D"
     },
     "h2h": {
-      "played": 4,
+      "played": 1,
       "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "USA 1-1 Australia · 2022 Friendly",
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "USA vs Australia 2-1 · 2025",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 2,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -4253,13 +4253,13 @@
       "color_primary": "#F77F00"
     },
     "h2h": {
-      "played": 2,
-      "team_a_wins": 2,
+      "played": 0,
+      "team_a_wins": 0,
       "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Germany 1-1 Ivory Coast · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
+      "team_a_goals_scored": 0,
       "team_b_goals_scored": 0
     },
     "odds": [
@@ -4385,14 +4385,14 @@
       "color_primary": "#002B7F"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 4,
-      "draws": 1,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Ecuador 1-1 Curaçao · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 9,
-      "team_b_goals_scored": 1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -4517,14 +4517,14 @@
       "color_primary": "#FECC00"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 2,
+      "played": 3,
+      "team_a_wins": 0,
       "draws": 3,
-      "team_b_wins": 2,
-      "last_match": "Netherlands 1-1 Sweden · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 7
+      "team_b_wins": 0,
+      "last_match": "Sweden vs Netherlands 1-1 · 2016",
+      "last_wc_meeting": "Sweden vs Netherlands 1-1 (2016)",
+      "team_a_goals_scored": 1,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -4649,14 +4649,14 @@
       "color_primary": "#000555"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 4,
-      "last_match": "Tunisia 1-1 Japan · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 10
+      "played": 2,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 2,
+      "last_match": "Japan vs Tunisia 2-0 · 2023",
+      "last_wc_meeting": "Tunisia vs Japan 0-2 (2002)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 4
     },
     "odds": [
       {
@@ -4781,14 +4781,14 @@
       "color_primary": "#003893"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 4,
-      "draws": 1,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Uruguay 1-1 Cape Verde · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 9,
-      "team_b_goals_scored": 1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -4913,14 +4913,14 @@
       "color_primary": "#006C35"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 4,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Spain 1-1 Saudi Arabia · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 4
+      "played": 1,
+      "team_a_wins": 1,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "Saudi Arabia vs Spain 0-1 · 2006",
+      "last_wc_meeting": "Saudi Arabia vs Spain 0-1 (2006)",
+      "team_a_goals_scored": 1,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5045,14 +5045,14 @@
       "color_primary": "#239F40"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 2,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Belgium 1-1 Iran · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5177,14 +5177,14 @@
       "color_primary": "#CE1126"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 3,
-      "draws": 2,
-      "team_b_wins": 5,
-      "last_match": "New Zealand 1-1 Egypt · 2022 Friendly",
+      "played": 2,
+      "team_a_wins": 1,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "Egypt vs New Zealand 1-0 · 2024",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 8,
-      "team_b_goals_scored": 12
+      "team_a_goals_scored": 1,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -5309,14 +5309,14 @@
       "color_primary": "#00853F"
     },
     "h2h": {
-      "played": 1,
+      "played": 0,
       "team_a_wins": 0,
       "draws": 0,
-      "team_b_wins": 2,
-      "last_match": "Norway 1-1 Senegal · 2022 Friendly",
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": -1,
-      "team_b_goals_scored": 3
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5441,14 +5441,14 @@
       "color_primary": "#017B3D"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 4,
-      "draws": 2,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "France 1-1 Iraq · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 2
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5573,14 +5573,14 @@
       "color_primary": "#ED2939"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 4,
-      "draws": 1,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Argentina 1-1 Austria · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 9,
-      "team_b_goals_scored": 1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5705,14 +5705,14 @@
       "color_primary": "#006233"
     },
     "h2h": {
-      "played": 8,
-      "team_a_wins": 2,
-      "draws": 2,
-      "team_b_wins": 4,
-      "last_match": "Jordan 1-1 Algeria · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 10
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5837,14 +5837,14 @@
       "color_primary": "#CE1126"
     },
     "h2h": {
-      "played": 8,
-      "team_a_wins": 5,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "England 1-1 Ghana · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 12,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -5969,14 +5969,14 @@
       "color_primary": "#FF0000"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 3,
-      "last_match": "Panama 1-1 Croatia · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 8
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -6101,14 +6101,14 @@
       "color_primary": "#0099B5"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 5,
-      "draws": 3,
-      "team_b_wins": 1,
-      "last_match": "Portugal 1-1 Uzbekistan · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 13,
-      "team_b_goals_scored": 5
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -6233,13 +6233,13 @@
       "color_primary": "#007FFF"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 3,
+      "played": 0,
+      "team_a_wins": 0,
       "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Colombia 1-1 DR Congo · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
+      "team_a_goals_scored": 0,
       "team_b_goals_scored": 0
     },
     "odds": [
@@ -6365,14 +6365,14 @@
       "color_primary": "#009C3B"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 3,
-      "last_match": "Scotland 1-1 Brazil · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 8
+      "played": 3,
+      "team_a_wins": 0,
+      "draws": 1,
+      "team_b_wins": 2,
+      "last_match": "Brazil vs Scotland 2-1 · 1998",
+      "last_wc_meeting": "Brazil vs Scotland 2-1 (1998)",
+      "team_a_goals_scored": 1,
+      "team_b_goals_scored": 3
     },
     "odds": [
       {
@@ -6497,13 +6497,13 @@
       "color_primary": "#00209F"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 3,
+      "played": 0,
+      "team_a_wins": 0,
       "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Morocco 1-1 Haiti · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
+      "team_a_goals_scored": 0,
       "team_b_goals_scored": 0
     },
     "odds": [
@@ -6629,14 +6629,14 @@
       "color_primary": "#FF0000"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 4,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "Switzerland 1-1 Canada · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 10,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -6761,14 +6761,14 @@
       "color_primary": "#8A1538"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 3,
-      "draws": 2,
-      "team_b_wins": 5,
-      "last_match": "Bosnia and Herzegovina 1-1 Qatar · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 8,
-      "team_b_goals_scored": 12
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -6893,14 +6893,14 @@
       "color_primary": "#006341"
     },
     "h2h": {
-      "played": 2,
+      "played": 0,
       "team_a_wins": 0,
       "draws": 0,
-      "team_b_wins": 2,
-      "last_match": "Czech Republic 1-1 Mexico · 2022 Friendly",
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
       "team_a_goals_scored": 0,
-      "team_b_goals_scored": 4
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -7025,14 +7025,14 @@
       "color_primary": "#C60C30"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 3,
-      "draws": 2,
-      "team_b_wins": 5,
-      "last_match": "South Africa 1-1 South Korea · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 8,
-      "team_b_goals_scored": 12
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -7157,14 +7157,14 @@
       "color_primary": "#F77F00"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 2,
-      "draws": 3,
-      "team_b_wins": 4,
-      "last_match": "Curaçao 1-1 Ivory Coast · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 11
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -7291,12 +7291,12 @@
     "h2h": {
       "played": 1,
       "team_a_wins": 0,
-      "draws": 1,
-      "team_b_wins": 0,
-      "last_match": "Ecuador 1-1 Germany · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 1,
-      "team_b_goals_scored": 1
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "Ecuador vs Germany 0-3 · 2006",
+      "last_wc_meeting": "Ecuador vs Germany 0-3 (2006)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 3
     },
     "odds": [
       {
@@ -7421,14 +7421,14 @@
       "color_primary": "#FECC00"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 4,
-      "draws": 3,
-      "team_b_wins": 3,
-      "last_match": "Japan 1-1 Sweden · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 11,
-      "team_b_goals_scored": 9
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -7553,14 +7553,14 @@
       "color_primary": "#F36C21"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 3,
-      "last_match": "Tunisia 1-1 Netherlands · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 8
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -7685,14 +7685,14 @@
       "color_primary": "#002868"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 3,
-      "draws": 2,
-      "team_b_wins": 5,
-      "last_match": "Turkey 1-1 USA · 2022 Friendly",
+      "played": 1,
+      "team_a_wins": 1,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "USA vs Turkey 1-2 · 2025",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 8,
-      "team_b_goals_scored": 12
+      "team_a_goals_scored": 2,
+      "team_b_goals_scored": 1
     },
     "odds": [
       {
@@ -7817,14 +7817,14 @@
       "color_primary": "#00843D"
     },
     "h2h": {
-      "played": 1,
+      "played": 0,
       "team_a_wins": 0,
       "draws": 0,
-      "team_b_wins": 2,
-      "last_match": "Paraguay 1-1 Australia · 2022 Friendly",
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": -1,
-      "team_b_goals_scored": 3
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -7949,14 +7949,14 @@
       "color_primary": "#002395"
     },
     "h2h": {
-      "played": 10,
-      "team_a_wins": 3,
-      "draws": 2,
-      "team_b_wins": 5,
-      "last_match": "Norway 1-1 France · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 8,
-      "team_b_goals_scored": 12
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -8081,14 +8081,14 @@
       "color_primary": "#017B3D"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 4,
-      "draws": 1,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Senegal 1-1 Iraq · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 9,
-      "team_b_goals_scored": 1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -8213,14 +8213,14 @@
       "color_primary": "#239F40"
     },
     "h2h": {
-      "played": 2,
+      "played": 0,
       "team_a_wins": 0,
-      "draws": 2,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Egypt 1-1 Iran · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 2,
-      "team_b_goals_scored": 2
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -8345,14 +8345,14 @@
       "color_primary": "#ED2939"
     },
     "h2h": {
-      "played": 4,
+      "played": 0,
       "team_a_wins": 0,
-      "draws": 1,
-      "team_b_wins": 3,
-      "last_match": "New Zealand 1-1 Belgium · 2022 Friendly",
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 1,
-      "team_b_goals_scored": 7
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -8477,14 +8477,14 @@
       "color_primary": "#006C35"
     },
     "h2h": {
-      "played": 3,
-      "team_a_wins": 1,
-      "draws": 2,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Cape Verde 1-1 Saudi Arabia · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 2
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -8609,14 +8609,14 @@
       "color_primary": "#AA151B"
     },
     "h2h": {
-      "played": 8,
-      "team_a_wins": 3,
-      "draws": 3,
-      "team_b_wins": 2,
-      "last_match": "Uruguay 1-1 Spain · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 9,
-      "team_b_goals_scored": 7
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 1,
+      "team_b_wins": 0,
+      "last_match": "Uruguay vs Spain 0-0 · 1990",
+      "last_wc_meeting": "Uruguay vs Spain 0-0 (1990)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -8741,14 +8741,14 @@
       "color_primary": "#FFFFFF"
     },
     "h2h": {
-      "played": 6,
-      "team_a_wins": 1,
-      "draws": 2,
-      "team_b_wins": 3,
-      "last_match": "Panama 1-1 England · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 4,
-      "team_b_goals_scored": 8
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "England vs Panama 6-1 · 2018",
+      "last_wc_meeting": "England vs Panama 6-1 (2018)",
+      "team_a_goals_scored": 1,
+      "team_b_goals_scored": 6
     },
     "odds": [
       {
@@ -8873,14 +8873,14 @@
       "color_primary": "#CE1126"
     },
     "h2h": {
-      "played": 4,
-      "team_a_wins": 3,
-      "draws": 1,
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Croatia 1-1 Ghana · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 1
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -9005,14 +9005,14 @@
       "color_primary": "#ED2939"
     },
     "h2h": {
-      "played": 7,
-      "team_a_wins": 2,
-      "draws": 3,
-      "team_b_wins": 2,
-      "last_match": "Algeria 1-1 Austria · 2022 Friendly",
-      "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 7
+      "played": 1,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 1,
+      "last_match": "Algeria vs Austria 0-2 · 1982",
+      "last_wc_meeting": "Algeria vs Austria 0-2 (1982)",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 2
     },
     "odds": [
       {
@@ -9137,14 +9137,14 @@
       "color_primary": "#43A1D5"
     },
     "h2h": {
-      "played": 9,
-      "team_a_wins": 2,
-      "draws": 3,
-      "team_b_wins": 4,
-      "last_match": "Jordan 1-1 Argentina · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 7,
-      "team_b_goals_scored": 11
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -9269,14 +9269,14 @@
       "color_primary": "#DA291C"
     },
     "h2h": {
-      "played": 2,
+      "played": 0,
       "team_a_wins": 0,
-      "draws": 2,
+      "draws": 0,
       "team_b_wins": 0,
-      "last_match": "Colombia 1-1 Portugal · 2022 Friendly",
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 2,
-      "team_b_goals_scored": 2
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -9401,14 +9401,14 @@
       "color_primary": "#0099B5"
     },
     "h2h": {
-      "played": 5,
-      "team_a_wins": 2,
-      "draws": 2,
-      "team_b_wins": 1,
-      "last_match": "DR Congo 1-1 Uzbekistan · 2022 Friendly",
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
       "last_wc_meeting": "First meeting",
-      "team_a_goals_scored": 6,
-      "team_b_goals_scored": 4
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
     },
     "odds": [
       {
@@ -9556,7 +9556,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Inglewood"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-e-winners-vs-best-3rd-place",
@@ -9611,7 +9621,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Foxborough"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-f-winners-vs-group-c-runner-up",
@@ -9666,7 +9686,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Monterrey"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-c-winners-vs-group-f-runner-up",
@@ -9721,7 +9751,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Houston"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-i-winners-vs-best-3rd-place",
@@ -9776,7 +9816,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to East Rutherford"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-e-runner-up-vs-group-i-runner-up",
@@ -9831,7 +9881,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Arlington"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-a-winners-vs-best-3rd-place",
@@ -9886,7 +9946,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Mexico City"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-l-winners-vs-best-3rd-place",
@@ -9941,7 +10011,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Atlanta"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-d-winners-vs-best-3rd-place",
@@ -9996,7 +10076,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Santa Clara"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-g-winners-vs-best-3rd-place",
@@ -10051,7 +10141,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Seattle"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-k-runner-up-vs-group-l-runner-up",
@@ -10106,7 +10206,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Toronto"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-h-winners-vs-group-j-runner-up",
@@ -10161,7 +10271,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Inglewood"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-b-winners-vs-best-3rd-place",
@@ -10216,7 +10336,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Vancouver"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-j-winners-vs-group-h-runner-up",
@@ -10271,7 +10401,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Miami Gardens"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-k-winners-vs-best-3rd-place",
@@ -10326,7 +10466,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Kansas City"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "group-d-runner-up-vs-group-g-runner-up",
@@ -10381,7 +10531,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Arlington"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-74-winner-vs-match-77-winner",
@@ -10436,7 +10596,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Philadelphia"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-73-winner-vs-match-75-winner",
@@ -10491,7 +10661,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Houston"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-76-winner-vs-match-78-winner",
@@ -10546,7 +10726,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to East Rutherford"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-79-winner-vs-match-80-winner",
@@ -10601,7 +10791,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Mexico City"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-83-winner-vs-match-84-winner",
@@ -10656,7 +10856,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Arlington"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-81-winner-vs-match-82-winner",
@@ -10711,7 +10921,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Seattle"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-86-winner-vs-match-88-winner",
@@ -10766,7 +10986,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Atlanta"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-85-winner-vs-match-87-winner",
@@ -10821,7 +11051,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Vancouver"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-89-winner-vs-match-90-winner",
@@ -10876,7 +11116,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Foxborough"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-93-winner-vs-match-94-winner",
@@ -10931,7 +11181,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Inglewood"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-91-winner-vs-match-92-winner",
@@ -10986,7 +11246,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Miami Gardens"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-95-winner-vs-match-96-winner",
@@ -11041,7 +11311,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Kansas City"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-97-winner-vs-match-98-winner",
@@ -11096,7 +11376,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Arlington"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-99-winner-vs-match-100-winner",
@@ -11151,7 +11441,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Atlanta"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-101-loser-vs-match-102-loser",
@@ -11206,7 +11506,17 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to Miami Gardens"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   },
   {
     "slug": "match-101-winner-vs-match-102-winner",
@@ -11261,6 +11571,16 @@
       "flight_affiliate_url": "https://kiwi.tpx.li/ceWjXrAq",
       "flight_cta": "Find flights to East Rutherford"
     },
-    "schema_type": "SportsEvent"
+    "schema_type": "SportsEvent",
+    "h2h": {
+      "played": 0,
+      "team_a_wins": 0,
+      "draws": 0,
+      "team_b_wins": 0,
+      "last_match": "No recent meetings",
+      "last_wc_meeting": "First meeting",
+      "team_a_goals_scored": 0,
+      "team_b_goals_scored": 0
+    }
   }
 ]

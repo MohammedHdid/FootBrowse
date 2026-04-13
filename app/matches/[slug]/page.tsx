@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { matches, getMatch, getStadium, getTeamPlayers, getTeam } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
 import MatchSquads from "@/components/MatchSquads";
@@ -50,15 +51,28 @@ export default function MatchPage({ params }: Props) {
     })
     .slice(0, 4);
 
-  const faqJsonLd = match.content.faq ? {
+  const faqJsonLd = match.content.faq && match.content.faq.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: match.content.faq.map((item) => ({
+    "mainEntity": match.content.faq.map(f => ({
       "@type": "Question",
-      name: item.q,
-      acceptedAnswer: { "@type": "Answer", text: item.a },
-    })),
+      "name": f.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.a
+      }
+    }))
   } : null;
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://footbrowse.com" },
+      { "@type": "ListItem", "position": 2, "name": "Matches", "item": "https://footbrowse.com/matches" },
+      { "@type": "ListItem", "position": 3, "name": `${match.team_a.code.toUpperCase()} vs ${match.team_b.code.toUpperCase()}`, "item": `https://footbrowse.com/matches/${match.slug}` }
+    ]
+  };
 
   const eventJsonLd = {
     "@context": "https://schema.org",
@@ -79,6 +93,10 @@ export default function MatchPage({ params }: Props) {
   return (
     <>
       {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {faqJsonLd && (
         <script
           type="application/ld+json"
@@ -113,12 +131,12 @@ export default function MatchPage({ params }: Props) {
           <div className="flex items-center justify-between gap-4">
             {/* Team A */}
             <div className="flex-1 text-center">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={`https://flagcdn.com/w160/${match.team_a.code}.png`}
                 alt={`${match.team_a.name} flag`}
                 width={160}
                 height={107}
+                priority
                 className="mx-auto rounded shadow-lg object-cover"
                 style={{ height: 80, width: "auto" }}
               />
@@ -149,12 +167,12 @@ export default function MatchPage({ params }: Props) {
 
             {/* Team B */}
             <div className="flex-1 text-center">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={`https://flagcdn.com/w160/${match.team_b.code}.png`}
                 alt={`${match.team_b.name} flag`}
                 width={160}
                 height={107}
+                priority
                 className="mx-auto rounded shadow-lg object-cover"
                 style={{ height: 80, width: "auto" }}
               />
@@ -201,6 +219,119 @@ export default function MatchPage({ params }: Props) {
 
         <AdSlot slot="1234567890" format="auto" />
 
+        {/* ── Match Pulse: Form & Comparison ──────────────────── */}
+        <section className="grid gap-4 sm:grid-cols-2">
+          {/* Recent Form Card */}
+          <div className="section-block !mb-0">
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">
+              Recent Form (Last 5)
+            </h2>
+            <div className="space-y-4">
+              {/* Team A Form */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Image
+                    src={match.team_a.flag_url}
+                    alt={match.team_a.name}
+                    width={20}
+                    height={14}
+                    className="rounded-sm object-cover shrink-0 opacity-80"
+                  />
+                  <span className="font-bold text-zinc-300 text-[11px] uppercase tracking-wider">
+                    {match.team_a.name}
+                  </span>
+                </div>
+                <div className="flex gap-1.5">
+                  {(teamAFull?.form || []).length > 0 ? (teamAFull?.form || []).map((r, i) => (
+                    <span
+                      key={i}
+                      className="w-6 h-6 rounded font-black text-[10px] flex items-center justify-center transition-transform hover:scale-110"
+                      style={{
+                        backgroundColor: r === 'W' ? '#00FF8715' : r === 'L' ? '#EF444415' : '#F59E0B15',
+                        color: r === 'W' ? '#00FF87' : r === 'L' ? '#EF4444' : '#F59E0B',
+                        border: `1px solid ${r === 'W' ? '#00FF8730' : r === 'L' ? '#EF444430' : '#F59E0B30'}`
+                      }}
+                    >
+                      {r}
+                    </span>
+                  )) : (
+                    <span className="text-[10px] text-zinc-700 tracking-tighter">no recent data</span>
+                  )}
+                </div>
+              </div>
+              {/* Team B Form */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Image
+                    src={match.team_b.flag_url}
+                    alt={match.team_b.name}
+                    width={20}
+                    height={14}
+                    className="rounded-sm object-cover shrink-0 opacity-80"
+                  />
+                  <span className="font-bold text-zinc-300 text-[11px] uppercase tracking-wider">
+                    {match.team_b.name}
+                  </span>
+                </div>
+                <div className="flex gap-1.5">
+                  {(teamBFull?.form || []).length > 0 ? (teamBFull?.form || []).map((r, i) => (
+                    <span
+                      key={i}
+                      className="w-6 h-6 rounded font-black text-[10px] flex items-center justify-center transition-transform hover:scale-110"
+                      style={{
+                        backgroundColor: r === 'W' ? '#00FF8715' : r === 'L' ? '#EF444415' : '#F59E0B15',
+                        color: r === 'W' ? '#00FF87' : r === 'L' ? '#EF4444' : '#F59E0B',
+                        border: `1px solid ${r === 'W' ? '#00FF8730' : r === 'L' ? '#EF444430' : '#F59E0B30'}`
+                      }}
+                    >
+                      {r}
+                    </span>
+                  )) : (
+                    <span className="text-[10px] text-zinc-700 tracking-tighter">no recent data</span>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Comparison Card */}
+          <div className="section-block !mb-0">
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">
+              Team Comparison
+            </h2>
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-xs py-1.5 border-b border-white/[0.04]">
+                <span className="text-zinc-500">FIFA Rank</span>
+                <div className="flex items-center gap-4">
+                  <span className="font-bold text-white">#{match.team_a.fifa_rank}</span>
+                  <span className="text-zinc-700">vs</span>
+                  <span className="font-bold text-white">#{match.team_b.fifa_rank}</span>
+                </div>
+              </div>
+              <div className="flex items-center justify-between text-xs py-1.5 border-b border-white/[0.04]">
+                <span className="text-zinc-500">Established</span>
+                <div className="flex items-center gap-4">
+                  <span className="font-bold text-white">{teamAFull?.year_formed || '—'}</span>
+                  <span className="text-zinc-700">·</span>
+                  <span className="font-bold text-white">{teamBFull?.year_formed || '—'}</span>
+                </div>
+              </div>
+              <div className="flex items-center justify-between text-xs py-1.5">
+                <span className="text-zinc-500">WC Titles</span>
+                <div className="flex items-center gap-4">
+                  <span className="font-bold" style={{ color: (teamAFull?.wc_titles || 0) > 0 ? '#00FF87' : 'inherit' }}>
+                    {teamAFull?.wc_titles || 0}
+                  </span>
+                  <span className="text-zinc-700">·</span>
+                  <span className="font-bold" style={{ color: (teamBFull?.wc_titles || 0) > 0 ? '#00FF87' : 'inherit' }}>
+                    {teamBFull?.wc_titles || 0}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Match Preview */}
         <section className="section-block">
           <h2 className="section-title text-xl mb-4">Match Preview</h2>
@@ -212,7 +343,7 @@ export default function MatchPage({ params }: Props) {
         <section className="section-block">
           <h2 className="section-title text-xl mb-1">Head-to-Head</h2>
           <p className="text-xs text-zinc-600 mb-4">
-            {match.h2h.played} matches played all-time
+            {match.h2h.played} historical meetings (overall statistics)
           </p>
 
           {/* ── Wins card with split gradient ── */}
