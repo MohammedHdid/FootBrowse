@@ -9,6 +9,8 @@ import {
   getStadium,
 } from "@/lib/data";
 import AdSlot from "@/components/AdSlot";
+import SquadTable from "@/components/SquadTable";
+import MatchFlagImg from "@/components/MatchFlagImg";
 
 interface Props {
   params: { slug: string };
@@ -24,6 +26,7 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: team.meta_title,
     description: team.meta_description,
+    alternates: { canonical: `https://footbrowse.com/teams/${params.slug}` },
   };
 }
 
@@ -33,11 +36,12 @@ const FORM_STYLE: Record<string, { bg: string; color: string; border: string }> 
   L: { bg: "rgba(239,68,68,0.1)", color: "#EF4444", border: "rgba(239,68,68,0.3)" },
 };
 
+
 export default function TeamPage({ params }: Props) {
   const team = getTeam(params.slug);
   if (!team) notFound();
 
-  const teamPlayers = getTeamPlayers(team.slug);
+  const squad = getTeamPlayers(team.slug);
   const teamMatches = getTeamMatches(team.slug);
   const stadium = getStadium(team.stadium_slug);
 
@@ -90,10 +94,6 @@ export default function TeamPage({ params }: Props) {
               <span>
                 Coach:{" "}
                 <span className="text-zinc-200 font-semibold">{team.coach}</span>
-              </span>
-              <span>
-                Captain:{" "}
-                <span className="text-zinc-200 font-semibold">{team.captain}</span>
               </span>
             </div>
 
@@ -178,10 +178,6 @@ export default function TeamPage({ params }: Props) {
           <div>
             <dt className="stat-label">Head Coach</dt>
             <dd className="text-sm font-bold text-white mt-1">{team.coach}</dd>
-          </div>
-          <div>
-            <dt className="stat-label">Captain</dt>
-            <dd className="text-sm font-bold text-white mt-1">{team.captain}</dd>
           </div>
           <div>
             <dt className="stat-label">All-Time Top Scorer</dt>
@@ -269,54 +265,28 @@ export default function TeamPage({ params }: Props) {
         <p className="text-zinc-300 leading-relaxed text-sm">{team.overview}</p>
       </section>
 
-      {/* Key Players */}
-      {teamPlayers.length > 0 && (
-        <section>
-          <h2 className="section-title text-xl mb-4">Key Players</h2>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {teamPlayers.map((player) => (
-              <Link
-                key={player.slug}
-                href={`/players/${player.slug}`}
-                className="entity-card block"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span
-                    className="font-black text-white"
-                    style={{ letterSpacing: "-0.02em" }}
-                  >
-                    {player.name}
-                  </span>
-                  <span
-                    className="text-base font-black tabular-nums"
-                    style={{ color: "#00FF87" }}
-                  >
-                    #{player.jersey_number}
-                  </span>
-                </div>
-                <p className="text-sm text-zinc-400">{player.position}</p>
-                <p className="text-xs text-zinc-500 mt-0.5">
-                  {player.club} · {player.league}
-                </p>
-                <div className="mt-3 flex gap-4 text-xs text-zinc-600">
-                  <span>
-                    <span className="text-zinc-300 font-bold">{player.caps}</span> caps
-                  </span>
-                  <span>
-                    <span className="text-zinc-300 font-bold">
-                      {player.international_goals}
-                    </span>{" "}
-                    goals
-                  </span>
-                  <span>
-                    <span className="text-zinc-300 font-bold">{player.wc_goals}</span> WC
-                  </span>
-                </div>
-              </Link>
-            ))}
+      {/* Full Squad */}
+      <section>
+        <h2 className="section-title text-xl mb-4">
+          Squad{squad.length > 0 ? ` (${squad.length} players)` : ""}
+        </h2>
+
+        {squad.length === 0 ? (
+          <div
+            className="rounded-xl px-5 py-8 text-center"
+            style={{
+              backgroundColor: "rgba(255,255,255,0.02)",
+              border: "1px solid rgba(255,255,255,0.06)",
+            }}
+          >
+            <p className="text-zinc-500 text-sm">
+              Full squad data loads after the weekly sync. Check back soon.
+            </p>
           </div>
-        </section>
-      )}
+        ) : (
+          <SquadTable squad={squad} />
+        )}
+      </section>
 
       <AdSlot slot="1234567890" format="auto" />
 
@@ -324,35 +294,59 @@ export default function TeamPage({ params }: Props) {
       {teamMatches.length > 0 && (
         <section>
           <h2 className="section-title text-xl mb-4">Group Stage Fixtures</h2>
-          <div className="space-y-3">
-            {teamMatches.map((match) => (
-              <Link
-                key={match.slug}
-                href={`/matches/${match.slug}`}
-                className="match-card flex items-center justify-between"
-              >
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold mb-1">
-                    {match.stage} · Group {match.group}
-                  </p>
-                  <p
-                    className="font-black text-white"
-                    style={{ letterSpacing: "-0.02em" }}
-                  >
-                    {match.team_a.name} vs {match.team_b.name}
-                  </p>
-                  <p className="text-sm text-zinc-400 mt-0.5">
-                    {new Date(match.date).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })}{" "}
-                    · {match.city}
-                  </p>
-                </div>
-                <span className="arrow-link shrink-0 ml-4">Preview →</span>
-              </Link>
-            ))}
+          <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
+            {teamMatches.map((match) => {
+              const city = match.city.split(",")[0].trim();
+              return (
+                <Link
+                  key={match.slug}
+                  href={`/matches/${match.slug}`}
+                  className="flex items-center gap-2 sm:gap-3 px-3 py-3 transition-colors hover:bg-white/[0.03] group"
+                  style={{ borderBottom: "1px solid rgba(255,255,255,0.04)" }}
+                >
+                  {/* Team A */}
+                  <div className="flex items-center gap-1.5 flex-1 min-w-0 justify-end">
+                    <span className="font-bold text-white text-xs sm:text-sm truncate text-right" style={{ letterSpacing: "-0.01em" }}>
+                      {match.team_a.name}
+                    </span>
+                    <MatchFlagImg src={match.team_a.flag_url} alt={match.team_a.name} />
+                  </div>
+
+                  {/* Centre */}
+                  <div className="flex flex-col items-center shrink-0 w-20 sm:w-28">
+                    <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">
+                      {new Date(match.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+                    </span>
+                    <span className="text-[9px] text-zinc-500 mt-0.5 tabular-nums">{match.kickoff_utc} UTC</span>
+                    <span className="text-[10px] font-black mt-1" style={{ color: "#00FF87", letterSpacing: "0.05em" }}>VS</span>
+                    <span className="text-[9px] text-zinc-400 mt-0.5 text-center truncate max-w-full">{city}</span>
+                  </div>
+
+                  {/* Team B */}
+                  <div className="flex items-center gap-1.5 flex-1 min-w-0">
+                    <MatchFlagImg src={match.team_b.flag_url} alt={match.team_b.name} />
+                    <span className="font-bold text-white text-xs sm:text-sm truncate" style={{ letterSpacing: "-0.01em" }}>
+                      {match.team_b.name}
+                    </span>
+                  </div>
+
+                  {/* Odds + arrow (desktop) */}
+                  <div className="hidden sm:flex items-center gap-3 shrink-0 ml-2">
+                    {match.odds && match.odds.length > 0 && (
+                      <div className="flex gap-2 text-[10px] font-bold tabular-nums">
+                        <span style={{ color: "#00FF87" }}>{match.odds[0].team_a_win.toFixed(2)}</span>
+                        <span className="text-zinc-500">{match.odds[0].draw.toFixed(2)}</span>
+                        <span className="text-blue-400">{match.odds[0].team_b_win.toFixed(2)}</span>
+                      </div>
+                    )}
+                    <span className="text-[10px] font-bold opacity-40 group-hover:opacity-100 transition-opacity" style={{ color: "#00FF87" }}>→</span>
+                  </div>
+
+                  {/* Mobile arrow */}
+                  <span className="sm:hidden text-[10px] font-bold shrink-0 opacity-30 group-hover:opacity-100 transition-opacity" style={{ color: "#00FF87" }}>→</span>
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}

@@ -1,0 +1,51 @@
+# Required GitHub Secret: FOOTBALL_DATA_API_KEY
+# Add it in: GitHub repo → Settings → Secrets → Actions → New repository secret
+
+name: Sync Player Data
+
+on:
+  # Every Monday at 03:00 UTC
+  schedule:
+    - cron: "0 3 * * 1"
+  # Also allow manual runs from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Fetch & update players.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run sync script
+        run: npm run sync:players
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/players.json data/players-by-team.json \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push updated player data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/players.json data/players-by-team.json
+          git commit -m "chore: sync player data [skip ci]"
+          git push

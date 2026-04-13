@@ -1,7 +1,38 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { matches, teams, stadiums, players } from "@/lib/data";
+import { matches, teams, stadiums, playersByTeam } from "@/lib/data";
+import FlagImg from "@/components/FlagImg";
+
+export const metadata: Metadata = {
+  title: "FootBrowse — World Cup 2026 Stats, Matches & Teams",
+  description:
+    "FootBrowse is your data-driven guide to FIFA World Cup 2026. Browse match previews, team profiles, stadium guides, and player stats for all 48 teams and 104 matches.",
+  alternates: { canonical: "https://footbrowse.com" },
+};
+
+// Position priority: attackers first, then midfielders, then defenders, then GK
+const POS_PRIORITY: Record<string, number> = {
+  "Centre-Forward": 1, "Right Winger": 1, "Left Winger": 1,
+  "Attacking Midfield": 2, "Second Striker": 2, "Offence": 2,
+  "Central Midfield": 3, "Defensive Midfield": 3, "Right Midfield": 3, "Left Midfield": 3, "Midfield": 3,
+  "Centre-Back": 4, "Right-Back": 4, "Left-Back": 4, "Defence": 4,
+  "Goalkeeper": 5,
+};
 
 export default function HomePage() {
+  // Pick the most attack-minded player with a photo from each team
+  const spotlightPlayers = Object.values(playersByTeam)
+    .filter((squad) => squad.length > 0)
+    .map((squad) => {
+      const withPhoto = squad.filter((p) => p.photo_url);
+      if (withPhoto.length === 0) return squad[0];
+      return withPhoto.sort(
+        (a, b) => (POS_PRIORITY[a.position] ?? 6) - (POS_PRIORITY[b.position] ?? 6)
+      )[0];
+    })
+    .filter((p): p is NonNullable<typeof p> => p !== undefined)
+    .slice(0, 6);
+
   return (
     <div className="space-y-14">
 
@@ -160,74 +191,82 @@ export default function HomePage() {
         </div>
         <div className="grid gap-3 sm:grid-cols-3">
           {[...stadiums].sort((a, b) => b.capacity - a.capacity).slice(0, 6).map((stadium) => (
-            <Link key={stadium.slug} href={`/stadiums/${stadium.slug}`} className="entity-card block">
-              <div className="flex items-start justify-between mb-2">
-                <p className="font-black text-white leading-tight" style={{ letterSpacing: "-0.02em" }}>
+            <Link key={stadium.slug} href={`/stadiums/${stadium.slug}`} className="entity-card block overflow-hidden !p-0">
+              {/* Stadium photo */}
+              {stadium.photo_url && (
+                <div className="w-full h-28 overflow-hidden relative">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={stadium.photo_url}
+                    alt={stadium.name}
+                    className="w-full h-full object-cover"
+                  />
+                  {stadium.is_final_venue && (
+                    <span className="badge-green absolute top-2 left-2">Final</span>
+                  )}
+                </div>
+              )}
+              <div className="p-3">
+                <p className="font-black text-white leading-tight text-sm" style={{ letterSpacing: "-0.02em" }}>
                   {stadium.name}
                 </p>
-                {stadium.is_final_venue && (
-                  <span className="badge-green ml-2 shrink-0">Final</span>
-                )}
+                <p className="text-xs text-zinc-400 mt-1">{stadium.city}, {stadium.state}</p>
+                <p className="text-xs text-zinc-600 mt-1">
+                  Cap. {stadium.capacity.toLocaleString()} · {stadium.wc_matches} WC matches
+                </p>
               </div>
-              <p className="text-sm text-zinc-400">{stadium.city}, {stadium.state}</p>
-              <p className="text-xs text-zinc-600 mt-2">
-                Cap. {stadium.capacity.toLocaleString()} · {stadium.wc_matches} WC matches
-              </p>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* ── Players ── */}
-      <section>
-        <div className="section-row">
-          <h2 className="section-title text-xl">Featured Players</h2>
-          <Link href="/players" className="arrow-link">All players →</Link>
-        </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {[...players]
-            .sort((a, b) => b.market_value_eur - a.market_value_eur)
-            .slice(0, 6)
-            .map((player) => (
-            <Link key={player.slug} href={`/players/${player.slug}`} className="entity-card block">
-              <div className="flex items-center justify-between mb-2">
-                <p className="font-black text-white" style={{ letterSpacing: "-0.02em" }}>
-                  {player.name}
+      {/* ── Squad Spotlight ── */}
+      {spotlightPlayers.length > 0 && (
+        <section>
+          <div className="section-row">
+            <h2 className="section-title text-xl">Squad Spotlight</h2>
+            <Link href="/players" className="arrow-link">Browse squads →</Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {spotlightPlayers.map((player) => (
+              <Link key={player.slug} href={`/players/${player.slug}`} className="entity-card block">
+                <div className="flex items-start gap-3 mb-2">
+                  {player.photo_url ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={player.photo_url}
+                      alt={player.name}
+                      width={48}
+                      height={48}
+                      className="rounded-lg object-cover object-top shrink-0"
+                      style={{ width: 48, height: 48 }}
+                    />
+                  ) : (
+                    <div
+                      className="rounded-lg shrink-0 flex items-center justify-center"
+                      style={{ width: 48, height: 48, backgroundColor: "rgba(255,255,255,0.05)" }}
+                    >
+                      <FlagImg nationality={player.nationality} size={32} />
+                    </div>
+                  )}
+                  <div className="flex-1 min-w-0">
+                    <p className="font-black text-white truncate" style={{ letterSpacing: "-0.02em" }}>
+                      {player.name}
+                    </p>
+                    <p className="text-sm text-zinc-400 mt-0.5 flex items-center gap-1">
+                      <FlagImg nationality={player.nationality} size={16} /> {player.nationality}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-xs text-zinc-500">{player.position} · {player.teamName}</p>
+                <p className="mt-3 text-xs font-semibold" style={{ color: "#00FF87" }}>
+                  View profile →
                 </p>
-                <span
-                  className="text-lg font-black tabular-nums"
-                  style={{ color: "#00FF87" }}
-                >
-                  #{player.jersey_number}
-                </span>
-              </div>
-              <div className="flex items-center gap-1.5 text-sm text-zinc-400">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={player.flag_url}
-                  alt={player.country}
-                  width={18}
-                  height={12}
-                  className="rounded-sm object-cover shrink-0"
-                  style={{ width: 18, height: "auto" }}
-                />
-                <span>{player.country} · {player.position}</span>
-              </div>
-              <div className="mt-3 flex gap-4 text-xs">
-                <span className="text-zinc-500">
-                  <span className="font-bold text-zinc-300">{player.caps}</span> caps
-                </span>
-                <span className="text-zinc-500">
-                  <span className="font-bold text-zinc-300">{player.international_goals}</span> goals
-                </span>
-                <span className="text-zinc-500">
-                  <span className="font-bold text-zinc-300">{player.wc_goals}</span> WC goals
-                </span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

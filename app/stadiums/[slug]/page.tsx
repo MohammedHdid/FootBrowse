@@ -4,6 +4,7 @@ import Link from "next/link";
 import { stadiums, getStadium, getStadiumMatches } from "@/lib/data";
 import StadiumHeroImage from "./StadiumHeroImage";
 import AdSlot from "@/components/AdSlot";
+import MatchFlagImg from "@/components/MatchFlagImg";
 
 interface Props {
   params: { slug: string };
@@ -19,6 +20,7 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: stadium.meta_title,
     description: stadium.meta_description,
+    alternates: { canonical: `https://footbrowse.com/stadiums/${params.slug}` },
   };
 }
 
@@ -240,38 +242,60 @@ export default function StadiumPage({ params }: Props) {
       {/* Hosted Matches */}
       {stadiumMatches.length > 0 && (
         <section>
-          <h2 className="section-title text-xl mb-4">
-            World Cup 2026 Fixtures at This Venue
-          </h2>
-          <div className="space-y-3">
-            {stadiumMatches.map((match) => (
-              <Link
-                key={match.slug}
-                href={`/matches/${match.slug}`}
-                className="match-card flex items-center justify-between"
-              >
-                <div>
-                  <p className="text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold mb-1">
-                    {match.stage} · Group {match.group}
-                  </p>
-                  <p
-                    className="font-black text-white"
-                    style={{ letterSpacing: "-0.02em" }}
-                  >
-                    {match.team_a.name} vs {match.team_b.name}
-                  </p>
-                  <p className="text-sm text-zinc-400 mt-0.5">
-                    {new Date(match.date).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })}{" "}
-                    · {match.kickoff_utc} UTC · {match.kickoff_est} EST
-                  </p>
-                </div>
-                <span className="arrow-link shrink-0 ml-4">Preview →</span>
-              </Link>
-            ))}
+          <h2 className="section-title text-xl mb-4">World Cup 2026 Fixtures at This Venue</h2>
+          <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
+            {stadiumMatches.map((match) => {
+              const city = match.city.split(",")[0].trim();
+              return (
+                <Link
+                  key={match.slug}
+                  href={`/matches/${match.slug}`}
+                  className="flex items-center gap-2 sm:gap-3 px-3 py-3 transition-colors hover:bg-white/[0.03] group"
+                  style={{ borderBottom: "1px solid rgba(255,255,255,0.04)" }}
+                >
+                  {/* Team A */}
+                  <div className="flex items-center gap-1.5 flex-1 min-w-0 justify-end">
+                    <span className="font-bold text-white text-xs sm:text-sm truncate text-right" style={{ letterSpacing: "-0.01em" }}>
+                      {match.team_a.name}
+                    </span>
+                    <MatchFlagImg src={match.team_a.flag_url} alt={match.team_a.name} />
+                  </div>
+
+                  {/* Centre */}
+                  <div className="flex flex-col items-center shrink-0 w-20 sm:w-28">
+                    <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">
+                      {new Date(match.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+                    </span>
+                    <span className="text-[9px] text-zinc-500 mt-0.5 tabular-nums">{match.kickoff_utc} UTC</span>
+                    <span className="text-[10px] font-black mt-1" style={{ color: "#00FF87", letterSpacing: "0.05em" }}>VS</span>
+                    <span className="text-[9px] text-zinc-400 mt-0.5 text-center truncate max-w-full">{city}</span>
+                  </div>
+
+                  {/* Team B */}
+                  <div className="flex items-center gap-1.5 flex-1 min-w-0">
+                    <MatchFlagImg src={match.team_b.flag_url} alt={match.team_b.name} />
+                    <span className="font-bold text-white text-xs sm:text-sm truncate" style={{ letterSpacing: "-0.01em" }}>
+                      {match.team_b.name}
+                    </span>
+                  </div>
+
+                  {/* Odds + arrow (desktop) */}
+                  <div className="hidden sm:flex items-center gap-3 shrink-0 ml-2">
+                    {match.odds && match.odds.length > 0 && (
+                      <div className="flex gap-2 text-[10px] font-bold tabular-nums">
+                        <span style={{ color: "#00FF87" }}>{match.odds[0].team_a_win.toFixed(2)}</span>
+                        <span className="text-zinc-500">{match.odds[0].draw.toFixed(2)}</span>
+                        <span className="text-blue-400">{match.odds[0].team_b_win.toFixed(2)}</span>
+                      </div>
+                    )}
+                    <span className="text-[10px] font-bold opacity-40 group-hover:opacity-100 transition-opacity" style={{ color: "#00FF87" }}>→</span>
+                  </div>
+
+                  {/* Mobile arrow */}
+                  <span className="sm:hidden text-[10px] font-bold shrink-0 opacity-30 group-hover:opacity-100 transition-opacity" style={{ color: "#00FF87" }}>→</span>
+                </Link>
+              );
+            })}
           </div>
         </section>
       )}

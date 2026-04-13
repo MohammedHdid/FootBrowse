@@ -56,6 +56,7 @@ export interface Stadium {
   meta_description: string;
 }
 
+/** Legacy player shape — kept for reference only, not used in pages */
 export interface Player {
   slug: string;
   name: string;
@@ -82,6 +83,30 @@ export interface Player {
   meta_title: string;
   meta_description: string;
 }
+
+/** Enriched player record produced by scripts/sync-players.ts */
+export interface SyncedPlayer {
+  id: number;
+  slug: string;
+  name: string;
+  firstName: string;
+  lastName: string;
+  position: string;
+  dateOfBirth: string | null;
+  nationality: string;
+  shirtNumber: number | null;
+  marketValue: number | null;
+  photo_url: string | null;
+  thumbnail_url: string | null;
+  bio: string | null;
+  teamId: number;
+  teamName: string;
+  teamSlug: string;
+  teamCrest: string;
+}
+
+/** players-by-team.json shape: teamSlug → array of players */
+export type PlayersByTeam = Record<string, SyncedPlayer[]>;
 
 export interface TeamRef {
   slug: string;
