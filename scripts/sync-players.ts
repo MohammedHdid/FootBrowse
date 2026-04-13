@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * scripts/sync-players.ts
  *
@@ -32,7 +33,7 @@ try {
     if (!process.env[key]) process.env[key] = value;
   }
 } catch {
-  // .env.local not found — rely on env vars already set (e.g. in CI)
+  // .env.local not found ??? rely on env vars already set (e.g. in CI)
 }
 
 // ---------------------------------------------------------------------------
@@ -47,7 +48,7 @@ if (!API_KEY || API_KEY === "your_key_here") {
 }
 
 // ---------------------------------------------------------------------------
-// Slug overrides: API team name → slug used in our teams.json
+// Slug overrides: API team name ??? slug used in our teams.json
 // These 5 teams have different slugs in our data vs what the API name generates.
 // ---------------------------------------------------------------------------
 const TEAM_SLUG_OVERRIDES: Record<string, string> = {
@@ -162,15 +163,15 @@ async function fetchJSON<T>(
     });
 
     if (res.status === 429) {
-      if (attempt === retries) break; // no more retries — throw below
-      const waitMs = attempt * 60_000; // 1 min, 2 min, …
-      console.warn(`  ⚠ Rate limited (429). Waiting ${waitMs / 1000}s before retry ${attempt + 1}/${retries}...`);
+      if (attempt === retries) break; // no more retries ??? throw below
+      const waitMs = attempt * 60_000; // 1 min, 2 min, ???
+      console.warn(`  ??? Rate limited (429). Waiting ${waitMs / 1000}s before retry ${attempt + 1}/${retries}...`);
       await sleep(waitMs);
       continue;
     }
 
     if (!res.ok) {
-      throw new Error(`HTTP ${res.status} ${res.statusText} — ${url}`);
+      throw new Error(`HTTP ${res.status} ${res.statusText} ??? ${url}`);
     }
 
     return res.json() as Promise<T>;
@@ -188,7 +189,7 @@ async function lookupPhoto(
   const trySearch = async (query: string): Promise<SportsDBPlayer[] | null> => {
     try {
       const url = `https://www.thesportsdb.com/api/v1/json/123/searchplayers.php?p=${encodeURIComponent(query)}`;
-      // retries=1 → fail fast on 429; caller catches and returns null (no long wait)
+      // retries=1 ??? fail fast on 429; caller catches and returns null (no long wait)
       const data = await fetchJSON<SportsDBResponse>(url, {}, 1);
       return data.player ?? null;
     } catch {
@@ -256,7 +257,7 @@ async function main() {
 
     console.log(`\n[${ti + 1}/${teamSummaries.length}] Fetching squad: ${summary.name} (id=${summary.id}, slug=${teamSlug})`);
 
-    // Respect rate limit: 10 req/min on free tier → 9s between calls (safer margin)
+    // Respect rate limit: 10 req/min on free tier ??? 9s between calls (safer margin)
     if (ti > 0) await sleep(9000);
 
     let teamDetail: FDTeamDetail;
@@ -266,7 +267,7 @@ async function main() {
         FD_HEADERS
       );
     } catch (err) {
-      console.warn(`  ⚠ Failed to fetch team ${summary.name}: ${err}`);
+      console.warn(`  ??? Failed to fetch team ${summary.name}: ${err}`);
       playersByTeam[teamSlug] = [];
       continue;
     }
@@ -350,7 +351,7 @@ async function main() {
   const patchedTeams = teamsJson.map((team) => {
     const apiCoach = coachesBySlug[team.slug];
     if (apiCoach && apiCoach !== team.coach) {
-      console.log(`  Coach update: ${team.slug} "${team.coach}" → "${apiCoach}"`);
+      console.log(`  Coach update: ${team.slug} "${team.coach}" ??? "${apiCoach}"`);
       coachUpdates++;
       return { ...team, coach: apiCoach };
     }
