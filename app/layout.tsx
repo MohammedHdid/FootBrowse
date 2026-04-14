@@ -15,14 +15,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://footbrowse.com"),
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.svg", type: "image/svg+xml", sizes: "any" },
       { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/favicon.png", type: "image/png" },
     ],
     apple: [
       { url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" },
     ],
-    shortcut: "/favicon.ico",
+    shortcut: "/favicon.png",
     other: [
       { rel: "manifest", url: "/site.webmanifest" },
     ],
@@ -70,8 +69,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
