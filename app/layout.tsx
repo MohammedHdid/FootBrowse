@@ -127,7 +127,7 @@ export default function RootLayout({
               <img
                 src="/favicon.png"
                 alt="FootBrowse Logo"
-                className="w-7 h-7 rounded-md"
+                className="w-8 h-8 rounded-md"
               />
               FootBrowse
             </Link>
@@ -164,7 +164,7 @@ export default function RootLayout({
                   <img
                     src="/favicon.png"
                     alt="FootBrowse Logo"
-                    className="inline-block w-6 h-6 rounded mr-2 align-middle"
+                    className="inline-block w-7 h-7 rounded mr-2 align-middle"
                   />
                   FootBrowse
                 </p>
