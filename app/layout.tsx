@@ -73,6 +73,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
@@ -126,12 +127,11 @@ export default function RootLayout({
               className="flex items-center gap-2 font-black text-lg tracking-tight text-white transition-opacity hover:opacity-80"
               style={{ letterSpacing: "-0.03em" }}
             >
-              <span
-                className="flex items-center justify-center w-7 h-7 rounded-md text-sm font-black"
-                style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}
-              >
-                FB
-              </span>
+              <img
+                src="/favicon.png"
+                alt="FootBrowse Logo"
+                className="w-7 h-7 rounded-md"
+              />
               FootBrowse
             </Link>
 
@@ -164,12 +164,11 @@ export default function RootLayout({
                   className="font-black text-white text-lg"
                   style={{ letterSpacing: "-0.03em" }}
                 >
-                  <span
-                    className="inline-flex items-center justify-center w-6 h-6 rounded text-xs font-black mr-2 align-middle"
-                    style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}
-                  >
-                    FB
-                  </span>
+                  <img
+                    src="/favicon.png"
+                    alt="FootBrowse Logo"
+                    className="inline-block w-6 h-6 rounded mr-2 align-middle"
+                  />
                   FootBrowse
                 </p>
                 <p className="text-xs text-zinc-500 mt-2 max-w-xs leading-relaxed mx-auto sm:mx-0">
