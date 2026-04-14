@@ -74,11 +74,17 @@ export default function MatchPage({ params }: Props) {
     ]
   };
 
+  const startDateTime = `${match.date}T${match.kickoff_utc}:00Z`;
+  const endDateTime = new Date(new Date(startDateTime).getTime() + 120 * 60 * 1000).toISOString();
+
   const eventJsonLd = {
     "@context": "https://schema.org",
     "@type": "SportsEvent",
     name: `${match.team_a.name} vs ${match.team_b.name} — FIFA World Cup 2026`,
-    startDate: `${match.date}T${match.kickoff_utc}:00Z`,
+    startDate: startDateTime,
+    endDate: endDateTime,
+    eventStatus: "https://schema.org/EventScheduled",
+    image: stadium?.photo_url || "https://footbrowse.com/og-image.png",
     location: {
       "@type": "StadiumOrArena",
       name: stadium?.name ?? match.city,
@@ -86,6 +92,22 @@ export default function MatchPage({ params }: Props) {
     },
     homeTeam: { "@type": "SportsTeam", name: match.team_a.name },
     awayTeam: { "@type": "SportsTeam", name: match.team_b.name },
+    performer: [
+      { "@type": "SportsTeam", name: match.team_a.name },
+      { "@type": "SportsTeam", name: match.team_b.name }
+    ],
+    organizer: {
+      "@type": "Organization",
+      name: "FIFA",
+      url: "https://www.fifa.com"
+    },
+    offers: {
+      "@type": "Offer",
+      url: "https://www.fifa.com/en/tickets",
+      availability: "https://schema.org/PreOrder",
+      price: "0",
+      priceCurrency: "USD"
+    },
     sport: "Football",
     description: match.content.preview,
   };
