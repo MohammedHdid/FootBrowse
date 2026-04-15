@@ -1,0 +1,68 @@
+{
+  "id": 185,
+  "name": "V. Weiss",
+  "photo": "https://media.api-sports.io/football/coachs/185.png",
+  "nationality": "Slovakia",
+  "age": 61,
+  "team_id": 656,
+  "team_slug": "slovan-bratislava",
+  "fetched_at": "2026-04-15T08:24:37.577Z",
+  "career": [
+    {
+      "team_id": 656,
+      "team_name": "Slovan Bratislava",
+      "team_logo": "https://media.api-sports.io/football/teams/656.png",
+      "start": "2021-05-01",
+      "end": null
+    },
+    {
+      "team_id": 1104,
+      "team_name": "Georgia",
+      "team_logo": "https://media.api-sports.io/football/teams/1104.png",
+      "start": "2016-03-01",
+      "end": "2020-11-01"
+    },
+    {
+      "team_id": 664,
+      "team_name": "Kairat",
+      "team_logo": "https://media.api-sports.io/football/teams/664.png",
+      "start": "2012-11-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 656,
+      "team_name": "Slovan Bratislava",
+      "team_logo": "https://media.api-sports.io/football/teams/656.png",
+      "start": "2011-08-01",
+      "end": "2012-07-01"
+    },
+    {
+      "team_id": 773,
+      "team_name": "Slovakia",
+      "team_logo": "https://media.api-sports.io/football/teams/773.png",
+      "start": "2008-07-01",
+      "end": "2012-01-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "FC Petržalka",
+      "team_logo": null,
+      "start": "2007-07-01",
+      "end": "2008-08-01"
+    },
+    {
+      "team_id": 6827,
+      "team_name": "Saturn Ramenskoye",
+      "team_logo": "https://media.api-sports.io/football/teams/6827.png",
+      "start": "2006-02-01",
+      "end": "2007-05-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "FC Petržalka",
+      "team_logo": null,
+      "start": "2004-07-01",
+      "end": "2006-02-01"
+    }
+  ]
+}

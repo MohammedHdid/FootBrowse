@@ -1,0 +1,89 @@
+{
+  "id": 2408,
+  "name": "I. Juric",
+  "photo": "https://media.api-sports.io/football/coachs/2408.png",
+  "nationality": "Croatia",
+  "age": 50,
+  "team_id": 499,
+  "team_slug": "atalanta",
+  "fetched_at": "2026-04-14T22:41:58.782Z",
+  "career": [
+    {
+      "team_id": 499,
+      "team_name": "Atalanta",
+      "team_logo": "https://media.api-sports.io/football/teams/499.png",
+      "start": "2025-08-01",
+      "end": null
+    },
+    {
+      "team_id": 41,
+      "team_name": "Southampton",
+      "team_logo": "https://media.api-sports.io/football/teams/41.png",
+      "start": "2024-12-01",
+      "end": "2025-04-01"
+    },
+    {
+      "team_id": 497,
+      "team_name": "Roma",
+      "team_logo": "https://media.api-sports.io/football/teams/497.png",
+      "start": "2024-09-01",
+      "end": "2024-11-01"
+    },
+    {
+      "team_id": 503,
+      "team_name": "Torino",
+      "team_logo": "https://media.api-sports.io/football/teams/503.png",
+      "start": "2021-07-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 504,
+      "team_name": "Verona",
+      "team_logo": "https://media.api-sports.io/football/teams/504.png",
+      "start": "2019-06-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 495,
+      "team_name": "Genoa",
+      "team_logo": "https://media.api-sports.io/football/teams/495.png",
+      "start": "2018-10-01",
+      "end": "2018-12-01"
+    },
+    {
+      "team_id": 495,
+      "team_name": "Genoa",
+      "team_logo": "https://media.api-sports.io/football/teams/495.png",
+      "start": "2017-04-01",
+      "end": "2017-11-01"
+    },
+    {
+      "team_id": 495,
+      "team_name": "Genoa",
+      "team_logo": "https://media.api-sports.io/football/teams/495.png",
+      "start": "2016-06-01",
+      "end": "2017-02-01"
+    },
+    {
+      "team_id": 501,
+      "team_name": "Crotone",
+      "team_logo": "https://media.api-sports.io/football/teams/501.png",
+      "start": "2015-06-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 1693,
+      "team_name": "Mantova",
+      "team_logo": "https://media.api-sports.io/football/teams/1693.png",
+      "start": "2014-07-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 15667,
+      "team_name": "Genoa U19",
+      "team_logo": "https://media.api-sports.io/football/teams/15667.png",
+      "start": "2013-09-01",
+      "end": "2014-06-01"
+    }
+  ]
+}

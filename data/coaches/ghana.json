@@ -1,0 +1,40 @@
+{
+  "id": 16966,
+  "name": "O. Addo",
+  "photo": "https://media.api-sports.io/football/coachs/16966.png",
+  "nationality": "Ghana",
+  "age": 50,
+  "team_id": 1504,
+  "team_slug": "ghana",
+  "fetched_at": "2026-04-15T13:12:46.806Z",
+  "career": [
+    {
+      "team_id": 1504,
+      "team_name": "Ghana",
+      "team_logo": "https://media.api-sports.io/football/teams/1504.png",
+      "start": "2024-03-01",
+      "end": null
+    },
+    {
+      "team_id": 1504,
+      "team_name": "Ghana",
+      "team_logo": "https://media.api-sports.io/football/teams/1504.png",
+      "start": "2022-01-01",
+      "end": "2022-12-01"
+    },
+    {
+      "team_id": 175,
+      "team_name": "Hamburg",
+      "team_logo": "https://media.api-sports.io/football/teams/175.png",
+      "start": "2013-09-01",
+      "end": "2013-09-01"
+    },
+    {
+      "team_id": 10257,
+      "team_name": "Hamburger SV U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10257.png",
+      "start": "2011-07-01",
+      "end": "2015-06-01"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 2994,
+  "name": "I. Hašek",
+  "photo": "https://media.api-sports.io/football/coachs/2994.png",
+  "nationality": "Czechia",
+  "age": 62,
+  "team_id": 770,
+  "team_slug": "czech-republic",
+  "fetched_at": "2026-04-15T13:14:47.961Z",
+  "career": [
+    {
+      "team_id": 770,
+      "team_name": "Czechia",
+      "team_logo": "https://media.api-sports.io/football/teams/770.png",
+      "start": "2024-03-01",
+      "end": null
+    },
+    {
+      "team_id": 1551,
+      "team_name": "Lebanon",
+      "team_logo": "https://media.api-sports.io/football/teams/1551.png",
+      "start": "2021-07-01",
+      "end": "2022-07-01"
+    },
+    {
+      "team_id": 2880,
+      "team_name": "Fujairah",
+      "team_logo": "https://media.api-sports.io/football/teams/2880.png",
+      "start": "2019-04-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 2880,
+      "team_name": "Fujairah",
+      "team_logo": "https://media.api-sports.io/football/teams/2880.png",
+      "start": "2018-06-01",
+      "end": "2019-02-01"
+    },
+    {
+      "team_id": 2868,
+      "team_name": "Emirates",
+      "team_logo": "https://media.api-sports.io/football/teams/2868.png",
+      "start": "2016-12-01",
+      "end": "2018-04-01"
+    },
+    {
+      "team_id": 2880,
+      "team_name": "Fujairah",
+      "team_logo": "https://media.api-sports.io/football/teams/2880.png",
+      "start": "2014-12-01",
+      "end": "2016-03-01"
+    },
+    {
+      "team_id": 2907,
+      "team_name": "Qatar SC",
+      "team_logo": "https://media.api-sports.io/football/teams/2907.png",
+      "start": "2014-07-01",
+      "end": "2014-09-01"
+    },
+    {
+      "team_id": 2932,
+      "team_name": "Al Hilal",
+      "team_logo": "https://media.api-sports.io/football/teams/2932.png",
+      "start": "2012-01-01",
+      "end": "2012-05-01"
+    },
+    {
+      "team_id": 2870,
+      "team_name": "Shabab Al Ahli",
+      "team_logo": "https://media.api-sports.io/football/teams/2870.png",
+      "start": "2011-06-01",
+      "end": "2011-11-01"
+    },
+    {
+      "team_id": 770,
+      "team_name": "Czechia",
+      "team_logo": "https://media.api-sports.io/football/teams/770.png",
+      "start": "2009-07-01",
+      "end": "2009-10-01"
+    },
+    {
+      "team_id": 1063,
+      "team_name": "Saint-Etienne",
+      "team_logo": "https://media.api-sports.io/football/teams/1063.png",
+      "start": "2006-05-01",
+      "end": "2007-06-01"
+    },
+    {
+      "team_id": 95,
+      "team_name": "Strasbourg",
+      "team_logo": "https://media.api-sports.io/football/teams/95.png",
+      "start": "2001-07-01",
+      "end": "2003-07-01"
+    }
+  ]
+}

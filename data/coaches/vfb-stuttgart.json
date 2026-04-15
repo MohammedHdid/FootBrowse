@@ -1,0 +1,40 @@
+{
+  "id": 1399,
+  "name": "S. Hoeneb",
+  "photo": "https://media.api-sports.io/football/coachs/1399.png",
+  "nationality": "Germany",
+  "age": 43,
+  "team_id": 172,
+  "team_slug": "vfb-stuttgart",
+  "fetched_at": "2026-04-14T22:32:46.224Z",
+  "career": [
+    {
+      "team_id": 172,
+      "team_name": "Stuttgart",
+      "team_logo": "https://media.api-sports.io/football/teams/172.png",
+      "start": "2023-04-01",
+      "end": null
+    },
+    {
+      "team_id": 167,
+      "team_name": "Hoffenheim",
+      "team_logo": "https://media.api-sports.io/football/teams/167.png",
+      "start": "2020-07-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 4674,
+      "team_name": "Bayern München II",
+      "team_logo": "https://media.api-sports.io/football/teams/4674.png",
+      "start": "2019-07-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 7887,
+      "team_name": "Bayern München U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7887.png",
+      "start": "2017-07-01",
+      "end": "2019-06-01"
+    }
+  ]
+}

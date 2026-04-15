@@ -1,0 +1,40 @@
+{
+  "id": 5,
+  "name": "E. Howe",
+  "photo": "https://media.api-sports.io/football/coachs/5.png",
+  "nationality": "England",
+  "age": 48,
+  "team_id": 34,
+  "team_slug": "newcastle",
+  "fetched_at": "2026-04-14T22:40:22.732Z",
+  "career": [
+    {
+      "team_id": 34,
+      "team_name": "Newcastle United",
+      "team_logo": "https://media.api-sports.io/football/teams/34.png",
+      "start": "2021-11-01",
+      "end": null
+    },
+    {
+      "team_id": 35,
+      "team_name": "AFC Bournemouth",
+      "team_logo": "https://media.api-sports.io/football/teams/35.png",
+      "start": "2012-10-01",
+      "end": "2020-08-01"
+    },
+    {
+      "team_id": 44,
+      "team_name": "Burnley",
+      "team_logo": "https://media.api-sports.io/football/teams/44.png",
+      "start": "2011-01-01",
+      "end": "2012-10-01"
+    },
+    {
+      "team_id": 35,
+      "team_name": "AFC Bournemouth",
+      "team_logo": "https://media.api-sports.io/football/teams/35.png",
+      "start": "2008-12-01",
+      "end": "2011-01-01"
+    }
+  ]
+}

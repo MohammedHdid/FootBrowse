@@ -1,0 +1,68 @@
+{
+  "id": 1973,
+  "name": "V. Paunovic",
+  "photo": "https://media.api-sports.io/football/coachs/1973.png",
+  "nationality": "Serbia",
+  "age": 48,
+  "team_id": 718,
+  "team_slug": "oviedo",
+  "fetched_at": "2026-04-15T08:13:49.595Z",
+  "career": [
+    {
+      "team_id": 718,
+      "team_name": "Real Oviedo",
+      "team_logo": "https://media.api-sports.io/football/teams/718.png",
+      "start": "2025-03-01",
+      "end": null
+    },
+    {
+      "team_id": 2279,
+      "team_name": "Tigres UANL",
+      "team_logo": "https://media.api-sports.io/football/teams/2279.png",
+      "start": "2024-06-01",
+      "end": "2025-03-01"
+    },
+    {
+      "team_id": 2278,
+      "team_name": "Guadalajara",
+      "team_logo": "https://media.api-sports.io/football/teams/2278.png",
+      "start": "2022-11-01",
+      "end": "2023-12-01"
+    },
+    {
+      "team_id": 53,
+      "team_name": "Reading",
+      "team_logo": "https://media.api-sports.io/football/teams/53.png",
+      "start": "2020-08-01",
+      "end": "2022-02-01"
+    },
+    {
+      "team_id": 17665,
+      "team_name": "MLS All-Stars",
+      "team_logo": "https://media.api-sports.io/football/teams/17665.png",
+      "start": "2017-07-01",
+      "end": "2017-08-01"
+    },
+    {
+      "team_id": 1607,
+      "team_name": "Chicago Fire",
+      "team_logo": "https://media.api-sports.io/football/teams/1607.png",
+      "start": "2015-11-01",
+      "end": "2019-11-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Serbia U20",
+      "team_logo": null,
+      "start": "2015-01-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 10346,
+      "team_name": "Serbia U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10346.png",
+      "start": "2013-09-01",
+      "end": "2014-07-01"
+    }
+  ]
+}

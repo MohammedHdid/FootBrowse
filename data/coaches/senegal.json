@@ -1,0 +1,19 @@
+{
+  "id": 25409,
+  "name": "Joseph Senghor",
+  "photo": "https://media.api-sports.io/football/coachs/25409.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 13,
+  "team_slug": "senegal",
+  "fetched_at": "2026-04-15T13:12:59.245Z",
+  "career": [
+    {
+      "team_id": 13,
+      "team_name": "Senegal",
+      "team_logo": "https://media.api-sports.io/football/teams/13.png",
+      "start": "2025-08-01",
+      "end": null
+    }
+  ]
+}

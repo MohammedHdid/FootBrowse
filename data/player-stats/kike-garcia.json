@@ -1,0 +1,21 @@
+{
+  "player_id": 47396,
+  "slug": "kike-garcia",
+  "name": "Kike García",
+  "api_photo": "https://media.api-sports.io/football/players/47396.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Alaves",
+      "club_logo": "https://media.api-sports.io/football/teams/542.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 37,
+      "goals": 13,
+      "assists": 0,
+      "minutes": 2561,
+      "yellow_cards": 5,
+      "red_cards": 1
+    }
+  ]
+}

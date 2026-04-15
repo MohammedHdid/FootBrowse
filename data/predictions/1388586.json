@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388586,
+  "fetched_at": "2026-04-15T21:01:09.694Z",
+  "advice": "Double chance : VfL Wolfsburg or draw",
+  "winner_id": 161,
+  "winner_name": "VfL Wolfsburg",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "17%",
+      "away": "83%"
+    },
+    "att": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "def": {
+      "home": "45%",
+      "away": "55%"
+    },
+    "poisson_distribution": {
+      "home": "46%",
+      "away": "54%"
+    },
+    "h2h": {
+      "home": "60%",
+      "away": "40%"
+    },
+    "goals": {
+      "home": "63%",
+      "away": "38%"
+    },
+    "total": {
+      "home": "45.7%",
+      "away": "54.5%"
+    }
+  }
+}

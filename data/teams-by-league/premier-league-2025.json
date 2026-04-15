@@ -1,0 +1,342 @@
+[
+  {
+    "id": 42,
+    "name": "Arsenal",
+    "slug": "arsenal",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/42.png",
+    "country": "England",
+    "founded": 1886,
+    "national": false,
+    "venue": {
+      "id": 494,
+      "name": "Emirates Stadium",
+      "city": "London",
+      "capacity": 60383,
+      "image": "https://media.api-sports.io/football/venues/494.png"
+    }
+  },
+  {
+    "id": 66,
+    "name": "Aston Villa",
+    "slug": "aston-villa",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/66.png",
+    "country": "England",
+    "founded": 1874,
+    "national": false,
+    "venue": {
+      "id": 495,
+      "name": "Villa Park",
+      "city": "Birmingham",
+      "capacity": 42824,
+      "image": "https://media.api-sports.io/football/venues/495.png"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Bournemouth",
+    "slug": "bournemouth",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/35.png",
+    "country": "England",
+    "founded": 1899,
+    "national": false,
+    "venue": {
+      "id": 504,
+      "name": "Vitality Stadium",
+      "city": "Bournemouth, Dorset",
+      "capacity": 12000,
+      "image": "https://media.api-sports.io/football/venues/504.png"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Brentford",
+    "slug": "brentford",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/55.png",
+    "country": "England",
+    "founded": 1889,
+    "national": false,
+    "venue": {
+      "id": 10503,
+      "name": "Gtech Community Stadium",
+      "city": "Brentford, Middlesex",
+      "capacity": 17250,
+      "image": "https://media.api-sports.io/football/venues/10503.png"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Brighton",
+    "slug": "brighton",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/51.png",
+    "country": "England",
+    "founded": 1901,
+    "national": false,
+    "venue": {
+      "id": 508,
+      "name": "American Express Stadium",
+      "city": "Falmer, East Sussex",
+      "capacity": 31872,
+      "image": "https://media.api-sports.io/football/venues/508.png"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Burnley",
+    "slug": "burnley",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/44.png",
+    "country": "England",
+    "founded": 1882,
+    "national": false,
+    "venue": {
+      "id": 512,
+      "name": "Turf Moor",
+      "city": "Burnley",
+      "capacity": 22546,
+      "image": "https://media.api-sports.io/football/venues/512.png"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Chelsea",
+    "slug": "chelsea",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/49.png",
+    "country": "England",
+    "founded": 1905,
+    "national": false,
+    "venue": {
+      "id": 519,
+      "name": "Stamford Bridge",
+      "city": "London",
+      "capacity": 41841,
+      "image": "https://media.api-sports.io/football/venues/519.png"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Crystal Palace",
+    "slug": "crystal-palace",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/52.png",
+    "country": "England",
+    "founded": 1861,
+    "national": false,
+    "venue": {
+      "id": 525,
+      "name": "Selhurst Park",
+      "city": "London",
+      "capacity": 26309,
+      "image": "https://media.api-sports.io/football/venues/525.png"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Everton",
+    "slug": "everton",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/45.png",
+    "country": "England",
+    "founded": 1878,
+    "national": false,
+    "venue": {
+      "id": 22033,
+      "name": "Hill Dickinson Stadium",
+      "city": "Liverpool, Merseyside",
+      "capacity": 52888,
+      "image": "https://media.api-sports.io/football/venues/22033.png"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Fulham",
+    "slug": "fulham",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/36.png",
+    "country": "England",
+    "founded": 1879,
+    "national": false,
+    "venue": {
+      "id": 535,
+      "name": "Craven Cottage",
+      "city": "London",
+      "capacity": 29589,
+      "image": "https://media.api-sports.io/football/venues/535.png"
+    }
+  },
+  {
+    "id": 63,
+    "name": "Leeds",
+    "slug": "leeds",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/63.png",
+    "country": "England",
+    "founded": 1919,
+    "national": false,
+    "venue": {
+      "id": 546,
+      "name": "Elland Road",
+      "city": "Leeds, West Yorkshire",
+      "capacity": 40204,
+      "image": "https://media.api-sports.io/football/venues/546.png"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Liverpool",
+    "slug": "liverpool",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/40.png",
+    "country": "England",
+    "founded": 1892,
+    "national": false,
+    "venue": {
+      "id": 550,
+      "name": "Anfield",
+      "city": "Liverpool",
+      "capacity": 61276,
+      "image": "https://media.api-sports.io/football/venues/550.png"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Manchester City",
+    "slug": "manchester-city",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/50.png",
+    "country": "England",
+    "founded": 1880,
+    "national": false,
+    "venue": {
+      "id": 555,
+      "name": "Etihad Stadium",
+      "city": "Manchester",
+      "capacity": 55097,
+      "image": "https://media.api-sports.io/football/venues/555.png"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Manchester United",
+    "slug": "manchester-united",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/33.png",
+    "country": "England",
+    "founded": 1878,
+    "national": false,
+    "venue": {
+      "id": 556,
+      "name": "Old Trafford",
+      "city": "Manchester",
+      "capacity": 76212,
+      "image": "https://media.api-sports.io/football/venues/556.png"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Newcastle",
+    "slug": "newcastle",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/34.png",
+    "country": "England",
+    "founded": 1892,
+    "national": false,
+    "venue": {
+      "id": 562,
+      "name": "St. James' Park",
+      "city": "Newcastle upon Tyne",
+      "capacity": 52758,
+      "image": "https://media.api-sports.io/football/venues/562.png"
+    }
+  },
+  {
+    "id": 65,
+    "name": "Nottingham Forest",
+    "slug": "nottingham-forest",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/65.png",
+    "country": "England",
+    "founded": 1865,
+    "national": false,
+    "venue": {
+      "id": 566,
+      "name": "The City Ground",
+      "city": "Nottingham, Nottinghamshire",
+      "capacity": 30576,
+      "image": "https://media.api-sports.io/football/venues/566.png"
+    }
+  },
+  {
+    "id": 746,
+    "name": "Sunderland",
+    "slug": "sunderland",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/746.png",
+    "country": "England",
+    "founded": 1879,
+    "national": false,
+    "venue": {
+      "id": 589,
+      "name": "Stadium of Light",
+      "city": "Sunderland",
+      "capacity": 49000,
+      "image": "https://media.api-sports.io/football/venues/589.png"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Tottenham",
+    "slug": "tottenham",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/47.png",
+    "country": "England",
+    "founded": 1882,
+    "national": false,
+    "venue": {
+      "id": 593,
+      "name": "Tottenham Hotspur Stadium",
+      "city": "London",
+      "capacity": 62850,
+      "image": "https://media.api-sports.io/football/venues/593.png"
+    }
+  },
+  {
+    "id": 48,
+    "name": "West Ham",
+    "slug": "west-ham",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/48.png",
+    "country": "England",
+    "founded": 1895,
+    "national": false,
+    "venue": {
+      "id": 598,
+      "name": "London Stadium",
+      "city": "London",
+      "capacity": 64472,
+      "image": "https://media.api-sports.io/football/venues/598.png"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Wolves",
+    "slug": "wolves",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/39.png",
+    "country": "England",
+    "founded": 1877,
+    "national": false,
+    "venue": {
+      "id": 600,
+      "name": "Molineux Stadium",
+      "city": "Wolverhampton, West Midlands",
+      "capacity": 34624,
+      "image": "https://media.api-sports.io/football/venues/600.png"
+    }
+  }
+]

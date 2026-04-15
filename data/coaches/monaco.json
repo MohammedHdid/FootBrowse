@@ -1,0 +1,61 @@
+{
+  "id": 1542,
+  "name": "A. Hütter",
+  "photo": "https://media.api-sports.io/football/coachs/1542.png",
+  "nationality": "Austria",
+  "age": 55,
+  "team_id": 91,
+  "team_slug": "monaco",
+  "fetched_at": "2026-04-15T08:20:49.325Z",
+  "career": [
+    {
+      "team_id": 91,
+      "team_name": "Monaco",
+      "team_logo": "https://media.api-sports.io/football/teams/91.png",
+      "start": "2023-07-01",
+      "end": null
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia M'gladbach",
+      "team_logo": "https://media.api-sports.io/football/teams/163.png",
+      "start": "2021-07-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 169,
+      "team_name": "Eintracht Frankfurt",
+      "team_logo": "https://media.api-sports.io/football/teams/169.png",
+      "start": "2018-07-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 565,
+      "team_name": "Young Boys",
+      "team_logo": "https://media.api-sports.io/football/teams/565.png",
+      "start": "2015-09-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 571,
+      "team_name": "Salzburg",
+      "team_logo": "https://media.api-sports.io/football/teams/571.png",
+      "start": "2014-07-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 4974,
+      "team_name": "Grödig",
+      "team_logo": "https://media.api-sports.io/football/teams/4974.png",
+      "start": "2012-06-01",
+      "end": "2014-06-01"
+    },
+    {
+      "team_id": 618,
+      "team_name": "Rheindorf Altach",
+      "team_logo": "https://media.api-sports.io/football/teams/618.png",
+      "start": "2009-07-01",
+      "end": "2012-04-01"
+    }
+  ]
+}

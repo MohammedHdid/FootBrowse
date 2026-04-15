@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379297,
+  "fetched_at": "2026-04-15T20:56:58.058Z",
+  "advice": "Double chance : Nottingham Forest or draw",
+  "winner_id": 65,
+  "winner_name": "Nottingham Forest",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "86%",
+      "away": "14%"
+    },
+    "att": {
+      "home": "64%",
+      "away": "36%"
+    },
+    "def": {
+      "home": "69%",
+      "away": "31%"
+    },
+    "poisson_distribution": {
+      "home": "55%",
+      "away": "45%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "total": {
+      "home": "62.3%",
+      "away": "37.7%"
+    }
+  }
+}

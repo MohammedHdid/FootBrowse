@@ -1,0 +1,82 @@
+{
+  "id": 1659,
+  "name": "I. Jovičević",
+  "photo": "https://media.api-sports.io/football/coachs/1659.png",
+  "nationality": "Croatia",
+  "age": 52,
+  "team_id": 566,
+  "team_slug": "ludogorets",
+  "fetched_at": "2026-04-15T08:19:49.238Z",
+  "career": [
+    {
+      "team_id": 566,
+      "team_name": "Ludogorets",
+      "team_logo": "https://media.api-sports.io/football/teams/566.png",
+      "start": "2024-09-01",
+      "end": null
+    },
+    {
+      "team_id": 2935,
+      "team_name": "Al Raed",
+      "team_logo": "https://media.api-sports.io/football/teams/2935.png",
+      "start": "2023-07-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 550,
+      "team_name": "Shakhtar Donetsk",
+      "team_logo": "https://media.api-sports.io/football/teams/550.png",
+      "start": "2022-07-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 3623,
+      "team_name": "Dnipro-1",
+      "team_logo": "https://media.api-sports.io/football/teams/3623.png",
+      "start": "2020-09-01",
+      "end": "2022-07-01"
+    },
+    {
+      "team_id": 620,
+      "team_name": "Dinamo Zagreb",
+      "team_logo": "https://media.api-sports.io/football/teams/620.png",
+      "start": "2020-04-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 7896,
+      "team_name": "Dinamo Zagreb U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7896.png",
+      "start": "2018-07-01",
+      "end": "2020-04-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Dinamo Zagreb U23",
+      "team_logo": null,
+      "start": "2017-11-01",
+      "end": "2020-04-01"
+    },
+    {
+      "team_id": 1476,
+      "team_name": "Dinamo Zagreb II",
+      "team_logo": "https://media.api-sports.io/football/teams/1476.png",
+      "start": "2017-08-01",
+      "end": "2020-04-01"
+    },
+    {
+      "team_id": 4360,
+      "team_name": "Celje",
+      "team_logo": "https://media.api-sports.io/football/teams/4360.png",
+      "start": "2016-10-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 3617,
+      "team_name": "Karpaty Lviv",
+      "team_logo": "https://media.api-sports.io/football/teams/3617.png",
+      "start": "2014-07-01",
+      "end": "2015-12-01"
+    }
+  ]
+}

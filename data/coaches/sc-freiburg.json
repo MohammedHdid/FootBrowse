@@ -1,0 +1,19 @@
+{
+  "id": 1538,
+  "name": "C. Streich",
+  "photo": "https://media.api-sports.io/football/coachs/1538.png",
+  "nationality": "Germany",
+  "age": 60,
+  "team_id": 160,
+  "team_slug": "sc-freiburg",
+  "fetched_at": "2026-04-14T22:32:10.169Z",
+  "career": [
+    {
+      "team_id": 160,
+      "team_name": "Freiburg",
+      "team_logo": "https://media.api-sports.io/football/teams/160.png",
+      "start": "2011-12-01",
+      "end": "2024-06-01"
+    }
+  ]
+}

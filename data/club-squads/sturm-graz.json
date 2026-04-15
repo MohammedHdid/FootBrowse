@@ -1,0 +1,248 @@
+{
+  "team_id": 637,
+  "team_slug": "sturm-graz",
+  "team_name": "Sturm Graz",
+  "fetched_at": "2026-04-15T08:24:55.623Z",
+  "players": [
+    {
+      "id": 328258,
+      "name": "M. Bignetti",
+      "age": 21,
+      "number": 40,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/328258.png"
+    },
+    {
+      "id": 281989,
+      "name": "D. Khudyakov",
+      "age": 21,
+      "number": 53,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/281989.png"
+    },
+    {
+      "id": 366341,
+      "name": "E. Lorenz",
+      "age": 19,
+      "number": 41,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/366341.png"
+    },
+    {
+      "id": 409607,
+      "name": "C. Wiener-Pucher",
+      "age": 19,
+      "number": 32,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/409607.png"
+    },
+    {
+      "id": 7719,
+      "name": "E. Aiwu",
+      "age": 25,
+      "number": 47,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7719.png"
+    },
+    {
+      "id": 412710,
+      "name": "Kristjan Bendra",
+      "age": 19,
+      "number": 37,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/412710.png"
+    },
+    {
+      "id": 7319,
+      "name": "J. Gazibegović",
+      "age": 25,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7319.png"
+    },
+    {
+      "id": 169498,
+      "name": "N. Geyrhofer",
+      "age": 25,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/169498.png"
+    },
+    {
+      "id": 169525,
+      "name": "G. Haider",
+      "age": 23,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/169525.png"
+    },
+    {
+      "id": 7683,
+      "name": "E. Karić",
+      "age": 28,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7683.png"
+    },
+    {
+      "id": 7701,
+      "name": "P. Koller",
+      "age": 23,
+      "number": 30,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7701.png"
+    },
+    {
+      "id": 38763,
+      "name": "D. Lavalée",
+      "age": 28,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/38763.png"
+    },
+    {
+      "id": 297583,
+      "name": "J. Mitchell",
+      "age": 21,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/297583.png"
+    },
+    {
+      "id": 1088,
+      "name": "A. Vallci",
+      "age": 30,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1088.png"
+    },
+    {
+      "id": 335069,
+      "name": "R. Fosso",
+      "age": 23,
+      "number": 80,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/335069.png"
+    },
+    {
+      "id": 19041,
+      "name": "J. Gorenc Stankovič",
+      "age": 29,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/19041.png"
+    },
+    {
+      "id": 7583,
+      "name": "S. Hierländer",
+      "age": 34,
+      "number": 25,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7583.png"
+    },
+    {
+      "id": 451425,
+      "name": "Jacob Peter Hödl",
+      "age": 18,
+      "number": 43,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/451425.png"
+    },
+    {
+      "id": 7586,
+      "name": "O. Kiteishvili",
+      "age": 29,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/7586.png"
+    },
+    {
+      "id": 409670,
+      "name": "A. Malic",
+      "age": 20,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/409670.png"
+    },
+    {
+      "id": 273295,
+      "name": "G. Mamageishvili",
+      "age": 22,
+      "number": 15,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/273295.png"
+    },
+    {
+      "id": 394955,
+      "name": "F. Rózga",
+      "age": 19,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/394955.png"
+    },
+    {
+      "id": 461977,
+      "name": "Luca Weinhandl",
+      "age": 16,
+      "number": 39,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/461977.png"
+    },
+    {
+      "id": 432377,
+      "name": "Jonas Wolf",
+      "age": 19,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/432377.png"
+    },
+    {
+      "id": 357424,
+      "name": "B. Beganović",
+      "age": 21,
+      "number": 26,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/357424.png"
+    },
+    {
+      "id": 372585,
+      "name": "L. Grgić",
+      "age": 19,
+      "number": 38,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/372585.png"
+    },
+    {
+      "id": 216761,
+      "name": "S. Jatta",
+      "age": 22,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/216761.png"
+    },
+    {
+      "id": 427260,
+      "name": "A. Kayombo",
+      "age": 19,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/427260.png"
+    },
+    {
+      "id": 25306,
+      "name": "M. Malone",
+      "age": 25,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/25306.png"
+    },
+    {
+      "id": 553288,
+      "name": "R. Wilson",
+      "age": 19,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/553288.png"
+    }
+  ]
+}

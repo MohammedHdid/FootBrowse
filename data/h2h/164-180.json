@@ -1,0 +1,78 @@
+{
+  "team1_id": 164,
+  "team2_id": 180,
+  "fetched_at": "2026-04-15T20:55:46.793Z",
+  "played": 5,
+  "team1_wins": 2,
+  "team2_wins": 2,
+  "draws": 1,
+  "team1_goals": 5,
+  "team2_goals": 5,
+  "last_matches": [
+    {
+      "fixture_id": 1388457,
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "home_id": 164,
+      "home_name": "FSV Mainz 05",
+      "home_logo": "https://media.api-sports.io/football/teams/164.png",
+      "away_id": 180,
+      "away_name": "1. FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1224167,
+      "date": "2025-02-16",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "1. FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 164,
+      "away_name": "FSV Mainz 05",
+      "away_logo": "https://media.api-sports.io/football/teams/164.png",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1224017,
+      "date": "2024-09-28",
+      "league": "Bundesliga",
+      "home_id": 164,
+      "home_name": "FSV Mainz 05",
+      "home_logo": "https://media.api-sports.io/football/teams/164.png",
+      "away_id": 180,
+      "away_name": "1. FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1049168,
+      "date": "2024-05-05",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 164,
+      "away_name": "FSV Mainz 05",
+      "away_logo": "https://media.api-sports.io/football/teams/164.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1049011,
+      "date": "2023-12-16",
+      "league": "Bundesliga",
+      "home_id": 164,
+      "home_name": "FSV Mainz 05",
+      "home_logo": "https://media.api-sports.io/football/teams/164.png",
+      "away_id": 180,
+      "away_name": "FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 0,
+      "away_score": 1
+    }
+  ]
+}

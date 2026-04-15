@@ -1,0 +1,61 @@
+{
+  "id": 10856,
+  "name": "F. Alexandersson",
+  "photo": "https://media.api-sports.io/football/coachs/10856.png",
+  "nationality": "Iceland",
+  "age": 43,
+  "team_id": 319,
+  "team_slug": "brann",
+  "fetched_at": "2026-04-15T08:14:48.735Z",
+  "career": [
+    {
+      "team_id": 319,
+      "team_name": "Brann",
+      "team_logo": "https://media.api-sports.io/football/teams/319.png",
+      "start": "2025-01-01",
+      "end": null
+    },
+    {
+      "team_id": 734,
+      "team_name": "Kortrijk",
+      "team_logo": "https://media.api-sports.io/football/teams/734.png",
+      "start": "2024-01-01",
+      "end": "2024-12-01"
+    },
+    {
+      "team_id": 625,
+      "team_name": "Lyngby",
+      "team_logo": "https://media.api-sports.io/football/teams/625.png",
+      "start": "2021-07-01",
+      "end": "2024-01-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Iceland U17",
+      "team_logo": null,
+      "start": "2016-01-01",
+      "end": "2017-03-01"
+    },
+    {
+      "team_id": 2114,
+      "team_name": "Leiknir Reykjavík",
+      "team_logo": "https://media.api-sports.io/football/teams/2114.png",
+      "start": "2015-01-01",
+      "end": "2016-12-01"
+    },
+    {
+      "team_id": 1746,
+      "team_name": "Iceland",
+      "team_logo": "https://media.api-sports.io/football/teams/1746.png",
+      "start": "2013-09-01",
+      "end": "2018-12-01"
+    },
+    {
+      "team_id": 14851,
+      "team_name": "Valur",
+      "team_logo": "https://media.api-sports.io/football/teams/14851.png",
+      "start": "2009-01-01",
+      "end": "2010-12-01"
+    }
+  ]
+}

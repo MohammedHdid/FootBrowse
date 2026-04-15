@@ -1,0 +1,75 @@
+{
+  "id": 2675,
+  "name": "V. Skripchenko",
+  "photo": "https://media.api-sports.io/football/coachs/2675.png",
+  "nationality": "Belarus",
+  "age": 50,
+  "team_id": 394,
+  "team_slug": "dinamo-minsk",
+  "fetched_at": "2026-04-14T22:44:23.035Z",
+  "career": [
+    {
+      "team_id": 394,
+      "team_name": "Dinamo Minsk",
+      "team_logo": "https://media.api-sports.io/football/teams/394.png",
+      "start": "2022-11-01",
+      "end": null
+    },
+    {
+      "team_id": 380,
+      "team_name": "Minsk",
+      "team_logo": "https://media.api-sports.io/football/teams/380.png",
+      "start": "2021-09-01",
+      "end": "2022-11-01"
+    },
+    {
+      "team_id": 380,
+      "team_name": "Minsk",
+      "team_logo": "https://media.api-sports.io/football/teams/380.png",
+      "start": "2020-08-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 385,
+      "team_name": "Torpedo BelAZ",
+      "team_logo": "https://media.api-sports.io/football/teams/385.png",
+      "start": "2019-02-01",
+      "end": "2019-09-01"
+    },
+    {
+      "team_id": 3683,
+      "team_name": "Ararat-Armenia",
+      "team_logo": "https://media.api-sports.io/football/teams/3683.png",
+      "start": "2018-08-01",
+      "end": "2018-09-01"
+    },
+    {
+      "team_id": 1082,
+      "team_name": "Anzhi",
+      "team_logo": "https://media.api-sports.io/football/teams/1082.png",
+      "start": "2017-08-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 1079,
+      "team_name": "Krylya Sovetov",
+      "team_logo": "https://media.api-sports.io/football/teams/1079.png",
+      "start": "2016-11-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 1084,
+      "team_name": "Ural",
+      "team_logo": "https://media.api-sports.io/football/teams/1084.png",
+      "start": "2015-09-01",
+      "end": "2016-11-01"
+    },
+    {
+      "team_id": 380,
+      "team_name": "Minsk",
+      "team_logo": "https://media.api-sports.io/football/teams/380.png",
+      "start": "2011-11-01",
+      "end": "2013-10-01"
+    }
+  ]
+}

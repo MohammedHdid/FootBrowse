@@ -1,0 +1,21 @@
+{
+  "player_id": 328,
+  "slug": "fabian-ruiz",
+  "name": "Fabián Ruiz",
+  "api_photo": "https://media.api-sports.io/football/players/328.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Paris Saint Germain",
+      "club_logo": "https://media.api-sports.io/football/teams/85.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 17,
+      "goals": 1,
+      "assists": 4,
+      "minutes": 1151,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

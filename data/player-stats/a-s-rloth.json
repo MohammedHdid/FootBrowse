@@ -1,0 +1,21 @@
+{
+  "player_id": 8492,
+  "slug": "a-s-rloth",
+  "name": "A. Sørloth",
+  "api_photo": "https://media.api-sports.io/football/players/8492.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 35,
+      "goals": 20,
+      "assists": 2,
+      "minutes": 1560,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

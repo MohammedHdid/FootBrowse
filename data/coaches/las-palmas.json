@@ -1,0 +1,61 @@
+{
+  "id": 49,
+  "name": "Luis Carrión",
+  "photo": "https://media.api-sports.io/football/coachs/49.png",
+  "nationality": "Spain",
+  "age": 46,
+  "team_id": 534,
+  "team_slug": "las-palmas",
+  "fetched_at": "2026-04-14T22:35:10.302Z",
+  "career": [
+    {
+      "team_id": 534,
+      "team_name": "Las Palmas",
+      "team_logo": "https://media.api-sports.io/football/teams/534.png",
+      "start": "2024-06-01",
+      "end": "2024-10-01"
+    },
+    {
+      "team_id": 718,
+      "team_name": "Real Oviedo",
+      "team_logo": "https://media.api-sports.io/football/teams/718.png",
+      "start": "2023-09-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 5262,
+      "team_name": "FC Cartagena",
+      "team_logo": "https://media.api-sports.io/football/teams/5262.png",
+      "start": "2021-01-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 717,
+      "team_name": "Numancia",
+      "team_logo": "https://media.api-sports.io/football/teams/717.png",
+      "start": "2019-06-01",
+      "end": "2020-08-01"
+    },
+    {
+      "team_id": 5268,
+      "team_name": "UD Melilla",
+      "team_logo": "https://media.api-sports.io/football/teams/5268.png",
+      "start": "2018-05-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 713,
+      "team_name": "Córdoba",
+      "team_logo": "https://media.api-sports.io/football/teams/713.png",
+      "start": "2016-11-01",
+      "end": "2017-10-01"
+    },
+    {
+      "team_id": 9759,
+      "team_name": "Córdoba II",
+      "team_logo": "https://media.api-sports.io/football/teams/9759.png",
+      "start": "2015-03-01",
+      "end": "2016-11-01"
+    }
+  ]
+}

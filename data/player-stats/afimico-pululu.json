@@ -1,0 +1,21 @@
+{
+  "player_id": 48563,
+  "slug": "afimico-pululu",
+  "name": "Afimico Pululu",
+  "api_photo": "https://media.api-sports.io/football/players/48563.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Jagiellonia",
+      "club_logo": "https://media.api-sports.io/football/teams/336.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 12,
+      "goals": 8,
+      "assists": 1,
+      "minutes": 1005,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

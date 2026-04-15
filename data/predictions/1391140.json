@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391140,
+  "fetched_at": "2026-04-15T20:58:51.475Z",
+  "advice": "Double chance : Barcelona or draw",
+  "winner_id": 529,
+  "winner_name": "Barcelona",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "50%",
+    "draw": "50%",
+    "away": "0%"
+  },
+  "under_over": null,
+  "goals_home": "-3.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "79%",
+      "away": "21%"
+    },
+    "att": {
+      "home": "62%",
+      "away": "38%"
+    },
+    "def": {
+      "home": "75%",
+      "away": "25%"
+    },
+    "poisson_distribution": {
+      "home": "75%",
+      "away": "25%"
+    },
+    "h2h": {
+      "home": "93%",
+      "away": "7%"
+    },
+    "goals": {
+      "home": "60%",
+      "away": "40%"
+    },
+    "total": {
+      "home": "74.0%",
+      "away": "26.0%"
+    }
+  }
+}

@@ -8,22 +8,40 @@
     "start": "next start",
     "lint": "next lint",
     "sync:players": "tsx scripts/sync-players.ts",
-    "sync:sportsdb": "tsx scripts/sync-sportsdb.ts"
+    "sync:sportsdb": "tsx scripts/sync-sportsdb.ts",
+    "bootstrap:leagues": "tsx scripts/sync/bootstrap-leagues.ts",
+    "bootstrap:teams": "tsx scripts/sync/bootstrap-teams.ts",
+    "bootstrap:fixtures": "tsx scripts/sync/weekly-fixtures.ts",
+    "sync:daily-fixtures": "tsx scripts/sync/daily-fixtures.ts",
+    "sync:weekly-standings": "tsx scripts/sync/weekly-standings.ts",
+    "sync:weekly-topscorers": "tsx scripts/sync/weekly-topscorers.ts",
+    "sync:match-events": "tsx scripts/sync/match-events-batch.ts",
+    "sync:team-stats": "tsx scripts/sync/weekly-team-stats.ts",
+    "sync:player-stats": "tsx scripts/sync/weekly-player-stats.ts",
+    "sync:squads": "tsx scripts/sync/weekly-squads.ts",
+    "bootstrap:clubs": "tsx scripts/sync/bootstrap-club-teams.ts",
+    "bootstrap:club-players": "tsx scripts/sync/bootstrap-club-players.ts",
+    "sync:coaches": "tsx scripts/sync/weekly-coaches.ts",
+    "sync:injuries": "tsx scripts/sync/weekly-injuries.ts",
+    "sync:h2h": "tsx scripts/sync/weekly-h2h.ts",
+    "sync:predictions": "tsx scripts/sync/daily-predictions.ts",
+    "sync:odds": "tsx scripts/sync/daily-odds.ts"
   },
   "dependencies": {
+    "next": "14.2.35",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.35"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.5.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.35",
-    "tsx": "^4.19.2"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
   }
 }

@@ -1,0 +1,61 @@
+{
+  "id": 1596,
+  "name": "José Bordalás",
+  "photo": "https://media.api-sports.io/football/coachs/1596.png",
+  "nationality": "Spain",
+  "age": 61,
+  "team_id": 546,
+  "team_slug": "getafe",
+  "fetched_at": "2026-04-14T22:34:46.316Z",
+  "career": [
+    {
+      "team_id": 546,
+      "team_name": "Getafe",
+      "team_logo": "https://media.api-sports.io/football/teams/546.png",
+      "start": "2023-04-01",
+      "end": null
+    },
+    {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_logo": "https://media.api-sports.io/football/teams/532.png",
+      "start": "2021-07-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 546,
+      "team_name": "Getafe",
+      "team_logo": "https://media.api-sports.io/football/teams/546.png",
+      "start": "2016-09-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 542,
+      "team_name": "Alaves",
+      "team_logo": "https://media.api-sports.io/football/teams/542.png",
+      "start": "2015-07-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 711,
+      "team_name": "Alcorcon",
+      "team_logo": "https://media.api-sports.io/football/teams/711.png",
+      "start": "2014-02-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 711,
+      "team_name": "Alcorcon",
+      "team_logo": "https://media.api-sports.io/football/teams/711.png",
+      "start": "2012-07-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 797,
+      "team_name": "Elche",
+      "team_logo": "https://media.api-sports.io/football/teams/797.png",
+      "start": "2009-10-01",
+      "end": "2012-04-01"
+    }
+  ]
+}

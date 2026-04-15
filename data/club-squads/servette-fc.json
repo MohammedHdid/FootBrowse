@@ -1,0 +1,240 @@
+{
+  "team_id": 2184,
+  "team_slug": "servette-fc",
+  "team_name": "Servette FC",
+  "fetched_at": "2026-04-15T08:23:43.573Z",
+  "players": [
+    {
+      "id": 48595,
+      "name": "J. Frick",
+      "age": 32,
+      "number": 32,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/48595.png"
+    },
+    {
+      "id": 15423,
+      "name": "J. Mall",
+      "age": 34,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/15423.png"
+    },
+    {
+      "id": 655593,
+      "name": "Louis Rieder",
+      "age": 22,
+      "number": 44,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/655593.png"
+    },
+    {
+      "id": 326092,
+      "name": "T. Allix",
+      "age": 20,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/326092.png"
+    },
+    {
+      "id": 2945,
+      "name": "D. Bronn",
+      "age": 30,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2945.png"
+    },
+    {
+      "id": 135964,
+      "name": "M. Burch",
+      "age": 25,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/135964.png"
+    },
+    {
+      "id": 24217,
+      "name": "B. Mazikou",
+      "age": 29,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24217.png"
+    },
+    {
+      "id": 20627,
+      "name": "Houboulang Mendes",
+      "age": 27,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/20627.png"
+    },
+    {
+      "id": 347128,
+      "name": "L. Njoh",
+      "age": 24,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/347128.png"
+    },
+    {
+      "id": 48600,
+      "name": "S. Rouiller",
+      "age": 35,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/48600.png"
+    },
+    {
+      "id": 48604,
+      "name": "Y. Severin",
+      "age": 28,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/48604.png"
+    },
+    {
+      "id": 394211,
+      "name": "L. Srdanovic",
+      "age": 19,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/394211.png"
+    },
+    {
+      "id": 48609,
+      "name": "T. Cognat",
+      "age": 27,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/48609.png"
+    },
+    {
+      "id": 24022,
+      "name": "D. Douline",
+      "age": 32,
+      "number": 28,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/24022.png"
+    },
+    {
+      "id": 20861,
+      "name": "L. Fomba",
+      "age": 27,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/20861.png"
+    },
+    {
+      "id": 624610,
+      "name": "M. Ishuayed Sanchez",
+      "age": 18,
+      "number": 38,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/624610.png"
+    },
+    {
+      "id": 613514,
+      "name": "Thomas Lopes",
+      "age": 18,
+      "number": 36,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/613514.png"
+    },
+    {
+      "id": 48828,
+      "name": "G. Morandi",
+      "age": 26,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/48828.png"
+    },
+    {
+      "id": 53740,
+      "name": "G. Ondoua",
+      "age": 30,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/53740.png"
+    },
+    {
+      "id": 48614,
+      "name": "M. Stevanović",
+      "age": 35,
+      "number": 9,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/48614.png"
+    },
+    {
+      "id": 525275,
+      "name": "Jamie Atangana",
+      "age": 18,
+      "number": 45,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/525275.png"
+    },
+    {
+      "id": 20782,
+      "name": "F. Ayé",
+      "age": 28,
+      "number": 97,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20782.png"
+    },
+    {
+      "id": 640520,
+      "name": "S. Denarie",
+      "age": 19,
+      "number": 33,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/640520.png"
+    },
+    {
+      "id": 48496,
+      "name": "J. Guillemenot",
+      "age": 27,
+      "number": 21,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/48496.png"
+    },
+    {
+      "id": 20530,
+      "name": "A. Jallow",
+      "age": 27,
+      "number": 30,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20530.png"
+    },
+    {
+      "id": 161620,
+      "name": "J. Kadile",
+      "age": 23,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/161620.png"
+    },
+    {
+      "id": 627228,
+      "name": "Mardochee Miguel",
+      "age": 18,
+      "number": 39,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/627228.png"
+    },
+    {
+      "id": 30999,
+      "name": "S. Mráz",
+      "age": 28,
+      "number": 90,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/30999.png"
+    },
+    {
+      "id": 561219,
+      "name": "A. Vincent",
+      "age": 17,
+      "number": 35,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/561219.png"
+    }
+  ]
+}

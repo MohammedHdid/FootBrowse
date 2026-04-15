@@ -1,0 +1,21 @@
+{
+  "player_id": 745,
+  "slug": "isco",
+  "name": "Isco",
+  "api_photo": "https://media.api-sports.io/football/players/745.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Real Betis",
+      "club_logo": "https://media.api-sports.io/football/teams/543.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 22,
+      "goals": 9,
+      "assists": 8,
+      "minutes": 1551,
+      "yellow_cards": 5,
+      "red_cards": 0
+    }
+  ]
+}

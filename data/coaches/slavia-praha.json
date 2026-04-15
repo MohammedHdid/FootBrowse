@@ -1,0 +1,33 @@
+{
+  "id": 1813,
+  "name": "J. Trpišovský",
+  "photo": "https://media.api-sports.io/football/coachs/1813.png",
+  "nationality": "Czechia",
+  "age": 49,
+  "team_id": 560,
+  "team_slug": "slavia-praha",
+  "fetched_at": "2026-04-15T08:24:25.586Z",
+  "career": [
+    {
+      "team_id": 560,
+      "team_name": "Slavia Prague",
+      "team_logo": "https://media.api-sports.io/football/teams/560.png",
+      "start": "2018-01-01",
+      "end": null
+    },
+    {
+      "team_id": 782,
+      "team_name": "Slovan Liberec",
+      "team_logo": "https://media.api-sports.io/football/teams/782.png",
+      "start": "2015-06-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 3729,
+      "team_name": "Viktoria Žižkov",
+      "team_logo": "https://media.api-sports.io/football/teams/3729.png",
+      "start": "2013-07-01",
+      "end": "2015-06-01"
+    }
+  ]
+}

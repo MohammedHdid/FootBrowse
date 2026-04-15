@@ -1,0 +1,256 @@
+{
+  "team_id": 164,
+  "team_slug": "fsv-mainz-05",
+  "team_name": "FSV Mainz 05",
+  "fetched_at": "2026-04-14T22:31:28.141Z",
+  "players": [
+    {
+      "id": 628381,
+      "name": "Louis Babatz",
+      "age": 19,
+      "number": 35,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/628381.png"
+    },
+    {
+      "id": 90829,
+      "name": "D. Batz",
+      "age": 34,
+      "number": 33,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/90829.png"
+    },
+    {
+      "id": 180553,
+      "name": "L. Rieß",
+      "age": 24,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/180553.png"
+    },
+    {
+      "id": 25906,
+      "name": "R. Zentner",
+      "age": 31,
+      "number": 27,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/25906.png"
+    },
+    {
+      "id": 25907,
+      "name": "S. Bell",
+      "age": 34,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25907.png"
+    },
+    {
+      "id": 22244,
+      "name": "A. Caci",
+      "age": 28,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/22244.png"
+    },
+    {
+      "id": 39279,
+      "name": "A. Hanche-Olsen",
+      "age": 28,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/39279.png"
+    },
+    {
+      "id": 25066,
+      "name": "M. Leitsch",
+      "age": 27,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25066.png"
+    },
+    {
+      "id": 24842,
+      "name": "L. Maloney",
+      "age": 26,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/24842.png"
+    },
+    {
+      "id": 25915,
+      "name": "P. Mwene",
+      "age": 31,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25915.png"
+    },
+    {
+      "id": 711,
+      "name": "S. Posch",
+      "age": 28,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/711.png"
+    },
+    {
+      "id": 442546,
+      "name": "K. Potulski",
+      "age": 18,
+      "number": 48,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/442546.png"
+    },
+    {
+      "id": 283753,
+      "name": "N. Veratschnig",
+      "age": 22,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/283753.png"
+    },
+    {
+      "id": 48378,
+      "name": "S. Widmer",
+      "age": 32,
+      "number": 30,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/48378.png"
+    },
+    {
+      "id": 1812,
+      "name": "D. da Costa",
+      "age": 32,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1812.png"
+    },
+    {
+      "id": 714,
+      "name": "N. Amiri",
+      "age": 29,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/714.png"
+    },
+    {
+      "id": 380603,
+      "name": "Daniel Gleiber",
+      "age": 20,
+      "number": 42,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/380603.png"
+    },
+    {
+      "id": 621880,
+      "name": "D. Imafidon",
+      "age": 19,
+      "number": 34,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/621880.png"
+    },
+    {
+      "id": 199897,
+      "name": "S. Kawasaki",
+      "age": 24,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/199897.png"
+    },
+    {
+      "id": 979,
+      "name": "D. Kohr",
+      "age": 31,
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/979.png"
+    },
+    {
+      "id": 2906,
+      "name": "Lee Jae-Sung",
+      "age": 33,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2906.png"
+    },
+    {
+      "id": 202736,
+      "name": "P. Nebel",
+      "age": 23,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/202736.png"
+    },
+    {
+      "id": 33889,
+      "name": "K. Sano",
+      "age": 25,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/33889.png"
+    },
+    {
+      "id": 37938,
+      "name": "S. Becker",
+      "age": 30,
+      "number": 23,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/37938.png"
+    },
+    {
+      "id": 199931,
+      "name": "W. Bøving",
+      "age": 22,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/199931.png"
+    },
+    {
+      "id": 162946,
+      "name": "B. Hollerbach",
+      "age": 24,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/162946.png"
+    },
+    {
+      "id": 548511,
+      "name": "F. Moreno Fell",
+      "age": 25,
+      "number": 36,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/548511.png"
+    },
+    {
+      "id": 280339,
+      "name": "A. Sieb",
+      "age": 22,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/280339.png"
+    },
+    {
+      "id": 20617,
+      "name": "S. Katompa Mvumpa",
+      "age": 27,
+      "number": 26,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20617.png"
+    },
+    {
+      "id": 26171,
+      "name": "P. Tietz",
+      "age": 28,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/26171.png"
+    },
+    {
+      "id": 342177,
+      "name": "N. Weiper",
+      "age": 20,
+      "number": 44,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/342177.png"
+    }
+  ]
+}

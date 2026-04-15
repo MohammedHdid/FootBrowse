@@ -1,0 +1,78 @@
+{
+  "team1_id": 546,
+  "team2_id": 718,
+  "fetched_at": "2026-04-15T20:48:04.189Z",
+  "played": 5,
+  "team1_wins": 2,
+  "team2_wins": 2,
+  "draws": 1,
+  "team1_goals": 6,
+  "team2_goals": 5,
+  "last_matches": [
+    {
+      "fixture_id": 1390854,
+      "date": "2025-09-13",
+      "league": "La Liga",
+      "home_id": 546,
+      "home_name": "Getafe",
+      "home_logo": "https://media.api-sports.io/football/teams/546.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 2,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1411831,
+      "date": "2025-07-26",
+      "league": "Friendlies Clubs",
+      "home_id": 546,
+      "home_name": "Getafe",
+      "home_logo": "https://media.api-sports.io/football/teams/546.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1230623,
+      "date": "2024-07-24",
+      "league": "Friendlies Clubs",
+      "home_id": 546,
+      "home_name": "Getafe",
+      "home_logo": "https://media.api-sports.io/football/teams/546.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 21001,
+      "date": "2017-02-19",
+      "league": "Segunda División",
+      "home_id": 718,
+      "home_name": "Oviedo",
+      "home_logo": "https://media.api-sports.io/football/teams/718.png",
+      "away_id": 546,
+      "away_name": "Getafe",
+      "away_logo": "https://media.api-sports.io/football/teams/546.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 21232,
+      "date": "2016-09-18",
+      "league": "Segunda División",
+      "home_id": 546,
+      "home_name": "Getafe",
+      "home_logo": "https://media.api-sports.io/football/teams/546.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 2,
+      "away_score": 1
+    }
+  ]
+}

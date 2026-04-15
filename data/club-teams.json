@@ -1,0 +1,2392 @@
+[
+  {
+    "id": 180,
+    "name": "1. FC Heidenheim",
+    "slug": "1-fc-heidenheim",
+    "logo": "https://media.api-sports.io/football/teams/180.png",
+    "country": "Germany",
+    "founded": 1946,
+    "venue": {
+      "id": 723,
+      "name": "Voith-Arena",
+      "city": "Heidenheim an der Brenz",
+      "capacity": 15000,
+      "image": "https://media.api-sports.io/football/venues/723.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "1. FC Köln",
+    "slug": "1-fc-koln",
+    "logo": "https://media.api-sports.io/football/teams/192.png",
+    "country": "Germany",
+    "founded": 1948,
+    "venue": {
+      "id": 20736,
+      "name": "Cologne Stadium",
+      "city": "Köln",
+      "capacity": 50076,
+      "image": "https://media.api-sports.io/football/venues/20736.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "1899 Hoffenheim",
+    "slug": "1899-hoffenheim",
+    "logo": "https://media.api-sports.io/football/teams/167.png",
+    "country": "Germany",
+    "founded": 1899,
+    "venue": {
+      "id": 724,
+      "name": "PreZero Arena",
+      "city": "Sinsheim",
+      "capacity": 30164,
+      "image": "https://media.api-sports.io/football/venues/724.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Bayer Leverkusen",
+    "slug": "bayer-leverkusen",
+    "logo": "https://media.api-sports.io/football/teams/168.png",
+    "country": "Germany",
+    "founded": 1904,
+    "venue": {
+      "id": 699,
+      "name": "BayArena",
+      "city": "Leverkusen",
+      "capacity": 30210,
+      "image": "https://media.api-sports.io/football/venues/699.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Bayern München",
+    "slug": "bayern-munchen",
+    "logo": "https://media.api-sports.io/football/teams/157.png",
+    "country": "Germany",
+    "founded": 1900,
+    "venue": {
+      "id": 20732,
+      "name": "Fußball Arena München",
+      "city": "München",
+      "capacity": 75024,
+      "image": "https://media.api-sports.io/football/venues/20732.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Borussia Dortmund",
+    "slug": "borussia-dortmund",
+    "logo": "https://media.api-sports.io/football/teams/165.png",
+    "country": "Germany",
+    "founded": 1909,
+    "venue": {
+      "id": 20733,
+      "name": "BVB Stadion Dortmund",
+      "city": "Dortmund",
+      "capacity": 81365,
+      "image": "https://media.api-sports.io/football/venues/20733.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Borussia Mönchengladbach",
+    "slug": "borussia-monchengladbach",
+    "logo": "https://media.api-sports.io/football/teams/163.png",
+    "country": "Germany",
+    "founded": 1900,
+    "venue": {
+      "id": 20471,
+      "name": "BORUSSIA-PARK",
+      "city": "Mönchengladbach",
+      "capacity": 54057,
+      "image": "https://media.api-sports.io/football/venues/20471.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Eintracht Frankfurt",
+    "slug": "eintracht-frankfurt",
+    "logo": "https://media.api-sports.io/football/teams/169.png",
+    "country": "Germany",
+    "founded": 1899,
+    "venue": {
+      "id": 20734,
+      "name": "Frankfurt Arena",
+      "city": "Frankfurt am Main",
+      "capacity": 58000,
+      "image": "https://media.api-sports.io/football/venues/20734.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "FC Augsburg",
+    "slug": "fc-augsburg",
+    "logo": "https://media.api-sports.io/football/teams/170.png",
+    "country": "Germany",
+    "founded": 1907,
+    "venue": {
+      "id": 698,
+      "name": "WWK Arena",
+      "city": "Augsburg",
+      "capacity": 30662,
+      "image": "https://media.api-sports.io/football/venues/698.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "FC St. Pauli",
+    "slug": "fc-st-pauli",
+    "logo": "https://media.api-sports.io/football/teams/186.png",
+    "country": "Germany",
+    "founded": 1910,
+    "venue": {
+      "id": 745,
+      "name": "Millerntor-Stadion",
+      "city": "Hamburg",
+      "capacity": 29564,
+      "image": "https://media.api-sports.io/football/venues/745.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "FSV Mainz 05",
+    "slug": "fsv-mainz-05",
+    "logo": "https://media.api-sports.io/football/teams/164.png",
+    "country": "Germany",
+    "founded": 1905,
+    "venue": {
+      "id": 11899,
+      "name": "MEWA ARENA",
+      "city": "Mainz",
+      "capacity": 34034,
+      "image": "https://media.api-sports.io/football/venues/11899.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Hamburger SV",
+    "slug": "hamburger-sv",
+    "logo": "https://media.api-sports.io/football/teams/175.png",
+    "country": "Germany",
+    "founded": 1887,
+    "venue": {
+      "id": 720,
+      "name": "Volksparkstadion",
+      "city": "Hamburg",
+      "capacity": 57030,
+      "image": "https://media.api-sports.io/football/venues/720.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "RB Leipzig",
+    "slug": "rb-leipzig",
+    "logo": "https://media.api-sports.io/football/teams/173.png",
+    "country": "Germany",
+    "founded": 2009,
+    "venue": {
+      "id": 20737,
+      "name": "Leipzig Stadium",
+      "city": "Leipzig",
+      "capacity": 47069,
+      "image": "https://media.api-sports.io/football/venues/20737.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "SC Freiburg",
+    "slug": "sc-freiburg",
+    "logo": "https://media.api-sports.io/football/teams/160.png",
+    "country": "Germany",
+    "founded": 1904,
+    "venue": {
+      "id": 12717,
+      "name": "Europa-Park Stadion",
+      "city": "Freiburg im Breisgau",
+      "capacity": 34700,
+      "image": "https://media.api-sports.io/football/venues/12717.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Union Berlin",
+    "slug": "union-berlin",
+    "logo": "https://media.api-sports.io/football/teams/182.png",
+    "country": "Germany",
+    "founded": 1966,
+    "venue": {
+      "id": 748,
+      "name": "Stadion An der Alten Försterei",
+      "city": "Berlin",
+      "capacity": 22467,
+      "image": "https://media.api-sports.io/football/venues/748.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "VfB Stuttgart",
+    "slug": "vfb-stuttgart",
+    "logo": "https://media.api-sports.io/football/teams/172.png",
+    "country": "Germany",
+    "founded": 1893,
+    "venue": {
+      "id": 20739,
+      "name": "Stuttgart Arena",
+      "city": "Stuttgart",
+      "capacity": 60469,
+      "image": "https://media.api-sports.io/football/venues/20739.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "VfL Wolfsburg",
+    "slug": "vfl-wolfsburg",
+    "logo": "https://media.api-sports.io/football/teams/161.png",
+    "country": "Germany",
+    "founded": 1945,
+    "venue": {
+      "id": 752,
+      "name": "Volkswagen Arena",
+      "city": "Wolfsburg",
+      "capacity": 30000,
+      "image": "https://media.api-sports.io/football/venues/752.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Werder Bremen",
+    "slug": "werder-bremen",
+    "logo": "https://media.api-sports.io/football/teams/162.png",
+    "country": "Germany",
+    "founded": 1899,
+    "venue": {
+      "id": 755,
+      "name": "wohninvest WESERSTADION",
+      "city": "Bremen",
+      "capacity": 42358,
+      "image": "https://media.api-sports.io/football/venues/755.png"
+    },
+    "primary_league_slug": "bundesliga",
+    "leagues": [
+      "bundesliga"
+    ]
+  },
+  {
+    "id": 542,
+    "name": "Alaves",
+    "slug": "alaves",
+    "logo": "https://media.api-sports.io/football/teams/542.png",
+    "country": "Spain",
+    "founded": 1921,
+    "venue": {
+      "id": 1470,
+      "name": "Estadio de Mendizorroza",
+      "city": "Vitoria-Gasteiz",
+      "capacity": 19840,
+      "image": "https://media.api-sports.io/football/venues/1470.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 531,
+    "name": "Athletic Club",
+    "slug": "athletic-club",
+    "logo": "https://media.api-sports.io/football/teams/531.png",
+    "country": "Spain",
+    "founded": 1898,
+    "venue": {
+      "id": 1460,
+      "name": "San Mamés Barria",
+      "city": "Bilbao",
+      "capacity": 53289,
+      "image": "https://media.api-sports.io/football/venues/1460.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 530,
+    "name": "Atletico Madrid",
+    "slug": "atletico-madrid",
+    "logo": "https://media.api-sports.io/football/teams/530.png",
+    "country": "Spain",
+    "founded": 1903,
+    "venue": {
+      "id": 19217,
+      "name": "Estádio Cívitas Metropolitano",
+      "city": "Madrid",
+      "capacity": 70460,
+      "image": "https://media.api-sports.io/football/venues/19217.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 529,
+    "name": "Barcelona",
+    "slug": "barcelona",
+    "logo": "https://media.api-sports.io/football/teams/529.png",
+    "country": "Spain",
+    "founded": 1899,
+    "venue": {
+      "id": 19939,
+      "name": "Camp Nou",
+      "city": "Barcelona",
+      "capacity": 55926,
+      "image": "https://media.api-sports.io/football/venues/19939.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 538,
+    "name": "Celta Vigo",
+    "slug": "celta-vigo",
+    "logo": "https://media.api-sports.io/football/teams/538.png",
+    "country": "Spain",
+    "founded": 1923,
+    "venue": {
+      "id": 1467,
+      "name": "Abanca-Balaídos",
+      "city": "Vigo",
+      "capacity": 31800,
+      "image": "https://media.api-sports.io/football/venues/1467.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 797,
+    "name": "Elche",
+    "slug": "elche",
+    "logo": "https://media.api-sports.io/football/teams/797.png",
+    "country": "Spain",
+    "founded": 1923,
+    "venue": {
+      "id": 1473,
+      "name": "Estadio Manuel Martínez Valero",
+      "city": "Elche",
+      "capacity": 36017,
+      "image": "https://media.api-sports.io/football/venues/1473.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 540,
+    "name": "Espanyol",
+    "slug": "espanyol",
+    "logo": "https://media.api-sports.io/football/teams/540.png",
+    "country": "Spain",
+    "founded": 1900,
+    "venue": {
+      "id": 20421,
+      "name": "Stage Front Stadium",
+      "city": "Cornella de Llobregat",
+      "capacity": 40423,
+      "image": "https://media.api-sports.io/football/venues/20421.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 546,
+    "name": "Getafe",
+    "slug": "getafe",
+    "logo": "https://media.api-sports.io/football/teams/546.png",
+    "country": "Spain",
+    "founded": 1983,
+    "venue": {
+      "id": 20422,
+      "name": "Estadio Coliseum",
+      "city": "Getafe",
+      "capacity": 17393,
+      "image": "https://media.api-sports.io/football/venues/20422.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 547,
+    "name": "Girona",
+    "slug": "girona",
+    "logo": "https://media.api-sports.io/football/teams/547.png",
+    "country": "Spain",
+    "founded": 1930,
+    "venue": {
+      "id": 1478,
+      "name": "Estadi Municipal de Montilivi",
+      "city": "Girona",
+      "capacity": 14500,
+      "image": "https://media.api-sports.io/football/venues/1478.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 539,
+    "name": "Levante",
+    "slug": "levante",
+    "logo": "https://media.api-sports.io/football/teams/539.png",
+    "country": "Spain",
+    "founded": 1909,
+    "venue": {
+      "id": 1482,
+      "name": "Estadio Ciudad de Valencia",
+      "city": "Valencia",
+      "capacity": 25534,
+      "image": "https://media.api-sports.io/football/venues/1482.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 798,
+    "name": "Mallorca",
+    "slug": "mallorca",
+    "logo": "https://media.api-sports.io/football/teams/798.png",
+    "country": "Spain",
+    "founded": 1916,
+    "venue": {
+      "id": 19940,
+      "name": "Estadi Mallorca Son Moix",
+      "city": "Palma de Mallorca",
+      "capacity": 23142,
+      "image": "https://media.api-sports.io/football/venues/19940.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 727,
+    "name": "Osasuna",
+    "slug": "osasuna",
+    "logo": "https://media.api-sports.io/football/teams/727.png",
+    "country": "Spain",
+    "founded": 1920,
+    "venue": {
+      "id": 1486,
+      "name": "Estadio El Sadar",
+      "city": "Iruñea",
+      "capacity": 23576,
+      "image": "https://media.api-sports.io/football/venues/1486.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 718,
+    "name": "Oviedo",
+    "slug": "oviedo",
+    "logo": "https://media.api-sports.io/football/teams/718.png",
+    "country": "Spain",
+    "founded": 1926,
+    "venue": {
+      "id": 1490,
+      "name": "Estadio Nuevo Carlos Tartiere",
+      "city": "Oviedo",
+      "capacity": 30500,
+      "image": "https://media.api-sports.io/football/venues/1490.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 728,
+    "name": "Rayo Vallecano",
+    "slug": "rayo-vallecano",
+    "logo": "https://media.api-sports.io/football/teams/728.png",
+    "country": "Spain",
+    "founded": 1924,
+    "venue": {
+      "id": 1488,
+      "name": "Estadio de Vallecas",
+      "city": "Madrid",
+      "capacity": 15500,
+      "image": "https://media.api-sports.io/football/venues/1488.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 543,
+    "name": "Real Betis",
+    "slug": "real-betis",
+    "logo": "https://media.api-sports.io/football/teams/543.png",
+    "country": "Spain",
+    "founded": 1907,
+    "venue": {
+      "id": 1489,
+      "name": "Estadio Benito Villamarín",
+      "city": "Sevilla",
+      "capacity": 60721,
+      "image": "https://media.api-sports.io/football/venues/1489.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 541,
+    "name": "Real Madrid",
+    "slug": "real-madrid",
+    "logo": "https://media.api-sports.io/football/teams/541.png",
+    "country": "Spain",
+    "founded": 1902,
+    "venue": {
+      "id": 1456,
+      "name": "Estadio Santiago Bernabéu",
+      "city": "Madrid",
+      "capacity": 85454,
+      "image": "https://media.api-sports.io/football/venues/1456.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 548,
+    "name": "Real Sociedad",
+    "slug": "real-sociedad",
+    "logo": "https://media.api-sports.io/football/teams/548.png",
+    "country": "Spain",
+    "founded": 1909,
+    "venue": {
+      "id": 1491,
+      "name": "Reale Arena",
+      "city": "Donostia-San Sebastián",
+      "capacity": 40000,
+      "image": "https://media.api-sports.io/football/venues/1491.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 536,
+    "name": "Sevilla",
+    "slug": "sevilla",
+    "logo": "https://media.api-sports.io/football/teams/536.png",
+    "country": "Spain",
+    "founded": 1890,
+    "venue": {
+      "id": 1494,
+      "name": "Estadio Ramón Sánchez Pizjuán",
+      "city": "Sevilla",
+      "capacity": 48649,
+      "image": "https://media.api-sports.io/football/venues/1494.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 532,
+    "name": "Valencia",
+    "slug": "valencia",
+    "logo": "https://media.api-sports.io/football/teams/532.png",
+    "country": "Spain",
+    "founded": 1919,
+    "venue": {
+      "id": 1497,
+      "name": "Estadio de Mestalla",
+      "city": "Valencia",
+      "capacity": 55000,
+      "image": "https://media.api-sports.io/football/venues/1497.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga"
+    ]
+  },
+  {
+    "id": 533,
+    "name": "Villarreal",
+    "slug": "villarreal",
+    "logo": "https://media.api-sports.io/football/teams/533.png",
+    "country": "Spain",
+    "founded": 1923,
+    "venue": {
+      "id": 1498,
+      "name": "Estadio de la Cerámica",
+      "city": "Villarreal",
+      "capacity": 24500,
+      "image": "https://media.api-sports.io/football/venues/1498.png"
+    },
+    "primary_league_slug": "la-liga",
+    "leagues": [
+      "la-liga",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Arsenal",
+    "slug": "arsenal",
+    "logo": "https://media.api-sports.io/football/teams/42.png",
+    "country": "England",
+    "founded": 1886,
+    "venue": {
+      "id": 494,
+      "name": "Emirates Stadium",
+      "city": "London",
+      "capacity": 60383,
+      "image": "https://media.api-sports.io/football/venues/494.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Aston Villa",
+    "slug": "aston-villa",
+    "logo": "https://media.api-sports.io/football/teams/66.png",
+    "country": "England",
+    "founded": 1874,
+    "venue": {
+      "id": 495,
+      "name": "Villa Park",
+      "city": "Birmingham",
+      "capacity": 42824,
+      "image": "https://media.api-sports.io/football/venues/495.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Bournemouth",
+    "slug": "bournemouth",
+    "logo": "https://media.api-sports.io/football/teams/35.png",
+    "country": "England",
+    "founded": 1899,
+    "venue": {
+      "id": 504,
+      "name": "Vitality Stadium",
+      "city": "Bournemouth, Dorset",
+      "capacity": 12000,
+      "image": "https://media.api-sports.io/football/venues/504.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Brentford",
+    "slug": "brentford",
+    "logo": "https://media.api-sports.io/football/teams/55.png",
+    "country": "England",
+    "founded": 1889,
+    "venue": {
+      "id": 10503,
+      "name": "Gtech Community Stadium",
+      "city": "Brentford, Middlesex",
+      "capacity": 17250,
+      "image": "https://media.api-sports.io/football/venues/10503.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Brighton",
+    "slug": "brighton",
+    "logo": "https://media.api-sports.io/football/teams/51.png",
+    "country": "England",
+    "founded": 1901,
+    "venue": {
+      "id": 508,
+      "name": "American Express Stadium",
+      "city": "Falmer, East Sussex",
+      "capacity": 31872,
+      "image": "https://media.api-sports.io/football/venues/508.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Burnley",
+    "slug": "burnley",
+    "logo": "https://media.api-sports.io/football/teams/44.png",
+    "country": "England",
+    "founded": 1882,
+    "venue": {
+      "id": 512,
+      "name": "Turf Moor",
+      "city": "Burnley",
+      "capacity": 22546,
+      "image": "https://media.api-sports.io/football/venues/512.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Chelsea",
+    "slug": "chelsea",
+    "logo": "https://media.api-sports.io/football/teams/49.png",
+    "country": "England",
+    "founded": 1905,
+    "venue": {
+      "id": 519,
+      "name": "Stamford Bridge",
+      "city": "London",
+      "capacity": 41841,
+      "image": "https://media.api-sports.io/football/venues/519.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Crystal Palace",
+    "slug": "crystal-palace",
+    "logo": "https://media.api-sports.io/football/teams/52.png",
+    "country": "England",
+    "founded": 1861,
+    "venue": {
+      "id": 525,
+      "name": "Selhurst Park",
+      "city": "London",
+      "capacity": 26309,
+      "image": "https://media.api-sports.io/football/venues/525.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Everton",
+    "slug": "everton",
+    "logo": "https://media.api-sports.io/football/teams/45.png",
+    "country": "England",
+    "founded": 1878,
+    "venue": {
+      "id": 22033,
+      "name": "Hill Dickinson Stadium",
+      "city": "Liverpool, Merseyside",
+      "capacity": 52888,
+      "image": "https://media.api-sports.io/football/venues/22033.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Fulham",
+    "slug": "fulham",
+    "logo": "https://media.api-sports.io/football/teams/36.png",
+    "country": "England",
+    "founded": 1879,
+    "venue": {
+      "id": 535,
+      "name": "Craven Cottage",
+      "city": "London",
+      "capacity": 29589,
+      "image": "https://media.api-sports.io/football/venues/535.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Leeds",
+    "slug": "leeds",
+    "logo": "https://media.api-sports.io/football/teams/63.png",
+    "country": "England",
+    "founded": 1919,
+    "venue": {
+      "id": 546,
+      "name": "Elland Road",
+      "city": "Leeds, West Yorkshire",
+      "capacity": 40204,
+      "image": "https://media.api-sports.io/football/venues/546.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Liverpool",
+    "slug": "liverpool",
+    "logo": "https://media.api-sports.io/football/teams/40.png",
+    "country": "England",
+    "founded": 1892,
+    "venue": {
+      "id": 550,
+      "name": "Anfield",
+      "city": "Liverpool",
+      "capacity": 61276,
+      "image": "https://media.api-sports.io/football/venues/550.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Manchester City",
+    "slug": "manchester-city",
+    "logo": "https://media.api-sports.io/football/teams/50.png",
+    "country": "England",
+    "founded": 1880,
+    "venue": {
+      "id": 555,
+      "name": "Etihad Stadium",
+      "city": "Manchester",
+      "capacity": 55097,
+      "image": "https://media.api-sports.io/football/venues/555.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Manchester United",
+    "slug": "manchester-united",
+    "logo": "https://media.api-sports.io/football/teams/33.png",
+    "country": "England",
+    "founded": 1878,
+    "venue": {
+      "id": 556,
+      "name": "Old Trafford",
+      "city": "Manchester",
+      "capacity": 76212,
+      "image": "https://media.api-sports.io/football/venues/556.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Newcastle",
+    "slug": "newcastle",
+    "logo": "https://media.api-sports.io/football/teams/34.png",
+    "country": "England",
+    "founded": 1892,
+    "venue": {
+      "id": 562,
+      "name": "St. James' Park",
+      "city": "Newcastle upon Tyne",
+      "capacity": 52758,
+      "image": "https://media.api-sports.io/football/venues/562.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Nottingham Forest",
+    "slug": "nottingham-forest",
+    "logo": "https://media.api-sports.io/football/teams/65.png",
+    "country": "England",
+    "founded": 1865,
+    "venue": {
+      "id": 566,
+      "name": "The City Ground",
+      "city": "Nottingham, Nottinghamshire",
+      "capacity": 30576,
+      "image": "https://media.api-sports.io/football/venues/566.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 746,
+    "name": "Sunderland",
+    "slug": "sunderland",
+    "logo": "https://media.api-sports.io/football/teams/746.png",
+    "country": "England",
+    "founded": 1879,
+    "venue": {
+      "id": 589,
+      "name": "Stadium of Light",
+      "city": "Sunderland",
+      "capacity": 49000,
+      "image": "https://media.api-sports.io/football/venues/589.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Tottenham",
+    "slug": "tottenham",
+    "logo": "https://media.api-sports.io/football/teams/47.png",
+    "country": "England",
+    "founded": 1882,
+    "venue": {
+      "id": 593,
+      "name": "Tottenham Hotspur Stadium",
+      "city": "London",
+      "capacity": 62850,
+      "image": "https://media.api-sports.io/football/venues/593.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league",
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "West Ham",
+    "slug": "west-ham",
+    "logo": "https://media.api-sports.io/football/teams/48.png",
+    "country": "England",
+    "founded": 1895,
+    "venue": {
+      "id": 598,
+      "name": "London Stadium",
+      "city": "London",
+      "capacity": 64472,
+      "image": "https://media.api-sports.io/football/venues/598.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Wolves",
+    "slug": "wolves",
+    "logo": "https://media.api-sports.io/football/teams/39.png",
+    "country": "England",
+    "founded": 1877,
+    "venue": {
+      "id": 600,
+      "name": "Molineux Stadium",
+      "city": "Wolverhampton, West Midlands",
+      "capacity": 34624,
+      "image": "https://media.api-sports.io/football/venues/600.png"
+    },
+    "primary_league_slug": "premier-league",
+    "leagues": [
+      "premier-league"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Ajax",
+    "slug": "ajax",
+    "logo": "https://media.api-sports.io/football/teams/194.png",
+    "country": "Netherlands",
+    "founded": 1900,
+    "venue": {
+      "id": 1117,
+      "name": "Johan Cruijff Arena",
+      "city": "Amsterdam",
+      "capacity": 55885,
+      "image": "https://media.api-sports.io/football/venues/1117.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 499,
+    "name": "Atalanta",
+    "slug": "atalanta",
+    "logo": "https://media.api-sports.io/football/teams/499.png",
+    "country": "Italy",
+    "founded": 1907,
+    "venue": {
+      "id": 879,
+      "name": "Gewiss Stadium",
+      "city": "Bergamo",
+      "capacity": 21300,
+      "image": "https://media.api-sports.io/football/venues/879.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Benfica",
+    "slug": "benfica",
+    "logo": "https://media.api-sports.io/football/teams/211.png",
+    "country": "Portugal",
+    "founded": 1904,
+    "venue": {
+      "id": 1265,
+      "name": "Estádio do Sport Lisboa e Benfica (da Luz)",
+      "city": "Lisboa",
+      "capacity": 65647,
+      "image": "https://media.api-sports.io/football/venues/1265.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Bodo/Glimt",
+    "slug": "bodo-glimt",
+    "logo": "https://media.api-sports.io/football/teams/327.png",
+    "country": "Norway",
+    "founded": 1916,
+    "venue": {
+      "id": 1175,
+      "name": "Aspmyra Stadion",
+      "city": "Bodø",
+      "capacity": 8270,
+      "image": "https://media.api-sports.io/football/venues/1175.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Brann",
+    "slug": "brann",
+    "logo": "https://media.api-sports.io/football/teams/319.png",
+    "country": "Norway",
+    "founded": 1908,
+    "venue": {
+      "id": 1176,
+      "name": "Brann Stadion",
+      "city": "Bergen",
+      "capacity": 17686,
+      "image": "https://media.api-sports.io/football/venues/1176.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "Breidablik",
+    "slug": "breidablik",
+    "logo": "https://media.api-sports.io/football/teams/276.png",
+    "country": "Iceland",
+    "founded": 1950,
+    "venue": {
+      "id": 820,
+      "name": "Kópavogsvöllur",
+      "city": "Kópavogur",
+      "capacity": 5501,
+      "image": "https://media.api-sports.io/football/venues/820.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 579,
+    "name": "Buducnost Podgorica",
+    "slug": "buducnost-podgorica",
+    "logo": "https://media.api-sports.io/football/teams/579.png",
+    "country": "Montenegro",
+    "founded": 1925,
+    "venue": {
+      "id": 1095,
+      "name": "Stadion Pod Goricom",
+      "city": "Podgorica",
+      "capacity": 15230,
+      "image": "https://media.api-sports.io/football/venues/1095.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Celtic",
+    "slug": "celtic",
+    "logo": "https://media.api-sports.io/football/teams/247.png",
+    "country": "Scotland",
+    "founded": 1888,
+    "venue": {
+      "id": 1386,
+      "name": "Celtic Park",
+      "city": "Glasgow",
+      "capacity": 60832,
+      "image": "https://media.api-sports.io/football/venues/1386.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 569,
+    "name": "Club Brugge KV",
+    "slug": "club-brugge-kv",
+    "logo": "https://media.api-sports.io/football/teams/569.png",
+    "country": "Belgium",
+    "founded": 1891,
+    "venue": {
+      "id": 176,
+      "name": "Jan Breydelstadion",
+      "city": "Brugge",
+      "capacity": 29062,
+      "image": "https://media.api-sports.io/football/venues/176.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "Dinamo Minsk",
+    "slug": "dinamo-minsk",
+    "logo": "https://media.api-sports.io/football/teams/394.png",
+    "country": "Belarus",
+    "founded": 1927,
+    "venue": {
+      "id": 2606,
+      "name": "Stadyen Dynama",
+      "city": "Minsk",
+      "capacity": 41024,
+      "image": "https://media.api-sports.io/football/venues/2606.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 14281,
+    "name": "Drita",
+    "slug": "drita",
+    "logo": "https://media.api-sports.io/football/teams/14281.png",
+    "country": "Kosovo",
+    "founded": 1947,
+    "venue": {
+      "id": 20315,
+      "name": "Stadiumi me bar sintetik Gjilan",
+      "city": "Gnjilane",
+      "capacity": 1000,
+      "image": "https://media.api-sports.io/football/venues/20315.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 572,
+    "name": "Dynamo Kyiv",
+    "slug": "dynamo-kyiv",
+    "logo": "https://media.api-sports.io/football/teams/572.png",
+    "country": "Ukraine",
+    "founded": 1927,
+    "venue": {
+      "id": 20113,
+      "name": "Stadion Dynamo im. Valeriy Lobanovskyi",
+      "city": "Kiev",
+      "capacity": 16873,
+      "image": "https://media.api-sports.io/football/venues/20113.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 3327,
+    "name": "Egnatia Rrogozhinë",
+    "slug": "egnatia-rrogozhine",
+    "logo": "https://media.api-sports.io/football/teams/3327.png",
+    "country": "Albania",
+    "founded": 1964,
+    "venue": {
+      "id": 12601,
+      "name": "Arena Egnatia",
+      "city": "Rrogozhinë",
+      "capacity": 4000,
+      "image": "https://media.api-sports.io/football/venues/12601.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 551,
+    "name": "FC Basel 1893",
+    "slug": "fc-basel-1893",
+    "logo": "https://media.api-sports.io/football/teams/551.png",
+    "country": "Switzerland",
+    "founded": 1893,
+    "venue": {
+      "id": 1530,
+      "name": "St. Jakob-Park",
+      "city": "Basel",
+      "capacity": 37994,
+      "image": "https://media.api-sports.io/football/venues/1530.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "FC Copenhagen",
+    "slug": "fc-copenhagen",
+    "logo": "https://media.api-sports.io/football/teams/400.png",
+    "country": "Denmark",
+    "founded": 1992,
+    "venue": {
+      "id": 11600,
+      "name": "Parken",
+      "city": "København",
+      "capacity": 38065,
+      "image": "https://media.api-sports.io/football/venues/11600.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 684,
+    "name": "FC Differdange 03",
+    "slug": "fc-differdange-03",
+    "logo": "https://media.api-sports.io/football/teams/684.png",
+    "country": "Luxembourg",
+    "founded": 2003,
+    "venue": {
+      "id": 1031,
+      "name": "Stade Parc des Sports",
+      "city": "Differdange",
+      "capacity": 2400,
+      "image": "https://media.api-sports.io/football/venues/1031.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 2273,
+    "name": "FC Levadia Tallinn",
+    "slug": "fc-levadia-tallinn",
+    "logo": "https://media.api-sports.io/football/teams/2273.png",
+    "country": "Estonia",
+    "founded": 1998,
+    "venue": {
+      "id": 605,
+      "name": "A. Le Coq Arena",
+      "city": "Tallinn",
+      "capacity": 14405,
+      "image": "https://media.api-sports.io/football/venues/605.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 3684,
+    "name": "FC Noah",
+    "slug": "fc-noah",
+    "logo": "https://media.api-sports.io/football/teams/3684.png",
+    "country": "Armenia",
+    "founded": 2017,
+    "venue": {
+      "id": 20559,
+      "name": "Armaviri Hakob Tonoyani Stadium",
+      "city": "Armavir",
+      "capacity": 3300,
+      "image": "https://media.api-sports.io/football/venues/20559.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 559,
+    "name": "FCSB",
+    "slug": "fcsb",
+    "logo": "https://media.api-sports.io/football/teams/559.png",
+    "country": "Romania",
+    "founded": 1947,
+    "venue": {
+      "id": 1326,
+      "name": "Arena Naţională",
+      "city": "Bucureşti",
+      "capacity": 55611,
+      "image": "https://media.api-sports.io/football/venues/1326.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 611,
+    "name": "Fenerbahçe",
+    "slug": "fenerbahce",
+    "logo": "https://media.api-sports.io/football/teams/611.png",
+    "country": "Turkey",
+    "founded": 1907,
+    "venue": {
+      "id": 22760,
+      "name": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+      "city": "İstanbul",
+      "capacity": 47834,
+      "image": "https://media.api-sports.io/football/venues/22760.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 651,
+    "name": "Ferencvarosi TC",
+    "slug": "ferencvarosi-tc",
+    "logo": "https://media.api-sports.io/football/teams/651.png",
+    "country": "Hungary",
+    "founded": 1899,
+    "venue": {
+      "id": 799,
+      "name": "Groupama Aréna",
+      "city": "Budapest",
+      "capacity": 23698,
+      "image": "https://media.api-sports.io/football/venues/799.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Feyenoord",
+    "slug": "feyenoord",
+    "logo": "https://media.api-sports.io/football/teams/209.png",
+    "country": "Netherlands",
+    "founded": 1908,
+    "venue": {
+      "id": 1128,
+      "name": "Stadion Feijenoord",
+      "city": "Rotterdam",
+      "capacity": 51117,
+      "image": "https://media.api-sports.io/football/venues/1128.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 598,
+    "name": "FK Crvena Zvezda",
+    "slug": "fk-crvena-zvezda",
+    "logo": "https://media.api-sports.io/football/teams/598.png",
+    "country": "Serbia",
+    "founded": 1945,
+    "venue": {
+      "id": 1406,
+      "name": "Stadion Rajko Mitić",
+      "city": "Beograd",
+      "capacity": 51862,
+      "image": "https://media.api-sports.io/football/venues/1406.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 586,
+    "name": "FK Zalgiris Vilnius",
+    "slug": "fk-zalgiris-vilnius",
+    "logo": "https://media.api-sports.io/football/teams/586.png",
+    "country": "Lithuania",
+    "founded": 1947,
+    "venue": {
+      "id": 2612,
+      "name": "S. Dariaus ir S. Girėno stadionas",
+      "city": "Kaunas",
+      "capacity": 15315,
+      "image": "https://media.api-sports.io/football/venues/2612.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 645,
+    "name": "Galatasaray",
+    "slug": "galatasaray",
+    "logo": "https://media.api-sports.io/football/teams/645.png",
+    "country": "Turkey",
+    "founded": 1905,
+    "venue": {
+      "id": 22761,
+      "name": "RAMS Park",
+      "city": "İstanbul",
+      "capacity": 53798,
+      "image": "https://media.api-sports.io/football/venues/22761.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 4626,
+    "name": "Hamrun Spartans",
+    "slug": "hamrun-spartans",
+    "logo": "https://media.api-sports.io/football/teams/4626.png",
+    "country": "Malta",
+    "founded": 1907,
+    "venue": {
+      "id": 1065,
+      "name": "Victor Tedesco Stadium",
+      "city": "Hamrun",
+      "capacity": 6000,
+      "image": "https://media.api-sports.io/football/venues/1065.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 561,
+    "name": "HNK Rijeka",
+    "slug": "hnk-rijeka",
+    "logo": "https://media.api-sports.io/football/teams/561.png",
+    "country": "Croatia",
+    "founded": 1946,
+    "venue": {
+      "id": 423,
+      "name": "Stadion HNK Rijeka",
+      "city": "Rijeka",
+      "capacity": 8279,
+      "image": "https://media.api-sports.io/football/venues/423.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "Inter",
+    "slug": "inter",
+    "logo": "https://media.api-sports.io/football/teams/505.png",
+    "country": "Italy",
+    "founded": 1908,
+    "venue": {
+      "id": 907,
+      "name": "Stadio Giuseppe Meazza",
+      "city": "Milano",
+      "capacity": 80018,
+      "image": "https://media.api-sports.io/football/venues/907.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 3342,
+    "name": "Inter Club d'Escaldes",
+    "slug": "inter-club-d-escaldes",
+    "logo": "https://media.api-sports.io/football/teams/3342.png",
+    "country": "Andorra",
+    "founded": null,
+    "venue": {
+      "id": 30,
+      "name": "Centre d'Entrenament de la FAF 1",
+      "city": "Santa Coloma",
+      "capacity": 2000,
+      "image": "https://media.api-sports.io/football/venues/30.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 496,
+    "name": "Juventus",
+    "slug": "juventus",
+    "logo": "https://media.api-sports.io/football/teams/496.png",
+    "country": "Italy",
+    "founded": 1897,
+    "venue": {
+      "id": 909,
+      "name": "Allianz Stadium",
+      "city": "Torino",
+      "capacity": 45666,
+      "image": "https://media.api-sports.io/football/venues/909.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 664,
+    "name": "Kairat Almaty",
+    "slug": "kairat-almaty",
+    "logo": "https://media.api-sports.io/football/teams/664.png",
+    "country": "Kazakhstan",
+    "founded": 1952,
+    "venue": {
+      "id": 20741,
+      "name": "Ortalyq stadıon",
+      "city": "Almaty",
+      "capacity": 26242,
+      "image": "https://media.api-sports.io/football/venues/20741.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 1165,
+    "name": "KuPS",
+    "slug": "kups",
+    "logo": "https://media.api-sports.io/football/teams/1165.png",
+    "country": "Finland",
+    "founded": 1923,
+    "venue": {
+      "id": 12286,
+      "name": "Väre Areena",
+      "city": "Kuopio",
+      "capacity": 7890,
+      "image": "https://media.api-sports.io/football/venues/12286.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Lech Poznan",
+    "slug": "lech-poznan",
+    "logo": "https://media.api-sports.io/football/teams/347.png",
+    "country": "Poland",
+    "founded": 1922,
+    "venue": {
+      "id": 20110,
+      "name": "Enea Stadion",
+      "city": "Poznań",
+      "capacity": 43269,
+      "image": "https://media.api-sports.io/football/venues/20110.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 667,
+    "name": "Lincoln Red Imps FC",
+    "slug": "lincoln-red-imps-fc",
+    "logo": "https://media.api-sports.io/football/teams/667.png",
+    "country": "Gibraltar",
+    "founded": null,
+    "venue": {
+      "id": 760,
+      "name": "Victoria Stadium",
+      "city": "Gibraltar",
+      "capacity": 5000,
+      "image": "https://media.api-sports.io/football/venues/760.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 583,
+    "name": "Linfield",
+    "slug": "linfield",
+    "logo": "https://media.api-sports.io/football/teams/583.png",
+    "country": "Northern-Ireland",
+    "founded": 1886,
+    "venue": {
+      "id": 1971,
+      "name": "Windsor Park",
+      "city": "Belfast",
+      "capacity": 18614,
+      "image": "https://media.api-sports.io/football/venues/1971.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 566,
+    "name": "Ludogorets",
+    "slug": "ludogorets",
+    "logo": "https://media.api-sports.io/football/teams/566.png",
+    "country": "Bulgaria",
+    "founded": 1945,
+    "venue": {
+      "id": 10547,
+      "name": "Huvepharma Arena",
+      "city": "Razgrad",
+      "capacity": 10422,
+      "image": "https://media.api-sports.io/football/venues/10547.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 604,
+    "name": "Maccabi Tel Aviv",
+    "slug": "maccabi-tel-aviv",
+    "logo": "https://media.api-sports.io/football/teams/604.png",
+    "country": "Israel",
+    "founded": 1906,
+    "venue": {
+      "id": 10592,
+      "name": "Bloomfield Stadium",
+      "city": "Tel-Aviv",
+      "capacity": 29400,
+      "image": "https://media.api-sports.io/football/venues/10592.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 375,
+    "name": "Malmo FF",
+    "slug": "malmo-ff",
+    "logo": "https://media.api-sports.io/football/teams/375.png",
+    "country": "Sweden",
+    "founded": 1910,
+    "venue": {
+      "id": 1518,
+      "name": "Eleda Stadion",
+      "city": "Malmö",
+      "capacity": 24148,
+      "image": "https://media.api-sports.io/football/venues/1518.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Marseille",
+    "slug": "marseille",
+    "logo": "https://media.api-sports.io/football/teams/81.png",
+    "country": "France",
+    "founded": 1899,
+    "venue": {
+      "id": 12678,
+      "name": "Stade Orange Vélodrome",
+      "city": "Marseille",
+      "capacity": 67394,
+      "image": "https://media.api-sports.io/football/venues/12678.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 691,
+    "name": "Milsami Orhei",
+    "slug": "milsami-orhei",
+    "logo": "https://media.api-sports.io/football/teams/691.png",
+    "country": "Moldova",
+    "founded": 2005,
+    "venue": {
+      "id": 1094,
+      "name": "Complexul Sportiv Raional",
+      "city": "Orhei",
+      "capacity": 3160,
+      "image": "https://media.api-sports.io/football/venues/1094.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Monaco",
+    "slug": "monaco",
+    "logo": "https://media.api-sports.io/football/teams/91.png",
+    "country": "France",
+    "founded": 1919,
+    "venue": {
+      "id": 20470,
+      "name": "Stade Louis-II",
+      "city": "Monaco",
+      "capacity": 18523,
+      "image": "https://media.api-sports.io/football/venues/20470.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 492,
+    "name": "Napoli",
+    "slug": "napoli",
+    "logo": "https://media.api-sports.io/football/teams/492.png",
+    "country": "Italy",
+    "founded": 1904,
+    "venue": {
+      "id": 11904,
+      "name": "Stadio Diego Armando Maradona",
+      "city": "Napoli",
+      "capacity": 60240,
+      "image": "https://media.api-sports.io/football/venues/11904.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Nice",
+    "slug": "nice",
+    "logo": "https://media.api-sports.io/football/teams/84.png",
+    "country": "France",
+    "founded": 1904,
+    "venue": {
+      "id": 663,
+      "name": "Allianz Riviera",
+      "city": "Nice",
+      "capacity": 35624,
+      "image": "https://media.api-sports.io/football/venues/663.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 677,
+    "name": "Olimpija Ljubljana",
+    "slug": "olimpija-ljubljana",
+    "logo": "https://media.api-sports.io/football/teams/677.png",
+    "country": "Slovenia",
+    "founded": 1911,
+    "venue": {
+      "id": 1442,
+      "name": "Stadion Stožice",
+      "city": "Ljubljana",
+      "capacity": 16432,
+      "image": "https://media.api-sports.io/football/venues/1442.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 553,
+    "name": "Olympiakos Piraeus",
+    "slug": "olympiakos-piraeus",
+    "logo": "https://media.api-sports.io/football/teams/553.png",
+    "country": "Greece",
+    "founded": 1925,
+    "venue": {
+      "id": 775,
+      "name": "Stadio Georgios Karaiskáki",
+      "city": "Piraeus",
+      "capacity": 33296,
+      "image": "https://media.api-sports.io/football/venues/775.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 3403,
+    "name": "Pafos",
+    "slug": "pafos",
+    "logo": "https://media.api-sports.io/football/teams/3403.png",
+    "country": "Cyprus",
+    "founded": 2014,
+    "venue": {
+      "id": 7134,
+      "name": "Stadio Stelios Kyriakides",
+      "city": "Paphos",
+      "capacity": 9394,
+      "image": "https://media.api-sports.io/football/venues/7134.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 617,
+    "name": "Panathinaikos",
+    "slug": "panathinaikos",
+    "logo": "https://media.api-sports.io/football/teams/617.png",
+    "country": "Greece",
+    "founded": 1908,
+    "venue": {
+      "id": 19929,
+      "name": "Stadio Apóstolos Nikolaidis",
+      "city": "Athens",
+      "capacity": 16620,
+      "image": "https://media.api-sports.io/football/venues/19929.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Paris Saint Germain",
+    "slug": "paris-saint-germain",
+    "logo": "https://media.api-sports.io/football/teams/85.png",
+    "country": "France",
+    "founded": 1970,
+    "venue": {
+      "id": 671,
+      "name": "Parc des Princes",
+      "city": "Paris",
+      "capacity": 47929,
+      "image": "https://media.api-sports.io/football/venues/671.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 567,
+    "name": "Plzen",
+    "slug": "plzen",
+    "logo": "https://media.api-sports.io/football/teams/567.png",
+    "country": "Czech-Republic",
+    "founded": 1911,
+    "venue": {
+      "id": 438,
+      "name": "Doosan Aréna",
+      "city": "Plzeň",
+      "capacity": 12500,
+      "image": "https://media.api-sports.io/football/venues/438.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "PSV Eindhoven",
+    "slug": "psv-eindhoven",
+    "logo": "https://media.api-sports.io/football/teams/197.png",
+    "country": "Netherlands",
+    "founded": 1913,
+    "venue": {
+      "id": 1143,
+      "name": "Philips Stadion",
+      "city": "Eindhoven",
+      "capacity": 36500,
+      "image": "https://media.api-sports.io/football/venues/1143.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 556,
+    "name": "Qarabag",
+    "slug": "qarabag",
+    "logo": "https://media.api-sports.io/football/teams/556.png",
+    "country": "Azerbaijan",
+    "founded": 1950,
+    "venue": {
+      "id": 5799,
+      "name": "Tofiq Bəhramov adına Respublika stadionu",
+      "city": "Baku",
+      "capacity": 31850,
+      "image": "https://media.api-sports.io/football/venues/5799.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Rangers",
+    "slug": "rangers",
+    "logo": "https://media.api-sports.io/football/teams/257.png",
+    "country": "Scotland",
+    "founded": 1873,
+    "venue": {
+      "id": 1401,
+      "name": "Ibrox Stadium",
+      "city": "Glasgow",
+      "capacity": 51082,
+      "image": "https://media.api-sports.io/football/venues/1401.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 571,
+    "name": "Red Bull Salzburg",
+    "slug": "red-bull-salzburg",
+    "logo": "https://media.api-sports.io/football/teams/571.png",
+    "country": "Austria",
+    "founded": 1933,
+    "venue": {
+      "id": 148,
+      "name": "Red Bull Arena",
+      "city": "Wals-Siezenheim",
+      "capacity": 31895,
+      "image": "https://media.api-sports.io/football/venues/148.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 4160,
+    "name": "Rīgas FS",
+    "slug": "rigas-fs",
+    "logo": "https://media.api-sports.io/football/teams/4160.png",
+    "country": "Latvia",
+    "founded": 2005,
+    "venue": {
+      "id": 19577,
+      "name": "LNK Sporta Parks",
+      "city": "Riga",
+      "capacity": 3000,
+      "image": "https://media.api-sports.io/football/venues/19577.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 3502,
+    "name": "Saburtalo",
+    "slug": "saburtalo",
+    "logo": "https://media.api-sports.io/football/teams/3502.png",
+    "country": "Georgia",
+    "founded": 1999,
+    "venue": {
+      "id": 2302,
+      "name": "Mikheil Meskhis sakhelobis Stadioni",
+      "city": "Tbilisi",
+      "capacity": 25453,
+      "image": "https://media.api-sports.io/football/venues/2302.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 2184,
+    "name": "Servette FC",
+    "slug": "servette-fc",
+    "logo": "https://media.api-sports.io/football/teams/2184.png",
+    "country": "Switzerland",
+    "founded": 1890,
+    "venue": {
+      "id": 1541,
+      "name": "Stade de Genève",
+      "city": "Lancy",
+      "capacity": 28229,
+      "image": "https://media.api-sports.io/football/venues/1541.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 3854,
+    "name": "Shelbourne",
+    "slug": "shelbourne",
+    "logo": "https://media.api-sports.io/football/teams/3854.png",
+    "country": "Ireland",
+    "founded": 1895,
+    "venue": {
+      "id": 2639,
+      "name": "Tolka Park",
+      "city": "Dublin",
+      "capacity": 9681,
+      "image": "https://media.api-sports.io/football/venues/2639.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 609,
+    "name": "Shkendija",
+    "slug": "shkendija",
+    "logo": "https://media.api-sports.io/football/teams/609.png",
+    "country": "Macedonia",
+    "founded": 1979,
+    "venue": {
+      "id": 1046,
+      "name": "Ecolog Arena",
+      "city": "Tetovo",
+      "capacity": 15000,
+      "image": "https://media.api-sports.io/football/venues/1046.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 560,
+    "name": "Slavia Praha",
+    "slug": "slavia-praha",
+    "logo": "https://media.api-sports.io/football/teams/560.png",
+    "country": "Czech-Republic",
+    "founded": 1892,
+    "venue": {
+      "id": 18856,
+      "name": "Fortuna Arena",
+      "city": "Praha",
+      "capacity": 21000,
+      "image": "https://media.api-sports.io/football/venues/18856.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 656,
+    "name": "Slovan Bratislava",
+    "slug": "slovan-bratislava",
+    "logo": "https://media.api-sports.io/football/teams/656.png",
+    "country": "Slovakia",
+    "founded": 1919,
+    "venue": {
+      "id": 11914,
+      "name": "Štadión Tehelné pole",
+      "city": "Bratislava",
+      "capacity": 30000,
+      "image": "https://media.api-sports.io/football/venues/11914.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Sporting CP",
+    "slug": "sporting-cp",
+    "logo": "https://media.api-sports.io/football/teams/228.png",
+    "country": "Portugal",
+    "founded": 1906,
+    "venue": {
+      "id": 1293,
+      "name": "Estádio José Alvalade",
+      "city": "Lisboa",
+      "capacity": 50466,
+      "image": "https://media.api-sports.io/football/venues/1293.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 637,
+    "name": "Sturm Graz",
+    "slug": "sturm-graz",
+    "logo": "https://media.api-sports.io/football/teams/637.png",
+    "country": "Austria",
+    "founded": 1909,
+    "venue": {
+      "id": 150,
+      "name": "Merkur Arena",
+      "city": "Graz",
+      "capacity": 16764,
+      "image": "https://media.api-sports.io/football/venues/150.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "The New Saints",
+    "slug": "the-new-saints",
+    "logo": "https://media.api-sports.io/football/teams/354.png",
+    "country": "Wales",
+    "founded": 1959,
+    "venue": {
+      "id": 1684,
+      "name": "Park Hall Stadium",
+      "city": "Oswestry / Croesoswallt, Shropshire",
+      "capacity": 2000,
+      "image": "https://media.api-sports.io/football/venues/1684.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 1393,
+    "name": "Union St. Gilloise",
+    "slug": "union-st-gilloise",
+    "logo": "https://media.api-sports.io/football/teams/1393.png",
+    "country": "Belgium",
+    "founded": 1897,
+    "venue": {
+      "id": 194,
+      "name": "Stade Joseph Mariën",
+      "city": "Brussels",
+      "capacity": 9400,
+      "image": "https://media.api-sports.io/football/venues/194.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 580,
+    "name": "Vikingur Gota",
+    "slug": "vikingur-gota",
+    "logo": "https://media.api-sports.io/football/teams/580.png",
+    "country": "Faroe-Islands",
+    "founded": 2008,
+    "venue": {
+      "id": 612,
+      "name": "Sarpugerði",
+      "city": "Norðragøta, Eysturoy",
+      "capacity": 3000,
+      "image": "https://media.api-sports.io/football/venues/612.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 5308,
+    "name": "Virtus",
+    "slug": "virtus",
+    "logo": "https://media.api-sports.io/football/teams/5308.png",
+    "country": "San-Marino",
+    "founded": null,
+    "venue": {
+      "id": 4011,
+      "name": "Campo Sportivo di Acquaviva",
+      "city": "Acquaviva",
+      "capacity": 1500,
+      "image": "https://media.api-sports.io/football/venues/4011.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  },
+  {
+    "id": 588,
+    "name": "Zrinjski",
+    "slug": "zrinjski",
+    "logo": "https://media.api-sports.io/football/teams/588.png",
+    "country": "Bosnia",
+    "founded": 1905,
+    "venue": {
+      "id": 202,
+      "name": "Stadion Bijeli Brijeg",
+      "city": "Mostar",
+      "capacity": 20000,
+      "image": "https://media.api-sports.io/football/venues/202.png"
+    },
+    "primary_league_slug": "uefa-champions-league",
+    "leagues": [
+      "uefa-champions-league"
+    ]
+  }
+]

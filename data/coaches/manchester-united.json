@@ -1,0 +1,47 @@
+{
+  "id": 1993,
+  "name": "E. ten Hag",
+  "photo": "https://media.api-sports.io/football/coachs/1993.png",
+  "nationality": "Netherlands",
+  "age": 55,
+  "team_id": 33,
+  "team_slug": "manchester-united",
+  "fetched_at": "2026-04-14T22:40:10.649Z",
+  "career": [
+    {
+      "team_id": 33,
+      "team_name": "Manchester United",
+      "team_logo": "https://media.api-sports.io/football/teams/33.png",
+      "start": "2022-06-01",
+      "end": "2024-10-01"
+    },
+    {
+      "team_id": 194,
+      "team_name": "Ajax",
+      "team_logo": "https://media.api-sports.io/football/teams/194.png",
+      "start": "2018-01-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 207,
+      "team_name": "Utrecht",
+      "team_logo": "https://media.api-sports.io/football/teams/207.png",
+      "start": "2015-07-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 4674,
+      "team_name": "Bayern München II",
+      "team_logo": "https://media.api-sports.io/football/teams/4674.png",
+      "start": "2013-06-01",
+      "end": "2015-07-01"
+    },
+    {
+      "team_id": 410,
+      "team_name": "Go Ahead Eagles",
+      "team_logo": "https://media.api-sports.io/football/teams/410.png",
+      "start": "2012-07-01",
+      "end": "2013-06-01"
+    }
+  ]
+}

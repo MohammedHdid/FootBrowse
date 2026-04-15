@@ -1,0 +1,19 @@
+{
+  "id": 326,
+  "name": "L. Scaloni",
+  "photo": "https://media.api-sports.io/football/coachs/326.png",
+  "nationality": "Argentina",
+  "age": 47,
+  "team_id": 26,
+  "team_slug": "argentina",
+  "fetched_at": "2026-04-15T13:11:46.287Z",
+  "career": [
+    {
+      "team_id": 26,
+      "team_name": "Argentina",
+      "team_logo": "https://media.api-sports.io/football/teams/26.png",
+      "start": "2018-08-01",
+      "end": null
+    }
+  ]
+}

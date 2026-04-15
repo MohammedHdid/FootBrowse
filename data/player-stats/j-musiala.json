@@ -1,0 +1,21 @@
+{
+  "player_id": 181812,
+  "slug": "j-musiala",
+  "name": "J. Musiala",
+  "api_photo": "https://media.api-sports.io/football/players/181812.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayern München",
+      "club_logo": "https://media.api-sports.io/football/teams/157.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 25,
+      "goals": 12,
+      "assists": 2,
+      "minutes": 1804,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

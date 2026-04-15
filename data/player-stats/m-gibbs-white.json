@@ -1,0 +1,21 @@
+{
+  "player_id": 18746,
+  "slug": "m-gibbs-white",
+  "name": "M. Gibbs-White",
+  "api_photo": "https://media.api-sports.io/football/players/18746.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Nottingham Forest",
+      "club_logo": "https://media.api-sports.io/football/teams/65.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 34,
+      "goals": 7,
+      "assists": 8,
+      "minutes": 2822,
+      "yellow_cards": 11,
+      "red_cards": 1
+    }
+  ]
+}

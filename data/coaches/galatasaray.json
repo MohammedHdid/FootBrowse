@@ -1,0 +1,75 @@
+{
+  "id": 1442,
+  "name": "O. Buruk",
+  "photo": "https://media.api-sports.io/football/coachs/1442.png",
+  "nationality": "Türkiye",
+  "age": 52,
+  "team_id": 645,
+  "team_slug": "galatasaray",
+  "fetched_at": "2026-04-15T08:17:37.023Z",
+  "career": [
+    {
+      "team_id": 645,
+      "team_name": "Galatasaray",
+      "team_logo": "https://media.api-sports.io/football/teams/645.png",
+      "start": "2022-06-01",
+      "end": null
+    },
+    {
+      "team_id": 564,
+      "team_name": "Istanbul Basaksehir",
+      "team_logo": "https://media.api-sports.io/football/teams/564.png",
+      "start": "2019-06-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 1007,
+      "team_name": "Rizespor",
+      "team_logo": "https://media.api-sports.io/football/teams/1007.png",
+      "start": "2018-09-01",
+      "end": "2019-05-01"
+    },
+    {
+      "team_id": 995,
+      "team_name": "Akhisarspor",
+      "team_logo": "https://media.api-sports.io/football/teams/995.png",
+      "start": "2017-03-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 994,
+      "team_name": "Göztepe",
+      "team_logo": "https://media.api-sports.io/football/teams/994.png",
+      "start": "2016-08-01",
+      "end": "2017-03-01"
+    },
+    {
+      "team_id": 1002,
+      "team_name": "Sivasspor",
+      "team_logo": "https://media.api-sports.io/football/teams/1002.png",
+      "start": "2015-10-01",
+      "end": "2016-02-01"
+    },
+    {
+      "team_id": 1008,
+      "team_name": "Gaziantepspor",
+      "team_logo": "https://media.api-sports.io/football/teams/1008.png",
+      "start": "2014-08-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 3571,
+      "team_name": "Elazığspor",
+      "team_logo": "https://media.api-sports.io/football/teams/3571.png",
+      "start": "2013-10-01",
+      "end": "2014-06-01"
+    },
+    {
+      "team_id": 10351,
+      "team_name": "Türkiye U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10351.png",
+      "start": "2013-06-01",
+      "end": "2013-08-01"
+    }
+  ]
+}

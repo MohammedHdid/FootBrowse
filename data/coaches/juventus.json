@@ -1,0 +1,89 @@
+{
+  "id": 2432,
+  "name": "I. Tudor",
+  "photo": "https://media.api-sports.io/football/coachs/2432.png",
+  "nationality": "Croatia",
+  "age": 47,
+  "team_id": 496,
+  "team_slug": "juventus",
+  "fetched_at": "2026-04-15T08:18:37.201Z",
+  "career": [
+    {
+      "team_id": 496,
+      "team_name": "Juventus",
+      "team_logo": "https://media.api-sports.io/football/teams/496.png",
+      "start": "2025-03-01",
+      "end": null
+    },
+    {
+      "team_id": 487,
+      "team_name": "Lazio",
+      "team_logo": "https://media.api-sports.io/football/teams/487.png",
+      "start": "2024-03-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 81,
+      "team_name": "Marseille",
+      "team_logo": "https://media.api-sports.io/football/teams/81.png",
+      "start": "2022-07-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 504,
+      "team_name": "Verona",
+      "team_logo": "https://media.api-sports.io/football/teams/504.png",
+      "start": "2021-09-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 608,
+      "team_name": "Hajduk Split",
+      "team_logo": "https://media.api-sports.io/football/teams/608.png",
+      "start": "2019-12-01",
+      "end": "2020-08-01"
+    },
+    {
+      "team_id": 494,
+      "team_name": "Udinese",
+      "team_logo": "https://media.api-sports.io/football/teams/494.png",
+      "start": "2019-03-01",
+      "end": "2019-11-01"
+    },
+    {
+      "team_id": 494,
+      "team_name": "Udinese",
+      "team_logo": "https://media.api-sports.io/football/teams/494.png",
+      "start": "2018-04-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 645,
+      "team_name": "Galatasaray",
+      "team_logo": "https://media.api-sports.io/football/teams/645.png",
+      "start": "2017-02-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 1000,
+      "team_name": "Kardemir Karabükspor",
+      "team_logo": "https://media.api-sports.io/football/teams/1000.png",
+      "start": "2016-07-01",
+      "end": "2017-02-01"
+    },
+    {
+      "team_id": 619,
+      "team_name": "PAOK",
+      "team_logo": "https://media.api-sports.io/football/teams/619.png",
+      "start": "2015-06-01",
+      "end": "2016-03-01"
+    },
+    {
+      "team_id": 608,
+      "team_name": "Hajduk Split",
+      "team_logo": "https://media.api-sports.io/football/teams/608.png",
+      "start": "2013-07-01",
+      "end": "2015-02-01"
+    }
+  ]
+}

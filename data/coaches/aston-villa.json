@@ -1,0 +1,75 @@
+{
+  "id": 18,
+  "name": "Unai Emery",
+  "photo": "https://media.api-sports.io/football/coachs/18.png",
+  "nationality": "Spain",
+  "age": 54,
+  "team_id": 66,
+  "team_slug": "aston-villa",
+  "fetched_at": "2026-04-14T22:37:46.588Z",
+  "career": [
+    {
+      "team_id": 66,
+      "team_name": "Aston Villa",
+      "team_logo": "https://media.api-sports.io/football/teams/66.png",
+      "start": "2022-11-01",
+      "end": null
+    },
+    {
+      "team_id": 533,
+      "team_name": "Villarreal",
+      "team_logo": "https://media.api-sports.io/football/teams/533.png",
+      "start": "2020-07-01",
+      "end": "2022-10-01"
+    },
+    {
+      "team_id": 42,
+      "team_name": "Arsenal",
+      "team_logo": "https://media.api-sports.io/football/teams/42.png",
+      "start": "2018-05-01",
+      "end": "2019-11-01"
+    },
+    {
+      "team_id": 85,
+      "team_name": "PSG",
+      "team_logo": "https://media.api-sports.io/football/teams/85.png",
+      "start": "2016-06-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 536,
+      "team_name": "Sevilla",
+      "team_logo": "https://media.api-sports.io/football/teams/536.png",
+      "start": "2013-01-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 558,
+      "team_name": "Spartak Moscow",
+      "team_logo": "https://media.api-sports.io/football/teams/558.png",
+      "start": "2012-06-01",
+      "end": "2012-11-01"
+    },
+    {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_logo": "https://media.api-sports.io/football/teams/532.png",
+      "start": "2008-07-01",
+      "end": "2012-06-01"
+    },
+    {
+      "team_id": 723,
+      "team_name": "Almeria",
+      "team_logo": "https://media.api-sports.io/football/teams/723.png",
+      "start": "2006-07-01",
+      "end": "2008-06-01"
+    },
+    {
+      "team_id": 9400,
+      "team_name": "Lorca Deportiva CF",
+      "team_logo": "https://media.api-sports.io/football/teams/9400.png",
+      "start": "2004-11-01",
+      "end": "2006-06-01"
+    }
+  ]
+}

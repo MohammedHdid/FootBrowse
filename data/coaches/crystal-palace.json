@@ -1,0 +1,166 @@
+{
+  "id": 9,
+  "name": "R. Hodgson",
+  "photo": "https://media.api-sports.io/football/coachs/9.png",
+  "nationality": "England",
+  "age": 78,
+  "team_id": 52,
+  "team_slug": "crystal-palace",
+  "fetched_at": "2026-04-14T22:38:46.604Z",
+  "career": [
+    {
+      "team_id": 52,
+      "team_name": "Crystal Palace",
+      "team_logo": "https://media.api-sports.io/football/teams/52.png",
+      "start": "2023-03-01",
+      "end": "2024-02-01"
+    },
+    {
+      "team_id": 38,
+      "team_name": "Watford",
+      "team_logo": "https://media.api-sports.io/football/teams/38.png",
+      "start": "2022-01-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 52,
+      "team_name": "Crystal Palace",
+      "team_logo": "https://media.api-sports.io/football/teams/52.png",
+      "start": "2017-09-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 10,
+      "team_name": "England",
+      "team_logo": "https://media.api-sports.io/football/teams/10.png",
+      "start": "2012-05-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 60,
+      "team_name": "West Bromwich Albion",
+      "team_logo": "https://media.api-sports.io/football/teams/60.png",
+      "start": "2011-02-01",
+      "end": "2012-05-01"
+    },
+    {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "team_logo": "https://media.api-sports.io/football/teams/40.png",
+      "start": "2010-07-01",
+      "end": "2011-01-01"
+    },
+    {
+      "team_id": 36,
+      "team_name": "Fulham",
+      "team_logo": "https://media.api-sports.io/football/teams/36.png",
+      "start": "2007-12-01",
+      "end": "2010-06-01"
+    },
+    {
+      "team_id": 1099,
+      "team_name": "Finland",
+      "team_logo": "https://media.api-sports.io/football/teams/1099.png",
+      "start": "2006-01-01",
+      "end": "2007-11-01"
+    },
+    {
+      "team_id": 759,
+      "team_name": "Viking",
+      "team_logo": "https://media.api-sports.io/football/teams/759.png",
+      "start": "2004-07-01",
+      "end": "2005-12-01"
+    },
+    {
+      "team_id": 1563,
+      "team_name": "UAE",
+      "team_logo": "https://media.api-sports.io/football/teams/1563.png",
+      "start": "2002-04-01",
+      "end": "2004-01-01"
+    },
+    {
+      "team_id": 494,
+      "team_name": "Udinese",
+      "team_logo": "https://media.api-sports.io/football/teams/494.png",
+      "start": "2001-06-01",
+      "end": "2001-12-01"
+    },
+    {
+      "team_id": 400,
+      "team_name": "FC Copenhagen",
+      "team_logo": "https://media.api-sports.io/football/teams/400.png",
+      "start": "2000-07-01",
+      "end": "2001-06-01"
+    },
+    {
+      "team_id": 1013,
+      "team_name": "Grasshoppers",
+      "team_logo": "https://media.api-sports.io/football/teams/1013.png",
+      "start": "1999-07-01",
+      "end": "2000-06-01"
+    },
+    {
+      "team_id": 505,
+      "team_name": "Inter Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/505.png",
+      "start": "1999-05-01",
+      "end": "1999-06-01"
+    },
+    {
+      "team_id": 67,
+      "team_name": "Blackburn Rovers",
+      "team_logo": "https://media.api-sports.io/football/teams/67.png",
+      "start": "1997-07-01",
+      "end": "1998-11-01"
+    },
+    {
+      "team_id": 505,
+      "team_name": "Inter Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/505.png",
+      "start": "1995-10-01",
+      "end": "1997-06-01"
+    },
+    {
+      "team_id": 15,
+      "team_name": "Switzerland",
+      "team_logo": "https://media.api-sports.io/football/teams/15.png",
+      "start": "1992-01-01",
+      "end": "1995-11-01"
+    },
+    {
+      "team_id": 1015,
+      "team_name": "Xamax",
+      "team_logo": "https://media.api-sports.io/football/teams/1015.png",
+      "start": "1990-07-01",
+      "end": "1992-06-01"
+    },
+    {
+      "team_id": 375,
+      "team_name": "Malmö",
+      "team_logo": "https://media.api-sports.io/football/teams/375.png",
+      "start": "1985-01-01",
+      "end": "1989-11-01"
+    },
+    {
+      "team_id": 365,
+      "team_name": "Örebro",
+      "team_logo": "https://media.api-sports.io/football/teams/365.png",
+      "start": "1983-01-01",
+      "end": "1984-11-01"
+    },
+    {
+      "team_id": 56,
+      "team_name": "Bristol City",
+      "team_logo": "https://media.api-sports.io/football/teams/56.png",
+      "start": "1982-01-01",
+      "end": "1982-04-01"
+    },
+    {
+      "team_id": 766,
+      "team_name": "Halmstad",
+      "team_logo": "https://media.api-sports.io/football/teams/766.png",
+      "start": "1976-01-01",
+      "end": "1980-11-01"
+    }
+  ]
+}

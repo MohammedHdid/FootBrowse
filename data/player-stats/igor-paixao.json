@@ -1,0 +1,21 @@
+{
+  "player_id": 9363,
+  "slug": "igor-paixao",
+  "name": "Igor Paixão",
+  "api_photo": "https://media.api-sports.io/football/players/9363.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Feyenoord",
+      "club_logo": "https://media.api-sports.io/football/teams/209.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 11,
+      "goals": 2,
+      "assists": 4,
+      "minutes": 922,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

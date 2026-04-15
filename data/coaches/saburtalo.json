@@ -1,0 +1,61 @@
+{
+  "id": 1723,
+  "name": "T. Shalamberidze",
+  "photo": "https://media.api-sports.io/football/coachs/1723.png",
+  "nationality": "Georgia",
+  "age": 56,
+  "team_id": 3502,
+  "team_slug": "saburtalo",
+  "fetched_at": "2026-04-15T08:23:37.484Z",
+  "career": [
+    {
+      "team_id": 3502,
+      "team_name": "Iberia 1999",
+      "team_logo": "https://media.api-sports.io/football/teams/3502.png",
+      "start": "2022-09-01",
+      "end": "2022-12-01"
+    },
+    {
+      "team_id": 14863,
+      "team_name": "Iberia 1999 II",
+      "team_logo": "https://media.api-sports.io/football/teams/14863.png",
+      "start": "2022-01-01",
+      "end": "2022-09-01"
+    },
+    {
+      "team_id": 3502,
+      "team_name": "Iberia 1999",
+      "team_logo": "https://media.api-sports.io/football/teams/3502.png",
+      "start": "2020-02-01",
+      "end": "2020-09-01"
+    },
+    {
+      "team_id": 3503,
+      "team_name": "Sioni",
+      "team_logo": "https://media.api-sports.io/football/teams/3503.png",
+      "start": "2018-07-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 3510,
+      "team_name": "Shukura",
+      "team_logo": "https://media.api-sports.io/football/teams/3510.png",
+      "start": "2015-09-01",
+      "end": "2016-09-01"
+    },
+    {
+      "team_id": 3502,
+      "team_name": "Iberia 1999",
+      "team_logo": "https://media.api-sports.io/football/teams/3502.png",
+      "start": "2013-07-01",
+      "end": "2014-03-01"
+    },
+    {
+      "team_id": 3499,
+      "team_name": "Dila",
+      "team_logo": "https://media.api-sports.io/football/teams/3499.png",
+      "start": "2012-03-01",
+      "end": "2012-09-01"
+    }
+  ]
+}

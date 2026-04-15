@@ -1,0 +1,75 @@
+{
+  "id": 2803,
+  "name": "Rui Borges",
+  "photo": "https://media.api-sports.io/football/coachs/2803.png",
+  "nationality": "Portugal",
+  "age": 44,
+  "team_id": 228,
+  "team_slug": "sporting-cp",
+  "fetched_at": "2026-04-15T08:24:49.654Z",
+  "career": [
+    {
+      "team_id": 228,
+      "team_name": "Sporting Lisbon",
+      "team_logo": "https://media.api-sports.io/football/teams/228.png",
+      "start": "2024-12-01",
+      "end": null
+    },
+    {
+      "team_id": 224,
+      "team_name": "Vitoria Guimaraes",
+      "team_logo": "https://media.api-sports.io/football/teams/224.png",
+      "start": "2024-05-01",
+      "end": "2024-12-01"
+    },
+    {
+      "team_id": 215,
+      "team_name": "Moreirense",
+      "team_logo": "https://media.api-sports.io/football/teams/215.png",
+      "start": "2023-07-01",
+      "end": "2024-05-01"
+    },
+    {
+      "team_id": 245,
+      "team_name": "Mafra",
+      "team_logo": "https://media.api-sports.io/football/teams/245.png",
+      "start": "2023-02-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 4717,
+      "team_name": "Vilafranquense",
+      "team_logo": "https://media.api-sports.io/football/teams/4717.png",
+      "start": "2022-07-01",
+      "end": "2023-02-01"
+    },
+    {
+      "team_id": 225,
+      "team_name": "Nacional",
+      "team_logo": "https://media.api-sports.io/football/teams/225.png",
+      "start": "2021-09-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 239,
+      "team_name": "Académica",
+      "team_logo": "https://media.api-sports.io/football/teams/239.png",
+      "start": "2020-07-01",
+      "end": "2021-09-01"
+    },
+    {
+      "team_id": 238,
+      "team_name": "Academico Viseu",
+      "team_logo": "https://media.api-sports.io/football/teams/238.png",
+      "start": "2019-07-01",
+      "end": "2020-06-01"
+    },
+    {
+      "team_id": 4769,
+      "team_name": "Mirandela",
+      "team_logo": "https://media.api-sports.io/football/teams/4769.png",
+      "start": "2017-06-01",
+      "end": "2019-06-01"
+    }
+  ]
+}

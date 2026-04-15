@@ -1,0 +1,19 @@
+{
+  "id": 28220,
+  "name": "Vladimir Petkovic",
+  "photo": "https://media.api-sports.io/football/coachs/28220.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 1532,
+  "team_slug": "algeria",
+  "fetched_at": "2026-04-15T13:12:41.756Z",
+  "career": [
+    {
+      "team_id": 1532,
+      "team_name": "Algeria",
+      "team_logo": "https://media.api-sports.io/football/teams/1532.png",
+      "start": "2026-03-01",
+      "end": null
+    }
+  ]
+}

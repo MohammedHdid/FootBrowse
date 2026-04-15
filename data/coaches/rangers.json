@@ -1,0 +1,47 @@
+{
+  "id": 4801,
+  "name": "B. Ferguson",
+  "photo": "https://media.api-sports.io/football/coachs/4801.png",
+  "nationality": "Scotland",
+  "age": 47,
+  "team_id": 257,
+  "team_slug": "rangers",
+  "fetched_at": "2026-04-15T08:23:01.453Z",
+  "career": [
+    {
+      "team_id": 257,
+      "team_name": "Rangers",
+      "team_logo": "https://media.api-sports.io/football/teams/257.png",
+      "start": "2025-02-01",
+      "end": null
+    },
+    {
+      "team_id": 1391,
+      "team_name": "Alloa Athletic",
+      "team_logo": "https://media.api-sports.io/football/teams/1391.png",
+      "start": "2021-05-01",
+      "end": "2022-02-01"
+    },
+    {
+      "team_id": 6773,
+      "team_name": "Kelty Hearts",
+      "team_logo": "https://media.api-sports.io/football/teams/6773.png",
+      "start": "2019-07-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 6762,
+      "team_name": "Clyde",
+      "team_logo": "https://media.api-sports.io/football/teams/6762.png",
+      "start": "2014-07-01",
+      "end": "2017-02-01"
+    },
+    {
+      "team_id": 1356,
+      "team_name": "Blackpool",
+      "team_logo": "https://media.api-sports.io/football/teams/1356.png",
+      "start": "2014-01-01",
+      "end": "2014-06-01"
+    }
+  ]
+}

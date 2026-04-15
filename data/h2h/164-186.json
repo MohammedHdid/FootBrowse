@@ -1,0 +1,78 @@
+{
+  "team1_id": 164,
+  "team2_id": 186,
+  "fetched_at": "2026-04-15T20:54:10.634Z",
+  "played": 5,
+  "team1_wins": 4,
+  "team2_wins": 0,
+  "draws": 1,
+  "team1_goals": 11,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1388439,
+      "date": "2025-12-21",
+      "league": "Bundesliga",
+      "home_id": 164,
+      "home_name": "FSV Mainz 05",
+      "home_logo": "https://media.api-sports.io/football/teams/164.png",
+      "away_id": 186,
+      "away_name": "FC St. Pauli",
+      "away_logo": "https://media.api-sports.io/football/teams/186.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1224179,
+      "date": "2025-02-22",
+      "league": "Bundesliga",
+      "home_id": 164,
+      "home_name": "FSV Mainz 05",
+      "home_logo": "https://media.api-sports.io/football/teams/164.png",
+      "away_id": 186,
+      "away_name": "FC St. Pauli",
+      "away_logo": "https://media.api-sports.io/football/teams/186.png",
+      "home_score": 2,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1224028,
+      "date": "2024-10-05",
+      "league": "Bundesliga",
+      "home_id": 186,
+      "home_name": "FC St. Pauli",
+      "home_logo": "https://media.api-sports.io/football/teams/186.png",
+      "away_id": 164,
+      "away_name": "FSV Mainz 05",
+      "away_logo": "https://media.api-sports.io/football/teams/164.png",
+      "home_score": 0,
+      "away_score": 3
+    },
+    {
+      "fixture_id": 196402,
+      "date": "2011-05-14",
+      "league": "Bundesliga",
+      "home_id": 164,
+      "home_name": "FSV Mainz 05",
+      "home_logo": "https://media.api-sports.io/football/teams/164.png",
+      "away_id": 186,
+      "away_name": "FC St. Pauli",
+      "away_logo": "https://media.api-sports.io/football/teams/186.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 196247,
+      "date": "2010-12-18",
+      "league": "Bundesliga",
+      "home_id": 186,
+      "home_name": "FC St. Pauli",
+      "home_logo": "https://media.api-sports.io/football/teams/186.png",
+      "away_id": 164,
+      "away_name": "FSV Mainz 05",
+      "away_logo": "https://media.api-sports.io/football/teams/164.png",
+      "home_score": 2,
+      "away_score": 4
+    }
+  ]
+}

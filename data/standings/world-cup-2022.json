@@ -1,0 +1,654 @@
+{
+  "league_id": 1,
+  "season": 2022,
+  "groups": [
+    {
+      "group": "Group A",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 1118,
+            "name": "Netherlands",
+            "slug": "netherlands",
+            "logo": "https://media.api-sports.io/football/teams/1118.png"
+          },
+          "points": 7,
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 5,
+          "goals_against": 1,
+          "goal_diff": 4,
+          "form": "WDW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "slug": "senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 5,
+          "goals_against": 4,
+          "goal_diff": 1,
+          "form": "WWL",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "slug": "ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 4,
+          "goals_against": 3,
+          "goal_diff": 1,
+          "form": "LDW",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "slug": "qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "points": 0,
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 1,
+          "goals_against": 7,
+          "goal_diff": -6,
+          "form": "LLL",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group B",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 10,
+            "name": "England",
+            "slug": "england",
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+          },
+          "points": 7,
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 9,
+          "goals_against": 2,
+          "goal_diff": 7,
+          "form": "WDW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "slug": "usa",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "points": 5,
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goals_for": 2,
+          "goals_against": 1,
+          "goal_diff": 1,
+          "form": "WDD",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 22,
+            "name": "Iran",
+            "slug": "iran",
+            "logo": "https://media.api-sports.io/football/teams/22.png"
+          },
+          "points": 3,
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 4,
+          "goals_against": 7,
+          "goal_diff": -3,
+          "form": "LWL",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 767,
+            "name": "Wales",
+            "slug": "wales",
+            "logo": "https://media.api-sports.io/football/teams/767.png"
+          },
+          "points": 1,
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 1,
+          "goals_against": 6,
+          "goal_diff": -5,
+          "form": "LLD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group C",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "slug": "argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 5,
+          "goals_against": 2,
+          "goal_diff": 3,
+          "form": "WWL",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 24,
+            "name": "Poland",
+            "slug": "poland",
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_diff": 0,
+          "form": "LWD",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "slug": "mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 2,
+          "goals_against": 3,
+          "goal_diff": -1,
+          "form": "WLD",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "slug": "saudi-arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "points": 3,
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 3,
+          "goals_against": 5,
+          "goal_diff": -2,
+          "form": "LLW",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 2,
+            "name": "France",
+            "slug": "france",
+            "logo": "https://media.api-sports.io/football/teams/2.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 6,
+          "goals_against": 3,
+          "goal_diff": 3,
+          "form": "LWW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "slug": "australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 3,
+          "goals_against": 4,
+          "goal_diff": -1,
+          "form": "WWL",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 28,
+            "name": "Tunisia",
+            "slug": "tunisia",
+            "logo": "https://media.api-sports.io/football/teams/28.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 1,
+          "goals_against": 1,
+          "goal_diff": 0,
+          "form": "WLD",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 21,
+            "name": "Denmark",
+            "slug": "denmark",
+            "logo": "https://media.api-sports.io/football/teams/21.png"
+          },
+          "points": 1,
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 1,
+          "goals_against": 3,
+          "goal_diff": -2,
+          "form": "LLD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group E",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "slug": "japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 4,
+          "goals_against": 3,
+          "goal_diff": 1,
+          "form": "WLW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 9,
+            "name": "Spain",
+            "slug": "spain",
+            "logo": "https://media.api-sports.io/football/teams/9.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 9,
+          "goals_against": 3,
+          "goal_diff": 6,
+          "form": "LDW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 25,
+            "name": "Germany",
+            "slug": "germany",
+            "logo": "https://media.api-sports.io/football/teams/25.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 6,
+          "goals_against": 5,
+          "goal_diff": 1,
+          "form": "WDL",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "slug": "costa-rica",
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+          },
+          "points": 3,
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 3,
+          "goals_against": 11,
+          "goal_diff": -8,
+          "form": "LWL",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group F",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 31,
+            "name": "Morocco",
+            "slug": "morocco",
+            "logo": "https://media.api-sports.io/football/teams/31.png"
+          },
+          "points": 7,
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 4,
+          "goals_against": 1,
+          "goal_diff": 3,
+          "form": "WWD",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "slug": "croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "points": 5,
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goals_for": 4,
+          "goals_against": 1,
+          "goal_diff": 3,
+          "form": "DWD",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "slug": "belgium",
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 1,
+          "goals_against": 2,
+          "goal_diff": -1,
+          "form": "DLW",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "slug": "canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "points": 0,
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 2,
+          "goals_against": 7,
+          "goal_diff": -5,
+          "form": "LLL",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group G",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "slug": "brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 3,
+          "goals_against": 1,
+          "goal_diff": 2,
+          "form": "LWW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "slug": "switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 4,
+          "goals_against": 3,
+          "goal_diff": 1,
+          "form": "WLW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1530,
+            "name": "Cameroon",
+            "slug": "cameroon",
+            "logo": "https://media.api-sports.io/football/teams/1530.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 4,
+          "goals_against": 4,
+          "goal_diff": 0,
+          "form": "WDL",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 14,
+            "name": "Serbia",
+            "slug": "serbia",
+            "logo": "https://media.api-sports.io/football/teams/14.png"
+          },
+          "points": 1,
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 5,
+          "goals_against": 8,
+          "goal_diff": -3,
+          "form": "LDL",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group H",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 27,
+            "name": "Portugal",
+            "slug": "portugal",
+            "logo": "https://media.api-sports.io/football/teams/27.png"
+          },
+          "points": 6,
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 6,
+          "goals_against": 4,
+          "goal_diff": 2,
+          "form": "LWW",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "slug": "south-korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 4,
+          "goals_against": 4,
+          "goal_diff": 0,
+          "form": "WLD",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 7,
+            "name": "Uruguay",
+            "slug": "uruguay",
+            "logo": "https://media.api-sports.io/football/teams/7.png"
+          },
+          "points": 4,
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_diff": 0,
+          "form": "WLD",
+          "description": null
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "slug": "ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "points": 3,
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 5,
+          "goals_against": 7,
+          "goal_diff": -2,
+          "form": "LWL",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

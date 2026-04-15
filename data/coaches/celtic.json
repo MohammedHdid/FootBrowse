@@ -1,0 +1,61 @@
+{
+  "id": 15,
+  "name": "B. Rodgers",
+  "photo": "https://media.api-sports.io/football/coachs/15.png",
+  "nationality": "Northern Ireland",
+  "age": 52,
+  "team_id": 247,
+  "team_slug": "celtic",
+  "fetched_at": "2026-04-14T22:43:35.485Z",
+  "career": [
+    {
+      "team_id": 247,
+      "team_name": "Celtic",
+      "team_logo": "https://media.api-sports.io/football/teams/247.png",
+      "start": "2023-07-01",
+      "end": null
+    },
+    {
+      "team_id": 46,
+      "team_name": "Leicester City",
+      "team_logo": "https://media.api-sports.io/football/teams/46.png",
+      "start": "2019-02-01",
+      "end": "2023-04-01"
+    },
+    {
+      "team_id": 247,
+      "team_name": "Celtic",
+      "team_logo": "https://media.api-sports.io/football/teams/247.png",
+      "start": "2016-05-01",
+      "end": "2019-02-01"
+    },
+    {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "team_logo": "https://media.api-sports.io/football/teams/40.png",
+      "start": "2012-06-01",
+      "end": "2015-10-01"
+    },
+    {
+      "team_id": 76,
+      "team_name": "Swansea City",
+      "team_logo": "https://media.api-sports.io/football/teams/76.png",
+      "start": "2010-07-01",
+      "end": "2012-05-01"
+    },
+    {
+      "team_id": 53,
+      "team_name": "Reading",
+      "team_logo": "https://media.api-sports.io/football/teams/53.png",
+      "start": "2009-06-01",
+      "end": "2009-12-01"
+    },
+    {
+      "team_id": 38,
+      "team_name": "Watford",
+      "team_logo": "https://media.api-sports.io/football/teams/38.png",
+      "start": "2008-11-01",
+      "end": "2009-06-01"
+    }
+  ]
+}

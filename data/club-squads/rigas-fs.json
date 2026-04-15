@@ -1,0 +1,216 @@
+{
+  "team_id": 4160,
+  "team_slug": "rigas-fs",
+  "team_name": "Rīgas FS",
+  "fetched_at": "2026-04-15T08:23:19.482Z",
+  "players": [
+    {
+      "id": 39303,
+      "name": "M. Marić",
+      "age": 29,
+      "number": 35,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/39303.png"
+    },
+    {
+      "id": 72378,
+      "name": "J. Ņerugals",
+      "age": 36,
+      "number": 16,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/72378.png"
+    },
+    {
+      "id": 146744,
+      "name": "N. Dusalijevs",
+      "age": 24,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/146744.png"
+    },
+    {
+      "id": 2305,
+      "name": "A. Filipović",
+      "age": 31,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2305.png"
+    },
+    {
+      "id": 109696,
+      "name": "Ž. Lipušček",
+      "age": 28,
+      "number": 43,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/109696.png"
+    },
+    {
+      "id": 72347,
+      "name": "H. Prenga",
+      "age": 31,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/72347.png"
+    },
+    {
+      "id": 56041,
+      "name": "R. Savaļnieks",
+      "age": 32,
+      "number": 11,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/56041.png"
+    },
+    {
+      "id": 162330,
+      "name": "N. Sliede",
+      "age": 21,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162330.png"
+    },
+    {
+      "id": 169221,
+      "name": "R. Veips",
+      "age": 25,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/169221.png"
+    },
+    {
+      "id": 544858,
+      "name": "M. Clemente",
+      "age": 27,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/544858.png"
+    },
+    {
+      "id": 553442,
+      "name": "K. Emenike",
+      "age": 21,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/553442.png"
+    },
+    {
+      "id": 68531,
+      "name": "J. Ikaunieks",
+      "age": 30,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/68531.png"
+    },
+    {
+      "id": 70353,
+      "name": "M. Ķigurs",
+      "age": 28,
+      "number": 49,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/70353.png"
+    },
+    {
+      "id": 561657,
+      "name": "S. Kumater",
+      "age": 18,
+      "number": 99,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/561657.png"
+    },
+    {
+      "id": 377927,
+      "name": "M. Nagasawa",
+      "age": 20,
+      "number": 44,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/377927.png"
+    },
+    {
+      "id": 408544,
+      "name": "H. Njie",
+      "age": 20,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/408544.png"
+    },
+    {
+      "id": 306192,
+      "name": "L. Odisharia",
+      "age": 23,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/306192.png"
+    },
+    {
+      "id": 72346,
+      "name": "S. Panić",
+      "age": 33,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/72346.png"
+    },
+    {
+      "id": 430318,
+      "name": "S. Rakić",
+      "age": 19,
+      "number": 81,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/430318.png"
+    },
+    {
+      "id": 515790,
+      "name": "M. Saidy",
+      "age": 20,
+      "number": 66,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/515790.png"
+    },
+    {
+      "id": 357227,
+      "name": "I. Diomandé",
+      "age": 22,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/357227.png"
+    },
+    {
+      "id": 72373,
+      "name": "C. Kouadio",
+      "age": 29,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/72373.png"
+    },
+    {
+      "id": 72358,
+      "name": "D. Lemajić",
+      "age": 32,
+      "number": 22,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/72358.png"
+    },
+    {
+      "id": 105984,
+      "name": "G. Mankenda",
+      "age": 28,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/105984.png"
+    },
+    {
+      "id": 344865,
+      "name": "M. Gaye",
+      "age": 26,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/344865.png"
+    },
+    {
+      "id": 128496,
+      "name": "D. Zelenkovs",
+      "age": 25,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/128496.png"
+    }
+  ]
+}

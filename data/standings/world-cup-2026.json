@@ -1,0 +1,1211 @@
+{
+  "league_id": 1,
+  "season": 2026,
+  "groups": [
+    {
+      "group": "Group A",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 770,
+            "name": "Czech Republic",
+            "slug": "czech-republic",
+            "logo": "https://media.api-sports.io/football/teams/770.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 16,
+            "name": "Mexico",
+            "slug": "mexico",
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1531,
+            "name": "South Africa",
+            "slug": "south-africa",
+            "logo": "https://media.api-sports.io/football/teams/1531.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 17,
+            "name": "South Korea",
+            "slug": "south-korea",
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group B",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "slug": "switzerland",
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 1113,
+            "name": "Bosnia & Herzegovina",
+            "slug": "bosnia-herzegovina",
+            "logo": "https://media.api-sports.io/football/teams/1113.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "slug": "canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "slug": "qatar",
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group C",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 1108,
+            "name": "Scotland",
+            "slug": "scotland",
+            "logo": "https://media.api-sports.io/football/teams/1108.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 6,
+            "name": "Brazil",
+            "slug": "brazil",
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 2386,
+            "name": "Haiti",
+            "slug": "haiti",
+            "logo": "https://media.api-sports.io/football/teams/2386.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 31,
+            "name": "Morocco",
+            "slug": "morocco",
+            "logo": "https://media.api-sports.io/football/teams/31.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 777,
+            "name": "Türkiye",
+            "slug": "turkiye",
+            "logo": "https://media.api-sports.io/football/teams/777.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 2380,
+            "name": "Paraguay",
+            "slug": "paraguay",
+            "logo": "https://media.api-sports.io/football/teams/2380.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "slug": "usa",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 20,
+            "name": "Australia",
+            "slug": "australia",
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group E",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 25,
+            "name": "Germany",
+            "slug": "germany",
+            "logo": "https://media.api-sports.io/football/teams/25.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "slug": "ecuador",
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1501,
+            "name": "Ivory Coast",
+            "slug": "ivory-coast",
+            "logo": "https://media.api-sports.io/football/teams/1501.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 5530,
+            "name": "Curaçao",
+            "slug": "curacao",
+            "logo": "https://media.api-sports.io/football/teams/5530.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group F",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 5,
+            "name": "Sweden",
+            "slug": "sweden",
+            "logo": "https://media.api-sports.io/football/teams/5.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 1118,
+            "name": "Netherlands",
+            "slug": "netherlands",
+            "logo": "https://media.api-sports.io/football/teams/1118.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 28,
+            "name": "Tunisia",
+            "slug": "tunisia",
+            "logo": "https://media.api-sports.io/football/teams/28.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 12,
+            "name": "Japan",
+            "slug": "japan",
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group G",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 1,
+            "name": "Belgium",
+            "slug": "belgium",
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 32,
+            "name": "Egypt",
+            "slug": "egypt",
+            "logo": "https://media.api-sports.io/football/teams/32.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 22,
+            "name": "Iran",
+            "slug": "iran",
+            "logo": "https://media.api-sports.io/football/teams/22.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 4673,
+            "name": "New Zealand",
+            "slug": "new-zealand",
+            "logo": "https://media.api-sports.io/football/teams/4673.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group H",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 9,
+            "name": "Spain",
+            "slug": "spain",
+            "logo": "https://media.api-sports.io/football/teams/9.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 7,
+            "name": "Uruguay",
+            "slug": "uruguay",
+            "logo": "https://media.api-sports.io/football/teams/7.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1533,
+            "name": "Cape Verde Islands",
+            "slug": "cape-verde-islands",
+            "logo": "https://media.api-sports.io/football/teams/1533.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "slug": "saudi-arabia",
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group I",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 2,
+            "name": "France",
+            "slug": "france",
+            "logo": "https://media.api-sports.io/football/teams/2.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 1090,
+            "name": "Norway",
+            "slug": "norway",
+            "logo": "https://media.api-sports.io/football/teams/1090.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "slug": "senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1567,
+            "name": "Iraq",
+            "slug": "iraq",
+            "logo": "https://media.api-sports.io/football/teams/1567.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group J",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 775,
+            "name": "Austria",
+            "slug": "austria",
+            "logo": "https://media.api-sports.io/football/teams/775.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 26,
+            "name": "Argentina",
+            "slug": "argentina",
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1532,
+            "name": "Algeria",
+            "slug": "algeria",
+            "logo": "https://media.api-sports.io/football/teams/1532.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1548,
+            "name": "Jordan",
+            "slug": "jordan",
+            "logo": "https://media.api-sports.io/football/teams/1548.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group K",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 27,
+            "name": "Portugal",
+            "slug": "portugal",
+            "logo": "https://media.api-sports.io/football/teams/27.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 8,
+            "name": "Colombia",
+            "slug": "colombia",
+            "logo": "https://media.api-sports.io/football/teams/8.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1508,
+            "name": "Congo DR",
+            "slug": "congo-dr",
+            "logo": "https://media.api-sports.io/football/teams/1508.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1568,
+            "name": "Uzbekistan",
+            "slug": "uzbekistan",
+            "logo": "https://media.api-sports.io/football/teams/1568.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Group L",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "slug": "croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 10,
+            "name": "England",
+            "slug": "england",
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "slug": "ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Ranking of third-placed teams"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 11,
+            "name": "Panama",
+            "slug": "panama",
+            "logo": "https://media.api-sports.io/football/teams/11.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    },
+    {
+      "group": "Ranking of third-placed teams",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 2384,
+            "name": "USA",
+            "slug": "usa",
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 5529,
+            "name": "Canada",
+            "slug": "canada",
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 2386,
+            "name": "Haiti",
+            "slug": "haiti",
+            "logo": "https://media.api-sports.io/football/teams/2386.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 1532,
+            "name": "Algeria",
+            "slug": "algeria",
+            "logo": "https://media.api-sports.io/football/teams/1532.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 5,
+          "team": {
+            "id": 13,
+            "name": "Senegal",
+            "slug": "senegal",
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "slug": "ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 7,
+          "team": {
+            "id": 1531,
+            "name": "South Africa",
+            "slug": "south-africa",
+            "logo": "https://media.api-sports.io/football/teams/1531.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 8,
+          "team": {
+            "id": 1533,
+            "name": "Cape Verde Islands",
+            "slug": "cape-verde-islands",
+            "logo": "https://media.api-sports.io/football/teams/1533.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": "Promotion - World Cup (Play Offs)"
+        },
+        {
+          "rank": 9,
+          "team": {
+            "id": 28,
+            "name": "Tunisia",
+            "slug": "tunisia",
+            "logo": "https://media.api-sports.io/football/teams/28.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 1501,
+            "name": "Ivory Coast",
+            "slug": "ivory-coast",
+            "logo": "https://media.api-sports.io/football/teams/1501.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        },
+        {
+          "rank": 11,
+          "team": {
+            "id": 1508,
+            "name": "Congo DR",
+            "slug": "congo-dr",
+            "logo": "https://media.api-sports.io/football/teams/1508.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 22,
+            "name": "Iran",
+            "slug": "iran",
+            "logo": "https://media.api-sports.io/football/teams/22.png"
+          },
+          "points": 0,
+          "played": 0,
+          "won": 0,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 0,
+          "goals_against": 0,
+          "goal_diff": 0,
+          "form": "",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

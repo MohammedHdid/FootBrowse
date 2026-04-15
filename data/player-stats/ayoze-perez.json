@@ -1,0 +1,21 @@
+{
+  "player_id": 18906,
+  "slug": "ayoze-perez",
+  "name": "Ayoze Pérez",
+  "api_photo": "https://media.api-sports.io/football/players/18906.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Villarreal",
+      "club_logo": "https://media.api-sports.io/football/teams/533.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 30,
+      "goals": 19,
+      "assists": 2,
+      "minutes": 1976,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

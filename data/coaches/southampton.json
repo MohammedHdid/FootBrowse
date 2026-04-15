@@ -1,0 +1,61 @@
+{
+  "id": 600,
+  "name": "S. Rusk",
+  "photo": "https://media.api-sports.io/football/coachs/600.png",
+  "nationality": "England",
+  "age": 44,
+  "team_id": 41,
+  "team_slug": "southampton",
+  "fetched_at": "2026-04-14T22:40:46.698Z",
+  "career": [
+    {
+      "team_id": 41,
+      "team_name": "Southampton",
+      "team_logo": "https://media.api-sports.io/football/teams/41.png",
+      "start": "2025-04-01",
+      "end": null
+    },
+    {
+      "team_id": 41,
+      "team_name": "Southampton",
+      "team_logo": "https://media.api-sports.io/football/teams/41.png",
+      "start": "2024-12-01",
+      "end": "2024-12-01"
+    },
+    {
+      "team_id": 7201,
+      "team_name": "Southampton U21",
+      "team_logo": "https://media.api-sports.io/football/teams/7201.png",
+      "start": "2024-08-01",
+      "end": null
+    },
+    {
+      "team_id": 10332,
+      "team_name": "England U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10332.png",
+      "start": "2022-09-01",
+      "end": "2023-12-01"
+    },
+    {
+      "team_id": 4686,
+      "team_name": "Stockport County",
+      "team_logo": "https://media.api-sports.io/football/teams/4686.png",
+      "start": "2021-01-01",
+      "end": "2021-10-01"
+    },
+    {
+      "team_id": 7191,
+      "team_name": "Brighton & Hove U21",
+      "team_logo": "https://media.api-sports.io/football/teams/7191.png",
+      "start": "2017-07-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 11917,
+      "team_name": "Brighton U23",
+      "team_logo": "https://media.api-sports.io/football/teams/11917.png",
+      "start": "2016-07-01",
+      "end": "2021-01-01"
+    }
+  ]
+}

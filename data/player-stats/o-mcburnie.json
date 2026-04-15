@@ -1,0 +1,21 @@
+{
+  "player_id": 19337,
+  "slug": "o-mcburnie",
+  "name": "O. McBurnie",
+  "api_photo": "https://media.api-sports.io/football/players/19337.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Las Palmas",
+      "club_logo": "https://media.api-sports.io/football/teams/534.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 38,
+      "goals": 3,
+      "assists": 6,
+      "minutes": 1861,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

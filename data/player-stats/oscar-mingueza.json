@@ -1,0 +1,21 @@
+{
+  "player_id": 162712,
+  "slug": "oscar-mingueza",
+  "name": "Óscar Mingueza",
+  "api_photo": "https://media.api-sports.io/football/players/162712.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Celta Vigo",
+      "club_logo": "https://media.api-sports.io/football/teams/538.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 34,
+      "goals": 4,
+      "assists": 6,
+      "minutes": 2741,
+      "yellow_cards": 6,
+      "red_cards": 1
+    }
+  ]
+}

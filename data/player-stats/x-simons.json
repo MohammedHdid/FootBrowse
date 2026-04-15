@@ -1,0 +1,21 @@
+{
+  "player_id": 162016,
+  "slug": "x-simons",
+  "name": "X. Simons",
+  "api_photo": "https://media.api-sports.io/football/players/162016.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "RB Leipzig",
+      "club_logo": "https://media.api-sports.io/football/teams/173.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 25,
+      "goals": 10,
+      "assists": 6,
+      "minutes": 2157,
+      "yellow_cards": 5,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 24825,
+  "name": "V. Khumalo",
+  "photo": "https://media.api-sports.io/football/coachs/24825.png",
+  "nationality": "South Africa",
+  "age": null,
+  "team_id": 1531,
+  "team_slug": "south-africa",
+  "fetched_at": "2026-04-15T13:13:05.580Z",
+  "career": [
+    {
+      "team_id": 1531,
+      "team_name": "South Africa",
+      "team_logo": "https://media.api-sports.io/football/teams/1531.png",
+      "start": "2025-06-01",
+      "end": null
+    },
+    {
+      "team_id": 21300,
+      "team_name": "South Africa U17",
+      "team_logo": "https://media.api-sports.io/football/teams/21300.png",
+      "start": "2025-03-01",
+      "end": "2025-04-01"
+    },
+    {
+      "team_id": 21300,
+      "team_name": "South Africa U17",
+      "team_logo": "https://media.api-sports.io/football/teams/21300.png",
+      "start": "2021-01-01",
+      "end": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 14128,
+  "name": "J. Poulsen",
+  "photo": "https://media.api-sports.io/football/coachs/14128.png",
+  "nationality": "Faroe Islands",
+  "age": 39,
+  "team_id": 580,
+  "team_slug": "vikingur-gota",
+  "fetched_at": "2026-04-15T08:25:37.897Z",
+  "career": [
+    {
+      "team_id": 580,
+      "team_name": "Víkingur",
+      "team_logo": "https://media.api-sports.io/football/teams/580.png",
+      "start": "2020-07-01",
+      "end": null
+    }
+  ]
+}

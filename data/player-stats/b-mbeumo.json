@@ -1,0 +1,21 @@
+{
+  "player_id": 20589,
+  "slug": "b-mbeumo",
+  "name": "B. Mbeumo",
+  "api_photo": "https://media.api-sports.io/football/players/20589.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Brentford",
+      "club_logo": "https://media.api-sports.io/football/teams/55.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 38,
+      "goals": 20,
+      "assists": 7,
+      "minutes": 3417,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

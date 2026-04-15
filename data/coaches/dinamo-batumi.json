@@ -1,0 +1,61 @@
+{
+  "id": 1720,
+  "name": "G. Tchiabrishvili",
+  "photo": "https://media.api-sports.io/football/coachs/1720.png",
+  "nationality": "Georgia",
+  "age": 46,
+  "team_id": 705,
+  "team_slug": "dinamo-batumi",
+  "fetched_at": "2026-04-14T22:44:10.982Z",
+  "career": [
+    {
+      "team_id": 705,
+      "team_name": "Dinamo Batumi",
+      "team_logo": "https://media.api-sports.io/football/teams/705.png",
+      "start": "2024-10-01",
+      "end": null
+    },
+    {
+      "team_id": 2262,
+      "team_name": "Dinamo Tbilisi",
+      "team_logo": "https://media.api-sports.io/football/teams/2262.png",
+      "start": "2022-06-01",
+      "end": "2023-08-01"
+    },
+    {
+      "team_id": 3500,
+      "team_name": "Lokomotivi Tbilisi",
+      "team_logo": "https://media.api-sports.io/football/teams/3500.png",
+      "start": "2020-07-01",
+      "end": "2021-12-01"
+    },
+    {
+      "team_id": 3502,
+      "team_name": "Iberia 1999",
+      "team_logo": "https://media.api-sports.io/football/teams/3502.png",
+      "start": "2016-10-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Iberia 1999 U19",
+      "team_logo": null,
+      "start": "2015-09-01",
+      "end": "2015-12-01"
+    },
+    {
+      "team_id": 3502,
+      "team_name": "Iberia 1999",
+      "team_logo": "https://media.api-sports.io/football/teams/3502.png",
+      "start": "2014-03-01",
+      "end": "2016-03-01"
+    },
+    {
+      "team_id": 10700,
+      "team_name": "Zestafoni",
+      "team_logo": "https://media.api-sports.io/football/teams/10700.png",
+      "start": "2011-08-01",
+      "end": "2012-08-01"
+    }
+  ]
+}

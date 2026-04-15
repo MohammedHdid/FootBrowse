@@ -1,0 +1,47 @@
+{
+  "id": 8,
+  "name": "R. Hasenhüttl",
+  "photo": "https://media.api-sports.io/football/coachs/8.png",
+  "nationality": "Austria",
+  "age": 58,
+  "team_id": 161,
+  "team_slug": "vfl-wolfsburg",
+  "fetched_at": "2026-04-14T22:33:10.219Z",
+  "career": [
+    {
+      "team_id": 161,
+      "team_name": "Wolfsburg",
+      "team_logo": "https://media.api-sports.io/football/teams/161.png",
+      "start": "2024-03-01",
+      "end": "2025-05-01"
+    },
+    {
+      "team_id": 41,
+      "team_name": "Southampton",
+      "team_logo": "https://media.api-sports.io/football/teams/41.png",
+      "start": "2018-12-01",
+      "end": "2022-11-01"
+    },
+    {
+      "team_id": 173,
+      "team_name": "RB Leipzig",
+      "team_logo": "https://media.api-sports.io/football/teams/173.png",
+      "start": "2016-07-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 184,
+      "team_name": "Ingolstadt",
+      "team_logo": "https://media.api-sports.io/football/teams/184.png",
+      "start": "2013-10-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 1327,
+      "team_name": "Aalen",
+      "team_logo": "https://media.api-sports.io/football/teams/1327.png",
+      "start": "2011-01-01",
+      "end": "2013-06-01"
+    }
+  ]
+}

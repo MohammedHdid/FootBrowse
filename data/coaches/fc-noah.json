@@ -1,0 +1,40 @@
+{
+  "id": 4838,
+  "name": "V. Boreţ",
+  "photo": "https://media.api-sports.io/football/coachs/4838.png",
+  "nationality": "Moldova",
+  "age": 49,
+  "team_id": 3684,
+  "team_slug": "fc-noah",
+  "fetched_at": "2026-04-15T08:16:12.932Z",
+  "career": [
+    {
+      "team_id": 3684,
+      "team_name": "Noah",
+      "team_logo": "https://media.api-sports.io/football/teams/3684.png",
+      "start": "2019-07-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 4632,
+      "team_name": "Sfîntul Gheorghe",
+      "team_logo": "https://media.api-sports.io/football/teams/4632.png",
+      "start": "2017-01-01",
+      "end": "2017-07-01"
+    },
+    {
+      "team_id": 4638,
+      "team_name": "Ungheni",
+      "team_logo": "https://media.api-sports.io/football/teams/4638.png",
+      "start": "2016-07-01",
+      "end": "2016-10-01"
+    },
+    {
+      "team_id": 17965,
+      "team_name": "Moldova U17",
+      "team_logo": "https://media.api-sports.io/football/teams/17965.png",
+      "start": "2013-12-01",
+      "end": "2015-12-01"
+    }
+  ]
+}

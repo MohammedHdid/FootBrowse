@@ -1,0 +1,21 @@
+{
+  "player_id": 37127,
+  "slug": "m-degaard",
+  "name": "M. Ødegaard",
+  "api_photo": "https://media.api-sports.io/football/players/37127.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Arsenal",
+      "club_logo": "https://media.api-sports.io/football/teams/42.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 30,
+      "goals": 3,
+      "assists": 8,
+      "minutes": 2331,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

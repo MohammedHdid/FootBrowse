@@ -9,11 +9,11 @@ import FlagImg from "@/components/FlagImg";
 
 const POS_ORDER: Record<string, number> = {
   Goalkeeper: 1,
-  "Centre-Back": 2, "Right-Back": 2, "Left-Back": 2, Defence: 2,
+  "Centre-Back": 2, "Right-Back": 2, "Left-Back": 2, Defence: 2, Defender: 2,
   "Central Midfield": 3, "Defensive Midfield": 3, "Right Midfield": 3,
-  "Left Midfield": 3, Midfield: 3,
+  "Left Midfield": 3, Midfield: 3, Midfielder: 3,
   "Centre-Forward": 4, "Attacking Midfield": 4, "Right Winger": 4,
-  "Left Winger": 4, "Second Striker": 4, Offence: 4,
+  "Left Winger": 4, "Second Striker": 4, Offence: 4, Forward: 4, Attacker: 4,
 };
 
 function calcAge(dob: string | null): number | null {
@@ -31,7 +31,12 @@ const INITIAL_ROWS = 8;
 interface TeamInfo {
   name: string;
   slug: string;
+  /** ISO country code for flag (WC teams). Pass empty string for club teams and use `logo` instead. */
   code: string;
+  /** Club team logo URL — used when `code` is empty */
+  logo?: string;
+  /** Link prefix for team page — defaults to /teams/ for WC, pass /leagues/{slug}/teams/ for clubs */
+  teamHrefPrefix?: string;
 }
 
 interface Props {
@@ -200,6 +205,7 @@ export default function MatchSquads({ teamA, teamB, squadA, squadB }: Props) {
         ].map(({ team, squad }) => (
           <div key={team.slug}>
             <div className="flex items-center gap-2 mb-3">
+              {team.code ? (
                 <Image
                   src={`https://flagcdn.com/w40/${team.code}.png`}
                   alt={`${team.name} flag`}
@@ -208,8 +214,19 @@ export default function MatchSquads({ teamA, teamB, squadA, squadB }: Props) {
                   className="rounded-sm object-cover shrink-0"
                   style={{ width: 28, height: "auto" }}
                 />
+              ) : team.logo ? (
+                <Image
+                  src={team.logo}
+                  alt={`${team.name} logo`}
+                  width={24}
+                  height={24}
+                  className="object-contain shrink-0"
+                  style={{ width: 24, height: 24 }}
+                  unoptimized
+                />
+              ) : null}
               <Link
-                href={`/teams/${team.slug}`}
+                href={`${team.teamHrefPrefix ?? "/teams/"}${team.slug}`}
                 className="font-black text-white hover:opacity-70 transition-opacity"
                 style={{ letterSpacing: "-0.02em" }}
               >

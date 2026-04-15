@@ -1,0 +1,21 @@
+{
+  "player_id": 106851,
+  "slug": "s-machino",
+  "name": "S. Machino",
+  "api_photo": "https://media.api-sports.io/football/players/106851.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Borussia Mönchengladbach",
+      "club_logo": "https://media.api-sports.io/football/teams/163.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 34,
+      "goals": 11,
+      "assists": 2,
+      "minutes": 1960,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

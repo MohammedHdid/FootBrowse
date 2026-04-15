@@ -1,0 +1,21 @@
+{
+  "player_id": 186,
+  "slug": "son-heung-min",
+  "name": "Son Heung-Min",
+  "api_photo": "https://media.api-sports.io/football/players/186.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Tottenham",
+      "club_logo": "https://media.api-sports.io/football/teams/47.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 30,
+      "goals": 7,
+      "assists": 9,
+      "minutes": 2116,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 129718,
+  "slug": "j-bellingham",
+  "name": "J. Bellingham",
+  "api_photo": "https://media.api-sports.io/football/players/129718.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Real Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/541.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 31,
+      "goals": 9,
+      "assists": 8,
+      "minutes": 2493,
+      "yellow_cards": 5,
+      "red_cards": 1
+    }
+  ]
+}

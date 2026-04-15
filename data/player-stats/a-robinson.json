@@ -1,0 +1,21 @@
+{
+  "player_id": 19549,
+  "slug": "a-robinson",
+  "name": "A. Robinson",
+  "api_photo": "https://media.api-sports.io/football/players/19549.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Fulham",
+      "club_logo": "https://media.api-sports.io/football/teams/36.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 36,
+      "goals": 0,
+      "assists": 10,
+      "minutes": 3167,
+      "yellow_cards": 8,
+      "red_cards": 0
+    }
+  ]
+}

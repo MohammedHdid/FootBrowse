@@ -1,0 +1,33 @@
+{
+  "id": 1894,
+  "name": "S. Trabelsi",
+  "photo": "https://media.api-sports.io/football/coachs/1894.png",
+  "nationality": "Tunisia",
+  "age": 57,
+  "team_id": 28,
+  "team_slug": "tunisia",
+  "fetched_at": "2026-04-15T13:12:29.975Z",
+  "career": [
+    {
+      "team_id": 28,
+      "team_name": "Tunisia",
+      "team_logo": "https://media.api-sports.io/football/teams/28.png",
+      "start": "2025-02-01",
+      "end": null
+    },
+    {
+      "team_id": 2898,
+      "team_name": "Al Sailiya",
+      "team_logo": "https://media.api-sports.io/football/teams/2898.png",
+      "start": "2013-09-01",
+      "end": "2023-03-01"
+    },
+    {
+      "team_id": 28,
+      "team_name": "Tunisia",
+      "team_logo": "https://media.api-sports.io/football/teams/28.png",
+      "start": "2011-03-01",
+      "end": "2013-02-01"
+    }
+  ]
+}

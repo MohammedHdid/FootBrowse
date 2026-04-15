@@ -1,0 +1,47 @@
+{
+  "id": 2869,
+  "name": "K. Hjulmand",
+  "photo": "https://media.api-sports.io/football/coachs/2869.png",
+  "nationality": "Denmark",
+  "age": 53,
+  "team_id": 168,
+  "team_slug": "bayer-leverkusen",
+  "fetched_at": "2026-04-14T22:30:34.524Z",
+  "career": [
+    {
+      "team_id": 168,
+      "team_name": "Bayer Leverkusen",
+      "team_logo": "https://media.api-sports.io/football/teams/168.png",
+      "start": "2025-01-01",
+      "end": null
+    },
+    {
+      "team_id": 21,
+      "team_name": "Denmark",
+      "team_logo": "https://media.api-sports.io/football/teams/21.png",
+      "start": "2020-08-01",
+      "end": "2024-07-01"
+    },
+    {
+      "team_id": 398,
+      "team_name": "Nordsjælland",
+      "team_logo": "https://media.api-sports.io/football/teams/398.png",
+      "start": "2016-01-01",
+      "end": "2019-03-01"
+    },
+    {
+      "team_id": 164,
+      "team_name": "Mainz",
+      "team_logo": "https://media.api-sports.io/football/teams/164.png",
+      "start": "2014-07-01",
+      "end": "2015-02-01"
+    },
+    {
+      "team_id": 398,
+      "team_name": "Nordsjælland",
+      "team_logo": "https://media.api-sports.io/football/teams/398.png",
+      "start": "2011-07-01",
+      "end": "2014-07-01"
+    }
+  ]
+}

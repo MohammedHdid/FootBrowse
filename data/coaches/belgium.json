@@ -1,0 +1,82 @@
+{
+  "id": 2551,
+  "name": "R. Garcia",
+  "photo": "https://media.api-sports.io/football/coachs/2551.png",
+  "nationality": "France",
+  "age": 61,
+  "team_id": 1,
+  "team_slug": "belgium",
+  "fetched_at": "2026-04-15T13:14:23.817Z",
+  "career": [
+    {
+      "team_id": 1,
+      "team_name": "Belgium",
+      "team_logo": "https://media.api-sports.io/football/teams/1.png",
+      "start": "2025-01-01",
+      "end": null
+    },
+    {
+      "team_id": 492,
+      "team_name": "Napoli",
+      "team_logo": "https://media.api-sports.io/football/teams/492.png",
+      "start": "2023-07-01",
+      "end": "2023-11-01"
+    },
+    {
+      "team_id": 2939,
+      "team_name": "Al Nassr",
+      "team_logo": "https://media.api-sports.io/football/teams/2939.png",
+      "start": "2022-07-01",
+      "end": "2023-04-01"
+    },
+    {
+      "team_id": 80,
+      "team_name": "Lyon",
+      "team_logo": "https://media.api-sports.io/football/teams/80.png",
+      "start": "2019-10-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 81,
+      "team_name": "Marseille",
+      "team_logo": "https://media.api-sports.io/football/teams/81.png",
+      "start": "2016-10-01",
+      "end": "2019-05-01"
+    },
+    {
+      "team_id": 497,
+      "team_name": "Roma",
+      "team_logo": "https://media.api-sports.io/football/teams/497.png",
+      "start": "2013-06-01",
+      "end": "2016-01-01"
+    },
+    {
+      "team_id": 79,
+      "team_name": "Lille",
+      "team_logo": "https://media.api-sports.io/football/teams/79.png",
+      "start": "2008-07-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 1298,
+      "team_name": "Le Mans",
+      "team_logo": "https://media.api-sports.io/football/teams/1298.png",
+      "start": "2007-07-01",
+      "end": "2008-06-01"
+    },
+    {
+      "team_id": 89,
+      "team_name": "Dijon",
+      "team_logo": "https://media.api-sports.io/football/teams/89.png",
+      "start": "2002-07-01",
+      "end": "2007-06-01"
+    },
+    {
+      "team_id": 1063,
+      "team_name": "Saint-Etienne",
+      "team_logo": "https://media.api-sports.io/football/teams/1063.png",
+      "start": "2001-01-01",
+      "end": "2001-06-01"
+    }
+  ]
+}

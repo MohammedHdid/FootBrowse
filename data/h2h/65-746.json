@@ -1,0 +1,65 @@
+{
+  "team1_id": 65,
+  "team2_id": 746,
+  "fetched_at": "2026-04-15T20:39:51.536Z",
+  "played": 4,
+  "team1_wins": 1,
+  "team2_wins": 2,
+  "draws": 1,
+  "team1_goals": 2,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1379027,
+      "date": "2025-09-27",
+      "league": "Premier League",
+      "home_id": 65,
+      "home_name": "Nottingham Forest",
+      "home_logo": "https://media.api-sports.io/football/teams/65.png",
+      "away_id": 746,
+      "away_name": "Sunderland",
+      "away_logo": "https://media.api-sports.io/football/teams/746.png",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1219620,
+      "date": "2024-07-19",
+      "league": "Friendlies Clubs",
+      "home_id": 65,
+      "home_name": "Nottingham Forest",
+      "home_logo": "https://media.api-sports.io/football/teams/65.png",
+      "away_id": 746,
+      "away_name": "Sunderland",
+      "away_logo": "https://media.api-sports.io/football/teams/746.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 12172,
+      "date": "2017-12-30",
+      "league": "Championship",
+      "home_id": 65,
+      "home_name": "Nottingham Forest",
+      "home_logo": "https://media.api-sports.io/football/teams/65.png",
+      "away_id": 746,
+      "away_name": "Sunderland",
+      "away_logo": "https://media.api-sports.io/football/teams/746.png",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 12390,
+      "date": "2017-09-12",
+      "league": "Championship",
+      "home_id": 746,
+      "home_name": "Sunderland",
+      "home_logo": "https://media.api-sports.io/football/teams/746.png",
+      "away_id": 65,
+      "away_name": "Nottingham Forest",
+      "away_logo": "https://media.api-sports.io/football/teams/65.png",
+      "home_score": 0,
+      "away_score": 1
+    }
+  ]
+}

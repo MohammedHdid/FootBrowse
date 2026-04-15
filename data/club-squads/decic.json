@@ -1,0 +1,240 @@
+{
+  "team_id": 3745,
+  "team_slug": "decic",
+  "team_name": "Dečić",
+  "fetched_at": "2026-04-14T22:43:53.015Z",
+  "players": [
+    {
+      "id": 497073,
+      "name": "A. Camaj",
+      "age": 19,
+      "number": 21,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/497073.png"
+    },
+    {
+      "id": 66771,
+      "name": "M. Dragojević",
+      "age": 36,
+      "number": 33,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/66771.png"
+    },
+    {
+      "id": 409755,
+      "name": "D. Radošević",
+      "age": 23,
+      "number": 25,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/409755.png"
+    },
+    {
+      "id": 615171,
+      "name": "Pavle Velimirovic",
+      "age": 35,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/615171.png"
+    },
+    {
+      "id": 67061,
+      "name": "N. Braunović",
+      "age": 28,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/67061.png"
+    },
+    {
+      "id": 270143,
+      "name": "J. Drešaj",
+      "age": 25,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/270143.png"
+    },
+    {
+      "id": 311515,
+      "name": "R. Đelaj",
+      "age": 23,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/311515.png"
+    },
+    {
+      "id": 524425,
+      "name": "Halil Kajoshaj",
+      "age": 19,
+      "number": 50,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/524425.png"
+    },
+    {
+      "id": 540226,
+      "name": "P. Ljuljdjuraj",
+      "age": 33,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/540226.png"
+    },
+    {
+      "id": 394680,
+      "name": "Lazar Maraš",
+      "age": 19,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/394680.png"
+    },
+    {
+      "id": 270161,
+      "name": "Bogdan Milić",
+      "age": 24,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/270161.png"
+    },
+    {
+      "id": 8700,
+      "name": "Ž. Tomašević",
+      "age": 35,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/8700.png"
+    },
+    {
+      "id": 199308,
+      "name": "A. Bajović",
+      "age": 22,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/199308.png"
+    },
+    {
+      "id": 67101,
+      "name": "M. Božanović",
+      "age": 31,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/67101.png"
+    },
+    {
+      "id": 66783,
+      "name": "D. Božović",
+      "age": 37,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/66783.png"
+    },
+    {
+      "id": 544867,
+      "name": "I. Camaj",
+      "age": 18,
+      "number": 55,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/544867.png"
+    },
+    {
+      "id": 45806,
+      "name": "A. Kajević",
+      "age": 35,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/45806.png"
+    },
+    {
+      "id": 400704,
+      "name": "A. Maloku",
+      "age": 21,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/400704.png"
+    },
+    {
+      "id": 197600,
+      "name": "Petar Pavlićević",
+      "age": 25,
+      "number": 74,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/197600.png"
+    },
+    {
+      "id": 67030,
+      "name": "P. Sekulović",
+      "age": 27,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/67030.png"
+    },
+    {
+      "id": 67112,
+      "name": "L. Ujkaj",
+      "age": 28,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/67112.png"
+    },
+    {
+      "id": 67102,
+      "name": "I. Camaj",
+      "age": 29,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/67102.png"
+    },
+    {
+      "id": 496928,
+      "name": "M. Đokaj",
+      "age": 16,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/496928.png"
+    },
+    {
+      "id": 45870,
+      "name": "S. Golubović",
+      "age": 27,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/45870.png"
+    },
+    {
+      "id": 138711,
+      "name": "M. Ndiaye",
+      "age": 28,
+      "number": 72,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/138711.png"
+    },
+    {
+      "id": 550256,
+      "name": "D. Perovic",
+      "age": 23,
+      "number": 44,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/550256.png"
+    },
+    {
+      "id": 323860,
+      "name": "B. Radusinović",
+      "age": 19,
+      "number": 32,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/323860.png"
+    },
+    {
+      "id": 268219,
+      "name": "T. Selimi",
+      "age": 25,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/268219.png"
+    },
+    {
+      "id": 133439,
+      "name": "V. Striković",
+      "age": 23,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/133439.png"
+    }
+  ]
+}

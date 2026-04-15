@@ -1,0 +1,248 @@
+{
+  "team_id": 3854,
+  "team_slug": "shelbourne",
+  "team_name": "Shelbourne",
+  "fetched_at": "2026-04-15T08:23:55.460Z",
+  "players": [
+    {
+      "id": 526430,
+      "name": "Finn Moylan",
+      "age": 17,
+      "number": 21,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/526430.png"
+    },
+    {
+      "id": 193292,
+      "name": "Wessel Speel",
+      "age": 24,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/193292.png"
+    },
+    {
+      "id": 544034,
+      "name": "A. Topcu",
+      "age": 17,
+      "number": 50,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/544034.png"
+    },
+    {
+      "id": 321417,
+      "name": "C. Walsh",
+      "age": 20,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/321417.png"
+    },
+    {
+      "id": 70913,
+      "name": "P. Barrett",
+      "age": 32,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/70913.png"
+    },
+    {
+      "id": 69254,
+      "name": "S. Bone",
+      "age": 27,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/69254.png"
+    },
+    {
+      "id": 131270,
+      "name": "O. Casey",
+      "age": 23,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/131270.png"
+    },
+    {
+      "id": 69232,
+      "name": "S. Gannon",
+      "age": 34,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/69232.png"
+    },
+    {
+      "id": 266839,
+      "name": "Z. Rossi",
+      "age": 25,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/266839.png"
+    },
+    {
+      "id": 153397,
+      "name": "K. Ledwidge",
+      "age": 24,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/153397.png"
+    },
+    {
+      "id": 69400,
+      "name": "J. Lunney",
+      "age": 27,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/69400.png"
+    },
+    {
+      "id": 381854,
+      "name": "M. Mbeng",
+      "age": 23,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/381854.png"
+    },
+    {
+      "id": 152979,
+      "name": "James Barry Norris",
+      "age": 22,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/152979.png"
+    },
+    {
+      "id": 444501,
+      "name": "James Roche",
+      "age": 18,
+      "number": 55,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/444501.png"
+    },
+    {
+      "id": 567933,
+      "name": "J. Bailey",
+      "age": 18,
+      "number": 58,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/567933.png"
+    },
+    {
+      "id": 201380,
+      "name": "E. Caffrey",
+      "age": 22,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/201380.png"
+    },
+    {
+      "id": 17373,
+      "name": "E. Chapman",
+      "age": 24,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/17373.png"
+    },
+    {
+      "id": 98001,
+      "name": "A. Coote",
+      "age": 27,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/98001.png"
+    },
+    {
+      "id": 567934,
+      "name": "A. Flynn",
+      "age": 17,
+      "number": 52,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/567934.png"
+    },
+    {
+      "id": 284463,
+      "name": "Jack Henry-Francis",
+      "age": 22,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/284463.png"
+    },
+    {
+      "id": 544002,
+      "name": "K. McInroy",
+      "age": 25,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/544002.png"
+    },
+    {
+      "id": 278112,
+      "name": "H. Wood",
+      "age": 23,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/278112.png"
+    },
+    {
+      "id": 543990,
+      "name": "S. Boyd",
+      "age": 27,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/543990.png"
+    },
+    {
+      "id": 554121,
+      "name": "R. Freitas",
+      "age": 23,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/554121.png"
+    },
+    {
+      "id": 326764,
+      "name": "W. Jarvis",
+      "age": 23,
+      "number": 36,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/326764.png"
+    },
+    {
+      "id": 69242,
+      "name": "D. Kelly",
+      "age": 29,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/69242.png"
+    },
+    {
+      "id": 318028,
+      "name": "I. Lundgren",
+      "age": 24,
+      "number": 28,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/318028.png"
+    },
+    {
+      "id": 69407,
+      "name": "J. Martin",
+      "age": 26,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/69407.png"
+    },
+    {
+      "id": 278076,
+      "name": "M. Odubeko",
+      "age": 23,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/278076.png"
+    },
+    {
+      "id": 567936,
+      "name": "J. Wuna",
+      "age": 16,
+      "number": 56,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/567936.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 2864,
+  "slug": "a-isak",
+  "name": "A. Isak",
+  "api_photo": "https://media.api-sports.io/football/players/2864.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Newcastle",
+      "club_logo": "https://media.api-sports.io/football/teams/34.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 34,
+      "goals": 23,
+      "assists": 6,
+      "minutes": 2769,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

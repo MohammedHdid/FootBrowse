@@ -1,0 +1,21 @@
+{
+  "player_id": 26256,
+  "slug": "t-kleindienst",
+  "name": "T. Kleindienst",
+  "api_photo": "https://media.api-sports.io/football/players/26256.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Borussia Mönchengladbach",
+      "club_logo": "https://media.api-sports.io/football/teams/163.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 31,
+      "goals": 16,
+      "assists": 7,
+      "minutes": 2743,
+      "yellow_cards": 5,
+      "red_cards": 1
+    }
+  ]
+}

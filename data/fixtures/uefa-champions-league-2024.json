@@ -1,0 +1,7256 @@
+[
+  {
+    "fixture_id": 1208418,
+    "slug": "panevezys-vs-hjk-helsinki-2024-07-09",
+    "date": "2024-07-09",
+    "kickoff_utc": "15:30",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3874,
+      "name": "Panevėžys",
+      "slug": "panevezys",
+      "logo": "https://media.api-sports.io/football/teams/3874.png"
+    },
+    "away_team": {
+      "id": 649,
+      "name": "HJK Helsinki",
+      "slug": "hjk-helsinki",
+      "logo": "https://media.api-sports.io/football/teams/649.png"
+    },
+    "venue_id": 11572,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208410,
+    "slug": "hamrun-spartans-vs-lincoln-red-imps-fc-2024-07-09",
+    "date": "2024-07-09",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 4626,
+      "name": "Hamrun Spartans",
+      "slug": "hamrun-spartans",
+      "logo": "https://media.api-sports.io/football/teams/4626.png"
+    },
+    "away_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "venue_id": 1067,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208406,
+    "slug": "the-new-saints-vs-decic-2024-07-09",
+    "date": "2024-07-09",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 354,
+      "name": "The New Saints",
+      "slug": "the-new-saints",
+      "logo": "https://media.api-sports.io/football/teams/354.png"
+    },
+    "away_team": {
+      "id": 3745,
+      "name": "Dečić",
+      "slug": "decic",
+      "logo": "https://media.api-sports.io/football/teams/3745.png"
+    },
+    "venue_id": 1684,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208412,
+    "slug": "ue-santa-coloma-vs-ballkani-2024-07-09",
+    "date": "2024-07-09",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 703,
+      "name": "UE Santa Coloma",
+      "slug": "ue-santa-coloma",
+      "logo": "https://media.api-sports.io/football/teams/703.png"
+    },
+    "away_team": {
+      "id": 12733,
+      "name": "Ballkani",
+      "slug": "ballkani",
+      "logo": "https://media.api-sports.io/football/teams/12733.png"
+    },
+    "venue_id": 2618,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208422,
+    "slug": "vikingur-reykjavik-vs-shamrock-rovers-2024-07-09",
+    "date": "2024-07-09",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 278,
+      "name": "Vikingur Reykjavik",
+      "slug": "vikingur-reykjavik",
+      "logo": "https://media.api-sports.io/football/teams/278.png"
+    },
+    "away_team": {
+      "id": 652,
+      "name": "Shamrock Rovers",
+      "slug": "shamrock-rovers",
+      "logo": "https://media.api-sports.io/football/teams/652.png"
+    },
+    "venue_id": 831,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208424,
+    "slug": "virtus-vs-fcsb-2024-07-09",
+    "date": "2024-07-09",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 7
+    },
+    "home_team": {
+      "id": 5308,
+      "name": "Virtus",
+      "slug": "virtus",
+      "logo": "https://media.api-sports.io/football/teams/5308.png"
+    },
+    "away_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "venue_id": 2616,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208428,
+    "slug": "ordabasy-vs-petrocub-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 692,
+      "name": "Ordabasy",
+      "slug": "ordabasy",
+      "logo": "https://media.api-sports.io/football/teams/692.png"
+    },
+    "away_team": {
+      "id": 2271,
+      "name": "Petrocub",
+      "slug": "petrocub",
+      "logo": "https://media.api-sports.io/football/teams/2271.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208414,
+    "slug": "flora-tallinn-vs-celje-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 5
+    },
+    "home_team": {
+      "id": 687,
+      "name": "Flora Tallinn",
+      "slug": "flora-tallinn",
+      "logo": "https://media.api-sports.io/football/teams/687.png"
+    },
+    "away_team": {
+      "id": 4360,
+      "name": "Celje",
+      "slug": "celje",
+      "logo": "https://media.api-sports.io/football/teams/4360.png"
+    },
+    "venue_id": 605,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208404,
+    "slug": "slovan-bratislava-vs-struga-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 4346,
+      "name": "Struga",
+      "slug": "struga",
+      "logo": "https://media.api-sports.io/football/teams/4346.png"
+    },
+    "venue_id": 11914,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208420,
+    "slug": "rigas-fs-vs-larne-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "away_team": {
+      "id": 5354,
+      "name": "Larne",
+      "slug": "larne",
+      "logo": "https://media.api-sports.io/football/teams/5354.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208426,
+    "slug": "ludogorets-vs-dinamo-batumi-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "away_team": {
+      "id": 705,
+      "name": "Dinamo Batumi",
+      "slug": "dinamo-batumi",
+      "logo": "https://media.api-sports.io/football/teams/705.png"
+    },
+    "venue_id": 10547,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208416,
+    "slug": "ki-klaksvik-vs-fc-differdange-03-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 701,
+      "name": "KI Klaksvik",
+      "slug": "ki-klaksvik",
+      "logo": "https://media.api-sports.io/football/teams/701.png"
+    },
+    "away_team": {
+      "id": 684,
+      "name": "FC Differdange 03",
+      "slug": "fc-differdange-03",
+      "logo": "https://media.api-sports.io/football/teams/684.png"
+    },
+    "venue_id": 21585,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208430,
+    "slug": "dinamo-minsk-vs-pyunik-yerevan-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 394,
+      "name": "Dinamo Minsk",
+      "slug": "dinamo-minsk",
+      "logo": "https://media.api-sports.io/football/teams/394.png"
+    },
+    "away_team": {
+      "id": 709,
+      "name": "Pyunik Yerevan",
+      "slug": "pyunik-yerevan",
+      "logo": "https://media.api-sports.io/football/teams/709.png"
+    },
+    "venue_id": 805,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208408,
+    "slug": "borac-banja-luka-vs-egnatia-rrogozhine-2024-07-10",
+    "date": "2024-07-10",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3364,
+      "name": "Borac Banja Luka",
+      "slug": "borac-banja-luka",
+      "logo": "https://media.api-sports.io/football/teams/3364.png"
+    },
+    "away_team": {
+      "id": 3327,
+      "name": "Egnatia Rrogozhinë",
+      "slug": "egnatia-rrogozhine",
+      "logo": "https://media.api-sports.io/football/teams/3327.png"
+    },
+    "venue_id": 2187,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208413,
+    "slug": "ballkani-vs-ue-santa-coloma-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "14:30",
+    "status": "PEN",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 12733,
+      "name": "Ballkani",
+      "slug": "ballkani",
+      "logo": "https://media.api-sports.io/football/teams/12733.png"
+    },
+    "away_team": {
+      "id": 703,
+      "name": "UE Santa Coloma",
+      "slug": "ue-santa-coloma",
+      "logo": "https://media.api-sports.io/football/teams/703.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208419,
+    "slug": "hjk-helsinki-vs-panevezys-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 649,
+      "name": "HJK Helsinki",
+      "slug": "hjk-helsinki",
+      "logo": "https://media.api-sports.io/football/teams/649.png"
+    },
+    "away_team": {
+      "id": 3874,
+      "name": "Panevėžys",
+      "slug": "panevezys",
+      "logo": "https://media.api-sports.io/football/teams/3874.png"
+    },
+    "venue_id": 615,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208411,
+    "slug": "lincoln-red-imps-fc-vs-hamrun-spartans-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "16:00",
+    "status": "PEN",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "away_team": {
+      "id": 4626,
+      "name": "Hamrun Spartans",
+      "slug": "hamrun-spartans",
+      "logo": "https://media.api-sports.io/football/teams/4626.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208431,
+    "slug": "pyunik-yerevan-vs-dinamo-minsk-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 709,
+      "name": "Pyunik Yerevan",
+      "slug": "pyunik-yerevan",
+      "logo": "https://media.api-sports.io/football/teams/709.png"
+    },
+    "away_team": {
+      "id": 394,
+      "name": "Dinamo Minsk",
+      "slug": "dinamo-minsk",
+      "logo": "https://media.api-sports.io/football/teams/394.png"
+    },
+    "venue_id": 121,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208415,
+    "slug": "celje-vs-flora-tallinn-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 4360,
+      "name": "Celje",
+      "slug": "celje",
+      "logo": "https://media.api-sports.io/football/teams/4360.png"
+    },
+    "away_team": {
+      "id": 687,
+      "name": "Flora Tallinn",
+      "slug": "flora-tallinn",
+      "logo": "https://media.api-sports.io/football/teams/687.png"
+    },
+    "venue_id": 3332,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208425,
+    "slug": "fcsb-vs-virtus-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "away_team": {
+      "id": 5308,
+      "name": "Virtus",
+      "slug": "virtus",
+      "logo": "https://media.api-sports.io/football/teams/5308.png"
+    },
+    "venue_id": 12042,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208423,
+    "slug": "shamrock-rovers-vs-vikingur-reykjavik-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 652,
+      "name": "Shamrock Rovers",
+      "slug": "shamrock-rovers",
+      "logo": "https://media.api-sports.io/football/teams/652.png"
+    },
+    "away_team": {
+      "id": 278,
+      "name": "Vikingur Reykjavik",
+      "slug": "vikingur-reykjavik",
+      "logo": "https://media.api-sports.io/football/teams/278.png"
+    },
+    "venue_id": 865,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208407,
+    "slug": "decic-vs-the-new-saints-2024-07-16",
+    "date": "2024-07-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3745,
+      "name": "Dečić",
+      "slug": "decic",
+      "logo": "https://media.api-sports.io/football/teams/3745.png"
+    },
+    "away_team": {
+      "id": 354,
+      "name": "The New Saints",
+      "slug": "the-new-saints",
+      "logo": "https://media.api-sports.io/football/teams/354.png"
+    },
+    "venue_id": 1095,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208405,
+    "slug": "struga-vs-slovan-bratislava-2024-07-17",
+    "date": "2024-07-17",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 4346,
+      "name": "Struga",
+      "slug": "struga",
+      "logo": "https://media.api-sports.io/football/teams/4346.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": 4658,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208417,
+    "slug": "fc-differdange-03-vs-ki-klaksvik-2024-07-17",
+    "date": "2024-07-17",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 684,
+      "name": "FC Differdange 03",
+      "slug": "fc-differdange-03",
+      "logo": "https://media.api-sports.io/football/teams/684.png"
+    },
+    "away_team": {
+      "id": 701,
+      "name": "KI Klaksvik",
+      "slug": "ki-klaksvik",
+      "logo": "https://media.api-sports.io/football/teams/701.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208427,
+    "slug": "dinamo-batumi-vs-ludogorets-2024-07-17",
+    "date": "2024-07-17",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 705,
+      "name": "Dinamo Batumi",
+      "slug": "dinamo-batumi",
+      "logo": "https://media.api-sports.io/football/teams/705.png"
+    },
+    "away_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208429,
+    "slug": "petrocub-vs-ordabasy-2024-07-17",
+    "date": "2024-07-17",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 2271,
+      "name": "Petrocub",
+      "slug": "petrocub",
+      "logo": "https://media.api-sports.io/football/teams/2271.png"
+    },
+    "away_team": {
+      "id": 692,
+      "name": "Ordabasy",
+      "slug": "ordabasy",
+      "logo": "https://media.api-sports.io/football/teams/692.png"
+    },
+    "venue_id": 2615,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208409,
+    "slug": "egnatia-rrogozhine-vs-borac-banja-luka-2024-07-17",
+    "date": "2024-07-17",
+    "kickoff_utc": "19:00",
+    "status": "PEN",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3327,
+      "name": "Egnatia Rrogozhinë",
+      "slug": "egnatia-rrogozhine",
+      "logo": "https://media.api-sports.io/football/teams/3327.png"
+    },
+    "away_team": {
+      "id": 3364,
+      "name": "Borac Banja Luka",
+      "slug": "borac-banja-luka",
+      "logo": "https://media.api-sports.io/football/teams/3364.png"
+    },
+    "venue_id": 2,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1208421,
+    "slug": "larne-vs-rigas-fs-2024-07-17",
+    "date": "2024-07-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 5354,
+      "name": "Larne",
+      "slug": "larne",
+      "logo": "https://media.api-sports.io/football/teams/5354.png"
+    },
+    "away_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "venue_id": 4045,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1250485,
+    "slug": "bodo-glimt-vs-rigas-fs-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "venue_id": 1175,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245606,
+    "slug": "panevezys-vs-jagiellonia-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "15:30",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 3874,
+      "name": "Panevėžys",
+      "slug": "panevezys",
+      "logo": "https://media.api-sports.io/football/teams/3874.png"
+    },
+    "away_team": {
+      "id": 336,
+      "name": "Jagiellonia",
+      "slug": "jagiellonia",
+      "logo": "https://media.api-sports.io/football/teams/336.png"
+    },
+    "venue_id": 11572,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245598,
+    "slug": "lincoln-red-imps-fc-vs-qarabag-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250489,
+    "slug": "malmo-ff-vs-ki-klaksvik-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "away_team": {
+      "id": 701,
+      "name": "KI Klaksvik",
+      "slug": "ki-klaksvik",
+      "logo": "https://media.api-sports.io/football/teams/701.png"
+    },
+    "venue_id": 1518,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250487,
+    "slug": "apoel-nicosia-vs-petrocub-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 2247,
+      "name": "Apoel Nicosia",
+      "slug": "apoel-nicosia",
+      "logo": "https://media.api-sports.io/football/teams/2247.png"
+    },
+    "away_team": {
+      "id": 2271,
+      "name": "Petrocub",
+      "slug": "petrocub",
+      "logo": "https://media.api-sports.io/football/teams/2271.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245604,
+    "slug": "fcsb-vs-maccabi-tel-aviv-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "away_team": {
+      "id": 604,
+      "name": "Maccabi Tel Aviv",
+      "slug": "maccabi-tel-aviv",
+      "logo": "https://media.api-sports.io/football/teams/604.png"
+    },
+    "venue_id": 12042,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1209237,
+    "slug": "dynamo-kyiv-vs-fk-partizan-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 2
+    },
+    "home_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "away_team": {
+      "id": 573,
+      "name": "FK Partizan",
+      "slug": "fk-partizan",
+      "logo": "https://media.api-sports.io/football/teams/573.png"
+    },
+    "venue_id": 11992,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245608,
+    "slug": "ferencvarosi-tc-vs-the-new-saints-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "away_team": {
+      "id": 354,
+      "name": "The New Saints",
+      "slug": "the-new-saints",
+      "logo": "https://media.api-sports.io/football/teams/354.png"
+    },
+    "venue_id": 799,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245602,
+    "slug": "ue-santa-coloma-vs-fc-midtjylland-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 703,
+      "name": "UE Santa Coloma",
+      "slug": "ue-santa-coloma",
+      "logo": "https://media.api-sports.io/football/teams/703.png"
+    },
+    "away_team": {
+      "id": 397,
+      "name": "FC Midtjylland",
+      "slug": "fc-midtjylland",
+      "logo": "https://media.api-sports.io/football/teams/397.png"
+    },
+    "venue_id": 2618,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1209235,
+    "slug": "fc-lugano-vs-fenerbahce-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 4
+    },
+    "home_team": {
+      "id": 606,
+      "name": "FC Lugano",
+      "slug": "fc-lugano",
+      "logo": "https://media.api-sports.io/football/teams/606.png"
+    },
+    "away_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "venue_id": 1544,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245600,
+    "slug": "shamrock-rovers-vs-sparta-praha-2024-07-23",
+    "date": "2024-07-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 652,
+      "name": "Shamrock Rovers",
+      "slug": "shamrock-rovers",
+      "logo": "https://media.api-sports.io/football/teams/652.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 865,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250491,
+    "slug": "paok-vs-borac-banja-luka-2024-07-24",
+    "date": "2024-07-24",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 619,
+      "name": "PAOK",
+      "slug": "paok",
+      "logo": "https://media.api-sports.io/football/teams/619.png"
+    },
+    "away_team": {
+      "id": 3364,
+      "name": "Borac Banja Luka",
+      "slug": "borac-banja-luka",
+      "logo": "https://media.api-sports.io/football/teams/3364.png"
+    },
+    "venue_id": 780,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250481,
+    "slug": "ludogorets-vs-dinamo-minsk-2024-07-24",
+    "date": "2024-07-24",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "away_team": {
+      "id": 394,
+      "name": "Dinamo Minsk",
+      "slug": "dinamo-minsk",
+      "logo": "https://media.api-sports.io/football/teams/394.png"
+    },
+    "venue_id": 10547,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250483,
+    "slug": "celje-vs-slovan-bratislava-2024-07-24",
+    "date": "2024-07-24",
+    "kickoff_utc": "18:15",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 4360,
+      "name": "Celje",
+      "slug": "celje",
+      "logo": "https://media.api-sports.io/football/teams/4360.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": 3332,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245599,
+    "slug": "qarabag-vs-lincoln-red-imps-fc-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "venue_id": 5799,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1209236,
+    "slug": "fenerbahce-vs-fc-lugano-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "away_team": {
+      "id": 606,
+      "name": "FC Lugano",
+      "slug": "fc-lugano",
+      "logo": "https://media.api-sports.io/football/teams/606.png"
+    },
+    "venue_id": 1581,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245601,
+    "slug": "sparta-praha-vs-shamrock-rovers-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 652,
+      "name": "Shamrock Rovers",
+      "slug": "shamrock-rovers",
+      "logo": "https://media.api-sports.io/football/teams/652.png"
+    },
+    "venue_id": 19513,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250488,
+    "slug": "petrocub-vs-apoel-nicosia-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 2271,
+      "name": "Petrocub",
+      "slug": "petrocub",
+      "logo": "https://media.api-sports.io/football/teams/2271.png"
+    },
+    "away_team": {
+      "id": 2247,
+      "name": "Apoel Nicosia",
+      "slug": "apoel-nicosia",
+      "logo": "https://media.api-sports.io/football/teams/2247.png"
+    },
+    "venue_id": 2615,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245609,
+    "slug": "the-new-saints-vs-ferencvarosi-tc-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 354,
+      "name": "The New Saints",
+      "slug": "the-new-saints",
+      "logo": "https://media.api-sports.io/football/teams/354.png"
+    },
+    "away_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "venue_id": 1684,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250484,
+    "slug": "slovan-bratislava-vs-celje-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 4360,
+      "name": "Celje",
+      "slug": "celje",
+      "logo": "https://media.api-sports.io/football/teams/4360.png"
+    },
+    "venue_id": 11914,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250490,
+    "slug": "ki-klaksvik-vs-malmo-ff-2024-07-30",
+    "date": "2024-07-30",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 701,
+      "name": "KI Klaksvik",
+      "slug": "ki-klaksvik",
+      "logo": "https://media.api-sports.io/football/teams/701.png"
+    },
+    "away_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "venue_id": 21585,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250486,
+    "slug": "rigas-fs-vs-bodo-glimt-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245603,
+    "slug": "fc-midtjylland-vs-ue-santa-coloma-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "17:15",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 397,
+      "name": "FC Midtjylland",
+      "slug": "fc-midtjylland",
+      "logo": "https://media.api-sports.io/football/teams/397.png"
+    },
+    "away_team": {
+      "id": 703,
+      "name": "UE Santa Coloma",
+      "slug": "ue-santa-coloma",
+      "logo": "https://media.api-sports.io/football/teams/703.png"
+    },
+    "venue_id": 453,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1209238,
+    "slug": "fk-partizan-vs-dynamo-kyiv-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 573,
+      "name": "FK Partizan",
+      "slug": "fk-partizan",
+      "logo": "https://media.api-sports.io/football/teams/573.png"
+    },
+    "away_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "venue_id": 1424,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245605,
+    "slug": "maccabi-tel-aviv-vs-fcsb-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 604,
+      "name": "Maccabi Tel Aviv",
+      "slug": "maccabi-tel-aviv",
+      "logo": "https://media.api-sports.io/football/teams/604.png"
+    },
+    "away_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "venue_id": 11902,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1245607,
+    "slug": "jagiellonia-vs-panevezys-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 336,
+      "name": "Jagiellonia",
+      "slug": "jagiellonia",
+      "logo": "https://media.api-sports.io/football/teams/336.png"
+    },
+    "away_team": {
+      "id": 3874,
+      "name": "Panevėžys",
+      "slug": "panevezys",
+      "logo": "https://media.api-sports.io/football/teams/3874.png"
+    },
+    "venue_id": 1249,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250482,
+    "slug": "dinamo-minsk-vs-ludogorets-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 394,
+      "name": "Dinamo Minsk",
+      "slug": "dinamo-minsk",
+      "logo": "https://media.api-sports.io/football/teams/394.png"
+    },
+    "away_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "venue_id": 805,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1250492,
+    "slug": "borac-banja-luka-vs-paok-2024-07-31",
+    "date": "2024-07-31",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3364,
+      "name": "Borac Banja Luka",
+      "slug": "borac-banja-luka",
+      "logo": "https://media.api-sports.io/football/teams/3364.png"
+    },
+    "away_team": {
+      "id": 619,
+      "name": "PAOK",
+      "slug": "paok",
+      "logo": "https://media.api-sports.io/football/teams/619.png"
+    },
+    "venue_id": 2187,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273677,
+    "slug": "qarabag-vs-ludogorets-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "venue_id": 5799,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273681,
+    "slug": "malmo-ff-vs-paok-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "away_team": {
+      "id": 619,
+      "name": "PAOK",
+      "slug": "paok",
+      "logo": "https://media.api-sports.io/football/teams/619.png"
+    },
+    "venue_id": 1518,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273683,
+    "slug": "fc-midtjylland-vs-ferencvarosi-tc-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "17:15",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 397,
+      "name": "FC Midtjylland",
+      "slug": "fc-midtjylland",
+      "logo": "https://media.api-sports.io/football/teams/397.png"
+    },
+    "away_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "venue_id": 453,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273687,
+    "slug": "dynamo-kyiv-vs-rangers-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "away_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "venue_id": 11992,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273679,
+    "slug": "sparta-praha-vs-fcsb-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "venue_id": 19513,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1271720,
+    "slug": "lille-vs-fenerbahce-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "venue_id": 686,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1253319,
+    "slug": "red-bull-salzburg-vs-twente-2024-08-06",
+    "date": "2024-08-06",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 415,
+      "name": "Twente",
+      "slug": "twente",
+      "logo": "https://media.api-sports.io/football/teams/415.png"
+    },
+    "venue_id": 148,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1253317,
+    "slug": "slavia-praha-vs-union-st-gilloise-2024-08-07",
+    "date": "2024-08-07",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "away_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "venue_id": 18856,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1271718,
+    "slug": "slovan-bratislava-vs-apoel-nicosia-2024-08-07",
+    "date": "2024-08-07",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 2247,
+      "name": "Apoel Nicosia",
+      "slug": "apoel-nicosia",
+      "logo": "https://media.api-sports.io/football/teams/2247.png"
+    },
+    "venue_id": 11914,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273685,
+    "slug": "jagiellonia-vs-bodo-glimt-2024-08-07",
+    "date": "2024-08-07",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 336,
+      "name": "Jagiellonia",
+      "slug": "jagiellonia",
+      "logo": "https://media.api-sports.io/football/teams/336.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": 1249,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273686,
+    "slug": "bodo-glimt-vs-jagiellonia-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 336,
+      "name": "Jagiellonia",
+      "slug": "jagiellonia",
+      "logo": "https://media.api-sports.io/football/teams/336.png"
+    },
+    "venue_id": 1175,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1253320,
+    "slug": "twente-vs-red-bull-salzburg-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 415,
+      "name": "Twente",
+      "slug": "twente",
+      "logo": "https://media.api-sports.io/football/teams/415.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": 1153,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1271721,
+    "slug": "fenerbahce-vs-lille-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "17:00",
+    "status": "AET",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": 1581,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1271719,
+    "slug": "apoel-nicosia-vs-slovan-bratislava-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 2247,
+      "name": "Apoel Nicosia",
+      "slug": "apoel-nicosia",
+      "logo": "https://media.api-sports.io/football/teams/2247.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273682,
+    "slug": "paok-vs-malmo-ff-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "17:30",
+    "status": "AET",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 619,
+      "name": "PAOK",
+      "slug": "paok",
+      "logo": "https://media.api-sports.io/football/teams/619.png"
+    },
+    "away_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "venue_id": 780,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273678,
+    "slug": "ludogorets-vs-qarabag-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "18:00",
+    "status": "AET",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": 10547,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273684,
+    "slug": "ferencvarosi-tc-vs-fc-midtjylland-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "away_team": {
+      "id": 397,
+      "name": "FC Midtjylland",
+      "slug": "fc-midtjylland",
+      "logo": "https://media.api-sports.io/football/teams/397.png"
+    },
+    "venue_id": 799,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273680,
+    "slug": "fcsb-vs-sparta-praha-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 12042,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1253318,
+    "slug": "union-st-gilloise-vs-slavia-praha-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "away_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1273688,
+    "slug": "rangers-vs-dynamo-kyiv-2024-08-13",
+    "date": "2024-08-13",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "away_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "venue_id": 2617,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1286255,
+    "slug": "lille-vs-slavia-praha-2024-08-20",
+    "date": "2024-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "venue_id": 686,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286251,
+    "slug": "bodo-glimt-vs-fk-crvena-zvezda-2024-08-20",
+    "date": "2024-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": 1175,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286247,
+    "slug": "dinamo-zagreb-vs-qarabag-2024-08-20",
+    "date": "2024-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": 412,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286253,
+    "slug": "malmo-ff-vs-sparta-praha-2024-08-21",
+    "date": "2024-08-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 1518,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286249,
+    "slug": "fc-midtjylland-vs-slovan-bratislava-2024-08-21",
+    "date": "2024-08-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 397,
+      "name": "FC Midtjylland",
+      "slug": "fc-midtjylland",
+      "logo": "https://media.api-sports.io/football/teams/397.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": 453,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1280666,
+    "slug": "bsc-young-boys-vs-galatasaray-2024-08-21",
+    "date": "2024-08-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": 10500,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286257,
+    "slug": "dynamo-kyiv-vs-red-bull-salzburg-2024-08-21",
+    "date": "2024-08-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": 11992,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286258,
+    "slug": "red-bull-salzburg-vs-dynamo-kyiv-2024-08-27",
+    "date": "2024-08-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "venue_id": 148,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286254,
+    "slug": "sparta-praha-vs-malmo-ff-2024-08-27",
+    "date": "2024-08-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "venue_id": 19513,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1280667,
+    "slug": "galatasaray-vs-bsc-young-boys-2024-08-27",
+    "date": "2024-08-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286248,
+    "slug": "qarabag-vs-dinamo-zagreb-2024-08-28",
+    "date": "2024-08-28",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "venue_id": 5799,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286256,
+    "slug": "slavia-praha-vs-lille-2024-08-28",
+    "date": "2024-08-28",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": 18856,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286252,
+    "slug": "fk-crvena-zvezda-vs-bodo-glimt-2024-08-28",
+    "date": "2024-08-28",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": 1406,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1286250,
+    "slug": "slovan-bratislava-vs-fc-midtjylland-2024-08-28",
+    "date": "2024-08-28",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 397,
+      "name": "FC Midtjylland",
+      "slug": "fc-midtjylland",
+      "logo": "https://media.api-sports.io/football/teams/397.png"
+    },
+    "venue_id": 11914,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1298984,
+    "slug": "juventus-vs-psv-eindhoven-2024-09-17",
+    "date": "2024-09-17",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 909,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298985,
+    "slug": "bsc-young-boys-vs-aston-villa-2024-09-17",
+    "date": "2024-09-17",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "away_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue_id": 10500,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298986,
+    "slug": "bayern-munchen-vs-dinamo-zagreb-2024-09-17",
+    "date": "2024-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 9,
+      "away": 2
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "venue_id": 700,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298988,
+    "slug": "sporting-cp-vs-lille-2024-09-17",
+    "date": "2024-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": 1293,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298987,
+    "slug": "ac-milan-vs-liverpool-2024-09-17",
+    "date": "2024-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 907,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298989,
+    "slug": "real-madrid-vs-vfb-stuttgart-2024-09-17",
+    "date": "2024-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "venue_id": 1456,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298990,
+    "slug": "bologna-vs-shakhtar-donetsk-2024-09-18",
+    "date": "2024-09-18",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "away_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "venue_id": 881,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298991,
+    "slug": "sparta-praha-vs-red-bull-salzburg-2024-09-18",
+    "date": "2024-09-18",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": 19513,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298994,
+    "slug": "manchester-city-vs-inter-2024-09-18",
+    "date": "2024-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 555,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298995,
+    "slug": "paris-saint-germain-vs-girona-2024-09-18",
+    "date": "2024-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "venue_id": 671,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298992,
+    "slug": "celtic-vs-slovan-bratislava-2024-09-18",
+    "date": "2024-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": 1386,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298993,
+    "slug": "club-brugge-kv-vs-borussia-dortmund-2024-09-18",
+    "date": "2024-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": 176,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298997,
+    "slug": "feyenoord-vs-bayer-leverkusen-2024-09-19",
+    "date": "2024-09-19",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": 1128,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298996,
+    "slug": "fk-crvena-zvezda-vs-benfica-2024-09-19",
+    "date": "2024-09-19",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 1406,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299001,
+    "slug": "monaco-vs-barcelona-2024-09-19",
+    "date": "2024-09-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 20470,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299000,
+    "slug": "stade-brestois-29-vs-sturm-graz-2024-09-19",
+    "date": "2024-09-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "away_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "venue_id": 650,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298998,
+    "slug": "atalanta-vs-arsenal-2024-09-19",
+    "date": "2024-09-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 879,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1298999,
+    "slug": "atletico-madrid-vs-rb-leipzig-2024-09-19",
+    "date": "2024-09-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "venue_id": 19217,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299003,
+    "slug": "vfb-stuttgart-vs-sparta-praha-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 20473,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299002,
+    "slug": "red-bull-salzburg-vs-stade-brestois-29-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "venue_id": 148,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299010,
+    "slug": "arsenal-vs-paris-saint-germain-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 494,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299006,
+    "slug": "borussia-dortmund-vs-celtic-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 7,
+      "away": 1
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "venue_id": 19381,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299005,
+    "slug": "bayer-leverkusen-vs-ac-milan-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "venue_id": 699,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299008,
+    "slug": "psv-eindhoven-vs-sporting-cp-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": 1143,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299007,
+    "slug": "inter-vs-fk-crvena-zvezda-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": 907,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299004,
+    "slug": "barcelona-vs-bsc-young-boys-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "venue_id": 19939,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299009,
+    "slug": "slovan-bratislava-vs-manchester-city-2024-10-01",
+    "date": "2024-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 11914,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299011,
+    "slug": "girona-vs-feyenoord-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": 1478,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299012,
+    "slug": "shakhtar-donetsk-vs-atalanta-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": 741,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299017,
+    "slug": "liverpool-vs-bologna-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "venue_id": 550,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299013,
+    "slug": "aston-villa-vs-bayern-munchen-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 495,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299016,
+    "slug": "lille-vs-real-madrid-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299018,
+    "slug": "rb-leipzig-vs-juventus-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": 738,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299014,
+    "slug": "benfica-vs-atletico-madrid-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299015,
+    "slug": "dinamo-zagreb-vs-monaco-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": 412,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299019,
+    "slug": "sturm-graz-vs-club-brugge-kv-2024-10-02",
+    "date": "2024-10-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 19258,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299021,
+    "slug": "monaco-vs-fk-crvena-zvezda-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": 20470,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299020,
+    "slug": "ac-milan-vs-club-brugge-kv-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 907,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299027,
+    "slug": "arsenal-vs-shakhtar-donetsk-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "venue_id": 494,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299022,
+    "slug": "aston-villa-vs-bologna-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "away_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "venue_id": 495,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299025,
+    "slug": "paris-saint-germain-vs-psv-eindhoven-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 671,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299024,
+    "slug": "juventus-vs-vfb-stuttgart-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "venue_id": 909,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299028,
+    "slug": "real-madrid-vs-borussia-dortmund-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 2
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": 1456,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299023,
+    "slug": "girona-vs-slovan-bratislava-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": 1478,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299026,
+    "slug": "sturm-graz-vs-sporting-cp-2024-10-22",
+    "date": "2024-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": 19258,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299030,
+    "slug": "stade-brestois-29-vs-bayer-leverkusen-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": 650,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299029,
+    "slug": "atalanta-vs-celtic-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "venue_id": 879,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299035,
+    "slug": "manchester-city-vs-sparta-praha-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 555,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299036,
+    "slug": "rb-leipzig-vs-liverpool-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 738,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299033,
+    "slug": "benfica-vs-feyenoord-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299032,
+    "slug": "barcelona-vs-bayern-munchen-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 19939,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299031,
+    "slug": "atletico-madrid-vs-lille-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299037,
+    "slug": "bsc-young-boys-vs-inter-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 10500,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299034,
+    "slug": "red-bull-salzburg-vs-dinamo-zagreb-2024-10-23",
+    "date": "2024-10-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "venue_id": 148,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299038,
+    "slug": "psv-eindhoven-vs-girona-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "venue_id": 1143,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299039,
+    "slug": "slovan-bratislava-vs-dinamo-zagreb-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "venue_id": 11914,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299044,
+    "slug": "liverpool-vs-bayer-leverkusen-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": 550,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299043,
+    "slug": "lille-vs-juventus-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299041,
+    "slug": "borussia-dortmund-vs-sturm-graz-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "venue_id": 19381,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299045,
+    "slug": "sporting-cp-vs-manchester-city-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 1293,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299042,
+    "slug": "celtic-vs-rb-leipzig-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "away_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "venue_id": 1386,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299040,
+    "slug": "bologna-vs-monaco-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": 881,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299046,
+    "slug": "real-madrid-vs-ac-milan-2024-11-05",
+    "date": "2024-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "venue_id": 1456,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299048,
+    "slug": "shakhtar-donetsk-vs-bsc-young-boys-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "away_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "venue_id": 741,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299047,
+    "slug": "club-brugge-kv-vs-aston-villa-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue_id": 176,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299053,
+    "slug": "paris-saint-germain-vs-atletico-madrid-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": 671,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299050,
+    "slug": "bayern-munchen-vs-benfica-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 700,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299055,
+    "slug": "vfb-stuttgart-vs-atalanta-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": 20473,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299051,
+    "slug": "feyenoord-vs-red-bull-salzburg-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": 1128,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299052,
+    "slug": "inter-vs-arsenal-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 907,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299049,
+    "slug": "fk-crvena-zvezda-vs-barcelona-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 5
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 1406,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299054,
+    "slug": "sparta-praha-vs-stade-brestois-29-2024-11-06",
+    "date": "2024-11-06",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "venue_id": 19513,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299057,
+    "slug": "sparta-praha-vs-atletico-madrid-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 6
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": 19513,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299056,
+    "slug": "slovan-bratislava-vs-ac-milan-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "venue_id": 11914,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299062,
+    "slug": "manchester-city-vs-feyenoord-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": 555,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299060,
+    "slug": "bayern-munchen-vs-paris-saint-germain-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 700,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299059,
+    "slug": "bayer-leverkusen-vs-red-bull-salzburg-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": 699,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299063,
+    "slug": "sporting-cp-vs-arsenal-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 1293,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299061,
+    "slug": "inter-vs-rb-leipzig-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "venue_id": 907,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299058,
+    "slug": "barcelona-vs-stade-brestois-29-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "venue_id": 19939,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299064,
+    "slug": "bsc-young-boys-vs-atalanta-2024-11-26",
+    "date": "2024-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 6
+    },
+    "home_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": 10500,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299065,
+    "slug": "fk-crvena-zvezda-vs-vfb-stuttgart-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "venue_id": 1406,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299066,
+    "slug": "sturm-graz-vs-girona-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "away_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "venue_id": 19258,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299071,
+    "slug": "liverpool-vs-real-madrid-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": 550,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299067,
+    "slug": "aston-villa-vs-juventus-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": 495,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299072,
+    "slug": "monaco-vs-benfica-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 20470,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299073,
+    "slug": "psv-eindhoven-vs-shakhtar-donetsk-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "venue_id": 1143,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299069,
+    "slug": "celtic-vs-club-brugge-kv-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 1386,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299068,
+    "slug": "bologna-vs-lille-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": 881,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299070,
+    "slug": "dinamo-zagreb-vs-borussia-dortmund-2024-11-27",
+    "date": "2024-11-27",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": 412,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299075,
+    "slug": "girona-vs-liverpool-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 1478,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299074,
+    "slug": "dinamo-zagreb-vs-celtic-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "away_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "venue_id": 412,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299078,
+    "slug": "stade-brestois-29-vs-psv-eindhoven-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 650,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299077,
+    "slug": "bayer-leverkusen-vs-inter-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 699,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299081,
+    "slug": "rb-leipzig-vs-aston-villa-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "away_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue_id": 738,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299076,
+    "slug": "atalanta-vs-real-madrid-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": 879,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299082,
+    "slug": "shakhtar-donetsk-vs-bayern-munchen-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "home_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 741,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299079,
+    "slug": "club-brugge-kv-vs-sporting-cp-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": 176,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299080,
+    "slug": "red-bull-salzburg-vs-paris-saint-germain-2024-12-10",
+    "date": "2024-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 148,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299084,
+    "slug": "lille-vs-sturm-graz-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299083,
+    "slug": "atletico-madrid-vs-slovan-bratislava-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299091,
+    "slug": "arsenal-vs-monaco-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": 494,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299086,
+    "slug": "borussia-dortmund-vs-barcelona-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 19381,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299090,
+    "slug": "vfb-stuttgart-vs-bsc-young-boys-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "away_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "venue_id": 20473,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299087,
+    "slug": "feyenoord-vs-sparta-praha-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 1128,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299085,
+    "slug": "benfica-vs-bologna-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299089,
+    "slug": "ac-milan-vs-fk-crvena-zvezda-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": 907,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299088,
+    "slug": "juventus-vs-manchester-city-2024-12-11",
+    "date": "2024-12-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 909,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299093,
+    "slug": "monaco-vs-aston-villa-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue_id": 20470,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299092,
+    "slug": "atalanta-vs-sturm-graz-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "venue_id": 879,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299099,
+    "slug": "liverpool-vs-lille-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": 550,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299095,
+    "slug": "benfica-vs-barcelona-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 5
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299096,
+    "slug": "bologna-vs-borussia-dortmund-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": 881,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299094,
+    "slug": "atletico-madrid-vs-bayer-leverkusen-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299097,
+    "slug": "club-brugge-kv-vs-juventus-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": 176,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299098,
+    "slug": "fk-crvena-zvezda-vs-psv-eindhoven-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 1406,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299100,
+    "slug": "slovan-bratislava-vs-vfb-stuttgart-2025-01-21",
+    "date": "2025-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "venue_id": 11914,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299101,
+    "slug": "rb-leipzig-vs-sporting-cp-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": 738,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299102,
+    "slug": "shakhtar-donetsk-vs-stade-brestois-29-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "away_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "venue_id": 741,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299108,
+    "slug": "arsenal-vs-dinamo-zagreb-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "venue_id": 494,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299106,
+    "slug": "paris-saint-germain-vs-manchester-city-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 671,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299104,
+    "slug": "feyenoord-vs-bayern-munchen-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 1128,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299103,
+    "slug": "celtic-vs-bsc-young-boys-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "away_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "venue_id": 1386,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299105,
+    "slug": "ac-milan-vs-girona-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "away_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "venue_id": 907,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299109,
+    "slug": "real-madrid-vs-red-bull-salzburg-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": 1456,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299107,
+    "slug": "sparta-praha-vs-inter-2025-01-22",
+    "date": "2025-01-22",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 19513,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299122,
+    "slug": "manchester-city-vs-club-brugge-kv-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 555,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299110,
+    "slug": "aston-villa-vs-celtic-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "home_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "away_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "venue_id": 495,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299121,
+    "slug": "lille-vs-feyenoord-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 1
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299114,
+    "slug": "stade-brestois-29-vs-real-madrid-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": 650,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299116,
+    "slug": "bayern-munchen-vs-slovan-bratislava-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": 700,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299113,
+    "slug": "borussia-dortmund-vs-shakhtar-donetsk-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 550,
+      "name": "Shakhtar Donetsk",
+      "slug": "shakhtar-donetsk",
+      "logo": "https://media.api-sports.io/football/teams/550.png"
+    },
+    "venue_id": 19381,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299112,
+    "slug": "bayer-leverkusen-vs-sparta-praha-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "slug": "sparta-praha",
+      "logo": "https://media.api-sports.io/football/teams/628.png"
+    },
+    "venue_id": 699,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299126,
+    "slug": "vfb-stuttgart-vs-paris-saint-germain-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 172,
+      "name": "VfB Stuttgart",
+      "slug": "vfb-stuttgart",
+      "logo": "https://media.api-sports.io/football/teams/172.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 20473,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299123,
+    "slug": "psv-eindhoven-vs-liverpool-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 1143,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299125,
+    "slug": "sporting-cp-vs-bologna-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 500,
+      "name": "Bologna",
+      "slug": "bologna",
+      "logo": "https://media.api-sports.io/football/teams/500.png"
+    },
+    "venue_id": 1293,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299120,
+    "slug": "juventus-vs-benfica-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 909,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299119,
+    "slug": "inter-vs-monaco-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": 907,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299111,
+    "slug": "barcelona-vs-atalanta-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": 19939,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299118,
+    "slug": "girona-vs-arsenal-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 547,
+      "name": "Girona",
+      "slug": "girona",
+      "logo": "https://media.api-sports.io/football/teams/547.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 1478,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299127,
+    "slug": "bsc-young-boys-vs-fk-crvena-zvezda-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 565,
+      "name": "BSC Young Boys",
+      "slug": "bsc-young-boys",
+      "logo": "https://media.api-sports.io/football/teams/565.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": 10500,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299117,
+    "slug": "red-bull-salzburg-vs-atletico-madrid-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": 148,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299115,
+    "slug": "dinamo-zagreb-vs-ac-milan-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "slug": "dinamo-zagreb",
+      "logo": "https://media.api-sports.io/football/teams/620.png"
+    },
+    "away_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "venue_id": 412,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1299124,
+    "slug": "sturm-graz-vs-rb-leipzig-2025-01-29",
+    "date": "2025-01-29",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "away_team": {
+      "id": 173,
+      "name": "RB Leipzig",
+      "slug": "rb-leipzig",
+      "logo": "https://media.api-sports.io/football/teams/173.png"
+    },
+    "venue_id": 19258,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1345737,
+    "slug": "stade-brestois-29-vs-paris-saint-germain-2025-02-11",
+    "date": "2025-02-11",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 650,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345743,
+    "slug": "manchester-city-vs-real-madrid-2025-02-11",
+    "date": "2025-02-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": 555,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345739,
+    "slug": "sporting-cp-vs-borussia-dortmund-2025-02-11",
+    "date": "2025-02-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": 1293,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345741,
+    "slug": "juventus-vs-psv-eindhoven-2025-02-11",
+    "date": "2025-02-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 909,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345745,
+    "slug": "club-brugge-kv-vs-atalanta-2025-02-12",
+    "date": "2025-02-12",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": 176,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345749,
+    "slug": "monaco-vs-benfica-2025-02-12",
+    "date": "2025-02-12",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 20470,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345747,
+    "slug": "feyenoord-vs-ac-milan-2025-02-12",
+    "date": "2025-02-12",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "venue_id": 1128,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345751,
+    "slug": "celtic-vs-bayern-munchen-2025-02-12",
+    "date": "2025-02-12",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 1386,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345748,
+    "slug": "ac-milan-vs-feyenoord-2025-02-18",
+    "date": "2025-02-18",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 489,
+      "name": "AC Milan",
+      "slug": "ac-milan",
+      "logo": "https://media.api-sports.io/football/teams/489.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": 907,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345752,
+    "slug": "bayern-munchen-vs-celtic-2025-02-18",
+    "date": "2025-02-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "venue_id": 700,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345750,
+    "slug": "benfica-vs-monaco-2025-02-18",
+    "date": "2025-02-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345746,
+    "slug": "atalanta-vs-club-brugge-kv-2025-02-18",
+    "date": "2025-02-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 879,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345740,
+    "slug": "borussia-dortmund-vs-sporting-cp-2025-02-19",
+    "date": "2025-02-19",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": 19381,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345738,
+    "slug": "paris-saint-germain-vs-stade-brestois-29-2025-02-19",
+    "date": "2025-02-19",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 7,
+      "away": 0
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 106,
+      "name": "Stade Brestois 29",
+      "slug": "stade-brestois-29",
+      "logo": "https://media.api-sports.io/football/teams/106.png"
+    },
+    "venue_id": 671,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345742,
+    "slug": "psv-eindhoven-vs-juventus-2025-02-19",
+    "date": "2025-02-19",
+    "kickoff_utc": "20:00",
+    "status": "AET",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": 1143,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1345744,
+    "slug": "real-madrid-vs-manchester-city-2025-02-19",
+    "date": "2025-02-19",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 1456,
+    "matchday": null,
+    "stage": "Knockout Round Play-offs"
+  },
+  {
+    "fixture_id": 1353166,
+    "slug": "club-brugge-kv-vs-aston-villa-2025-03-04",
+    "date": "2025-03-04",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue_id": 176,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353168,
+    "slug": "borussia-dortmund-vs-lille-2025-03-04",
+    "date": "2025-03-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "venue_id": 19381,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353172,
+    "slug": "psv-eindhoven-vs-arsenal-2025-03-04",
+    "date": "2025-03-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 7
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 1143,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353170,
+    "slug": "real-madrid-vs-atletico-madrid-2025-03-04",
+    "date": "2025-03-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": 1456,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353174,
+    "slug": "feyenoord-vs-inter-2025-03-05",
+    "date": "2025-03-05",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 1128,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353178,
+    "slug": "paris-saint-germain-vs-liverpool-2025-03-05",
+    "date": "2025-03-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 671,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353180,
+    "slug": "bayern-munchen-vs-bayer-leverkusen-2025-03-05",
+    "date": "2025-03-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": 700,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353176,
+    "slug": "benfica-vs-barcelona-2025-03-05",
+    "date": "2025-03-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353177,
+    "slug": "barcelona-vs-benfica-2025-03-11",
+    "date": "2025-03-11",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 19939,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353179,
+    "slug": "liverpool-vs-paris-saint-germain-2025-03-11",
+    "date": "2025-03-11",
+    "kickoff_utc": "20:00",
+    "status": "PEN",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 550,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353181,
+    "slug": "bayer-leverkusen-vs-bayern-munchen-2025-03-11",
+    "date": "2025-03-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 699,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353175,
+    "slug": "inter-vs-feyenoord-2025-03-11",
+    "date": "2025-03-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": 907,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353169,
+    "slug": "lille-vs-borussia-dortmund-2025-03-12",
+    "date": "2025-03-12",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 79,
+      "name": "Lille",
+      "slug": "lille",
+      "logo": "https://media.api-sports.io/football/teams/79.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353173,
+    "slug": "arsenal-vs-psv-eindhoven-2025-03-12",
+    "date": "2025-03-12",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 494,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353167,
+    "slug": "aston-villa-vs-club-brugge-kv-2025-03-12",
+    "date": "2025-03-12",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 495,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1353171,
+    "slug": "atletico-madrid-vs-real-madrid-2025-03-12",
+    "date": "2025-03-12",
+    "kickoff_utc": "20:00",
+    "status": "PEN",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1360764,
+    "slug": "arsenal-vs-real-madrid-2025-04-08",
+    "date": "2025-04-08",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": 494,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360333,
+    "slug": "bayern-munchen-vs-inter-2025-04-08",
+    "date": "2025-04-08",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 700,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360762,
+    "slug": "paris-saint-germain-vs-aston-villa-2025-04-09",
+    "date": "2025-04-09",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "venue_id": 671,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360766,
+    "slug": "barcelona-vs-borussia-dortmund-2025-04-09",
+    "date": "2025-04-09",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": 19939,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360763,
+    "slug": "aston-villa-vs-paris-saint-germain-2025-04-15",
+    "date": "2025-04-15",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 66,
+      "name": "Aston Villa",
+      "slug": "aston-villa",
+      "logo": "https://media.api-sports.io/football/teams/66.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 495,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360767,
+    "slug": "borussia-dortmund-vs-barcelona-2025-04-15",
+    "date": "2025-04-15",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 19381,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360334,
+    "slug": "inter-vs-bayern-munchen-2025-04-16",
+    "date": "2025-04-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": 907,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1360765,
+    "slug": "real-madrid-vs-arsenal-2025-04-16",
+    "date": "2025-04-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 1456,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1371730,
+    "slug": "arsenal-vs-paris-saint-germain-2025-04-29",
+    "date": "2025-04-29",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 494,
+    "matchday": null,
+    "stage": "Semi-finals"
+  },
+  {
+    "fixture_id": 1371732,
+    "slug": "barcelona-vs-inter-2025-04-30",
+    "date": "2025-04-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 19939,
+    "matchday": null,
+    "stage": "Semi-finals"
+  },
+  {
+    "fixture_id": 1371733,
+    "slug": "inter-vs-barcelona-2025-05-06",
+    "date": "2025-05-06",
+    "kickoff_utc": "19:00",
+    "status": "AET",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 907,
+    "matchday": null,
+    "stage": "Semi-finals"
+  },
+  {
+    "fixture_id": 1371731,
+    "slug": "paris-saint-germain-vs-arsenal-2025-05-07",
+    "date": "2025-05-07",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 671,
+    "matchday": null,
+    "stage": "Semi-finals"
+  },
+  {
+    "fixture_id": 1374812,
+    "slug": "paris-saint-germain-vs-inter-2025-05-31",
+    "date": "2025-05-31",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": 700,
+    "matchday": null,
+    "stage": "Final"
+  }
+]

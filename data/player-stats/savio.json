@@ -1,0 +1,21 @@
+{
+  "player_id": 266657,
+  "slug": "savio",
+  "name": "Sávio",
+  "api_photo": "https://media.api-sports.io/football/players/266657.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Manchester City",
+      "club_logo": "https://media.api-sports.io/football/teams/50.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 36,
+      "goals": 1,
+      "assists": 8,
+      "minutes": 1770,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

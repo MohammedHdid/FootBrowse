@@ -1,0 +1,19 @@
+{
+  "id": 25364,
+  "name": "Keith Andrews",
+  "photo": "https://media.api-sports.io/football/coachs/25364.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 55,
+  "team_slug": "brentford",
+  "fetched_at": "2026-04-14T22:38:10.589Z",
+  "career": [
+    {
+      "team_id": 55,
+      "team_name": "Brentford",
+      "team_logo": "https://media.api-sports.io/football/teams/55.png",
+      "start": "2025-07-01",
+      "end": null
+    }
+  ]
+}

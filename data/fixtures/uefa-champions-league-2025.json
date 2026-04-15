@@ -1,0 +1,7178 @@
+[
+  {
+    "fixture_id": 1383422,
+    "slug": "kups-vs-milsami-orhei-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 1165,
+      "name": "KuPS",
+      "slug": "kups",
+      "logo": "https://media.api-sports.io/football/teams/1165.png"
+    },
+    "away_team": {
+      "id": 691,
+      "name": "Milsami Orhei",
+      "slug": "milsami-orhei",
+      "logo": "https://media.api-sports.io/football/teams/691.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383423,
+    "slug": "saburtalo-vs-malmo-ff-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 3502,
+      "name": "Saburtalo",
+      "slug": "saburtalo",
+      "logo": "https://media.api-sports.io/football/teams/3502.png"
+    },
+    "away_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383424,
+    "slug": "fc-noah-vs-buducnost-podgorica-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3684,
+      "name": "FC Noah",
+      "slug": "fc-noah",
+      "logo": "https://media.api-sports.io/football/teams/3684.png"
+    },
+    "away_team": {
+      "id": 579,
+      "name": "Buducnost Podgorica",
+      "slug": "buducnost-podgorica",
+      "logo": "https://media.api-sports.io/football/teams/579.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383425,
+    "slug": "fc-levadia-tallinn-vs-rigas-fs-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "16:30",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 2273,
+      "name": "FC Levadia Tallinn",
+      "slug": "fc-levadia-tallinn",
+      "logo": "https://media.api-sports.io/football/teams/2273.png"
+    },
+    "away_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383426,
+    "slug": "olimpija-ljubljana-vs-kairat-almaty-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 677,
+      "name": "Olimpija Ljubljana",
+      "slug": "olimpija-ljubljana",
+      "logo": "https://media.api-sports.io/football/teams/677.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": 1442,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383428,
+    "slug": "the-new-saints-vs-shkendija-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 354,
+      "name": "The New Saints",
+      "slug": "the-new-saints",
+      "logo": "https://media.api-sports.io/football/teams/354.png"
+    },
+    "away_team": {
+      "id": 609,
+      "name": "Shkendija",
+      "slug": "shkendija",
+      "logo": "https://media.api-sports.io/football/teams/609.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383429,
+    "slug": "vikingur-gota-vs-lincoln-red-imps-fc-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 580,
+      "name": "Vikingur Gota",
+      "slug": "vikingur-gota",
+      "logo": "https://media.api-sports.io/football/teams/580.png"
+    },
+    "away_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "venue_id": 21585,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383427,
+    "slug": "drita-vs-fc-differdange-03-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 14281,
+      "name": "Drita",
+      "slug": "drita",
+      "logo": "https://media.api-sports.io/football/teams/14281.png"
+    },
+    "away_team": {
+      "id": 684,
+      "name": "FC Differdange 03",
+      "slug": "fc-differdange-03",
+      "logo": "https://media.api-sports.io/football/teams/684.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383431,
+    "slug": "egnatia-rrogozhine-vs-breidablik-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3327,
+      "name": "Egnatia Rrogozhinë",
+      "slug": "egnatia-rrogozhine",
+      "logo": "https://media.api-sports.io/football/teams/3327.png"
+    },
+    "away_team": {
+      "id": 276,
+      "name": "Breidablik",
+      "slug": "breidablik",
+      "logo": "https://media.api-sports.io/football/teams/276.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383430,
+    "slug": "virtus-vs-zrinjski-2025-07-08",
+    "date": "2025-07-08",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 5308,
+      "name": "Virtus",
+      "slug": "virtus",
+      "logo": "https://media.api-sports.io/football/teams/5308.png"
+    },
+    "away_team": {
+      "id": 588,
+      "name": "Zrinjski",
+      "slug": "zrinjski",
+      "logo": "https://media.api-sports.io/football/teams/588.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383432,
+    "slug": "fk-zalgiris-vilnius-vs-hamrun-spartans-2025-07-09",
+    "date": "2025-07-09",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 586,
+      "name": "FK Zalgiris Vilnius",
+      "slug": "fk-zalgiris-vilnius",
+      "logo": "https://media.api-sports.io/football/teams/586.png"
+    },
+    "away_team": {
+      "id": 4626,
+      "name": "Hamrun Spartans",
+      "slug": "hamrun-spartans",
+      "logo": "https://media.api-sports.io/football/teams/4626.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383434,
+    "slug": "fcsb-vs-inter-club-d-escaldes-2025-07-09",
+    "date": "2025-07-09",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "away_team": {
+      "id": 3342,
+      "name": "Inter Club d'Escaldes",
+      "slug": "inter-club-d-escaldes",
+      "logo": "https://media.api-sports.io/football/teams/3342.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383433,
+    "slug": "ludogorets-vs-dinamo-minsk-2025-07-09",
+    "date": "2025-07-09",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "away_team": {
+      "id": 394,
+      "name": "Dinamo Minsk",
+      "slug": "dinamo-minsk",
+      "logo": "https://media.api-sports.io/football/teams/394.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383435,
+    "slug": "shelbourne-vs-linfield-2025-07-09",
+    "date": "2025-07-09",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3854,
+      "name": "Shelbourne",
+      "slug": "shelbourne",
+      "logo": "https://media.api-sports.io/football/teams/3854.png"
+    },
+    "away_team": {
+      "id": 583,
+      "name": "Linfield",
+      "slug": "linfield",
+      "logo": "https://media.api-sports.io/football/teams/583.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383436,
+    "slug": "kairat-almaty-vs-olimpija-ljubljana-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 677,
+      "name": "Olimpija Ljubljana",
+      "slug": "olimpija-ljubljana",
+      "logo": "https://media.api-sports.io/football/teams/677.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383437,
+    "slug": "lincoln-red-imps-fc-vs-vikingur-gota-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "15:30",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "away_team": {
+      "id": 580,
+      "name": "Vikingur Gota",
+      "slug": "vikingur-gota",
+      "logo": "https://media.api-sports.io/football/teams/580.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383440,
+    "slug": "malmo-ff-vs-saburtalo-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "away_team": {
+      "id": 3502,
+      "name": "Saburtalo",
+      "slug": "saburtalo",
+      "logo": "https://media.api-sports.io/football/teams/3502.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383438,
+    "slug": "milsami-orhei-vs-kups-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 691,
+      "name": "Milsami Orhei",
+      "slug": "milsami-orhei",
+      "logo": "https://media.api-sports.io/football/teams/691.png"
+    },
+    "away_team": {
+      "id": 1165,
+      "name": "KuPS",
+      "slug": "kups",
+      "logo": "https://media.api-sports.io/football/teams/1165.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383441,
+    "slug": "rigas-fs-vs-fc-levadia-tallinn-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "away_team": {
+      "id": 2273,
+      "name": "FC Levadia Tallinn",
+      "slug": "fc-levadia-tallinn",
+      "logo": "https://media.api-sports.io/football/teams/2273.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383439,
+    "slug": "hamrun-spartans-vs-fk-zalgiris-vilnius-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "17:00",
+    "status": "PEN",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 4626,
+      "name": "Hamrun Spartans",
+      "slug": "hamrun-spartans",
+      "logo": "https://media.api-sports.io/football/teams/4626.png"
+    },
+    "away_team": {
+      "id": 586,
+      "name": "FK Zalgiris Vilnius",
+      "slug": "fk-zalgiris-vilnius",
+      "logo": "https://media.api-sports.io/football/teams/586.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383443,
+    "slug": "shkendija-vs-the-new-saints-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "18:00",
+    "status": "AET",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 609,
+      "name": "Shkendija",
+      "slug": "shkendija",
+      "logo": "https://media.api-sports.io/football/teams/609.png"
+    },
+    "away_team": {
+      "id": 354,
+      "name": "The New Saints",
+      "slug": "the-new-saints",
+      "logo": "https://media.api-sports.io/football/teams/354.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383442,
+    "slug": "fc-differdange-03-vs-drita-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 684,
+      "name": "FC Differdange 03",
+      "slug": "fc-differdange-03",
+      "logo": "https://media.api-sports.io/football/teams/684.png"
+    },
+    "away_team": {
+      "id": 14281,
+      "name": "Drita",
+      "slug": "drita",
+      "logo": "https://media.api-sports.io/football/teams/14281.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383444,
+    "slug": "inter-club-d-escaldes-vs-fcsb-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3342,
+      "name": "Inter Club d'Escaldes",
+      "slug": "inter-club-d-escaldes",
+      "logo": "https://media.api-sports.io/football/teams/3342.png"
+    },
+    "away_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383446,
+    "slug": "breidablik-vs-egnatia-rrogozhine-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 276,
+      "name": "Breidablik",
+      "slug": "breidablik",
+      "logo": "https://media.api-sports.io/football/teams/276.png"
+    },
+    "away_team": {
+      "id": 3327,
+      "name": "Egnatia Rrogozhinë",
+      "slug": "egnatia-rrogozhine",
+      "logo": "https://media.api-sports.io/football/teams/3327.png"
+    },
+    "venue_id": 820,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383447,
+    "slug": "buducnost-podgorica-vs-fc-noah-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 579,
+      "name": "Buducnost Podgorica",
+      "slug": "buducnost-podgorica",
+      "logo": "https://media.api-sports.io/football/teams/579.png"
+    },
+    "away_team": {
+      "id": 3684,
+      "name": "FC Noah",
+      "slug": "fc-noah",
+      "logo": "https://media.api-sports.io/football/teams/3684.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383445,
+    "slug": "zrinjski-vs-virtus-2025-07-15",
+    "date": "2025-07-15",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 588,
+      "name": "Zrinjski",
+      "slug": "zrinjski",
+      "logo": "https://media.api-sports.io/football/teams/588.png"
+    },
+    "away_team": {
+      "id": 5308,
+      "name": "Virtus",
+      "slug": "virtus",
+      "logo": "https://media.api-sports.io/football/teams/5308.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383449,
+    "slug": "dinamo-minsk-vs-ludogorets-2025-07-16",
+    "date": "2025-07-16",
+    "kickoff_utc": "18:45",
+    "status": "AET",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 394,
+      "name": "Dinamo Minsk",
+      "slug": "dinamo-minsk",
+      "logo": "https://media.api-sports.io/football/teams/394.png"
+    },
+    "away_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1383448,
+    "slug": "linfield-vs-shelbourne-2025-07-16",
+    "date": "2025-07-16",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 583,
+      "name": "Linfield",
+      "slug": "linfield",
+      "logo": "https://media.api-sports.io/football/teams/583.png"
+    },
+    "away_team": {
+      "id": 3854,
+      "name": "Shelbourne",
+      "slug": "shelbourne",
+      "logo": "https://media.api-sports.io/football/teams/3854.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "1st Qualifying Round"
+  },
+  {
+    "fixture_id": 1405443,
+    "slug": "kups-vs-kairat-almaty-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 1165,
+      "name": "KuPS",
+      "slug": "kups",
+      "logo": "https://media.api-sports.io/football/teams/1165.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405445,
+    "slug": "lincoln-red-imps-fc-vs-fk-crvena-zvezda-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405446,
+    "slug": "fc-noah-vs-ferencvarosi-tc-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 3684,
+      "name": "FC Noah",
+      "slug": "fc-noah",
+      "logo": "https://media.api-sports.io/football/teams/3684.png"
+    },
+    "away_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405448,
+    "slug": "fc-copenhagen-vs-drita-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 14281,
+      "name": "Drita",
+      "slug": "drita",
+      "logo": "https://media.api-sports.io/football/teams/14281.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383450,
+    "slug": "plzen-vs-servette-fc-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 567,
+      "name": "Plzen",
+      "slug": "plzen",
+      "logo": "https://media.api-sports.io/football/teams/567.png"
+    },
+    "away_team": {
+      "id": 2184,
+      "name": "Servette FC",
+      "slug": "servette-fc",
+      "logo": "https://media.api-sports.io/football/teams/2184.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383451,
+    "slug": "pafos-vs-maccabi-tel-aviv-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 604,
+      "name": "Maccabi Tel Aviv",
+      "slug": "maccabi-tel-aviv",
+      "logo": "https://media.api-sports.io/football/teams/604.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405447,
+    "slug": "rigas-fs-vs-malmo-ff-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "away_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405449,
+    "slug": "hamrun-spartans-vs-dynamo-kyiv-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 4626,
+      "name": "Hamrun Spartans",
+      "slug": "hamrun-spartans",
+      "logo": "https://media.api-sports.io/football/teams/4626.png"
+    },
+    "away_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405450,
+    "slug": "shkendija-vs-fcsb-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 609,
+      "name": "Shkendija",
+      "slug": "shkendija",
+      "logo": "https://media.api-sports.io/football/teams/609.png"
+    },
+    "away_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405451,
+    "slug": "slovan-bratislava-vs-zrinjski-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "18:15",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 588,
+      "name": "Zrinjski",
+      "slug": "zrinjski",
+      "logo": "https://media.api-sports.io/football/teams/588.png"
+    },
+    "venue_id": 11914,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405452,
+    "slug": "lech-poznan-vs-breidablik-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 7,
+      "away": 1
+    },
+    "home_team": {
+      "id": 347,
+      "name": "Lech Poznan",
+      "slug": "lech-poznan",
+      "logo": "https://media.api-sports.io/football/teams/347.png"
+    },
+    "away_team": {
+      "id": 276,
+      "name": "Breidablik",
+      "slug": "breidablik",
+      "logo": "https://media.api-sports.io/football/teams/276.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383452,
+    "slug": "rangers-vs-panathinaikos-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "away_team": {
+      "id": 617,
+      "name": "Panathinaikos",
+      "slug": "panathinaikos",
+      "logo": "https://media.api-sports.io/football/teams/617.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405453,
+    "slug": "hnk-rijeka-vs-ludogorets-2025-07-22",
+    "date": "2025-07-22",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 561,
+      "name": "HNK Rijeka",
+      "slug": "hnk-rijeka",
+      "logo": "https://media.api-sports.io/football/teams/561.png"
+    },
+    "away_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383453,
+    "slug": "brann-vs-red-bull-salzburg-2025-07-23",
+    "date": "2025-07-23",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 319,
+      "name": "Brann",
+      "slug": "brann",
+      "logo": "https://media.api-sports.io/football/teams/319.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405444,
+    "slug": "shelbourne-vs-qarabag-2025-07-23",
+    "date": "2025-07-23",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 3854,
+      "name": "Shelbourne",
+      "slug": "shelbourne",
+      "logo": "https://media.api-sports.io/football/teams/3854.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405454,
+    "slug": "kairat-almaty-vs-kups-2025-07-29",
+    "date": "2025-07-29",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 1165,
+      "name": "KuPS",
+      "slug": "kups",
+      "logo": "https://media.api-sports.io/football/teams/1165.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405457,
+    "slug": "dynamo-kyiv-vs-hamrun-spartans-2025-07-29",
+    "date": "2025-07-29",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "away_team": {
+      "id": 4626,
+      "name": "Hamrun Spartans",
+      "slug": "hamrun-spartans",
+      "logo": "https://media.api-sports.io/football/teams/4626.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405456,
+    "slug": "drita-vs-fc-copenhagen-2025-07-29",
+    "date": "2025-07-29",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 14281,
+      "name": "Drita",
+      "slug": "drita",
+      "logo": "https://media.api-sports.io/football/teams/14281.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405458,
+    "slug": "zrinjski-vs-slovan-bratislava-2025-07-29",
+    "date": "2025-07-29",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 588,
+      "name": "Zrinjski",
+      "slug": "zrinjski",
+      "logo": "https://media.api-sports.io/football/teams/588.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405459,
+    "slug": "fk-crvena-zvezda-vs-lincoln-red-imps-fc-2025-07-29",
+    "date": "2025-07-29",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 667,
+      "name": "Lincoln Red Imps FC",
+      "slug": "lincoln-red-imps-fc",
+      "logo": "https://media.api-sports.io/football/teams/667.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405460,
+    "slug": "qarabag-vs-shelbourne-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 3854,
+      "name": "Shelbourne",
+      "slug": "shelbourne",
+      "logo": "https://media.api-sports.io/football/teams/3854.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405461,
+    "slug": "malmo-ff-vs-rigas-fs-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "away_team": {
+      "id": 4160,
+      "name": "Rīgas FS",
+      "slug": "rigas-fs",
+      "logo": "https://media.api-sports.io/football/teams/4160.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405462,
+    "slug": "fcsb-vs-shkendija-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 559,
+      "name": "FCSB",
+      "slug": "fcsb",
+      "logo": "https://media.api-sports.io/football/teams/559.png"
+    },
+    "away_team": {
+      "id": 609,
+      "name": "Shkendija",
+      "slug": "shkendija",
+      "logo": "https://media.api-sports.io/football/teams/609.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405455,
+    "slug": "ludogorets-vs-hnk-rijeka-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "17:30",
+    "status": "AET",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "away_team": {
+      "id": 561,
+      "name": "HNK Rijeka",
+      "slug": "hnk-rijeka",
+      "logo": "https://media.api-sports.io/football/teams/561.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383454,
+    "slug": "maccabi-tel-aviv-vs-pafos-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 604,
+      "name": "Maccabi Tel Aviv",
+      "slug": "maccabi-tel-aviv",
+      "logo": "https://media.api-sports.io/football/teams/604.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383455,
+    "slug": "panathinaikos-vs-rangers-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 617,
+      "name": "Panathinaikos",
+      "slug": "panathinaikos",
+      "logo": "https://media.api-sports.io/football/teams/617.png"
+    },
+    "away_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405463,
+    "slug": "ferencvarosi-tc-vs-fc-noah-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 3
+    },
+    "home_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "away_team": {
+      "id": 3684,
+      "name": "FC Noah",
+      "slug": "fc-noah",
+      "logo": "https://media.api-sports.io/football/teams/3684.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1405464,
+    "slug": "breidablik-vs-lech-poznan-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 276,
+      "name": "Breidablik",
+      "slug": "breidablik",
+      "logo": "https://media.api-sports.io/football/teams/276.png"
+    },
+    "away_team": {
+      "id": 347,
+      "name": "Lech Poznan",
+      "slug": "lech-poznan",
+      "logo": "https://media.api-sports.io/football/teams/347.png"
+    },
+    "venue_id": 820,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383456,
+    "slug": "red-bull-salzburg-vs-brann-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 319,
+      "name": "Brann",
+      "slug": "brann",
+      "logo": "https://media.api-sports.io/football/teams/319.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1383457,
+    "slug": "servette-fc-vs-plzen-2025-07-30",
+    "date": "2025-07-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 2184,
+      "name": "Servette FC",
+      "slug": "servette-fc",
+      "logo": "https://media.api-sports.io/football/teams/2184.png"
+    },
+    "away_team": {
+      "id": 567,
+      "name": "Plzen",
+      "slug": "plzen",
+      "logo": "https://media.api-sports.io/football/teams/567.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "2nd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421137,
+    "slug": "malmo-ff-vs-fc-copenhagen-2025-08-05",
+    "date": "2025-08-05",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421138,
+    "slug": "dynamo-kyiv-vs-pafos-2025-08-05",
+    "date": "2025-08-05",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421139,
+    "slug": "shkendija-vs-qarabag-2025-08-05",
+    "date": "2025-08-05",
+    "kickoff_utc": "18:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 609,
+      "name": "Shkendija",
+      "slug": "shkendija",
+      "logo": "https://media.api-sports.io/football/teams/609.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421140,
+    "slug": "rangers-vs-plzen-2025-08-05",
+    "date": "2025-08-05",
+    "kickoff_utc": "18:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "away_team": {
+      "id": 567,
+      "name": "Plzen",
+      "slug": "plzen",
+      "logo": "https://media.api-sports.io/football/teams/567.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1419568,
+    "slug": "kairat-almaty-vs-slovan-bratislava-2025-08-06",
+    "date": "2025-08-06",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421141,
+    "slug": "red-bull-salzburg-vs-club-brugge-kv-2025-08-06",
+    "date": "2025-08-06",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421142,
+    "slug": "ludogorets-vs-ferencvarosi-tc-2025-08-06",
+    "date": "2025-08-06",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "away_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421143,
+    "slug": "lech-poznan-vs-fk-crvena-zvezda-2025-08-06",
+    "date": "2025-08-06",
+    "kickoff_utc": "18:30",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 347,
+      "name": "Lech Poznan",
+      "slug": "lech-poznan",
+      "logo": "https://media.api-sports.io/football/teams/347.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1414143,
+    "slug": "nice-vs-benfica-2025-08-06",
+    "date": "2025-08-06",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 84,
+      "name": "Nice",
+      "slug": "nice",
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1414142,
+    "slug": "feyenoord-vs-fenerbahce-2025-08-06",
+    "date": "2025-08-06",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "away_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421144,
+    "slug": "qarabag-vs-shkendija-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 609,
+      "name": "Shkendija",
+      "slug": "shkendija",
+      "logo": "https://media.api-sports.io/football/teams/609.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421148,
+    "slug": "fc-copenhagen-vs-malmo-ff-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 375,
+      "name": "Malmo FF",
+      "slug": "malmo-ff",
+      "logo": "https://media.api-sports.io/football/teams/375.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421146,
+    "slug": "plzen-vs-rangers-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 567,
+      "name": "Plzen",
+      "slug": "plzen",
+      "logo": "https://media.api-sports.io/football/teams/567.png"
+    },
+    "away_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1414144,
+    "slug": "fenerbahce-vs-feyenoord-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 2
+    },
+    "home_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "away_team": {
+      "id": 209,
+      "name": "Feyenoord",
+      "slug": "feyenoord",
+      "logo": "https://media.api-sports.io/football/teams/209.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421145,
+    "slug": "pafos-vs-dynamo-kyiv-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "17:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 572,
+      "name": "Dynamo Kyiv",
+      "slug": "dynamo-kyiv",
+      "logo": "https://media.api-sports.io/football/teams/572.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421147,
+    "slug": "club-brugge-kv-vs-red-bull-salzburg-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "17:30",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 571,
+      "name": "Red Bull Salzburg",
+      "slug": "red-bull-salzburg",
+      "logo": "https://media.api-sports.io/football/teams/571.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421149,
+    "slug": "ferencvarosi-tc-vs-ludogorets-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "18:15",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "away_team": {
+      "id": 566,
+      "name": "Ludogorets",
+      "slug": "ludogorets",
+      "logo": "https://media.api-sports.io/football/teams/566.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1419569,
+    "slug": "slovan-bratislava-vs-kairat-almaty-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "18:15",
+    "status": "PEN",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 656,
+      "name": "Slovan Bratislava",
+      "slug": "slovan-bratislava",
+      "logo": "https://media.api-sports.io/football/teams/656.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": 11914,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1414145,
+    "slug": "benfica-vs-nice-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 84,
+      "name": "Nice",
+      "slug": "nice",
+      "logo": "https://media.api-sports.io/football/teams/84.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1421150,
+    "slug": "fk-crvena-zvezda-vs-lech-poznan-2025-08-12",
+    "date": "2025-08-12",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 347,
+      "name": "Lech Poznan",
+      "slug": "lech-poznan",
+      "logo": "https://media.api-sports.io/football/teams/347.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "3rd Qualifying Round"
+  },
+  {
+    "fixture_id": 1435547,
+    "slug": "rangers-vs-club-brugge-kv-2025-08-19",
+    "date": "2025-08-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435546,
+    "slug": "fk-crvena-zvezda-vs-pafos-2025-08-19",
+    "date": "2025-08-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435545,
+    "slug": "ferencvarosi-tc-vs-qarabag-2025-08-19",
+    "date": "2025-08-19",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435549,
+    "slug": "celtic-vs-kairat-almaty-2025-08-20",
+    "date": "2025-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1424397,
+    "slug": "bodo-glimt-vs-sturm-graz-2025-08-20",
+    "date": "2025-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 0
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435548,
+    "slug": "fc-basel-1893-vs-fc-copenhagen-2025-08-20",
+    "date": "2025-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 551,
+      "name": "FC Basel 1893",
+      "slug": "fc-basel-1893",
+      "logo": "https://media.api-sports.io/football/teams/551.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435550,
+    "slug": "fenerbahce-vs-benfica-2025-08-20",
+    "date": "2025-08-20",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435551,
+    "slug": "kairat-almaty-vs-celtic-2025-08-26",
+    "date": "2025-08-26",
+    "kickoff_utc": "16:45",
+    "status": "PEN",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 247,
+      "name": "Celtic",
+      "slug": "celtic",
+      "logo": "https://media.api-sports.io/football/teams/247.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1424398,
+    "slug": "sturm-graz-vs-bodo-glimt-2025-08-26",
+    "date": "2025-08-26",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "slug": "sturm-graz",
+      "logo": "https://media.api-sports.io/football/teams/637.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": 19258,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435552,
+    "slug": "pafos-vs-fk-crvena-zvezda-2025-08-26",
+    "date": "2025-08-26",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 598,
+      "name": "FK Crvena Zvezda",
+      "slug": "fk-crvena-zvezda",
+      "logo": "https://media.api-sports.io/football/teams/598.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435553,
+    "slug": "qarabag-vs-ferencvarosi-tc-2025-08-27",
+    "date": "2025-08-27",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 651,
+      "name": "Ferencvarosi TC",
+      "slug": "ferencvarosi-tc",
+      "logo": "https://media.api-sports.io/football/teams/651.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435556,
+    "slug": "benfica-vs-fenerbahce-2025-08-27",
+    "date": "2025-08-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 611,
+      "name": "Fenerbahçe",
+      "slug": "fenerbahce",
+      "logo": "https://media.api-sports.io/football/teams/611.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435554,
+    "slug": "fc-copenhagen-vs-fc-basel-1893-2025-08-27",
+    "date": "2025-08-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 551,
+      "name": "FC Basel 1893",
+      "slug": "fc-basel-1893",
+      "logo": "https://media.api-sports.io/football/teams/551.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1435555,
+    "slug": "club-brugge-kv-vs-rangers-2025-08-27",
+    "date": "2025-08-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 0
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 257,
+      "name": "Rangers",
+      "slug": "rangers",
+      "logo": "https://media.api-sports.io/football/teams/257.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Play-offs"
+  },
+  {
+    "fixture_id": 1451020,
+    "slug": "psv-eindhoven-vs-union-st-gilloise-2025-09-16",
+    "date": "2025-09-16",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451021,
+    "slug": "athletic-club-vs-arsenal-2025-09-16",
+    "date": "2025-09-16",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451023,
+    "slug": "tottenham-vs-villarreal-2025-09-16",
+    "date": "2025-09-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "away_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451025,
+    "slug": "benfica-vs-qarabag-2025-09-16",
+    "date": "2025-09-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451022,
+    "slug": "juventus-vs-borussia-dortmund-2025-09-16",
+    "date": "2025-09-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 4
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451024,
+    "slug": "real-madrid-vs-marseille-2025-09-16",
+    "date": "2025-09-16",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "venue_id": 1456,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451026,
+    "slug": "olympiakos-piraeus-vs-pafos-2025-09-17",
+    "date": "2025-09-17",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451027,
+    "slug": "slavia-praha-vs-bodo-glimt-2025-09-17",
+    "date": "2025-09-17",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451030,
+    "slug": "liverpool-vs-atletico-madrid-2025-09-17",
+    "date": "2025-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451029,
+    "slug": "paris-saint-germain-vs-atalanta-2025-09-17",
+    "date": "2025-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451031,
+    "slug": "bayern-munchen-vs-chelsea-2025-09-17",
+    "date": "2025-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451028,
+    "slug": "ajax-vs-inter-2025-09-17",
+    "date": "2025-09-17",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451033,
+    "slug": "fc-copenhagen-vs-bayer-leverkusen-2025-09-18",
+    "date": "2025-09-18",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451032,
+    "slug": "club-brugge-kv-vs-monaco-2025-09-18",
+    "date": "2025-09-18",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451036,
+    "slug": "newcastle-vs-barcelona-2025-09-18",
+    "date": "2025-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 562,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451037,
+    "slug": "manchester-city-vs-napoli-2025-09-18",
+    "date": "2025-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451034,
+    "slug": "eintracht-frankfurt-vs-galatasaray-2025-09-18",
+    "date": "2025-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451035,
+    "slug": "sporting-cp-vs-kairat-almaty-2025-09-18",
+    "date": "2025-09-18",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": 1293,
+    "matchday": 1,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451039,
+    "slug": "atalanta-vs-club-brugge-kv-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451038,
+    "slug": "kairat-almaty-vs-real-madrid-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 5
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451042,
+    "slug": "chelsea-vs-benfica-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451041,
+    "slug": "marseille-vs-ajax-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "away_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "venue_id": 667,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451044,
+    "slug": "bodo-glimt-vs-tottenham-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451043,
+    "slug": "inter-vs-slavia-praha-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "venue_id": 907,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451040,
+    "slug": "atletico-madrid-vs-eintracht-frankfurt-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451046,
+    "slug": "galatasaray-vs-liverpool-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451045,
+    "slug": "pafos-vs-bayern-munchen-2025-09-30",
+    "date": "2025-09-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451047,
+    "slug": "qarabag-vs-fc-copenhagen-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451048,
+    "slug": "union-st-gilloise-vs-newcastle-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "away_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451052,
+    "slug": "arsenal-vs-olympiakos-piraeus-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451051,
+    "slug": "monaco-vs-manchester-city-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451049,
+    "slug": "borussia-dortmund-vs-athletic-club-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451054,
+    "slug": "bayer-leverkusen-vs-psv-eindhoven-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451053,
+    "slug": "napoli-vs-sporting-cp-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451050,
+    "slug": "barcelona-vs-paris-saint-germain-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 19939,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451055,
+    "slug": "villarreal-vs-juventus-2025-10-01",
+    "date": "2025-10-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451057,
+    "slug": "barcelona-vs-olympiakos-piraeus-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 1
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451056,
+    "slug": "kairat-almaty-vs-pafos-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451064,
+    "slug": "newcastle-vs-benfica-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": 562,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451061,
+    "slug": "arsenal-vs-atletico-madrid-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451060,
+    "slug": "bayer-leverkusen-vs-paris-saint-germain-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 7
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451059,
+    "slug": "psv-eindhoven-vs-napoli-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 2
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451062,
+    "slug": "fc-copenhagen-vs-borussia-dortmund-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 4
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451063,
+    "slug": "villarreal-vs-manchester-city-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451058,
+    "slug": "union-st-gilloise-vs-inter-2025-10-21",
+    "date": "2025-10-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 4
+    },
+    "home_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451066,
+    "slug": "athletic-club-vs-qarabag-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451065,
+    "slug": "galatasaray-vs-bodo-glimt-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "16:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451070,
+    "slug": "chelsea-vs-ajax-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 1
+    },
+    "home_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "away_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451067,
+    "slug": "monaco-vs-tottenham-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451073,
+    "slug": "bayern-munchen-vs-club-brugge-kv-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451069,
+    "slug": "eintracht-frankfurt-vs-liverpool-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 5
+    },
+    "home_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451072,
+    "slug": "sporting-cp-vs-marseille-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "venue_id": 1293,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451071,
+    "slug": "atalanta-vs-slavia-praha-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451068,
+    "slug": "real-madrid-vs-juventus-2025-10-22",
+    "date": "2025-10-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": 1456,
+    "matchday": 3,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451074,
+    "slug": "napoli-vs-eintracht-frankfurt-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "away_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451075,
+    "slug": "slavia-praha-vs-arsenal-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451077,
+    "slug": "liverpool-vs-real-madrid-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451076,
+    "slug": "tottenham-vs-fc-copenhagen-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451081,
+    "slug": "paris-saint-germain-vs-bayern-munchen-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451080,
+    "slug": "bodo-glimt-vs-monaco-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451082,
+    "slug": "juventus-vs-sporting-cp-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451079,
+    "slug": "atletico-madrid-vs-union-st-gilloise-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451078,
+    "slug": "olympiakos-piraeus-vs-psv-eindhoven-2025-11-04",
+    "date": "2025-11-04",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451083,
+    "slug": "qarabag-vs-chelsea-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451084,
+    "slug": "pafos-vs-villarreal-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451088,
+    "slug": "newcastle-vs-athletic-club-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "away_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "venue_id": 562,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451085,
+    "slug": "manchester-city-vs-borussia-dortmund-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451091,
+    "slug": "marseille-vs-atalanta-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": 667,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451087,
+    "slug": "ajax-vs-galatasaray-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451089,
+    "slug": "benfica-vs-bayer-leverkusen-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451090,
+    "slug": "inter-vs-kairat-almaty-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": 907,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451086,
+    "slug": "club-brugge-kv-vs-barcelona-2025-11-05",
+    "date": "2025-11-05",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": null,
+    "matchday": 4,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451092,
+    "slug": "ajax-vs-benfica-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451093,
+    "slug": "galatasaray-vs-union-st-gilloise-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451096,
+    "slug": "chelsea-vs-barcelona-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451094,
+    "slug": "manchester-city-vs-bayer-leverkusen-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451095,
+    "slug": "marseille-vs-newcastle-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "away_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue_id": 667,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451098,
+    "slug": "borussia-dortmund-vs-villarreal-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451100,
+    "slug": "bodo-glimt-vs-juventus-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451097,
+    "slug": "napoli-vs-qarabag-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451099,
+    "slug": "slavia-praha-vs-athletic-club-2025-11-25",
+    "date": "2025-11-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "away_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451101,
+    "slug": "fc-copenhagen-vs-kairat-almaty-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451102,
+    "slug": "pafos-vs-monaco-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451109,
+    "slug": "liverpool-vs-psv-eindhoven-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451107,
+    "slug": "arsenal-vs-bayern-munchen-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451105,
+    "slug": "paris-saint-germain-vs-tottenham-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 3
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451108,
+    "slug": "eintracht-frankfurt-vs-atalanta-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451106,
+    "slug": "sporting-cp-vs-club-brugge-kv-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": 1293,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451104,
+    "slug": "atletico-madrid-vs-inter-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451103,
+    "slug": "olympiakos-piraeus-vs-real-madrid-2025-11-26",
+    "date": "2025-11-26",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 4
+    },
+    "home_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": 5,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451110,
+    "slug": "kairat-almaty-vs-olympiakos-piraeus-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "15:30",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451111,
+    "slug": "bayern-munchen-vs-sporting-cp-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451117,
+    "slug": "tottenham-vs-slavia-praha-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "away_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451116,
+    "slug": "monaco-vs-galatasaray-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451118,
+    "slug": "psv-eindhoven-vs-atletico-madrid-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451114,
+    "slug": "atalanta-vs-chelsea-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451113,
+    "slug": "inter-vs-liverpool-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 907,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451112,
+    "slug": "barcelona-vs-eintracht-frankfurt-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451115,
+    "slug": "union-st-gilloise-vs-marseille-2025-12-09",
+    "date": "2025-12-09",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "away_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451119,
+    "slug": "villarreal-vs-fc-copenhagen-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451120,
+    "slug": "qarabag-vs-ajax-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 4
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451126,
+    "slug": "borussia-dortmund-vs-bodo-glimt-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451124,
+    "slug": "bayer-leverkusen-vs-newcastle-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451127,
+    "slug": "benfica-vs-napoli-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451125,
+    "slug": "juventus-vs-pafos-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451122,
+    "slug": "athletic-club-vs-paris-saint-germain-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451121,
+    "slug": "real-madrid-vs-manchester-city-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 1456,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451123,
+    "slug": "club-brugge-kv-vs-arsenal-2025-12-10",
+    "date": "2025-12-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": null,
+    "matchday": 6,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451128,
+    "slug": "kairat-almaty-vs-club-brugge-kv-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "15:30",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 4
+    },
+    "home_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451129,
+    "slug": "bodo-glimt-vs-manchester-city-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451135,
+    "slug": "tottenham-vs-borussia-dortmund-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451131,
+    "slug": "sporting-cp-vs-paris-saint-germain-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": 1293,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451132,
+    "slug": "fc-copenhagen-vs-napoli-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "away_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451136,
+    "slug": "inter-vs-arsenal-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": 907,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451133,
+    "slug": "villarreal-vs-ajax-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "away_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451130,
+    "slug": "real-madrid-vs-monaco-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": 1456,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451134,
+    "slug": "olympiakos-piraeus-vs-bayer-leverkusen-2026-01-20",
+    "date": "2026-01-20",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451138,
+    "slug": "qarabag-vs-eintracht-frankfurt-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451137,
+    "slug": "galatasaray-vs-atletico-madrid-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451143,
+    "slug": "newcastle-vs-psv-eindhoven-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "away_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "venue_id": 562,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451142,
+    "slug": "chelsea-vs-pafos-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "away_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451145,
+    "slug": "marseille-vs-liverpool-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": 667,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451144,
+    "slug": "bayern-munchen-vs-union-st-gilloise-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451141,
+    "slug": "juventus-vs-benfica-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451140,
+    "slug": "atalanta-vs-athletic-club-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451139,
+    "slug": "slavia-praha-vs-barcelona-2026-01-21",
+    "date": "2026-01-21",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 4
+    },
+    "home_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": null,
+    "matchday": 7,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451160,
+    "slug": "liverpool-vs-qarabag-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 0
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451159,
+    "slug": "arsenal-vs-kairat-almaty-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 664,
+      "name": "Kairat Almaty",
+      "slug": "kairat-almaty",
+      "logo": "https://media.api-sports.io/football/teams/664.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451153,
+    "slug": "manchester-city-vs-galatasaray-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451149,
+    "slug": "paris-saint-germain-vs-newcastle-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451148,
+    "slug": "monaco-vs-juventus-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451147,
+    "slug": "borussia-dortmund-vs-inter-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451155,
+    "slug": "bayer-leverkusen-vs-villarreal-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 533,
+      "name": "Villarreal",
+      "slug": "villarreal",
+      "logo": "https://media.api-sports.io/football/teams/533.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451150,
+    "slug": "eintracht-frankfurt-vs-tottenham-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 169,
+      "name": "Eintracht Frankfurt",
+      "slug": "eintracht-frankfurt",
+      "logo": "https://media.api-sports.io/football/teams/169.png"
+    },
+    "away_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451157,
+    "slug": "ajax-vs-olympiakos-piraeus-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 194,
+      "name": "Ajax",
+      "slug": "ajax",
+      "logo": "https://media.api-sports.io/football/teams/194.png"
+    },
+    "away_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451154,
+    "slug": "psv-eindhoven-vs-bayern-munchen-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 197,
+      "name": "PSV Eindhoven",
+      "slug": "psv-eindhoven",
+      "logo": "https://media.api-sports.io/football/teams/197.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451162,
+    "slug": "benfica-vs-real-madrid-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 2
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451146,
+    "slug": "napoli-vs-chelsea-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 492,
+      "name": "Napoli",
+      "slug": "napoli",
+      "logo": "https://media.api-sports.io/football/teams/492.png"
+    },
+    "away_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451161,
+    "slug": "barcelona-vs-fc-copenhagen-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 400,
+      "name": "FC Copenhagen",
+      "slug": "fc-copenhagen",
+      "logo": "https://media.api-sports.io/football/teams/400.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451152,
+    "slug": "atletico-madrid-vs-bodo-glimt-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451156,
+    "slug": "athletic-club-vs-sporting-cp-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 531,
+      "name": "Athletic Club",
+      "slug": "athletic-club",
+      "logo": "https://media.api-sports.io/football/teams/531.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451163,
+    "slug": "club-brugge-kv-vs-marseille-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 81,
+      "name": "Marseille",
+      "slug": "marseille",
+      "logo": "https://media.api-sports.io/football/teams/81.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451158,
+    "slug": "union-st-gilloise-vs-atalanta-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "slug": "union-st-gilloise",
+      "logo": "https://media.api-sports.io/football/teams/1393.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1451151,
+    "slug": "pafos-vs-slavia-praha-2026-01-28",
+    "date": "2026-01-28",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3403,
+      "name": "Pafos",
+      "slug": "pafos",
+      "logo": "https://media.api-sports.io/football/teams/3403.png"
+    },
+    "away_team": {
+      "id": 560,
+      "name": "Slavia Praha",
+      "slug": "slavia-praha",
+      "logo": "https://media.api-sports.io/football/teams/560.png"
+    },
+    "venue_id": null,
+    "matchday": 8,
+    "stage": "League Stage"
+  },
+  {
+    "fixture_id": 1515514,
+    "slug": "galatasaray-vs-juventus-2026-02-17",
+    "date": "2026-02-17",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 2
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515517,
+    "slug": "monaco-vs-paris-saint-germain-2026-02-17",
+    "date": "2026-02-17",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515516,
+    "slug": "borussia-dortmund-vs-atalanta-2026-02-17",
+    "date": "2026-02-17",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515515,
+    "slug": "benfica-vs-real-madrid-2026-02-17",
+    "date": "2026-02-17",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515518,
+    "slug": "qarabag-vs-newcastle-2026-02-18",
+    "date": "2026-02-18",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 6
+    },
+    "home_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "away_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515519,
+    "slug": "bodo-glimt-vs-inter-2026-02-18",
+    "date": "2026-02-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515521,
+    "slug": "olympiakos-piraeus-vs-bayer-leverkusen-2026-02-18",
+    "date": "2026-02-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515520,
+    "slug": "club-brugge-kv-vs-atletico-madrid-2026-02-18",
+    "date": "2026-02-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515522,
+    "slug": "atletico-madrid-vs-club-brugge-kv-2026-02-24",
+    "date": "2026-02-24",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 569,
+      "name": "Club Brugge KV",
+      "slug": "club-brugge-kv",
+      "logo": "https://media.api-sports.io/football/teams/569.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515525,
+    "slug": "newcastle-vs-qarabag-2026-02-24",
+    "date": "2026-02-24",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "away_team": {
+      "id": 556,
+      "name": "Qarabag",
+      "slug": "qarabag",
+      "logo": "https://media.api-sports.io/football/teams/556.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515523,
+    "slug": "bayer-leverkusen-vs-olympiakos-piraeus-2026-02-24",
+    "date": "2026-02-24",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 553,
+      "name": "Olympiakos Piraeus",
+      "slug": "olympiakos-piraeus",
+      "logo": "https://media.api-sports.io/football/teams/553.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515524,
+    "slug": "inter-vs-bodo-glimt-2026-02-24",
+    "date": "2026-02-24",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 505,
+      "name": "Inter",
+      "slug": "inter",
+      "logo": "https://media.api-sports.io/football/teams/505.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515526,
+    "slug": "atalanta-vs-borussia-dortmund-2026-02-25",
+    "date": "2026-02-25",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 165,
+      "name": "Borussia Dortmund",
+      "slug": "borussia-dortmund",
+      "logo": "https://media.api-sports.io/football/teams/165.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515528,
+    "slug": "paris-saint-germain-vs-monaco-2026-02-25",
+    "date": "2026-02-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 91,
+      "name": "Monaco",
+      "slug": "monaco",
+      "logo": "https://media.api-sports.io/football/teams/91.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515527,
+    "slug": "juventus-vs-galatasaray-2026-02-25",
+    "date": "2026-02-25",
+    "kickoff_utc": "20:00",
+    "status": "AET",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 496,
+      "name": "Juventus",
+      "slug": "juventus",
+      "logo": "https://media.api-sports.io/football/teams/496.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1515529,
+    "slug": "real-madrid-vs-benfica-2026-02-25",
+    "date": "2026-02-25",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 211,
+      "name": "Benfica",
+      "slug": "benfica",
+      "logo": "https://media.api-sports.io/football/teams/211.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 32"
+  },
+  {
+    "fixture_id": 1528321,
+    "slug": "galatasaray-vs-liverpool-2026-03-10",
+    "date": "2026-03-10",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528319,
+    "slug": "newcastle-vs-barcelona-2026-03-10",
+    "date": "2026-03-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": 0,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528324,
+    "slug": "atalanta-vs-bayern-munchen-2026-03-10",
+    "date": "2026-03-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 6
+    },
+    "home_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528323,
+    "slug": "atletico-madrid-vs-tottenham-2026-03-10",
+    "date": "2026-03-10",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 2
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528322,
+    "slug": "bayer-leverkusen-vs-arsenal-2026-03-11",
+    "date": "2026-03-11",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528320,
+    "slug": "paris-saint-germain-vs-chelsea-2026-03-11",
+    "date": "2026-03-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 5,
+      "away": 2
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528325,
+    "slug": "bodo-glimt-vs-sporting-cp-2026-03-11",
+    "date": "2026-03-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528318,
+    "slug": "real-madrid-vs-manchester-city-2026-03-11",
+    "date": "2026-03-11",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "venue_id": 0,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528333,
+    "slug": "sporting-cp-vs-bodo-glimt-2026-03-17",
+    "date": "2026-03-17",
+    "kickoff_utc": "17:45",
+    "status": "AET",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 327,
+      "name": "Bodo/Glimt",
+      "slug": "bodo-glimt",
+      "logo": "https://media.api-sports.io/football/teams/327.png"
+    },
+    "venue_id": 0,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528330,
+    "slug": "arsenal-vs-bayer-leverkusen-2026-03-17",
+    "date": "2026-03-17",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 168,
+      "name": "Bayer Leverkusen",
+      "slug": "bayer-leverkusen",
+      "logo": "https://media.api-sports.io/football/teams/168.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528328,
+    "slug": "chelsea-vs-paris-saint-germain-2026-03-17",
+    "date": "2026-03-17",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 49,
+      "name": "Chelsea",
+      "slug": "chelsea",
+      "logo": "https://media.api-sports.io/football/teams/49.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528326,
+    "slug": "manchester-city-vs-real-madrid-2026-03-17",
+    "date": "2026-03-17",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 50,
+      "name": "Manchester City",
+      "slug": "manchester-city",
+      "logo": "https://media.api-sports.io/football/teams/50.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528327,
+    "slug": "barcelona-vs-newcastle-2026-03-18",
+    "date": "2026-03-18",
+    "kickoff_utc": "17:45",
+    "status": "FT",
+    "score": {
+      "home": 7,
+      "away": 2
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 34,
+      "name": "Newcastle",
+      "slug": "newcastle",
+      "logo": "https://media.api-sports.io/football/teams/34.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528329,
+    "slug": "liverpool-vs-galatasaray-2026-03-18",
+    "date": "2026-03-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 0
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 645,
+      "name": "Galatasaray",
+      "slug": "galatasaray",
+      "logo": "https://media.api-sports.io/football/teams/645.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528331,
+    "slug": "tottenham-vs-atletico-madrid-2026-03-18",
+    "date": "2026-03-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 47,
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "logo": "https://media.api-sports.io/football/teams/47.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1528332,
+    "slug": "bayern-munchen-vs-atalanta-2026-03-18",
+    "date": "2026-03-18",
+    "kickoff_utc": "20:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 499,
+      "name": "Atalanta",
+      "slug": "atalanta",
+      "logo": "https://media.api-sports.io/football/teams/499.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 1534570,
+    "slug": "sporting-cp-vs-arsenal-2026-04-07",
+    "date": "2026-04-07",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "away_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534909,
+    "slug": "real-madrid-vs-bayern-munchen-2026-04-07",
+    "date": "2026-04-07",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "away_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534908,
+    "slug": "paris-saint-germain-vs-liverpool-2026-04-08",
+    "date": "2026-04-08",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "away_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534907,
+    "slug": "barcelona-vs-atletico-madrid-2026-04-08",
+    "date": "2026-04-08",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "away_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534912,
+    "slug": "liverpool-vs-paris-saint-germain-2026-04-14",
+    "date": "2026-04-14",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 40,
+      "name": "Liverpool",
+      "slug": "liverpool",
+      "logo": "https://media.api-sports.io/football/teams/40.png"
+    },
+    "away_team": {
+      "id": 85,
+      "name": "Paris Saint Germain",
+      "slug": "paris-saint-germain",
+      "logo": "https://media.api-sports.io/football/teams/85.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534910,
+    "slug": "atletico-madrid-vs-barcelona-2026-04-14",
+    "date": "2026-04-14",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 530,
+      "name": "Atletico Madrid",
+      "slug": "atletico-madrid",
+      "logo": "https://media.api-sports.io/football/teams/530.png"
+    },
+    "away_team": {
+      "id": 529,
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "logo": "https://media.api-sports.io/football/teams/529.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534571,
+    "slug": "arsenal-vs-sporting-cp-2026-04-15",
+    "date": "2026-04-15",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 42,
+      "name": "Arsenal",
+      "slug": "arsenal",
+      "logo": "https://media.api-sports.io/football/teams/42.png"
+    },
+    "away_team": {
+      "id": 228,
+      "name": "Sporting CP",
+      "slug": "sporting-cp",
+      "logo": "https://media.api-sports.io/football/teams/228.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 1534911,
+    "slug": "bayern-munchen-vs-real-madrid-2026-04-15",
+    "date": "2026-04-15",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 157,
+      "name": "Bayern München",
+      "slug": "bayern-munchen",
+      "logo": "https://media.api-sports.io/football/teams/157.png"
+    },
+    "away_team": {
+      "id": 541,
+      "name": "Real Madrid",
+      "slug": "real-madrid",
+      "logo": "https://media.api-sports.io/football/teams/541.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  }
+]

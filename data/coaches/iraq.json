@@ -1,0 +1,75 @@
+{
+  "id": 356,
+  "name": "G. Arnold",
+  "photo": "https://media.api-sports.io/football/coachs/356.png",
+  "nationality": "Australia",
+  "age": 62,
+  "team_id": 1567,
+  "team_slug": "iraq",
+  "fetched_at": "2026-04-15T13:15:17.200Z",
+  "career": [
+    {
+      "team_id": 1567,
+      "team_name": "Iraq",
+      "team_logo": "https://media.api-sports.io/football/teams/1567.png",
+      "start": "2025-05-01",
+      "end": null
+    },
+    {
+      "team_id": 1567,
+      "team_name": "Iraq",
+      "team_logo": "https://media.api-sports.io/football/teams/1567.png",
+      "start": "2023-11-01",
+      "end": "2023-11-01"
+    },
+    {
+      "team_id": 10927,
+      "team_name": "Australia U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10927.png",
+      "start": "2019-12-01",
+      "end": "2021-10-01"
+    },
+    {
+      "team_id": 20,
+      "team_name": "Australia",
+      "team_logo": "https://media.api-sports.io/football/teams/20.png",
+      "start": "2018-10-01",
+      "end": "2024-09-01"
+    },
+    {
+      "team_id": 943,
+      "team_name": "Sydney",
+      "team_logo": "https://media.api-sports.io/football/teams/943.png",
+      "start": "2014-05-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 286,
+      "team_name": "Vegalta Sendai",
+      "team_logo": "https://media.api-sports.io/football/teams/286.png",
+      "start": "2014-01-01",
+      "end": "2014-04-01"
+    },
+    {
+      "team_id": 941,
+      "team_name": "Central Coast Mariners",
+      "team_logo": "https://media.api-sports.io/football/teams/941.png",
+      "start": "2011-10-01",
+      "end": "2013-11-01"
+    },
+    {
+      "team_id": 10927,
+      "team_name": "Australia U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10927.png",
+      "start": "2008-06-01",
+      "end": "2009-05-01"
+    },
+    {
+      "team_id": 20,
+      "team_name": "Australia",
+      "team_logo": "https://media.api-sports.io/football/teams/20.png",
+      "start": "2006-07-01",
+      "end": "2007-09-01"
+    }
+  ]
+}

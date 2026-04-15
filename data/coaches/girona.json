@@ -1,0 +1,33 @@
+{
+  "id": 82,
+  "name": "Míchel",
+  "photo": "https://media.api-sports.io/football/coachs/82.png",
+  "nationality": "Spain",
+  "age": 50,
+  "team_id": 547,
+  "team_slug": "girona",
+  "fetched_at": "2026-04-14T22:34:58.330Z",
+  "career": [
+    {
+      "team_id": 547,
+      "team_name": "Girona",
+      "team_logo": "https://media.api-sports.io/football/teams/547.png",
+      "start": "2021-07-01",
+      "end": null
+    },
+    {
+      "team_id": 726,
+      "team_name": "Huesca",
+      "team_logo": "https://media.api-sports.io/football/teams/726.png",
+      "start": "2019-06-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 728,
+      "team_name": "Rayo Vallecano",
+      "team_logo": "https://media.api-sports.io/football/teams/728.png",
+      "start": "2017-02-01",
+      "end": "2019-03-01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": 1266,
+  "name": "O. Mykhaylychenko",
+  "photo": "https://media.api-sports.io/football/coachs/1266.png",
+  "nationality": "Ukraine",
+  "age": 62,
+  "team_id": 572,
+  "team_slug": "dynamo-kyiv",
+  "fetched_at": "2026-04-14T22:44:47.004Z",
+  "career": [
+    {
+      "team_id": 572,
+      "team_name": "Dinamo Kiev",
+      "team_logo": "https://media.api-sports.io/football/teams/572.png",
+      "start": "2019-08-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 772,
+      "team_name": "Ukraine",
+      "team_logo": "https://media.api-sports.io/football/teams/772.png",
+      "start": "2008-01-01",
+      "end": "2009-12-01"
+    }
+  ]
+}

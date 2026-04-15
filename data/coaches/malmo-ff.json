@@ -1,0 +1,40 @@
+{
+  "id": 1380,
+  "name": "H. Rydström",
+  "photo": "https://media.api-sports.io/football/coachs/1380.png",
+  "nationality": "Sweden",
+  "age": 49,
+  "team_id": 375,
+  "team_slug": "malmo-ff",
+  "fetched_at": "2026-04-15T08:20:13.242Z",
+  "career": [
+    {
+      "team_id": 375,
+      "team_name": "Malmö",
+      "team_logo": "https://media.api-sports.io/football/teams/375.png",
+      "start": "2022-11-01",
+      "end": null
+    },
+    {
+      "team_id": 374,
+      "team_name": "Kalmar",
+      "team_logo": "https://media.api-sports.io/football/teams/374.png",
+      "start": "2021-01-01",
+      "end": "2022-12-01"
+    },
+    {
+      "team_id": 370,
+      "team_name": "Sirius",
+      "team_logo": "https://media.api-sports.io/football/teams/370.png",
+      "start": "2018-12-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 374,
+      "team_name": "Kalmar",
+      "team_logo": "https://media.api-sports.io/football/teams/374.png",
+      "start": "2018-09-01",
+      "end": "2018-11-01"
+    }
+  ]
+}

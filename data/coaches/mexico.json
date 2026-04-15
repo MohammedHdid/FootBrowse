@@ -1,0 +1,19 @@
+{
+  "id": 27707,
+  "name": "Javier Aguirre",
+  "photo": "https://media.api-sports.io/football/coachs/27707.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 16,
+  "team_slug": "mexico",
+  "fetched_at": "2026-04-15T13:11:28.055Z",
+  "career": [
+    {
+      "team_id": 16,
+      "team_name": "Mexico",
+      "team_logo": "https://media.api-sports.io/football/teams/16.png",
+      "start": "2026-01-01",
+      "end": null
+    }
+  ]
+}

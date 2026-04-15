@@ -1,0 +1,21 @@
+{
+  "player_id": 70500,
+  "slug": "sergi-cardona",
+  "name": "Sergi Cardona",
+  "api_photo": "https://media.api-sports.io/football/players/70500.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Villarreal",
+      "club_logo": "https://media.api-sports.io/football/teams/533.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 36,
+      "goals": 1,
+      "assists": 7,
+      "minutes": 2955,
+      "yellow_cards": 11,
+      "red_cards": 0
+    }
+  ]
+}

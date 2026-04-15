@@ -1,0 +1,296 @@
+{
+  "team_id": 566,
+  "team_slug": "ludogorets",
+  "team_name": "Ludogorets",
+  "fetched_at": "2026-04-15T08:19:43.226Z",
+  "players": [
+    {
+      "id": 26113,
+      "name": "H. Bonmann",
+      "age": 31,
+      "number": 39,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/26113.png"
+    },
+    {
+      "id": 269188,
+      "name": "D. Hristov",
+      "age": 23,
+      "number": 67,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/269188.png"
+    },
+    {
+      "id": 38110,
+      "name": "S. Padt",
+      "age": 35,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/38110.png"
+    },
+    {
+      "id": 427446,
+      "name": "Z. Stoimenov",
+      "age": 19,
+      "number": 69,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/427446.png"
+    },
+    {
+      "id": 471131,
+      "name": "V. Valentinov",
+      "age": 18,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/471131.png"
+    },
+    {
+      "id": 26856,
+      "name": "Dinis Almeida",
+      "age": 30,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/26856.png"
+    },
+    {
+      "id": 15788,
+      "name": "J. Andersson",
+      "age": 29,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/15788.png"
+    },
+    {
+      "id": 47960,
+      "name": "E. Kurtulus",
+      "age": 25,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/47960.png"
+    },
+    {
+      "id": 111288,
+      "name": "I. Nachmias",
+      "age": 28,
+      "number": 55,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/111288.png"
+    },
+    {
+      "id": 1062,
+      "name": "A. Nedyalkov",
+      "age": 32,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1062.png"
+    },
+    {
+      "id": 443820,
+      "name": "N. Nikolov",
+      "age": 20,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/443820.png"
+    },
+    {
+      "id": 394200,
+      "name": "S. Shishkov",
+      "age": 19,
+      "number": 42,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/394200.png"
+    },
+    {
+      "id": 3390,
+      "name": "O. Verdon",
+      "age": 30,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/3390.png"
+    },
+    {
+      "id": 404175,
+      "name": "Vinícius Nogueira",
+      "age": 24,
+      "number": 27,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/404175.png"
+    },
+    {
+      "id": 157893,
+      "name": "A. Camara",
+      "age": 24,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/157893.png"
+    },
+    {
+      "id": 31552,
+      "name": "I. Chochev",
+      "age": 32,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/31552.png"
+    },
+    {
+      "id": 37435,
+      "name": "Deroy Duarte",
+      "age": 26,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/37435.png"
+    },
+    {
+      "id": 544643,
+      "name": "R. Ivanov",
+      "age": 19,
+      "number": 83,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/544643.png"
+    },
+    {
+      "id": 66531,
+      "name": "F. Kaloč",
+      "age": 25,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/66531.png"
+    },
+    {
+      "id": 9467,
+      "name": "Pedro Naressi",
+      "age": 27,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/9467.png"
+    },
+    {
+      "id": 550566,
+      "name": "A. Salido Tajero",
+      "age": 25,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/550566.png"
+    },
+    {
+      "id": 131538,
+      "name": "Son",
+      "age": 31,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/131538.png"
+    },
+    {
+      "id": 274371,
+      "name": "P. Stanić",
+      "age": 24,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/274371.png"
+    },
+    {
+      "id": 78086,
+      "name": "M. Stefanov",
+      "age": 25,
+      "number": 80,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/78086.png"
+    },
+    {
+      "id": 546313,
+      "name": "E. Syrov",
+      "age": 17,
+      "number": 75,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/546313.png"
+    },
+    {
+      "id": 78094,
+      "name": "I. Yordanov",
+      "age": 25,
+      "number": 82,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/78094.png"
+    },
+    {
+      "id": 409306,
+      "name": "E. Bille",
+      "age": 21,
+      "number": 29,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/409306.png"
+    },
+    {
+      "id": 279797,
+      "name": "Caio Vidal",
+      "age": 25,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/279797.png"
+    },
+    {
+      "id": 548925,
+      "name": "K. Dimitrov",
+      "age": 19,
+      "number": 76,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/548925.png"
+    },
+    {
+      "id": 48610,
+      "name": "K. Duah",
+      "age": 28,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/48610.png"
+    },
+    {
+      "id": 394384,
+      "name": "Erick Marcus",
+      "age": 21,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/394384.png"
+    },
+    {
+      "id": 11038,
+      "name": "S. Ivanov",
+      "age": 26,
+      "number": 99,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/11038.png"
+    },
+    {
+      "id": 406399,
+      "name": "Matheus Machado",
+      "age": 22,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/406399.png"
+    },
+    {
+      "id": 510898,
+      "name": "G. Penev",
+      "age": 18,
+      "number": 81,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/510898.png"
+    },
+    {
+      "id": 321663,
+      "name": "Rwan Cruz",
+      "age": 24,
+      "number": 12,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/321663.png"
+    },
+    {
+      "id": 24835,
+      "name": "B. Tekpetey",
+      "age": 28,
+      "number": 37,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/24835.png"
+    }
+  ]
+}

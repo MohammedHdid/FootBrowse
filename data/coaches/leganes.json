@@ -1,0 +1,68 @@
+{
+  "id": 1100,
+  "name": "Borja Jiménez",
+  "photo": "https://media.api-sports.io/football/coachs/1100.png",
+  "nationality": "Spain",
+  "age": 40,
+  "team_id": 537,
+  "team_slug": "leganes",
+  "fetched_at": "2026-04-14T22:35:22.342Z",
+  "career": [
+    {
+      "team_id": 537,
+      "team_name": "Leganes",
+      "team_logo": "https://media.api-sports.io/football/teams/537.png",
+      "start": "2023-07-01",
+      "end": null
+    },
+    {
+      "team_id": 544,
+      "team_name": "Deportivo La Coruña",
+      "team_logo": "https://media.api-sports.io/football/teams/544.png",
+      "start": "2021-05-01",
+      "end": "2022-10-01"
+    },
+    {
+      "team_id": 5262,
+      "team_name": "FC Cartagena",
+      "team_logo": "https://media.api-sports.io/football/teams/5262.png",
+      "start": "2019-12-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 955,
+      "team_name": "Asteras Tripolis",
+      "team_logo": "https://media.api-sports.io/football/teams/955.png",
+      "start": "2019-07-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 799,
+      "team_name": "Mirandes",
+      "team_logo": "https://media.api-sports.io/football/teams/799.png",
+      "start": "2018-06-01",
+      "end": "2019-07-01"
+    },
+    {
+      "team_id": 5276,
+      "team_name": "Rápido Bouzas",
+      "team_logo": "https://media.api-sports.io/football/teams/5276.png",
+      "start": "2017-07-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 9583,
+      "team_name": "Izarra",
+      "team_logo": "https://media.api-sports.io/football/teams/9583.png",
+      "start": "2016-05-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 9587,
+      "team_name": "Real Valladolid II",
+      "team_logo": "https://media.api-sports.io/football/teams/9587.png",
+      "start": "2015-10-01",
+      "end": "2016-05-01"
+    }
+  ]
+}

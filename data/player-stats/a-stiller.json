@@ -1,0 +1,21 @@
+{
+  "player_id": 137210,
+  "slug": "a-stiller",
+  "name": "A. Stiller",
+  "api_photo": "https://media.api-sports.io/football/players/137210.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "VfB Stuttgart",
+      "club_logo": "https://media.api-sports.io/football/teams/172.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 32,
+      "goals": 1,
+      "assists": 8,
+      "minutes": 2743,
+      "yellow_cards": 6,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 1611,
+  "name": "V. Italiano",
+  "photo": "https://media.api-sports.io/football/coachs/1611.png",
+  "nationality": "Italy",
+  "age": 48,
+  "team_id": 500,
+  "team_slug": "bologna",
+  "fetched_at": "2026-04-14T22:42:46.980Z",
+  "career": [
+    {
+      "team_id": 500,
+      "team_name": "Bologna",
+      "team_logo": "https://media.api-sports.io/football/teams/500.png",
+      "start": "2024-06-01",
+      "end": null
+    },
+    {
+      "team_id": 502,
+      "team_name": "Fiorentina",
+      "team_logo": "https://media.api-sports.io/football/teams/502.png",
+      "start": "2021-07-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 515,
+      "team_name": "Spezia",
+      "team_logo": "https://media.api-sports.io/football/teams/515.png",
+      "start": "2019-07-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 803,
+      "team_name": "Trapani",
+      "team_logo": "https://media.api-sports.io/football/teams/803.png",
+      "start": "2018-07-01",
+      "end": "2019-06-01"
+    }
+  ]
+}

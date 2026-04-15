@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379303,
+  "fetched_at": "2026-04-15T20:57:39.337Z",
+  "advice": "Double chance : Fulham or draw",
+  "winner_id": 36,
+  "winner_name": "Fulham",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "35%",
+    "draw": "35%",
+    "away": "30%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "64%",
+      "away": "36%"
+    },
+    "att": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "def": {
+      "home": "67%",
+      "away": "33%"
+    },
+    "poisson_distribution": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "h2h": {
+      "home": "0%",
+      "away": "100%"
+    },
+    "goals": {
+      "home": "25%",
+      "away": "75%"
+    },
+    "total": {
+      "home": "52.8%",
+      "away": "47.2%"
+    }
+  }
+}

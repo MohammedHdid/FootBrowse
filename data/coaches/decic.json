@@ -1,0 +1,26 @@
+{
+  "id": 973,
+  "name": "E. Mulalić",
+  "photo": "https://media.api-sports.io/football/coachs/973.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 3745,
+  "team_slug": "decic",
+  "fetched_at": "2026-04-14T22:43:59.030Z",
+  "career": [
+    {
+      "team_id": 3745,
+      "team_name": "Dečić",
+      "team_logo": "https://media.api-sports.io/football/teams/3745.png",
+      "start": "2020-08-01",
+      "end": null
+    },
+    {
+      "team_id": 2258,
+      "team_name": "Rudar Velenje",
+      "team_logo": "https://media.api-sports.io/football/teams/2258.png",
+      "start": "2018-08-01",
+      "end": "2020-06-01"
+    }
+  ]
+}

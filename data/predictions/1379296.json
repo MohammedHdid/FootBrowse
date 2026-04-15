@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379296,
+  "fetched_at": "2026-04-15T20:56:57.674Z",
+  "advice": "Double chance : draw or Bournemouth",
+  "winner_id": 35,
+  "winner_name": "Bournemouth",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "46%",
+      "away": "54%"
+    },
+    "att": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "def": {
+      "home": "33%",
+      "away": "67%"
+    },
+    "poisson_distribution": {
+      "home": "54%",
+      "away": "46%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "total": {
+      "home": "47.5%",
+      "away": "52.5%"
+    }
+  }
+}

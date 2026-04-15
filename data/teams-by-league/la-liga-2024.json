@@ -1,0 +1,342 @@
+[
+  {
+    "id": 542,
+    "name": "Alaves",
+    "slug": "alaves",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/542.png",
+    "country": "Spain",
+    "founded": 1921,
+    "national": false,
+    "venue": {
+      "id": 1470,
+      "name": "Estadio de Mendizorroza",
+      "city": "Vitoria-Gasteiz",
+      "capacity": 19840,
+      "image": "https://media.api-sports.io/football/venues/1470.png"
+    }
+  },
+  {
+    "id": 531,
+    "name": "Athletic Club",
+    "slug": "athletic-club",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/531.png",
+    "country": "Spain",
+    "founded": 1898,
+    "national": false,
+    "venue": {
+      "id": 1460,
+      "name": "San Mamés Barria",
+      "city": "Bilbao",
+      "capacity": 53289,
+      "image": "https://media.api-sports.io/football/venues/1460.png"
+    }
+  },
+  {
+    "id": 530,
+    "name": "Atletico Madrid",
+    "slug": "atletico-madrid",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/530.png",
+    "country": "Spain",
+    "founded": 1903,
+    "national": false,
+    "venue": {
+      "id": 19217,
+      "name": "Estádio Cívitas Metropolitano",
+      "city": "Madrid",
+      "capacity": 70460,
+      "image": "https://media.api-sports.io/football/venues/19217.png"
+    }
+  },
+  {
+    "id": 529,
+    "name": "Barcelona",
+    "slug": "barcelona",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/529.png",
+    "country": "Spain",
+    "founded": 1899,
+    "national": false,
+    "venue": {
+      "id": 19939,
+      "name": "Camp Nou",
+      "city": "Barcelona",
+      "capacity": 55926,
+      "image": "https://media.api-sports.io/football/venues/19939.png"
+    }
+  },
+  {
+    "id": 538,
+    "name": "Celta Vigo",
+    "slug": "celta-vigo",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/538.png",
+    "country": "Spain",
+    "founded": 1923,
+    "national": false,
+    "venue": {
+      "id": 1467,
+      "name": "Abanca-Balaídos",
+      "city": "Vigo",
+      "capacity": 31800,
+      "image": "https://media.api-sports.io/football/venues/1467.png"
+    }
+  },
+  {
+    "id": 540,
+    "name": "Espanyol",
+    "slug": "espanyol",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/540.png",
+    "country": "Spain",
+    "founded": 1900,
+    "national": false,
+    "venue": {
+      "id": 20421,
+      "name": "Stage Front Stadium",
+      "city": "Cornella de Llobregat",
+      "capacity": 40423,
+      "image": "https://media.api-sports.io/football/venues/20421.png"
+    }
+  },
+  {
+    "id": 546,
+    "name": "Getafe",
+    "slug": "getafe",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/546.png",
+    "country": "Spain",
+    "founded": 1983,
+    "national": false,
+    "venue": {
+      "id": 20422,
+      "name": "Estadio Coliseum",
+      "city": "Getafe",
+      "capacity": 17393,
+      "image": "https://media.api-sports.io/football/venues/20422.png"
+    }
+  },
+  {
+    "id": 547,
+    "name": "Girona",
+    "slug": "girona",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/547.png",
+    "country": "Spain",
+    "founded": 1930,
+    "national": false,
+    "venue": {
+      "id": 1478,
+      "name": "Estadi Municipal de Montilivi",
+      "city": "Girona",
+      "capacity": 14500,
+      "image": "https://media.api-sports.io/football/venues/1478.png"
+    }
+  },
+  {
+    "id": 534,
+    "name": "Las Palmas",
+    "slug": "las-palmas",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/534.png",
+    "country": "Spain",
+    "founded": 1949,
+    "national": false,
+    "venue": {
+      "id": 1481,
+      "name": "Estadio de Gran Canaria",
+      "city": "Las Palmas de Gran Canaria",
+      "capacity": 32392,
+      "image": "https://media.api-sports.io/football/venues/1481.png"
+    }
+  },
+  {
+    "id": 537,
+    "name": "Leganes",
+    "slug": "leganes",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/537.png",
+    "country": "Spain",
+    "founded": 1928,
+    "national": false,
+    "venue": {
+      "id": 1464,
+      "name": "Estadio Municipal de Butarque",
+      "city": "Leganés",
+      "capacity": 12450,
+      "image": "https://media.api-sports.io/football/venues/1464.png"
+    }
+  },
+  {
+    "id": 798,
+    "name": "Mallorca",
+    "slug": "mallorca",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/798.png",
+    "country": "Spain",
+    "founded": 1916,
+    "national": false,
+    "venue": {
+      "id": 19940,
+      "name": "Estadi Mallorca Son Moix",
+      "city": "Palma de Mallorca",
+      "capacity": 23142,
+      "image": "https://media.api-sports.io/football/venues/19940.png"
+    }
+  },
+  {
+    "id": 727,
+    "name": "Osasuna",
+    "slug": "osasuna",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/727.png",
+    "country": "Spain",
+    "founded": 1920,
+    "national": false,
+    "venue": {
+      "id": 1486,
+      "name": "Estadio El Sadar",
+      "city": "Iruñea",
+      "capacity": 23576,
+      "image": "https://media.api-sports.io/football/venues/1486.png"
+    }
+  },
+  {
+    "id": 728,
+    "name": "Rayo Vallecano",
+    "slug": "rayo-vallecano",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/728.png",
+    "country": "Spain",
+    "founded": 1924,
+    "national": false,
+    "venue": {
+      "id": 1488,
+      "name": "Estadio de Vallecas",
+      "city": "Madrid",
+      "capacity": 15500,
+      "image": "https://media.api-sports.io/football/venues/1488.png"
+    }
+  },
+  {
+    "id": 543,
+    "name": "Real Betis",
+    "slug": "real-betis",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/543.png",
+    "country": "Spain",
+    "founded": 1907,
+    "national": false,
+    "venue": {
+      "id": 1489,
+      "name": "Estadio Benito Villamarín",
+      "city": "Sevilla",
+      "capacity": 60721,
+      "image": "https://media.api-sports.io/football/venues/1489.png"
+    }
+  },
+  {
+    "id": 541,
+    "name": "Real Madrid",
+    "slug": "real-madrid",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/541.png",
+    "country": "Spain",
+    "founded": 1902,
+    "national": false,
+    "venue": {
+      "id": 1456,
+      "name": "Estadio Santiago Bernabéu",
+      "city": "Madrid",
+      "capacity": 85454,
+      "image": "https://media.api-sports.io/football/venues/1456.png"
+    }
+  },
+  {
+    "id": 548,
+    "name": "Real Sociedad",
+    "slug": "real-sociedad",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/548.png",
+    "country": "Spain",
+    "founded": 1909,
+    "national": false,
+    "venue": {
+      "id": 1491,
+      "name": "Reale Arena",
+      "city": "Donostia-San Sebastián",
+      "capacity": 40000,
+      "image": "https://media.api-sports.io/football/venues/1491.png"
+    }
+  },
+  {
+    "id": 536,
+    "name": "Sevilla",
+    "slug": "sevilla",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/536.png",
+    "country": "Spain",
+    "founded": 1890,
+    "national": false,
+    "venue": {
+      "id": 1494,
+      "name": "Estadio Ramón Sánchez Pizjuán",
+      "city": "Sevilla",
+      "capacity": 48649,
+      "image": "https://media.api-sports.io/football/venues/1494.png"
+    }
+  },
+  {
+    "id": 532,
+    "name": "Valencia",
+    "slug": "valencia",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/532.png",
+    "country": "Spain",
+    "founded": 1919,
+    "national": false,
+    "venue": {
+      "id": 1497,
+      "name": "Estadio de Mestalla",
+      "city": "Valencia",
+      "capacity": 55000,
+      "image": "https://media.api-sports.io/football/venues/1497.png"
+    }
+  },
+  {
+    "id": 720,
+    "name": "Valladolid",
+    "slug": "valladolid",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/720.png",
+    "country": "Spain",
+    "founded": 1928,
+    "national": false,
+    "venue": {
+      "id": 1492,
+      "name": "Estadio Municipal José Zorrilla",
+      "city": "Valladolid",
+      "capacity": 26512,
+      "image": "https://media.api-sports.io/football/venues/1492.png"
+    }
+  },
+  {
+    "id": 533,
+    "name": "Villarreal",
+    "slug": "villarreal",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/533.png",
+    "country": "Spain",
+    "founded": 1923,
+    "national": false,
+    "venue": {
+      "id": 1498,
+      "name": "Estadio de la Cerámica",
+      "city": "Villarreal",
+      "capacity": 24500,
+      "image": "https://media.api-sports.io/football/venues/1498.png"
+    }
+  }
+]

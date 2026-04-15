@@ -1,0 +1,21 @@
+{
+  "player_id": 128398,
+  "slug": "oihan-sancet",
+  "name": "Oihan Sancet",
+  "api_photo": "https://media.api-sports.io/football/players/128398.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Athletic Club",
+      "club_logo": "https://media.api-sports.io/football/teams/531.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 30,
+      "goals": 15,
+      "assists": 1,
+      "minutes": 1628,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

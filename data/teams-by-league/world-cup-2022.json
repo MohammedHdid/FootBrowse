@@ -1,0 +1,546 @@
+[
+  {
+    "id": 26,
+    "name": "Argentina",
+    "slug": "argentina",
+    "existing_slug": "argentina",
+    "logo": "https://media.api-sports.io/football/teams/26.png",
+    "country": "Argentina",
+    "founded": 1893,
+    "national": true,
+    "venue": {
+      "id": 46,
+      "name": "Estadio Alberto José Armando",
+      "city": "Ciudad de Buenos Aires",
+      "capacity": 57200,
+      "image": "https://media.api-sports.io/football/venues/46.png"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Australia",
+    "slug": "australia",
+    "existing_slug": "australia",
+    "logo": "https://media.api-sports.io/football/teams/20.png",
+    "country": "Australia",
+    "founded": 1961,
+    "national": true,
+    "venue": {
+      "id": 18601,
+      "name": "CommBank Stadium",
+      "city": "Sydney",
+      "capacity": 30000,
+      "image": "https://media.api-sports.io/football/venues/18601.png"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Belgium",
+    "slug": "belgium",
+    "existing_slug": "belgium",
+    "logo": "https://media.api-sports.io/football/teams/1.png",
+    "country": "Belgium",
+    "founded": 1895,
+    "national": true,
+    "venue": {
+      "id": 173,
+      "name": "Stade Roi Baudouin",
+      "city": "Brussel",
+      "capacity": 50093,
+      "image": "https://media.api-sports.io/football/venues/173.png"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Brazil",
+    "slug": "brazil",
+    "existing_slug": "brazil",
+    "logo": "https://media.api-sports.io/football/teams/6.png",
+    "country": "Brazil",
+    "founded": 1914,
+    "national": true,
+    "venue": {
+      "id": 11531,
+      "name": "Neo Química Arena",
+      "city": "São Paulo, São Paulo",
+      "capacity": 49205,
+      "image": "https://media.api-sports.io/football/venues/11531.png"
+    }
+  },
+  {
+    "id": 1530,
+    "name": "Cameroon",
+    "slug": "cameroon",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/1530.png",
+    "country": "Cameroon",
+    "founded": 1959,
+    "national": true,
+    "venue": {
+      "id": 4074,
+      "name": "Stade Omnisports de Bafoussam",
+      "city": "Bafoussam",
+      "capacity": 20000,
+      "image": "https://media.api-sports.io/football/venues/4074.png"
+    }
+  },
+  {
+    "id": 5529,
+    "name": "Canada",
+    "slug": "canada",
+    "existing_slug": "canada",
+    "logo": "https://media.api-sports.io/football/teams/5529.png",
+    "country": "Canada",
+    "founded": 1912,
+    "national": true,
+    "venue": {
+      "id": 312,
+      "name": "BMO Field",
+      "city": "Toronto, Ontario",
+      "capacity": 36045,
+      "image": "https://media.api-sports.io/football/venues/312.png"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Costa Rica",
+    "slug": "costa-rica",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/29.png",
+    "country": "Costa-Rica",
+    "founded": 1921,
+    "national": true,
+    "venue": {
+      "id": 22425,
+      "name": "Snapdragon Stadium",
+      "city": "San Diego, California",
+      "capacity": 35000,
+      "image": "https://media.api-sports.io/football/venues/22425.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Croatia",
+    "slug": "croatia",
+    "existing_slug": "croatia",
+    "logo": "https://media.api-sports.io/football/teams/3.png",
+    "country": "Croatia",
+    "founded": 1912,
+    "national": true,
+    "venue": {
+      "id": 412,
+      "name": "Stadion Maksimir",
+      "city": "Zagreb",
+      "capacity": 37168,
+      "image": "https://media.api-sports.io/football/venues/412.png"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Denmark",
+    "slug": "denmark",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/21.png",
+    "country": "Denmark",
+    "founded": 1889,
+    "national": true,
+    "venue": {
+      "id": 456,
+      "name": "Nature Energy Park",
+      "city": "Odense",
+      "capacity": 15790,
+      "image": "https://media.api-sports.io/football/venues/456.png"
+    }
+  },
+  {
+    "id": 2382,
+    "name": "Ecuador",
+    "slug": "ecuador",
+    "existing_slug": "ecuador",
+    "logo": "https://media.api-sports.io/football/teams/2382.png",
+    "country": "Ecuador",
+    "founded": 1925,
+    "national": true,
+    "venue": {
+      "id": 471,
+      "name": "Estadio Rodrigo Paz Delgado",
+      "city": "Quito",
+      "capacity": 55104,
+      "image": "https://media.api-sports.io/football/venues/471.png"
+    }
+  },
+  {
+    "id": 10,
+    "name": "England",
+    "slug": "england",
+    "existing_slug": "england",
+    "logo": "https://media.api-sports.io/football/teams/10.png",
+    "country": "England",
+    "founded": 1863,
+    "national": true,
+    "venue": {
+      "id": 566,
+      "name": "The City Ground",
+      "city": "Nottingham, Nottinghamshire",
+      "capacity": 30576,
+      "image": "https://media.api-sports.io/football/venues/566.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": "France",
+    "slug": "france",
+    "existing_slug": "france",
+    "logo": "https://media.api-sports.io/football/teams/2.png",
+    "country": "France",
+    "founded": 1919,
+    "national": true,
+    "venue": {
+      "id": 20332,
+      "name": "Stade de France",
+      "city": "Saint-Denis",
+      "capacity": 81338,
+      "image": "https://media.api-sports.io/football/venues/20332.png"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Germany",
+    "slug": "germany",
+    "existing_slug": "germany",
+    "logo": "https://media.api-sports.io/football/teams/25.png",
+    "country": "Germany",
+    "founded": 1900,
+    "national": true,
+    "venue": {
+      "id": 694,
+      "name": "Olympiastadion Berlin",
+      "city": "Berlin",
+      "capacity": 74667,
+      "image": "https://media.api-sports.io/football/venues/694.png"
+    }
+  },
+  {
+    "id": 1504,
+    "name": "Ghana",
+    "slug": "ghana",
+    "existing_slug": "ghana",
+    "logo": "https://media.api-sports.io/football/teams/1504.png",
+    "country": "Ghana",
+    "founded": 1957,
+    "national": true,
+    "venue": {
+      "id": 21410,
+      "name": "Accra Sports Stadium",
+      "city": "Accra",
+      "capacity": 35000,
+      "image": "https://media.api-sports.io/football/venues/21410.png"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Iran",
+    "slug": "iran",
+    "existing_slug": "iran",
+    "logo": "https://media.api-sports.io/football/teams/22.png",
+    "country": "Iran",
+    "founded": 1920,
+    "national": true,
+    "venue": {
+      "id": 22428,
+      "name": "Imam Reza Stadium",
+      "city": "Mashhad",
+      "capacity": 25000,
+      "image": "https://media.api-sports.io/football/venues/22428.png"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Japan",
+    "slug": "japan",
+    "existing_slug": "japan",
+    "logo": "https://media.api-sports.io/football/teams/12.png",
+    "country": "Japan",
+    "founded": 1921,
+    "national": true,
+    "venue": {
+      "id": 18623,
+      "name": "Panasonic Stadium Suita",
+      "city": "Suita",
+      "capacity": 40322,
+      "image": "https://media.api-sports.io/football/venues/18623.png"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Mexico",
+    "slug": "mexico",
+    "existing_slug": "mexico",
+    "logo": "https://media.api-sports.io/football/teams/16.png",
+    "country": "Mexico",
+    "founded": 1927,
+    "national": true,
+    "venue": {
+      "id": 22432,
+      "name": "Oakland-Alameda County Coliseum",
+      "city": "Oakland, California",
+      "capacity": 63026,
+      "image": "https://media.api-sports.io/football/venues/22432.png"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Morocco",
+    "slug": "morocco",
+    "existing_slug": "morocco",
+    "logo": "https://media.api-sports.io/football/teams/31.png",
+    "country": "Morocco",
+    "founded": 1955,
+    "national": true,
+    "venue": {
+      "id": 2260,
+      "name": "Complexe Sportif de Fès",
+      "city": "Fès",
+      "capacity": 45000,
+      "image": "https://media.api-sports.io/football/venues/2260.png"
+    }
+  },
+  {
+    "id": 1118,
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "existing_slug": "netherlands",
+    "logo": "https://media.api-sports.io/football/teams/1118.png",
+    "country": "Netherlands",
+    "founded": 1889,
+    "national": true,
+    "venue": {
+      "id": 1117,
+      "name": "Johan Cruijff ArenA",
+      "city": "Amsterdam",
+      "capacity": 55885,
+      "image": "https://media.api-sports.io/football/venues/1117.png"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Poland",
+    "slug": "poland",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/24.png",
+    "country": "Poland",
+    "founded": 1919,
+    "national": true,
+    "venue": {
+      "id": 20760,
+      "name": "Stadion Śląski",
+      "city": "Chorzów",
+      "capacity": 55211,
+      "image": "https://media.api-sports.io/football/venues/20760.png"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Portugal",
+    "slug": "portugal",
+    "existing_slug": "portugal",
+    "logo": "https://media.api-sports.io/football/teams/27.png",
+    "country": "Portugal",
+    "founded": 1914,
+    "national": true,
+    "venue": {
+      "id": 1262,
+      "name": "Estádio Nacional",
+      "city": "Jamor, Oeiras",
+      "capacity": 38000,
+      "image": "https://media.api-sports.io/football/venues/1262.png"
+    }
+  },
+  {
+    "id": 1569,
+    "name": "Qatar",
+    "slug": "qatar",
+    "existing_slug": "qatar",
+    "logo": "https://media.api-sports.io/football/teams/1569.png",
+    "country": "Qatar",
+    "founded": 1960,
+    "national": true,
+    "venue": {
+      "id": 22430,
+      "name": "Khalifa International Stadium",
+      "city": "Al Rayyan (Ar-Rayyan)",
+      "capacity": 45857,
+      "image": "https://media.api-sports.io/football/venues/22430.png"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "existing_slug": "saudi-arabia",
+    "logo": "https://media.api-sports.io/football/teams/23.png",
+    "country": "Saudi-Arabia",
+    "founded": 1956,
+    "national": true,
+    "venue": {
+      "id": 22434,
+      "name": "EGO Stadium",
+      "city": "Ad Dammām (Dammam)",
+      "capacity": 15000,
+      "image": "https://media.api-sports.io/football/venues/22434.png"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Senegal",
+    "slug": "senegal",
+    "existing_slug": "senegal",
+    "logo": "https://media.api-sports.io/football/teams/13.png",
+    "country": "Senegal",
+    "founded": 1960,
+    "national": true,
+    "venue": {
+      "id": 22435,
+      "name": "Stade Me Abdoulaye Wade",
+      "city": "Diamniadio",
+      "capacity": 50000,
+      "image": "https://media.api-sports.io/football/venues/22435.png"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Serbia",
+    "slug": "serbia",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/14.png",
+    "country": "Serbia",
+    "founded": 1919,
+    "national": true,
+    "venue": {
+      "id": 1406,
+      "name": "Stadion Rajko Mitić",
+      "city": "Beograd",
+      "capacity": 51862,
+      "image": "https://media.api-sports.io/football/venues/1406.png"
+    }
+  },
+  {
+    "id": 17,
+    "name": "South Korea",
+    "slug": "south-korea",
+    "existing_slug": "south-korea",
+    "logo": "https://media.api-sports.io/football/teams/17.png",
+    "country": "South-Korea",
+    "founded": 1933,
+    "national": true,
+    "venue": {
+      "id": 22429,
+      "name": "Yongin Mireu Stadium",
+      "city": "Yongin",
+      "capacity": 37155,
+      "image": "https://media.api-sports.io/football/venues/22429.png"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Spain",
+    "slug": "spain",
+    "existing_slug": "spain",
+    "logo": "https://media.api-sports.io/football/teams/9.png",
+    "country": "Spain",
+    "founded": 1913,
+    "national": true,
+    "venue": {
+      "id": 1456,
+      "name": "Estadio Santiago Bernabéu",
+      "city": "Madrid",
+      "capacity": 85454,
+      "image": "https://media.api-sports.io/football/venues/1456.png"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "existing_slug": "switzerland",
+    "logo": "https://media.api-sports.io/football/teams/15.png",
+    "country": "Switzerland",
+    "founded": 1895,
+    "national": true,
+    "venue": {
+      "id": 1543,
+      "name": "kybunpark",
+      "city": "St. Gallen",
+      "capacity": 20029,
+      "image": "https://media.api-sports.io/football/venues/1543.png"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Tunisia",
+    "slug": "tunisia",
+    "existing_slug": "tunisia",
+    "logo": "https://media.api-sports.io/football/teams/28.png",
+    "country": "Tunisia",
+    "founded": 1957,
+    "national": true,
+    "venue": {
+      "id": 21412,
+      "name": "Stade olympique Hammadi-Agrebi",
+      "city": "Radès",
+      "capacity": 65000,
+      "image": "https://media.api-sports.io/football/venues/21412.png"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Uruguay",
+    "slug": "uruguay",
+    "existing_slug": "uruguay",
+    "logo": "https://media.api-sports.io/football/teams/7.png",
+    "country": "Uruguay",
+    "founded": 1900,
+    "national": true,
+    "venue": {
+      "id": 1624,
+      "name": "Estadio Centenario",
+      "city": "Montevideo",
+      "capacity": 60235,
+      "image": "https://media.api-sports.io/football/venues/1624.png"
+    }
+  },
+  {
+    "id": 2384,
+    "name": "USA",
+    "slug": "usa",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/2384.png",
+    "country": "USA",
+    "founded": 1913,
+    "national": true,
+    "venue": {
+      "id": 19357,
+      "name": "GEODIS Park",
+      "city": "Nashville, Tennessee",
+      "capacity": 30109,
+      "image": "https://media.api-sports.io/football/venues/19357.png"
+    }
+  },
+  {
+    "id": 767,
+    "name": "Wales",
+    "slug": "wales",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/767.png",
+    "country": "Wales",
+    "founded": 1876,
+    "national": true,
+    "venue": {
+      "id": 12273,
+      "name": "Swansea.com Stadium",
+      "city": "Swansea",
+      "capacity": 21028,
+      "image": "https://media.api-sports.io/football/venues/12273.png"
+    }
+  }
+]

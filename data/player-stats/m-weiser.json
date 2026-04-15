@@ -1,0 +1,21 @@
+{
+  "player_id": 973,
+  "slug": "m-weiser",
+  "name": "M. Weiser",
+  "api_photo": "https://media.api-sports.io/football/players/973.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Werder Bremen",
+      "club_logo": "https://media.api-sports.io/football/teams/162.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 32,
+      "goals": 5,
+      "assists": 8,
+      "minutes": 2870,
+      "yellow_cards": 8,
+      "red_cards": 0
+    }
+  ]
+}

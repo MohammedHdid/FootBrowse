@@ -1,0 +1,21 @@
+{
+  "player_id": 19617,
+  "slug": "m-olise",
+  "name": "M. Olise",
+  "api_photo": "https://media.api-sports.io/football/players/19617.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayern München",
+      "club_logo": "https://media.api-sports.io/football/teams/157.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 34,
+      "goals": 12,
+      "assists": 15,
+      "minutes": 2346,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

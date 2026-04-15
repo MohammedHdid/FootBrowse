@@ -1,0 +1,202 @@
+{
+  "fixture_id": 1280667,
+  "fetched_at": "2026-04-14T21:37:04.537Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 33,
+      "extra": null,
+      "team_id": 565,
+      "player": "Silvère Ganvoula",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 38,
+      "extra": null,
+      "team_id": 645,
+      "player": "Victor Nelsson",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 645,
+      "player": "D. Köhn",
+      "assist": "E. Jelert",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 645,
+      "player": "H. Ziyech",
+      "assist": "B. Kutlu",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 645,
+      "player": "Gabriel Sara",
+      "assist": "K. Demirbay",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 565,
+      "player": "J. Hadjam",
+      "assist": "N. Persson",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 565,
+      "player": "J. Monteiro",
+      "assist": "A. Virginius",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 645,
+      "player": "Mauro Icardi",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 645,
+      "player": "M. Batshuayi",
+      "assist": "D. Mertens",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 565,
+      "player": "S. Ganvoula",
+      "assist": "C. Itten",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 565,
+      "player": "E. Colley",
+      "assist": "M. Chaiwa",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 565,
+      "player": "F. Ugrinic",
+      "assist": "D. Males",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 645,
+      "player": "Kaan Ayhan",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 565,
+      "player": "Darian Maleš",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 645,
+      "player": "Fernando Muslera",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 565,
+      "player": "A. Virginius",
+      "assist": "C. Itten",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 565,
+      "player": "Alan Virginius",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 645,
+      "player": "K. Aktürkoğlu",
+      "assist": "G. Güvenç",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 6,
+      "team_id": 645,
+      "player": "Dries Mertens",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    }
+  ],
+  "home_stats": {
+    "team_id": 645,
+    "possession": 62,
+    "shots_on": 4,
+    "shots_total": 17,
+    "corners": 5,
+    "fouls": 13,
+    "yellow_cards": 4,
+    "red_cards": 1
+  },
+  "away_stats": {
+    "team_id": 565,
+    "possession": 38,
+    "shots_on": 6,
+    "shots_total": 16,
+    "corners": 8,
+    "fouls": 10,
+    "yellow_cards": 3,
+    "red_cards": 0
+  }
+}

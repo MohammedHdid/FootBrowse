@@ -1,0 +1,21 @@
+{
+  "player_id": 135545,
+  "slug": "l-bonis",
+  "name": "L. Bonis",
+  "api_photo": "https://media.api-sports.io/football/players/135545.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Larne",
+      "club_logo": "https://media.api-sports.io/football/teams/5354.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 35,
+      "goals": 11,
+      "assists": 3,
+      "minutes": 2941,
+      "yellow_cards": 9,
+      "red_cards": 0
+    }
+  ]
+}

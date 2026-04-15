@@ -1,0 +1,200 @@
+{
+  "team_id": 609,
+  "team_slug": "shkendija",
+  "team_name": "Shkendija",
+  "fetched_at": "2026-04-15T08:24:07.567Z",
+  "players": [
+    {
+      "id": 161691,
+      "name": "Astrit Amzai",
+      "age": 23,
+      "number": 25,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/161691.png"
+    },
+    {
+      "id": 25002,
+      "name": "B. Gaye",
+      "age": 27,
+      "number": 24,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/25002.png"
+    },
+    {
+      "id": 303749,
+      "name": "F. Ramani",
+      "age": 31,
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/303749.png"
+    },
+    {
+      "id": 395753,
+      "name": "N. Ajetovikj",
+      "age": 19,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/395753.png"
+    },
+    {
+      "id": 162317,
+      "name": "Imran Fetai",
+      "age": 23,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162317.png"
+    },
+    {
+      "id": 340208,
+      "name": "Anes Meljichi",
+      "age": 19,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/340208.png"
+    },
+    {
+      "id": 105480,
+      "name": "M. Murati",
+      "age": 31,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/105480.png"
+    },
+    {
+      "id": 197756,
+      "name": "A. Trumçi",
+      "age": 25,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/197756.png"
+    },
+    {
+      "id": 32403,
+      "name": "R. Webster",
+      "age": 24,
+      "number": 11,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/32403.png"
+    },
+    {
+      "id": 128900,
+      "name": "Adamu Ibrahim Alhassan",
+      "age": 25,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/128900.png"
+    },
+    {
+      "id": 635798,
+      "name": "I. Caneski",
+      "age": 18,
+      "number": null,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/635798.png"
+    },
+    {
+      "id": 512794,
+      "name": "N. Ceka",
+      "age": 17,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/512794.png"
+    },
+    {
+      "id": 270776,
+      "name": "D. Islami",
+      "age": 25,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/270776.png"
+    },
+    {
+      "id": 108568,
+      "name": "E. Krasniqi",
+      "age": 31,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/108568.png"
+    },
+    {
+      "id": 337688,
+      "name": "R. Ramadani",
+      "age": 22,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/337688.png"
+    },
+    {
+      "id": 8596,
+      "name": "S. Spahiu",
+      "age": 26,
+      "number": 49,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/8596.png"
+    },
+    {
+      "id": 105483,
+      "name": "A. Zejnullai",
+      "age": 26,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/105483.png"
+    },
+    {
+      "id": 56023,
+      "name": "B. Ibraimi",
+      "age": 39,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/56023.png"
+    },
+    {
+      "id": 340561,
+      "name": "L. Kaba",
+      "age": 20,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/340561.png"
+    },
+    {
+      "id": 283523,
+      "name": "V. Krstevski",
+      "age": 22,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/283523.png"
+    },
+    {
+      "id": 28476,
+      "name": "L. Latifi",
+      "age": 31,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/28476.png"
+    },
+    {
+      "id": 270585,
+      "name": "A. Mazari",
+      "age": 24,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/270585.png"
+    },
+    {
+      "id": 111920,
+      "name": "F. Ndzengue",
+      "age": 25,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/111920.png"
+    },
+    {
+      "id": 365490,
+      "name": "F. Tamba",
+      "age": 21,
+      "number": 29,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/365490.png"
+    }
+  ]
+}

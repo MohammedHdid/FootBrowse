@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388572,
+  "fetched_at": "2026-04-15T21:00:45.726Z",
+  "advice": "Double chance : draw or RB Leipzig",
+  "winner_id": 173,
+  "winner_name": "RB Leipzig",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "40%",
+      "away": "60%"
+    },
+    "att": {
+      "home": "38%",
+      "away": "63%"
+    },
+    "def": {
+      "home": "38%",
+      "away": "63%"
+    },
+    "poisson_distribution": {
+      "home": "47%",
+      "away": "53%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "35%",
+      "away": "65%"
+    },
+    "total": {
+      "home": "37.8%",
+      "away": "62.5%"
+    }
+  }
+}

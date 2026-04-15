@@ -1,0 +1,256 @@
+{
+  "team_id": 169,
+  "team_slug": "eintracht-frankfurt",
+  "team_name": "Eintracht Frankfurt",
+  "fetched_at": "2026-04-14T22:30:52.050Z",
+  "players": [
+    {
+      "id": 26291,
+      "name": "J. Grahl",
+      "age": 37,
+      "number": 33,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/26291.png"
+    },
+    {
+      "id": 362884,
+      "name": "Kauã Santos",
+      "age": 22,
+      "number": 40,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/362884.png"
+    },
+    {
+      "id": 7288,
+      "name": "M. Zetterer",
+      "age": 30,
+      "number": 23,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/7288.png"
+    },
+    {
+      "id": 162414,
+      "name": "A. Amenda",
+      "age": 22,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162414.png"
+    },
+    {
+      "id": 382492,
+      "name": "Elias Baum",
+      "age": 20,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/382492.png"
+    },
+    {
+      "id": 280074,
+      "name": "N. Brown",
+      "age": 22,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/280074.png"
+    },
+    {
+      "id": 1803,
+      "name": "T. Chandler",
+      "age": 35,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1803.png"
+    },
+    {
+      "id": 269531,
+      "name": "N. Collins",
+      "age": 21,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/269531.png"
+    },
+    {
+      "id": 382491,
+      "name": "Fousseny Doumbia",
+      "age": 20,
+      "number": 41,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/382491.png"
+    },
+    {
+      "id": 26238,
+      "name": "R. Koch",
+      "age": 29,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/26238.png"
+    },
+    {
+      "id": 423789,
+      "name": "K. Kosugi",
+      "age": 19,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/423789.png"
+    },
+    {
+      "id": 533,
+      "name": "R. Kristensen",
+      "age": 28,
+      "number": 13,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/533.png"
+    },
+    {
+      "id": 204043,
+      "name": "A. Theate",
+      "age": 25,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/204043.png"
+    },
+    {
+      "id": 496976,
+      "name": "L. Arrhov",
+      "age": 17,
+      "number": 31,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/496976.png"
+    },
+    {
+      "id": 369674,
+      "name": "J. Bahoya",
+      "age": 20,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/369674.png"
+    },
+    {
+      "id": 14,
+      "name": "M. Dahoud",
+      "age": 29,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/14.png"
+    },
+    {
+      "id": 478662,
+      "name": "M. Dills",
+      "age": 18,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/478662.png"
+    },
+    {
+      "id": 2598,
+      "name": "R. Dōan",
+      "age": 27,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2598.png"
+    },
+    {
+      "id": 16,
+      "name": "M. Götze",
+      "age": 33,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/16.png"
+    },
+    {
+      "id": 339874,
+      "name": "O. HÃ¸jlund",
+      "age": 20,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/339874.png"
+    },
+    {
+      "id": 335094,
+      "name": "H. Larsson",
+      "age": 21,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/335094.png"
+    },
+    {
+      "id": 21587,
+      "name": "E. Skhiri",
+      "age": 30,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/21587.png"
+    },
+    {
+      "id": 339887,
+      "name": "C. Uzun",
+      "age": 20,
+      "number": 42,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/339887.png"
+    },
+    {
+      "id": 535046,
+      "name": "A. Amaimouni",
+      "age": 20,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/535046.png"
+    },
+    {
+      "id": 2927,
+      "name": "M. Batshuayi",
+      "age": 32,
+      "number": 30,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/2927.png"
+    },
+    {
+      "id": 25926,
+      "name": "J. Burkardt",
+      "age": 25,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/25926.png"
+    },
+    {
+      "id": 276670,
+      "name": "F. Chaïbi",
+      "age": 23,
+      "number": 8,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/276670.png"
+    },
+    {
+      "id": 409190,
+      "name": "Y. Ebnoutalib",
+      "age": 22,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/409190.png"
+    },
+    {
+      "id": 147831,
+      "name": "A. Kalimuendo",
+      "age": 23,
+      "number": 25,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/147831.png"
+    },
+    {
+      "id": 161922,
+      "name": "A. Knauff",
+      "age": 23,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/161922.png"
+    },
+    {
+      "id": 567973,
+      "name": "A. Staff",
+      "age": 17,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/567973.png"
+    }
+  ]
+}

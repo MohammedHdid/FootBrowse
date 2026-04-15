@@ -1,0 +1,40 @@
+{
+  "id": 8721,
+  "name": "P. Tami",
+  "photo": "https://media.api-sports.io/football/coachs/8721.png",
+  "nationality": "Switzerland",
+  "age": 64,
+  "team_id": 606,
+  "team_slug": "fc-lugano",
+  "fetched_at": "2026-04-14T22:45:23.044Z",
+  "career": [
+    {
+      "team_id": 606,
+      "team_name": "Lugano",
+      "team_logo": "https://media.api-sports.io/football/teams/606.png",
+      "start": "2017-07-01",
+      "end": "2018-04-01"
+    },
+    {
+      "team_id": 1013,
+      "team_name": "Grasshoppers",
+      "team_logo": "https://media.api-sports.io/football/teams/1013.png",
+      "start": "2015-01-01",
+      "end": "2017-03-01"
+    },
+    {
+      "team_id": 10183,
+      "team_name": "Switzerland U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10183.png",
+      "start": "2012-07-01",
+      "end": "2015-01-01"
+    },
+    {
+      "team_id": 8226,
+      "team_name": "Switzerland U21",
+      "team_logo": "https://media.api-sports.io/football/teams/8226.png",
+      "start": "2009-05-01",
+      "end": "2015-01-01"
+    }
+  ]
+}

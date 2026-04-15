@@ -1,0 +1,21 @@
+{
+  "player_id": 47336,
+  "slug": "darder",
+  "name": "Darder",
+  "api_photo": "https://media.api-sports.io/football/players/47336.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Mallorca",
+      "club_logo": "https://media.api-sports.io/football/teams/798.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 38,
+      "goals": 2,
+      "assists": 6,
+      "minutes": 2770,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

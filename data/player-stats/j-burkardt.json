@@ -1,0 +1,21 @@
+{
+  "player_id": 25926,
+  "slug": "j-burkardt",
+  "name": "J. Burkardt",
+  "api_photo": "https://media.api-sports.io/football/players/25926.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "FSV Mainz 05",
+      "club_logo": "https://media.api-sports.io/football/teams/164.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 29,
+      "goals": 18,
+      "assists": 2,
+      "minutes": 2120,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

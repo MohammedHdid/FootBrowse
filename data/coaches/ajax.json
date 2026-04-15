@@ -1,0 +1,33 @@
+{
+  "id": 5322,
+  "name": "J. Heitinga",
+  "photo": "https://media.api-sports.io/football/coachs/5322.png",
+  "nationality": "Netherlands",
+  "age": 42,
+  "team_id": 194,
+  "team_slug": "ajax",
+  "fetched_at": "2026-04-15T08:14:36.745Z",
+  "career": [
+    {
+      "team_id": 194,
+      "team_name": "Ajax",
+      "team_logo": "https://media.api-sports.io/football/teams/194.png",
+      "start": "2023-02-01",
+      "end": null
+    },
+    {
+      "team_id": 425,
+      "team_name": "Jong Ajax",
+      "team_logo": "https://media.api-sports.io/football/teams/425.png",
+      "start": "2021-08-01",
+      "end": "2023-01-01"
+    },
+    {
+      "team_id": 7881,
+      "team_name": "Ajax U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7881.png",
+      "start": "2017-09-01",
+      "end": "2020-08-01"
+    }
+  ]
+}

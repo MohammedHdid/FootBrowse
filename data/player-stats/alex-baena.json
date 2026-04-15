@@ -1,0 +1,21 @@
+{
+  "player_id": 182219,
+  "slug": "alex-baena",
+  "name": "Álex Baena",
+  "api_photo": "https://media.api-sports.io/football/players/182219.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 32,
+      "goals": 7,
+      "assists": 9,
+      "minutes": 2602,
+      "yellow_cards": 9,
+      "red_cards": 0
+    }
+  ]
+}

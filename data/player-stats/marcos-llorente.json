@@ -1,0 +1,21 @@
+{
+  "player_id": 753,
+  "slug": "marcos-llorente",
+  "name": "Marcos Llorente",
+  "api_photo": "https://media.api-sports.io/football/players/753.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 8,
+      "goals": 2,
+      "assists": 4,
+      "minutes": 693,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

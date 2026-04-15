@@ -1,0 +1,19 @@
+{
+  "id": 12856,
+  "name": "Bubista",
+  "photo": "https://media.api-sports.io/football/coachs/12856.png",
+  "nationality": "Cape Verde",
+  "age": 55,
+  "team_id": 1533,
+  "team_slug": "cape-verde",
+  "fetched_at": "2026-04-15T13:12:53.157Z",
+  "career": [
+    {
+      "team_id": 1533,
+      "team_name": "Cabo Verde",
+      "team_logo": "https://media.api-sports.io/football/teams/1533.png",
+      "start": "2020-10-01",
+      "end": null
+    }
+  ]
+}

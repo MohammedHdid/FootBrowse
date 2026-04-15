@@ -1,0 +1,47 @@
+{
+  "id": 1544,
+  "name": "U. Fischer",
+  "photo": "https://media.api-sports.io/football/coachs/1544.png",
+  "nationality": "Switzerland",
+  "age": 59,
+  "team_id": 164,
+  "team_slug": "fsv-mainz-05",
+  "fetched_at": "2026-04-14T22:31:34.130Z",
+  "career": [
+    {
+      "team_id": 164,
+      "team_name": "FSV Mainz 05",
+      "team_logo": "https://media.api-sports.io/football/teams/164.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 182,
+      "team_name": "Union Berlin",
+      "team_logo": "https://media.api-sports.io/football/teams/182.png",
+      "start": "2018-07-01",
+      "end": "2023-11-01"
+    },
+    {
+      "team_id": 551,
+      "team_name": "Basel",
+      "team_logo": "https://media.api-sports.io/football/teams/551.png",
+      "start": "2015-06-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 1012,
+      "team_name": "Thun",
+      "team_logo": "https://media.api-sports.io/football/teams/1012.png",
+      "start": "2013-01-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 783,
+      "team_name": "Zürich",
+      "team_logo": "https://media.api-sports.io/football/teams/783.png",
+      "start": "2010-04-01",
+      "end": "2012-03-01"
+    }
+  ]
+}

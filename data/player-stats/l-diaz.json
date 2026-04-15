@@ -1,0 +1,21 @@
+{
+  "player_id": 2489,
+  "slug": "l-diaz",
+  "name": "L. Díaz",
+  "api_photo": "https://media.api-sports.io/football/players/2489.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Liverpool",
+      "club_logo": "https://media.api-sports.io/football/teams/40.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 36,
+      "goals": 13,
+      "assists": 5,
+      "minutes": 2413,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

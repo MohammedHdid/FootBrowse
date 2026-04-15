@@ -1,0 +1,200 @@
+{
+  "team_id": 667,
+  "team_slug": "lincoln-red-imps-fc",
+  "team_name": "Lincoln Red Imps FC",
+  "fetched_at": "2026-04-15T08:19:19.182Z",
+  "players": [
+    {
+      "id": 544024,
+      "name": "J. Hankins",
+      "age": 24,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/544024.png"
+    },
+    {
+      "id": 28946,
+      "name": "Nauzet García",
+      "age": 31,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/28946.png"
+    },
+    {
+      "id": 105694,
+      "name": "I. Ayew",
+      "age": 37,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/105694.png"
+    },
+    {
+      "id": 91618,
+      "name": "B. Lopes",
+      "age": 32,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/91618.png"
+    },
+    {
+      "id": 104847,
+      "name": "Rafael Muñoz Benavides",
+      "age": 31,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/104847.png"
+    },
+    {
+      "id": 396728,
+      "name": "J. Peacock",
+      "age": 19,
+      "number": 71,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/396728.png"
+    },
+    {
+      "id": 91426,
+      "name": "Christian Rutjens",
+      "age": 27,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/91426.png"
+    },
+    {
+      "id": 91623,
+      "name": "Jesús Toscano",
+      "age": 35,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/91623.png"
+    },
+    {
+      "id": 396732,
+      "name": "L. Chipolina",
+      "age": 19,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/396732.png"
+    },
+    {
+      "id": 370014,
+      "name": "K. Clinton",
+      "age": 21,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/370014.png"
+    },
+    {
+      "id": 182692,
+      "name": "Joe",
+      "age": 34,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/182692.png"
+    },
+    {
+      "id": 6936,
+      "name": "Mandi",
+      "age": 36,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/6936.png"
+    },
+    {
+      "id": 46907,
+      "name": "Nano",
+      "age": 41,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/46907.png"
+    },
+    {
+      "id": 340184,
+      "name": "N. Pozo",
+      "age": 20,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/340184.png"
+    },
+    {
+      "id": 134458,
+      "name": "G. Torrilla",
+      "age": 28,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/134458.png"
+    },
+    {
+      "id": 55940,
+      "name": "L. Casciaro",
+      "age": 44,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/55940.png"
+    },
+    {
+      "id": 55935,
+      "name": "T. De Barr",
+      "age": 25,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/55935.png"
+    },
+    {
+      "id": 625428,
+      "name": "A. Elghobashy",
+      "age": 29,
+      "number": 99,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/625428.png"
+    },
+    {
+      "id": 105684,
+      "name": "Toni García",
+      "age": 34,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/105684.png"
+    },
+    {
+      "id": 108526,
+      "name": "K. Gómez",
+      "age": 31,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/108526.png"
+    },
+    {
+      "id": 104976,
+      "name": "Juanje Argüez",
+      "age": 30,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/104976.png"
+    },
+    {
+      "id": 14657,
+      "name": "T. Kolega",
+      "age": 27,
+      "number": 24,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/14657.png"
+    },
+    {
+      "id": 46831,
+      "name": "Álex Mula",
+      "age": 29,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/46831.png"
+    },
+    {
+      "id": 123038,
+      "name": "Víctor Villacañas",
+      "age": 29,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/123038.png"
+    }
+  ]
+}

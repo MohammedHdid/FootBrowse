@@ -1,0 +1,19 @@
+{
+  "id": 1578,
+  "name": "D. Healy",
+  "photo": "https://media.api-sports.io/football/coachs/1578.png",
+  "nationality": "Northern Ireland",
+  "age": 46,
+  "team_id": 583,
+  "team_slug": "linfield",
+  "fetched_at": "2026-04-15T08:19:37.211Z",
+  "career": [
+    {
+      "team_id": 583,
+      "team_name": "Linfield",
+      "team_logo": "https://media.api-sports.io/football/teams/583.png",
+      "start": "2015-10-01",
+      "end": null
+    }
+  ]
+}

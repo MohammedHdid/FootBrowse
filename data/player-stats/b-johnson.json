@@ -1,0 +1,21 @@
+{
+  "player_id": 129711,
+  "slug": "b-johnson",
+  "name": "B. Johnson",
+  "api_photo": "https://media.api-sports.io/football/players/129711.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Tottenham",
+      "club_logo": "https://media.api-sports.io/football/teams/47.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 33,
+      "goals": 11,
+      "assists": 3,
+      "minutes": 2178,
+      "yellow_cards": 5,
+      "red_cards": 0
+    }
+  ]
+}

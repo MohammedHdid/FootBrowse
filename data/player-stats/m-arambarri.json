@@ -1,0 +1,21 @@
+{
+  "player_id": 47258,
+  "slug": "m-arambarri",
+  "name": "M. Arambarri",
+  "api_photo": "https://media.api-sports.io/football/players/47258.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Getafe",
+      "club_logo": "https://media.api-sports.io/football/teams/546.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 35,
+      "goals": 10,
+      "assists": 0,
+      "minutes": 2665,
+      "yellow_cards": 10,
+      "red_cards": 0
+    }
+  ]
+}

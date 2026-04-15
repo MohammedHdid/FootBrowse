@@ -1,0 +1,40 @@
+{
+  "id": 2016,
+  "name": "T. Häberli",
+  "photo": "https://media.api-sports.io/football/coachs/2016.png",
+  "nationality": "Switzerland",
+  "age": 51,
+  "team_id": 2184,
+  "team_slug": "servette-fc",
+  "fetched_at": "2026-04-15T08:23:49.603Z",
+  "career": [
+    {
+      "team_id": 2184,
+      "team_name": "Servette",
+      "team_logo": "https://media.api-sports.io/football/teams/2184.png",
+      "start": "2024-06-01",
+      "end": null
+    },
+    {
+      "team_id": 1101,
+      "team_name": "Estonia",
+      "team_logo": "https://media.api-sports.io/football/teams/1101.png",
+      "start": "2021-01-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 644,
+      "team_name": "Luzern",
+      "team_logo": "https://media.api-sports.io/football/teams/644.png",
+      "start": "2019-02-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 7950,
+      "team_name": "Basel U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7950.png",
+      "start": "2013-08-01",
+      "end": "2016-06-01"
+    }
+  ]
+}

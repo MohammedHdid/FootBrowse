@@ -1,0 +1,33 @@
+{
+  "id": 7601,
+  "name": "L. Bizzotto",
+  "photo": "https://media.api-sports.io/football/coachs/7601.png",
+  "nationality": "Italy",
+  "age": 65,
+  "team_id": 5308,
+  "team_slug": "virtus",
+  "fetched_at": "2026-04-15T08:25:49.892Z",
+  "career": [
+    {
+      "team_id": 5308,
+      "team_name": "Virtus",
+      "team_logo": "https://media.api-sports.io/football/teams/5308.png",
+      "start": "2019-07-01",
+      "end": null
+    },
+    {
+      "team_id": 700,
+      "team_name": "Tre Penne",
+      "team_logo": "https://media.api-sports.io/football/teams/700.png",
+      "start": "2017-06-01",
+      "end": "2018-11-01"
+    },
+    {
+      "team_id": 2249,
+      "team_name": "La Fiorita",
+      "team_logo": "https://media.api-sports.io/football/teams/2249.png",
+      "start": "2015-06-01",
+      "end": "2017-06-01"
+    }
+  ]
+}

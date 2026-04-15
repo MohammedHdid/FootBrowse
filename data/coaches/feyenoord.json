@@ -1,0 +1,47 @@
+{
+  "id": 1682,
+  "name": "B. Priske",
+  "photo": "https://media.api-sports.io/football/coachs/1682.png",
+  "nationality": "Denmark",
+  "age": 48,
+  "team_id": 209,
+  "team_slug": "feyenoord",
+  "fetched_at": "2026-04-15T08:17:00.971Z",
+  "career": [
+    {
+      "team_id": 209,
+      "team_name": "Feyenoord",
+      "team_logo": "https://media.api-sports.io/football/teams/209.png",
+      "start": "2024-06-01",
+      "end": "2025-02-01"
+    },
+    {
+      "team_id": 628,
+      "team_name": "Sparta Prague",
+      "team_logo": "https://media.api-sports.io/football/teams/628.png",
+      "start": "2022-05-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 740,
+      "team_name": "Antwerp",
+      "team_logo": "https://media.api-sports.io/football/teams/740.png",
+      "start": "2021-06-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 397,
+      "team_name": "Midtjylland",
+      "team_logo": "https://media.api-sports.io/football/teams/397.png",
+      "start": "2019-08-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 397,
+      "team_name": "Midtjylland",
+      "team_logo": "https://media.api-sports.io/football/teams/397.png",
+      "start": "2015-06-01",
+      "end": "2015-07-01"
+    }
+  ]
+}

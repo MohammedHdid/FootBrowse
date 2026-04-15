@@ -1,0 +1,26 @@
+{
+  "id": 2040,
+  "name": "V. Morozs",
+  "photo": "https://media.api-sports.io/football/coachs/2040.png",
+  "nationality": "Latvia",
+  "age": 45,
+  "team_id": 4160,
+  "team_slug": "rigas-fs",
+  "fetched_at": "2026-04-15T08:23:25.513Z",
+  "career": [
+    {
+      "team_id": 4160,
+      "team_name": "Rigas FS",
+      "team_logo": "https://media.api-sports.io/football/teams/4160.png",
+      "start": "2020-03-01",
+      "end": null
+    },
+    {
+      "team_id": 4149,
+      "team_name": "BFC Daugavpils",
+      "team_logo": "https://media.api-sports.io/football/teams/4149.png",
+      "start": "2017-01-01",
+      "end": "2019-12-01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 931,
+  "slug": "ferran-torres",
+  "name": "Ferran Torres",
+  "api_photo": "https://media.api-sports.io/football/players/931.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Barcelona",
+      "club_logo": "https://media.api-sports.io/football/teams/529.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 28,
+      "goals": 9,
+      "assists": 6,
+      "minutes": 1042,
+      "yellow_cards": 1,
+      "red_cards": 1
+    }
+  ]
+}

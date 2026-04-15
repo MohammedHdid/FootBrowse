@@ -1,0 +1,21 @@
+{
+  "player_id": 644,
+  "slug": "l-sane",
+  "name": "L. Sané",
+  "api_photo": "https://media.api-sports.io/football/players/644.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayern München",
+      "club_logo": "https://media.api-sports.io/football/teams/157.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 30,
+      "goals": 11,
+      "assists": 5,
+      "minutes": 1633,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

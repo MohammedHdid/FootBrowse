@@ -1,0 +1,21 @@
+{
+  "player_id": 403554,
+  "slug": "christantus-uche",
+  "name": "Christantus Uche",
+  "api_photo": "https://media.api-sports.io/football/players/403554.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Getafe",
+      "club_logo": "https://media.api-sports.io/football/teams/546.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 33,
+      "goals": 4,
+      "assists": 6,
+      "minutes": 2501,
+      "yellow_cards": 8,
+      "red_cards": 2
+    }
+  ]
+}

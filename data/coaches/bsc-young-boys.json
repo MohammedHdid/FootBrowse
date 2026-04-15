@@ -1,0 +1,54 @@
+{
+  "id": 1499,
+  "name": "P. Rahmen",
+  "photo": "https://media.api-sports.io/football/coachs/1499.png",
+  "nationality": "Switzerland",
+  "age": 56,
+  "team_id": 565,
+  "team_slug": "bsc-young-boys",
+  "fetched_at": "2026-04-14T22:43:10.905Z",
+  "career": [
+    {
+      "team_id": 565,
+      "team_name": "Young Boys",
+      "team_logo": "https://media.api-sports.io/football/teams/565.png",
+      "start": "2024-07-01",
+      "end": "2024-10-01"
+    },
+    {
+      "team_id": 8226,
+      "team_name": "Switzerland U21",
+      "team_logo": "https://media.api-sports.io/football/teams/8226.png",
+      "start": "2023-06-01",
+      "end": "2023-07-01"
+    },
+    {
+      "team_id": 2180,
+      "team_name": "Winterthur",
+      "team_logo": "https://media.api-sports.io/football/teams/2180.png",
+      "start": "2023-06-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 551,
+      "team_name": "Basel",
+      "team_logo": "https://media.api-sports.io/football/teams/551.png",
+      "start": "2021-04-01",
+      "end": "2022-02-01"
+    },
+    {
+      "team_id": 2177,
+      "team_name": "Aarau",
+      "team_logo": "https://media.api-sports.io/football/teams/2177.png",
+      "start": "2018-07-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 12700,
+      "team_name": "Biel-Bienne",
+      "team_logo": "https://media.api-sports.io/football/teams/12700.png",
+      "start": "2015-05-01",
+      "end": "2016-02-01"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "team_id": 394,
+  "team_slug": "dinamo-minsk",
+  "team_name": "Dinamo Minsk",
+  "fetched_at": "2026-04-14T22:44:17.062Z",
+  "players": [
+    {
+      "id": 266066,
+      "name": "M. Kozakevich",
+      "age": 23,
+      "number": 16,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/266066.png"
+    },
+    {
+      "id": 375933,
+      "name": "I. Shimakovich",
+      "age": 20,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/375933.png"
+    },
+    {
+      "id": 412683,
+      "name": "M. Aleksandrov",
+      "age": 19,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/412683.png"
+    },
+    {
+      "id": 7857,
+      "name": "R. Begunov",
+      "age": 32,
+      "number": 67,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7857.png"
+    },
+    {
+      "id": 342254,
+      "name": "M. Dubatovka",
+      "age": 20,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/342254.png"
+    },
+    {
+      "id": 7805,
+      "name": "A. Ivanov",
+      "age": 28,
+      "number": 12,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7805.png"
+    },
+    {
+      "id": 307417,
+      "name": "V. Kalinin",
+      "age": 23,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/307417.png"
+    },
+    {
+      "id": 7831,
+      "name": "S. Karpovich",
+      "age": 31,
+      "number": 33,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7831.png"
+    },
+    {
+      "id": 7912,
+      "name": "M. Shvetsov",
+      "age": 27,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/7912.png"
+    },
+    {
+      "id": 463478,
+      "name": "A. Touré",
+      "age": 23,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/463478.png"
+    },
+    {
+      "id": 76486,
+      "name": "A. Vakulich",
+      "age": 27,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/76486.png"
+    },
+    {
+      "id": 385063,
+      "name": "F. Abdullahi",
+      "age": 22,
+      "number": 42,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/385063.png"
+    },
+    {
+      "id": 43852,
+      "name": "K. Kaplenko",
+      "age": 26,
+      "number": 55,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/43852.png"
+    },
+    {
+      "id": 561626,
+      "name": "E. Molchan",
+      "age": 17,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/561626.png"
+    },
+    {
+      "id": 272015,
+      "name": "V. Poloz",
+      "age": 24,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/272015.png"
+    },
+    {
+      "id": 7785,
+      "name": "A. Selyava",
+      "age": 33,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7785.png"
+    },
+    {
+      "id": 395010,
+      "name": "A. Sokolovskiy",
+      "age": 19,
+      "number": 78,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/395010.png"
+    },
+    {
+      "id": 451359,
+      "name": "A. Zhechko",
+      "age": 19,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/451359.png"
+    },
+    {
+      "id": 7888,
+      "name": "G. Alykulov",
+      "age": 25,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7888.png"
+    },
+    {
+      "id": 8138,
+      "name": "I. Bakhar",
+      "age": 27,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/8138.png"
+    },
+    {
+      "id": 303294,
+      "name": "M. Djimet",
+      "age": 22,
+      "number": 30,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/303294.png"
+    },
+    {
+      "id": 383071,
+      "name": "L. Gweth",
+      "age": 23,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/383071.png"
+    },
+    {
+      "id": 216545,
+      "name": "E. Malashevich",
+      "age": 23,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/216545.png"
+    },
+    {
+      "id": 8018,
+      "name": "D. Podstrelov",
+      "age": 27,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/8018.png"
+    },
+    {
+      "id": 281813,
+      "name": "K. Tsepenkov",
+      "age": 21,
+      "number": 99,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/281813.png"
+    },
+    {
+      "id": 358615,
+      "name": "K. Vardanyan",
+      "age": 22,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/358615.png"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": 1594,
+  "name": "Lopetegui",
+  "photo": "https://media.api-sports.io/football/coachs/1594.png",
+  "nationality": "Spain",
+  "age": 59,
+  "team_id": 1569,
+  "team_slug": "qatar",
+  "fetched_at": "2026-04-15T13:11:33.967Z",
+  "career": [
+    {
+      "team_id": 1569,
+      "team_name": "Qatar",
+      "team_logo": "https://media.api-sports.io/football/teams/1569.png",
+      "start": "2025-05-01",
+      "end": null
+    },
+    {
+      "team_id": 48,
+      "team_name": "West Ham United",
+      "team_logo": "https://media.api-sports.io/football/teams/48.png",
+      "start": "2024-07-01",
+      "end": "2025-01-01"
+    },
+    {
+      "team_id": 1569,
+      "team_name": "Qatar",
+      "team_logo": "https://media.api-sports.io/football/teams/1569.png",
+      "start": "2023-11-01",
+      "end": "2025-12-01"
+    },
+    {
+      "team_id": 39,
+      "team_name": "Wolverhampton Wanderers",
+      "team_logo": "https://media.api-sports.io/football/teams/39.png",
+      "start": "2022-11-01",
+      "end": "2023-08-01"
+    },
+    {
+      "team_id": 536,
+      "team_name": "Sevilla",
+      "team_logo": "https://media.api-sports.io/football/teams/536.png",
+      "start": "2019-06-01",
+      "end": "2022-10-01"
+    },
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "2018-06-01",
+      "end": "2018-10-01"
+    },
+    {
+      "team_id": 9,
+      "team_name": "Spain",
+      "team_logo": "https://media.api-sports.io/football/teams/9.png",
+      "start": "2016-07-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 212,
+      "team_name": "Porto",
+      "team_logo": "https://media.api-sports.io/football/teams/212.png",
+      "start": "2014-07-01",
+      "end": "2016-01-01"
+    },
+    {
+      "team_id": 8224,
+      "team_name": "Spain U21",
+      "team_logo": "https://media.api-sports.io/football/teams/8224.png",
+      "start": "2012-09-01",
+      "end": "2014-04-01"
+    },
+    {
+      "team_id": 10349,
+      "team_name": "Spain U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10349.png",
+      "start": "2012-05-01",
+      "end": "2013-05-01"
+    },
+    {
+      "team_id": 26086,
+      "team_name": "Spain U20",
+      "team_logo": "https://media.api-sports.io/football/teams/26086.png",
+      "start": "2011-07-01",
+      "end": "2014-04-01"
+    }
+  ]
+}

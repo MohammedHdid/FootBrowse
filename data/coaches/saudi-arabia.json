@@ -1,0 +1,89 @@
+{
+  "id": 344,
+  "name": "H. Renard",
+  "photo": "https://media.api-sports.io/football/coachs/344.png",
+  "nationality": "France",
+  "age": 57,
+  "team_id": 23,
+  "team_slug": "saudi-arabia",
+  "fetched_at": "2026-04-15T13:11:40.372Z",
+  "career": [
+    {
+      "team_id": 23,
+      "team_name": "Saudi Arabia",
+      "team_logo": "https://media.api-sports.io/football/teams/23.png",
+      "start": "2024-10-01",
+      "end": null
+    },
+    {
+      "team_id": 1725,
+      "team_name": "France",
+      "team_logo": "https://media.api-sports.io/football/teams/1725.png",
+      "start": "2023-03-01",
+      "end": "2024-08-01"
+    },
+    {
+      "team_id": 23,
+      "team_name": "Saudi Arabia",
+      "team_logo": "https://media.api-sports.io/football/teams/23.png",
+      "start": "2019-07-01",
+      "end": "2023-03-01"
+    },
+    {
+      "team_id": 31,
+      "team_name": "Morocco",
+      "team_logo": "https://media.api-sports.io/football/teams/31.png",
+      "start": "2016-02-01",
+      "end": "2019-07-01"
+    },
+    {
+      "team_id": 79,
+      "team_name": "Lille",
+      "team_logo": "https://media.api-sports.io/football/teams/79.png",
+      "start": "2015-05-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 1501,
+      "team_name": "Côte d'Ivoire",
+      "team_logo": "https://media.api-sports.io/football/teams/1501.png",
+      "start": "2014-08-01",
+      "end": "2015-05-01"
+    },
+    {
+      "team_id": 115,
+      "team_name": "Sochaux",
+      "team_logo": "https://media.api-sports.io/football/teams/115.png",
+      "start": "2013-10-01",
+      "end": "2014-06-01"
+    },
+    {
+      "team_id": 1507,
+      "team_name": "Zambia",
+      "team_logo": "https://media.api-sports.io/football/teams/1507.png",
+      "start": "2011-10-01",
+      "end": "2013-10-01"
+    },
+    {
+      "team_id": 910,
+      "team_name": "USM Alger",
+      "team_logo": "https://media.api-sports.io/football/teams/910.png",
+      "start": "2011-01-01",
+      "end": "2011-10-01"
+    },
+    {
+      "team_id": 1529,
+      "team_name": "Angola",
+      "team_logo": "https://media.api-sports.io/football/teams/1529.png",
+      "start": "2010-04-01",
+      "end": "2010-10-01"
+    },
+    {
+      "team_id": 1507,
+      "team_name": "Zambia",
+      "team_logo": "https://media.api-sports.io/football/teams/1507.png",
+      "start": "2008-05-01",
+      "end": "2010-04-01"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 1234,
+  "name": "M. Rumak",
+  "photo": "https://media.api-sports.io/football/coachs/1234.png",
+  "nationality": "Poland",
+  "age": 48,
+  "team_id": 347,
+  "team_slug": "lech-poznan",
+  "fetched_at": "2026-04-15T08:19:13.791Z",
+  "career": [
+    {
+      "team_id": 347,
+      "team_name": "Lech Poznań",
+      "team_logo": "https://media.api-sports.io/football/teams/347.png",
+      "start": "2023-12-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 10376,
+      "team_name": "Poland U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10376.png",
+      "start": "2021-09-01",
+      "end": "2022-09-01"
+    },
+    {
+      "team_id": 3488,
+      "team_name": "Odra Opole",
+      "team_logo": "https://media.api-sports.io/football/teams/3488.png",
+      "start": "2018-05-01",
+      "end": "2019-08-01"
+    },
+    {
+      "team_id": 3487,
+      "team_name": "Nieciecza",
+      "team_logo": "https://media.api-sports.io/football/teams/3487.png",
+      "start": "2017-07-01",
+      "end": "2017-09-01"
+    },
+    {
+      "team_id": 337,
+      "team_name": "Slask Wroclaw",
+      "team_logo": "https://media.api-sports.io/football/teams/337.png",
+      "start": "2016-03-01",
+      "end": "2016-12-01"
+    },
+    {
+      "team_id": 13843,
+      "team_name": "Zawisza Bydgoszcz",
+      "team_logo": "https://media.api-sports.io/football/teams/13843.png",
+      "start": "2014-09-01",
+      "end": "2015-09-01"
+    },
+    {
+      "team_id": 347,
+      "team_name": "Lech Poznań",
+      "team_logo": "https://media.api-sports.io/football/teams/347.png",
+      "start": "2012-02-01",
+      "end": "2014-08-01"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": 3386,
+  "name": "M. Allegri",
+  "photo": "https://media.api-sports.io/football/coachs/3386.png",
+  "nationality": "Italy",
+  "age": 58,
+  "team_id": 489,
+  "team_slug": "ac-milan",
+  "fetched_at": "2026-04-14T22:41:34.752Z",
+  "career": [
+    {
+      "team_id": 489,
+      "team_name": "AC Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/489.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 496,
+      "team_name": "Juventus",
+      "team_logo": "https://media.api-sports.io/football/teams/496.png",
+      "start": "2021-05-01",
+      "end": "2024-05-01"
+    },
+    {
+      "team_id": 496,
+      "team_name": "Juventus",
+      "team_logo": "https://media.api-sports.io/football/teams/496.png",
+      "start": "2014-07-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 489,
+      "team_name": "AC Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/489.png",
+      "start": "2010-07-01",
+      "end": "2014-01-01"
+    },
+    {
+      "team_id": 490,
+      "team_name": "Cagliari",
+      "team_logo": "https://media.api-sports.io/football/teams/490.png",
+      "start": "2008-07-01",
+      "end": "2010-04-01"
+    },
+    {
+      "team_id": 488,
+      "team_name": "Sassuolo",
+      "team_logo": "https://media.api-sports.io/football/teams/488.png",
+      "start": "2007-07-01",
+      "end": "2008-05-01"
+    },
+    {
+      "team_id": 9499,
+      "team_name": "Grosseto",
+      "team_logo": "https://media.api-sports.io/football/teams/9499.png",
+      "start": "2006-04-01",
+      "end": "2006-10-01"
+    },
+    {
+      "team_id": 9499,
+      "team_name": "Grosseto",
+      "team_logo": "https://media.api-sports.io/football/teams/9499.png",
+      "start": "2005-07-01",
+      "end": "2005-10-01"
+    },
+    {
+      "team_id": 493,
+      "team_name": "SPAL",
+      "team_logo": "https://media.api-sports.io/football/teams/493.png",
+      "start": "2004-07-01",
+      "end": "2005-05-01"
+    }
+  ]
+}

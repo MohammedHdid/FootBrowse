@@ -1,0 +1,26 @@
+{
+  "team1_id": 533,
+  "team2_id": 718,
+  "fetched_at": "2026-04-15T20:45:28.004Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 2,
+  "team2_goals": 0,
+  "last_matches": [
+    {
+      "fixture_id": 1390828,
+      "date": "2025-08-15",
+      "league": "La Liga",
+      "home_id": 533,
+      "home_name": "Villarreal",
+      "home_logo": "https://media.api-sports.io/football/teams/533.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 2,
+      "away_score": 0
+    }
+  ]
+}

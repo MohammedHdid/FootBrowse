@@ -1,0 +1,21 @@
+{
+  "player_id": 200139,
+  "slug": "m-amoura",
+  "name": "M. Amoura",
+  "api_photo": "https://media.api-sports.io/football/players/200139.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "VfL Wolfsburg",
+      "club_logo": "https://media.api-sports.io/football/teams/161.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 31,
+      "goals": 10,
+      "assists": 9,
+      "minutes": 2484,
+      "yellow_cards": 6,
+      "red_cards": 0
+    }
+  ]
+}

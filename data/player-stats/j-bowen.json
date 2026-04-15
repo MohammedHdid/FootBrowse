@@ -1,0 +1,21 @@
+{
+  "player_id": 19428,
+  "slug": "j-bowen",
+  "name": "J. Bowen",
+  "api_photo": "https://media.api-sports.io/football/players/19428.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "West Ham",
+      "club_logo": "https://media.api-sports.io/football/teams/48.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 34,
+      "goals": 13,
+      "assists": 8,
+      "minutes": 2979,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

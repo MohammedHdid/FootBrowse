@@ -1,0 +1,34 @@
+{
+  "player_id": 184,
+  "slug": "h-kane",
+  "name": "H. Kane",
+  "api_photo": "https://media.api-sports.io/football/players/184.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayern München",
+      "club_logo": "https://media.api-sports.io/football/teams/157.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 31,
+      "goals": 26,
+      "assists": 8,
+      "minutes": 2389,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Bayern München",
+      "club_logo": "https://media.api-sports.io/football/teams/157.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 13,
+      "goals": 11,
+      "assists": 2,
+      "minutes": 1120,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 2019,
+  "name": "L. Magnin",
+  "photo": "https://media.api-sports.io/football/coachs/2019.png",
+  "nationality": "Switzerland",
+  "age": 46,
+  "team_id": 551,
+  "team_slug": "fc-basel-1893",
+  "fetched_at": "2026-04-15T08:15:36.837Z",
+  "career": [
+    {
+      "team_id": 551,
+      "team_name": "FC Basel 1893",
+      "team_logo": "https://media.api-sports.io/football/teams/551.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 1014,
+      "team_name": "Lausanne-Sport",
+      "team_logo": "https://media.api-sports.io/football/teams/1014.png",
+      "start": "2022-05-01",
+      "end": null
+    },
+    {
+      "team_id": 618,
+      "team_name": "Rheindorf Altach",
+      "team_logo": "https://media.api-sports.io/football/teams/618.png",
+      "start": "2021-12-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 783,
+      "team_name": "Zürich",
+      "team_logo": "https://media.api-sports.io/football/teams/783.png",
+      "start": "2018-02-01",
+      "end": "2020-10-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Zürich U19",
+      "team_logo": null,
+      "start": "2016-07-01",
+      "end": "2018-02-01"
+    }
+  ]
+}

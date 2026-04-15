@@ -1,0 +1,75 @@
+{
+  "id": 610,
+  "name": "P. Lambert",
+  "photo": "https://media.api-sports.io/football/coachs/610.png",
+  "nationality": "Scotland",
+  "age": 56,
+  "team_id": 57,
+  "team_slug": "ipswich",
+  "fetched_at": "2026-04-14T22:39:22.672Z",
+  "career": [
+    {
+      "team_id": 57,
+      "team_name": "Ipswich Town",
+      "team_logo": "https://media.api-sports.io/football/teams/57.png",
+      "start": "2018-10-01",
+      "end": "2021-02-01"
+    },
+    {
+      "team_id": 75,
+      "team_name": "Stoke City",
+      "team_logo": "https://media.api-sports.io/football/teams/75.png",
+      "start": "2018-01-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 39,
+      "team_name": "Wolverhampton Wanderers",
+      "team_logo": "https://media.api-sports.io/football/teams/39.png",
+      "start": "2016-11-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 67,
+      "team_name": "Blackburn Rovers",
+      "team_logo": "https://media.api-sports.io/football/teams/67.png",
+      "start": "2015-11-01",
+      "end": "2016-05-01"
+    },
+    {
+      "team_id": 66,
+      "team_name": "Aston Villa",
+      "team_logo": "https://media.api-sports.io/football/teams/66.png",
+      "start": "2012-06-01",
+      "end": "2015-02-01"
+    },
+    {
+      "team_id": 71,
+      "team_name": "Norwich City",
+      "team_logo": "https://media.api-sports.io/football/teams/71.png",
+      "start": "2009-08-01",
+      "end": "2012-06-01"
+    },
+    {
+      "team_id": 1361,
+      "team_name": "Colchester United",
+      "team_logo": "https://media.api-sports.io/football/teams/1361.png",
+      "start": "2008-10-01",
+      "end": "2009-08-01"
+    },
+    {
+      "team_id": 1358,
+      "team_name": "Wycombe Wanderers",
+      "team_logo": "https://media.api-sports.io/football/teams/1358.png",
+      "start": "2006-06-01",
+      "end": "2008-05-01"
+    },
+    {
+      "team_id": 255,
+      "team_name": "Livingston",
+      "team_logo": "https://media.api-sports.io/football/teams/255.png",
+      "start": "2005-06-01",
+      "end": "2006-02-01"
+    }
+  ]
+}

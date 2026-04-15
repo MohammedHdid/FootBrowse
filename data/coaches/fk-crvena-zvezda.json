@@ -1,0 +1,89 @@
+{
+  "id": 2511,
+  "name": "V. Milojević",
+  "photo": "https://media.api-sports.io/football/coachs/2511.png",
+  "nationality": "Serbia",
+  "age": 55,
+  "team_id": 598,
+  "team_slug": "fk-crvena-zvezda",
+  "fetched_at": "2026-04-15T08:17:13.207Z",
+  "career": [
+    {
+      "team_id": 598,
+      "team_name": "Red Star Belgrade",
+      "team_logo": "https://media.api-sports.io/football/teams/598.png",
+      "start": "2023-12-01",
+      "end": null
+    },
+    {
+      "team_id": 602,
+      "team_name": "Apollon",
+      "team_logo": "https://media.api-sports.io/football/teams/602.png",
+      "start": "2023-08-01",
+      "end": "2023-12-01"
+    },
+    {
+      "team_id": 2247,
+      "team_name": "APOEL",
+      "team_logo": "https://media.api-sports.io/football/teams/2247.png",
+      "start": "2022-10-01",
+      "end": "2023-05-01"
+    },
+    {
+      "team_id": 2934,
+      "team_name": "Al Ettifaq",
+      "team_logo": "https://media.api-sports.io/football/teams/2934.png",
+      "start": "2021-10-01",
+      "end": "2022-03-01"
+    },
+    {
+      "team_id": 575,
+      "team_name": "AEK Athens",
+      "team_logo": "https://media.api-sports.io/football/teams/575.png",
+      "start": "2021-05-01",
+      "end": "2021-10-01"
+    },
+    {
+      "team_id": 2929,
+      "team_name": "Al Ahli",
+      "team_logo": "https://media.api-sports.io/football/teams/2929.png",
+      "start": "2020-02-01",
+      "end": "2021-04-01"
+    },
+    {
+      "team_id": 598,
+      "team_name": "Red Star Belgrade",
+      "team_logo": "https://media.api-sports.io/football/teams/598.png",
+      "start": "2017-06-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 622,
+      "team_name": "Panionios",
+      "team_logo": "https://media.api-sports.io/football/teams/622.png",
+      "start": "2016-08-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 3402,
+      "team_name": "Omonia Nicosia",
+      "team_logo": "https://media.api-sports.io/football/teams/3402.png",
+      "start": "2015-11-01",
+      "end": "2016-05-01"
+    },
+    {
+      "team_id": 2656,
+      "team_name": "Cukaricki",
+      "team_logo": "https://media.api-sports.io/football/teams/2656.png",
+      "start": "2012-02-01",
+      "end": "2015-10-01"
+    },
+    {
+      "team_id": 2653,
+      "team_name": "Javor",
+      "team_logo": "https://media.api-sports.io/football/teams/2653.png",
+      "start": "2011-07-01",
+      "end": "2011-09-01"
+    }
+  ]
+}

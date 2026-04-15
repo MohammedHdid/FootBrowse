@@ -1,0 +1,40 @@
+{
+  "id": 1348,
+  "name": "O. Werner",
+  "photo": "https://media.api-sports.io/football/coachs/1348.png",
+  "nationality": "Germany",
+  "age": 37,
+  "team_id": 162,
+  "team_slug": "werder-bremen",
+  "fetched_at": "2026-04-14T22:33:22.192Z",
+  "career": [
+    {
+      "team_id": 162,
+      "team_name": "Werder Bremen",
+      "team_logo": "https://media.api-sports.io/football/teams/162.png",
+      "start": "2021-11-01",
+      "end": null
+    },
+    {
+      "team_id": 191,
+      "team_name": "Holstein Kiel",
+      "team_logo": "https://media.api-sports.io/football/teams/191.png",
+      "start": "2019-09-01",
+      "end": "2021-09-01"
+    },
+    {
+      "team_id": 9344,
+      "team_name": "Holstein Kiel II",
+      "team_logo": "https://media.api-sports.io/football/teams/9344.png",
+      "start": "2018-07-01",
+      "end": "2019-09-01"
+    },
+    {
+      "team_id": 191,
+      "team_name": "Holstein Kiel",
+      "team_logo": "https://media.api-sports.io/football/teams/191.png",
+      "start": "2016-08-01",
+      "end": "2016-08-01"
+    }
+  ]
+}

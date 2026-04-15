@@ -1,0 +1,200 @@
+{
+  "team_id": 14281,
+  "team_slug": "drita",
+  "team_name": "Drita",
+  "fetched_at": "2026-04-15T08:15:18.759Z",
+  "players": [
+    {
+      "id": 270697,
+      "name": "L. Behluli",
+      "age": 25,
+      "number": 22,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/270697.png"
+    },
+    {
+      "id": 3487,
+      "name": "F. Maloku",
+      "age": 34,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/3487.png"
+    },
+    {
+      "id": 157191,
+      "name": "L. Rexhepi",
+      "age": 29,
+      "number": 94,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/157191.png"
+    },
+    {
+      "id": 105475,
+      "name": "E. Bejtulai",
+      "age": 31,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/105475.png"
+    },
+    {
+      "id": 74563,
+      "name": "Besnik Krasniqi",
+      "age": 35,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/74563.png"
+    },
+    {
+      "id": 317018,
+      "name": "R. Ovouka",
+      "age": 26,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/317018.png"
+    },
+    {
+      "id": 3605,
+      "name": "J. Pëllumbi",
+      "age": 25,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/3605.png"
+    },
+    {
+      "id": 154896,
+      "name": "B. Sheji",
+      "age": 25,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/154896.png"
+    },
+    {
+      "id": 127596,
+      "name": "L. Balaj",
+      "age": 26,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/127596.png"
+    },
+    {
+      "id": 105664,
+      "name": "R. Broja",
+      "age": 29,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/105664.png"
+    },
+    {
+      "id": 113566,
+      "name": "A. Dabiqaj",
+      "age": 29,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/113566.png"
+    },
+    {
+      "id": 339364,
+      "name": "S. Ibrahim",
+      "age": 25,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/339364.png"
+    },
+    {
+      "id": 3502,
+      "name": "V. Limaj",
+      "age": 29,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/3502.png"
+    },
+    {
+      "id": 277557,
+      "name": "I. Mustafa",
+      "age": 29,
+      "number": 36,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/277557.png"
+    },
+    {
+      "id": 191185,
+      "name": "K. Nguena",
+      "age": 25,
+      "number": 93,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/191185.png"
+    },
+    {
+      "id": 163586,
+      "name": "F. Ramadani",
+      "age": 25,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/163586.png"
+    },
+    {
+      "id": 474592,
+      "name": "M. Soumahoro",
+      "age": 20,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/474592.png"
+    },
+    {
+      "id": 14317,
+      "name": "K. Abazaj",
+      "age": 29,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/14317.png"
+    },
+    {
+      "id": 107484,
+      "name": "A. Ajzeraj",
+      "age": 28,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/107484.png"
+    },
+    {
+      "id": 608266,
+      "name": "M. Arthur",
+      "age": 18,
+      "number": 99,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/608266.png"
+    },
+    {
+      "id": 577171,
+      "name": "O. Grezda",
+      "age": 18,
+      "number": 37,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/577171.png"
+    },
+    {
+      "id": 3613,
+      "name": "Blerim Krasniqi",
+      "age": 29,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/3613.png"
+    },
+    {
+      "id": 194539,
+      "name": "A. Manaj",
+      "age": 27,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/194539.png"
+    },
+    {
+      "id": 215855,
+      "name": "V. Tusha",
+      "age": 23,
+      "number": 25,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/215855.png"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 12629,
+  "name": "E. Maresca",
+  "photo": "https://media.api-sports.io/football/coachs/12629.png",
+  "nationality": "Italy",
+  "age": 45,
+  "team_id": 49,
+  "team_slug": "chelsea",
+  "fetched_at": "2026-04-14T22:38:34.599Z",
+  "career": [
+    {
+      "team_id": 49,
+      "team_name": "Chelsea",
+      "team_logo": "https://media.api-sports.io/football/teams/49.png",
+      "start": "2024-06-01",
+      "end": null
+    },
+    {
+      "team_id": 46,
+      "team_name": "Leicester City",
+      "team_logo": "https://media.api-sports.io/football/teams/46.png",
+      "start": "2023-07-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 523,
+      "team_name": "Parma",
+      "team_logo": "https://media.api-sports.io/football/teams/523.png",
+      "start": "2021-05-01",
+      "end": "2021-11-01"
+    },
+    {
+      "team_id": 7197,
+      "team_name": "Manchester City U21",
+      "team_logo": "https://media.api-sports.io/football/teams/7197.png",
+      "start": "2020-09-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 15637,
+      "team_name": "Manchester City U23",
+      "team_logo": "https://media.api-sports.io/football/teams/15637.png",
+      "start": "2020-08-01",
+      "end": "2021-05-01"
+    }
+  ]
+}

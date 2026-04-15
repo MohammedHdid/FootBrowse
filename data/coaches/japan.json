@@ -1,0 +1,33 @@
+{
+  "id": 323,
+  "name": "H. Moriyasu",
+  "photo": "https://media.api-sports.io/football/coachs/323.png",
+  "nationality": "Japan",
+  "age": 57,
+  "team_id": 12,
+  "team_slug": "japan",
+  "fetched_at": "2026-04-15T13:11:29.087Z",
+  "career": [
+    {
+      "team_id": 12,
+      "team_name": "Japan",
+      "team_logo": "https://media.api-sports.io/football/teams/12.png",
+      "start": "2018-08-01",
+      "end": null
+    },
+    {
+      "team_id": 10176,
+      "team_name": "Japan U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10176.png",
+      "start": "2017-10-01",
+      "end": "2021-08-01"
+    },
+    {
+      "team_id": 282,
+      "team_name": "Sanfrecce Hiroshima",
+      "team_logo": "https://media.api-sports.io/football/teams/282.png",
+      "start": "2012-01-01",
+      "end": "2017-07-01"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5692,
+  "name": "I. Štimac",
+  "photo": "https://media.api-sports.io/football/coachs/5692.png",
+  "nationality": "Croatia",
+  "age": 58,
+  "team_id": 588,
+  "team_slug": "zrinjski",
+  "fetched_at": "2026-04-15T08:26:01.981Z",
+  "career": [
+    {
+      "team_id": 588,
+      "team_name": "Zrinjski",
+      "team_logo": "https://media.api-sports.io/football/teams/588.png",
+      "start": "2025-01-01",
+      "end": null
+    },
+    {
+      "team_id": 10935,
+      "team_name": "India U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10935.png",
+      "start": "2023-09-01",
+      "end": null
+    },
+    {
+      "team_id": 1537,
+      "team_name": "India",
+      "team_logo": "https://media.api-sports.io/football/teams/1537.png",
+      "start": "2019-05-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 2893,
+      "team_name": "Al Shahaniya",
+      "team_logo": "https://media.api-sports.io/football/teams/2893.png",
+      "start": "2016-12-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 2744,
+      "team_name": "Sepahan",
+      "team_logo": "https://media.api-sports.io/football/teams/2744.png",
+      "start": "2015-11-01",
+      "end": "2016-04-01"
+    },
+    {
+      "team_id": 1484,
+      "team_name": "Zadar",
+      "team_logo": "https://media.api-sports.io/football/teams/1484.png",
+      "start": "2015-01-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 3,
+      "team_name": "Croatia",
+      "team_logo": "https://media.api-sports.io/football/teams/3.png",
+      "start": "2012-06-01",
+      "end": "2013-10-01"
+    }
+  ]
+}

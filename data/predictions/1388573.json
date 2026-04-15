@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388573,
+  "fetched_at": "2026-04-15T21:00:51.658Z",
+  "advice": "Double chance : SC Freiburg or draw",
+  "winner_id": 160,
+  "winner_name": "SC Freiburg",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "att": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "def": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "poisson_distribution": {
+      "home": "75%",
+      "away": "25%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "57%",
+      "away": "43%"
+    },
+    "total": {
+      "home": "57.0%",
+      "away": "43.0%"
+    }
+  }
+}

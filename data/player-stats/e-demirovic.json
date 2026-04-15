@@ -1,0 +1,21 @@
+{
+  "player_id": 46930,
+  "slug": "e-demirovic",
+  "name": "E. Demirović",
+  "api_photo": "https://media.api-sports.io/football/players/46930.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "VfB Stuttgart",
+      "club_logo": "https://media.api-sports.io/football/teams/172.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 34,
+      "goals": 15,
+      "assists": 1,
+      "minutes": 1862,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 147859,
+  "slug": "c-de-ketelaere",
+  "name": "C. De Ketelaere",
+  "api_photo": "https://media.api-sports.io/football/players/147859.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atalanta",
+      "club_logo": "https://media.api-sports.io/football/teams/499.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 10,
+      "goals": 4,
+      "assists": 5,
+      "minutes": 701,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 1598,
+  "name": "Mendilibar",
+  "photo": "https://media.api-sports.io/football/coachs/1598.png",
+  "nationality": "Spain",
+  "age": 64,
+  "team_id": 553,
+  "team_slug": "olympiakos-piraeus",
+  "fetched_at": "2026-04-15T08:21:37.333Z",
+  "career": [
+    {
+      "team_id": 553,
+      "team_name": "Olympiakos",
+      "team_logo": "https://media.api-sports.io/football/teams/553.png",
+      "start": "2024-02-01",
+      "end": null
+    },
+    {
+      "team_id": 536,
+      "team_name": "Sevilla",
+      "team_logo": "https://media.api-sports.io/football/teams/536.png",
+      "start": "2023-03-01",
+      "end": "2023-10-01"
+    },
+    {
+      "team_id": 542,
+      "team_name": "Alaves",
+      "team_logo": "https://media.api-sports.io/football/teams/542.png",
+      "start": "2021-12-01",
+      "end": "2022-04-01"
+    },
+    {
+      "team_id": 545,
+      "team_name": "Eibar",
+      "team_logo": "https://media.api-sports.io/football/teams/545.png",
+      "start": "2015-07-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 539,
+      "team_name": "Levante",
+      "team_logo": "https://media.api-sports.io/football/teams/539.png",
+      "start": "2014-07-01",
+      "end": "2014-10-01"
+    },
+    {
+      "team_id": 727,
+      "team_name": "Osasuna",
+      "team_logo": "https://media.api-sports.io/football/teams/727.png",
+      "start": "2011-02-01",
+      "end": "2013-09-01"
+    },
+    {
+      "team_id": 720,
+      "team_name": "Real Valladolid",
+      "team_logo": "https://media.api-sports.io/football/teams/720.png",
+      "start": "2006-07-01",
+      "end": "2010-01-01"
+    },
+    {
+      "team_id": 531,
+      "team_name": "Athletic Bilbao",
+      "team_logo": "https://media.api-sports.io/football/teams/531.png",
+      "start": "2005-07-01",
+      "end": "2005-10-01"
+    },
+    {
+      "team_id": 545,
+      "team_name": "Eibar",
+      "team_logo": "https://media.api-sports.io/football/teams/545.png",
+      "start": "2004-07-01",
+      "end": "2005-06-01"
+    },
+    {
+      "team_id": 9797,
+      "team_name": "Lanzarote",
+      "team_logo": "https://media.api-sports.io/football/teams/9797.png",
+      "start": "2002-07-01",
+      "end": "2004-06-01"
+    }
+  ]
+}

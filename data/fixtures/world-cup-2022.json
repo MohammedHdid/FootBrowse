@@ -1,0 +1,1666 @@
+[
+  {
+    "fixture_id": 855736,
+    "slug": "qatar-vs-ecuador-2022-11-20",
+    "date": "2022-11-20",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 1569,
+      "name": "Qatar",
+      "slug": "qatar",
+      "logo": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "away_team": {
+      "id": 2382,
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "logo": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855735,
+    "slug": "england-vs-iran-2022-11-21",
+    "date": "2022-11-21",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 2
+    },
+    "home_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away_team": {
+      "id": 22,
+      "name": "Iran",
+      "slug": "iran",
+      "logo": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "venue_id": 22430,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855734,
+    "slug": "senegal-vs-netherlands-2022-11-21",
+    "date": "2022-11-21",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "away_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 866681,
+    "slug": "usa-vs-wales-2022-11-21",
+    "date": "2022-11-21",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away_team": {
+      "id": 767,
+      "name": "Wales",
+      "slug": "wales",
+      "logo": "https://media.api-sports.io/football/teams/767.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855737,
+    "slug": "argentina-vs-saudi-arabia-2022-11-22",
+    "date": "2022-11-22",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "logo": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855738,
+    "slug": "denmark-vs-tunisia-2022-11-22",
+    "date": "2022-11-22",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 21,
+      "name": "Denmark",
+      "slug": "denmark",
+      "logo": "https://media.api-sports.io/football/teams/21.png"
+    },
+    "away_team": {
+      "id": 28,
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "logo": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855739,
+    "slug": "mexico-vs-poland-2022-11-22",
+    "date": "2022-11-22",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 16,
+      "name": "Mexico",
+      "slug": "mexico",
+      "logo": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away_team": {
+      "id": 24,
+      "name": "Poland",
+      "slug": "poland",
+      "logo": "https://media.api-sports.io/football/teams/24.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 871850,
+    "slug": "france-vs-australia-2022-11-22",
+    "date": "2022-11-22",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855740,
+    "slug": "morocco-vs-croatia-2022-11-23",
+    "date": "2022-11-23",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "away_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855741,
+    "slug": "germany-vs-japan-2022-11-23",
+    "date": "2022-11-23",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 25,
+      "name": "Germany",
+      "slug": "germany",
+      "logo": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "away_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "venue_id": 22430,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 871851,
+    "slug": "spain-vs-costa-rica-2022-11-23",
+    "date": "2022-11-23",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 7,
+      "away": 0
+    },
+    "home_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away_team": {
+      "id": 29,
+      "name": "Costa Rica",
+      "slug": "costa-rica",
+      "logo": "https://media.api-sports.io/football/teams/29.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855742,
+    "slug": "belgium-vs-canada-2022-11-23",
+    "date": "2022-11-23",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 1,
+      "name": "Belgium",
+      "slug": "belgium",
+      "logo": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away_team": {
+      "id": 5529,
+      "name": "Canada",
+      "slug": "canada",
+      "logo": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855743,
+    "slug": "switzerland-vs-cameroon-2022-11-24",
+    "date": "2022-11-24",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away_team": {
+      "id": 1530,
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "logo": "https://media.api-sports.io/football/teams/1530.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855744,
+    "slug": "uruguay-vs-south-korea-2022-11-24",
+    "date": "2022-11-24",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 7,
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "logo": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "away_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855745,
+    "slug": "portugal-vs-ghana-2022-11-24",
+    "date": "2022-11-24",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 2
+    },
+    "home_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away_team": {
+      "id": 1504,
+      "name": "Ghana",
+      "slug": "ghana",
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855746,
+    "slug": "brazil-vs-serbia-2022-11-24",
+    "date": "2022-11-24",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away_team": {
+      "id": 14,
+      "name": "Serbia",
+      "slug": "serbia",
+      "logo": "https://media.api-sports.io/football/teams/14.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 866682,
+    "slug": "wales-vs-iran-2022-11-25",
+    "date": "2022-11-25",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 767,
+      "name": "Wales",
+      "slug": "wales",
+      "logo": "https://media.api-sports.io/football/teams/767.png"
+    },
+    "away_team": {
+      "id": 22,
+      "name": "Iran",
+      "slug": "iran",
+      "logo": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855747,
+    "slug": "qatar-vs-senegal-2022-11-25",
+    "date": "2022-11-25",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 3
+    },
+    "home_team": {
+      "id": 1569,
+      "name": "Qatar",
+      "slug": "qatar",
+      "logo": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "away_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855748,
+    "slug": "netherlands-vs-ecuador-2022-11-25",
+    "date": "2022-11-25",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away_team": {
+      "id": 2382,
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "logo": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "venue_id": 22430,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855749,
+    "slug": "england-vs-usa-2022-11-25",
+    "date": "2022-11-25",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 871852,
+    "slug": "tunisia-vs-australia-2022-11-26",
+    "date": "2022-11-26",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 28,
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "logo": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "away_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855750,
+    "slug": "poland-vs-saudi-arabia-2022-11-26",
+    "date": "2022-11-26",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 24,
+      "name": "Poland",
+      "slug": "poland",
+      "logo": "https://media.api-sports.io/football/teams/24.png"
+    },
+    "away_team": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "logo": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855751,
+    "slug": "france-vs-denmark-2022-11-26",
+    "date": "2022-11-26",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away_team": {
+      "id": 21,
+      "name": "Denmark",
+      "slug": "denmark",
+      "logo": "https://media.api-sports.io/football/teams/21.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855752,
+    "slug": "argentina-vs-mexico-2022-11-26",
+    "date": "2022-11-26",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 16,
+      "name": "Mexico",
+      "slug": "mexico",
+      "logo": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 871853,
+    "slug": "japan-vs-costa-rica-2022-11-27",
+    "date": "2022-11-27",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "away_team": {
+      "id": 29,
+      "name": "Costa Rica",
+      "slug": "costa-rica",
+      "logo": "https://media.api-sports.io/football/teams/29.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855753,
+    "slug": "belgium-vs-morocco-2022-11-27",
+    "date": "2022-11-27",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 1,
+      "name": "Belgium",
+      "slug": "belgium",
+      "logo": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855754,
+    "slug": "croatia-vs-canada-2022-11-27",
+    "date": "2022-11-27",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "away_team": {
+      "id": 5529,
+      "name": "Canada",
+      "slug": "canada",
+      "logo": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "venue_id": 22430,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855755,
+    "slug": "spain-vs-germany-2022-11-27",
+    "date": "2022-11-27",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away_team": {
+      "id": 25,
+      "name": "Germany",
+      "slug": "germany",
+      "logo": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855756,
+    "slug": "cameroon-vs-serbia-2022-11-28",
+    "date": "2022-11-28",
+    "kickoff_utc": "10:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 3
+    },
+    "home_team": {
+      "id": 1530,
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "logo": "https://media.api-sports.io/football/teams/1530.png"
+    },
+    "away_team": {
+      "id": 14,
+      "name": "Serbia",
+      "slug": "serbia",
+      "logo": "https://media.api-sports.io/football/teams/14.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855757,
+    "slug": "south-korea-vs-ghana-2022-11-28",
+    "date": "2022-11-28",
+    "kickoff_utc": "13:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "away_team": {
+      "id": 1504,
+      "name": "Ghana",
+      "slug": "ghana",
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855758,
+    "slug": "brazil-vs-switzerland-2022-11-28",
+    "date": "2022-11-28",
+    "kickoff_utc": "16:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855759,
+    "slug": "portugal-vs-uruguay-2022-11-28",
+    "date": "2022-11-28",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away_team": {
+      "id": 7,
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "logo": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855760,
+    "slug": "netherlands-vs-qatar-2022-11-29",
+    "date": "2022-11-29",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away_team": {
+      "id": 1569,
+      "name": "Qatar",
+      "slug": "qatar",
+      "logo": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855761,
+    "slug": "ecuador-vs-senegal-2022-11-29",
+    "date": "2022-11-29",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 2382,
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "logo": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "away_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "venue_id": 22430,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855762,
+    "slug": "iran-vs-usa-2022-11-29",
+    "date": "2022-11-29",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 1
+    },
+    "home_team": {
+      "id": 22,
+      "name": "Iran",
+      "slug": "iran",
+      "logo": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "away_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 866683,
+    "slug": "wales-vs-england-2022-11-29",
+    "date": "2022-11-29",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 3
+    },
+    "home_team": {
+      "id": 767,
+      "name": "Wales",
+      "slug": "wales",
+      "logo": "https://media.api-sports.io/football/teams/767.png"
+    },
+    "away_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 871854,
+    "slug": "australia-vs-denmark-2022-11-30",
+    "date": "2022-11-30",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "away_team": {
+      "id": 21,
+      "name": "Denmark",
+      "slug": "denmark",
+      "logo": "https://media.api-sports.io/football/teams/21.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855763,
+    "slug": "tunisia-vs-france-2022-11-30",
+    "date": "2022-11-30",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 28,
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "logo": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "away_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855765,
+    "slug": "saudi-arabia-vs-mexico-2022-11-30",
+    "date": "2022-11-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "logo": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "away_team": {
+      "id": 16,
+      "name": "Mexico",
+      "slug": "mexico",
+      "logo": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855764,
+    "slug": "poland-vs-argentina-2022-11-30",
+    "date": "2022-11-30",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 24,
+      "name": "Poland",
+      "slug": "poland",
+      "logo": "https://media.api-sports.io/football/teams/24.png"
+    },
+    "away_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855766,
+    "slug": "croatia-vs-belgium-2022-12-01",
+    "date": "2022-12-01",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "away_team": {
+      "id": 1,
+      "name": "Belgium",
+      "slug": "belgium",
+      "logo": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855767,
+    "slug": "canada-vs-morocco-2022-12-01",
+    "date": "2022-12-01",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 5529,
+      "name": "Canada",
+      "slug": "canada",
+      "logo": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855768,
+    "slug": "japan-vs-spain-2022-12-01",
+    "date": "2022-12-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "away_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "venue_id": 22430,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 871855,
+    "slug": "costa-rica-vs-germany-2022-12-01",
+    "date": "2022-12-01",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 4
+    },
+    "home_team": {
+      "id": 29,
+      "name": "Costa Rica",
+      "slug": "costa-rica",
+      "logo": "https://media.api-sports.io/football/teams/29.png"
+    },
+    "away_team": {
+      "id": 25,
+      "name": "Germany",
+      "slug": "germany",
+      "logo": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855769,
+    "slug": "south-korea-vs-portugal-2022-12-02",
+    "date": "2022-12-02",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "away_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855770,
+    "slug": "ghana-vs-uruguay-2022-12-02",
+    "date": "2022-12-02",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 0,
+      "away": 2
+    },
+    "home_team": {
+      "id": 1504,
+      "name": "Ghana",
+      "slug": "ghana",
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "away_team": {
+      "id": 7,
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "logo": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855772,
+    "slug": "serbia-vs-switzerland-2022-12-02",
+    "date": "2022-12-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 3
+    },
+    "home_team": {
+      "id": 14,
+      "name": "Serbia",
+      "slug": "serbia",
+      "logo": "https://media.api-sports.io/football/teams/14.png"
+    },
+    "away_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 855771,
+    "slug": "cameroon-vs-brazil-2022-12-02",
+    "date": "2022-12-02",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 1530,
+      "name": "Cameroon",
+      "slug": "cameroon",
+      "logo": "https://media.api-sports.io/football/teams/1530.png"
+    },
+    "away_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 976533,
+    "slug": "netherlands-vs-usa-2022-12-03",
+    "date": "2022-12-03",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "venue_id": 22430,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 976642,
+    "slug": "argentina-vs-australia-2022-12-03",
+    "date": "2022-12-03",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 976643,
+    "slug": "france-vs-poland-2022-12-04",
+    "date": "2022-12-04",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 1
+    },
+    "home_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away_team": {
+      "id": 24,
+      "name": "Poland",
+      "slug": "poland",
+      "logo": "https://media.api-sports.io/football/teams/24.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 976534,
+    "slug": "england-vs-senegal-2022-12-04",
+    "date": "2022-12-04",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 977344,
+    "slug": "japan-vs-croatia-2022-12-05",
+    "date": "2022-12-05",
+    "kickoff_utc": "15:00",
+    "status": "PEN",
+    "score": {
+      "home": 1,
+      "away": 1
+    },
+    "home_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "away_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 977705,
+    "slug": "brazil-vs-south-korea-2022-12-05",
+    "date": "2022-12-05",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 4,
+      "away": 1
+    },
+    "home_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 977345,
+    "slug": "morocco-vs-spain-2022-12-06",
+    "date": "2022-12-06",
+    "kickoff_utc": "15:00",
+    "status": "PEN",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "away_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 977706,
+    "slug": "portugal-vs-switzerland-2022-12-06",
+    "date": "2022-12-06",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 6,
+      "away": 1
+    },
+    "home_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Round of 16"
+  },
+  {
+    "fixture_id": 978072,
+    "slug": "croatia-vs-brazil-2022-12-09",
+    "date": "2022-12-09",
+    "kickoff_utc": "15:00",
+    "status": "PEN",
+    "score": {
+      "home": 0,
+      "away": 0
+    },
+    "home_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "away_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 977794,
+    "slug": "netherlands-vs-argentina-2022-12-09",
+    "date": "2022-12-09",
+    "kickoff_utc": "19:00",
+    "status": "PEN",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 978088,
+    "slug": "morocco-vs-portugal-2022-12-10",
+    "date": "2022-12-10",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 0
+    },
+    "home_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "away_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 978036,
+    "slug": "england-vs-france-2022-12-10",
+    "date": "2022-12-10",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 1,
+      "away": 2
+    },
+    "home_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Quarter-finals"
+  },
+  {
+    "fixture_id": 978279,
+    "slug": "argentina-vs-croatia-2022-12-13",
+    "date": "2022-12-13",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 3,
+      "away": 0
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Semi-finals"
+  },
+  {
+    "fixture_id": 978488,
+    "slug": "france-vs-morocco-2022-12-14",
+    "date": "2022-12-14",
+    "kickoff_utc": "19:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 0
+    },
+    "home_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Semi-finals"
+  },
+  {
+    "fixture_id": 979138,
+    "slug": "croatia-vs-morocco-2022-12-17",
+    "date": "2022-12-17",
+    "kickoff_utc": "15:00",
+    "status": "FT",
+    "score": {
+      "home": 2,
+      "away": 1
+    },
+    "home_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "away_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "venue_id": 22430,
+    "matchday": null,
+    "stage": "3rd Place Final"
+  },
+  {
+    "fixture_id": 979139,
+    "slug": "argentina-vs-france-2022-12-18",
+    "date": "2022-12-18",
+    "kickoff_utc": "15:00",
+    "status": "PEN",
+    "score": {
+      "home": 2,
+      "away": 2
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "venue_id": null,
+    "matchday": null,
+    "stage": "Final"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "id": 3246,
+  "name": "Curro Torres",
+  "photo": "https://media.api-sports.io/football/coachs/3246.png",
+  "nationality": "Spain",
+  "age": 49,
+  "team_id": 2273,
+  "team_slug": "fc-levadia-tallinn",
+  "fetched_at": "2026-04-15T08:16:00.840Z",
+  "career": [
+    {
+      "team_id": 2273,
+      "team_name": "FCI Levadia",
+      "team_logo": "https://media.api-sports.io/football/teams/2273.png",
+      "start": "2023-01-01",
+      "end": null
+    },
+    {
+      "team_id": 725,
+      "team_name": "Cultural Leonesa",
+      "team_logo": "https://media.api-sports.io/football/teams/725.png",
+      "start": "2021-12-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 716,
+      "team_name": "Lugo",
+      "team_logo": "https://media.api-sports.io/football/teams/716.png",
+      "start": "2019-12-01",
+      "end": "2020-06-01"
+    },
+    {
+      "team_id": 713,
+      "team_name": "Córdoba",
+      "team_logo": "https://media.api-sports.io/football/teams/713.png",
+      "start": "2018-11-01",
+      "end": "2019-02-01"
+    },
+    {
+      "team_id": 1016,
+      "team_name": "Istra 1961",
+      "team_logo": "https://media.api-sports.io/football/teams/1016.png",
+      "start": "2018-09-01",
+      "end": "2018-10-01"
+    },
+    {
+      "team_id": 721,
+      "team_name": "Lorca FC",
+      "team_logo": "https://media.api-sports.io/football/teams/721.png",
+      "start": "2017-08-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 15316,
+      "team_name": "Lorca",
+      "team_logo": "https://media.api-sports.io/football/teams/15316.png",
+      "start": "2017-07-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 9594,
+      "team_name": "Valencia II",
+      "team_logo": "https://media.api-sports.io/football/teams/9594.png",
+      "start": "2014-04-01",
+      "end": "2017-06-01"
+    }
+  ]
+}

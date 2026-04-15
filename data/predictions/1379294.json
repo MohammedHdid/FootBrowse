@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379294,
+  "fetched_at": "2026-04-15T20:56:57.746Z",
+  "advice": "Combo Double chance : Leeds or draw and -3.5 goals",
+  "winner_id": 63,
+  "winner_name": "Leeds",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": "-3.5",
+  "goals_home": "-1.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "42%",
+      "away": "58%"
+    },
+    "att": {
+      "home": "25%",
+      "away": "75%"
+    },
+    "def": {
+      "home": "73%",
+      "away": "27%"
+    },
+    "poisson_distribution": {
+      "home": "78%",
+      "away": "22%"
+    },
+    "h2h": {
+      "home": "80%",
+      "away": "20%"
+    },
+    "goals": {
+      "home": "63%",
+      "away": "37%"
+    },
+    "total": {
+      "home": "60.2%",
+      "away": "39.8%"
+    }
+  }
+}

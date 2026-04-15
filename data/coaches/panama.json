@@ -1,0 +1,47 @@
+{
+  "id": 1552,
+  "name": "Thomas Christiansen",
+  "photo": "https://media.api-sports.io/football/coachs/1552.png",
+  "nationality": "Spain",
+  "age": 52,
+  "team_id": 11,
+  "team_slug": "panama",
+  "fetched_at": "2026-04-15T13:14:53.387Z",
+  "career": [
+    {
+      "team_id": 11,
+      "team_name": "Panama",
+      "team_logo": "https://media.api-sports.io/football/teams/11.png",
+      "start": "2020-07-01",
+      "end": null
+    },
+    {
+      "team_id": 1393,
+      "team_name": "Union Saint-Gilloise",
+      "team_logo": "https://media.api-sports.io/football/teams/1393.png",
+      "start": "2019-07-01",
+      "end": "2020-05-01"
+    },
+    {
+      "team_id": 63,
+      "team_name": "Leeds United",
+      "team_logo": "https://media.api-sports.io/football/teams/63.png",
+      "start": "2017-06-01",
+      "end": "2018-02-01"
+    },
+    {
+      "team_id": 2247,
+      "team_name": "APOEL",
+      "team_logo": "https://media.api-sports.io/football/teams/2247.png",
+      "start": "2016-06-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 614,
+      "team_name": "AEK Larnaca",
+      "team_logo": "https://media.api-sports.io/football/teams/614.png",
+      "start": "2014-07-01",
+      "end": "2016-05-01"
+    }
+  ]
+}

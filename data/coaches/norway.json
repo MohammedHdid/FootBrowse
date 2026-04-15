@@ -1,0 +1,61 @@
+{
+  "id": 1675,
+  "name": "S. Solbakken",
+  "photo": "https://media.api-sports.io/football/coachs/1675.png",
+  "nationality": "Norway",
+  "age": 57,
+  "team_id": 1090,
+  "team_slug": "norway",
+  "fetched_at": "2026-04-15T13:13:43.126Z",
+  "career": [
+    {
+      "team_id": 1090,
+      "team_name": "Norway",
+      "team_logo": "https://media.api-sports.io/football/teams/1090.png",
+      "start": "2021-03-01",
+      "end": null
+    },
+    {
+      "team_id": 1090,
+      "team_name": "Norway",
+      "team_logo": "https://media.api-sports.io/football/teams/1090.png",
+      "start": "2020-12-01",
+      "end": null
+    },
+    {
+      "team_id": 400,
+      "team_name": "FC Copenhagen",
+      "team_logo": "https://media.api-sports.io/football/teams/400.png",
+      "start": "2013-08-01",
+      "end": "2020-10-01"
+    },
+    {
+      "team_id": 39,
+      "team_name": "Wolverhampton Wanderers",
+      "team_logo": "https://media.api-sports.io/football/teams/39.png",
+      "start": "2012-07-01",
+      "end": "2013-01-01"
+    },
+    {
+      "team_id": 192,
+      "team_name": "FC Cologne",
+      "team_logo": "https://media.api-sports.io/football/teams/192.png",
+      "start": "2011-07-01",
+      "end": "2012-04-01"
+    },
+    {
+      "team_id": 400,
+      "team_name": "FC Copenhagen",
+      "team_logo": "https://media.api-sports.io/football/teams/400.png",
+      "start": "2006-01-01",
+      "end": "2011-06-01"
+    },
+    {
+      "team_id": 2159,
+      "team_name": "HamKam",
+      "team_logo": "https://media.api-sports.io/football/teams/2159.png",
+      "start": "2002-07-01",
+      "end": "2005-12-01"
+    }
+  ]
+}

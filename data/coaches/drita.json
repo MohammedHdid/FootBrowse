@@ -1,0 +1,89 @@
+{
+  "id": 2485,
+  "name": "Z. Ramadani",
+  "photo": "https://media.api-sports.io/football/coachs/2485.png",
+  "nationality": "North Macedonia",
+  "age": 47,
+  "team_id": 14281,
+  "team_slug": "drita",
+  "fetched_at": "2026-04-15T08:15:24.811Z",
+  "career": [
+    {
+      "team_id": 14281,
+      "team_name": "Drita",
+      "team_logo": "https://media.api-sports.io/football/teams/14281.png",
+      "start": "2023-11-01",
+      "end": null
+    },
+    {
+      "team_id": 2943,
+      "team_name": "Ohod",
+      "team_logo": "https://media.api-sports.io/football/teams/2943.png",
+      "start": "2023-07-01",
+      "end": "2023-09-01"
+    },
+    {
+      "team_id": 12772,
+      "team_name": "Gjilani",
+      "team_logo": "https://media.api-sports.io/football/teams/12772.png",
+      "start": "2022-07-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 3327,
+      "team_name": "Egnatia Rrogozhinë",
+      "team_logo": "https://media.api-sports.io/football/teams/3327.png",
+      "start": "2021-12-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 680,
+      "team_name": "Prishtina",
+      "team_logo": "https://media.api-sports.io/football/teams/680.png",
+      "start": "2020-09-01",
+      "end": "2021-11-01"
+    },
+    {
+      "team_id": 4132,
+      "team_name": "Feronikeli",
+      "team_logo": "https://media.api-sports.io/football/teams/4132.png",
+      "start": "2018-09-01",
+      "end": "2019-08-01"
+    },
+    {
+      "team_id": 2265,
+      "team_name": "Shkupi",
+      "team_logo": "https://media.api-sports.io/football/teams/2265.png",
+      "start": "2018-03-01",
+      "end": "2018-08-01"
+    },
+    {
+      "team_id": 4132,
+      "team_name": "Feronikeli",
+      "team_logo": "https://media.api-sports.io/football/teams/4132.png",
+      "start": "2017-10-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 3885,
+      "team_name": "Trepça'89",
+      "team_logo": "https://media.api-sports.io/football/teams/3885.png",
+      "start": "2017-01-01",
+      "end": "2017-09-01"
+    },
+    {
+      "team_id": 3317,
+      "team_name": "Flamurtari",
+      "team_logo": "https://media.api-sports.io/football/teams/3317.png",
+      "start": "2016-01-01",
+      "end": "2016-05-01"
+    },
+    {
+      "team_id": 2265,
+      "team_name": "Shkupi",
+      "team_logo": "https://media.api-sports.io/football/teams/2265.png",
+      "start": "2015-07-01",
+      "end": "2015-12-01"
+    }
+  ]
+}

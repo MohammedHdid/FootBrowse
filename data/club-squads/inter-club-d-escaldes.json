@@ -1,0 +1,224 @@
+{
+  "team_id": 3342,
+  "team_slug": "inter-club-d-escaldes",
+  "team_name": "Inter Club d'Escaldes",
+  "fetched_at": "2026-04-15T08:18:19.087Z",
+  "players": [
+    {
+      "id": 86213,
+      "name": "Adri Muñoz",
+      "age": 31,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/86213.png"
+    },
+    {
+      "id": 2034,
+      "name": "Javi Díaz",
+      "age": 28,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/2034.png"
+    },
+    {
+      "id": 576089,
+      "name": "R. Silverio",
+      "age": 18,
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/576089.png"
+    },
+    {
+      "id": 567818,
+      "name": "C. Cristiano",
+      "age": 16,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/567818.png"
+    },
+    {
+      "id": 544876,
+      "name": "A. Gomes",
+      "age": 24,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544876.png"
+    },
+    {
+      "id": 588653,
+      "name": "Habib Hernandez Anwar",
+      "age": 30,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/588653.png"
+    },
+    {
+      "id": 588654,
+      "name": "Erraji Jaouad",
+      "age": 27,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/588654.png"
+    },
+    {
+      "id": 10155,
+      "name": "Klebinho",
+      "age": 27,
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/10155.png"
+    },
+    {
+      "id": 122623,
+      "name": "Joseba Muguruza",
+      "age": 31,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/122623.png"
+    },
+    {
+      "id": 630678,
+      "name": "A. Puga",
+      "age": 20,
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/630678.png"
+    },
+    {
+      "id": 270474,
+      "name": "Álex Sánchez",
+      "age": 33,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/270474.png"
+    },
+    {
+      "id": 544033,
+      "name": "J. Torres",
+      "age": 31,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544033.png"
+    },
+    {
+      "id": 122616,
+      "name": "Víctor Alonso",
+      "age": 31,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/122616.png"
+    },
+    {
+      "id": 163245,
+      "name": "Martín Calderón",
+      "age": 26,
+      "number": 33,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/163245.png"
+    },
+    {
+      "id": 40266,
+      "name": "Juan Cámara",
+      "age": 31,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/40266.png"
+    },
+    {
+      "id": 183999,
+      "name": "David López",
+      "age": 29,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/183999.png"
+    },
+    {
+      "id": 440415,
+      "name": "Ãlex Gómez",
+      "age": 22,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/440415.png"
+    },
+    {
+      "id": 332316,
+      "name": "Pablo Serafín",
+      "age": 23,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/332316.png"
+    },
+    {
+      "id": 136802,
+      "name": "Pedja Muñoz",
+      "age": 28,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/136802.png"
+    },
+    {
+      "id": 576085,
+      "name": "A. Otegui",
+      "age": 27,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/576085.png"
+    },
+    {
+      "id": 576090,
+      "name": "A. Sans",
+      "age": 21,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/576090.png"
+    },
+    {
+      "id": 576086,
+      "name": "G. Torres",
+      "age": 26,
+      "number": 55,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/576086.png"
+    },
+    {
+      "id": 581145,
+      "name": "B. Arellano",
+      "age": 25,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/581145.png"
+    },
+    {
+      "id": 182702,
+      "name": "Faysal Chouaib",
+      "age": 25,
+      "number": 99,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/182702.png"
+    },
+    {
+      "id": 119973,
+      "name": "Kaxe",
+      "age": 31,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/119973.png"
+    },
+    {
+      "id": 626384,
+      "name": "Diego Messoussi",
+      "age": 22,
+      "number": 30,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/626384.png"
+    },
+    {
+      "id": 154802,
+      "name": "M. Pochettino",
+      "age": 24,
+      "number": 24,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/154802.png"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388584,
+  "fetched_at": "2026-04-15T21:01:39.687Z",
+  "advice": "Winner : RB Leipzig",
+  "winner_id": 173,
+  "winner_name": "RB Leipzig",
+  "winner_comment": null,
+  "percent": {
+    "home": "50%",
+    "draw": "50%",
+    "away": "0%"
+  },
+  "under_over": null,
+  "goals_home": "-3.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "75%",
+      "away": "25%"
+    },
+    "att": {
+      "home": "71%",
+      "away": "29%"
+    },
+    "def": {
+      "home": "80%",
+      "away": "20%"
+    },
+    "poisson_distribution": {
+      "home": "76%",
+      "away": "24%"
+    },
+    "h2h": {
+      "home": "62%",
+      "away": "38%"
+    },
+    "goals": {
+      "home": "67%",
+      "away": "33%"
+    },
+    "total": {
+      "home": "71.8%",
+      "away": "28.2%"
+    }
+  }
+}

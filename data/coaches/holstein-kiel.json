@@ -1,0 +1,26 @@
+{
+  "id": 5348,
+  "name": "M. Rapp",
+  "photo": "https://media.api-sports.io/football/coachs/5348.png",
+  "nationality": "Germany",
+  "age": 46,
+  "team_id": 191,
+  "team_slug": "holstein-kiel",
+  "fetched_at": "2026-04-14T22:31:46.124Z",
+  "career": [
+    {
+      "team_id": 191,
+      "team_name": "Holstein Kiel",
+      "team_logo": "https://media.api-sports.io/football/teams/191.png",
+      "start": "2021-10-01",
+      "end": null
+    },
+    {
+      "team_id": 7955,
+      "team_name": "Hoffenheim U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7955.png",
+      "start": "2017-03-01",
+      "end": "2021-09-01"
+    }
+  ]
+}

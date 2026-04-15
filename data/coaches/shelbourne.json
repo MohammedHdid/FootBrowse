@@ -1,0 +1,19 @@
+{
+  "id": 16677,
+  "name": "D. Duff",
+  "photo": "https://media.api-sports.io/football/coachs/16677.png",
+  "nationality": "Republic of Ireland",
+  "age": 46,
+  "team_id": 3854,
+  "team_slug": "shelbourne",
+  "fetched_at": "2026-04-15T08:24:01.667Z",
+  "career": [
+    {
+      "team_id": 3854,
+      "team_name": "Shelbourne",
+      "team_logo": "https://media.api-sports.io/football/teams/3854.png",
+      "start": "2022-01-01",
+      "end": null
+    }
+  ]
+}

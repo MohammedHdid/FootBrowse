@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379291,
+  "fetched_at": "2026-04-15T20:56:57.908Z",
+  "advice": "Double chance : draw or Manchester United",
+  "winner_id": 33,
+  "winner_name": "Manchester United",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "30%",
+      "away": "70%"
+    },
+    "att": {
+      "home": "36%",
+      "away": "64%"
+    },
+    "def": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "poisson_distribution": {
+      "home": "49%",
+      "away": "51%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "total": {
+      "home": "43.2%",
+      "away": "56.8%"
+    }
+  }
+}

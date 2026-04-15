@@ -1,0 +1,272 @@
+{
+  "team_id": 3684,
+  "team_slug": "fc-noah",
+  "team_name": "FC Noah",
+  "fetched_at": "2026-04-15T08:16:06.907Z",
+  "players": [
+    {
+      "id": 649551,
+      "name": "A. Avetisov",
+      "age": 19,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/649551.png"
+    },
+    {
+      "id": 476416,
+      "name": "A. Koneglyan",
+      "age": 21,
+      "number": 29,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/476416.png"
+    },
+    {
+      "id": 48501,
+      "name": "T. Fayulu",
+      "age": 26,
+      "number": 16,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/48501.png"
+    },
+    {
+      "id": 456518,
+      "name": "A. Ploshchadny",
+      "age": 21,
+      "number": 92,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/456518.png"
+    },
+    {
+      "id": 629147,
+      "name": "Kim Tovmasyan",
+      "age": 18,
+      "number": 48,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/629147.png"
+    },
+    {
+      "id": 109750,
+      "name": "E. Boakye",
+      "age": 26,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/109750.png"
+    },
+    {
+      "id": 41996,
+      "name": "David Sualehe",
+      "age": 28,
+      "number": 33,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/41996.png"
+    },
+    {
+      "id": 15514,
+      "name": "H. Hambardzumyan",
+      "age": 35,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/15514.png"
+    },
+    {
+      "id": 390607,
+      "name": "S. Muradyan",
+      "age": 21,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/390607.png"
+    },
+    {
+      "id": 138915,
+      "name": "R. Nizet",
+      "age": 23,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/138915.png"
+    },
+    {
+      "id": 48514,
+      "name": "N. Saintini",
+      "age": 25,
+      "number": 39,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/48514.png"
+    },
+    {
+      "id": 41236,
+      "name": "Gonçalo Silva",
+      "age": 34,
+      "number": 37,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/41236.png"
+    },
+    {
+      "id": 8817,
+      "name": "N. Zolotić",
+      "age": 32,
+      "number": 44,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/8817.png"
+    },
+    {
+      "id": 386584,
+      "name": "M. Bua Mbilia",
+      "age": 21,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/386584.png"
+    },
+    {
+      "id": 42991,
+      "name": "V. Costache",
+      "age": 27,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/42991.png"
+    },
+    {
+      "id": 575212,
+      "name": "D. Davtyan",
+      "age": 17,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/575212.png"
+    },
+    {
+      "id": 46920,
+      "name": "Y. Eteki",
+      "age": 28,
+      "number": 88,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/46920.png"
+    },
+    {
+      "id": 61266,
+      "name": "H. Harutyunyan",
+      "age": 26,
+      "number": 99,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/61266.png"
+    },
+    {
+      "id": 75984,
+      "name": "A. Khamoyan",
+      "age": 25,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/75984.png"
+    },
+    {
+      "id": 304050,
+      "name": "T. Oshima",
+      "age": 27,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/304050.png"
+    },
+    {
+      "id": 37465,
+      "name": "I. Oulad Omar",
+      "age": 28,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/37465.png"
+    },
+    {
+      "id": 24121,
+      "name": "G. Sangaré",
+      "age": 29,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/24121.png"
+    },
+    {
+      "id": 494448,
+      "name": "M. Asiryan",
+      "age": 17,
+      "number": 74,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/494448.png"
+    },
+    {
+      "id": 65360,
+      "name": "A. Avanesyan",
+      "age": 26,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/65360.png"
+    },
+    {
+      "id": 41160,
+      "name": "Hélder Ferreira",
+      "age": 28,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/41160.png"
+    },
+    {
+      "id": 497488,
+      "name": "B. Fofana",
+      "age": 19,
+      "number": 71,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/497488.png"
+    },
+    {
+      "id": 592895,
+      "name": "Albert Gareginyan",
+      "age": 16,
+      "number": 57,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/592895.png"
+    },
+    {
+      "id": 304636,
+      "name": "M. Hakobyan",
+      "age": 21,
+      "number": 22,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/304636.png"
+    },
+    {
+      "id": 7721,
+      "name": "M. Jakoliš",
+      "age": 29,
+      "number": 47,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/7721.png"
+    },
+    {
+      "id": 481174,
+      "name": "Z. Khudaverdyan",
+      "age": 18,
+      "number": 24,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/481174.png"
+    },
+    {
+      "id": 272457,
+      "name": "G. Manvelyan",
+      "age": 23,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/272457.png"
+    },
+    {
+      "id": 122688,
+      "name": "Matheus Aiás",
+      "age": 29,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/122688.png"
+    },
+    {
+      "id": 109799,
+      "name": "N. Mulahusejnović",
+      "age": 27,
+      "number": 32,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/109799.png"
+    }
+  ]
+}

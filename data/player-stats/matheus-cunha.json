@@ -1,0 +1,21 @@
+{
+  "player_id": 1165,
+  "slug": "matheus-cunha",
+  "name": "Matheus Cunha",
+  "api_photo": "https://media.api-sports.io/football/players/1165.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Manchester United",
+      "club_logo": "https://media.api-sports.io/football/teams/33.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 33,
+      "goals": 15,
+      "assists": 6,
+      "minutes": 2600,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

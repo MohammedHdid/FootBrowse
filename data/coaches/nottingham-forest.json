@@ -1,0 +1,40 @@
+{
+  "id": 7,
+  "name": "S. Dyche",
+  "photo": "https://media.api-sports.io/football/coachs/7.png",
+  "nationality": "England",
+  "age": 54,
+  "team_id": 65,
+  "team_slug": "nottingham-forest",
+  "fetched_at": "2026-04-14T22:40:34.727Z",
+  "career": [
+    {
+      "team_id": 65,
+      "team_name": "Nottingham Forest",
+      "team_logo": "https://media.api-sports.io/football/teams/65.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 45,
+      "team_name": "Everton",
+      "team_logo": "https://media.api-sports.io/football/teams/45.png",
+      "start": "2023-01-01",
+      "end": "2025-01-01"
+    },
+    {
+      "team_id": 44,
+      "team_name": "Burnley",
+      "team_logo": "https://media.api-sports.io/football/teams/44.png",
+      "start": "2012-10-01",
+      "end": "2022-04-01"
+    },
+    {
+      "team_id": 38,
+      "team_name": "Watford",
+      "team_logo": "https://media.api-sports.io/football/teams/38.png",
+      "start": "2011-06-01",
+      "end": "2012-07-01"
+    }
+  ]
+}

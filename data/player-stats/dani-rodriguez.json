@@ -1,0 +1,21 @@
+{
+  "player_id": 46742,
+  "slug": "dani-rodriguez",
+  "name": "Dani Rodríguez",
+  "api_photo": "https://media.api-sports.io/football/players/46742.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Mallorca",
+      "club_logo": "https://media.api-sports.io/football/teams/798.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 37,
+      "goals": 4,
+      "assists": 7,
+      "minutes": 2175,
+      "yellow_cards": 5,
+      "red_cards": 0
+    }
+  ]
+}

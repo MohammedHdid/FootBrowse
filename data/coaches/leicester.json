@@ -1,0 +1,68 @@
+{
+  "id": 1878,
+  "name": "Martí Cifuentes",
+  "photo": "https://media.api-sports.io/football/coachs/1878.png",
+  "nationality": "Spain",
+  "age": 43,
+  "team_id": 46,
+  "team_slug": "leicester",
+  "fetched_at": "2026-04-14T22:39:34.621Z",
+  "career": [
+    {
+      "team_id": 46,
+      "team_name": "Leicester",
+      "team_logo": "https://media.api-sports.io/football/teams/46.png",
+      "start": "2025-08-01",
+      "end": null
+    },
+    {
+      "team_id": 72,
+      "team_name": "Queens Park Rangers",
+      "team_logo": "https://media.api-sports.io/football/teams/72.png",
+      "start": "2023-10-01",
+      "end": null
+    },
+    {
+      "team_id": 16596,
+      "team_name": "Hammarby Talang",
+      "team_logo": "https://media.api-sports.io/football/teams/16596.png",
+      "start": "2023-04-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 363,
+      "team_name": "Hammarby",
+      "team_logo": "https://media.api-sports.io/football/teams/363.png",
+      "start": "2022-01-01",
+      "end": "2023-10-01"
+    },
+    {
+      "team_id": 402,
+      "team_name": "AaB",
+      "team_logo": "https://media.api-sports.io/football/teams/402.png",
+      "start": "2021-01-01",
+      "end": "2022-01-01"
+    },
+    {
+      "team_id": 332,
+      "team_name": "Sandefjord",
+      "team_logo": "https://media.api-sports.io/football/teams/332.png",
+      "start": "2018-06-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 9392,
+      "team_name": "L'Hospitalet",
+      "team_logo": "https://media.api-sports.io/football/teams/9392.png",
+      "start": "2015-06-01",
+      "end": "2016-03-01"
+    },
+    {
+      "team_id": 5277,
+      "team_name": "Sant Andreu",
+      "team_logo": "https://media.api-sports.io/football/teams/5277.png",
+      "start": "2014-02-01",
+      "end": "2014-07-01"
+    }
+  ]
+}

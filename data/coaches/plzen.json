@@ -1,0 +1,75 @@
+{
+  "id": 15041,
+  "name": "M. Koubek",
+  "photo": "https://media.api-sports.io/football/coachs/15041.png",
+  "nationality": "Czechia",
+  "age": 74,
+  "team_id": 567,
+  "team_slug": "plzen",
+  "fetched_at": "2026-04-15T08:22:25.359Z",
+  "career": [
+    {
+      "team_id": 567,
+      "team_name": "Viktoria Plzen",
+      "team_logo": "https://media.api-sports.io/football/teams/567.png",
+      "start": "2023-07-01",
+      "end": null
+    },
+    {
+      "team_id": 3723,
+      "team_name": "Hradec Králové",
+      "team_logo": "https://media.api-sports.io/football/teams/3723.png",
+      "start": "2021-07-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 3714,
+      "team_name": "Bohemians 1905",
+      "team_logo": "https://media.api-sports.io/football/teams/3714.png",
+      "start": "2016-07-01",
+      "end": "2017-04-01"
+    },
+    {
+      "team_id": 567,
+      "team_name": "Viktoria Plzen",
+      "team_logo": "https://media.api-sports.io/football/teams/567.png",
+      "start": "2014-08-01",
+      "end": "2015-08-01"
+    },
+    {
+      "team_id": 560,
+      "team_name": "Slavia Prague",
+      "team_logo": "https://media.api-sports.io/football/teams/560.png",
+      "start": "2013-09-01",
+      "end": "2014-03-01"
+    },
+    {
+      "team_id": 10330,
+      "team_name": "Czechia U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10330.png",
+      "start": "2013-07-01",
+      "end": "2013-12-01"
+    },
+    {
+      "team_id": 640,
+      "team_name": "Mladá Boleslav",
+      "team_logo": "https://media.api-sports.io/football/teams/640.png",
+      "start": "2011-07-01",
+      "end": "2012-09-01"
+    },
+    {
+      "team_id": 3713,
+      "team_name": "Baník Ostrava",
+      "team_logo": "https://media.api-sports.io/football/teams/3713.png",
+      "start": "2009-06-01",
+      "end": "2010-10-01"
+    },
+    {
+      "team_id": 567,
+      "team_name": "Viktoria Plzen",
+      "team_logo": "https://media.api-sports.io/football/teams/567.png",
+      "start": "2000-10-01",
+      "end": "2001-12-01"
+    }
+  ]
+}

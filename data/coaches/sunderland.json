@@ -1,0 +1,33 @@
+{
+  "id": 6279,
+  "name": "R. Le Bris",
+  "photo": "https://media.api-sports.io/football/coachs/6279.png",
+  "nationality": "France",
+  "age": 50,
+  "team_id": 746,
+  "team_slug": "sunderland",
+  "fetched_at": "2026-04-15T08:14:24.714Z",
+  "career": [
+    {
+      "team_id": 746,
+      "team_name": "Sunderland",
+      "team_logo": "https://media.api-sports.io/football/teams/746.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 97,
+      "team_name": "Lorient",
+      "team_logo": "https://media.api-sports.io/football/teams/97.png",
+      "start": "2022-06-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 9240,
+      "team_name": "Lorient II",
+      "team_logo": "https://media.api-sports.io/football/teams/9240.png",
+      "start": "2015-07-01",
+      "end": "2022-06-01"
+    }
+  ]
+}

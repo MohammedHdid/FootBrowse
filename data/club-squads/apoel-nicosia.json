@@ -1,0 +1,240 @@
+{
+  "team_id": 2247,
+  "team_slug": "apoel-nicosia",
+  "team_name": "Apoel Nicosia",
+  "fetched_at": "2026-04-14T22:41:40.830Z",
+  "players": [
+    {
+      "id": 30442,
+      "name": "V. Belec",
+      "age": 35,
+      "number": 27,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/30442.png"
+    },
+    {
+      "id": 1022,
+      "name": "A. Christodoulou",
+      "age": 28,
+      "number": 22,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/1022.png"
+    },
+    {
+      "id": 274297,
+      "name": "Gabriel Pereira",
+      "age": 23,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/274297.png"
+    },
+    {
+      "id": 435439,
+      "name": "S. Michos",
+      "age": 18,
+      "number": 78,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/435439.png"
+    },
+    {
+      "id": 278137,
+      "name": "E. Antoniou",
+      "age": 23,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/278137.png"
+    },
+    {
+      "id": 1951,
+      "name": "F. Brorsson",
+      "age": 29,
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1951.png"
+    },
+    {
+      "id": 341374,
+      "name": "K. Giannakou",
+      "age": 20,
+      "number": 45,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/341374.png"
+    },
+    {
+      "id": 2103,
+      "name": "K. Laifis",
+      "age": 32,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2103.png"
+    },
+    {
+      "id": 41284,
+      "name": "Nanu",
+      "age": 31,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/41284.png"
+    },
+    {
+      "id": 25294,
+      "name": "K. Stafylidis",
+      "age": 31,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25294.png"
+    },
+    {
+      "id": 561418,
+      "name": "K. Yiannacou",
+      "age": null,
+      "number": 45,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/561418.png"
+    },
+    {
+      "id": 41242,
+      "name": "Dálcio",
+      "age": 29,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/41242.png"
+    },
+    {
+      "id": 2742,
+      "name": "M. Degenek",
+      "age": 31,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2742.png"
+    },
+    {
+      "id": 237076,
+      "name": "Diego Rosa",
+      "age": 23,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/237076.png"
+    },
+    {
+      "id": 385186,
+      "name": "Geovane Meurer",
+      "age": 23,
+      "number": 38,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/385186.png"
+    },
+    {
+      "id": 396722,
+      "name": "P. Kattirtzis",
+      "age": 19,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/396722.png"
+    },
+    {
+      "id": 20863,
+      "name": "D. Mancini",
+      "age": 29,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/20863.png"
+    },
+    {
+      "id": 18851,
+      "name": "M. Meyer",
+      "age": 30,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/18851.png"
+    },
+    {
+      "id": 1249,
+      "name": "P. Olayinka",
+      "age": 30,
+      "number": 99,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1249.png"
+    },
+    {
+      "id": 269959,
+      "name": "M. Tomás",
+      "age": 24,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/269959.png"
+    },
+    {
+      "id": 283696,
+      "name": "Vitor Meer",
+      "age": 21,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/283696.png"
+    },
+    {
+      "id": 476108,
+      "name": "C. Appiah",
+      "age": 19,
+      "number": 36,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/476108.png"
+    },
+    {
+      "id": 24946,
+      "name": "D. Diamantakos",
+      "age": 32,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/24946.png"
+    },
+    {
+      "id": 28455,
+      "name": "S. Dražić",
+      "age": 33,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/28455.png"
+    },
+    {
+      "id": 368702,
+      "name": "Gabriel Maioli",
+      "age": 22,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/368702.png"
+    },
+    {
+      "id": 270610,
+      "name": "N. Koutsakos",
+      "age": 22,
+      "number": 89,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/270610.png"
+    },
+    {
+      "id": 10253,
+      "name": "Marquinhos",
+      "age": 28,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/10253.png"
+    },
+    {
+      "id": 561424,
+      "name": "C. Poursaitidis",
+      "age": 19,
+      "number": 21,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/561424.png"
+    },
+    {
+      "id": 1303,
+      "name": "P. Sotiriou",
+      "age": 32,
+      "number": 79,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/1303.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 47264,
+  "slug": "hugo-duro",
+  "name": "Hugo Duro",
+  "api_photo": "https://media.api-sports.io/football/players/47264.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Valencia",
+      "club_logo": "https://media.api-sports.io/football/teams/532.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 31,
+      "goals": 11,
+      "assists": 2,
+      "minutes": 2171,
+      "yellow_cards": 5,
+      "red_cards": 0
+    }
+  ]
+}

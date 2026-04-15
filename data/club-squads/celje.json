@@ -1,0 +1,240 @@
+{
+  "team_id": 4360,
+  "team_slug": "celje",
+  "team_name": "Celje",
+  "fetched_at": "2026-04-14T22:43:16.903Z",
+  "players": [
+    {
+      "id": 348848,
+      "name": "L. Kolar",
+      "age": 20,
+      "number": 12,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/348848.png"
+    },
+    {
+      "id": 284326,
+      "name": "Žan-Luk Leban",
+      "age": 23,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/284326.png"
+    },
+    {
+      "id": 2759,
+      "name": "S. Sluga",
+      "age": 32,
+      "number": 21,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/2759.png"
+    },
+    {
+      "id": 524571,
+      "name": "T. Zorko",
+      "age": 18,
+      "number": 25,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/524571.png"
+    },
+    {
+      "id": 163053,
+      "name": "Ł. Bejger",
+      "age": 23,
+      "number": 44,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/163053.png"
+    },
+    {
+      "id": 135385,
+      "name": "David Castro",
+      "age": 30,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/135385.png"
+    },
+    {
+      "id": 105034,
+      "name": "Juanjo Nieto",
+      "age": 31,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/105034.png"
+    },
+    {
+      "id": 109724,
+      "name": "Ž. Karničnik",
+      "age": 31,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/109724.png"
+    },
+    {
+      "id": 325384,
+      "name": "A. Tutyškinas",
+      "age": 22,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/325384.png"
+    },
+    {
+      "id": 293550,
+      "name": "G. Vodeb",
+      "age": 22,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/293550.png"
+    },
+    {
+      "id": 162524,
+      "name": "N. Vukasović",
+      "age": 24,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162524.png"
+    },
+    {
+      "id": 66040,
+      "name": "D. Vukliševič",
+      "age": 30,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/66040.png"
+    },
+    {
+      "id": 278810,
+      "name": "M. Avdyli",
+      "age": 23,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/278810.png"
+    },
+    {
+      "id": 126314,
+      "name": "I. Ćalušić",
+      "age": 26,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/126314.png"
+    },
+    {
+      "id": 301642,
+      "name": "Papa Mustapha Daniel",
+      "age": 23,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/301642.png"
+    },
+    {
+      "id": 592901,
+      "name": "Stijan Gobec",
+      "age": 16,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/592901.png"
+    },
+    {
+      "id": 110057,
+      "name": "D. Hrka",
+      "age": 26,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/110057.png"
+    },
+    {
+      "id": 462244,
+      "name": "F. Jevšenak",
+      "age": 20,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/462244.png"
+    },
+    {
+      "id": 91447,
+      "name": "A. Kotnik",
+      "age": 30,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/91447.png"
+    },
+    {
+      "id": 25102,
+      "name": "M. Kvesić",
+      "age": 33,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/25102.png"
+    },
+    {
+      "id": 109987,
+      "name": "S. Sešlar",
+      "age": 24,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/109987.png"
+    },
+    {
+      "id": 638308,
+      "name": "D. Suhovrsnik",
+      "age": 18,
+      "number": 31,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/638308.png"
+    },
+    {
+      "id": 534522,
+      "name": "D. Vidovic",
+      "age": 20,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/534522.png"
+    },
+    {
+      "id": 328308,
+      "name": "I. Vidović",
+      "age": 23,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/328308.png"
+    },
+    {
+      "id": 162053,
+      "name": "N. Iosifov",
+      "age": 24,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/162053.png"
+    },
+    {
+      "id": 626811,
+      "name": "A. Kucys",
+      "age": 22,
+      "number": 47,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/626811.png"
+    },
+    {
+      "id": 531387,
+      "name": "M. Poplatnik",
+      "age": 33,
+      "number": 99,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/531387.png"
+    },
+    {
+      "id": 109685,
+      "name": "R. Požeg",
+      "age": 31,
+      "number": 94,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/109685.png"
+    },
+    {
+      "id": 337648,
+      "name": "J. Pranjić",
+      "age": 24,
+      "number": 22,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/337648.png"
+    }
+  ]
+}

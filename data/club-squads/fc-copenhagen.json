@@ -1,0 +1,240 @@
+{
+  "team_id": 400,
+  "team_slug": "fc-copenhagen",
+  "team_name": "FC Copenhagen",
+  "fetched_at": "2026-04-15T08:15:42.819Z",
+  "players": [
+    {
+      "id": 568382,
+      "name": "T. Breum-Harild",
+      "age": 18,
+      "number": 51,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/568382.png"
+    },
+    {
+      "id": 441252,
+      "name": "Oscar Gadeberg-Buur",
+      "age": 19,
+      "number": 61,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/441252.png"
+    },
+    {
+      "id": 524,
+      "name": "D. Kotarski",
+      "age": 25,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/524.png"
+    },
+    {
+      "id": 2784,
+      "name": "R. Rúnarsson",
+      "age": 30,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/2784.png"
+    },
+    {
+      "id": 568099,
+      "name": "G. Ankamafio",
+      "age": 18,
+      "number": 42,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/568099.png"
+    },
+    {
+      "id": 8451,
+      "name": "Aurélio Buta",
+      "age": 28,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/8451.png"
+    },
+    {
+      "id": 159511,
+      "name": "Gabriel Pereira",
+      "age": 25,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/159511.png"
+    },
+    {
+      "id": 36885,
+      "name": "P. Hatzidiakos",
+      "age": 28,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/36885.png"
+    },
+    {
+      "id": 2431,
+      "name": "M. López",
+      "age": 26,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2431.png"
+    },
+    {
+      "id": 1173,
+      "name": "B. Meling",
+      "age": 31,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1173.png"
+    },
+    {
+      "id": 504208,
+      "name": "K. Myrie",
+      "age": 19,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/504208.png"
+    },
+    {
+      "id": 351014,
+      "name": "J. Suzuki",
+      "age": 22,
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/351014.png"
+    },
+    {
+      "id": 2731,
+      "name": "M. Jørgensen",
+      "age": 35,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2731.png"
+    },
+    {
+      "id": 349212,
+      "name": "W. Clem",
+      "age": 21,
+      "number": 36,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/349212.png"
+    },
+    {
+      "id": 15,
+      "name": "T. Delaney",
+      "age": 34,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/15.png"
+    },
+    {
+      "id": 395602,
+      "name": "Oliver Højer",
+      "age": 18,
+      "number": 38,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/395602.png"
+    },
+    {
+      "id": 15934,
+      "name": "M. Emil Madsen",
+      "age": 27,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/15934.png"
+    },
+    {
+      "id": 444418,
+      "name": "Jonathan Moalem",
+      "age": 18,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/444418.png"
+    },
+    {
+      "id": 314231,
+      "name": "A. Richardson",
+      "age": 23,
+      "number": 25,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/314231.png"
+    },
+    {
+      "id": 42012,
+      "name": "E. Achouri",
+      "age": 26,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/42012.png"
+    },
+    {
+      "id": 2080,
+      "name": "V. Claesson",
+      "age": 33,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2080.png"
+    },
+    {
+      "id": 1274,
+      "name": "A. Cornelius",
+      "age": 32,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/1274.png"
+    },
+    {
+      "id": 426288,
+      "name": "V. Dadason",
+      "age": 15,
+      "number": 39,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/426288.png"
+    },
+    {
+      "id": 18946,
+      "name": "M. Elyounoussi",
+      "age": 31,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/18946.png"
+    },
+    {
+      "id": 48203,
+      "name": "J. Larsson",
+      "age": 28,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/48203.png"
+    },
+    {
+      "id": 161919,
+      "name": "Y. Moukoko",
+      "age": 21,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/161919.png"
+    },
+    {
+      "id": 422779,
+      "name": "Robert",
+      "age": 20,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/422779.png"
+    },
+    {
+      "id": 633096,
+      "name": "G. Vianney",
+      "age": 18,
+      "number": 44,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/633096.png"
+    },
+    {
+      "id": 416088,
+      "name": "L. West",
+      "age": 18,
+      "number": 26,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/416088.png"
+    }
+  ]
+}

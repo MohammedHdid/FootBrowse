@@ -1,0 +1,232 @@
+{
+  "team_id": 173,
+  "team_slug": "rb-leipzig",
+  "team_name": "RB Leipzig",
+  "fetched_at": "2026-04-14T22:31:52.136Z",
+  "players": [
+    {
+      "id": 1139,
+      "name": "P. Gulácsi",
+      "age": 35,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/1139.png"
+    },
+    {
+      "id": 1924,
+      "name": "M. Vandevoordt",
+      "age": 23,
+      "number": 26,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/1924.png"
+    },
+    {
+      "id": 24814,
+      "name": "L. Zingerle",
+      "age": 31,
+      "number": 25,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/24814.png"
+    },
+    {
+      "id": 268571,
+      "name": "E. Bitshiabu",
+      "age": 20,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/268571.png"
+    },
+    {
+      "id": 355167,
+      "name": "Max Finkgräfe",
+      "age": 21,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/355167.png"
+    },
+    {
+      "id": 98,
+      "name": "B. Henrichs",
+      "age": 28,
+      "number": 39,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/98.png"
+    },
+    {
+      "id": 1144,
+      "name": "L. Klostermann",
+      "age": 29,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1144.png"
+    },
+    {
+      "id": 162761,
+      "name": "C. Lukeba",
+      "age": 23,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162761.png"
+    },
+    {
+      "id": 342320,
+      "name": "K. Nedeljković",
+      "age": 20,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/342320.png"
+    },
+    {
+      "id": 1148,
+      "name": "W. Orbán",
+      "age": 33,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1148.png"
+    },
+    {
+      "id": 25158,
+      "name": "D. Raum",
+      "age": 27,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25158.png"
+    },
+    {
+      "id": 25917,
+      "name": "R. Baku",
+      "age": 27,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25917.png"
+    },
+    {
+      "id": 715,
+      "name": "C. Baumgartner",
+      "age": 26,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/715.png"
+    },
+    {
+      "id": 398192,
+      "name": "A. MaksimoviÄ",
+      "age": 18,
+      "number": 33,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/398192.png"
+    },
+    {
+      "id": 380978,
+      "name": "A. Ouédraogo",
+      "age": 19,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/380978.png"
+    },
+    {
+      "id": 371025,
+      "name": "S. Suleiman",
+      "age": 19,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/371025.png"
+    },
+    {
+      "id": 1095,
+      "name": "X. Schlager",
+      "age": 28,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1095.png"
+    },
+    {
+      "id": 7328,
+      "name": "N. Seiwald",
+      "age": 24,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7328.png"
+    },
+    {
+      "id": 290549,
+      "name": "J. Bakayoko",
+      "age": 22,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/290549.png"
+    },
+    {
+      "id": 343286,
+      "name": "E. Banzuzi",
+      "age": 20,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/343286.png"
+    },
+    {
+      "id": 513776,
+      "name": "Y. Diomande",
+      "age": 19,
+      "number": 49,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/513776.png"
+    },
+    {
+      "id": 383665,
+      "name": "T. Gomis",
+      "age": 19,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/383665.png"
+    },
+    {
+      "id": 328225,
+      "name": "B. Gruda",
+      "age": 21,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/328225.png"
+    },
+    {
+      "id": 419916,
+      "name": "C. Harder",
+      "age": 20,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/419916.png"
+    },
+    {
+      "id": 570742,
+      "name": "S. Konate",
+      "age": 16,
+      "number": 45,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/570742.png"
+    },
+    {
+      "id": 314511,
+      "name": "A. Nusa",
+      "age": 20,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/314511.png"
+    },
+    {
+      "id": 326102,
+      "name": "Rômulo",
+      "age": 23,
+      "number": 40,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/326102.png"
+    },
+    {
+      "id": 453722,
+      "name": "A. Thomas",
+      "age": 18,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/453722.png"
+    }
+  ]
+}

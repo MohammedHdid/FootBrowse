@@ -1,0 +1,184 @@
+{
+  "team_id": 580,
+  "team_slug": "vikingur-gota",
+  "team_name": "Vikingur Gota",
+  "fetched_at": "2026-04-15T08:25:31.886Z",
+  "players": [
+    {
+      "id": 544017,
+      "name": "B. Reynatrod",
+      "age": 25,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/544017.png"
+    },
+    {
+      "id": 646415,
+      "name": "N. Thomsen",
+      "age": 30,
+      "number": 23,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/646415.png"
+    },
+    {
+      "id": 339903,
+      "name": "I. Arngrímsson",
+      "age": 19,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/339903.png"
+    },
+    {
+      "id": 55994,
+      "name": "A. Gregersen",
+      "age": 43,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/55994.png"
+    },
+    {
+      "id": 73015,
+      "name": "I. Jonhardsson",
+      "age": 24,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/73015.png"
+    },
+    {
+      "id": 448452,
+      "name": "J. Ólavsson",
+      "age": 18,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/448452.png"
+    },
+    {
+      "id": 549957,
+      "name": "J. Samsson",
+      "age": 17,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/549957.png"
+    },
+    {
+      "id": 544019,
+      "name": "A. Svensson",
+      "age": 26,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544019.png"
+    },
+    {
+      "id": 358645,
+      "name": "Á. Nóa Atlason",
+      "age": 19,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/358645.png"
+    },
+    {
+      "id": 400499,
+      "name": "A. Benjaminsen",
+      "age": 18,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/400499.png"
+    },
+    {
+      "id": 448475,
+      "name": "A. Brandsson",
+      "age": 18,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/448475.png"
+    },
+    {
+      "id": 546658,
+      "name": "Filip Djordjevic",
+      "age": 31,
+      "number": 34,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/546658.png"
+    },
+    {
+      "id": 137470,
+      "name": "A. Ellingsgaard",
+      "age": 23,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/137470.png"
+    },
+    {
+      "id": 549960,
+      "name": "K. Jacobsen",
+      "age": 17,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/549960.png"
+    },
+    {
+      "id": 550053,
+      "name": "F. Jarnskor",
+      "age": 17,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/550053.png"
+    },
+    {
+      "id": 520001,
+      "name": "J. Jarnskor",
+      "age": 20,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/520001.png"
+    },
+    {
+      "id": 73054,
+      "name": "J. Johansen",
+      "age": 32,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/73054.png"
+    },
+    {
+      "id": 55998,
+      "name": "S. Vatnhamar",
+      "age": 39,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/55998.png"
+    },
+    {
+      "id": 550122,
+      "name": "K. Bartalsstovu",
+      "age": 34,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/550122.png"
+    },
+    {
+      "id": 145768,
+      "name": "R. Hansen",
+      "age": 25,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/145768.png"
+    },
+    {
+      "id": 198464,
+      "name": "M. Hyllegaard",
+      "age": 26,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/198464.png"
+    },
+    {
+      "id": 280268,
+      "name": "J. Nielsen",
+      "age": 22,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/280268.png"
+    }
+  ]
+}

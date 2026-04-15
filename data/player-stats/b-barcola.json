@@ -1,0 +1,21 @@
+{
+  "player_id": 161904,
+  "slug": "b-barcola",
+  "name": "B. Barcola",
+  "api_photo": "https://media.api-sports.io/football/players/161904.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Paris Saint Germain",
+      "club_logo": "https://media.api-sports.io/football/teams/85.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 17,
+      "goals": 3,
+      "assists": 4,
+      "minutes": 1096,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

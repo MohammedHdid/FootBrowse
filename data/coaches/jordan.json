@@ -1,0 +1,47 @@
+{
+  "id": 6606,
+  "name": "J. Sellami",
+  "photo": "https://media.api-sports.io/football/coachs/6606.png",
+  "nationality": "Morocco",
+  "age": 55,
+  "team_id": 1548,
+  "team_slug": "jordan",
+  "fetched_at": "2026-04-15T13:11:32.415Z",
+  "career": [
+    {
+      "team_id": 1548,
+      "team_name": "Jordan",
+      "team_logo": "https://media.api-sports.io/football/teams/1548.png",
+      "start": "2024-06-01",
+      "end": null
+    },
+    {
+      "team_id": 1548,
+      "team_name": "Jordan",
+      "team_logo": "https://media.api-sports.io/football/teams/1548.png",
+      "start": "2023-11-01",
+      "end": "2026-03-01"
+    },
+    {
+      "team_id": 977,
+      "team_name": "FUS Rabat",
+      "team_logo": "https://media.api-sports.io/football/teams/977.png",
+      "start": "2021-11-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 976,
+      "team_name": "Raja Casablanca",
+      "team_logo": "https://media.api-sports.io/football/teams/976.png",
+      "start": "2019-11-01",
+      "end": "2021-04-01"
+    },
+    {
+      "team_id": 21302,
+      "team_name": "Morocco U17",
+      "team_logo": "https://media.api-sports.io/football/teams/21302.png",
+      "start": "2018-08-01",
+      "end": "2023-04-01"
+    }
+  ]
+}

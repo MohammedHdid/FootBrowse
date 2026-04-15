@@ -1,0 +1,82 @@
+{
+  "id": 2510,
+  "name": "N. Bjelica",
+  "photo": "https://media.api-sports.io/football/coachs/2510.png",
+  "nationality": "Croatia",
+  "age": 54,
+  "team_id": 620,
+  "team_slug": "dinamo-zagreb",
+  "fetched_at": "2026-04-14T22:44:35.059Z",
+  "career": [
+    {
+      "team_id": 620,
+      "team_name": "Dinamo Zagreb",
+      "team_logo": "https://media.api-sports.io/football/teams/620.png",
+      "start": "2024-09-01",
+      "end": "2024-12-01"
+    },
+    {
+      "team_id": 182,
+      "team_name": "Union Berlin",
+      "team_logo": "https://media.api-sports.io/football/teams/182.png",
+      "start": "2023-11-01",
+      "end": "2024-05-01"
+    },
+    {
+      "team_id": 998,
+      "team_name": "Trabzonspor",
+      "team_logo": "https://media.api-sports.io/football/teams/998.png",
+      "start": "2023-04-01",
+      "end": "2023-10-01"
+    },
+    {
+      "team_id": 616,
+      "team_name": "Osijek",
+      "team_logo": "https://media.api-sports.io/football/teams/616.png",
+      "start": "2020-09-01",
+      "end": "2022-08-01"
+    },
+    {
+      "team_id": 620,
+      "team_name": "Dinamo Zagreb",
+      "team_logo": "https://media.api-sports.io/football/teams/620.png",
+      "start": "2018-05-01",
+      "end": "2020-04-01"
+    },
+    {
+      "team_id": 347,
+      "team_name": "Lech Poznań",
+      "team_logo": "https://media.api-sports.io/football/teams/347.png",
+      "start": "2016-08-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 515,
+      "team_name": "Spezia",
+      "team_logo": "https://media.api-sports.io/football/teams/515.png",
+      "start": "2014-07-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 601,
+      "team_name": "Austria Vienna",
+      "team_logo": "https://media.api-sports.io/football/teams/601.png",
+      "start": "2013-06-01",
+      "end": "2014-02-01"
+    },
+    {
+      "team_id": 1025,
+      "team_name": "Wolfsberger AC",
+      "team_logo": "https://media.api-sports.io/football/teams/1025.png",
+      "start": "2012-06-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 11232,
+      "team_name": "WAC  St. Andrä",
+      "team_logo": "https://media.api-sports.io/football/teams/11232.png",
+      "start": "2011-07-01",
+      "end": "2012-06-01"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 18784,
+  "slug": "j-maddison",
+  "name": "J. Maddison",
+  "api_photo": "https://media.api-sports.io/football/players/18784.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Tottenham",
+      "club_logo": "https://media.api-sports.io/football/teams/47.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 31,
+      "goals": 9,
+      "assists": 7,
+      "minutes": 1817,
+      "yellow_cards": 6,
+      "red_cards": 0
+    }
+  ]
+}

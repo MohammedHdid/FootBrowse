@@ -1,0 +1,65 @@
+# Required GitHub Secrets:
+#   API_FOOTBALL_KEY       — your API-Football v3 key
+#   VERCEL_DEPLOY_HOOK_URL — deploy hook URL from Vercel project settings
+#                            (Project → Settings → Git → Deploy Hooks)
+
+name: Daily Fixtures Sync
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # 06:00 UTC every day
+  workflow_dispatch:      # allow manual run from Actions tab
+
+jobs:
+  sync:
+    name: Fetch today's fixtures
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run daily fixtures sync
+        run: npm run sync:daily-fixtures
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Sync predictions for upcoming fixtures
+        run: npm run sync:predictions
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Sync odds for upcoming fixtures
+        run: npm run sync:odds
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/today.json data/predictions/ data/odds/ \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/today.json data/predictions/ data/odds/
+          git commit -m "chore: sync daily fixtures, predictions and odds [skip ci]"
+          git push
+
+      - name: Trigger Vercel redeploy
+        if: steps.changes.outputs.changed == 'true'
+        run: curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"

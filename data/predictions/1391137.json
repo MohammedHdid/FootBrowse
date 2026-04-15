@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391137,
+  "fetched_at": "2026-04-15T20:59:33.523Z",
+  "advice": "Double chance : draw or Girona",
+  "winner_id": 547,
+  "winner_name": "Girona",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "att": {
+      "home": "54%",
+      "away": "46%"
+    },
+    "def": {
+      "home": "30%",
+      "away": "70%"
+    },
+    "poisson_distribution": {
+      "home": "55%",
+      "away": "45%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "total": {
+      "home": "42.3%",
+      "away": "57.7%"
+    }
+  }
+}

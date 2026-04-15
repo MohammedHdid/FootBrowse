@@ -1,0 +1,232 @@
+{
+  "team_id": 162,
+  "team_slug": "werder-bremen",
+  "team_name": "Werder Bremen",
+  "fetched_at": "2026-04-14T22:33:16.235Z",
+  "players": [
+    {
+      "id": 329578,
+      "name": "M. Backhaus",
+      "age": 21,
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/329578.png"
+    },
+    {
+      "id": 169295,
+      "name": "K. Hein",
+      "age": 23,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/169295.png"
+    },
+    {
+      "id": 25519,
+      "name": "M. Kolke",
+      "age": 35,
+      "number": 25,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/25519.png"
+    },
+    {
+      "id": 26319,
+      "name": "F. Agu",
+      "age": 26,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/26319.png"
+    },
+    {
+      "id": 440147,
+      "name": "Abdoul Karim Coulibaly",
+      "age": 18,
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/440147.png"
+    },
+    {
+      "id": 25314,
+      "name": "M. Friedl",
+      "age": 27,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25314.png"
+    },
+    {
+      "id": 289460,
+      "name": "J. Malatini",
+      "age": 24,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/289460.png"
+    },
+    {
+      "id": 25011,
+      "name": "A. Pieper",
+      "age": 27,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25011.png"
+    },
+    {
+      "id": 444984,
+      "name": "Mick Schmetgens",
+      "age": 18,
+      "number": 33,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/444984.png"
+    },
+    {
+      "id": 2916,
+      "name": "N. Stark",
+      "age": 30,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2916.png"
+    },
+    {
+      "id": 32887,
+      "name": "Y. Sugawara",
+      "age": 25,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/32887.png"
+    },
+    {
+      "id": 2048,
+      "name": "M. Wöber",
+      "age": 27,
+      "number": 39,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2048.png"
+    },
+    {
+      "id": 455290,
+      "name": "Wesley Adeh",
+      "age": 18,
+      "number": 34,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/455290.png"
+    },
+    {
+      "id": 716,
+      "name": "L. Bittencourt",
+      "age": 32,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/716.png"
+    },
+    {
+      "id": 448468,
+      "name": "P. Čović",
+      "age": 18,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/448468.png"
+    },
+    {
+      "id": 8673,
+      "name": "O. Deman",
+      "age": 25,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/8673.png"
+    },
+    {
+      "id": 38798,
+      "name": "S. Lynen",
+      "age": 26,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/38798.png"
+    },
+    {
+      "id": 48642,
+      "name": "Cameron Puertas",
+      "age": 27,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/48642.png"
+    },
+    {
+      "id": 7562,
+      "name": "R. Schmid",
+      "age": 25,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7562.png"
+    },
+    {
+      "id": 15592,
+      "name": "J. Stage",
+      "age": 29,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/15592.png"
+    },
+    {
+      "id": 39071,
+      "name": "V. Boniface",
+      "age": 25,
+      "number": 44,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/39071.png"
+    },
+    {
+      "id": 7073,
+      "name": "M. Grüll",
+      "age": 27,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/7073.png"
+    },
+    {
+      "id": 346866,
+      "name": "S. Mbangula",
+      "age": 21,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/346866.png"
+    },
+    {
+      "id": 371911,
+      "name": "J. Milošević",
+      "age": 20,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/371911.png"
+    },
+    {
+      "id": 561838,
+      "name": "S. Musah",
+      "age": 20,
+      "number": 29,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/561838.png"
+    },
+    {
+      "id": 177807,
+      "name": "J. Njinmah",
+      "age": 25,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/177807.png"
+    },
+    {
+      "id": 265372,
+      "name": "I. Schmidt",
+      "age": 26,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/265372.png"
+    },
+    {
+      "id": 334334,
+      "name": "K. Topp",
+      "age": 21,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/334334.png"
+    }
+  ]
+}

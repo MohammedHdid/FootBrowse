@@ -1,0 +1,19 @@
+{
+  "id": 28221,
+  "name": "Mohamed Ouahbi",
+  "photo": "https://media.api-sports.io/football/coachs/28221.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 31,
+  "team_slug": "morocco",
+  "fetched_at": "2026-04-15T13:12:23.679Z",
+  "career": [
+    {
+      "team_id": 31,
+      "team_name": "Morocco",
+      "team_logo": "https://media.api-sports.io/football/teams/31.png",
+      "start": "2026-03-01",
+      "end": null
+    }
+  ]
+}

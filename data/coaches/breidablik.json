@@ -1,0 +1,26 @@
+{
+  "id": 21253,
+  "name": "H. Árnason",
+  "photo": "https://media.api-sports.io/football/coachs/21253.png",
+  "nationality": "Iceland",
+  "age": 41,
+  "team_id": 276,
+  "team_slug": "breidablik",
+  "fetched_at": "2026-04-15T08:15:00.758Z",
+  "career": [
+    {
+      "team_id": 276,
+      "team_name": "Breidablik",
+      "team_logo": "https://media.api-sports.io/football/teams/276.png",
+      "start": "2023-10-01",
+      "end": null
+    },
+    {
+      "team_id": 4163,
+      "team_name": "KV",
+      "team_logo": "https://media.api-sports.io/football/teams/4163.png",
+      "start": "2013-01-01",
+      "end": "2014-12-01"
+    }
+  ]
+}

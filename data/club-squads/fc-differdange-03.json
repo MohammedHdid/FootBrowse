@@ -1,0 +1,192 @@
+{
+  "team_id": 684,
+  "team_slug": "fc-differdange-03",
+  "team_name": "FC Differdange 03",
+  "fetched_at": "2026-04-14T22:45:05.056Z",
+  "players": [
+    {
+      "id": 207349,
+      "name": "E. Da Costa",
+      "age": 22,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/207349.png"
+    },
+    {
+      "id": 646519,
+      "name": "R. Da Silva Correia",
+      "age": 19,
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/646519.png"
+    },
+    {
+      "id": 28520,
+      "name": "Felipe",
+      "age": 41,
+      "number": 84,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/28520.png"
+    },
+    {
+      "id": 325437,
+      "name": "J. Bedouret",
+      "age": 27,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/325437.png"
+    },
+    {
+      "id": 203736,
+      "name": "G. Bei",
+      "age": 30,
+      "number": 77,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/203736.png"
+    },
+    {
+      "id": 203724,
+      "name": "T. Brusco",
+      "age": 26,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/203724.png"
+    },
+    {
+      "id": 543996,
+      "name": "K. D'Anzico",
+      "age": 25,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/543996.png"
+    },
+    {
+      "id": 203712,
+      "name": "G. Franzoni",
+      "age": 34,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/203712.png"
+    },
+    {
+      "id": 544014,
+      "name": "J. P. Gomes Ricciulli",
+      "age": 26,
+      "number": 66,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544014.png"
+    },
+    {
+      "id": 85776,
+      "name": "D. Lempereur",
+      "age": 27,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/85776.png"
+    },
+    {
+      "id": 544013,
+      "name": "F. Mendes",
+      "age": 18,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544013.png"
+    },
+    {
+      "id": 41366,
+      "name": "Bruno Reis",
+      "age": 26,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/41366.png"
+    },
+    {
+      "id": 202735,
+      "name": "L. Jakobi",
+      "age": 24,
+      "number": 39,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/202735.png"
+    },
+    {
+      "id": 142275,
+      "name": "Leandro Borges",
+      "age": 34,
+      "number": 55,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/142275.png"
+    },
+    {
+      "id": 142683,
+      "name": "Rafael Pinto",
+      "age": 27,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/142683.png"
+    },
+    {
+      "id": 191164,
+      "name": "L. Rauch",
+      "age": 25,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/191164.png"
+    },
+    {
+      "id": 96391,
+      "name": "A. Abreu",
+      "age": 31,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/96391.png"
+    },
+    {
+      "id": 649608,
+      "name": "Andre Mendy",
+      "age": 25,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/649608.png"
+    },
+    {
+      "id": 203663,
+      "name": "A. Buch",
+      "age": 32,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/203663.png"
+    },
+    {
+      "id": 614204,
+      "name": "P. Costa",
+      "age": 23,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/614204.png"
+    },
+    {
+      "id": 153314,
+      "name": "Mustapha Hadji",
+      "age": 42,
+      "number": 23,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/153314.png"
+    },
+    {
+      "id": 524218,
+      "name": "A. Mfoumou",
+      "age": 20,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/524218.png"
+    },
+    {
+      "id": 279449,
+      "name": "Edgar Pacheco",
+      "age": 25,
+      "number": 28,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/279449.png"
+    }
+  ]
+}

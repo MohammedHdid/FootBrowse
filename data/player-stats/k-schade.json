@@ -1,0 +1,21 @@
+{
+  "player_id": 178077,
+  "slug": "k-schade",
+  "name": "K. Schade",
+  "api_photo": "https://media.api-sports.io/football/players/178077.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Brentford",
+      "club_logo": "https://media.api-sports.io/football/teams/55.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 38,
+      "goals": 11,
+      "assists": 2,
+      "minutes": 2300,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

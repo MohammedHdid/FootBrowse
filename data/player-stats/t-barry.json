@@ -1,0 +1,21 @@
+{
+  "player_id": 343684,
+  "slug": "t-barry",
+  "name": "T. Barry",
+  "api_photo": "https://media.api-sports.io/football/players/343684.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Villarreal",
+      "club_logo": "https://media.api-sports.io/football/teams/533.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 35,
+      "goals": 11,
+      "assists": 4,
+      "minutes": 2322,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

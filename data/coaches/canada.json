@@ -1,0 +1,19 @@
+{
+  "id": 28218,
+  "name": "Jesse Marsch",
+  "photo": "https://media.api-sports.io/football/coachs/28218.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 5529,
+  "team_slug": "canada",
+  "fetched_at": "2026-04-15T13:11:27.579Z",
+  "career": [
+    {
+      "team_id": 5529,
+      "team_name": "Canada",
+      "team_logo": "https://media.api-sports.io/football/teams/5529.png",
+      "start": "2026-01-01",
+      "end": null
+    }
+  ]
+}

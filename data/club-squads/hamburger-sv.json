@@ -1,0 +1,248 @@
+{
+  "team_id": 175,
+  "team_slug": "hamburger-sv",
+  "team_name": "Hamburger SV",
+  "fetched_at": "2026-04-15T08:13:48.927Z",
+  "players": [
+    {
+      "id": 380940,
+      "name": "H. Hermann",
+      "age": 20,
+      "number": 40,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/380940.png"
+    },
+    {
+      "id": 25033,
+      "name": "Daniel Heuer Fernandes",
+      "age": 33,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/25033.png"
+    },
+    {
+      "id": 264378,
+      "name": "S. Tangvik",
+      "age": 23,
+      "number": 12,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/264378.png"
+    },
+    {
+      "id": 265741,
+      "name": "G. Gocholeishvili",
+      "age": 24,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/265741.png"
+    },
+    {
+      "id": 24792,
+      "name": "N. Katterbach",
+      "age": 24,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24792.png"
+    },
+    {
+      "id": 570798,
+      "name": "L. Lemke",
+      "age": 16,
+      "number": 37,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/570798.png"
+    },
+    {
+      "id": 302632,
+      "name": "W. Mikelbrencis",
+      "age": 21,
+      "number": 2,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/302632.png"
+    },
+    {
+      "id": 48489,
+      "name": "M. Muheim",
+      "age": 27,
+      "number": 28,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/48489.png"
+    },
+    {
+      "id": 480452,
+      "name": "S. Nandja",
+      "age": 18,
+      "number": 43,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/480452.png"
+    },
+    {
+      "id": 162265,
+      "name": "W. Omari",
+      "age": 25,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162265.png"
+    },
+    {
+      "id": 470282,
+      "name": "Alexander Røssing-Lelesiit",
+      "age": 18,
+      "number": 38,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/470282.png"
+    },
+    {
+      "id": 25346,
+      "name": "J. Torunarigha",
+      "age": 28,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25346.png"
+    },
+    {
+      "id": 387521,
+      "name": "L. Vušković",
+      "age": 18,
+      "number": 44,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/387521.png"
+    },
+    {
+      "id": 5973,
+      "name": "N. Capaldo",
+      "age": 27,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/5973.png"
+    },
+    {
+      "id": 324019,
+      "name": "Daniel Elfadli",
+      "age": 28,
+      "number": 8,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/324019.png"
+    },
+    {
+      "id": 263177,
+      "name": "A. Grønbæk",
+      "age": 24,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/263177.png"
+    },
+    {
+      "id": 1427,
+      "name": "A. Sambi Lokonga",
+      "age": 26,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1427.png"
+    },
+    {
+      "id": 336020,
+      "name": "Omar Megeed",
+      "age": 20,
+      "number": 39,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/336020.png"
+    },
+    {
+      "id": 260898,
+      "name": "N. Remberg",
+      "age": 25,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/260898.png"
+    },
+    {
+      "id": 41725,
+      "name": "Fábio Vieira",
+      "age": 25,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/41725.png"
+    },
+    {
+      "id": 380939,
+      "name": "Fabio Amadu Uri Baldé",
+      "age": 20,
+      "number": 45,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/380939.png"
+    },
+    {
+      "id": 8483,
+      "name": "J. Dompé",
+      "age": 30,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/8483.png"
+    },
+    {
+      "id": 334362,
+      "name": "D. Downs",
+      "age": 21,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/334362.png"
+    },
+    {
+      "id": 24914,
+      "name": "R. Glatzel",
+      "age": 31,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/24914.png"
+    },
+    {
+      "id": 24880,
+      "name": "B. Jatta",
+      "age": 27,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/24880.png"
+    },
+    {
+      "id": 162773,
+      "name": "R. Königsdörffer",
+      "age": 24,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/162773.png"
+    },
+    {
+      "id": 73879,
+      "name": "P. Otele",
+      "age": 26,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/73879.png"
+    },
+    {
+      "id": 129693,
+      "name": "R. Philippe",
+      "age": 25,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/129693.png"
+    },
+    {
+      "id": 1167,
+      "name": "Y. Poulsen",
+      "age": 31,
+      "number": 15,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/1167.png"
+    },
+    {
+      "id": 444962,
+      "name": "Otto Emerson Stange",
+      "age": 18,
+      "number": 49,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/444962.png"
+    }
+  ]
+}

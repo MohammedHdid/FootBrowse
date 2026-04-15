@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388579,
+  "fetched_at": "2026-04-15T21:01:21.745Z",
+  "advice": "Double chance : Borussia Dortmund or draw",
+  "winner_id": 165,
+  "winner_name": "Borussia Dortmund",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-3.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "63%",
+      "away": "37%"
+    },
+    "att": {
+      "home": "53%",
+      "away": "47%"
+    },
+    "def": {
+      "home": "67%",
+      "away": "33%"
+    },
+    "poisson_distribution": {
+      "home": "77%",
+      "away": "23%"
+    },
+    "h2h": {
+      "home": "93%",
+      "away": "7%"
+    },
+    "goals": {
+      "home": "80%",
+      "away": "20%"
+    },
+    "total": {
+      "home": "72.2%",
+      "away": "27.8%"
+    }
+  }
+}

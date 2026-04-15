@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379302,
+  "fetched_at": "2026-04-15T20:57:27.367Z",
+  "advice": "Double chance : draw or Manchester City",
+  "winner_id": 50,
+  "winner_name": "Manchester City",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "0%",
+    "draw": "50%",
+    "away": "50%"
+  },
+  "under_over": null,
+  "goals_home": "-1.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "8%",
+      "away": "92%"
+    },
+    "att": {
+      "home": "31%",
+      "away": "69%"
+    },
+    "def": {
+      "home": "27%",
+      "away": "73%"
+    },
+    "poisson_distribution": {
+      "home": "24%",
+      "away": "76%"
+    },
+    "h2h": {
+      "home": "0%",
+      "away": "100%"
+    },
+    "goals": {
+      "home": "10%",
+      "away": "90%"
+    },
+    "total": {
+      "home": "20.0%",
+      "away": "80.0%"
+    }
+  }
+}

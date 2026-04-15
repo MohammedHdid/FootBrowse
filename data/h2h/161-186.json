@@ -1,0 +1,78 @@
+{
+  "team1_id": 161,
+  "team2_id": 186,
+  "fetched_at": "2026-04-15T20:55:58.796Z",
+  "played": 5,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 4,
+  "team1_goals": 6,
+  "team2_goals": 5,
+  "last_matches": [
+    {
+      "fixture_id": 1388460,
+      "date": "2026-01-14",
+      "league": "Bundesliga",
+      "home_id": 161,
+      "home_name": "VfL Wolfsburg",
+      "home_logo": "https://media.api-sports.io/football/teams/161.png",
+      "away_id": 186,
+      "away_name": "FC St. Pauli",
+      "away_logo": "https://media.api-sports.io/football/teams/186.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1224197,
+      "date": "2025-03-08",
+      "league": "Bundesliga",
+      "home_id": 161,
+      "home_name": "VfL Wolfsburg",
+      "home_logo": "https://media.api-sports.io/football/teams/161.png",
+      "away_id": 186,
+      "away_name": "FC St. Pauli",
+      "away_logo": "https://media.api-sports.io/football/teams/186.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1224046,
+      "date": "2024-10-26",
+      "league": "Bundesliga",
+      "home_id": 186,
+      "home_name": "FC St. Pauli",
+      "home_logo": "https://media.api-sports.io/football/teams/186.png",
+      "away_id": 161,
+      "away_name": "VfL Wolfsburg",
+      "away_logo": "https://media.api-sports.io/football/teams/161.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 196363,
+      "date": "2011-04-16",
+      "league": "Bundesliga",
+      "home_id": 161,
+      "home_name": "VfL Wolfsburg",
+      "home_logo": "https://media.api-sports.io/football/teams/161.png",
+      "away_id": 186,
+      "away_name": "FC St. Pauli",
+      "away_logo": "https://media.api-sports.io/football/teams/186.png",
+      "home_score": 2,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 196213,
+      "date": "2010-11-21",
+      "league": "Bundesliga",
+      "home_id": 186,
+      "home_name": "FC St. Pauli",
+      "home_logo": "https://media.api-sports.io/football/teams/186.png",
+      "away_id": 161,
+      "away_name": "VfL Wolfsburg",
+      "away_logo": "https://media.api-sports.io/football/teams/161.png",
+      "home_score": 1,
+      "away_score": 1
+    }
+  ]
+}

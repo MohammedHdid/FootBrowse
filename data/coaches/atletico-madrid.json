@@ -1,0 +1,61 @@
+{
+  "id": 1595,
+  "name": "D. Simeone",
+  "photo": "https://media.api-sports.io/football/coachs/1595.png",
+  "nationality": "Argentina",
+  "age": 55,
+  "team_id": 530,
+  "team_slug": "atletico-madrid",
+  "fetched_at": "2026-04-14T22:33:58.265Z",
+  "career": [
+    {
+      "team_id": 530,
+      "team_name": "Atletico Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/530.png",
+      "start": "2011-12-01",
+      "end": null
+    },
+    {
+      "team_id": 436,
+      "team_name": "Racing Club",
+      "team_logo": "https://media.api-sports.io/football/teams/436.png",
+      "start": "2011-06-01",
+      "end": "2011-12-01"
+    },
+    {
+      "team_id": 1580,
+      "team_name": "Catania",
+      "team_logo": "https://media.api-sports.io/football/teams/1580.png",
+      "start": "2011-01-01",
+      "end": "2011-05-01"
+    },
+    {
+      "team_id": 460,
+      "team_name": "San Lorenzo",
+      "team_logo": "https://media.api-sports.io/football/teams/460.png",
+      "start": "2009-04-01",
+      "end": "2010-04-01"
+    },
+    {
+      "team_id": 435,
+      "team_name": "River Plate",
+      "team_logo": "https://media.api-sports.io/football/teams/435.png",
+      "start": "2007-12-01",
+      "end": "2008-11-01"
+    },
+    {
+      "team_id": 450,
+      "team_name": "Estudiantes",
+      "team_logo": "https://media.api-sports.io/football/teams/450.png",
+      "start": "2006-05-01",
+      "end": "2007-12-01"
+    },
+    {
+      "team_id": 436,
+      "team_name": "Racing Club",
+      "team_logo": "https://media.api-sports.io/football/teams/436.png",
+      "start": "2006-02-01",
+      "end": "2006-04-01"
+    }
+  ]
+}

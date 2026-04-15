@@ -1,0 +1,21 @@
+{
+  "player_id": 726,
+  "slug": "a-kramaric",
+  "name": "A. Kramarić",
+  "api_photo": "https://media.api-sports.io/football/players/726.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "1899 Hoffenheim",
+      "club_logo": "https://media.api-sports.io/football/teams/167.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 32,
+      "goals": 11,
+      "assists": 8,
+      "minutes": 2782,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

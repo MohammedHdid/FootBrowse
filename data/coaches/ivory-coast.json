@@ -1,0 +1,33 @@
+{
+  "id": 16053,
+  "name": "E. Faé",
+  "photo": "https://media.api-sports.io/football/coachs/16053.png",
+  "nationality": "Côte d'Ivoire",
+  "age": 41,
+  "team_id": 1501,
+  "team_slug": "ivory-coast",
+  "fetched_at": "2026-04-15T13:13:11.686Z",
+  "career": [
+    {
+      "team_id": 1501,
+      "team_name": "Côte d'Ivoire",
+      "team_logo": "https://media.api-sports.io/football/teams/1501.png",
+      "start": "2024-01-01",
+      "end": null
+    },
+    {
+      "team_id": 1501,
+      "team_name": "Ivory Coast",
+      "team_logo": "https://media.api-sports.io/football/teams/1501.png",
+      "start": "2023-11-01",
+      "end": "2026-03-01"
+    },
+    {
+      "team_id": 9970,
+      "team_name": "Clermont II",
+      "team_logo": "https://media.api-sports.io/football/teams/9970.png",
+      "start": "2021-07-01",
+      "end": "2022-06-01"
+    }
+  ]
+}

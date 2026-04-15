@@ -1,0 +1,19 @@
+{
+  "id": 1335,
+  "name": "F. Schmidt",
+  "photo": "https://media.api-sports.io/football/coachs/1335.png",
+  "nationality": "Germany",
+  "age": 51,
+  "team_id": 180,
+  "team_slug": "1-fc-heidenheim",
+  "fetched_at": "2026-04-14T22:30:34.206Z",
+  "career": [
+    {
+      "team_id": 180,
+      "team_name": "Heidenheim",
+      "team_logo": "https://media.api-sports.io/football/teams/180.png",
+      "start": "2007-09-01",
+      "end": null
+    }
+  ]
+}

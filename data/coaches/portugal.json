@@ -1,0 +1,47 @@
+{
+  "id": 48,
+  "name": "Roberto Martínez",
+  "photo": "https://media.api-sports.io/football/coachs/48.png",
+  "nationality": "Spain",
+  "age": 52,
+  "team_id": 27,
+  "team_slug": "portugal",
+  "fetched_at": "2026-04-15T13:13:35.991Z",
+  "career": [
+    {
+      "team_id": 27,
+      "team_name": "Portugal",
+      "team_logo": "https://media.api-sports.io/football/teams/27.png",
+      "start": "2023-01-01",
+      "end": null
+    },
+    {
+      "team_id": 1,
+      "team_name": "Belgium",
+      "team_logo": "https://media.api-sports.io/football/teams/1.png",
+      "start": "2016-08-01",
+      "end": "2022-12-01"
+    },
+    {
+      "team_id": 45,
+      "team_name": "Everton",
+      "team_logo": "https://media.api-sports.io/football/teams/45.png",
+      "start": "2013-06-01",
+      "end": "2016-05-01"
+    },
+    {
+      "team_id": 61,
+      "team_name": "Wigan Athletic",
+      "team_logo": "https://media.api-sports.io/football/teams/61.png",
+      "start": "2009-08-01",
+      "end": "2013-05-01"
+    },
+    {
+      "team_id": 76,
+      "team_name": "Swansea City",
+      "team_logo": "https://media.api-sports.io/football/teams/76.png",
+      "start": "2007-02-01",
+      "end": "2009-06-01"
+    }
+  ]
+}

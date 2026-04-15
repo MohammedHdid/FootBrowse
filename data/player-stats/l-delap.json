@@ -1,0 +1,21 @@
+{
+  "player_id": 161948,
+  "slug": "l-delap",
+  "name": "L. Delap",
+  "api_photo": "https://media.api-sports.io/football/players/161948.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Ipswich",
+      "club_logo": "https://media.api-sports.io/football/teams/57.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 37,
+      "goals": 12,
+      "assists": 2,
+      "minutes": 2612,
+      "yellow_cards": 11,
+      "red_cards": 0
+    }
+  ]
+}

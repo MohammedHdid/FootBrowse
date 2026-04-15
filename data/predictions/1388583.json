@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388583,
+  "fetched_at": "2026-04-15T21:01:15.722Z",
+  "advice": "Winner : Bayern München",
+  "winner_id": 157,
+  "winner_name": "Bayern München",
+  "winner_comment": null,
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-4.5",
+  "comparison": {
+    "form": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "att": {
+      "home": "32%",
+      "away": "68%"
+    },
+    "def": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "poisson_distribution": {
+      "home": "18%",
+      "away": "82%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "22%",
+      "away": "78%"
+    },
+    "total": {
+      "home": "31.3%",
+      "away": "68.7%"
+    }
+  }
+}

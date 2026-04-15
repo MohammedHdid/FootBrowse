@@ -1,0 +1,47 @@
+{
+  "id": 6714,
+  "name": "Julián Calero",
+  "photo": "https://media.api-sports.io/football/coachs/6714.png",
+  "nationality": "Spain",
+  "age": 55,
+  "team_id": 539,
+  "team_slug": "levante",
+  "fetched_at": "2026-04-15T08:13:49.411Z",
+  "career": [
+    {
+      "team_id": 539,
+      "team_name": "Levante",
+      "team_logo": "https://media.api-sports.io/football/teams/539.png",
+      "start": "2024-06-01",
+      "end": null
+    },
+    {
+      "team_id": 5262,
+      "team_name": "FC Cartagena",
+      "team_logo": "https://media.api-sports.io/football/teams/5262.png",
+      "start": "2023-09-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 9580,
+      "team_name": "Burgos",
+      "team_logo": "https://media.api-sports.io/football/teams/9580.png",
+      "start": "2020-06-01",
+      "end": "2023-05-01"
+    },
+    {
+      "team_id": 861,
+      "team_name": "Rayo Majadahonda",
+      "team_logo": "https://media.api-sports.io/football/teams/861.png",
+      "start": "2019-07-01",
+      "end": "2020-03-01"
+    },
+    {
+      "team_id": 5271,
+      "team_name": "Navalcarnero",
+      "team_logo": "https://media.api-sports.io/football/teams/5271.png",
+      "start": "2017-07-01",
+      "end": "2018-06-01"
+    }
+  ]
+}

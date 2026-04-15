@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379293,
+  "fetched_at": "2026-04-15T20:56:57.982Z",
+  "advice": "Double chance : Everton or draw",
+  "winner_id": 45,
+  "winner_name": "Everton",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "35%",
+    "draw": "35%",
+    "away": "30%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "59%",
+      "away": "41%"
+    },
+    "att": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "def": {
+      "home": "54%",
+      "away": "46%"
+    },
+    "poisson_distribution": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "42%",
+      "away": "58%"
+    },
+    "total": {
+      "home": "47.3%",
+      "away": "52.7%"
+    }
+  }
+}

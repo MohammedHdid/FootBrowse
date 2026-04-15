@@ -1,0 +1,47 @@
+{
+  "id": 4402,
+  "name": "O. Shehi",
+  "photo": "https://media.api-sports.io/football/coachs/4402.png",
+  "nationality": "Albania",
+  "age": 48,
+  "team_id": 12733,
+  "team_slug": "ballkani",
+  "fetched_at": "2026-04-14T22:42:10.891Z",
+  "career": [
+    {
+      "team_id": 12733,
+      "team_name": "Ballkani",
+      "team_logo": "https://media.api-sports.io/football/teams/12733.png",
+      "start": "2024-12-01",
+      "end": null
+    },
+    {
+      "team_id": 708,
+      "team_name": "Partizani Tirana",
+      "team_logo": "https://media.api-sports.io/football/teams/708.png",
+      "start": "2023-12-01",
+      "end": "2024-08-01"
+    },
+    {
+      "team_id": 694,
+      "team_name": "Tirana",
+      "team_logo": "https://media.api-sports.io/football/teams/694.png",
+      "start": "2021-01-01",
+      "end": "2023-10-01"
+    },
+    {
+      "team_id": 577,
+      "team_name": "Kukësi",
+      "team_logo": "https://media.api-sports.io/football/teams/577.png",
+      "start": "2020-03-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 605,
+      "team_name": "Skënderbeu Korçë",
+      "team_logo": "https://media.api-sports.io/football/teams/605.png",
+      "start": "2018-07-01",
+      "end": "2019-06-01"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391148,
+  "fetched_at": "2026-04-15T20:59:09.540Z",
+  "advice": "Double chance : draw or Villarreal",
+  "winner_id": 533,
+  "winner_name": "Villarreal",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "att": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "def": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "poisson_distribution": {
+      "home": "27%",
+      "away": "73%"
+    },
+    "h2h": {
+      "home": "0%",
+      "away": "100%"
+    },
+    "goals": {
+      "home": "0%",
+      "away": "100%"
+    },
+    "total": {
+      "home": "44.3%",
+      "away": "55.8%"
+    }
+  }
+}

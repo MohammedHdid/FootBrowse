@@ -1,0 +1,695 @@
+{
+  "league_id": 2,
+  "season": 2024,
+  "groups": [
+    {
+      "group": "UEFA Champions League",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 40,
+            "name": "Liverpool",
+            "slug": "liverpool",
+            "logo": "https://media.api-sports.io/football/teams/40.png"
+          },
+          "points": 21,
+          "played": 8,
+          "won": 7,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 17,
+          "goals_against": 5,
+          "goal_diff": 12,
+          "form": "LWWWW",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 529,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "logo": "https://media.api-sports.io/football/teams/529.png"
+          },
+          "points": 19,
+          "played": 8,
+          "won": 6,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 28,
+          "goals_against": 13,
+          "goal_diff": 15,
+          "form": "DWWWW",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 42,
+            "name": "Arsenal",
+            "slug": "arsenal",
+            "logo": "https://media.api-sports.io/football/teams/42.png"
+          },
+          "points": 19,
+          "played": 8,
+          "won": 6,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 16,
+          "goals_against": 3,
+          "goal_diff": 13,
+          "form": "WWWWL",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 505,
+            "name": "Inter",
+            "slug": "inter",
+            "logo": "https://media.api-sports.io/football/teams/505.png"
+          },
+          "points": 19,
+          "played": 8,
+          "won": 6,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 11,
+          "goals_against": 1,
+          "goal_diff": 10,
+          "form": "WWLWW",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 5,
+          "team": {
+            "id": 530,
+            "name": "Atletico Madrid",
+            "slug": "atletico-madrid",
+            "logo": "https://media.api-sports.io/football/teams/530.png"
+          },
+          "points": 18,
+          "played": 8,
+          "won": 6,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 20,
+          "goals_against": 12,
+          "goal_diff": 8,
+          "form": "WWWWW",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 168,
+            "name": "Bayer Leverkusen",
+            "slug": "bayer-leverkusen",
+            "logo": "https://media.api-sports.io/football/teams/168.png"
+          },
+          "points": 16,
+          "played": 8,
+          "won": 5,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 15,
+          "goals_against": 7,
+          "goal_diff": 8,
+          "form": "WLWWL",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 7,
+          "team": {
+            "id": 79,
+            "name": "Lille",
+            "slug": "lille",
+            "logo": "https://media.api-sports.io/football/teams/79.png"
+          },
+          "points": 16,
+          "played": 8,
+          "won": 5,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 17,
+          "goals_against": 10,
+          "goal_diff": 7,
+          "form": "WLWWD",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 8,
+          "team": {
+            "id": 66,
+            "name": "Aston Villa",
+            "slug": "aston-villa",
+            "logo": "https://media.api-sports.io/football/teams/66.png"
+          },
+          "points": 16,
+          "played": 8,
+          "won": 5,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 13,
+          "goals_against": 6,
+          "goal_diff": 7,
+          "form": "WLWDL",
+          "description": "Promotion - Champions League (Play Offs: 1/8-finals)"
+        },
+        {
+          "rank": 9,
+          "team": {
+            "id": 499,
+            "name": "Atalanta",
+            "slug": "atalanta",
+            "logo": "https://media.api-sports.io/football/teams/499.png"
+          },
+          "points": 15,
+          "played": 8,
+          "won": 4,
+          "drawn": 3,
+          "lost": 1,
+          "goals_for": 20,
+          "goals_against": 6,
+          "goal_diff": 14,
+          "form": "DWLWW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 165,
+            "name": "Borussia Dortmund",
+            "slug": "borussia-dortmund",
+            "logo": "https://media.api-sports.io/football/teams/165.png"
+          },
+          "points": 15,
+          "played": 8,
+          "won": 5,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 22,
+          "goals_against": 12,
+          "goal_diff": 10,
+          "form": "WLLWW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 11,
+          "team": {
+            "id": 541,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "logo": "https://media.api-sports.io/football/teams/541.png"
+          },
+          "points": 15,
+          "played": 8,
+          "won": 5,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 20,
+          "goals_against": 12,
+          "goal_diff": 8,
+          "form": "WWWLL",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 157,
+            "name": "Bayern München",
+            "slug": "bayern-munchen",
+            "logo": "https://media.api-sports.io/football/teams/157.png"
+          },
+          "points": 15,
+          "played": 8,
+          "won": 5,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 20,
+          "goals_against": 12,
+          "goal_diff": 8,
+          "form": "WLWWW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 13,
+          "team": {
+            "id": 489,
+            "name": "AC Milan",
+            "slug": "ac-milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png"
+          },
+          "points": 15,
+          "played": 8,
+          "won": 5,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 14,
+          "goals_against": 11,
+          "goal_diff": 3,
+          "form": "LWWWW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 14,
+          "team": {
+            "id": 197,
+            "name": "PSV Eindhoven",
+            "slug": "psv-eindhoven",
+            "logo": "https://media.api-sports.io/football/teams/197.png"
+          },
+          "points": 14,
+          "played": 8,
+          "won": 4,
+          "drawn": 2,
+          "lost": 2,
+          "goals_for": 16,
+          "goals_against": 12,
+          "goal_diff": 4,
+          "form": "WWLWW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "slug": "paris-saint-germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png"
+          },
+          "points": 13,
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 14,
+          "goals_against": 9,
+          "goal_diff": 5,
+          "form": "WWWLL",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 16,
+          "team": {
+            "id": 211,
+            "name": "Benfica",
+            "slug": "benfica",
+            "logo": "https://media.api-sports.io/football/teams/211.png"
+          },
+          "points": 13,
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 16,
+          "goals_against": 12,
+          "goal_diff": 4,
+          "form": "WLDWL",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 17,
+          "team": {
+            "id": 91,
+            "name": "Monaco",
+            "slug": "monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png"
+          },
+          "points": 13,
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 13,
+          "goals_against": 13,
+          "goal_diff": 0,
+          "form": "LWLLW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 18,
+          "team": {
+            "id": 106,
+            "name": "Stade Brestois 29",
+            "slug": "stade-brestois-29",
+            "logo": "https://media.api-sports.io/football/teams/106.png"
+          },
+          "points": 13,
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 10,
+          "goals_against": 11,
+          "goal_diff": -1,
+          "form": "LLWLW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 19,
+          "team": {
+            "id": 209,
+            "name": "Feyenoord",
+            "slug": "feyenoord",
+            "logo": "https://media.api-sports.io/football/teams/209.png"
+          },
+          "points": 13,
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "goals_for": 18,
+          "goals_against": 21,
+          "goal_diff": -3,
+          "form": "LWWDL",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 20,
+          "team": {
+            "id": 496,
+            "name": "Juventus",
+            "slug": "juventus",
+            "logo": "https://media.api-sports.io/football/teams/496.png"
+          },
+          "points": 12,
+          "played": 8,
+          "won": 3,
+          "drawn": 3,
+          "lost": 2,
+          "goals_for": 9,
+          "goals_against": 7,
+          "goal_diff": 2,
+          "form": "LDWDD",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 21,
+          "team": {
+            "id": 247,
+            "name": "Celtic",
+            "slug": "celtic",
+            "logo": "https://media.api-sports.io/football/teams/247.png"
+          },
+          "points": 12,
+          "played": 8,
+          "won": 3,
+          "drawn": 3,
+          "lost": 2,
+          "goals_for": 13,
+          "goals_against": 14,
+          "goal_diff": -1,
+          "form": "LWDDW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 22,
+          "team": {
+            "id": 50,
+            "name": "Manchester City",
+            "slug": "manchester-city",
+            "logo": "https://media.api-sports.io/football/teams/50.png"
+          },
+          "points": 11,
+          "played": 8,
+          "won": 3,
+          "drawn": 2,
+          "lost": 3,
+          "goals_for": 18,
+          "goals_against": 14,
+          "goal_diff": 4,
+          "form": "WLLDL",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 23,
+          "team": {
+            "id": 228,
+            "name": "Sporting CP",
+            "slug": "sporting-cp",
+            "logo": "https://media.api-sports.io/football/teams/228.png"
+          },
+          "points": 11,
+          "played": 8,
+          "won": 3,
+          "drawn": 2,
+          "lost": 3,
+          "goals_for": 13,
+          "goals_against": 12,
+          "goal_diff": 1,
+          "form": "DLLLW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 24,
+          "team": {
+            "id": 569,
+            "name": "Club Brugge KV",
+            "slug": "club-brugge-kv",
+            "logo": "https://media.api-sports.io/football/teams/569.png"
+          },
+          "points": 11,
+          "played": 8,
+          "won": 3,
+          "drawn": 2,
+          "lost": 3,
+          "goals_for": 7,
+          "goals_against": 11,
+          "goal_diff": -4,
+          "form": "LDWDW",
+          "description": "Promotion - Champions League (Play Offs: 1/16-finals)"
+        },
+        {
+          "rank": 25,
+          "team": {
+            "id": 620,
+            "name": "Dinamo Zagreb",
+            "slug": "dinamo-zagreb",
+            "logo": "https://media.api-sports.io/football/teams/620.png"
+          },
+          "points": 11,
+          "played": 8,
+          "won": 3,
+          "drawn": 2,
+          "lost": 3,
+          "goals_for": 12,
+          "goals_against": 19,
+          "goal_diff": -7,
+          "form": "WLDLW",
+          "description": null
+        },
+        {
+          "rank": 26,
+          "team": {
+            "id": 172,
+            "name": "VfB Stuttgart",
+            "slug": "vfb-stuttgart",
+            "logo": "https://media.api-sports.io/football/teams/172.png"
+          },
+          "points": 10,
+          "played": 8,
+          "won": 3,
+          "drawn": 1,
+          "lost": 4,
+          "goals_for": 13,
+          "goals_against": 17,
+          "goal_diff": -4,
+          "form": "LWWLL",
+          "description": null
+        },
+        {
+          "rank": 27,
+          "team": {
+            "id": 550,
+            "name": "Shakhtar Donetsk",
+            "slug": "shakhtar-donetsk",
+            "logo": "https://media.api-sports.io/football/teams/550.png"
+          },
+          "points": 7,
+          "played": 8,
+          "won": 2,
+          "drawn": 1,
+          "lost": 5,
+          "goals_for": 8,
+          "goals_against": 16,
+          "goal_diff": -8,
+          "form": "LWLLW",
+          "description": null
+        },
+        {
+          "rank": 28,
+          "team": {
+            "id": 500,
+            "name": "Bologna",
+            "slug": "bologna",
+            "logo": "https://media.api-sports.io/football/teams/500.png"
+          },
+          "points": 6,
+          "played": 8,
+          "won": 1,
+          "drawn": 3,
+          "lost": 4,
+          "goals_for": 4,
+          "goals_against": 9,
+          "goal_diff": -5,
+          "form": "DWDLL",
+          "description": null
+        },
+        {
+          "rank": 29,
+          "team": {
+            "id": 598,
+            "name": "FK Crvena Zvezda",
+            "slug": "fk-crvena-zvezda",
+            "logo": "https://media.api-sports.io/football/teams/598.png"
+          },
+          "points": 6,
+          "played": 8,
+          "won": 2,
+          "drawn": 0,
+          "lost": 6,
+          "goals_for": 13,
+          "goals_against": 22,
+          "goal_diff": -9,
+          "form": "WLLWL",
+          "description": null
+        },
+        {
+          "rank": 30,
+          "team": {
+            "id": 637,
+            "name": "Sturm Graz",
+            "slug": "sturm-graz",
+            "logo": "https://media.api-sports.io/football/teams/637.png"
+          },
+          "points": 6,
+          "played": 8,
+          "won": 2,
+          "drawn": 0,
+          "lost": 6,
+          "goals_for": 5,
+          "goals_against": 14,
+          "goal_diff": -9,
+          "form": "WLLWL",
+          "description": null
+        },
+        {
+          "rank": 31,
+          "team": {
+            "id": 628,
+            "name": "Sparta Praha",
+            "slug": "sparta-praha",
+            "logo": "https://media.api-sports.io/football/teams/628.png"
+          },
+          "points": 4,
+          "played": 8,
+          "won": 1,
+          "drawn": 1,
+          "lost": 6,
+          "goals_for": 7,
+          "goals_against": 21,
+          "goal_diff": -14,
+          "form": "LLLLL",
+          "description": null
+        },
+        {
+          "rank": 32,
+          "team": {
+            "id": 173,
+            "name": "RB Leipzig",
+            "slug": "rb-leipzig",
+            "logo": "https://media.api-sports.io/football/teams/173.png"
+          },
+          "points": 3,
+          "played": 8,
+          "won": 1,
+          "drawn": 0,
+          "lost": 7,
+          "goals_for": 8,
+          "goals_against": 15,
+          "goal_diff": -7,
+          "form": "LWLLL",
+          "description": null
+        },
+        {
+          "rank": 33,
+          "team": {
+            "id": 547,
+            "name": "Girona",
+            "slug": "girona",
+            "logo": "https://media.api-sports.io/football/teams/547.png"
+          },
+          "points": 3,
+          "played": 8,
+          "won": 1,
+          "drawn": 0,
+          "lost": 7,
+          "goals_for": 5,
+          "goals_against": 13,
+          "goal_diff": -8,
+          "form": "LLLLL",
+          "description": null
+        },
+        {
+          "rank": 34,
+          "team": {
+            "id": 571,
+            "name": "Red Bull Salzburg",
+            "slug": "red-bull-salzburg",
+            "logo": "https://media.api-sports.io/football/teams/571.png"
+          },
+          "points": 3,
+          "played": 8,
+          "won": 1,
+          "drawn": 0,
+          "lost": 7,
+          "goals_for": 5,
+          "goals_against": 27,
+          "goal_diff": -22,
+          "form": "LLLLW",
+          "description": null
+        },
+        {
+          "rank": 35,
+          "team": {
+            "id": 656,
+            "name": "Slovan Bratislava",
+            "slug": "slovan-bratislava",
+            "logo": "https://media.api-sports.io/football/teams/656.png"
+          },
+          "points": 0,
+          "played": 8,
+          "won": 0,
+          "drawn": 0,
+          "lost": 8,
+          "goals_for": 7,
+          "goals_against": 27,
+          "goal_diff": -20,
+          "form": "LLLLL",
+          "description": null
+        },
+        {
+          "rank": 36,
+          "team": {
+            "id": 565,
+            "name": "BSC Young Boys",
+            "slug": "bsc-young-boys",
+            "logo": "https://media.api-sports.io/football/teams/565.png"
+          },
+          "points": 0,
+          "played": 8,
+          "won": 0,
+          "drawn": 0,
+          "lost": 8,
+          "goals_for": 3,
+          "goals_against": 24,
+          "goal_diff": -21,
+          "form": "LLLLL",
+          "description": null
+        }
+      ]
+    }
+  ]
+}

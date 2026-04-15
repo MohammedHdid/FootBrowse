@@ -1,0 +1,75 @@
+{
+  "id": 856,
+  "name": "S. Beccacece",
+  "photo": "https://media.api-sports.io/football/coachs/856.png",
+  "nationality": "Argentina",
+  "age": 45,
+  "team_id": 2382,
+  "team_slug": "ecuador",
+  "fetched_at": "2026-04-15T13:11:58.244Z",
+  "career": [
+    {
+      "team_id": 2382,
+      "team_name": "Ecuador",
+      "team_logo": "https://media.api-sports.io/football/teams/2382.png",
+      "start": "2024-08-01",
+      "end": null
+    },
+    {
+      "team_id": 2382,
+      "team_name": "Ecuador",
+      "team_logo": "https://media.api-sports.io/football/teams/2382.png",
+      "start": "2023-09-01",
+      "end": "2026-03-01"
+    },
+    {
+      "team_id": 797,
+      "team_name": "Elche",
+      "team_logo": "https://media.api-sports.io/football/teams/797.png",
+      "start": "2023-03-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 442,
+      "team_name": "Defensa y Justicia",
+      "team_logo": "https://media.api-sports.io/football/teams/442.png",
+      "start": "2021-02-01",
+      "end": "2022-09-01"
+    },
+    {
+      "team_id": 436,
+      "team_name": "Racing Club",
+      "team_logo": "https://media.api-sports.io/football/teams/436.png",
+      "start": "2019-12-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 453,
+      "team_name": "Independiente",
+      "team_logo": "https://media.api-sports.io/football/teams/453.png",
+      "start": "2019-05-01",
+      "end": "2019-10-01"
+    },
+    {
+      "team_id": 442,
+      "team_name": "Defensa y Justicia",
+      "team_logo": "https://media.api-sports.io/football/teams/442.png",
+      "start": "2018-07-01",
+      "end": "2019-05-01"
+    },
+    {
+      "team_id": 442,
+      "team_name": "Defensa y Justicia",
+      "team_logo": "https://media.api-sports.io/football/teams/442.png",
+      "start": "2016-11-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 2323,
+      "team_name": "Universidad de Chile",
+      "team_logo": "https://media.api-sports.io/football/teams/2323.png",
+      "start": "2016-01-01",
+      "end": "2016-09-01"
+    }
+  ]
+}

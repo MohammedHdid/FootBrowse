@@ -1,0 +1,192 @@
+{
+  "team_id": 276,
+  "team_slug": "breidablik",
+  "team_name": "Breidablik",
+  "fetched_at": "2026-04-15T08:14:54.737Z",
+  "players": [
+    {
+      "id": 28844,
+      "name": "A. Einarsson",
+      "age": 31,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/28844.png"
+    },
+    {
+      "id": 436968,
+      "name": "J. Solvi Simonarson",
+      "age": 18,
+      "number": 55,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/436968.png"
+    },
+    {
+      "id": 495835,
+      "name": "Gylfi Berg SnÃ¦hólm",
+      "age": 17,
+      "number": 12,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/495835.png"
+    },
+    {
+      "id": 28726,
+      "name": "H. Gunnlaugsson",
+      "age": 31,
+      "number": 7,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/28726.png"
+    },
+    {
+      "id": 28727,
+      "name": "D. Ingvarsson",
+      "age": 26,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/28727.png"
+    },
+    {
+      "id": 61631,
+      "name": "A. Jónsson",
+      "age": 23,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/61631.png"
+    },
+    {
+      "id": 28673,
+      "name": "K. Jónsson",
+      "age": 35,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/28673.png"
+    },
+    {
+      "id": 28730,
+      "name": "V. Margeirsson",
+      "age": 31,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/28730.png"
+    },
+    {
+      "id": 28842,
+      "name": "Ó. Ómarsson",
+      "age": 22,
+      "number": 9,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/28842.png"
+    },
+    {
+      "id": 416097,
+      "name": "Á. Orrason",
+      "age": 20,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/416097.png"
+    },
+    {
+      "id": 517249,
+      "name": "B. Ágústsson",
+      "age": 18,
+      "number": 39,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/517249.png"
+    },
+    {
+      "id": 522427,
+      "name": "K. Björgvinsson",
+      "age": 17,
+      "number": 32,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/522427.png"
+    },
+    {
+      "id": 28725,
+      "name": "V. Einarsson",
+      "age": 28,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/28725.png"
+    },
+    {
+      "id": 495840,
+      "name": "G. Gunnleifsson",
+      "age": 17,
+      "number": 31,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/495840.png"
+    },
+    {
+      "id": 434710,
+      "name": "G. Snaer",
+      "age": 18,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/434710.png"
+    },
+    {
+      "id": 147911,
+      "name": "A. Lúðvíksson",
+      "age": 22,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/147911.png"
+    },
+    {
+      "id": 28755,
+      "name": "K. Steindórsson",
+      "age": 35,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/28755.png"
+    },
+    {
+      "id": 321803,
+      "name": "Á. Þorsteinsson",
+      "age": 20,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/321803.png"
+    },
+    {
+      "id": 28884,
+      "name": "V. Valgeirsson",
+      "age": 23,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/28884.png"
+    },
+    {
+      "id": 28734,
+      "name": "A. Yeoman",
+      "age": 33,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/28734.png"
+    },
+    {
+      "id": 440099,
+      "name": "J. Arnarsson",
+      "age": 18,
+      "number": 22,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/440099.png"
+    },
+    {
+      "id": 28735,
+      "name": "A. Bjarnason",
+      "age": 30,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/28735.png"
+    },
+    {
+      "id": 36796,
+      "name": "K. Kristinsson",
+      "age": 26,
+      "number": 23,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/36796.png"
+    }
+  ]
+}

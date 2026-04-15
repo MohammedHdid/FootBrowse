@@ -1,0 +1,61 @@
+{
+  "id": 1522,
+  "name": "J. Thorup",
+  "photo": "https://media.api-sports.io/football/coachs/1522.png",
+  "nationality": "Denmark",
+  "age": 55,
+  "team_id": 170,
+  "team_slug": "fc-augsburg",
+  "fetched_at": "2026-04-14T22:31:10.111Z",
+  "career": [
+    {
+      "team_id": 170,
+      "team_name": "Augsburg",
+      "team_logo": "https://media.api-sports.io/football/teams/170.png",
+      "start": "2023-10-01",
+      "end": null
+    },
+    {
+      "team_id": 400,
+      "team_name": "FC Copenhagen",
+      "team_logo": "https://media.api-sports.io/football/teams/400.png",
+      "start": "2020-11-01",
+      "end": "2022-09-01"
+    },
+    {
+      "team_id": 742,
+      "team_name": "Genk",
+      "team_logo": "https://media.api-sports.io/football/teams/742.png",
+      "start": "2020-09-01",
+      "end": "2020-11-01"
+    },
+    {
+      "team_id": 631,
+      "team_name": "Gent",
+      "team_logo": "https://media.api-sports.io/football/teams/631.png",
+      "start": "2018-10-01",
+      "end": "2020-08-01"
+    },
+    {
+      "team_id": 397,
+      "team_name": "Midtjylland",
+      "team_logo": "https://media.api-sports.io/football/teams/397.png",
+      "start": "2015-07-01",
+      "end": "2018-10-01"
+    },
+    {
+      "team_id": 8189,
+      "team_name": "Denmark U21",
+      "team_logo": "https://media.api-sports.io/football/teams/8189.png",
+      "start": "2013-02-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 403,
+      "team_name": "Esbjerg",
+      "team_logo": "https://media.api-sports.io/football/teams/403.png",
+      "start": "2011-04-01",
+      "end": "2013-05-01"
+    }
+  ]
+}

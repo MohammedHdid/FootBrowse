@@ -1,0 +1,40 @@
+{
+  "id": 17594,
+  "name": "Riera",
+  "photo": "https://media.api-sports.io/football/coachs/17594.png",
+  "nationality": "Spain",
+  "age": 43,
+  "team_id": 4360,
+  "team_slug": "celje",
+  "fetched_at": "2026-04-14T22:43:22.988Z",
+  "career": [
+    {
+      "team_id": 4360,
+      "team_name": "Celje",
+      "team_logo": "https://media.api-sports.io/football/teams/4360.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 78,
+      "team_name": "Bordeaux",
+      "team_logo": "https://media.api-sports.io/football/teams/78.png",
+      "start": "2023-10-01",
+      "end": "2024-07-01"
+    },
+    {
+      "team_id": 4360,
+      "team_name": "Celje",
+      "team_logo": "https://media.api-sports.io/football/teams/4360.png",
+      "start": "2023-07-01",
+      "end": "2023-10-01"
+    },
+    {
+      "team_id": 677,
+      "team_name": "Olimpija",
+      "team_logo": "https://media.api-sports.io/football/teams/677.png",
+      "start": "2022-07-01",
+      "end": "2023-05-01"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "team_id": 571,
+  "team_slug": "red-bull-salzburg",
+  "team_name": "Red Bull Salzburg",
+  "fetched_at": "2026-04-15T08:23:07.436Z",
+  "players": [
+    {
+      "id": 354305,
+      "name": "S. Hamzić",
+      "age": 19,
+      "number": 92,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/354305.png"
+    },
+    {
+      "id": 428304,
+      "name": "Nikola Šarčević",
+      "age": 19,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/428304.png"
+    },
+    {
+      "id": 7525,
+      "name": "A. Schlager",
+      "age": 29,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/7525.png"
+    },
+    {
+      "id": 445566,
+      "name": "Christian Zawieschitzky",
+      "age": 18,
+      "number": 41,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/445566.png"
+    },
+    {
+      "id": 361981,
+      "name": "A. Chase",
+      "age": 21,
+      "number": 91,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/361981.png"
+    },
+    {
+      "id": 327635,
+      "name": "Douglas Mendes",
+      "age": 21,
+      "number": 39,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/327635.png"
+    },
+    {
+      "id": 327861,
+      "name": "T. Drexler",
+      "age": 20,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/327861.png"
+    },
+    {
+      "id": 409215,
+      "name": "Kouakou Joane Gadou",
+      "age": 18,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/409215.png"
+    },
+    {
+      "id": 280335,
+      "name": "F. Krätzig",
+      "age": 22,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/280335.png"
+    },
+    {
+      "id": 1082,
+      "name": "S. Lainer",
+      "age": 33,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1082.png"
+    },
+    {
+      "id": 349,
+      "name": "A. Terzić",
+      "age": 26,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/349.png"
+    },
+    {
+      "id": 162189,
+      "name": "M. Bidstrup",
+      "age": 24,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/162189.png"
+    },
+    {
+      "id": 441958,
+      "name": "Clement Bischoff",
+      "age": 20,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/441958.png"
+    },
+    {
+      "id": 403326,
+      "name": "S. Diabaté",
+      "age": 21,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/403326.png"
+    },
+    {
+      "id": 302915,
+      "name": "M. Diambou",
+      "age": 23,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/302915.png"
+    },
+    {
+      "id": 288073,
+      "name": "S. Kitano",
+      "age": 21,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/288073.png"
+    },
+    {
+      "id": 115587,
+      "name": "M. Kjærgaard",
+      "age": 22,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/115587.png"
+    },
+    {
+      "id": 394682,
+      "name": "O. Lukic",
+      "age": 19,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/394682.png"
+    },
+    {
+      "id": 441271,
+      "name": "Jannik Schuster",
+      "age": 19,
+      "number": 44,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/441271.png"
+    },
+    {
+      "id": 364320,
+      "name": "V. Sulzbacher",
+      "age": 20,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/364320.png"
+    },
+    {
+      "id": 386296,
+      "name": "T. Trummer",
+      "age": 20,
+      "number": 37,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/386296.png"
+    },
+    {
+      "id": 381810,
+      "name": "M. Yeo",
+      "age": 21,
+      "number": 49,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/381810.png"
+    },
+    {
+      "id": 444468,
+      "name": "E. Aguilar",
+      "age": 18,
+      "number": 43,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/444468.png"
+    },
+    {
+      "id": 395559,
+      "name": "Kerim-Sam Alajbegović",
+      "age": 18,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/395559.png"
+    },
+    {
+      "id": 464055,
+      "name": "E. Baidoo",
+      "age": 19,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/464055.png"
+    },
+    {
+      "id": 331865,
+      "name": "K. Konaté",
+      "age": 21,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/331865.png"
+    },
+    {
+      "id": 25928,
+      "name": "K. Onisiwo",
+      "age": 33,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/25928.png"
+    },
+    {
+      "id": 286784,
+      "name": "D. Redzic",
+      "age": 22,
+      "number": 24,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/286784.png"
+    },
+    {
+      "id": 129072,
+      "name": "Y. Vertessen",
+      "age": 24,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/129072.png"
+    }
+  ]
+}

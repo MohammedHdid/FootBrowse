@@ -1,0 +1,40 @@
+{
+  "id": 9286,
+  "name": "V. Kahraman",
+  "photo": "https://media.api-sports.io/football/coachs/9286.png",
+  "nationality": "Austria",
+  "age": 39,
+  "team_id": 556,
+  "team_slug": "qarabag",
+  "fetched_at": "2026-04-15T08:22:49.885Z",
+  "career": [
+    {
+      "team_id": 556,
+      "team_name": "Karabakh",
+      "team_logo": "https://media.api-sports.io/football/teams/556.png",
+      "start": "2016-07-01",
+      "end": "2018-03-13"
+    },
+    {
+      "team_id": 4953,
+      "team_name": "Mauerwerk",
+      "team_logo": "https://media.api-sports.io/football/teams/4953.png",
+      "start": "2016-07-01",
+      "end": "2018-03-01"
+    },
+    {
+      "team_id": 11229,
+      "team_name": "Simmeringer SC",
+      "team_logo": "https://media.api-sports.io/football/teams/11229.png",
+      "start": "2013-04-21",
+      "end": "2013-08-24"
+    },
+    {
+      "team_id": 11229,
+      "team_name": "Simmeringer SC",
+      "team_logo": "https://media.api-sports.io/football/teams/11229.png",
+      "start": "2011-10-11",
+      "end": "2011-11-30"
+    }
+  ]
+}

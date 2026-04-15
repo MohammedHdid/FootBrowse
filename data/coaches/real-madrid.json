@@ -1,0 +1,33 @@
+{
+  "id": 1584,
+  "name": "Z. Zidane",
+  "photo": "https://media.api-sports.io/football/coachs/1584.png",
+  "nationality": "France",
+  "age": 53,
+  "team_id": 541,
+  "team_slug": "real-madrid",
+  "fetched_at": "2026-04-14T22:36:22.434Z",
+  "career": [
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "2019-03-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "2016-01-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 9575,
+      "team_name": "Real Madrid II",
+      "team_logo": "https://media.api-sports.io/football/teams/9575.png",
+      "start": "2015-07-01",
+      "end": "2016-01-01"
+    }
+  ]
+}

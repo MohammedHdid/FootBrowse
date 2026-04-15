@@ -1,0 +1,47 @@
+{
+  "id": 5330,
+  "name": "A. Blessin",
+  "photo": "https://media.api-sports.io/football/coachs/5330.png",
+  "nationality": "Germany",
+  "age": 52,
+  "team_id": 186,
+  "team_slug": "fc-st-pauli",
+  "fetched_at": "2026-04-14T22:31:22.096Z",
+  "career": [
+    {
+      "team_id": 186,
+      "team_name": "St. Pauli",
+      "team_logo": "https://media.api-sports.io/football/teams/186.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 1393,
+      "team_name": "Union Saint-Gilloise",
+      "team_logo": "https://media.api-sports.io/football/teams/1393.png",
+      "start": "2023-07-01",
+      "end": "2024-07-01"
+    },
+    {
+      "team_id": 495,
+      "team_name": "Genoa",
+      "team_logo": "https://media.api-sports.io/football/teams/495.png",
+      "start": "2022-01-01",
+      "end": "2022-12-01"
+    },
+    {
+      "team_id": 624,
+      "team_name": "KV Oostende",
+      "team_logo": "https://media.api-sports.io/football/teams/624.png",
+      "start": "2020-07-01",
+      "end": "2022-01-01"
+    },
+    {
+      "team_id": 7924,
+      "team_name": "RB Leipzig U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7924.png",
+      "start": "2018-07-01",
+      "end": "2020-06-01"
+    }
+  ]
+}

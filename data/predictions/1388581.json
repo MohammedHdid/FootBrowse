@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388581,
+  "fetched_at": "2026-04-15T21:01:45.722Z",
+  "advice": "No predictions available",
+  "winner_id": null,
+  "winner_name": null,
+  "winner_comment": null,
+  "percent": {
+    "home": "33%",
+    "draw": "33%",
+    "away": "33%"
+  },
+  "under_over": null,
+  "goals_home": null,
+  "goals_away": null,
+  "comparison": {
+    "form": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "att": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "def": {
+      "home": "55%",
+      "away": "45%"
+    },
+    "poisson_distribution": {
+      "home": "47%",
+      "away": "53%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "47%",
+      "away": "53%"
+    },
+    "total": {
+      "home": "48.7%",
+      "away": "51.3%"
+    }
+  }
+}

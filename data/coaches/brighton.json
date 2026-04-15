@@ -1,0 +1,33 @@
+{
+  "id": 19253,
+  "name": "F. Hürzeler",
+  "photo": "https://media.api-sports.io/football/coachs/19253.png",
+  "nationality": "Germany",
+  "age": 32,
+  "team_id": 51,
+  "team_slug": "brighton",
+  "fetched_at": "2026-04-14T22:38:22.534Z",
+  "career": [
+    {
+      "team_id": 51,
+      "team_name": "Brighton & Hove Albion",
+      "team_logo": "https://media.api-sports.io/football/teams/51.png",
+      "start": "2024-06-01",
+      "end": null
+    },
+    {
+      "team_id": 186,
+      "team_name": "St. Pauli",
+      "team_logo": "https://media.api-sports.io/football/teams/186.png",
+      "start": "2022-12-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 12832,
+      "team_name": "Pipinsried",
+      "team_logo": "https://media.api-sports.io/football/teams/12832.png",
+      "start": "2016-07-01",
+      "end": "2020-07-01"
+    }
+  ]
+}

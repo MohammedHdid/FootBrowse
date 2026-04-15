@@ -1,0 +1,82 @@
+{
+  "id": 1336,
+  "name": "D. Hecking",
+  "photo": "https://media.api-sports.io/football/coachs/1336.png",
+  "nationality": "Germany",
+  "age": 61,
+  "team_id": 176,
+  "team_slug": "vfl-bochum",
+  "fetched_at": "2026-04-14T22:32:58.183Z",
+  "career": [
+    {
+      "team_id": 176,
+      "team_name": "Bochum",
+      "team_logo": "https://media.api-sports.io/football/teams/176.png",
+      "start": "2024-11-01",
+      "end": null
+    },
+    {
+      "team_id": 171,
+      "team_name": "Nürnberg",
+      "team_logo": "https://media.api-sports.io/football/teams/171.png",
+      "start": "2023-02-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 175,
+      "team_name": "Hamburg",
+      "team_logo": "https://media.api-sports.io/football/teams/175.png",
+      "start": "2019-05-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia M'gladbach",
+      "team_logo": "https://media.api-sports.io/football/teams/163.png",
+      "start": "2016-12-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 161,
+      "team_name": "Wolfsburg",
+      "team_logo": "https://media.api-sports.io/football/teams/161.png",
+      "start": "2012-12-01",
+      "end": "2016-10-01"
+    },
+    {
+      "team_id": 171,
+      "team_name": "Nürnberg",
+      "team_logo": "https://media.api-sports.io/football/teams/171.png",
+      "start": "2009-12-01",
+      "end": "2012-12-01"
+    },
+    {
+      "team_id": 166,
+      "team_name": "Hannover 96",
+      "team_logo": "https://media.api-sports.io/football/teams/166.png",
+      "start": "2006-09-01",
+      "end": "2009-08-01"
+    },
+    {
+      "team_id": 4259,
+      "team_name": "Alemannia Aachen",
+      "team_logo": "https://media.api-sports.io/football/teams/4259.png",
+      "start": "2004-07-01",
+      "end": "2006-09-01"
+    },
+    {
+      "team_id": 1625,
+      "team_name": "Lübeck",
+      "team_logo": "https://media.api-sports.io/football/teams/1625.png",
+      "start": "2001-03-01",
+      "end": "2004-06-01"
+    },
+    {
+      "team_id": 4265,
+      "team_name": "Verl",
+      "team_logo": "https://media.api-sports.io/football/teams/4265.png",
+      "start": "2000-07-01",
+      "end": "2001-01-01"
+    }
+  ]
+}

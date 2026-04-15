@@ -1,0 +1,33 @@
+{
+  "id": 587,
+  "name": "F. Ljungberg",
+  "photo": "https://media.api-sports.io/football/coachs/587.png",
+  "nationality": "Sweden",
+  "age": 48,
+  "team_id": 42,
+  "team_slug": "arsenal",
+  "fetched_at": "2026-04-14T22:37:34.480Z",
+  "career": [
+    {
+      "team_id": 42,
+      "team_name": "Arsenal",
+      "team_logo": "https://media.api-sports.io/football/teams/42.png",
+      "start": "2019-11-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 15631,
+      "team_name": "Arsenal U23",
+      "team_logo": "https://media.api-sports.io/football/teams/15631.png",
+      "start": "2019-01-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 7189,
+      "team_name": "Arsenal U21",
+      "team_logo": "https://media.api-sports.io/football/teams/7189.png",
+      "start": "2018-09-01",
+      "end": "2020-10-01"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": 57,
+  "name": "R. Schmidt",
+  "photo": "https://media.api-sports.io/football/coachs/57.png",
+  "nationality": "Germany",
+  "age": 58,
+  "team_id": 211,
+  "team_slug": "benfica",
+  "fetched_at": "2026-04-14T22:42:22.829Z",
+  "career": [
+    {
+      "team_id": 211,
+      "team_name": "Benfica",
+      "team_logo": "https://media.api-sports.io/football/teams/211.png",
+      "start": "2022-07-01",
+      "end": "2024-08-01"
+    },
+    {
+      "team_id": 197,
+      "team_name": "PSV",
+      "team_logo": "https://media.api-sports.io/football/teams/197.png",
+      "start": "2020-07-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 830,
+      "team_name": "Beijing Guoan",
+      "team_logo": "https://media.api-sports.io/football/teams/830.png",
+      "start": "2017-07-01",
+      "end": "2019-07-01"
+    },
+    {
+      "team_id": 168,
+      "team_name": "Bayer Leverkusen",
+      "team_logo": "https://media.api-sports.io/football/teams/168.png",
+      "start": "2014-07-01",
+      "end": "2017-03-01"
+    },
+    {
+      "team_id": 571,
+      "team_name": "Salzburg",
+      "team_logo": "https://media.api-sports.io/football/teams/571.png",
+      "start": "2012-06-01",
+      "end": "2014-06-01"
+    },
+    {
+      "team_id": 185,
+      "team_name": "Paderborn",
+      "team_logo": "https://media.api-sports.io/football/teams/185.png",
+      "start": "2011-07-01",
+      "end": "2012-06-01"
+    }
+  ]
+}

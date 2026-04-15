@@ -1,0 +1,75 @@
+{
+  "id": 53,
+  "name": "F. Cannavaro",
+  "photo": "https://media.api-sports.io/football/coachs/53.png",
+  "nationality": "Italy",
+  "age": 52,
+  "team_id": 1568,
+  "team_slug": "uzbekistan",
+  "fetched_at": "2026-04-15T13:11:30.646Z",
+  "career": [
+    {
+      "team_id": 1568,
+      "team_name": "Uzbekistan",
+      "team_logo": "https://media.api-sports.io/football/teams/1568.png",
+      "start": "2026-01-01",
+      "end": null
+    },
+    {
+      "team_id": 620,
+      "team_name": "Dinamo Zagreb",
+      "team_logo": "https://media.api-sports.io/football/teams/620.png",
+      "start": "2025-01-01",
+      "end": "2025-04-01"
+    },
+    {
+      "team_id": 494,
+      "team_name": "Udinese",
+      "team_logo": "https://media.api-sports.io/football/teams/494.png",
+      "start": "2024-04-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 506,
+      "team_name": "Benevento",
+      "team_logo": "https://media.api-sports.io/football/teams/506.png",
+      "start": "2022-09-01",
+      "end": "2023-02-01"
+    },
+    {
+      "team_id": 1566,
+      "team_name": "China PR",
+      "team_logo": "https://media.api-sports.io/football/teams/1566.png",
+      "start": "2019-03-01",
+      "end": "2019-04-01"
+    },
+    {
+      "team_id": 832,
+      "team_name": "Guangzhou",
+      "team_logo": "https://media.api-sports.io/football/teams/832.png",
+      "start": "2017-11-01",
+      "end": "2021-12-01"
+    },
+    {
+      "team_id": 843,
+      "team_name": "Tianjin Tianhai",
+      "team_logo": "https://media.api-sports.io/football/teams/843.png",
+      "start": "2017-01-01",
+      "end": "2017-11-01"
+    },
+    {
+      "team_id": 2939,
+      "team_name": "Al Nassr",
+      "team_logo": "https://media.api-sports.io/football/teams/2939.png",
+      "start": "2015-10-01",
+      "end": "2016-02-01"
+    },
+    {
+      "team_id": 832,
+      "team_name": "Guangzhou",
+      "team_logo": "https://media.api-sports.io/football/teams/832.png",
+      "start": "2014-11-01",
+      "end": "2015-06-01"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 9204,
+  "name": "A. Kerzhakov",
+  "photo": "https://media.api-sports.io/football/coachs/9204.png",
+  "nationality": "Russia",
+  "age": 43,
+  "team_id": 664,
+  "team_slug": "kairat-almaty",
+  "fetched_at": "2026-04-15T08:18:49.221Z",
+  "career": [
+    {
+      "team_id": 664,
+      "team_name": "Kairat",
+      "team_logo": "https://media.api-sports.io/football/teams/664.png",
+      "start": "2024-05-01",
+      "end": "2024-09-01"
+    },
+    {
+      "team_id": 2251,
+      "team_name": "Spartak Subotica",
+      "team_logo": "https://media.api-sports.io/football/teams/2251.png",
+      "start": "2023-06-01",
+      "end": "2023-11-01"
+    },
+    {
+      "team_id": 3413,
+      "team_name": "Karmiotissa",
+      "team_logo": "https://media.api-sports.io/football/teams/3413.png",
+      "start": "2023-02-01",
+      "end": "2023-04-01"
+    },
+    {
+      "team_id": 2011,
+      "team_name": "Nizhny Novgorod",
+      "team_logo": "https://media.api-sports.io/football/teams/2011.png",
+      "start": "2021-06-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 1081,
+      "team_name": "Tom Tomsk",
+      "team_logo": "https://media.api-sports.io/football/teams/1081.png",
+      "start": "2020-09-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 10344,
+      "team_name": "Russia U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10344.png",
+      "start": "2019-07-01",
+      "end": "2020-09-01"
+    },
+    {
+      "team_id": 25280,
+      "team_name": "Russia U18",
+      "team_logo": "https://media.api-sports.io/football/teams/25280.png",
+      "start": "2018-09-01",
+      "end": "2019-06-01"
+    }
+  ]
+}

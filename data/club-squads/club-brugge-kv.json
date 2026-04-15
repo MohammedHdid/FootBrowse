@@ -1,0 +1,256 @@
+{
+  "team_id": 569,
+  "team_slug": "club-brugge-kv",
+  "team_name": "Club Brugge KV",
+  "fetched_at": "2026-04-14T22:43:41.020Z",
+  "players": [
+    {
+      "id": 395891,
+      "name": "A. De Corte",
+      "age": 19,
+      "number": 71,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/395891.png"
+    },
+    {
+      "id": 1923,
+      "name": "N. Jackers",
+      "age": 28,
+      "number": 29,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/1923.png"
+    },
+    {
+      "id": 282,
+      "name": "S. Mignolet",
+      "age": 37,
+      "number": 22,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/282.png"
+    },
+    {
+      "id": 551320,
+      "name": "S. Ostoici",
+      "age": 16,
+      "number": 61,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/551320.png"
+    },
+    {
+      "id": 426668,
+      "name": "Argus Vanden Driessche",
+      "age": 18,
+      "number": 81,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/426668.png"
+    },
+    {
+      "id": 282903,
+      "name": "D. van den Heuvel",
+      "age": 22,
+      "number": 16,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/282903.png"
+    },
+    {
+      "id": 439579,
+      "name": "S. Gomez van Hoogen",
+      "age": 19,
+      "number": 82,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/439579.png"
+    },
+    {
+      "id": 69,
+      "name": "B. Mechele",
+      "age": 32,
+      "number": 44,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/69.png"
+    },
+    {
+      "id": 314265,
+      "name": "B. Meijer",
+      "age": 22,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/314265.png"
+    },
+    {
+      "id": 354027,
+      "name": "J. Ordoñez",
+      "age": 21,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/354027.png"
+    },
+    {
+      "id": 474741,
+      "name": "V. Osuji",
+      "age": 19,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/474741.png"
+    },
+    {
+      "id": 301322,
+      "name": "K. Sabbe",
+      "age": 20,
+      "number": 64,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/301322.png"
+    },
+    {
+      "id": 375974,
+      "name": "J. Seys",
+      "age": 20,
+      "number": 65,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/375974.png"
+    },
+    {
+      "id": 290213,
+      "name": "H. Siquet",
+      "age": 23,
+      "number": 41,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/290213.png"
+    },
+    {
+      "id": 304984,
+      "name": "J. Spileers",
+      "age": 20,
+      "number": 58,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/304984.png"
+    },
+    {
+      "id": 271609,
+      "name": "L. Audoor",
+      "age": 22,
+      "number": 62,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/271609.png"
+    },
+    {
+      "id": 362047,
+      "name": "Alejandro Granados",
+      "age": 19,
+      "number": 70,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/362047.png"
+    },
+    {
+      "id": 325594,
+      "name": "F. Lemaréchal",
+      "age": 22,
+      "number": 80,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/325594.png"
+    },
+    {
+      "id": 162219,
+      "name": "R. Onyedika",
+      "age": 24,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/162219.png"
+    },
+    {
+      "id": 38124,
+      "name": "L. Reis",
+      "age": 25,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/38124.png"
+    },
+    {
+      "id": 162211,
+      "name": "C. Sandra",
+      "age": 22,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/162211.png"
+    },
+    {
+      "id": 342230,
+      "name": "A. Stanković",
+      "age": 20,
+      "number": 25,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/342230.png"
+    },
+    {
+      "id": 78,
+      "name": "H. Vanaken",
+      "age": 33,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/78.png"
+    },
+    {
+      "id": 39291,
+      "name": "H. Vetlesen",
+      "age": 25,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/39291.png"
+    },
+    {
+      "id": 430077,
+      "name": "S. Campbell",
+      "age": 20,
+      "number": 84,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/430077.png"
+    },
+    {
+      "id": 386481,
+      "name": "M. Diakhon",
+      "age": 20,
+      "number": 67,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/386481.png"
+    },
+    {
+      "id": 282126,
+      "name": "Carlos Forbs",
+      "age": 21,
+      "number": 9,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/282126.png"
+    },
+    {
+      "id": 15683,
+      "name": "G. Nilsson",
+      "age": 28,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/15683.png"
+    },
+    {
+      "id": 287923,
+      "name": "N. Tresoldi",
+      "age": 21,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/287923.png"
+    },
+    {
+      "id": 161800,
+      "name": "C. Tzolis",
+      "age": 23,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/161800.png"
+    },
+    {
+      "id": 271276,
+      "name": "R. Vermant",
+      "age": 21,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/271276.png"
+    }
+  ]
+}

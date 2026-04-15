@@ -1,0 +1,193 @@
+{
+  "fixture_id": 1286248,
+  "fetched_at": "2026-04-14T21:37:04.867Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 14,
+      "extra": null,
+      "team_id": 556,
+      "player": "Kevin Medina",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 18,
+      "extra": null,
+      "team_id": 620,
+      "player": "Samy Mmaee",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 30,
+      "extra": null,
+      "team_id": 620,
+      "player": "Takuya Ogiwara",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 32,
+      "extra": null,
+      "team_id": 620,
+      "player": "M. Pjaca",
+      "assist": "P. Sučić",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 620,
+      "player": "T. Ogiwara",
+      "assist": "M. Bernauer",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 53,
+      "extra": null,
+      "team_id": 620,
+      "player": "Matheus Silva",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Own Goal"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 620,
+      "player": "M. Baturina",
+      "assist": "M. Rog",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 620,
+      "player": "B. Petković",
+      "assist": "J. Córdoba",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 556,
+      "player": "Patrick Andrade",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 556,
+      "player": "Juninho",
+      "assist": "N. Axundzadə",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 556,
+      "player": "Leandro Andrade",
+      "assist": "T. Bayramov",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 556,
+      "player": "Patrick Andrade",
+      "assist": "A. Isaev",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 556,
+      "player": "Matheus Silva",
+      "assist": "A. Hüseynov",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 620,
+      "player": "M. Pjaca",
+      "assist": "D. Špikić",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 620,
+      "player": "R. Pierre-Gabriel",
+      "assist": "A. Hoxha",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 556,
+      "player": "Kevin Medina",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 556,
+      "player": "Kevin Medina",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 556,
+      "player": "A. Zoubir",
+      "assist": "H. Keyta",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 556,
+    "possession": 58,
+    "shots_on": 4,
+    "shots_total": 17,
+    "corners": 5,
+    "fouls": 11,
+    "yellow_cards": 3,
+    "red_cards": 1
+  },
+  "away_stats": {
+    "team_id": 620,
+    "possession": 42,
+    "shots_on": 2,
+    "shots_total": 8,
+    "corners": 5,
+    "fouls": 13,
+    "yellow_cards": 2,
+    "red_cards": 0
+  }
+}

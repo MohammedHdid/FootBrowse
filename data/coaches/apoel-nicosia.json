@@ -1,0 +1,61 @@
+{
+  "id": 1593,
+  "name": "David Gallego",
+  "photo": "https://media.api-sports.io/football/coachs/1593.png",
+  "nationality": "Spain",
+  "age": 53,
+  "team_id": 2247,
+  "team_slug": "apoel-nicosia",
+  "fetched_at": "2026-04-14T22:41:46.767Z",
+  "career": [
+    {
+      "team_id": 2247,
+      "team_name": "APOEL",
+      "team_logo": "https://media.api-sports.io/football/teams/2247.png",
+      "start": "2024-06-01",
+      "end": "2024-08-01"
+    },
+    {
+      "team_id": 2269,
+      "team_name": "Anorthosis",
+      "team_logo": "https://media.api-sports.io/football/teams/2269.png",
+      "start": "2023-07-01",
+      "end": "2024-03-01"
+    },
+    {
+      "team_id": 4907,
+      "team_name": "Ponferradina",
+      "team_logo": "https://media.api-sports.io/football/teams/4907.png",
+      "start": "2022-11-01",
+      "end": "2023-04-01"
+    },
+    {
+      "team_id": 731,
+      "team_name": "Sporting Gijon",
+      "team_logo": "https://media.api-sports.io/football/teams/731.png",
+      "start": "2020-09-01",
+      "end": "2022-02-01"
+    },
+    {
+      "team_id": 540,
+      "team_name": "Espanyol",
+      "team_logo": "https://media.api-sports.io/football/teams/540.png",
+      "start": "2019-06-01",
+      "end": "2019-10-01"
+    },
+    {
+      "team_id": 540,
+      "team_name": "Espanyol",
+      "team_logo": "https://media.api-sports.io/football/teams/540.png",
+      "start": "2018-04-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 9590,
+      "team_name": "Espanyol II",
+      "team_logo": "https://media.api-sports.io/football/teams/9590.png",
+      "start": "2016-06-01",
+      "end": "2019-06-01"
+    }
+  ]
+}

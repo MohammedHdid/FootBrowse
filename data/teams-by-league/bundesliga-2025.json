@@ -1,0 +1,308 @@
+[
+  {
+    "id": 180,
+    "name": "1. FC Heidenheim",
+    "slug": "1-fc-heidenheim",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/180.png",
+    "country": "Germany",
+    "founded": 1946,
+    "national": false,
+    "venue": {
+      "id": 723,
+      "name": "Voith-Arena",
+      "city": "Heidenheim an der Brenz",
+      "capacity": 15000,
+      "image": "https://media.api-sports.io/football/venues/723.png"
+    }
+  },
+  {
+    "id": 192,
+    "name": "1. FC Köln",
+    "slug": "1-fc-koln",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/192.png",
+    "country": "Germany",
+    "founded": 1948,
+    "national": false,
+    "venue": {
+      "id": 20736,
+      "name": "Cologne Stadium",
+      "city": "Köln",
+      "capacity": 50076,
+      "image": "https://media.api-sports.io/football/venues/20736.png"
+    }
+  },
+  {
+    "id": 167,
+    "name": "1899 Hoffenheim",
+    "slug": "1899-hoffenheim",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/167.png",
+    "country": "Germany",
+    "founded": 1899,
+    "national": false,
+    "venue": {
+      "id": 724,
+      "name": "PreZero Arena",
+      "city": "Sinsheim",
+      "capacity": 30164,
+      "image": "https://media.api-sports.io/football/venues/724.png"
+    }
+  },
+  {
+    "id": 168,
+    "name": "Bayer Leverkusen",
+    "slug": "bayer-leverkusen",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/168.png",
+    "country": "Germany",
+    "founded": 1904,
+    "national": false,
+    "venue": {
+      "id": 699,
+      "name": "BayArena",
+      "city": "Leverkusen",
+      "capacity": 30210,
+      "image": "https://media.api-sports.io/football/venues/699.png"
+    }
+  },
+  {
+    "id": 157,
+    "name": "Bayern München",
+    "slug": "bayern-munchen",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/157.png",
+    "country": "Germany",
+    "founded": 1900,
+    "national": false,
+    "venue": {
+      "id": 20732,
+      "name": "Fußball Arena München",
+      "city": "München",
+      "capacity": 75024,
+      "image": "https://media.api-sports.io/football/venues/20732.png"
+    }
+  },
+  {
+    "id": 165,
+    "name": "Borussia Dortmund",
+    "slug": "borussia-dortmund",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/165.png",
+    "country": "Germany",
+    "founded": 1909,
+    "national": false,
+    "venue": {
+      "id": 20733,
+      "name": "BVB Stadion Dortmund",
+      "city": "Dortmund",
+      "capacity": 81365,
+      "image": "https://media.api-sports.io/football/venues/20733.png"
+    }
+  },
+  {
+    "id": 163,
+    "name": "Borussia Mönchengladbach",
+    "slug": "borussia-monchengladbach",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/163.png",
+    "country": "Germany",
+    "founded": 1900,
+    "national": false,
+    "venue": {
+      "id": 20471,
+      "name": "BORUSSIA-PARK",
+      "city": "Mönchengladbach",
+      "capacity": 54057,
+      "image": "https://media.api-sports.io/football/venues/20471.png"
+    }
+  },
+  {
+    "id": 169,
+    "name": "Eintracht Frankfurt",
+    "slug": "eintracht-frankfurt",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/169.png",
+    "country": "Germany",
+    "founded": 1899,
+    "national": false,
+    "venue": {
+      "id": 20734,
+      "name": "Frankfurt Arena",
+      "city": "Frankfurt am Main",
+      "capacity": 58000,
+      "image": "https://media.api-sports.io/football/venues/20734.png"
+    }
+  },
+  {
+    "id": 170,
+    "name": "FC Augsburg",
+    "slug": "fc-augsburg",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/170.png",
+    "country": "Germany",
+    "founded": 1907,
+    "national": false,
+    "venue": {
+      "id": 698,
+      "name": "WWK Arena",
+      "city": "Augsburg",
+      "capacity": 30662,
+      "image": "https://media.api-sports.io/football/venues/698.png"
+    }
+  },
+  {
+    "id": 186,
+    "name": "FC St. Pauli",
+    "slug": "fc-st-pauli",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/186.png",
+    "country": "Germany",
+    "founded": 1910,
+    "national": false,
+    "venue": {
+      "id": 745,
+      "name": "Millerntor-Stadion",
+      "city": "Hamburg",
+      "capacity": 29564,
+      "image": "https://media.api-sports.io/football/venues/745.png"
+    }
+  },
+  {
+    "id": 164,
+    "name": "FSV Mainz 05",
+    "slug": "fsv-mainz-05",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/164.png",
+    "country": "Germany",
+    "founded": 1905,
+    "national": false,
+    "venue": {
+      "id": 11899,
+      "name": "MEWA ARENA",
+      "city": "Mainz",
+      "capacity": 34034,
+      "image": "https://media.api-sports.io/football/venues/11899.png"
+    }
+  },
+  {
+    "id": 175,
+    "name": "Hamburger SV",
+    "slug": "hamburger-sv",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/175.png",
+    "country": "Germany",
+    "founded": 1887,
+    "national": false,
+    "venue": {
+      "id": 720,
+      "name": "Volksparkstadion",
+      "city": "Hamburg",
+      "capacity": 57030,
+      "image": "https://media.api-sports.io/football/venues/720.png"
+    }
+  },
+  {
+    "id": 173,
+    "name": "RB Leipzig",
+    "slug": "rb-leipzig",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/173.png",
+    "country": "Germany",
+    "founded": 2009,
+    "national": false,
+    "venue": {
+      "id": 20737,
+      "name": "Leipzig Stadium",
+      "city": "Leipzig",
+      "capacity": 47069,
+      "image": "https://media.api-sports.io/football/venues/20737.png"
+    }
+  },
+  {
+    "id": 160,
+    "name": "SC Freiburg",
+    "slug": "sc-freiburg",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/160.png",
+    "country": "Germany",
+    "founded": 1904,
+    "national": false,
+    "venue": {
+      "id": 12717,
+      "name": "Europa-Park Stadion",
+      "city": "Freiburg im Breisgau",
+      "capacity": 34700,
+      "image": "https://media.api-sports.io/football/venues/12717.png"
+    }
+  },
+  {
+    "id": 182,
+    "name": "Union Berlin",
+    "slug": "union-berlin",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/182.png",
+    "country": "Germany",
+    "founded": 1966,
+    "national": false,
+    "venue": {
+      "id": 748,
+      "name": "Stadion An der Alten Försterei",
+      "city": "Berlin",
+      "capacity": 22467,
+      "image": "https://media.api-sports.io/football/venues/748.png"
+    }
+  },
+  {
+    "id": 172,
+    "name": "VfB Stuttgart",
+    "slug": "vfb-stuttgart",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/172.png",
+    "country": "Germany",
+    "founded": 1893,
+    "national": false,
+    "venue": {
+      "id": 20739,
+      "name": "Stuttgart Arena",
+      "city": "Stuttgart",
+      "capacity": 60469,
+      "image": "https://media.api-sports.io/football/venues/20739.png"
+    }
+  },
+  {
+    "id": 161,
+    "name": "VfL Wolfsburg",
+    "slug": "vfl-wolfsburg",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/161.png",
+    "country": "Germany",
+    "founded": 1945,
+    "national": false,
+    "venue": {
+      "id": 752,
+      "name": "Volkswagen Arena",
+      "city": "Wolfsburg",
+      "capacity": 30000,
+      "image": "https://media.api-sports.io/football/venues/752.png"
+    }
+  },
+  {
+    "id": 162,
+    "name": "Werder Bremen",
+    "slug": "werder-bremen",
+    "existing_slug": null,
+    "logo": "https://media.api-sports.io/football/teams/162.png",
+    "country": "Germany",
+    "founded": 1899,
+    "national": false,
+    "venue": {
+      "id": 755,
+      "name": "wohninvest WESERSTADION",
+      "city": "Bremen",
+      "capacity": 42358,
+      "image": "https://media.api-sports.io/football/venues/755.png"
+    }
+  }
+]

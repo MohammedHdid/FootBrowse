@@ -1,0 +1,256 @@
+{
+  "team_id": 347,
+  "team_slug": "lech-poznan",
+  "team_name": "Lech Poznan",
+  "fetched_at": "2026-04-15T08:19:07.223Z",
+  "players": [
+    {
+      "id": 315880,
+      "name": "P. Andreev",
+      "age": 21,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/315880.png"
+    },
+    {
+      "id": 126896,
+      "name": "B. Mrozek",
+      "age": 25,
+      "number": 41,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/126896.png"
+    },
+    {
+      "id": 410640,
+      "name": "M. Pruchniewski",
+      "age": 18,
+      "number": 33,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/410640.png"
+    },
+    {
+      "id": 105170,
+      "name": "A. Douglas",
+      "age": 24,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/105170.png"
+    },
+    {
+      "id": 3001,
+      "name": "R. Gumny",
+      "age": 27,
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/3001.png"
+    },
+    {
+      "id": 394956,
+      "name": "M. Gurgul",
+      "age": 19,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/394956.png"
+    },
+    {
+      "id": 1414,
+      "name": "A. Milić",
+      "age": 31,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1414.png"
+    },
+    {
+      "id": 429408,
+      "name": "W. Mońka",
+      "age": 18,
+      "number": 27,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/429408.png"
+    },
+    {
+      "id": 50922,
+      "name": "João Moutinho",
+      "age": 27,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/50922.png"
+    },
+    {
+      "id": 15491,
+      "name": "Joel Pereira",
+      "age": 29,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/15491.png"
+    },
+    {
+      "id": 40565,
+      "name": "M. Skrzypczak",
+      "age": 25,
+      "number": 72,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/40565.png"
+    },
+    {
+      "id": 443673,
+      "name": "S. Dudek",
+      "age": 17,
+      "number": 53,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/443673.png"
+    },
+    {
+      "id": 8564,
+      "name": "A. Gholizadeh",
+      "age": 29,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/8564.png"
+    },
+    {
+      "id": 469773,
+      "name": "T. Gmur",
+      "age": 17,
+      "number": 44,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/469773.png"
+    },
+    {
+      "id": 40529,
+      "name": "F. Jagiełło",
+      "age": 28,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/40529.png"
+    },
+    {
+      "id": 574725,
+      "name": "H. Janyszka",
+      "age": 16,
+      "number": 90,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/574725.png"
+    },
+    {
+      "id": 269892,
+      "name": "A. Kozubal",
+      "age": 21,
+      "number": 43,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/269892.png"
+    },
+    {
+      "id": 31556,
+      "name": "R. Murawski",
+      "age": 31,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/31556.png"
+    },
+    {
+      "id": 571695,
+      "name": "T. Ouma",
+      "age": 21,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/571695.png"
+    },
+    {
+      "id": 27760,
+      "name": "L. Palma",
+      "age": 25,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/27760.png"
+    },
+    {
+      "id": 373423,
+      "name": "G. Þórðarson",
+      "age": 21,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/373423.png"
+    },
+    {
+      "id": 386756,
+      "name": "Y. Agnero",
+      "age": 22,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/386756.png"
+    },
+    {
+      "id": 47910,
+      "name": "L. Bengtsson",
+      "age": 27,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/47910.png"
+    },
+    {
+      "id": 55342,
+      "name": "D. Håkans",
+      "age": 25,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/55342.png"
+    },
+    {
+      "id": 25619,
+      "name": "M. Ishak",
+      "age": 32,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/25619.png"
+    },
+    {
+      "id": 57354,
+      "name": "T. Ismaheel",
+      "age": 25,
+      "number": 88,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/57354.png"
+    },
+    {
+      "id": 443672,
+      "name": "K. Jakóbczyk",
+      "age": 18,
+      "number": 54,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/443672.png"
+    },
+    {
+      "id": 425255,
+      "name": "K. Lisman",
+      "age": 19,
+      "number": 56,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/425255.png"
+    },
+    {
+      "id": 162029,
+      "name": "Pablo Rodríguez",
+      "age": 24,
+      "number": 99,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/162029.png"
+    },
+    {
+      "id": 536484,
+      "name": "Goncalves",
+      "age": 29,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/536484.png"
+    },
+    {
+      "id": 161176,
+      "name": "P. Wålemark",
+      "age": 24,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/161176.png"
+    }
+  ]
+}

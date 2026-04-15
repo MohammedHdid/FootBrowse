@@ -1,0 +1,61 @@
+{
+  "id": 3081,
+  "name": "D. Tedesco",
+  "photo": "https://media.api-sports.io/football/coachs/3081.png",
+  "nationality": "Italy",
+  "age": 40,
+  "team_id": 611,
+  "team_slug": "fenerbahce",
+  "fetched_at": "2026-04-15T08:16:36.941Z",
+  "career": [
+    {
+      "team_id": 611,
+      "team_name": "Fenerbahçe",
+      "team_logo": "https://media.api-sports.io/football/teams/611.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 1,
+      "team_name": "Belgium",
+      "team_logo": "https://media.api-sports.io/football/teams/1.png",
+      "start": "2023-02-01",
+      "end": "2025-01-01"
+    },
+    {
+      "team_id": 173,
+      "team_name": "RB Leipzig",
+      "team_logo": "https://media.api-sports.io/football/teams/173.png",
+      "start": "2021-12-01",
+      "end": "2022-09-01"
+    },
+    {
+      "team_id": 558,
+      "team_name": "Spartak Moscow",
+      "team_logo": "https://media.api-sports.io/football/teams/558.png",
+      "start": "2019-10-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 174,
+      "team_name": "Schalke 04",
+      "team_logo": "https://media.api-sports.io/football/teams/174.png",
+      "start": "2017-06-01",
+      "end": "2019-03-01"
+    },
+    {
+      "team_id": 190,
+      "team_name": "Erzgebirge Aue",
+      "team_logo": "https://media.api-sports.io/football/teams/190.png",
+      "start": "2017-03-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 7955,
+      "team_name": "Hoffenheim U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7955.png",
+      "start": "2016-08-01",
+      "end": "2017-03-01"
+    }
+  ]
+}

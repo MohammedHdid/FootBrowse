@@ -1,0 +1,26 @@
+{
+  "id": 14213,
+  "name": "N.  Lorenzo",
+  "photo": "https://media.api-sports.io/football/coachs/14213.png",
+  "nationality": "Argentina",
+  "age": 59,
+  "team_id": 8,
+  "team_slug": "colombia",
+  "fetched_at": "2026-04-15T13:12:16.049Z",
+  "career": [
+    {
+      "team_id": 8,
+      "team_name": "Colombia",
+      "team_logo": "https://media.api-sports.io/football/teams/8.png",
+      "start": "2022-07-01",
+      "end": null
+    },
+    {
+      "team_id": 2554,
+      "team_name": "Melgar",
+      "team_logo": "https://media.api-sports.io/football/teams/2554.png",
+      "start": "2021-01-01",
+      "end": "2022-07-01"
+    }
+  ]
+}

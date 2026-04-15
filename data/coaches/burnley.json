@@ -1,0 +1,47 @@
+{
+  "id": 87,
+  "name": "S. Parker",
+  "photo": "https://media.api-sports.io/football/coachs/87.png",
+  "nationality": "England",
+  "age": 45,
+  "team_id": 44,
+  "team_slug": "burnley",
+  "fetched_at": "2026-04-15T08:14:00.706Z",
+  "career": [
+    {
+      "team_id": 44,
+      "team_name": "Burnley",
+      "team_logo": "https://media.api-sports.io/football/teams/44.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 569,
+      "team_name": "Club Brugge",
+      "team_logo": "https://media.api-sports.io/football/teams/569.png",
+      "start": "2022-12-01",
+      "end": "2023-03-01"
+    },
+    {
+      "team_id": 35,
+      "team_name": "AFC Bournemouth",
+      "team_logo": "https://media.api-sports.io/football/teams/35.png",
+      "start": "2021-06-01",
+      "end": "2022-08-01"
+    },
+    {
+      "team_id": 36,
+      "team_name": "Fulham",
+      "team_logo": "https://media.api-sports.io/football/teams/36.png",
+      "start": "2019-02-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 15398,
+      "team_name": "Tottenham Hotspur U18",
+      "team_logo": "https://media.api-sports.io/football/teams/15398.png",
+      "start": "2017-07-01",
+      "end": "2018-07-01"
+    }
+  ]
+}

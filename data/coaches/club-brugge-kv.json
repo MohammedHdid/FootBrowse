@@ -1,0 +1,89 @@
+{
+  "id": 6608,
+  "name": "N. Hayen",
+  "photo": "https://media.api-sports.io/football/coachs/6608.png",
+  "nationality": "Belgium",
+  "age": 45,
+  "team_id": 569,
+  "team_slug": "club-brugge-kv",
+  "fetched_at": "2026-04-14T22:43:47.031Z",
+  "career": [
+    {
+      "team_id": 569,
+      "team_name": "Club Brugge",
+      "team_logo": "https://media.api-sports.io/football/teams/569.png",
+      "start": "2024-03-01",
+      "end": null
+    },
+    {
+      "team_id": 14130,
+      "team_name": "Club Brugge II",
+      "team_logo": "https://media.api-sports.io/football/teams/14130.png",
+      "start": "2023-07-01",
+      "end": "2024-03-01"
+    },
+    {
+      "team_id": 7893,
+      "team_name": "Club Brugge U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7893.png",
+      "start": "2022-09-01",
+      "end": "2024-03-01"
+    },
+    {
+      "team_id": 14130,
+      "team_name": "Club Brugge II",
+      "team_logo": "https://media.api-sports.io/football/teams/14130.png",
+      "start": "2022-06-01",
+      "end": "2023-03-01"
+    },
+    {
+      "team_id": 2194,
+      "team_name": "Haverfordwest County",
+      "team_logo": "https://media.api-sports.io/football/teams/2194.png",
+      "start": "2021-12-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 738,
+      "team_name": "SK Beveren",
+      "team_logo": "https://media.api-sports.io/football/teams/738.png",
+      "start": "2020-07-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 735,
+      "team_name": "Sint-Truiden",
+      "team_logo": "https://media.api-sports.io/football/teams/735.png",
+      "start": "2019-11-01",
+      "end": "2020-01-01"
+    },
+    {
+      "team_id": 5751,
+      "team_name": "Berchem Sport",
+      "team_logo": "https://media.api-sports.io/football/teams/5751.png",
+      "start": "2017-11-01",
+      "end": "2018-01-01"
+    },
+    {
+      "team_id": 5807,
+      "team_name": "Geel",
+      "team_logo": "https://media.api-sports.io/football/teams/5807.png",
+      "start": "2016-07-01",
+      "end": "2017-10-01"
+    },
+    {
+      "team_id": 5951,
+      "team_name": "Tienen",
+      "team_logo": "https://media.api-sports.io/football/teams/5951.png",
+      "start": "2015-07-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 6215,
+      "team_name": "Dender",
+      "team_logo": "https://media.api-sports.io/football/teams/6215.png",
+      "start": "2013-06-01",
+      "end": "2014-02-01"
+    }
+  ]
+}

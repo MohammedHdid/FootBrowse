@@ -1,0 +1,21 @@
+{
+  "player_id": 1485,
+  "slug": "bruno-fernandes",
+  "name": "Bruno Fernandes",
+  "api_photo": "https://media.api-sports.io/football/players/1485.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Manchester United",
+      "club_logo": "https://media.api-sports.io/football/teams/33.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 37,
+      "goals": 8,
+      "assists": 10,
+      "minutes": 3024,
+      "yellow_cards": 5,
+      "red_cards": 2
+    }
+  ]
+}

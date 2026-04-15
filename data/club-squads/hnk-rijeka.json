@@ -1,0 +1,264 @@
+{
+  "team_id": 561,
+  "team_slug": "hnk-rijeka",
+  "team_name": "HNK Rijeka",
+  "fetched_at": "2026-04-15T08:17:55.031Z",
+  "players": [
+    {
+      "id": 648453,
+      "name": "Josip Jurcevic",
+      "age": 19,
+      "number": 21,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/648453.png"
+    },
+    {
+      "id": 501856,
+      "name": "V. Kovac",
+      "age": 17,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/501856.png"
+    },
+    {
+      "id": 263846,
+      "name": "A. Todorović",
+      "age": 21,
+      "number": 99,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/263846.png"
+    },
+    {
+      "id": 108370,
+      "name": "M. Zlomislić",
+      "age": 27,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/108370.png"
+    },
+    {
+      "id": 353482,
+      "name": "T. Barišić",
+      "age": 21,
+      "number": 28,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/353482.png"
+    },
+    {
+      "id": 362494,
+      "name": "N. Bodetić",
+      "age": 21,
+      "number": 91,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/362494.png"
+    },
+    {
+      "id": 45932,
+      "name": "M. Devetak",
+      "age": 26,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/45932.png"
+    },
+    {
+      "id": 314849,
+      "name": "A. Husic",
+      "age": 24,
+      "number": 51,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/314849.png"
+    },
+    {
+      "id": 448490,
+      "name": "L. Kitin",
+      "age": 18,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/448490.png"
+    },
+    {
+      "id": 40477,
+      "name": "J. Lasickas",
+      "age": 28,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/40477.png"
+    },
+    {
+      "id": 293747,
+      "name": "D. Legbo",
+      "age": 24,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/293747.png"
+    },
+    {
+      "id": 14389,
+      "name": "A. Majstorović",
+      "age": 32,
+      "number": 45,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/14389.png"
+    },
+    {
+      "id": 271067,
+      "name": "A. Oreč",
+      "age": 24,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/271067.png"
+    },
+    {
+      "id": 14301,
+      "name": "S. Radeljić",
+      "age": 28,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/14301.png"
+    },
+    {
+      "id": 39838,
+      "name": "A. Barco",
+      "age": 24,
+      "number": 55,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/39838.png"
+    },
+    {
+      "id": 41582,
+      "name": "Tiago Dantas",
+      "age": 25,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/41582.png"
+    },
+    {
+      "id": 284869,
+      "name": "T. Fruk",
+      "age": 24,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/284869.png"
+    },
+    {
+      "id": 1320,
+      "name": "A. Gojak",
+      "age": 28,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1320.png"
+    },
+    {
+      "id": 546601,
+      "name": "T. Morchiladze",
+      "age": 23,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/546601.png"
+    },
+    {
+      "id": 558088,
+      "name": "B. Pavic",
+      "age": 18,
+      "number": 66,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/558088.png"
+    },
+    {
+      "id": 109714,
+      "name": "D. Petrovič",
+      "age": 27,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/109714.png"
+    },
+    {
+      "id": 306566,
+      "name": "F. Shehu",
+      "age": 23,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/306566.png"
+    },
+    {
+      "id": 629146,
+      "name": "Fran Škalamera",
+      "age": 17,
+      "number": 72,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/629146.png"
+    },
+    {
+      "id": 504144,
+      "name": "Dominik Thaqi",
+      "age": 18,
+      "number": 25,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/504144.png"
+    },
+    {
+      "id": 312985,
+      "name": "S. Vignato",
+      "age": 21,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/312985.png"
+    },
+    {
+      "id": 382160,
+      "name": "D. Adu-Adjei",
+      "age": 20,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/382160.png"
+    },
+    {
+      "id": 47493,
+      "name": "D. Čop",
+      "age": 35,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/47493.png"
+    },
+    {
+      "id": 337630,
+      "name": "A. Jurič",
+      "age": 23,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/337630.png"
+    },
+    {
+      "id": 104801,
+      "name": "M. Ndockyt",
+      "age": 27,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/104801.png"
+    },
+    {
+      "id": 329285,
+      "name": "G. Rukavina",
+      "age": 21,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/329285.png"
+    },
+    {
+      "id": 508805,
+      "name": "Cherno Saho",
+      "age": 20,
+      "number": 55,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/508805.png"
+    },
+    {
+      "id": 634176,
+      "name": "A. Samateh",
+      "age": 19,
+      "number": 79,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/634176.png"
+    }
+  ]
+}

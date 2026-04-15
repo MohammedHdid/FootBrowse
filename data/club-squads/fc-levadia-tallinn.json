@@ -1,0 +1,208 @@
+{
+  "team_id": 2273,
+  "team_slug": "fc-levadia-tallinn",
+  "team_name": "FC Levadia Tallinn",
+  "fetched_at": "2026-04-15T08:15:54.830Z",
+  "players": [
+    {
+      "id": 203970,
+      "name": "O. Ani",
+      "age": 27,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/203970.png"
+    },
+    {
+      "id": 60795,
+      "name": "K. Vallner",
+      "age": 27,
+      "number": 99,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/60795.png"
+    },
+    {
+      "id": 511220,
+      "name": "V. Iboro",
+      "age": 20,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/511220.png"
+    },
+    {
+      "id": 454142,
+      "name": "KauÃ£",
+      "age": 21,
+      "number": 71,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/454142.png"
+    },
+    {
+      "id": 411621,
+      "name": "H. Liiv",
+      "age": 18,
+      "number": 30,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/411621.png"
+    },
+    {
+      "id": 55915,
+      "name": "F. Liivak",
+      "age": 29,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/55915.png"
+    },
+    {
+      "id": 277996,
+      "name": "A. Nwankwo",
+      "age": 24,
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/277996.png"
+    },
+    {
+      "id": 60627,
+      "name": "R. Peetson",
+      "age": 30,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/60627.png"
+    },
+    {
+      "id": 60685,
+      "name": "J. Saliste",
+      "age": 30,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/60685.png"
+    },
+    {
+      "id": 636338,
+      "name": "A. Sazin",
+      "age": 16,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/636338.png"
+    },
+    {
+      "id": 60486,
+      "name": "T. Tammik",
+      "age": 23,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/60486.png"
+    },
+    {
+      "id": 60358,
+      "name": "M. Ainsalu",
+      "age": 29,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/60358.png"
+    },
+    {
+      "id": 383063,
+      "name": "M. Jumankin",
+      "age": 19,
+      "number": 76,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/383063.png"
+    },
+    {
+      "id": 410916,
+      "name": "M. Skvortsov",
+      "age": 18,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/410916.png"
+    },
+    {
+      "id": 321567,
+      "name": "A. Švedovski",
+      "age": 21,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/321567.png"
+    },
+    {
+      "id": 60696,
+      "name": "A. Zakarlyuka",
+      "age": 30,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/60696.png"
+    },
+    {
+      "id": 60673,
+      "name": "R. Kirss",
+      "age": 31,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/60673.png"
+    },
+    {
+      "id": 554323,
+      "name": "G. Lehtmets",
+      "age": 21,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/554323.png"
+    },
+    {
+      "id": 556266,
+      "name": "N. Muravlyov",
+      "age": 18,
+      "number": 60,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/556266.png"
+    },
+    {
+      "id": 432065,
+      "name": "E. Otoo",
+      "age": 21,
+      "number": 33,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/432065.png"
+    },
+    {
+      "id": 636339,
+      "name": "V. Pavlovits",
+      "age": 16,
+      "number": 25,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/636339.png"
+    },
+    {
+      "id": 55913,
+      "name": "M. Roosnupp",
+      "age": 28,
+      "number": 5,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/55913.png"
+    },
+    {
+      "id": 553766,
+      "name": "F. Sambe",
+      "age": 20,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/553766.png"
+    },
+    {
+      "id": 352524,
+      "name": "B. Tambedou",
+      "age": 23,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/352524.png"
+    },
+    {
+      "id": 415072,
+      "name": "Wendell Gabriel",
+      "age": 21,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/415072.png"
+    }
+  ]
+}

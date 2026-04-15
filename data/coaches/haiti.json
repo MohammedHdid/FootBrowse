@@ -1,0 +1,82 @@
+{
+  "id": 1609,
+  "name": "F. Baldini",
+  "photo": "https://media.api-sports.io/football/coachs/1609.png",
+  "nationality": "Italy",
+  "age": 51,
+  "team_id": 493,
+  "team_slug": "haiti",
+  "fetched_at": "2026-04-15T13:15:05.602Z",
+  "career": [
+    {
+      "team_id": 493,
+      "team_name": "SPAL",
+      "team_logo": "https://media.api-sports.io/football/teams/493.png",
+      "start": "2025-02-01",
+      "end": null
+    },
+    {
+      "team_id": 6379,
+      "team_name": "Lecco",
+      "team_logo": "https://media.api-sports.io/football/teams/6379.png",
+      "start": "2024-07-01",
+      "end": "2024-10-01"
+    },
+    {
+      "team_id": 17147,
+      "team_name": "Trento",
+      "team_logo": "https://media.api-sports.io/football/teams/17147.png",
+      "start": "2024-02-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 524,
+      "team_name": "Perugia",
+      "team_logo": "https://media.api-sports.io/football/teams/524.png",
+      "start": "2023-07-01",
+      "end": "2023-12-01"
+    },
+    {
+      "team_id": 1584,
+      "team_name": "Vicenza",
+      "team_logo": "https://media.api-sports.io/football/teams/1584.png",
+      "start": "2022-04-01",
+      "end": "2022-11-01"
+    },
+    {
+      "team_id": 1580,
+      "team_name": "Catania",
+      "team_logo": "https://media.api-sports.io/football/teams/1580.png",
+      "start": "2021-03-01",
+      "end": "2022-04-01"
+    },
+    {
+      "team_id": 803,
+      "team_name": "Trapani",
+      "team_logo": "https://media.api-sports.io/football/teams/803.png",
+      "start": "2019-07-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 7904,
+      "team_name": "Juventus U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7904.png",
+      "start": "2018-07-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 889,
+      "team_name": "Lucchese",
+      "team_logo": "https://media.api-sports.io/football/teams/889.png",
+      "start": "2016-02-01",
+      "end": "2016-03-01"
+    },
+    {
+      "team_id": 889,
+      "team_name": "Lucchese",
+      "team_logo": "https://media.api-sports.io/football/teams/889.png",
+      "start": "2015-06-01",
+      "end": "2015-10-01"
+    }
+  ]
+}

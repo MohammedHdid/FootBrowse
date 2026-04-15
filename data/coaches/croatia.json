@@ -1,0 +1,40 @@
+{
+  "id": 115,
+  "name": "Z. Dalić",
+  "photo": "https://media.api-sports.io/football/coachs/115.png",
+  "nationality": "Croatia",
+  "age": 59,
+  "team_id": 3,
+  "team_slug": "croatia",
+  "fetched_at": "2026-04-15T13:13:30.098Z",
+  "career": [
+    {
+      "team_id": 3,
+      "team_name": "Croatia",
+      "team_logo": "https://media.api-sports.io/football/teams/3.png",
+      "start": "2017-10-01",
+      "end": null
+    },
+    {
+      "team_id": 2865,
+      "team_name": "Al Ain",
+      "team_logo": "https://media.api-sports.io/football/teams/2865.png",
+      "start": "2014-03-01",
+      "end": "2017-01-01"
+    },
+    {
+      "team_id": 2932,
+      "team_name": "Al Hilal",
+      "team_logo": "https://media.api-sports.io/football/teams/2932.png",
+      "start": "2013-02-01",
+      "end": "2013-05-01"
+    },
+    {
+      "team_id": 2930,
+      "team_name": "Al Faisaly",
+      "team_logo": "https://media.api-sports.io/football/teams/2930.png",
+      "start": "2010-07-01",
+      "end": "2012-05-01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "team1_id": 541,
+  "team2_id": 718,
+  "fetched_at": "2026-04-15T20:48:58.276Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 3,
+  "team2_goals": 0,
+  "last_matches": [
+    {
+      "fixture_id": 1390836,
+      "date": "2025-08-24",
+      "league": "La Liga",
+      "home_id": 718,
+      "home_name": "Oviedo",
+      "home_logo": "https://media.api-sports.io/football/teams/718.png",
+      "away_id": 541,
+      "away_name": "Real Madrid",
+      "away_logo": "https://media.api-sports.io/football/teams/541.png",
+      "home_score": 0,
+      "away_score": 3
+    }
+  ]
+}

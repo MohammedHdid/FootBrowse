@@ -1,0 +1,21 @@
+{
+  "player_id": 2598,
+  "slug": "r-doan",
+  "name": "R. Dōan",
+  "api_photo": "https://media.api-sports.io/football/players/2598.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Eintracht Frankfurt",
+      "club_logo": "https://media.api-sports.io/football/teams/169.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 34,
+      "goals": 10,
+      "assists": 7,
+      "minutes": 2874,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

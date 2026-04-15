@@ -1,0 +1,40 @@
+{
+  "id": 4,
+  "name": "Guardiola",
+  "photo": "https://media.api-sports.io/football/coachs/4.png",
+  "nationality": "Spain",
+  "age": 54,
+  "team_id": 50,
+  "team_slug": "manchester-city",
+  "fetched_at": "2026-04-14T22:39:58.650Z",
+  "career": [
+    {
+      "team_id": 50,
+      "team_name": "Manchester City",
+      "team_logo": "https://media.api-sports.io/football/teams/50.png",
+      "start": "2016-07-01",
+      "end": null
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern Munich",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2013-06-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 529,
+      "team_name": "Barcelona",
+      "team_logo": "https://media.api-sports.io/football/teams/529.png",
+      "start": "2008-07-01",
+      "end": "2012-06-01"
+    },
+    {
+      "team_id": 712,
+      "team_name": "Barcelona II",
+      "team_logo": "https://media.api-sports.io/football/teams/712.png",
+      "start": "2007-06-01",
+      "end": "2008-06-01"
+    }
+  ]
+}

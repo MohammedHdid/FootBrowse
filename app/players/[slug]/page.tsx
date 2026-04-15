@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { players, getPlayer, getTeamPlayers } from "@/lib/data";
+import { getAllPlayers, getPlayer, getTeamPlayers } from "@/lib/data";
+import { getClubTeamPlayers } from "@/lib/club-players";
 import { getPositionStyle } from "@/lib/positions";
+import { getPlayerStats } from "@/lib/player-stats";
 import FlagImg from "@/components/FlagImg";
 import AdSlot from "@/components/AdSlot";
 
@@ -12,15 +14,22 @@ interface Props {
 }
 
 export function generateStaticParams() {
-  return players.map((p) => ({ slug: p.slug }));
+  return getAllPlayers().map((p) => ({ slug: p.slug }));
 }
 
 export function generateMetadata({ params }: Props): Metadata {
   const player = getPlayer(params.slug);
   if (!player) return {};
+  const isClub = !!player.primaryLeagueSlug;
+  const title = isClub
+    ? `${player.name} — ${player.teamName} Player Profile & Stats | FootBrowse`
+    : `${player.name} — World Cup 2026 Stats & Profile | FootBrowse`;
+  const description = isClub
+    ? `${player.name} plays as ${player.position} for ${player.teamName}. View profile, squad info and career stats on FootBrowse.`
+    : `${player.name} is a ${player.nationality} ${player.position} representing ${player.teamName} at the 2026 FIFA World Cup. View stats, profile and squad info on FootBrowse.`;
   return {
-    title: `${player.name} — World Cup 2026 Stats & Profile | FootBrowse`,
-    description: `${player.name} is a ${player.nationality} ${player.position} representing ${player.teamName} at the 2026 FIFA World Cup. View stats, profile and squad info on FootBrowse.`,
+    title,
+    description,
     alternates: { canonical: `https://footbrowse.com/players/${params.slug}` },
   };
 }
@@ -49,9 +58,15 @@ export default function PlayerPage({ params }: Props) {
 
   const pos = getPositionStyle(player.position);
   const age = calcAge(player.dateOfBirth);
-  const relatedPlayers = getTeamPlayers(player.teamSlug)
-    .filter((p) => p.slug !== player.slug)
-    .slice(0, 4);
+  const isClub = !!player.primaryLeagueSlug;
+  const teamHref = isClub
+    ? `/leagues/${player.primaryLeagueSlug}/teams/${player.teamSlug}`
+    : `/teams/${player.teamSlug}`;
+  const relatedPlayers = (
+    isClub ? getClubTeamPlayers(player.teamSlug) : getTeamPlayers(player.teamSlug)
+  ).filter((p) => p.slug !== player.slug).slice(0, 4);
+  const playerStats = getPlayerStats(player.slug);
+  const photoSrc = playerStats?.api_photo ?? player.photo_url;
 
 
   const breadcrumbJsonLd = {
@@ -121,9 +136,9 @@ export default function PlayerPage({ params }: Props) {
               boxShadow: `0 0 40px ${pos.color}20`,
             }}
           >
-            {player.photo_url ? (
+            {photoSrc ? (
               <Image
-                src={player.photo_url}
+                src={photoSrc}
                 alt={`${player.name} profile photo`}
                 width={140}
                 height={160}
@@ -164,14 +179,24 @@ export default function PlayerPage({ params }: Props) {
               {player.name}
             </h1>
 
-            {/* Nationality — clicks through to team page */}
+            {/* Nationality / club — clicks through to team page */}
             <div className="mt-2">
               <Link
-                href={`/teams/${player.teamSlug}`}
+                href={teamHref}
                 className="inline-flex items-center gap-1.5 font-semibold text-zinc-300 hover:opacity-70 transition-opacity text-sm"
               >
-                <FlagImg nationality={player.nationality} size={18} />
-                {player.nationality}
+                {player.nationality ? (
+                  <FlagImg nationality={player.nationality} size={18} />
+                ) : (
+                  <Image
+                    src={player.teamCrest}
+                    alt={player.teamName}
+                    width={18}
+                    height={18}
+                    className="object-contain"
+                  />
+                )}
+                {player.nationality || player.teamName}
               </Link>
             </div>
 
@@ -246,6 +271,69 @@ export default function PlayerPage({ params }: Props) {
         <p className="text-zinc-300 leading-relaxed text-sm">{player.bio || `${player.name} is a professional footballer playing as ${player.position} for ${player.teamName} at the FIFA World Cup 2026.`}</p>
       </section>
 
+      {/* ── SEASON STATS ──────────────────────────────────────── */}
+      {playerStats && playerStats.seasons.length > 0 && (
+        <section className="section-block">
+          <h2 className="section-title text-xl mb-4">Season Stats</h2>
+          <div className="overflow-x-auto -mx-1">
+            <table className="w-full text-sm min-w-[480px]">
+              <thead>
+                <tr className="text-[10px] font-black uppercase tracking-[0.15em] text-zinc-600">
+                  <th className="text-left pb-3 pr-3">Season</th>
+                  <th className="text-left pb-3 pr-3">Club</th>
+                  <th className="text-left pb-3 pr-3">League</th>
+                  <th className="text-right pb-3 pr-3">Apps</th>
+                  <th className="text-right pb-3 pr-3">Goals</th>
+                  <th className="text-right pb-3 pr-3">Assists</th>
+                  <th className="text-right pb-3">Mins</th>
+                </tr>
+              </thead>
+              <tbody>
+                {playerStats.seasons.map((s, i) => (
+                  <tr
+                    key={i}
+                    className="border-t border-white/[0.04]"
+                  >
+                    <td className="py-2.5 pr-3 text-zinc-400 tabular-nums">
+                      {s.season}/{String(s.season + 1).slice(2)}
+                    </td>
+                    <td className="py-2.5 pr-3">
+                      <div className="flex items-center gap-2">
+                        <Image
+                          src={s.club_logo}
+                          alt={s.club}
+                          width={16}
+                          height={16}
+                          className="object-contain shrink-0"
+                        />
+                        <span className="font-semibold text-zinc-200 truncate max-w-[100px]">
+                          {s.club}
+                        </span>
+                      </div>
+                    </td>
+                    <td className="py-2.5 pr-3 text-zinc-400 text-xs">{s.league}</td>
+                    <td className="py-2.5 pr-3 text-right tabular-nums text-zinc-300">
+                      {s.appearances}
+                    </td>
+                    <td className="py-2.5 pr-3 text-right tabular-nums font-bold"
+                      style={{ color: s.goals > 0 ? "#00FF87" : "#52525b" }}>
+                      {s.goals}
+                    </td>
+                    <td className="py-2.5 pr-3 text-right tabular-nums font-bold"
+                      style={{ color: s.assists > 0 ? "#3B82F6" : "#52525b" }}>
+                      {s.assists}
+                    </td>
+                    <td className="py-2.5 text-right tabular-nums text-zinc-500 text-xs">
+                      {s.minutes.toLocaleString()}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       <AdSlot slot="1234567890" format="auto" />
 
       {/* ── RELATED PLAYERS ───────────────────────────────────── */}
@@ -314,7 +402,7 @@ export default function PlayerPage({ params }: Props) {
       {/* ── BACK TO TEAM ──────────────────────────────────────── */}
       <section className="section-block">
         <Link
-          href={`/teams/${player.teamSlug}`}
+          href={teamHref}
           className="group flex items-center justify-between"
         >
           <div className="flex items-center gap-3">

@@ -1,0 +1,391 @@
+{
+  "league_id": 39,
+  "season": 2024,
+  "groups": [
+    {
+      "group": "Premier League",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 40,
+            "name": "Liverpool",
+            "slug": "liverpool",
+            "logo": "https://media.api-sports.io/football/teams/40.png"
+          },
+          "points": 84,
+          "played": 38,
+          "won": 25,
+          "drawn": 9,
+          "lost": 4,
+          "goals_for": 86,
+          "goals_against": 41,
+          "goal_diff": 45,
+          "form": "DLDLW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 42,
+            "name": "Arsenal",
+            "slug": "arsenal",
+            "logo": "https://media.api-sports.io/football/teams/42.png"
+          },
+          "points": 74,
+          "played": 38,
+          "won": 20,
+          "drawn": 14,
+          "lost": 4,
+          "goals_for": 69,
+          "goals_against": 34,
+          "goal_diff": 35,
+          "form": "WWDLD",
+          "description": "Champions League"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 50,
+            "name": "Manchester City",
+            "slug": "manchester-city",
+            "logo": "https://media.api-sports.io/football/teams/50.png"
+          },
+          "points": 71,
+          "played": 38,
+          "won": 21,
+          "drawn": 8,
+          "lost": 9,
+          "goals_for": 72,
+          "goals_against": 44,
+          "goal_diff": 28,
+          "form": "WWDWW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 49,
+            "name": "Chelsea",
+            "slug": "chelsea",
+            "logo": "https://media.api-sports.io/football/teams/49.png"
+          },
+          "points": 69,
+          "played": 38,
+          "won": 20,
+          "drawn": 9,
+          "lost": 9,
+          "goals_for": 64,
+          "goals_against": 43,
+          "goal_diff": 21,
+          "form": "WWLWW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 5,
+          "team": {
+            "id": 34,
+            "name": "Newcastle",
+            "slug": "newcastle",
+            "logo": "https://media.api-sports.io/football/teams/34.png"
+          },
+          "points": 66,
+          "played": 38,
+          "won": 20,
+          "drawn": 6,
+          "lost": 12,
+          "goals_for": 68,
+          "goals_against": 47,
+          "goal_diff": 21,
+          "form": "LLWDW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 66,
+            "name": "Aston Villa",
+            "slug": "aston-villa",
+            "logo": "https://media.api-sports.io/football/teams/66.png"
+          },
+          "points": 66,
+          "played": 38,
+          "won": 19,
+          "drawn": 9,
+          "lost": 10,
+          "goals_for": 58,
+          "goals_against": 51,
+          "goal_diff": 7,
+          "form": "LWWWL",
+          "description": "UEFA Europa League"
+        },
+        {
+          "rank": 7,
+          "team": {
+            "id": 65,
+            "name": "Nottingham Forest",
+            "slug": "nottingham-forest",
+            "logo": "https://media.api-sports.io/football/teams/65.png"
+          },
+          "points": 65,
+          "played": 38,
+          "won": 19,
+          "drawn": 8,
+          "lost": 11,
+          "goals_for": 58,
+          "goals_against": 46,
+          "goal_diff": 12,
+          "form": "LWDDL",
+          "description": "Conference League Qualification"
+        },
+        {
+          "rank": 8,
+          "team": {
+            "id": 51,
+            "name": "Brighton",
+            "slug": "brighton",
+            "logo": "https://media.api-sports.io/football/teams/51.png"
+          },
+          "points": 61,
+          "played": 38,
+          "won": 16,
+          "drawn": 13,
+          "lost": 9,
+          "goals_for": 66,
+          "goals_against": 59,
+          "goal_diff": 7,
+          "form": "WWWDW",
+          "description": null
+        },
+        {
+          "rank": 9,
+          "team": {
+            "id": 35,
+            "name": "Bournemouth",
+            "slug": "bournemouth",
+            "logo": "https://media.api-sports.io/football/teams/35.png"
+          },
+          "points": 56,
+          "played": 38,
+          "won": 15,
+          "drawn": 11,
+          "lost": 12,
+          "goals_for": 58,
+          "goals_against": 46,
+          "goal_diff": 12,
+          "form": "WLLWD",
+          "description": null
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 55,
+            "name": "Brentford",
+            "slug": "brentford",
+            "logo": "https://media.api-sports.io/football/teams/55.png"
+          },
+          "points": 56,
+          "played": 38,
+          "won": 16,
+          "drawn": 8,
+          "lost": 14,
+          "goals_for": 66,
+          "goals_against": 57,
+          "goal_diff": 9,
+          "form": "DLWWW",
+          "description": null
+        },
+        {
+          "rank": 11,
+          "team": {
+            "id": 36,
+            "name": "Fulham",
+            "slug": "fulham",
+            "logo": "https://media.api-sports.io/football/teams/36.png"
+          },
+          "points": 54,
+          "played": 38,
+          "won": 15,
+          "drawn": 9,
+          "lost": 14,
+          "goals_for": 54,
+          "goals_against": 54,
+          "goal_diff": 0,
+          "form": "LWLLW",
+          "description": null
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 52,
+            "name": "Crystal Palace",
+            "slug": "crystal-palace",
+            "logo": "https://media.api-sports.io/football/teams/52.png"
+          },
+          "points": 53,
+          "played": 38,
+          "won": 13,
+          "drawn": 14,
+          "lost": 11,
+          "goals_for": 51,
+          "goals_against": 51,
+          "goal_diff": 0,
+          "form": "DWWDD",
+          "description": "UEFA Europa League"
+        },
+        {
+          "rank": 13,
+          "team": {
+            "id": 45,
+            "name": "Everton",
+            "slug": "everton",
+            "logo": "https://media.api-sports.io/football/teams/45.png"
+          },
+          "points": 48,
+          "played": 38,
+          "won": 11,
+          "drawn": 15,
+          "lost": 12,
+          "goals_for": 42,
+          "goals_against": 44,
+          "goal_diff": -2,
+          "form": "WWWDL",
+          "description": null
+        },
+        {
+          "rank": 14,
+          "team": {
+            "id": 48,
+            "name": "West Ham",
+            "slug": "west-ham",
+            "logo": "https://media.api-sports.io/football/teams/48.png"
+          },
+          "points": 43,
+          "played": 38,
+          "won": 11,
+          "drawn": 10,
+          "lost": 17,
+          "goals_for": 46,
+          "goals_against": 62,
+          "goal_diff": -16,
+          "form": "WLWDL",
+          "description": null
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 33,
+            "name": "Manchester United",
+            "slug": "manchester-united",
+            "logo": "https://media.api-sports.io/football/teams/33.png"
+          },
+          "points": 42,
+          "played": 38,
+          "won": 11,
+          "drawn": 9,
+          "lost": 18,
+          "goals_for": 44,
+          "goals_against": 54,
+          "goal_diff": -10,
+          "form": "WLLLD",
+          "description": null
+        },
+        {
+          "rank": 16,
+          "team": {
+            "id": 39,
+            "name": "Wolves",
+            "slug": "wolves",
+            "logo": "https://media.api-sports.io/football/teams/39.png"
+          },
+          "points": 42,
+          "played": 38,
+          "won": 12,
+          "drawn": 6,
+          "lost": 20,
+          "goals_for": 54,
+          "goals_against": 69,
+          "goal_diff": -15,
+          "form": "DLLLW",
+          "description": null
+        },
+        {
+          "rank": 17,
+          "team": {
+            "id": 47,
+            "name": "Tottenham",
+            "slug": "tottenham",
+            "logo": "https://media.api-sports.io/football/teams/47.png"
+          },
+          "points": 38,
+          "played": 38,
+          "won": 11,
+          "drawn": 5,
+          "lost": 22,
+          "goals_for": 64,
+          "goals_against": 65,
+          "goal_diff": -1,
+          "form": "LLLDL",
+          "description": "Champions League"
+        },
+        {
+          "rank": 18,
+          "team": {
+            "id": 46,
+            "name": "Leicester",
+            "slug": "leicester",
+            "logo": "https://media.api-sports.io/football/teams/46.png"
+          },
+          "points": 25,
+          "played": 38,
+          "won": 6,
+          "drawn": 7,
+          "lost": 25,
+          "goals_for": 33,
+          "goals_against": 80,
+          "goal_diff": -47,
+          "form": "LWDWL",
+          "description": "Relegation"
+        },
+        {
+          "rank": 19,
+          "team": {
+            "id": 57,
+            "name": "Ipswich",
+            "slug": "ipswich",
+            "logo": "https://media.api-sports.io/football/teams/57.png"
+          },
+          "points": 22,
+          "played": 38,
+          "won": 4,
+          "drawn": 10,
+          "lost": 24,
+          "goals_for": 36,
+          "goals_against": 82,
+          "goal_diff": -46,
+          "form": "LLLDL",
+          "description": "Relegation"
+        },
+        {
+          "rank": 20,
+          "team": {
+            "id": 41,
+            "name": "Southampton",
+            "slug": "southampton",
+            "logo": "https://media.api-sports.io/football/teams/41.png"
+          },
+          "points": 12,
+          "played": 38,
+          "won": 2,
+          "drawn": 6,
+          "lost": 30,
+          "goals_for": 26,
+          "goals_against": 86,
+          "goal_diff": -60,
+          "form": "LLDLL",
+          "description": "Relegation"
+        }
+      ]
+    }
+  ]
+}

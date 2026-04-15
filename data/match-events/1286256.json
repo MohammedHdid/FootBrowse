@@ -1,0 +1,175 @@
+{
+  "fixture_id": 1286256,
+  "fetched_at": "2026-04-14T21:37:05.049Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 5,
+      "extra": null,
+      "team_id": 560,
+      "player": "C. Zafeiris",
+      "assist": "J. Bořil",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 17,
+      "extra": null,
+      "team_id": 560,
+      "player": "Igoh Ogbu",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 41,
+      "extra": null,
+      "team_id": 560,
+      "player": "El Hadji Malick Diouf",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 42,
+      "extra": null,
+      "team_id": 79,
+      "player": "Hakon Arnar Haraldsson",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 43,
+      "extra": null,
+      "team_id": 79,
+      "player": "Tiago Santos",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 51,
+      "extra": null,
+      "team_id": 560,
+      "player": "Jan Bořil",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 560,
+      "player": "T. Chorý",
+      "assist": "M. Chytil",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 560,
+      "player": "J. Bořil",
+      "assist": "I. Schranz",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 560,
+      "player": "D. Douděra",
+      "assist": "M. Jurásek",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 79,
+      "player": "E. Zhegrova",
+      "assist": "J. David",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 79,
+      "player": "R. Cabella",
+      "assist": "O. Sahraoui",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 560,
+      "player": "I. Schranz",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 560,
+      "player": "D. Zima",
+      "assist": "L. Vorlický",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 79,
+      "player": "E. Zhegrova",
+      "assist": "E. Mbappé",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 79,
+      "player": "J. David",
+      "assist": "M. Bayo",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 79,
+      "player": "H. Haraldsson",
+      "assist": "N. Mukau",
+      "type": "subst",
+      "detail": "Substitution 4"
+    }
+  ],
+  "home_stats": {
+    "team_id": 560,
+    "possession": 51,
+    "shots_on": 7,
+    "shots_total": 17,
+    "corners": 3,
+    "fouls": 16,
+    "yellow_cards": 3,
+    "red_cards": null
+  },
+  "away_stats": {
+    "team_id": 79,
+    "possession": 49,
+    "shots_on": 4,
+    "shots_total": 8,
+    "corners": 4,
+    "fouls": 15,
+    "yellow_cards": 2,
+    "red_cards": null
+  }
+}

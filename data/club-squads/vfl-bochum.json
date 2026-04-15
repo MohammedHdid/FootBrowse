@@ -1,0 +1,248 @@
+{
+  "team_id": 176,
+  "team_slug": "vfl-bochum",
+  "team_name": "VfL Bochum",
+  "fetched_at": "2026-04-14T22:32:52.236Z",
+  "players": [
+    {
+      "id": 24785,
+      "name": "T. Horn",
+      "age": 32,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/24785.png"
+    },
+    {
+      "id": 380643,
+      "name": "Hugo Johannes Walter Rölleke",
+      "age": 20,
+      "number": 38,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/380643.png"
+    },
+    {
+      "id": 127929,
+      "name": "N. Thiede",
+      "age": 26,
+      "number": 22,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/127929.png"
+    },
+    {
+      "id": 480847,
+      "name": "K. Koscierski",
+      "age": 18,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/480847.png"
+    },
+    {
+      "id": 48629,
+      "name": "N. Loosli",
+      "age": 28,
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/48629.png"
+    },
+    {
+      "id": 61411,
+      "name": "E. Mašović",
+      "age": 27,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/61411.png"
+    },
+    {
+      "id": 329265,
+      "name": "L. Morgalla",
+      "age": 21,
+      "number": 39,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/329265.png"
+    },
+    {
+      "id": 15794,
+      "name": "O. Olsen",
+      "age": 25,
+      "number": 13,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/15794.png"
+    },
+    {
+      "id": 67861,
+      "name": "R. Rösch",
+      "age": 26,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/67861.png"
+    },
+    {
+      "id": 178169,
+      "name": "P. Strompf",
+      "age": 27,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/178169.png"
+    },
+    {
+      "id": 713,
+      "name": "K. Vogt",
+      "age": 34,
+      "number": 7,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/713.png"
+    },
+    {
+      "id": 25151,
+      "name": "M. Wittek",
+      "age": 30,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25151.png"
+    },
+    {
+      "id": 37122,
+      "name": "M. Bero",
+      "age": 30,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/37122.png"
+    },
+    {
+      "id": 567871,
+      "name": "M. Gottlicher",
+      "age": 17,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/567871.png"
+    },
+    {
+      "id": 329472,
+      "name": "N. Jahn",
+      "age": 21,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/329472.png"
+    },
+    {
+      "id": 145059,
+      "name": "M. Kwarteng",
+      "age": 27,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/145059.png"
+    },
+    {
+      "id": 418888,
+      "name": "Cajetan Benjamin Lenz",
+      "age": 19,
+      "number": 34,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/418888.png"
+    },
+    {
+      "id": 33019,
+      "name": "K. Miyoshi",
+      "age": 28,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/33019.png"
+    },
+    {
+      "id": 392254,
+      "name": "Francis-Ikechukwu Onyeka",
+      "age": 18,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/392254.png"
+    },
+    {
+      "id": 336224,
+      "name": "M. Pannewig",
+      "age": 21,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/336224.png"
+    },
+    {
+      "id": 25460,
+      "name": "M. Sobottka",
+      "age": 31,
+      "number": 31,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/25460.png"
+    },
+    {
+      "id": 397740,
+      "name": "K. WÃ¤tjen",
+      "age": 35,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/397740.png"
+    },
+    {
+      "id": 389035,
+      "name": "Farid Alfa-Ruprecht",
+      "age": 19,
+      "number": 29,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/389035.png"
+    },
+    {
+      "id": 592764,
+      "name": "Alessandro Crimaldi",
+      "age": 18,
+      "number": 37,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/592764.png"
+    },
+    {
+      "id": 26287,
+      "name": "P. Hofmann",
+      "age": 32,
+      "number": 33,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/26287.png"
+    },
+    {
+      "id": 25919,
+      "name": "G. Holtmann",
+      "age": 30,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/25919.png"
+    },
+    {
+      "id": 334338,
+      "name": "L. Köster",
+      "age": 22,
+      "number": 45,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/334338.png"
+    },
+    {
+      "id": 344707,
+      "name": "C. Marshall",
+      "age": 21,
+      "number": 16,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/344707.png"
+    },
+    {
+      "id": 310131,
+      "name": "M. Rakneberg",
+      "age": 23,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/310131.png"
+    },
+    {
+      "id": 20648,
+      "name": "I. Sissoko",
+      "age": 30,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20648.png"
+    }
+  ]
+}

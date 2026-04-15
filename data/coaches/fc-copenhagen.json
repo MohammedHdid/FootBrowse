@@ -1,0 +1,26 @@
+{
+  "id": 5639,
+  "name": "J. Neestrup",
+  "photo": "https://media.api-sports.io/football/coachs/5639.png",
+  "nationality": "Denmark",
+  "age": 37,
+  "team_id": 400,
+  "team_slug": "fc-copenhagen",
+  "fetched_at": "2026-04-15T08:15:48.845Z",
+  "career": [
+    {
+      "team_id": 400,
+      "team_name": "FC Copenhagen",
+      "team_logo": "https://media.api-sports.io/football/teams/400.png",
+      "start": "2022-09-01",
+      "end": null
+    },
+    {
+      "team_id": 2070,
+      "team_name": "Viborg",
+      "team_logo": "https://media.api-sports.io/football/teams/2070.png",
+      "start": "2019-07-01",
+      "end": "2020-12-01"
+    }
+  ]
+}

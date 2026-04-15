@@ -1,0 +1,21 @@
+{
+  "player_id": 18931,
+  "slug": "c-wood",
+  "name": "C. Wood",
+  "api_photo": "https://media.api-sports.io/football/players/18931.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Nottingham Forest",
+      "club_logo": "https://media.api-sports.io/football/teams/65.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 36,
+      "goals": 20,
+      "assists": 3,
+      "minutes": 2978,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

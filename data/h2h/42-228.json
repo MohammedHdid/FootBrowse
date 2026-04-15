@@ -1,0 +1,91 @@
+{
+  "team1_id": 42,
+  "team2_id": 228,
+  "fetched_at": "2026-04-15T20:39:15.987Z",
+  "played": 6,
+  "team1_wins": 3,
+  "team2_wins": 0,
+  "draws": 3,
+  "team1_goals": 10,
+  "team2_goals": 4,
+  "last_matches": [
+    {
+      "fixture_id": 1534570,
+      "date": "2026-04-07",
+      "league": "UEFA Champions League",
+      "home_id": 228,
+      "home_name": "Sporting CP",
+      "home_logo": "https://media.api-sports.io/football/teams/228.png",
+      "away_id": 42,
+      "away_name": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1299063,
+      "date": "2024-11-26",
+      "league": "UEFA Champions League",
+      "home_id": 228,
+      "home_name": "Sporting CP",
+      "home_logo": "https://media.api-sports.io/football/teams/228.png",
+      "away_id": 42,
+      "away_name": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "home_score": 1,
+      "away_score": 5
+    },
+    {
+      "fixture_id": 1010827,
+      "date": "2023-03-16",
+      "league": "UEFA Europa League",
+      "home_id": 42,
+      "home_name": "Arsenal",
+      "home_logo": "https://media.api-sports.io/football/teams/42.png",
+      "away_id": 228,
+      "away_name": "Sporting CP",
+      "away_logo": "https://media.api-sports.io/football/teams/228.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1010826,
+      "date": "2023-03-09",
+      "league": "UEFA Europa League",
+      "home_id": 228,
+      "home_name": "Sporting CP",
+      "home_logo": "https://media.api-sports.io/football/teams/228.png",
+      "away_id": 42,
+      "away_name": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "home_score": 2,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 40803,
+      "date": "2018-11-08",
+      "league": "UEFA Europa League",
+      "home_id": 42,
+      "home_name": "Arsenal",
+      "home_logo": "https://media.api-sports.io/football/teams/42.png",
+      "away_id": 228,
+      "away_name": "Sporting CP",
+      "away_logo": "https://media.api-sports.io/football/teams/228.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 40768,
+      "date": "2018-10-25",
+      "league": "UEFA Europa League",
+      "home_id": 228,
+      "home_name": "Sporting CP",
+      "home_logo": "https://media.api-sports.io/football/teams/228.png",
+      "away_id": 42,
+      "away_name": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "home_score": 0,
+      "away_score": 1
+    }
+  ]
+}

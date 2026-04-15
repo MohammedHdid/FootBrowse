@@ -1,0 +1,248 @@
+{
+  "team_id": 606,
+  "team_slug": "fc-lugano",
+  "team_name": "FC Lugano",
+  "fetched_at": "2026-04-14T22:45:17.037Z",
+  "players": [
+    {
+      "id": 384129,
+      "name": "D. Mina",
+      "age": 20,
+      "number": 99,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/384129.png"
+    },
+    {
+      "id": 633068,
+      "name": "Ahmadou Ndiaye",
+      "age": 18,
+      "number": null,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/633068.png"
+    },
+    {
+      "id": 70532,
+      "name": "A. Saipi",
+      "age": 25,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/70532.png"
+    },
+    {
+      "id": 939,
+      "name": "D. von Ballmoos",
+      "age": 31,
+      "number": 16,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/939.png"
+    },
+    {
+      "id": 19133,
+      "name": "E. Alioski",
+      "age": 33,
+      "number": 7,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/19133.png"
+    },
+    {
+      "id": 50779,
+      "name": "Z. Brault-Guillard",
+      "age": 27,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/50779.png"
+    },
+    {
+      "id": 1411,
+      "name": "H. Delcroix",
+      "age": 26,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1411.png"
+    },
+    {
+      "id": 454456,
+      "name": "João Victor Schlickmann Carbone",
+      "age": 20,
+      "number": 44,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/454456.png"
+    },
+    {
+      "id": 381495,
+      "name": "D. Kelvin",
+      "age": 23,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/381495.png"
+    },
+    {
+      "id": 503,
+      "name": "L. Mai",
+      "age": 25,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/503.png"
+    },
+    {
+      "id": 336574,
+      "name": "Martim Marques",
+      "age": 21,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/336574.png"
+    },
+    {
+      "id": 26626,
+      "name": "A. Papadopoulos",
+      "age": 26,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/26626.png"
+    },
+    {
+      "id": 595009,
+      "name": "Aleksandar Radic",
+      "age": 18,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/595009.png"
+    },
+    {
+      "id": 322626,
+      "name": "M. Zanotti",
+      "age": 22,
+      "number": 46,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/322626.png"
+    },
+    {
+      "id": 67195,
+      "name": "H. Mahmoud",
+      "age": 25,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/67195.png"
+    },
+    {
+      "id": 125708,
+      "name": "U. Bislimi",
+      "age": 26,
+      "number": 25,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/125708.png"
+    },
+    {
+      "id": 48413,
+      "name": "M. Bottani",
+      "age": 34,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/48413.png"
+    },
+    {
+      "id": 354531,
+      "name": "C. Cassano",
+      "age": 22,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/354531.png"
+    },
+    {
+      "id": 193645,
+      "name": "Y. Cimignani",
+      "age": 23,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/193645.png"
+    },
+    {
+      "id": 303004,
+      "name": "Daniel Dos Santos",
+      "age": 23,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/303004.png"
+    },
+    {
+      "id": 48520,
+      "name": "A. Grgić",
+      "age": 29,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/48520.png"
+    },
+    {
+      "id": 4496,
+      "name": "A. Kendouci",
+      "age": 26,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/4496.png"
+    },
+    {
+      "id": 428081,
+      "name": "I. Maslarov",
+      "age": 18,
+      "number": 49,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/428081.png"
+    },
+    {
+      "id": 394182,
+      "name": "J. Parente",
+      "age": 19,
+      "number": 31,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/394182.png"
+    },
+    {
+      "id": 458180,
+      "name": "E. Pihlström",
+      "age": 19,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/458180.png"
+    },
+    {
+      "id": 25192,
+      "name": "K. Behrens",
+      "age": 34,
+      "number": 91,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/25192.png"
+    },
+    {
+      "id": 161579,
+      "name": "G. Koutsias",
+      "age": 21,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/161579.png"
+    },
+    {
+      "id": 84126,
+      "name": "H. Mahou",
+      "age": 26,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/84126.png"
+    },
+    {
+      "id": 595013,
+      "name": "Nicolo Puddu",
+      "age": 18,
+      "number": 32,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/595013.png"
+    },
+    {
+      "id": 2809,
+      "name": "R. Steffen",
+      "age": 34,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/2809.png"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1534911,
+  "fetched_at": "2026-04-15T20:56:57.499Z",
+  "advice": "Double chance : Bayern München or draw",
+  "winner_id": 157,
+  "winner_name": "Bayern München",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-3.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "56%",
+      "away": "44%"
+    },
+    "att": {
+      "home": "64%",
+      "away": "36%"
+    },
+    "def": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "poisson_distribution": {
+      "home": "71%",
+      "away": "29%"
+    },
+    "h2h": {
+      "home": "62%",
+      "away": "38%"
+    },
+    "goals": {
+      "home": "56%",
+      "away": "44%"
+    },
+    "total": {
+      "home": "59.8%",
+      "away": "40.2%"
+    }
+  }
+}

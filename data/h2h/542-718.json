@@ -1,0 +1,65 @@
+{
+  "team1_id": 542,
+  "team2_id": 718,
+  "fetched_at": "2026-04-15T20:50:10.383Z",
+  "played": 4,
+  "team1_wins": 1,
+  "team2_wins": 1,
+  "draws": 2,
+  "team1_goals": 3,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1390989,
+      "date": "2026-01-04",
+      "league": "La Liga",
+      "home_id": 542,
+      "home_name": "Alaves",
+      "home_logo": "https://media.api-sports.io/football/teams/542.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 878570,
+      "date": "2023-01-13",
+      "league": "Segunda División",
+      "home_id": 718,
+      "home_name": "Oviedo",
+      "home_logo": "https://media.api-sports.io/football/teams/718.png",
+      "away_id": 542,
+      "away_name": "Alaves",
+      "away_logo": "https://media.api-sports.io/football/teams/542.png",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 878454,
+      "date": "2022-10-29",
+      "league": "Segunda División",
+      "home_id": 542,
+      "home_name": "Alaves",
+      "home_logo": "https://media.api-sports.io/football/teams/542.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 959668,
+      "date": "2022-07-30",
+      "league": "Friendlies Clubs",
+      "home_id": 542,
+      "home_name": "Alaves",
+      "home_logo": "https://media.api-sports.io/football/teams/542.png",
+      "away_id": 718,
+      "away_name": "Oviedo",
+      "away_logo": "https://media.api-sports.io/football/teams/718.png",
+      "home_score": 0,
+      "away_score": 0
+    }
+  ]
+}

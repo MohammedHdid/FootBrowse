@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391134,
+  "fetched_at": "2026-04-15T20:59:57.624Z",
+  "advice": "Double chance : Osasuna or draw",
+  "winner_id": 727,
+  "winner_name": "Osasuna",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "60%",
+      "away": "40%"
+    },
+    "att": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "def": {
+      "home": "56%",
+      "away": "44%"
+    },
+    "poisson_distribution": {
+      "home": "63%",
+      "away": "37%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "total": {
+      "home": "56.2%",
+      "away": "43.8%"
+    }
+  }
+}

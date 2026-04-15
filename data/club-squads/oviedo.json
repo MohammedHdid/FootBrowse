@@ -1,0 +1,248 @@
+{
+  "team_id": 718,
+  "team_slug": "oviedo",
+  "team_name": "Oviedo",
+  "fetched_at": "2026-04-15T08:13:49.503Z",
+  "players": [
+    {
+      "id": 46673,
+      "name": "Aarón Escandell",
+      "age": 30,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/46673.png"
+    },
+    {
+      "id": 42642,
+      "name": "H. Moldovan",
+      "age": 27,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/42642.png"
+    },
+    {
+      "id": 297243,
+      "name": "Miguel Narváez",
+      "age": 23,
+      "number": 26,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/297243.png"
+    },
+    {
+      "id": 131548,
+      "name": "Lucas Ahijado",
+      "age": 30,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/131548.png"
+    },
+    {
+      "id": 295223,
+      "name": "R. Alhassane",
+      "age": 23,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/295223.png"
+    },
+    {
+      "id": 885,
+      "name": "E. Bailly",
+      "age": 31,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/885.png"
+    },
+    {
+      "id": 46966,
+      "name": "Dani Calvo",
+      "age": 31,
+      "number": 12,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/46966.png"
+    },
+    {
+      "id": 41970,
+      "name": "David Carmo",
+      "age": 26,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/41970.png"
+    },
+    {
+      "id": 47429,
+      "name": "David Costas",
+      "age": 30,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/47429.png"
+    },
+    {
+      "id": 640804,
+      "name": "Espi",
+      "age": 21,
+      "number": 33,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/640804.png"
+    },
+    {
+      "id": 647008,
+      "name": "Adri Fernández",
+      "age": 20,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/647008.png"
+    },
+    {
+      "id": 182636,
+      "name": "Javi López",
+      "age": 23,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/182636.png"
+    },
+    {
+      "id": 46657,
+      "name": "Nacho Vidal",
+      "age": 30,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/46657.png"
+    },
+    {
+      "id": 600938,
+      "name": "P. Agudin",
+      "age": 17,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/600938.png"
+    },
+    {
+      "id": 1695,
+      "name": "Santi Cazorla",
+      "age": 41,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1695.png"
+    },
+    {
+      "id": 30927,
+      "name": "S. Colombatto",
+      "age": 28,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/30927.png"
+    },
+    {
+      "id": 2922,
+      "name": "L. Dendoncker",
+      "age": 30,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2922.png"
+    },
+    {
+      "id": 19613,
+      "name": "O. Ejaria",
+      "age": 28,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/19613.png"
+    },
+    {
+      "id": 362750,
+      "name": "T. Fernández",
+      "age": 21,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/362750.png"
+    },
+    {
+      "id": 30690,
+      "name": "N. Fonseca",
+      "age": 27,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/30690.png"
+    },
+    {
+      "id": 38699,
+      "name": "L. Ilić",
+      "age": 26,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/38699.png"
+    },
+    {
+      "id": 562472,
+      "name": "D. Menendez",
+      "age": 20,
+      "number": 32,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/562472.png"
+    },
+    {
+      "id": 443152,
+      "name": "Cheli",
+      "age": 20,
+      "number": 31,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/443152.png"
+    },
+    {
+      "id": 182486,
+      "name": "Alberto Reina",
+      "age": 28,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/182486.png"
+    },
+    {
+      "id": 3608,
+      "name": "K. Sibo",
+      "age": 27,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/3608.png"
+    },
+    {
+      "id": 197513,
+      "name": "T. Borbas",
+      "age": 23,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/197513.png"
+    },
+    {
+      "id": 266202,
+      "name": "I. Chaira",
+      "age": 24,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/266202.png"
+    },
+    {
+      "id": 184194,
+      "name": "Álex Forés",
+      "age": 24,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/184194.png"
+    },
+    {
+      "id": 20844,
+      "name": "H. Hassan",
+      "age": 23,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20844.png"
+    },
+    {
+      "id": 51530,
+      "name": "F. Viñas",
+      "age": 27,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/51530.png"
+    }
+  ]
+}

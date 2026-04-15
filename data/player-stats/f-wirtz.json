@@ -1,0 +1,34 @@
+{
+  "player_id": 203224,
+  "slug": "f-wirtz",
+  "name": "F. Wirtz",
+  "api_photo": "https://media.api-sports.io/football/players/203224.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayer Leverkusen",
+      "club_logo": "https://media.api-sports.io/football/teams/168.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 31,
+      "goals": 10,
+      "assists": 12,
+      "minutes": 2354,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Liverpool",
+      "club_logo": "https://media.api-sports.io/football/teams/40.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 9,
+      "goals": 6,
+      "assists": 1,
+      "minutes": 764,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

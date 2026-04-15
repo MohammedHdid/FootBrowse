@@ -1,0 +1,256 @@
+{
+  "team_id": 3364,
+  "team_slug": "borac-banja-luka",
+  "team_name": "Borac Banja Luka",
+  "fetched_at": "2026-04-14T22:42:52.901Z",
+  "players": [
+    {
+      "id": 446130,
+      "name": "M. Jurkas",
+      "age": 18,
+      "number": 72,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/446130.png"
+    },
+    {
+      "id": 524408,
+      "name": "Srđan Modić",
+      "age": 31,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/524408.png"
+    },
+    {
+      "id": 55515,
+      "name": "D. Shishkovski",
+      "age": 30,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/55515.png"
+    },
+    {
+      "id": 37450,
+      "name": "J. Carolina",
+      "age": 27,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/37450.png"
+    },
+    {
+      "id": 316166,
+      "name": "D. Čulina",
+      "age": 21,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/316166.png"
+    },
+    {
+      "id": 381682,
+      "name": "C. Diouf",
+      "age": 26,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/381682.png"
+    },
+    {
+      "id": 109542,
+      "name": "S. Herrera",
+      "age": 30,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/109542.png"
+    },
+    {
+      "id": 109751,
+      "name": "N. Jakšić",
+      "age": 30,
+      "number": 30,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/109751.png"
+    },
+    {
+      "id": 137447,
+      "name": "Abel Pascual",
+      "age": 29,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/137447.png"
+    },
+    {
+      "id": 649062,
+      "name": "D. Radic",
+      "age": 26,
+      "number": 55,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/649062.png"
+    },
+    {
+      "id": 286376,
+      "name": "V. Rogan",
+      "age": 23,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/286376.png"
+    },
+    {
+      "id": 45936,
+      "name": "S. Saničanin",
+      "age": 30,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/45936.png"
+    },
+    {
+      "id": 337694,
+      "name": "D. Vrbić",
+      "age": 22,
+      "number": 33,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/337694.png"
+    },
+    {
+      "id": 200216,
+      "name": "D. Čavić",
+      "age": 23,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/200216.png"
+    },
+    {
+      "id": 1723,
+      "name": "S. Grahovac",
+      "age": 33,
+      "number": 15,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1723.png"
+    },
+    {
+      "id": 312351,
+      "name": "D. Hrelja",
+      "age": 24,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/312351.png"
+    },
+    {
+      "id": 49855,
+      "name": "M. Jojić",
+      "age": 33,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/49855.png"
+    },
+    {
+      "id": 105633,
+      "name": "S. Ogrinec",
+      "age": 27,
+      "number": 98,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/105633.png"
+    },
+    {
+      "id": 289704,
+      "name": "O. Radosevic",
+      "age": 22,
+      "number": 28,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/289704.png"
+    },
+    {
+      "id": 80207,
+      "name": "S. Savić",
+      "age": 31,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/80207.png"
+    },
+    {
+      "id": 202722,
+      "name": "O. Sijarić",
+      "age": 24,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/202722.png"
+    },
+    {
+      "id": 14595,
+      "name": "D. Skorup",
+      "age": 26,
+      "number": 88,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/14595.png"
+    },
+    {
+      "id": 76932,
+      "name": "S. Vranješ",
+      "age": 39,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/76932.png"
+    },
+    {
+      "id": 567431,
+      "name": "M. Deket",
+      "age": 16,
+      "number": 89,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/567431.png"
+    },
+    {
+      "id": 471874,
+      "name": "Pavle Đajić",
+      "age": 19,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/471874.png"
+    },
+    {
+      "id": 77040,
+      "name": "A. Hiroš",
+      "age": 29,
+      "number": 12,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/77040.png"
+    },
+    {
+      "id": 128717,
+      "name": "L. Juričić",
+      "age": 29,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/128717.png"
+    },
+    {
+      "id": 14284,
+      "name": "Z. Kvržić",
+      "age": 37,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/14284.png"
+    },
+    {
+      "id": 340092,
+      "name": "L. Misimović",
+      "age": 20,
+      "number": 80,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/340092.png"
+    },
+    {
+      "id": 134720,
+      "name": "K. Perić",
+      "age": 24,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/134720.png"
+    },
+    {
+      "id": 316338,
+      "name": "D. VukoviÄ",
+      "age": 22,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/316338.png"
+    }
+  ]
+}

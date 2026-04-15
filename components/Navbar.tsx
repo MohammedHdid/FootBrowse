@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navLinks = [
+  { href: "/leagues", label: "Leagues" },
   { href: "/matches", label: "Matches" },
   { href: "/teams", label: "Teams" },
   { href: "/stadiums", label: "Stadiums" },

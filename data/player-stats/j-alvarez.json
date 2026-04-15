@@ -1,0 +1,34 @@
+{
+  "player_id": 6009,
+  "slug": "j-alvarez",
+  "name": "J. Álvarez",
+  "api_photo": "https://media.api-sports.io/football/players/6009.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 37,
+      "goals": 17,
+      "assists": 4,
+      "minutes": 2518,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 10,
+      "goals": 7,
+      "assists": 1,
+      "minutes": 790,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

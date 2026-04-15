@@ -1,0 +1,33 @@
+{
+  "id": 15642,
+  "name": "C. Chivu",
+  "photo": "https://media.api-sports.io/football/coachs/15642.png",
+  "nationality": "Romania",
+  "age": 45,
+  "team_id": 505,
+  "team_slug": "inter",
+  "fetched_at": "2026-04-15T08:18:13.136Z",
+  "career": [
+    {
+      "team_id": 505,
+      "team_name": "Inter",
+      "team_logo": "https://media.api-sports.io/football/teams/505.png",
+      "start": "2025-06-01",
+      "end": null
+    },
+    {
+      "team_id": 523,
+      "team_name": "Parma",
+      "team_logo": "https://media.api-sports.io/football/teams/523.png",
+      "start": "2025-02-01",
+      "end": null
+    },
+    {
+      "team_id": 7903,
+      "team_name": "Internazionale U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7903.png",
+      "start": "2021-07-01",
+      "end": "2024-06-01"
+    }
+  ]
+}

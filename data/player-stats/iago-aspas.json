@@ -1,0 +1,21 @@
+{
+  "player_id": 47445,
+  "slug": "iago-aspas",
+  "name": "Iago Aspas",
+  "api_photo": "https://media.api-sports.io/football/players/47445.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Celta Vigo",
+      "club_logo": "https://media.api-sports.io/football/teams/538.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 30,
+      "goals": 10,
+      "assists": 5,
+      "minutes": 1745,
+      "yellow_cards": 5,
+      "red_cards": 0
+    }
+  ]
+}

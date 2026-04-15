@@ -1,0 +1,21 @@
+{
+  "player_id": 201279,
+  "slug": "goh-young-jun",
+  "name": "Goh Young-Jun",
+  "api_photo": "https://media.api-sports.io/football/players/201279.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "FK Partizan",
+      "club_logo": "https://media.api-sports.io/football/teams/573.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 13,
+      "goals": 7,
+      "assists": 1,
+      "minutes": 943,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "player_id": 2617,
+  "slug": "c-stuani",
+  "name": "C. Stuani",
+  "api_photo": "https://media.api-sports.io/football/players/2617.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Girona",
+      "club_logo": "https://media.api-sports.io/football/teams/547.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 38,
+      "goals": 11,
+      "assists": 2,
+      "minutes": 1068,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

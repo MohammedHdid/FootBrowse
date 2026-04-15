@@ -1,0 +1,21 @@
+{
+  "player_id": 115589,
+  "slug": "b-sesko",
+  "name": "B. Šeško",
+  "api_photo": "https://media.api-sports.io/football/players/115589.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "RB Leipzig",
+      "club_logo": "https://media.api-sports.io/football/teams/173.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 33,
+      "goals": 13,
+      "assists": 5,
+      "minutes": 2399,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

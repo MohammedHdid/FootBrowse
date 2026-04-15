@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "name": "J. Klopp",
+  "photo": "https://media.api-sports.io/football/coachs/1.png",
+  "nationality": "Germany",
+  "age": 58,
+  "team_id": 40,
+  "team_slug": "liverpool",
+  "fetched_at": "2026-04-14T22:39:46.619Z",
+  "career": [
+    {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "team_logo": "https://media.api-sports.io/football/teams/40.png",
+      "start": "2015-10-01",
+      "end": "2024-05-01"
+    },
+    {
+      "team_id": 165,
+      "team_name": "Borussia Dortmund",
+      "team_logo": "https://media.api-sports.io/football/teams/165.png",
+      "start": "2008-07-01",
+      "end": "2015-07-01"
+    },
+    {
+      "team_id": 164,
+      "team_name": "Mainz",
+      "team_logo": "https://media.api-sports.io/football/teams/164.png",
+      "start": "2001-02-01",
+      "end": "2008-06-01"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "team_id": 539,
+  "team_slug": "levante",
+  "team_name": "Levante",
+  "fetched_at": "2026-04-15T08:13:49.299Z",
+  "players": [
+    {
+      "id": 286611,
+      "name": "Pablo Cuñat",
+      "age": 23,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/286611.png"
+    },
+    {
+      "id": 338295,
+      "name": "Primo",
+      "age": 21,
+      "number": 32,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/338295.png"
+    },
+    {
+      "id": 450562,
+      "name": "Cayetano",
+      "age": 20,
+      "number": 34,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/450562.png"
+    },
+    {
+      "id": 585784,
+      "name": "A. Ruiz",
+      "age": 18,
+      "number": null,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/585784.png"
+    },
+    {
+      "id": 2741,
+      "name": "M. Ryan",
+      "age": 33,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/2741.png"
+    },
+    {
+      "id": 734,
+      "name": "Dela",
+      "age": 26,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/734.png"
+    },
+    {
+      "id": 46941,
+      "name": "Unai Elgezabal",
+      "age": 32,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/46941.png"
+    },
+    {
+      "id": 407597,
+      "name": "M. Krug",
+      "age": 19,
+      "number": 28,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/407597.png"
+    },
+    {
+      "id": 316517,
+      "name": "A. Matturro",
+      "age": 21,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/316517.png"
+    },
+    {
+      "id": 421807,
+      "name": "M. Moreno",
+      "age": 22,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/421807.png"
+    },
+    {
+      "id": 609795,
+      "name": "H. Nakoha",
+      "age": null,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/609795.png"
+    },
+    {
+      "id": 504605,
+      "name": "Nacho Pérez",
+      "age": 17,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/504605.png"
+    },
+    {
+      "id": 64309,
+      "name": "Manu Sánchez",
+      "age": 25,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/64309.png"
+    },
+    {
+      "id": 1118,
+      "name": "J. Toljan",
+      "age": 31,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1118.png"
+    },
+    {
+      "id": 104832,
+      "name": "Diego Pampín",
+      "age": 25,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/104832.png"
+    },
+    {
+      "id": 182770,
+      "name": "Carlos Álvarez",
+      "age": 22,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/182770.png"
+    },
+    {
+      "id": 125239,
+      "name": "K. Arriaga",
+      "age": 27,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/125239.png"
+    },
+    {
+      "id": 385383,
+      "name": "Dani Cervera",
+      "age": 22,
+      "number": 37,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/385383.png"
+    },
+    {
+      "id": 463279,
+      "name": "Paco Cortés",
+      "age": 18,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/463279.png"
+    },
+    {
+      "id": 104949,
+      "name": "Pablo Martínez",
+      "age": 27,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/104949.png"
+    },
+    {
+      "id": 182603,
+      "name": "Jon Ander Olasagasti",
+      "age": 25,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/182603.png"
+    },
+    {
+      "id": 334878,
+      "name": "U. Raghouber",
+      "age": 22,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/334878.png"
+    },
+    {
+      "id": 106727,
+      "name": "Oriol Rey",
+      "age": 27,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/106727.png"
+    },
+    {
+      "id": 610174,
+      "name": "P. Roson",
+      "age": 20,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/610174.png"
+    },
+    {
+      "id": 182639,
+      "name": "Unai Vencedor",
+      "age": 25,
+      "number": 12,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/182639.png"
+    },
+    {
+      "id": 328139,
+      "name": "T. Abed",
+      "age": 21,
+      "number": 55,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/328139.png"
+    },
+    {
+      "id": 47225,
+      "name": "Brugui",
+      "age": 29,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/47225.png"
+    },
+    {
+      "id": 645724,
+      "name": "F. Cortes",
+      "age": 18,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/645724.png"
+    },
+    {
+      "id": 450497,
+      "name": "Carlos Espí",
+      "age": 20,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/450497.png"
+    },
+    {
+      "id": 378284,
+      "name": "Etta Eyong",
+      "age": 22,
+      "number": 21,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/378284.png"
+    },
+    {
+      "id": 46790,
+      "name": "Víctor García",
+      "age": 28,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/46790.png"
+    },
+    {
+      "id": 644099,
+      "name": "Enrique Herrero",
+      "age": 21,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/644099.png"
+    },
+    {
+      "id": 128985,
+      "name": "Iker Losada",
+      "age": 24,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/128985.png"
+    },
+    {
+      "id": 47467,
+      "name": "José Luis Morales",
+      "age": 38,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/47467.png"
+    },
+    {
+      "id": 192032,
+      "name": "Iván Romero",
+      "age": 24,
+      "number": 9,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/192032.png"
+    },
+    {
+      "id": 579287,
+      "name": "K. Tunde",
+      "age": null,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/579287.png"
+    }
+  ]
+}

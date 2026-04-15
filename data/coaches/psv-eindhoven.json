@@ -1,0 +1,89 @@
+{
+  "id": 1532,
+  "name": "P. Bosz",
+  "photo": "https://media.api-sports.io/football/coachs/1532.png",
+  "nationality": "Netherlands",
+  "age": 62,
+  "team_id": 197,
+  "team_slug": "psv-eindhoven",
+  "fetched_at": "2026-04-15T08:22:37.408Z",
+  "career": [
+    {
+      "team_id": 197,
+      "team_name": "PSV",
+      "team_logo": "https://media.api-sports.io/football/teams/197.png",
+      "start": "2023-06-01",
+      "end": null
+    },
+    {
+      "team_id": 80,
+      "team_name": "Lyon",
+      "team_logo": "https://media.api-sports.io/football/teams/80.png",
+      "start": "2021-05-01",
+      "end": "2022-10-01"
+    },
+    {
+      "team_id": 168,
+      "team_name": "Bayer Leverkusen",
+      "team_logo": "https://media.api-sports.io/football/teams/168.png",
+      "start": "2019-01-01",
+      "end": "2021-03-01"
+    },
+    {
+      "team_id": 165,
+      "team_name": "Borussia Dortmund",
+      "team_logo": "https://media.api-sports.io/football/teams/165.png",
+      "start": "2017-06-01",
+      "end": "2017-12-01"
+    },
+    {
+      "team_id": 194,
+      "team_name": "Ajax",
+      "team_logo": "https://media.api-sports.io/football/teams/194.png",
+      "start": "2016-06-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 604,
+      "team_name": "Maccabi Tel Aviv",
+      "team_logo": "https://media.api-sports.io/football/teams/604.png",
+      "start": "2016-01-01",
+      "end": "2016-06-01"
+    },
+    {
+      "team_id": 200,
+      "team_name": "Vitesse",
+      "team_logo": "https://media.api-sports.io/football/teams/200.png",
+      "start": "2013-06-01",
+      "end": "2016-01-01"
+    },
+    {
+      "team_id": 206,
+      "team_name": "Heracles",
+      "team_logo": "https://media.api-sports.io/football/teams/206.png",
+      "start": "2010-07-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 206,
+      "team_name": "Heracles",
+      "team_logo": "https://media.api-sports.io/football/teams/206.png",
+      "start": "2004-07-01",
+      "end": "2006-06-01"
+    },
+    {
+      "team_id": 199,
+      "team_name": "De Graafschap",
+      "team_logo": "https://media.api-sports.io/football/teams/199.png",
+      "start": "2002-07-01",
+      "end": "2003-05-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "AGOVV",
+      "team_logo": null,
+      "start": "2000-07-01",
+      "end": "2002-06-01"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": 5662,
+  "name": "D. Moyes",
+  "photo": "https://media.api-sports.io/football/coachs/5662.png",
+  "nationality": "Scotland",
+  "age": 62,
+  "team_id": 45,
+  "team_slug": "everton",
+  "fetched_at": "2026-04-14T22:38:58.562Z",
+  "career": [
+    {
+      "team_id": 45,
+      "team_name": "Everton",
+      "team_logo": "https://media.api-sports.io/football/teams/45.png",
+      "start": "2025-01-01",
+      "end": null
+    },
+    {
+      "team_id": 48,
+      "team_name": "West Ham United",
+      "team_logo": "https://media.api-sports.io/football/teams/48.png",
+      "start": "2019-12-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 48,
+      "team_name": "West Ham United",
+      "team_logo": "https://media.api-sports.io/football/teams/48.png",
+      "start": "2017-11-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 746,
+      "team_name": "Sunderland",
+      "team_logo": "https://media.api-sports.io/football/teams/746.png",
+      "start": "2016-07-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 548,
+      "team_name": "Real Sociedad",
+      "team_logo": "https://media.api-sports.io/football/teams/548.png",
+      "start": "2014-11-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 33,
+      "team_name": "Manchester United",
+      "team_logo": "https://media.api-sports.io/football/teams/33.png",
+      "start": "2013-06-01",
+      "end": "2014-04-01"
+    },
+    {
+      "team_id": 45,
+      "team_name": "Everton",
+      "team_logo": "https://media.api-sports.io/football/teams/45.png",
+      "start": "2002-03-01",
+      "end": "2013-05-01"
+    },
+    {
+      "team_id": 59,
+      "team_name": "Preston North End",
+      "team_logo": "https://media.api-sports.io/football/teams/59.png",
+      "start": "1998-01-01",
+      "end": "2002-03-01"
+    }
+  ]
+}

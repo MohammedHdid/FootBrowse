@@ -1,0 +1,21 @@
+{
+  "player_id": 40485,
+  "slug": "jesus-imaz",
+  "name": "Jesús Imaz",
+  "api_photo": "https://media.api-sports.io/football/players/40485.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Jagiellonia",
+      "club_logo": "https://media.api-sports.io/football/teams/336.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 12,
+      "goals": 4,
+      "assists": 4,
+      "minutes": 1004,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

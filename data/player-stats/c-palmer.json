@@ -1,0 +1,21 @@
+{
+  "player_id": 152982,
+  "slug": "c-palmer",
+  "name": "C. Palmer",
+  "api_photo": "https://media.api-sports.io/football/players/152982.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Chelsea",
+      "club_logo": "https://media.api-sports.io/football/teams/49.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 37,
+      "goals": 15,
+      "assists": 8,
+      "minutes": 3199,
+      "yellow_cards": 7,
+      "red_cards": 0
+    }
+  ]
+}

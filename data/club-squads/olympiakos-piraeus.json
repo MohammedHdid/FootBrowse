@@ -1,0 +1,240 @@
+{
+  "team_id": 553,
+  "team_slug": "olympiakos-piraeus",
+  "team_name": "Olympiakos Piraeus",
+  "fetched_at": "2026-04-15T08:21:31.336Z",
+  "players": [
+    {
+      "id": 573738,
+      "name": "N. Botis",
+      "age": 21,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/573738.png"
+    },
+    {
+      "id": 343194,
+      "name": "N. Botis",
+      "age": 21,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/343194.png"
+    },
+    {
+      "id": 451997,
+      "name": "G. Kouraklis",
+      "age": 18,
+      "number": 61,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/451997.png"
+    },
+    {
+      "id": 2355,
+      "name": "A. Paschalakis",
+      "age": 36,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/2355.png"
+    },
+    {
+      "id": 1591,
+      "name": "K. Tzolakis",
+      "age": 23,
+      "number": 88,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/1591.png"
+    },
+    {
+      "id": 84081,
+      "name": "G. Biancone",
+      "age": 25,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/84081.png"
+    },
+    {
+      "id": 204037,
+      "name": "Costinha",
+      "age": 25,
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/204037.png"
+    },
+    {
+      "id": 313222,
+      "name": "A. Kalogeropoulos",
+      "age": 21,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/313222.png"
+    },
+    {
+      "id": 278196,
+      "name": "S. Onyemaechi",
+      "age": 26,
+      "number": 70,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/278196.png"
+    },
+    {
+      "id": 6064,
+      "name": "F. Ortega",
+      "age": 26,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/6064.png"
+    },
+    {
+      "id": 134431,
+      "name": "L. Pirola",
+      "age": 23,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/134431.png"
+    },
+    {
+      "id": 971,
+      "name": "P. Retsos",
+      "age": 27,
+      "number": 45,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/971.png"
+    },
+    {
+      "id": 10157,
+      "name": "Rodinei",
+      "age": 33,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/10157.png"
+    },
+    {
+      "id": 47457,
+      "name": "Rúben Vezo",
+      "age": 31,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/47457.png"
+    },
+    {
+      "id": 41130,
+      "name": "Chiquinho",
+      "age": 30,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/41130.png"
+    },
+    {
+      "id": 47281,
+      "name": "Dani García",
+      "age": 35,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/47281.png"
+    },
+    {
+      "id": 195929,
+      "name": "S. Hezze",
+      "age": 24,
+      "number": 32,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/195929.png"
+    },
+    {
+      "id": 586500,
+      "name": "Asteris Konstantinidis",
+      "age": 16,
+      "number": 44,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/586500.png"
+    },
+    {
+      "id": 443716,
+      "name": "A. Liatsikouras",
+      "age": 17,
+      "number": 67,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/443716.png"
+    },
+    {
+      "id": 392514,
+      "name": "C. Mouzakitis",
+      "age": 19,
+      "number": 96,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/392514.png"
+    },
+    {
+      "id": 162481,
+      "name": "Diogo Nascimento",
+      "age": 23,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/162481.png"
+    },
+    {
+      "id": 364513,
+      "name": "L. Scipioni",
+      "age": 21,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/364513.png"
+    },
+    {
+      "id": 49888,
+      "name": "Y. Yazıcı",
+      "age": 29,
+      "number": 97,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/49888.png"
+    },
+    {
+      "id": 325717,
+      "name": "André Luiz",
+      "age": 23,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/325717.png"
+    },
+    {
+      "id": 195580,
+      "name": "Clayton",
+      "age": 26,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/195580.png"
+    },
+    {
+      "id": 2722,
+      "name": "A. El Kaabi",
+      "age": 32,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/2722.png"
+    },
+    {
+      "id": 118,
+      "name": "Gelson Martins",
+      "age": 30,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/118.png"
+    },
+    {
+      "id": 1605,
+      "name": "Daniel Podence",
+      "age": 30,
+      "number": 56,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1605.png"
+    },
+    {
+      "id": 42315,
+      "name": "M. Taremi",
+      "age": 33,
+      "number": 99,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/42315.png"
+    }
+  ]
+}

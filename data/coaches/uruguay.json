@@ -1,0 +1,124 @@
+{
+  "id": 362,
+  "name": "Ó. Tabárez",
+  "photo": "https://media.api-sports.io/football/coachs/362.png",
+  "nationality": "Uruguay",
+  "age": 78,
+  "team_id": 7,
+  "team_slug": "uruguay",
+  "fetched_at": "2026-04-15T13:12:09.973Z",
+  "career": [
+    {
+      "team_id": 7,
+      "team_name": "Uruguay",
+      "team_logo": "https://media.api-sports.io/football/teams/7.png",
+      "start": "2018-09-01",
+      "end": "2021-11-01"
+    },
+    {
+      "team_id": 10185,
+      "team_name": "Uruguay U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10185.png",
+      "start": "2012-07-01",
+      "end": "2012-08-01"
+    },
+    {
+      "team_id": 7,
+      "team_name": "Uruguay",
+      "team_logo": "https://media.api-sports.io/football/teams/7.png",
+      "start": "2006-03-01",
+      "end": "2018-08-01"
+    },
+    {
+      "team_id": 451,
+      "team_name": "Boca Juniors",
+      "team_logo": "https://media.api-sports.io/football/teams/451.png",
+      "start": "2001-07-01",
+      "end": "2002-06-01"
+    },
+    {
+      "team_id": 438,
+      "team_name": "Vélez Sarsfield",
+      "team_logo": "https://media.api-sports.io/football/teams/438.png",
+      "start": "2000-07-01",
+      "end": "2001-06-01"
+    },
+    {
+      "team_id": 718,
+      "team_name": "Real Oviedo",
+      "team_logo": "https://media.api-sports.io/football/teams/718.png",
+      "start": "1997-07-01",
+      "end": "1998-06-01"
+    },
+    {
+      "team_id": 489,
+      "team_name": "AC Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/489.png",
+      "start": "1996-07-01",
+      "end": "1997-06-01"
+    },
+    {
+      "team_id": 490,
+      "team_name": "Cagliari",
+      "team_logo": "https://media.api-sports.io/football/teams/490.png",
+      "start": "1994-07-01",
+      "end": "1995-06-01"
+    },
+    {
+      "team_id": 2348,
+      "team_name": "Peñarol",
+      "team_logo": "https://media.api-sports.io/football/teams/2348.png",
+      "start": "1993-07-01",
+      "end": "1994-06-01"
+    },
+    {
+      "team_id": 451,
+      "team_name": "Boca Juniors",
+      "team_logo": "https://media.api-sports.io/football/teams/451.png",
+      "start": "1991-07-01",
+      "end": "1992-06-01"
+    },
+    {
+      "team_id": 7,
+      "team_name": "Uruguay",
+      "team_logo": "https://media.api-sports.io/football/teams/7.png",
+      "start": "1989-01-01",
+      "end": "1991-06-01"
+    },
+    {
+      "team_id": 1127,
+      "team_name": "Deportivo Cali",
+      "team_logo": "https://media.api-sports.io/football/teams/1127.png",
+      "start": "1988-07-01",
+      "end": "1988-12-01"
+    },
+    {
+      "team_id": 2348,
+      "team_name": "Peñarol",
+      "team_logo": "https://media.api-sports.io/football/teams/2348.png",
+      "start": "1987-01-01",
+      "end": "1987-12-01"
+    },
+    {
+      "team_id": 2360,
+      "team_name": "Wanderers",
+      "team_logo": "https://media.api-sports.io/football/teams/2360.png",
+      "start": "1985-01-01",
+      "end": "1985-12-01"
+    },
+    {
+      "team_id": 2352,
+      "team_name": "Danubio",
+      "team_logo": "https://media.api-sports.io/football/teams/2352.png",
+      "start": "1984-01-01",
+      "end": "1984-12-01"
+    },
+    {
+      "team_id": 2996,
+      "team_name": "Bella Vista",
+      "team_logo": "https://media.api-sports.io/football/teams/2996.png",
+      "start": "1980-01-01",
+      "end": "1983-12-01"
+    }
+  ]
+}

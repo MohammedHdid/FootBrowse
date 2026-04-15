@@ -27,6 +27,12 @@ const POSITION_MAP: Record<string, PositionStyle> = {
   "Right Midfield":   { color: "#22C55E", bg: "rgba(34,197,94,0.12)", border: "rgba(34,197,94,0.3)", label: "RM" },
   "Left Midfield":    { color: "#22C55E", bg: "rgba(34,197,94,0.12)", border: "rgba(34,197,94,0.3)", label: "LM" },
 
+  // API-Football simple positions (club squads)
+  Defender:           { color: "#3B82F6", bg: "rgba(59,130,246,0.12)", border: "rgba(59,130,246,0.3)", label: "DEF" },
+  Midfielder:         { color: "#22C55E", bg: "rgba(34,197,94,0.12)",  border: "rgba(34,197,94,0.3)",  label: "MID" },
+  Forward:            { color: "#EF4444", bg: "rgba(239,68,68,0.12)",  border: "rgba(239,68,68,0.3)",  label: "FWD" },
+  Attacker:           { color: "#EF4444", bg: "rgba(239,68,68,0.12)",  border: "rgba(239,68,68,0.3)",  label: "FWD" },
+
   // Attackers
   Offence:            { color: "#EF4444", bg: "rgba(239,68,68,0.12)", border: "rgba(239,68,68,0.3)", label: "FWD" },
   "Centre-Forward":   { color: "#EF4444", bg: "rgba(239,68,68,0.12)", border: "rgba(239,68,68,0.3)", label: "CF" },

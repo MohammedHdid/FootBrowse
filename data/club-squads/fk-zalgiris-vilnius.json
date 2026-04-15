@@ -1,0 +1,232 @@
+{
+  "team_id": 586,
+  "team_slug": "fk-zalgiris-vilnius",
+  "team_name": "FK Zalgiris Vilnius",
+  "fetched_at": "2026-04-15T08:17:18.968Z",
+  "players": [
+    {
+      "id": 557860,
+      "name": "D. Cekavicius",
+      "age": 17,
+      "number": 95,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/557860.png"
+    },
+    {
+      "id": 5905,
+      "name": "C. Olses",
+      "age": 25,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/5905.png"
+    },
+    {
+      "id": 540166,
+      "name": "V. Sarkauskas",
+      "age": 26,
+      "number": 12,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/540166.png"
+    },
+    {
+      "id": 14466,
+      "name": "P. Bosančić",
+      "age": 29,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/14466.png"
+    },
+    {
+      "id": 55917,
+      "name": "Y. Kendysh",
+      "age": 35,
+      "number": 77,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/55917.png"
+    },
+    {
+      "id": 311243,
+      "name": "S. Mamatsashvili",
+      "age": 23,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/311243.png"
+    },
+    {
+      "id": 491167,
+      "name": "V. Pavilonis",
+      "age": 18,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/491167.png"
+    },
+    {
+      "id": 315785,
+      "name": "M. Šetkus",
+      "age": 20,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/315785.png"
+    },
+    {
+      "id": 96880,
+      "name": "G. Turda",
+      "age": 28,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/96880.png"
+    },
+    {
+      "id": 70016,
+      "name": "K. Upstas",
+      "age": 31,
+      "number": 13,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/70016.png"
+    },
+    {
+      "id": 540094,
+      "name": "K. Bicka",
+      "age": 20,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/540094.png"
+    },
+    {
+      "id": 340671,
+      "name": "M. Capan",
+      "age": 21,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/340671.png"
+    },
+    {
+      "id": 55902,
+      "name": "P. Golubickas",
+      "age": 26,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/55902.png"
+    },
+    {
+      "id": 69921,
+      "name": "G. Jarusevičius",
+      "age": 22,
+      "number": 9,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/69921.png"
+    },
+    {
+      "id": 69898,
+      "name": "G. Matulevičius",
+      "age": 28,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/69898.png"
+    },
+    {
+      "id": 69941,
+      "name": "D. Šešplaukis",
+      "age": 27,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/69941.png"
+    },
+    {
+      "id": 392565,
+      "name": "U. Simonavičius",
+      "age": 19,
+      "number": 28,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/392565.png"
+    },
+    {
+      "id": 338732,
+      "name": "D. Stankevičius",
+      "age": 21,
+      "number": 88,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/338732.png"
+    },
+    {
+      "id": 69900,
+      "name": "O. Verbickas",
+      "age": 32,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/69900.png"
+    },
+    {
+      "id": 641938,
+      "name": "S. Abdulrahman",
+      "age": 19,
+      "number": null,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/641938.png"
+    },
+    {
+      "id": 69912,
+      "name": "L. Antal",
+      "age": 36,
+      "number": 8,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/69912.png"
+    },
+    {
+      "id": 388815,
+      "name": "N. Klimavičius",
+      "age": 20,
+      "number": 33,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/388815.png"
+    },
+    {
+      "id": 484443,
+      "name": "K. LukaševiÄ",
+      "age": 19,
+      "number": 42,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/484443.png"
+    },
+    {
+      "id": 540096,
+      "name": "P. Matyzonok",
+      "age": 19,
+      "number": 44,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/540096.png"
+    },
+    {
+      "id": 36988,
+      "name": "N. Mihajlović",
+      "age": 29,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/36988.png"
+    },
+    {
+      "id": 45380,
+      "name": "N. Petković",
+      "age": 29,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/45380.png"
+    },
+    {
+      "id": 20786,
+      "name": "Bryan Teixeira",
+      "age": 25,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20786.png"
+    },
+    {
+      "id": 69918,
+      "name": "M. Vareika",
+      "age": 25,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/69918.png"
+    }
+  ]
+}

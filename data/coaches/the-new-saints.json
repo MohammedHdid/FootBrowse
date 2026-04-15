@@ -1,0 +1,61 @@
+{
+  "id": 9319,
+  "name": "C. Harrison",
+  "photo": "https://media.api-sports.io/football/coachs/9319.png",
+  "nationality": "England",
+  "age": 48,
+  "team_id": 354,
+  "team_slug": "the-new-saints",
+  "fetched_at": "2026-04-15T08:25:13.888Z",
+  "career": [
+    {
+      "team_id": 354,
+      "team_name": "The New Saints",
+      "team_logo": "https://media.api-sports.io/football/teams/354.png",
+      "start": "2022-08-01",
+      "end": null
+    },
+    {
+      "team_id": 357,
+      "team_name": "Connah's Quay",
+      "team_logo": "https://media.api-sports.io/football/teams/357.png",
+      "start": "2021-09-01",
+      "end": "2022-08-01"
+    },
+    {
+      "team_id": 1366,
+      "team_name": "Hartlepool United",
+      "team_logo": "https://media.api-sports.io/football/teams/1366.png",
+      "start": "2017-05-01",
+      "end": "2018-02-01"
+    },
+    {
+      "team_id": 354,
+      "team_name": "The New Saints",
+      "team_logo": "https://media.api-sports.io/football/teams/354.png",
+      "start": "2011-12-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 4909,
+      "team_name": "Airbus UK",
+      "team_logo": "https://media.api-sports.io/football/teams/4909.png",
+      "start": "2011-09-01",
+      "end": "2011-12-01"
+    },
+    {
+      "team_id": 5343,
+      "team_name": "H&W Welders",
+      "team_logo": "https://media.api-sports.io/football/teams/5343.png",
+      "start": "2010-08-01",
+      "end": "2011-09-01"
+    },
+    {
+      "team_id": 4909,
+      "team_name": "Airbus UK",
+      "team_logo": "https://media.api-sports.io/football/teams/4909.png",
+      "start": "2008-08-01",
+      "end": "2009-07-01"
+    }
+  ]
+}

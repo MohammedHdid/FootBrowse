@@ -1,0 +1,21 @@
+{
+  "player_id": 9,
+  "slug": "a-hakimi",
+  "name": "A. Hakimi",
+  "api_photo": "https://media.api-sports.io/football/players/9.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Paris Saint Germain",
+      "club_logo": "https://media.api-sports.io/football/teams/85.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 17,
+      "goals": 4,
+      "assists": 5,
+      "minutes": 1541,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

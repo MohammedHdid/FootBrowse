@@ -1,0 +1,224 @@
+{
+  "team_id": 354,
+  "team_slug": "the-new-saints",
+  "team_name": "The New Saints",
+  "fetched_at": "2026-04-15T08:25:07.854Z",
+  "players": [
+    {
+      "id": 363369,
+      "name": "J. Edwards",
+      "age": 20,
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/363369.png"
+    },
+    {
+      "id": 559883,
+      "name": "B. Owen",
+      "age": null,
+      "number": 38,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/559883.png"
+    },
+    {
+      "id": 297140,
+      "name": "N. Shepperd",
+      "age": 25,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/297140.png"
+    },
+    {
+      "id": 53164,
+      "name": "J. Bodenham",
+      "age": 26,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/53164.png"
+    },
+    {
+      "id": 144793,
+      "name": "D. Davies",
+      "age": 30,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/144793.png"
+    },
+    {
+      "id": 634108,
+      "name": "E. Farrell",
+      "age": 23,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/634108.png"
+    },
+    {
+      "id": 278115,
+      "name": "Harvey George Godsmark-Ford",
+      "age": 22,
+      "number": 12,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/278115.png"
+    },
+    {
+      "id": 45292,
+      "name": "J. Marshall",
+      "age": 29,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/45292.png"
+    },
+    {
+      "id": 20461,
+      "name": "H. McGahey",
+      "age": 30,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/20461.png"
+    },
+    {
+      "id": 481210,
+      "name": "J. Owen",
+      "age": 20,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/481210.png"
+    },
+    {
+      "id": 53172,
+      "name": "B. Clark",
+      "age": 25,
+      "number": 19,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/53172.png"
+    },
+    {
+      "id": 284253,
+      "name": "D. Corness",
+      "age": 22,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/284253.png"
+    },
+    {
+      "id": 329346,
+      "name": "Jack Richard Nadin",
+      "age": 21,
+      "number": 24,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/329346.png"
+    },
+    {
+      "id": 53175,
+      "name": "D. Redmond",
+      "age": 34,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/53175.png"
+    },
+    {
+      "id": 53239,
+      "name": "L. Smith",
+      "age": 27,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/53239.png"
+    },
+    {
+      "id": 613802,
+      "name": "B. Summers",
+      "age": 18,
+      "number": 35,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/613802.png"
+    },
+    {
+      "id": 231063,
+      "name": "D. Williams",
+      "age": 24,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/231063.png"
+    },
+    {
+      "id": 449418,
+      "name": "Daniel Barton",
+      "age": 20,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/449418.png"
+    },
+    {
+      "id": 53171,
+      "name": "R. Brobbel",
+      "age": 32,
+      "number": 8,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/53171.png"
+    },
+    {
+      "id": 179729,
+      "name": "K. Charles",
+      "age": 25,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/179729.png"
+    },
+    {
+      "id": 20253,
+      "name": "R. Holden",
+      "age": 28,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20253.png"
+    },
+    {
+      "id": 400940,
+      "name": "Isaac Jefferies",
+      "age": 20,
+      "number": 37,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/400940.png"
+    },
+    {
+      "id": 559857,
+      "name": "J. Morris",
+      "age": 21,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/559857.png"
+    },
+    {
+      "id": 20249,
+      "name": "J. Williams",
+      "age": 33,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20249.png"
+    },
+    {
+      "id": 171052,
+      "name": "A. Wilson",
+      "age": 25,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/171052.png"
+    },
+    {
+      "id": 159437,
+      "name": "B. Wilson",
+      "age": 24,
+      "number": 28,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/159437.png"
+    },
+    {
+      "id": 613804,
+      "name": "L. Wynne",
+      "age": 17,
+      "number": 41,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/613804.png"
+    }
+  ]
+}

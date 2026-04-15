@@ -129,6 +129,8 @@ export interface SyncedPlayer {
   teamName: string;
   teamSlug: string;
   teamCrest: string;
+  /** Set for club players — links the team page to /leagues/[slug]/teams/[team] */
+  primaryLeagueSlug?: string;
 }
 
 /** players-by-team.json shape: teamSlug → array of players */

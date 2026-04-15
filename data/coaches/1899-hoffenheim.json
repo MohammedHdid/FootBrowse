@@ -1,0 +1,61 @@
+{
+  "id": 1918,
+  "name": "C. Ilzer",
+  "photo": "https://media.api-sports.io/football/coachs/1918.png",
+  "nationality": "Austria",
+  "age": 48,
+  "team_id": 167,
+  "team_slug": "1899-hoffenheim",
+  "fetched_at": "2026-04-14T22:30:34.362Z",
+  "career": [
+    {
+      "team_id": 167,
+      "team_name": "Hoffenheim",
+      "team_logo": "https://media.api-sports.io/football/teams/167.png",
+      "start": "2024-11-01",
+      "end": null
+    },
+    {
+      "team_id": 637,
+      "team_name": "Sturm Graz",
+      "team_logo": "https://media.api-sports.io/football/teams/637.png",
+      "start": "2020-07-01",
+      "end": "2024-11-01"
+    },
+    {
+      "team_id": 601,
+      "team_name": "Austria Vienna",
+      "team_logo": "https://media.api-sports.io/football/teams/601.png",
+      "start": "2019-07-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 1025,
+      "team_name": "Wolfsberger AC",
+      "team_logo": "https://media.api-sports.io/football/teams/1025.png",
+      "start": "2018-06-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 1072,
+      "team_name": "Hartberg",
+      "team_logo": "https://media.api-sports.io/football/teams/1072.png",
+      "start": "2017-07-01",
+      "end": "2018-05-01"
+    },
+    {
+      "team_id": 1072,
+      "team_name": "Hartberg",
+      "team_logo": "https://media.api-sports.io/football/teams/1072.png",
+      "start": "2015-07-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 1396,
+      "team_name": "Wiener Neustadt",
+      "team_logo": "https://media.api-sports.io/football/teams/1396.png",
+      "start": "2014-11-01",
+      "end": "2014-12-01"
+    }
+  ]
+}

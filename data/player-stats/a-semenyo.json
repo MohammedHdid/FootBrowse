@@ -1,0 +1,21 @@
+{
+  "player_id": 19281,
+  "slug": "a-semenyo",
+  "name": "A. Semenyo",
+  "api_photo": "https://media.api-sports.io/football/players/19281.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bournemouth",
+      "club_logo": "https://media.api-sports.io/football/teams/35.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 37,
+      "goals": 11,
+      "assists": 5,
+      "minutes": 3209,
+      "yellow_cards": 9,
+      "red_cards": 0
+    }
+  ]
+}

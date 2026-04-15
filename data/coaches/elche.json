@@ -1,0 +1,26 @@
+{
+  "id": 13843,
+  "name": "Eder Sarabia",
+  "photo": "https://media.api-sports.io/football/coachs/13843.png",
+  "nationality": "Spain",
+  "age": 44,
+  "team_id": 797,
+  "team_slug": "elche",
+  "fetched_at": "2026-04-15T08:13:49.205Z",
+  "career": [
+    {
+      "team_id": 797,
+      "team_name": "Elche",
+      "team_logo": "https://media.api-sports.io/football/teams/797.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 8157,
+      "team_name": "FC Andorra",
+      "team_logo": "https://media.api-sports.io/football/teams/8157.png",
+      "start": "2021-01-01",
+      "end": "2024-03-01"
+    }
+  ]
+}

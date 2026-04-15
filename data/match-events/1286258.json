@@ -1,0 +1,202 @@
+{
+  "fixture_id": 1286258,
+  "fetched_at": "2026-04-14T21:37:04.174Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 12,
+      "extra": null,
+      "team_id": 571,
+      "player": "A. Daghim",
+      "assist": "M. Kjærgaard",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 29,
+      "extra": null,
+      "team_id": 572,
+      "player": "V. Vanat",
+      "assist": "T. Mykhavko",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 31,
+      "extra": null,
+      "team_id": 572,
+      "player": "Denys Popov",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 32,
+      "extra": null,
+      "team_id": 572,
+      "player": "Taras Mykhavko",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 571,
+      "player": "M. Kjærgaard",
+      "assist": "D. Nene",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 571,
+      "player": "N. Capaldo",
+      "assist": "M. Diambou",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 572,
+      "player": "Vladyslav Vanat",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 572,
+      "player": "A. Yarmolenko",
+      "assist": "N. Voloshyn",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 571,
+      "player": "Mamady Diambou",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 571,
+      "player": "M. Bidstrup",
+      "assist": "L. Gourna-Douath",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 571,
+      "player": "A. Daghim",
+      "assist": "P. Ratkov",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 572,
+      "player": "V. Brazhko",
+      "assist": "M. Mykhailenko",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 572,
+      "player": "V. Kabaiev",
+      "assist": "M. Braharu",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 571,
+      "player": "Lucas Gourna-Douath",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 572,
+      "player": "Vladyslav Dubinchak",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 572,
+      "player": "O. Tymchyk",
+      "assist": "V. Supriaha",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 572,
+      "player": "D. Popov",
+      "assist": "K. Bilovar",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 572,
+      "player": "Kristian Bilovar",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 571,
+      "player": "I. Van der Brempt",
+      "assist": "H. Blank",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 571,
+    "possession": 40,
+    "shots_on": 3,
+    "shots_total": 12,
+    "corners": 6,
+    "fouls": 12,
+    "yellow_cards": 2,
+    "red_cards": null
+  },
+  "away_stats": {
+    "team_id": 572,
+    "possession": 60,
+    "shots_on": 1,
+    "shots_total": 19,
+    "corners": 16,
+    "fouls": 8,
+    "yellow_cards": 5,
+    "red_cards": null
+  }
+}

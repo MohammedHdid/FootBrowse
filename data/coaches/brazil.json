@@ -1,0 +1,96 @@
+{
+  "id": 2407,
+  "name": "C. Ancelotti",
+  "photo": "https://media.api-sports.io/football/coachs/2407.png",
+  "nationality": "Italy",
+  "age": 66,
+  "team_id": 6,
+  "team_slug": "brazil",
+  "fetched_at": "2026-04-15T13:11:52.336Z",
+  "career": [
+    {
+      "team_id": 6,
+      "team_name": "Brazil",
+      "team_logo": "https://media.api-sports.io/football/teams/6.png",
+      "start": "2025-05-01",
+      "end": null
+    },
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "2021-06-01",
+      "end": "2025-05-01"
+    },
+    {
+      "team_id": 45,
+      "team_name": "Everton",
+      "team_logo": "https://media.api-sports.io/football/teams/45.png",
+      "start": "2019-12-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 492,
+      "team_name": "Napoli",
+      "team_logo": "https://media.api-sports.io/football/teams/492.png",
+      "start": "2018-05-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern Munich",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2016-07-01",
+      "end": "2017-09-01"
+    },
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "2013-06-01",
+      "end": "2015-05-01"
+    },
+    {
+      "team_id": 85,
+      "team_name": "PSG",
+      "team_logo": "https://media.api-sports.io/football/teams/85.png",
+      "start": "2011-12-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 49,
+      "team_name": "Chelsea",
+      "team_logo": "https://media.api-sports.io/football/teams/49.png",
+      "start": "2009-07-01",
+      "end": "2011-05-01"
+    },
+    {
+      "team_id": 489,
+      "team_name": "AC Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/489.png",
+      "start": "2001-11-01",
+      "end": "2009-05-01"
+    },
+    {
+      "team_id": 496,
+      "team_name": "Juventus",
+      "team_logo": "https://media.api-sports.io/football/teams/496.png",
+      "start": "1999-02-01",
+      "end": "2001-06-01"
+    },
+    {
+      "team_id": 523,
+      "team_name": "Parma",
+      "team_logo": "https://media.api-sports.io/football/teams/523.png",
+      "start": "1996-07-01",
+      "end": "1998-06-01"
+    },
+    {
+      "team_id": 880,
+      "team_name": "Reggiana",
+      "team_logo": "https://media.api-sports.io/football/teams/880.png",
+      "start": "1995-07-01",
+      "end": "1996-06-01"
+    }
+  ]
+}

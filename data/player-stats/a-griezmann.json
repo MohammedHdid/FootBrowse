@@ -1,0 +1,34 @@
+{
+  "player_id": 56,
+  "slug": "a-griezmann",
+  "name": "A. Griezmann",
+  "api_photo": "https://media.api-sports.io/football/players/56.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 38,
+      "goals": 8,
+      "assists": 7,
+      "minutes": 2478,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Atletico Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/530.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 10,
+      "goals": 6,
+      "assists": 2,
+      "minutes": 734,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

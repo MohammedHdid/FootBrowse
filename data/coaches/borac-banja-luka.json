@@ -1,0 +1,68 @@
+{
+  "id": 3332,
+  "name": "T. Ivković",
+  "photo": "https://media.api-sports.io/football/coachs/3332.png",
+  "nationality": "Croatia",
+  "age": 65,
+  "team_id": 3364,
+  "team_slug": "borac-banja-luka",
+  "fetched_at": "2026-04-14T22:42:58.906Z",
+  "career": [
+    {
+      "team_id": 3364,
+      "team_name": "Borac Banja Luka",
+      "team_logo": "https://media.api-sports.io/football/teams/3364.png",
+      "start": "2022-04-01",
+      "end": "2022-06-01"
+    },
+    {
+      "team_id": 654,
+      "team_name": "Željezničar",
+      "team_logo": "https://media.api-sports.io/football/teams/654.png",
+      "start": "2021-06-01",
+      "end": "2021-12-01"
+    },
+    {
+      "team_id": 1020,
+      "team_name": "Inter Zaprešić",
+      "team_logo": "https://media.api-sports.io/football/teams/1020.png",
+      "start": "2020-05-01",
+      "end": "2021-03-01"
+    },
+    {
+      "team_id": 1019,
+      "team_name": "Rudeš",
+      "team_logo": "https://media.api-sports.io/football/teams/1019.png",
+      "start": "2019-01-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 1018,
+      "team_name": "Slaven Koprivnica",
+      "team_logo": "https://media.api-sports.io/football/teams/1018.png",
+      "start": "2017-10-01",
+      "end": "2018-11-01"
+    },
+    {
+      "team_id": 2930,
+      "team_name": "Al Faisaly",
+      "team_logo": "https://media.api-sports.io/football/teams/2930.png",
+      "start": "2016-11-01",
+      "end": "2017-02-01"
+    },
+    {
+      "team_id": 1017,
+      "team_name": "Lokomotiva Zagreb",
+      "team_logo": "https://media.api-sports.io/football/teams/1017.png",
+      "start": "2016-07-01",
+      "end": "2016-11-01"
+    },
+    {
+      "team_id": 1017,
+      "team_name": "Lokomotiva Zagreb",
+      "team_logo": "https://media.api-sports.io/football/teams/1017.png",
+      "start": "2011-12-01",
+      "end": "2015-05-01"
+    }
+  ]
+}

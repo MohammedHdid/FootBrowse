@@ -1,0 +1,54 @@
+{
+  "id": 2863,
+  "name": "P. Amodio",
+  "photo": "https://media.api-sports.io/football/coachs/2863.png",
+  "nationality": "Luxembourg",
+  "age": 52,
+  "team_id": 684,
+  "team_slug": "fc-differdange-03",
+  "fetched_at": "2026-04-14T22:45:11.084Z",
+  "career": [
+    {
+      "team_id": 684,
+      "team_name": "Differdange 03",
+      "team_logo": "https://media.api-sports.io/football/teams/684.png",
+      "start": "2019-03-01",
+      "end": "2021-03-01"
+    },
+    {
+      "team_id": 1561,
+      "team_name": "North Korea",
+      "team_logo": "https://media.api-sports.io/football/teams/1561.png",
+      "start": "2018-12-01",
+      "end": "2018-12-01"
+    },
+    {
+      "team_id": 658,
+      "team_name": "Progrès Niederkorn",
+      "team_logo": "https://media.api-sports.io/football/teams/658.png",
+      "start": "2016-10-01",
+      "end": "2018-10-01"
+    },
+    {
+      "team_id": 2032,
+      "team_name": "UT Pétange",
+      "team_logo": "https://media.api-sports.io/football/teams/2032.png",
+      "start": "2015-07-01",
+      "end": "2016-09-01"
+    },
+    {
+      "team_id": 658,
+      "team_name": "Progrès Niederkorn",
+      "team_logo": "https://media.api-sports.io/football/teams/658.png",
+      "start": "2012-10-01",
+      "end": "2014-06-01"
+    },
+    {
+      "team_id": 684,
+      "team_name": "Differdange 03",
+      "team_logo": "https://media.api-sports.io/football/teams/684.png",
+      "start": "2011-08-01",
+      "end": "2012-06-01"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391143,
+  "fetched_at": "2026-04-15T20:58:57.497Z",
+  "advice": "Double chance : Levante or draw",
+  "winner_id": 539,
+  "winner_name": "Levante",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "67%",
+      "away": "33%"
+    },
+    "att": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "def": {
+      "home": "63%",
+      "away": "38%"
+    },
+    "poisson_distribution": {
+      "home": "45%",
+      "away": "55%"
+    },
+    "h2h": {
+      "home": "20%",
+      "away": "80%"
+    },
+    "goals": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "total": {
+      "home": "49.5%",
+      "away": "50.7%"
+    }
+  }
+}

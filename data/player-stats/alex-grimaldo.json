@@ -1,0 +1,21 @@
+{
+  "player_id": 563,
+  "slug": "alex-grimaldo",
+  "name": "Álex Grimaldo",
+  "api_photo": "https://media.api-sports.io/football/players/563.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayer Leverkusen",
+      "club_logo": "https://media.api-sports.io/football/teams/168.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 33,
+      "goals": 2,
+      "assists": 7,
+      "minutes": 2642,
+      "yellow_cards": 6,
+      "red_cards": 1
+    }
+  ]
+}

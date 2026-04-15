@@ -1,0 +1,40 @@
+{
+  "id": 1588,
+  "name": "Arrasate",
+  "photo": "https://media.api-sports.io/football/coachs/1588.png",
+  "nationality": "Spain",
+  "age": 47,
+  "team_id": 798,
+  "team_slug": "mallorca",
+  "fetched_at": "2026-04-14T22:35:34.421Z",
+  "career": [
+    {
+      "team_id": 798,
+      "team_name": "Mallorca",
+      "team_logo": "https://media.api-sports.io/football/teams/798.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 727,
+      "team_name": "Osasuna",
+      "team_logo": "https://media.api-sports.io/football/teams/727.png",
+      "start": "2018-06-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 717,
+      "team_name": "Numancia",
+      "team_logo": "https://media.api-sports.io/football/teams/717.png",
+      "start": "2015-06-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 548,
+      "team_name": "Real Sociedad",
+      "team_logo": "https://media.api-sports.io/football/teams/548.png",
+      "start": "2013-06-01",
+      "end": "2014-11-01"
+    }
+  ]
+}

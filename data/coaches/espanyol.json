@@ -1,0 +1,54 @@
+{
+  "id": 6757,
+  "name": "Manolo González",
+  "photo": "https://media.api-sports.io/football/coachs/6757.png",
+  "nationality": "Spain",
+  "age": 46,
+  "team_id": 540,
+  "team_slug": "espanyol",
+  "fetched_at": "2026-04-14T22:34:34.278Z",
+  "career": [
+    {
+      "team_id": 540,
+      "team_name": "Espanyol",
+      "team_logo": "https://media.api-sports.io/football/teams/540.png",
+      "start": "2024-03-01",
+      "end": null
+    },
+    {
+      "team_id": 9590,
+      "team_name": "Espanyol II",
+      "team_logo": "https://media.api-sports.io/football/teams/9590.png",
+      "start": "2023-07-01",
+      "end": "2024-03-01"
+    },
+    {
+      "team_id": 9405,
+      "team_name": "Peña Deportiva",
+      "team_logo": "https://media.api-sports.io/football/teams/9405.png",
+      "start": "2021-06-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 5250,
+      "team_name": "Badalona",
+      "team_logo": "https://media.api-sports.io/football/teams/5250.png",
+      "start": "2019-10-01",
+      "end": "2021-05-01"
+    },
+    {
+      "team_id": 5261,
+      "team_name": "Ebro",
+      "team_logo": "https://media.api-sports.io/football/teams/5261.png",
+      "start": "2018-06-01",
+      "end": "2019-05-01"
+    },
+    {
+      "team_id": 5250,
+      "team_name": "Badalona",
+      "team_logo": "https://media.api-sports.io/football/teams/5250.png",
+      "start": "2014-07-01",
+      "end": "2018-05-01"
+    }
+  ]
+}

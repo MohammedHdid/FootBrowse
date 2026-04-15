@@ -1,0 +1,61 @@
+{
+  "id": 445,
+  "name": "G. Modica",
+  "photo": "https://media.api-sports.io/football/coachs/445.png",
+  "nationality": "Italy",
+  "age": 61,
+  "team_id": 4626,
+  "team_slug": "hamrun-spartans",
+  "fetched_at": "2026-04-15T08:17:49.004Z",
+  "career": [
+    {
+      "team_id": 4626,
+      "team_name": "Hamrun Spartans",
+      "team_logo": "https://media.api-sports.io/football/teams/4626.png",
+      "start": "2025-08-01",
+      "end": null
+    },
+    {
+      "team_id": 898,
+      "team_name": "Messina",
+      "team_logo": "https://media.api-sports.io/football/teams/898.png",
+      "start": "2023-07-01",
+      "end": "2025-01-01"
+    },
+    {
+      "team_id": 1712,
+      "team_name": "Cavese 1919",
+      "team_logo": "https://media.api-sports.io/football/teams/1712.png",
+      "start": "2020-07-01",
+      "end": "2020-11-01"
+    },
+    {
+      "team_id": 1681,
+      "team_name": "Vibonese",
+      "team_logo": "https://media.api-sports.io/football/teams/1681.png",
+      "start": "2019-07-01",
+      "end": "2020-07-01"
+    },
+    {
+      "team_id": 1712,
+      "team_name": "Cavese 1919",
+      "team_logo": "https://media.api-sports.io/football/teams/1712.png",
+      "start": "2018-07-01",
+      "end": "2019-05-01"
+    },
+    {
+      "team_id": 22312,
+      "team_name": "L'Aquila",
+      "team_logo": "https://media.api-sports.io/football/teams/22312.png",
+      "start": "2016-04-01",
+      "end": "2016-05-01"
+    },
+    {
+      "team_id": 6379,
+      "team_name": "Lecco",
+      "team_logo": "https://media.api-sports.io/football/teams/6379.png",
+      "start": "2012-01-01",
+      "end": "2012-06-01"
+    }
+  ]
+}

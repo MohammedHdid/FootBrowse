@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391146,
+  "fetched_at": "2026-04-15T20:58:27.467Z",
+  "advice": "Combo Double chance : Real Madrid or draw and +1.5 goals",
+  "winner_id": 541,
+  "winner_name": "Real Madrid",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": "+1.5",
+  "goals_home": "-3.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "63%",
+      "away": "38%"
+    },
+    "att": {
+      "home": "48%",
+      "away": "52%"
+    },
+    "def": {
+      "home": "63%",
+      "away": "37%"
+    },
+    "poisson_distribution": {
+      "home": "78%",
+      "away": "22%"
+    },
+    "h2h": {
+      "home": "100%",
+      "away": "0%"
+    },
+    "goals": {
+      "home": "80%",
+      "away": "20%"
+    },
+    "total": {
+      "home": "66.4%",
+      "away": "33.8%"
+    }
+  }
+}

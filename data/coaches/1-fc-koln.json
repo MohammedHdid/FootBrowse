@@ -1,0 +1,75 @@
+{
+  "id": 1537,
+  "name": "F. Funkel",
+  "photo": "https://media.api-sports.io/football/coachs/1537.png",
+  "nationality": "Germany",
+  "age": 72,
+  "team_id": 192,
+  "team_slug": "1-fc-koln",
+  "fetched_at": "2026-04-15T08:13:48.844Z",
+  "career": [
+    {
+      "team_id": 192,
+      "team_name": "FC Cologne",
+      "team_logo": "https://media.api-sports.io/football/teams/192.png",
+      "start": "2025-05-01",
+      "end": null
+    },
+    {
+      "team_id": 745,
+      "team_name": "Kaiserslautern",
+      "team_logo": "https://media.api-sports.io/football/teams/745.png",
+      "start": "2024-02-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 192,
+      "team_name": "FC Cologne",
+      "team_logo": "https://media.api-sports.io/football/teams/192.png",
+      "start": "2021-04-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 158,
+      "team_name": "Fortuna Düsseldorf",
+      "team_logo": "https://media.api-sports.io/football/teams/158.png",
+      "start": "2016-03-01",
+      "end": "2020-01-01"
+    },
+    {
+      "team_id": 786,
+      "team_name": "1860 München",
+      "team_logo": "https://media.api-sports.io/football/teams/786.png",
+      "start": "2013-09-01",
+      "end": "2014-04-01"
+    },
+    {
+      "team_id": 4259,
+      "team_name": "Alemannia Aachen",
+      "team_logo": "https://media.api-sports.io/football/teams/4259.png",
+      "start": "2011-09-01",
+      "end": "2012-04-01"
+    },
+    {
+      "team_id": 176,
+      "team_name": "Bochum",
+      "team_logo": "https://media.api-sports.io/football/teams/176.png",
+      "start": "2010-07-01",
+      "end": "2011-09-01"
+    },
+    {
+      "team_id": 159,
+      "team_name": "Hertha Berlin",
+      "team_logo": "https://media.api-sports.io/football/teams/159.png",
+      "start": "2009-10-01",
+      "end": "2010-06-01"
+    },
+    {
+      "team_id": 169,
+      "team_name": "Eintracht Frankfurt",
+      "team_logo": "https://media.api-sports.io/football/teams/169.png",
+      "start": "2004-07-01",
+      "end": "2009-06-01"
+    }
+  ]
+}

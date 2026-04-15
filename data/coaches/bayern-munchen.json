@@ -1,0 +1,110 @@
+{
+  "id": 10281,
+  "name": "J. Heynckes",
+  "photo": "https://media.api-sports.io/football/coachs/10281.png",
+  "nationality": "Germany",
+  "age": 73,
+  "team_id": 157,
+  "team_slug": "bayern-munchen",
+  "fetched_at": "2026-04-14T22:30:34.699Z",
+  "career": [
+    {
+      "team_id": 157,
+      "team_name": "Bayern München",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2017-10-06",
+      "end": "2018-06-30"
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern München",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2011-07-01",
+      "end": "2013-06-25"
+    },
+    {
+      "team_id": 168,
+      "team_name": "Bayer Leverkusen",
+      "team_logo": "https://media.api-sports.io/football/teams/168.png",
+      "start": "2009-06-05",
+      "end": "2011-05-31"
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern München",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2009-04-28",
+      "end": "2009-06-30"
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia M'gladbach",
+      "team_logo": "https://media.api-sports.io/football/teams/163.png",
+      "start": "2006-07-01",
+      "end": "2007-01-31"
+    },
+    {
+      "team_id": 174,
+      "team_name": "Schalke 04",
+      "team_logo": "https://media.api-sports.io/football/teams/174.png",
+      "start": "2003-07-01",
+      "end": "2004-09-15"
+    },
+    {
+      "team_id": 531,
+      "team_name": "Athletic Club",
+      "team_logo": "https://media.api-sports.io/football/teams/531.png",
+      "start": "2001-07-01",
+      "end": "2003-06-30"
+    },
+    {
+      "team_id": 211,
+      "team_name": "Benfica",
+      "team_logo": "https://media.api-sports.io/football/teams/211.png",
+      "start": "1999-07-01",
+      "end": "2000-09-30"
+    },
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "1997-07-01",
+      "end": "1998-06-01"
+    },
+    {
+      "team_id": 719,
+      "team_name": "Tenerife",
+      "team_logo": "https://media.api-sports.io/football/teams/719.png",
+      "start": "1996-07-01",
+      "end": "1997-06-30"
+    },
+    {
+      "team_id": 169,
+      "team_name": "Eintracht Frankfurt",
+      "team_logo": "https://media.api-sports.io/football/teams/169.png",
+      "start": "1994-07-01",
+      "end": "1995-04-02"
+    },
+    {
+      "team_id": 531,
+      "team_name": "Athletic Club",
+      "team_logo": "https://media.api-sports.io/football/teams/531.png",
+      "start": "1992-07-01",
+      "end": "1994-06-30"
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern München",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "1987-07-01",
+      "end": "1991-10-28"
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia M'gladbach",
+      "team_logo": "https://media.api-sports.io/football/teams/163.png",
+      "start": "1979-07-01",
+      "end": "1987-06-30"
+    }
+  ]
+}

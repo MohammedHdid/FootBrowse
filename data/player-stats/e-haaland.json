@@ -1,0 +1,34 @@
+{
+  "player_id": 1100,
+  "slug": "e-haaland",
+  "name": "E. Haaland",
+  "api_photo": "https://media.api-sports.io/football/players/1100.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Manchester City",
+      "club_logo": "https://media.api-sports.io/football/teams/50.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 32,
+      "goals": 22,
+      "assists": 3,
+      "minutes": 2741,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Manchester City",
+      "club_logo": "https://media.api-sports.io/football/teams/50.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 10,
+      "goals": 8,
+      "assists": 0,
+      "minutes": 772,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

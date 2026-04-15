@@ -1,0 +1,47 @@
+{
+  "id": 1426,
+  "name": "B. Svensson",
+  "photo": "https://media.api-sports.io/football/coachs/1426.png",
+  "nationality": "Denmark",
+  "age": 46,
+  "team_id": 182,
+  "team_slug": "union-berlin",
+  "fetched_at": "2026-04-14T22:32:34.173Z",
+  "career": [
+    {
+      "team_id": 182,
+      "team_name": "Union Berlin",
+      "team_logo": "https://media.api-sports.io/football/teams/182.png",
+      "start": "2024-07-01",
+      "end": "2024-12-01"
+    },
+    {
+      "team_id": 164,
+      "team_name": "Mainz",
+      "team_logo": "https://media.api-sports.io/football/teams/164.png",
+      "start": "2021-01-01",
+      "end": "2023-11-01"
+    },
+    {
+      "team_id": 7928,
+      "team_name": "Salzburg U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7928.png",
+      "start": "2020-06-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 1400,
+      "team_name": "Liefering",
+      "team_logo": "https://media.api-sports.io/football/teams/1400.png",
+      "start": "2019-07-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 10268,
+      "team_name": "Mainz 05 U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10268.png",
+      "start": "2017-07-01",
+      "end": "2019-07-01"
+    }
+  ]
+}

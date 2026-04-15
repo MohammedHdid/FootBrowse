@@ -1,0 +1,19 @@
+{
+  "id": 28345,
+  "name": "Gerardo Ameli",
+  "photo": "https://media.api-sports.io/football/coachs/28345.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 2564,
+  "team_slug": "curacao",
+  "fetched_at": "2026-04-15T13:14:59.966Z",
+  "career": [
+    {
+      "team_id": 2564,
+      "team_name": "Atletico Grau",
+      "team_logo": "https://media.api-sports.io/football/teams/2564.png",
+      "start": "2026-01-01",
+      "end": null
+    }
+  ]
+}

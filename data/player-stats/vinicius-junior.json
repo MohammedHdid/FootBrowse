@@ -1,0 +1,34 @@
+{
+  "player_id": 762,
+  "slug": "vinicius-junior",
+  "name": "Vinícius Júnior",
+  "api_photo": "https://media.api-sports.io/football/players/762.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Real Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/541.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 30,
+      "goals": 11,
+      "assists": 8,
+      "minutes": 2257,
+      "yellow_cards": 8,
+      "red_cards": 1
+    },
+    {
+      "season": 2024,
+      "club": "Real Madrid",
+      "club_logo": "https://media.api-sports.io/football/teams/541.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 12,
+      "goals": 8,
+      "assists": 2,
+      "minutes": 1105,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

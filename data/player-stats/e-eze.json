@@ -1,0 +1,21 @@
+{
+  "player_id": 19586,
+  "slug": "e-eze",
+  "name": "E. Eze",
+  "api_photo": "https://media.api-sports.io/football/players/19586.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Crystal Palace",
+      "club_logo": "https://media.api-sports.io/football/teams/52.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 34,
+      "goals": 8,
+      "assists": 8,
+      "minutes": 2603,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

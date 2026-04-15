@@ -1,0 +1,240 @@
+{
+  "team_id": 3403,
+  "team_slug": "pafos",
+  "team_name": "Pafos",
+  "fetched_at": "2026-04-15T08:21:43.402Z",
+  "players": [
+    {
+      "id": 37599,
+      "name": "J. Gorter",
+      "age": 25,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/37599.png"
+    },
+    {
+      "id": 26909,
+      "name": "N. Michael",
+      "age": 32,
+      "number": 93,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/26909.png"
+    },
+    {
+      "id": 344535,
+      "name": "T. Papadoudis",
+      "age": 22,
+      "number": 99,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/344535.png"
+    },
+    {
+      "id": 443765,
+      "name": "P. Petrou",
+      "age": 19,
+      "number": 82,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/443765.png"
+    },
+    {
+      "id": 41994,
+      "name": "João Correia",
+      "age": 29,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/41994.png"
+    },
+    {
+      "id": 2283,
+      "name": "David Luiz",
+      "age": 38,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2283.png"
+    },
+    {
+      "id": 108561,
+      "name": "David Goldar",
+      "age": 31,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/108561.png"
+    },
+    {
+      "id": 330456,
+      "name": "A. Guessand",
+      "age": 21,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/330456.png"
+    },
+    {
+      "id": 15281,
+      "name": "N. Ioannou",
+      "age": 30,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/15281.png"
+    },
+    {
+      "id": 25341,
+      "name": "D. Luckassen",
+      "age": 30,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/25341.png"
+    },
+    {
+      "id": 340727,
+      "name": "O. MimoviÄ",
+      "age": 21,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/340727.png"
+    },
+    {
+      "id": 15553,
+      "name": "K. Pileas",
+      "age": 27,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/15553.png"
+    },
+    {
+      "id": 430774,
+      "name": "Alexandre Miguel Soares Carvalho Brito",
+      "age": 20,
+      "number": 50,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/430774.png"
+    },
+    {
+      "id": 636893,
+      "name": "Pedro Caldieraro",
+      "age": 20,
+      "number": 87,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/636893.png"
+    },
+    {
+      "id": 42007,
+      "name": "Dani Silva",
+      "age": 25,
+      "number": 80,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/42007.png"
+    },
+    {
+      "id": 31397,
+      "name": "V. Dragomir",
+      "age": 26,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/31397.png"
+    },
+    {
+      "id": 318032,
+      "name": "W. Odefalk",
+      "age": 21,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/318032.png"
+    },
+    {
+      "id": 41155,
+      "name": "Pêpê Rodrigues",
+      "age": 28,
+      "number": 88,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/41155.png"
+    },
+    {
+      "id": 18807,
+      "name": "Domingos Quina",
+      "age": 26,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/18807.png"
+    },
+    {
+      "id": 2860,
+      "name": "K. Sema",
+      "age": 32,
+      "number": 12,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2860.png"
+    },
+    {
+      "id": 1324,
+      "name": "I. Šunjić",
+      "age": 29,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1324.png"
+    },
+    {
+      "id": 41560,
+      "name": "Anderson Silva",
+      "age": 28,
+      "number": 33,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/41560.png"
+    },
+    {
+      "id": 22347,
+      "name": "M. Bassouamina",
+      "age": 27,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/22347.png"
+    },
+    {
+      "id": 26669,
+      "name": "Bruno Felipe",
+      "age": 31,
+      "number": 7,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/26669.png"
+    },
+    {
+      "id": 635804,
+      "name": "Pedro Caldieraro",
+      "age": 20,
+      "number": 87,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/635804.png"
+    },
+    {
+      "id": 196159,
+      "name": "Jajá",
+      "age": 24,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/196159.png"
+    },
+    {
+      "id": 350153,
+      "name": "Lelê",
+      "age": 28,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/350153.png"
+    },
+    {
+      "id": 568255,
+      "name": "G. Michael",
+      "age": 17,
+      "number": 42,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/568255.png"
+    },
+    {
+      "id": 1330,
+      "name": "M. Oršić",
+      "age": 33,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1330.png"
+    }
+  ]
+}

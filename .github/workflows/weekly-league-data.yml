@@ -1,0 +1,75 @@
+# Required GitHub Secrets:
+#   API_FOOTBALL_KEY — your API-Football v3 key
+#
+# API calls budget (free tier: 100/day):
+#   weekly-standings:   ~5 calls  (1 per priority league)
+#   weekly-topscorers: ~10 calls  (scorers + assists per league)
+#   weekly-h2h:        ~varies   (1 per unique upcoming pairing, missing only)
+#   Total Monday usage: ~20-30 calls (well within free tier)
+
+name: Weekly League Data Sync
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"  # 03:00 UTC every Monday
+  workflow_dispatch:      # allow manual run from Actions tab
+
+jobs:
+  sync:
+    name: Sync standings and top scorers
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync standings
+        run: npm run sync:weekly-standings
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Sync top scorers and assists
+        run: npm run sync:weekly-topscorers
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Sync coaches (missing only)
+        run: npm run sync:coaches
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Sync injuries
+        run: npm run sync:injuries
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Sync H2H for upcoming fixtures
+        run: npm run sync:h2h
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/standings/ data/topscorers/ data/coaches/ data/injuries/ data/h2h/ \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated league data
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/standings/ data/topscorers/ data/coaches/ data/injuries/ data/h2h/
+          git commit -m "chore: sync weekly standings, top scorers, coaches, injuries and h2h [skip ci]"
+          git push

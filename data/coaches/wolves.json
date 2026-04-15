@@ -1,0 +1,96 @@
+{
+  "id": 55,
+  "name": "Vítor Pereira",
+  "photo": "https://media.api-sports.io/football/coachs/55.png",
+  "nationality": "Portugal",
+  "age": 57,
+  "team_id": 39,
+  "team_slug": "wolves",
+  "fetched_at": "2026-04-14T22:41:22.730Z",
+  "career": [
+    {
+      "team_id": 39,
+      "team_name": "Wolverhampton Wanderers",
+      "team_logo": "https://media.api-sports.io/football/teams/39.png",
+      "start": "2024-12-01",
+      "end": null
+    },
+    {
+      "team_id": 2940,
+      "team_name": "Al Shabab",
+      "team_logo": "https://media.api-sports.io/football/teams/2940.png",
+      "start": "2024-02-01",
+      "end": "2024-12-01"
+    },
+    {
+      "team_id": 127,
+      "team_name": "Flamengo",
+      "team_logo": "https://media.api-sports.io/football/teams/127.png",
+      "start": "2022-12-01",
+      "end": "2023-04-01"
+    },
+    {
+      "team_id": 131,
+      "team_name": "Corinthians",
+      "team_logo": "https://media.api-sports.io/football/teams/131.png",
+      "start": "2022-02-01",
+      "end": "2022-11-01"
+    },
+    {
+      "team_id": 611,
+      "team_name": "Fenerbahce",
+      "team_logo": "https://media.api-sports.io/football/teams/611.png",
+      "start": "2021-07-01",
+      "end": "2021-12-01"
+    },
+    {
+      "team_id": 836,
+      "team_name": "Shanghai Port",
+      "team_logo": "https://media.api-sports.io/football/teams/836.png",
+      "start": "2017-12-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 786,
+      "team_name": "1860 München",
+      "team_logo": "https://media.api-sports.io/football/teams/786.png",
+      "start": "2017-01-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 611,
+      "team_name": "Fenerbahce",
+      "team_logo": "https://media.api-sports.io/football/teams/611.png",
+      "start": "2015-06-01",
+      "end": "2016-08-01"
+    },
+    {
+      "team_id": 553,
+      "team_name": "Olympiakos",
+      "team_logo": "https://media.api-sports.io/football/teams/553.png",
+      "start": "2015-01-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 2929,
+      "team_name": "Al Ahli",
+      "team_logo": "https://media.api-sports.io/football/teams/2929.png",
+      "start": "2013-06-01",
+      "end": "2014-05-01"
+    },
+    {
+      "team_id": 212,
+      "team_name": "Porto",
+      "team_logo": "https://media.api-sports.io/football/teams/212.png",
+      "start": "2011-06-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 227,
+      "team_name": "Santa Clara",
+      "team_logo": "https://media.api-sports.io/football/teams/227.png",
+      "start": "2008-07-01",
+      "end": "2010-06-01"
+    }
+  ]
+}

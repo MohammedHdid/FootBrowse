@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391144,
+  "fetched_at": "2026-04-15T20:58:21.453Z",
+  "advice": "Double chance : Mallorca or draw",
+  "winner_id": 798,
+  "winner_name": "Mallorca",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "63%",
+      "away": "38%"
+    },
+    "att": {
+      "home": "59%",
+      "away": "41%"
+    },
+    "def": {
+      "home": "54%",
+      "away": "46%"
+    },
+    "poisson_distribution": {
+      "home": "68%",
+      "away": "32%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "total": {
+      "home": "57.3%",
+      "away": "42.8%"
+    }
+  }
+}

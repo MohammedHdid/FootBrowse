@@ -1,0 +1,232 @@
+{
+  "team_id": 583,
+  "team_slug": "linfield",
+  "team_name": "Linfield",
+  "fetched_at": "2026-04-15T08:19:31.327Z",
+  "players": [
+    {
+      "id": 105925,
+      "name": "C. Johns",
+      "age": 30,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/105925.png"
+    },
+    {
+      "id": 131274,
+      "name": "D. Walsh",
+      "age": 23,
+      "number": 51,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/131274.png"
+    },
+    {
+      "id": 343574,
+      "name": "S. Brown",
+      "age": 20,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/343574.png"
+    },
+    {
+      "id": 138478,
+      "name": "E. East",
+      "age": 25,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/138478.png"
+    },
+    {
+      "id": 82085,
+      "name": "B. Hall",
+      "age": 28,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/82085.png"
+    },
+    {
+      "id": 614279,
+      "name": "D. Jermakovas",
+      "age": 17,
+      "number": 74,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/614279.png"
+    },
+    {
+      "id": 69287,
+      "name": "D. Leahy",
+      "age": 27,
+      "number": 33,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/69287.png"
+    },
+    {
+      "id": 286767,
+      "name": "Dane Neil McCullough",
+      "age": 22,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/286767.png"
+    },
+    {
+      "id": 131252,
+      "name": "E. McGee",
+      "age": 23,
+      "number": 27,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/131252.png"
+    },
+    {
+      "id": 106084,
+      "name": "S. Whiteside",
+      "age": 28,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/106084.png"
+    },
+    {
+      "id": 131278,
+      "name": "C. Allen",
+      "age": 22,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/131278.png"
+    },
+    {
+      "id": 285068,
+      "name": "J. Archer",
+      "age": 22,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/285068.png"
+    },
+    {
+      "id": 311672,
+      "name": "I. Baird",
+      "age": 21,
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/311672.png"
+    },
+    {
+      "id": 119209,
+      "name": "C. Ballantyne",
+      "age": 25,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/119209.png"
+    },
+    {
+      "id": 44794,
+      "name": "A. Frizzell",
+      "age": 27,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/44794.png"
+    },
+    {
+      "id": 105651,
+      "name": "K. Millar",
+      "age": 33,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/105651.png"
+    },
+    {
+      "id": 105647,
+      "name": "J. Mulgrew",
+      "age": 39,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/105647.png"
+    },
+    {
+      "id": 44924,
+      "name": "Álex Gorrín",
+      "age": 32,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/44924.png"
+    },
+    {
+      "id": 626478,
+      "name": "J. Farr",
+      "age": 17,
+      "number": 74,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/626478.png"
+    },
+    {
+      "id": 194543,
+      "name": "M. Fitzpatrick",
+      "age": 31,
+      "number": 29,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/194543.png"
+    },
+    {
+      "id": 525543,
+      "name": "Jon Graham",
+      "age": 19,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/525543.png"
+    },
+    {
+      "id": 70520,
+      "name": "K. McClean",
+      "age": 27,
+      "number": 8,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/70520.png"
+    },
+    {
+      "id": 82806,
+      "name": "R. McDaid",
+      "age": 29,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/82806.png"
+    },
+    {
+      "id": 161815,
+      "name": "C. McKee",
+      "age": 23,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/161815.png"
+    },
+    {
+      "id": 326924,
+      "name": "K. Offord",
+      "age": 21,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/326924.png"
+    },
+    {
+      "id": 377116,
+      "name": "S. Taylor",
+      "age": 22,
+      "number": 32,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/377116.png"
+    },
+    {
+      "id": 585323,
+      "name": "O. Wade",
+      "age": 17,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/585323.png"
+    },
+    {
+      "id": 287953,
+      "name": "M. Yates",
+      "age": 23,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/287953.png"
+    }
+  ]
+}

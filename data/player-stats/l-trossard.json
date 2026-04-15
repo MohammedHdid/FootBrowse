@@ -1,0 +1,21 @@
+{
+  "player_id": 1946,
+  "slug": "l-trossard",
+  "name": "L. Trossard",
+  "api_photo": "https://media.api-sports.io/football/players/1946.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Arsenal",
+      "club_logo": "https://media.api-sports.io/football/teams/42.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 38,
+      "goals": 8,
+      "assists": 7,
+      "minutes": 2551,
+      "yellow_cards": 3,
+      "red_cards": 0
+    }
+  ]
+}

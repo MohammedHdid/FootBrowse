@@ -1,0 +1,21 @@
+{
+  "player_id": 2887,
+  "slug": "r-jimenez",
+  "name": "R. Jiménez",
+  "api_photo": "https://media.api-sports.io/football/players/2887.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Fulham",
+      "club_logo": "https://media.api-sports.io/football/teams/36.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 38,
+      "goals": 12,
+      "assists": 3,
+      "minutes": 2505,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

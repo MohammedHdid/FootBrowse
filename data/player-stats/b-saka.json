@@ -1,0 +1,34 @@
+{
+  "player_id": 1460,
+  "slug": "b-saka",
+  "name": "B. Saka",
+  "api_photo": "https://media.api-sports.io/football/players/1460.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Arsenal",
+      "club_logo": "https://media.api-sports.io/football/teams/42.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 25,
+      "goals": 6,
+      "assists": 10,
+      "minutes": 1735,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Arsenal",
+      "club_logo": "https://media.api-sports.io/football/teams/42.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 9,
+      "goals": 6,
+      "assists": 2,
+      "minutes": 763,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 6904,
+  "name": "Sergio Francisco",
+  "photo": "https://media.api-sports.io/football/coachs/6904.png",
+  "nationality": "Spain",
+  "age": 46,
+  "team_id": 548,
+  "team_slug": "real-sociedad",
+  "fetched_at": "2026-04-14T22:36:34.458Z",
+  "career": [
+    {
+      "team_id": 548,
+      "team_name": "Real Sociedad",
+      "team_logo": "https://media.api-sports.io/football/teams/548.png",
+      "start": "2025-08-01",
+      "end": null
+    },
+    {
+      "team_id": 24752,
+      "team_name": "Real Sociedad U21",
+      "team_logo": "https://media.api-sports.io/football/teams/24752.png",
+      "start": "2024-09-01",
+      "end": null
+    },
+    {
+      "team_id": 9585,
+      "team_name": "Real Sociedad B",
+      "team_logo": "https://media.api-sports.io/football/teams/9585.png",
+      "start": "2022-05-01",
+      "end": null
+    },
+    {
+      "team_id": 9662,
+      "team_name": "Real Sociedad III",
+      "team_logo": "https://media.api-sports.io/football/teams/9662.png",
+      "start": "2018-07-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 9586,
+      "team_name": "Real Unión",
+      "team_logo": "https://media.api-sports.io/football/teams/9586.png",
+      "start": "2013-07-01",
+      "end": "2014-06-01"
+    }
+  ]
+}

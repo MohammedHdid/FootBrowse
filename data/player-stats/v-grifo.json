@@ -1,0 +1,21 @@
+{
+  "player_id": 26248,
+  "slug": "v-grifo",
+  "name": "V. Grifo",
+  "api_photo": "https://media.api-sports.io/football/players/26248.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "SC Freiburg",
+      "club_logo": "https://media.api-sports.io/football/teams/160.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 34,
+      "goals": 8,
+      "assists": 11,
+      "minutes": 2453,
+      "yellow_cards": 2,
+      "red_cards": 0
+    }
+  ]
+}

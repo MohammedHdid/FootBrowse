@@ -1,0 +1,21 @@
+{
+  "player_id": 792,
+  "slug": "j-kluivert",
+  "name": "J. Kluivert",
+  "api_photo": "https://media.api-sports.io/football/players/792.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bournemouth",
+      "club_logo": "https://media.api-sports.io/football/teams/35.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 34,
+      "goals": 12,
+      "assists": 6,
+      "minutes": 2356,
+      "yellow_cards": 8,
+      "red_cards": 0
+    }
+  ]
+}

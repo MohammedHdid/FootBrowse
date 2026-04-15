@@ -1,0 +1,21 @@
+{
+  "player_id": 129791,
+  "slug": "fabio-silva",
+  "name": "Fábio Silva",
+  "api_photo": "https://media.api-sports.io/football/players/129791.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Las Palmas",
+      "club_logo": "https://media.api-sports.io/football/teams/534.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 24,
+      "goals": 10,
+      "assists": 3,
+      "minutes": 1876,
+      "yellow_cards": 7,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 21,
+  "name": "Quique Sánchez Flores",
+  "photo": "https://media.api-sports.io/football/coachs/21.png",
+  "nationality": "Spain",
+  "age": 60,
+  "team_id": 536,
+  "team_slug": "sevilla",
+  "fetched_at": "2026-04-14T22:36:46.492Z",
+  "career": [
+    {
+      "team_id": 536,
+      "team_name": "Sevilla",
+      "team_logo": "https://media.api-sports.io/football/teams/536.png",
+      "start": "2023-12-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 546,
+      "team_name": "Getafe",
+      "team_logo": "https://media.api-sports.io/football/teams/546.png",
+      "start": "2021-10-01",
+      "end": "2023-04-01"
+    },
+    {
+      "team_id": 38,
+      "team_name": "Watford",
+      "team_logo": "https://media.api-sports.io/football/teams/38.png",
+      "start": "2019-09-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 833,
+      "team_name": "Shanghai Shenhua",
+      "team_logo": "https://media.api-sports.io/football/teams/833.png",
+      "start": "2018-12-01",
+      "end": "2019-07-01"
+    },
+    {
+      "team_id": 540,
+      "team_name": "Espanyol",
+      "team_logo": "https://media.api-sports.io/football/teams/540.png",
+      "start": "2016-06-01",
+      "end": "2018-04-01"
+    },
+    {
+      "team_id": 38,
+      "team_name": "Watford",
+      "team_logo": "https://media.api-sports.io/football/teams/38.png",
+      "start": "2015-06-01",
+      "end": "2016-05-01"
+    },
+    {
+      "team_id": 546,
+      "team_name": "Getafe",
+      "team_logo": "https://media.api-sports.io/football/teams/546.png",
+      "start": "2015-01-01",
+      "end": "2015-02-01"
+    },
+    {
+      "team_id": 2865,
+      "team_name": "Al Ain",
+      "team_logo": "https://media.api-sports.io/football/teams/2865.png",
+      "start": "2013-09-01",
+      "end": "2014-03-01"
+    },
+    {
+      "team_id": 2870,
+      "team_name": "Shabab Al Ahli",
+      "team_logo": "https://media.api-sports.io/football/teams/2870.png",
+      "start": "2011-11-01",
+      "end": "2013-07-01"
+    },
+    {
+      "team_id": 530,
+      "team_name": "Atletico Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/530.png",
+      "start": "2009-10-01",
+      "end": "2011-05-01"
+    },
+    {
+      "team_id": 211,
+      "team_name": "Benfica",
+      "team_logo": "https://media.api-sports.io/football/teams/211.png",
+      "start": "2008-07-01",
+      "end": "2009-06-01"
+    },
+    {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_logo": "https://media.api-sports.io/football/teams/532.png",
+      "start": "2005-07-01",
+      "end": "2007-10-01"
+    },
+    {
+      "team_id": 546,
+      "team_name": "Getafe",
+      "team_logo": "https://media.api-sports.io/football/teams/546.png",
+      "start": "2004-08-01",
+      "end": "2005-06-01"
+    }
+  ]
+}

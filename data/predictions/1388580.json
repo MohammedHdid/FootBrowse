@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388580,
+  "fetched_at": "2026-04-15T21:01:57.725Z",
+  "advice": "Combo Double chance : draw or Bayer Leverkusen and +1.5 goals",
+  "winner_id": 168,
+  "winner_name": "Bayer Leverkusen",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": "+1.5",
+  "goals_home": "-2.5",
+  "goals_away": "-3.5",
+  "comparison": {
+    "form": {
+      "home": "40%",
+      "away": "60%"
+    },
+    "att": {
+      "home": "42%",
+      "away": "58%"
+    },
+    "def": {
+      "home": "53%",
+      "away": "47%"
+    },
+    "poisson_distribution": {
+      "home": "45%",
+      "away": "55%"
+    },
+    "h2h": {
+      "home": "20%",
+      "away": "80%"
+    },
+    "goals": {
+      "home": "27%",
+      "away": "73%"
+    },
+    "total": {
+      "home": "37.8%",
+      "away": "62.2%"
+    }
+  }
+}

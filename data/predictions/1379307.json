@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379307,
+  "fetched_at": "2026-04-15T20:57:57.370Z",
+  "advice": "Double chance : West Ham or draw",
+  "winner_id": 48,
+  "winner_name": "West Ham",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "35%",
+    "draw": "35%",
+    "away": "30%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "41%",
+      "away": "59%"
+    },
+    "att": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "def": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "poisson_distribution": {
+      "home": "39%",
+      "away": "61%"
+    },
+    "h2h": {
+      "home": "75%",
+      "away": "25%"
+    },
+    "goals": {
+      "home": "64%",
+      "away": "36%"
+    },
+    "total": {
+      "home": "51.0%",
+      "away": "49.0%"
+    }
+  }
+}

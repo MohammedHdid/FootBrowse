@@ -1,0 +1,248 @@
+{
+  "team_id": 604,
+  "team_slug": "maccabi-tel-aviv",
+  "team_name": "Maccabi Tel Aviv",
+  "fetched_at": "2026-04-15T08:19:55.372Z",
+  "players": [
+    {
+      "id": 360150,
+      "name": "O. Melika",
+      "age": 20,
+      "number": 22,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/360150.png"
+    },
+    {
+      "id": 111003,
+      "name": "R. Mishpati",
+      "age": 33,
+      "number": 90,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/111003.png"
+    },
+    {
+      "id": 442327,
+      "name": "S. Saadia",
+      "age": 19,
+      "number": 51,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/442327.png"
+    },
+    {
+      "id": 274199,
+      "name": "T. Asante",
+      "age": 23,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/274199.png"
+    },
+    {
+      "id": 271833,
+      "name": "I. Ben Hamo",
+      "age": 23,
+      "number": 41,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/271833.png"
+    },
+    {
+      "id": 371920,
+      "name": "N. Ben Harush",
+      "age": 20,
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/371920.png"
+    },
+    {
+      "id": 942,
+      "name": "M. Camara",
+      "age": 28,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/942.png"
+    },
+    {
+      "id": 279818,
+      "name": "Heitor",
+      "age": 25,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/279818.png"
+    },
+    {
+      "id": 111284,
+      "name": "S. Yehezkel",
+      "age": 30,
+      "number": 11,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/111284.png"
+    },
+    {
+      "id": 315127,
+      "name": "R. Revivo",
+      "age": 22,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/315127.png"
+    },
+    {
+      "id": 111016,
+      "name": "R. Shlomo",
+      "age": 26,
+      "number": 13,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/111016.png"
+    },
+    {
+      "id": 576946,
+      "name": "I. Weinberg",
+      "age": 18,
+      "number": 52,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/576946.png"
+    },
+    {
+      "id": 635854,
+      "name": "Lotem Asres",
+      "age": 19,
+      "number": 59,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/635854.png"
+    },
+    {
+      "id": 161956,
+      "name": "K. Belić",
+      "age": 24,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/161956.png"
+    },
+    {
+      "id": 110624,
+      "name": "D. Gropper",
+      "age": 26,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/110624.png"
+    },
+    {
+      "id": 262634,
+      "name": "B. Lederman",
+      "age": 25,
+      "number": 23,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/262634.png"
+    },
+    {
+      "id": 453684,
+      "name": "R. Magor",
+      "age": 18,
+      "number": 53,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/453684.png"
+    },
+    {
+      "id": 161826,
+      "name": "I. Noy",
+      "age": 24,
+      "number": 30,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/161826.png"
+    },
+    {
+      "id": 56011,
+      "name": "Dor Peretz",
+      "age": 30,
+      "number": 42,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/56011.png"
+    },
+    {
+      "id": 137531,
+      "name": "I. Shahar",
+      "age": 24,
+      "number": 36,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/137531.png"
+    },
+    {
+      "id": 206361,
+      "name": "I. Sissokho",
+      "age": 23,
+      "number": 28,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/206361.png"
+    },
+    {
+      "id": 395777,
+      "name": "S. Farhi",
+      "age": 19,
+      "number": 34,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/395777.png"
+    },
+    {
+      "id": 311785,
+      "name": "K. Andrade",
+      "age": 20,
+      "number": 10,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/311785.png"
+    },
+    {
+      "id": 576889,
+      "name": "I. Ben Simon",
+      "age": 16,
+      "number": 60,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/576889.png"
+    },
+    {
+      "id": 126969,
+      "name": "O. Davida",
+      "age": 24,
+      "number": 77,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/126969.png"
+    },
+    {
+      "id": 400496,
+      "name": "E. Madmon",
+      "age": 21,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/400496.png"
+    },
+    {
+      "id": 111319,
+      "name": "Y. Malede",
+      "age": 26,
+      "number": 15,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/111319.png"
+    },
+    {
+      "id": 7783,
+      "name": "I. Nicolăescu",
+      "age": 27,
+      "number": 98,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/7783.png"
+    },
+    {
+      "id": 14351,
+      "name": "E. Sahiti",
+      "age": 27,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/14351.png"
+    },
+    {
+      "id": 291024,
+      "name": "Hélio Varela",
+      "age": 23,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/291024.png"
+    }
+  ]
+}

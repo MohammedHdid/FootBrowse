@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388582,
+  "fetched_at": "2026-04-15T21:01:51.782Z",
+  "advice": "Double chance : 1. FC Heidenheim or draw",
+  "winner_id": 180,
+  "winner_name": "1. FC Heidenheim",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "35%",
+    "draw": "35%",
+    "away": "30%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "71%",
+      "away": "29%"
+    },
+    "att": {
+      "home": "83%",
+      "away": "17%"
+    },
+    "def": {
+      "home": "48%",
+      "away": "52%"
+    },
+    "poisson_distribution": {
+      "home": "53%",
+      "away": "47%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "38%",
+      "away": "63%"
+    },
+    "total": {
+      "home": "53.7%",
+      "away": "46.5%"
+    }
+  }
+}

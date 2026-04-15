@@ -1,0 +1,34 @@
+{
+  "player_id": 521,
+  "slug": "r-lewandowski",
+  "name": "R. Lewandowski",
+  "api_photo": "https://media.api-sports.io/football/players/521.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Barcelona",
+      "club_logo": "https://media.api-sports.io/football/teams/529.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 35,
+      "goals": 26,
+      "assists": 2,
+      "minutes": 2659,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Barcelona",
+      "club_logo": "https://media.api-sports.io/football/teams/529.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 13,
+      "goals": 11,
+      "assists": 0,
+      "minutes": 983,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

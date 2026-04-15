@@ -1,0 +1,224 @@
+{
+  "team_id": 705,
+  "team_slug": "dinamo-batumi",
+  "team_name": "Dinamo Batumi",
+  "fetched_at": "2026-04-14T22:44:05.030Z",
+  "players": [
+    {
+      "id": 607787,
+      "name": "D. Bekaia",
+      "age": 17,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/607787.png"
+    },
+    {
+      "id": 560575,
+      "name": "S. Ismailov",
+      "age": 19,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/560575.png"
+    },
+    {
+      "id": 106885,
+      "name": "L. Kupatadze",
+      "age": 29,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/106885.png"
+    },
+    {
+      "id": 372663,
+      "name": "M. Turmanidze",
+      "age": 20,
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/372663.png"
+    },
+    {
+      "id": 460288,
+      "name": "N. Baladze",
+      "age": 19,
+      "number": 36,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/460288.png"
+    },
+    {
+      "id": 626286,
+      "name": "B. Baramidze",
+      "age": 16,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/626286.png"
+    },
+    {
+      "id": 24646,
+      "name": "R. Chiteishvili",
+      "age": 31,
+      "number": 35,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24646.png"
+    },
+    {
+      "id": 90054,
+      "name": "N. Kalandarishvili",
+      "age": 27,
+      "number": 19,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/90054.png"
+    },
+    {
+      "id": 24379,
+      "name": "L. Kapianidze",
+      "age": 26,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24379.png"
+    },
+    {
+      "id": 24626,
+      "name": "M. Kobakhidze",
+      "age": 33,
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24626.png"
+    },
+    {
+      "id": 24551,
+      "name": "L. Lakvekheliani",
+      "age": 27,
+      "number": 12,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24551.png"
+    },
+    {
+      "id": 626284,
+      "name": "B. Makharadze",
+      "age": 20,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/626284.png"
+    },
+    {
+      "id": 646817,
+      "name": "Z. Tedoradze",
+      "age": 19,
+      "number": 25,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/646817.png"
+    },
+    {
+      "id": 646091,
+      "name": "G. Gogmachadze",
+      "age": 20,
+      "number": 33,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/646091.png"
+    },
+    {
+      "id": 560540,
+      "name": "G. Kokhreidze",
+      "age": 19,
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/560540.png"
+    },
+    {
+      "id": 112843,
+      "name": "D. Mandrîcenco",
+      "age": 28,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/112843.png"
+    },
+    {
+      "id": 3603,
+      "name": "U. Mara",
+      "age": 26,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/3603.png"
+    },
+    {
+      "id": 212160,
+      "name": "A. Mylchenko",
+      "age": 25,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/212160.png"
+    },
+    {
+      "id": 451303,
+      "name": "G. Putkaradze",
+      "age": 20,
+      "number": 37,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/451303.png"
+    },
+    {
+      "id": 347972,
+      "name": "L. Tsulukidze",
+      "age": 21,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/347972.png"
+    },
+    {
+      "id": 545699,
+      "name": "D. Abuselidze",
+      "age": 20,
+      "number": 27,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/545699.png"
+    },
+    {
+      "id": 486371,
+      "name": "N. Dumbadze",
+      "age": 19,
+      "number": 26,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/486371.png"
+    },
+    {
+      "id": 482945,
+      "name": "G. Japaridze",
+      "age": 20,
+      "number": 39,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/482945.png"
+    },
+    {
+      "id": 545696,
+      "name": "L. Khozrevanidze",
+      "age": 19,
+      "number": 40,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/545696.png"
+    },
+    {
+      "id": 24748,
+      "name": "T. Kirkitadze",
+      "age": 29,
+      "number": 22,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/24748.png"
+    },
+    {
+      "id": 626285,
+      "name": "Z. Tavdgiridze",
+      "age": 19,
+      "number": 34,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/626285.png"
+    },
+    {
+      "id": 545719,
+      "name": "M. Zoidze",
+      "age": 17,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/545719.png"
+    }
+  ]
+}

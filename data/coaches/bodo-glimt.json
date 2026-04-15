@@ -1,0 +1,33 @@
+{
+  "id": 1952,
+  "name": "K. Knutsen",
+  "photo": "https://media.api-sports.io/football/coachs/1952.png",
+  "nationality": "Norway",
+  "age": 57,
+  "team_id": 327,
+  "team_slug": "bodo-glimt",
+  "fetched_at": "2026-04-14T22:42:34.919Z",
+  "career": [
+    {
+      "team_id": 327,
+      "team_name": "Bodø  Glimt",
+      "team_logo": "https://media.api-sports.io/football/teams/327.png",
+      "start": "2017-11-01",
+      "end": null
+    },
+    {
+      "team_id": 2148,
+      "team_name": "Åsane",
+      "team_logo": "https://media.api-sports.io/football/teams/2148.png",
+      "start": "2015-05-01",
+      "end": "2016-11-01"
+    },
+    {
+      "team_id": 6990,
+      "team_name": "Fyllingsdalen",
+      "team_logo": "https://media.api-sports.io/football/teams/6990.png",
+      "start": "2012-01-01",
+      "end": "2015-01-01"
+    }
+  ]
+}

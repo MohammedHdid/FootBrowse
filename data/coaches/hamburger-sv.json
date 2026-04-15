@@ -1,0 +1,26 @@
+{
+  "id": 21838,
+  "name": "M. Polzin",
+  "photo": "https://media.api-sports.io/football/coachs/21838.png",
+  "nationality": "Germany",
+  "age": 35,
+  "team_id": 175,
+  "team_slug": "hamburger-sv",
+  "fetched_at": "2026-04-15T08:13:49.030Z",
+  "career": [
+    {
+      "team_id": 175,
+      "team_name": "Hamburg",
+      "team_logo": "https://media.api-sports.io/football/teams/175.png",
+      "start": "2024-11-01",
+      "end": null
+    },
+    {
+      "team_id": 175,
+      "team_name": "Hamburg",
+      "team_logo": "https://media.api-sports.io/football/teams/175.png",
+      "start": "2024-02-01",
+      "end": "2024-02-01"
+    }
+  ]
+}

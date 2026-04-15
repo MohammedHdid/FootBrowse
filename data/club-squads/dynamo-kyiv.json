@@ -1,0 +1,248 @@
+{
+  "team_id": 572,
+  "team_slug": "dynamo-kyiv",
+  "team_name": "Dynamo Kyiv",
+  "fetched_at": "2026-04-14T22:44:41.011Z",
+  "players": [
+    {
+      "id": 290055,
+      "name": "D. Ignatenko",
+      "age": 22,
+      "number": 74,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/290055.png"
+    },
+    {
+      "id": 638033,
+      "name": "B. Manko",
+      "age": 17,
+      "number": null,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/638033.png"
+    },
+    {
+      "id": 162232,
+      "name": "V. Morgun",
+      "age": 24,
+      "number": 51,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/162232.png"
+    },
+    {
+      "id": 154864,
+      "name": "R. Neshcheret",
+      "age": 23,
+      "number": 35,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/154864.png"
+    },
+    {
+      "id": 395549,
+      "name": "V. Surkis",
+      "age": 19,
+      "number": 71,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/395549.png"
+    },
+    {
+      "id": 162227,
+      "name": "K. Bilovar",
+      "age": 24,
+      "number": 40,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/162227.png"
+    },
+    {
+      "id": 63564,
+      "name": "V. Dubinchak",
+      "age": 27,
+      "number": 44,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/63564.png"
+    },
+    {
+      "id": 635788,
+      "name": "M. Korobov",
+      "age": 19,
+      "number": 13,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/635788.png"
+    },
+    {
+      "id": 385027,
+      "name": "T. Mykhavko",
+      "age": 20,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/385027.png"
+    },
+    {
+      "id": 2167,
+      "name": "D. Popov",
+      "age": 26,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2167.png"
+    },
+    {
+      "id": 339416,
+      "name": "A. Thiare",
+      "age": 22,
+      "number": 66,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/339416.png"
+    },
+    {
+      "id": 161686,
+      "name": "K. Vivcharenko",
+      "age": 23,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/161686.png"
+    },
+    {
+      "id": 395573,
+      "name": "V. Zakharchenko",
+      "age": 19,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/395573.png"
+    },
+    {
+      "id": 283566,
+      "name": "V. Brazhko",
+      "age": 23,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/283566.png"
+    },
+    {
+      "id": 2172,
+      "name": "V. Buyalskyi",
+      "age": 32,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2172.png"
+    },
+    {
+      "id": 55877,
+      "name": "O. Karavaev",
+      "age": 33,
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/55877.png"
+    },
+    {
+      "id": 161570,
+      "name": "M. Mykhaylenko",
+      "age": 24,
+      "number": 91,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/161570.png"
+    },
+    {
+      "id": 545291,
+      "name": "K. Osypenko",
+      "age": 19,
+      "number": 28,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/545291.png"
+    },
+    {
+      "id": 63420,
+      "name": "O. Pikhalyonok",
+      "age": 28,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/63420.png"
+    },
+    {
+      "id": 545348,
+      "name": "B. Redushko",
+      "age": 18,
+      "number": 70,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/545348.png"
+    },
+    {
+      "id": 2177,
+      "name": "M. Shaparenko",
+      "age": 27,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2177.png"
+    },
+    {
+      "id": 63434,
+      "name": "O. Tymchyk",
+      "age": 28,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/63434.png"
+    },
+    {
+      "id": 162323,
+      "name": "O. Yatsyk",
+      "age": 22,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/162323.png"
+    },
+    {
+      "id": 295777,
+      "name": "Vladislav Blănuță",
+      "age": 23,
+      "number": 77,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/295777.png"
+    },
+    {
+      "id": 95105,
+      "name": "E. Guerrero",
+      "age": 25,
+      "number": 39,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/95105.png"
+    },
+    {
+      "id": 63452,
+      "name": "V. Kabaev",
+      "age": 30,
+      "number": 22,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/63452.png"
+    },
+    {
+      "id": 460435,
+      "name": "S. Ogundana",
+      "age": 20,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/460435.png"
+    },
+    {
+      "id": 395550,
+      "name": "M. Ponomarenko",
+      "age": 19,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/395550.png"
+    },
+    {
+      "id": 198391,
+      "name": "N. Voloshyn",
+      "age": 22,
+      "number": 9,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/198391.png"
+    },
+    {
+      "id": 18834,
+      "name": "A. Yarmolenko",
+      "age": 36,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/18834.png"
+    }
+  ]
+}

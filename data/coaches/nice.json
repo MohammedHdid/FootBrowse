@@ -1,0 +1,82 @@
+{
+  "id": 1530,
+  "name": "L. Favre",
+  "photo": "https://media.api-sports.io/football/coachs/1530.png",
+  "nationality": "Switzerland",
+  "age": 68,
+  "team_id": 84,
+  "team_slug": "nice",
+  "fetched_at": "2026-04-15T08:21:13.288Z",
+  "career": [
+    {
+      "team_id": 84,
+      "team_name": "Nice",
+      "team_logo": "https://media.api-sports.io/football/teams/84.png",
+      "start": "2022-06-01",
+      "end": "2023-01-01"
+    },
+    {
+      "team_id": 165,
+      "team_name": "Borussia Dortmund",
+      "team_logo": "https://media.api-sports.io/football/teams/165.png",
+      "start": "2018-07-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 84,
+      "team_name": "Nice",
+      "team_logo": "https://media.api-sports.io/football/teams/84.png",
+      "start": "2016-05-01",
+      "end": "2018-06-01"
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia M'gladbach",
+      "team_logo": "https://media.api-sports.io/football/teams/163.png",
+      "start": "2011-02-01",
+      "end": "2015-09-01"
+    },
+    {
+      "team_id": 159,
+      "team_name": "Hertha Berlin",
+      "team_logo": "https://media.api-sports.io/football/teams/159.png",
+      "start": "2007-07-01",
+      "end": "2009-09-01"
+    },
+    {
+      "team_id": 783,
+      "team_name": "Zürich",
+      "team_logo": "https://media.api-sports.io/football/teams/783.png",
+      "start": "2003-03-01",
+      "end": "2007-06-01"
+    },
+    {
+      "team_id": 2184,
+      "team_name": "Servette",
+      "team_logo": "https://media.api-sports.io/football/teams/2184.png",
+      "start": "2000-07-01",
+      "end": "2002-06-01"
+    },
+    {
+      "team_id": 6653,
+      "team_name": "Yverdon Sport",
+      "team_logo": "https://media.api-sports.io/football/teams/6653.png",
+      "start": "1996-12-01",
+      "end": "2000-06-01"
+    },
+    {
+      "team_id": 1015,
+      "team_name": "Xamax",
+      "team_logo": "https://media.api-sports.io/football/teams/1015.png",
+      "start": "1995-07-01",
+      "end": "1996-11-01"
+    },
+    {
+      "team_id": 6623,
+      "team_name": "Echallens",
+      "team_logo": "https://media.api-sports.io/football/teams/6623.png",
+      "start": "1993-07-01",
+      "end": "1994-06-01"
+    }
+  ]
+}

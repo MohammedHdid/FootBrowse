@@ -1,0 +1,54 @@
+{
+  "id": 2105,
+  "name": "Víctor Sánchez",
+  "photo": "https://media.api-sports.io/football/coachs/2105.png",
+  "nationality": "Spain",
+  "age": 49,
+  "team_id": 677,
+  "team_slug": "olimpija-ljubljana",
+  "fetched_at": "2026-04-15T08:21:25.387Z",
+  "career": [
+    {
+      "team_id": 677,
+      "team_name": "Olimpija",
+      "team_logo": "https://media.api-sports.io/football/teams/677.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 5262,
+      "team_name": "FC Cartagena",
+      "team_logo": "https://media.api-sports.io/football/teams/5262.png",
+      "start": "2023-07-01",
+      "end": "2023-09-01"
+    },
+    {
+      "team_id": 535,
+      "team_name": "Malaga",
+      "team_logo": "https://media.api-sports.io/football/teams/535.png",
+      "start": "2019-04-01",
+      "end": "2020-01-01"
+    },
+    {
+      "team_id": 543,
+      "team_name": "Real Betis",
+      "team_logo": "https://media.api-sports.io/football/teams/543.png",
+      "start": "2016-11-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 553,
+      "team_name": "Olympiakos",
+      "team_logo": "https://media.api-sports.io/football/teams/553.png",
+      "start": "2016-06-01",
+      "end": "2016-08-01"
+    },
+    {
+      "team_id": 544,
+      "team_name": "Deportivo La Coruña",
+      "team_logo": "https://media.api-sports.io/football/teams/544.png",
+      "start": "2015-04-01",
+      "end": "2016-05-01"
+    }
+  ]
+}

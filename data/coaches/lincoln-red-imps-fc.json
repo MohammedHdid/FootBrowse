@@ -1,0 +1,19 @@
+{
+  "id": 3398,
+  "name": "Yiyi",
+  "photo": "https://media.api-sports.io/football/coachs/3398.png",
+  "nationality": "Spain",
+  "age": 48,
+  "team_id": 667,
+  "team_slug": "lincoln-red-imps-fc",
+  "fetched_at": "2026-04-15T08:19:25.221Z",
+  "career": [
+    {
+      "team_id": 667,
+      "team_name": "Lincoln Red Imps",
+      "team_logo": "https://media.api-sports.io/football/teams/667.png",
+      "start": "2018-04-21",
+      "end": null
+    }
+  ]
+}

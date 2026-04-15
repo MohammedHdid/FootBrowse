@@ -1,0 +1,54 @@
+{
+  "id": 2,
+  "name": "D. Farke",
+  "photo": "https://media.api-sports.io/football/coachs/2.png",
+  "nationality": "Germany",
+  "age": 49,
+  "team_id": 63,
+  "team_slug": "leeds",
+  "fetched_at": "2026-04-15T08:14:12.781Z",
+  "career": [
+    {
+      "team_id": 63,
+      "team_name": "Leeds United",
+      "team_logo": "https://media.api-sports.io/football/teams/63.png",
+      "start": "2023-07-01",
+      "end": null
+    },
+    {
+      "team_id": 163,
+      "team_name": "Borussia M'gladbach",
+      "team_logo": "https://media.api-sports.io/football/teams/163.png",
+      "start": "2022-07-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 621,
+      "team_name": "Krasnodar",
+      "team_logo": "https://media.api-sports.io/football/teams/621.png",
+      "start": "2022-01-01",
+      "end": "2022-03-01"
+    },
+    {
+      "team_id": 71,
+      "team_name": "Norwich City",
+      "team_logo": "https://media.api-sports.io/football/teams/71.png",
+      "start": "2017-05-01",
+      "end": "2021-11-01"
+    },
+    {
+      "team_id": 9367,
+      "team_name": "Borussia Dortmund II",
+      "team_logo": "https://media.api-sports.io/football/teams/9367.png",
+      "start": "2015-11-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 9372,
+      "team_name": "Lippstadt 08",
+      "team_logo": "https://media.api-sports.io/football/teams/9372.png",
+      "start": "2009-07-01",
+      "end": "2015-06-01"
+    }
+  ]
+}

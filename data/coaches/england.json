@@ -1,0 +1,54 @@
+{
+  "id": 40,
+  "name": "T. Tuchel",
+  "photo": "https://media.api-sports.io/football/coachs/40.png",
+  "nationality": "Germany",
+  "age": 52,
+  "team_id": 10,
+  "team_slug": "england",
+  "fetched_at": "2026-04-15T13:13:18.060Z",
+  "career": [
+    {
+      "team_id": 10,
+      "team_name": "England",
+      "team_logo": "https://media.api-sports.io/football/teams/10.png",
+      "start": "2025-01-01",
+      "end": null
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern Munich",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2023-03-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 49,
+      "team_name": "Chelsea",
+      "team_logo": "https://media.api-sports.io/football/teams/49.png",
+      "start": "2021-01-01",
+      "end": "2022-09-01"
+    },
+    {
+      "team_id": 85,
+      "team_name": "PSG",
+      "team_logo": "https://media.api-sports.io/football/teams/85.png",
+      "start": "2018-07-01",
+      "end": "2020-12-01"
+    },
+    {
+      "team_id": 165,
+      "team_name": "Borussia Dortmund",
+      "team_logo": "https://media.api-sports.io/football/teams/165.png",
+      "start": "2015-07-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 164,
+      "team_name": "Mainz",
+      "team_logo": "https://media.api-sports.io/football/teams/164.png",
+      "start": "2009-08-01",
+      "end": "2014-05-01"
+    }
+  ]
+}

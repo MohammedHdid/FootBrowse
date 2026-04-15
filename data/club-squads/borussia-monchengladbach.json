@@ -1,0 +1,256 @@
+{
+  "team_id": 163,
+  "team_slug": "borussia-monchengladbach",
+  "team_name": "Borussia Mönchengladbach",
+  "fetched_at": "2026-04-14T22:30:39.996Z",
+  "players": [
+    {
+      "id": 25626,
+      "name": "M. Nicolas",
+      "age": 28,
+      "number": 33,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/25626.png"
+    },
+    {
+      "id": 178405,
+      "name": "J. Olschowsky",
+      "age": 24,
+      "number": 23,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/178405.png"
+    },
+    {
+      "id": 340155,
+      "name": "T. Pereira Cardoso",
+      "age": 19,
+      "number": 42,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/340155.png"
+    },
+    {
+      "id": 25627,
+      "name": "T. Sippel",
+      "age": 37,
+      "number": 21,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/25627.png"
+    },
+    {
+      "id": 322627,
+      "name": "F. Chiarodia",
+      "age": 20,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/322627.png"
+    },
+    {
+      "id": 31043,
+      "name": "K. Diks",
+      "age": 29,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/31043.png"
+    },
+    {
+      "id": 2803,
+      "name": "N. Elvedi",
+      "age": 29,
+      "number": 30,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/2803.png"
+    },
+    {
+      "id": 24839,
+      "name": "M. Friedrich",
+      "age": 30,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/24839.png"
+    },
+    {
+      "id": 50852,
+      "name": "J. Scally",
+      "age": 23,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/50852.png"
+    },
+    {
+      "id": 327664,
+      "name": "V. Stange",
+      "age": 21,
+      "number": 48,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/327664.png"
+    },
+    {
+      "id": 337593,
+      "name": "K. Takai",
+      "age": 21,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/337593.png"
+    },
+    {
+      "id": 327646,
+      "name": "L. Ullrich",
+      "age": 21,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/327646.png"
+    },
+    {
+      "id": 651914,
+      "name": "Simon Walde",
+      "age": 21,
+      "number": 45,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/651914.png"
+    },
+    {
+      "id": 335095,
+      "name": "H. Bolin",
+      "age": 22,
+      "number": 38,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/335095.png"
+    },
+    {
+      "id": 280358,
+      "name": "J. Castrop",
+      "age": 22,
+      "number": 17,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/280358.png"
+    },
+    {
+      "id": 178709,
+      "name": "Y. Engelhardt",
+      "age": 24,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/178709.png"
+    },
+    {
+      "id": 501906,
+      "name": "W. Mohya",
+      "age": 17,
+      "number": 36,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/501906.png"
+    },
+    {
+      "id": 25638,
+      "name": "F. Neuhaus",
+      "age": 28,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/25638.png"
+    },
+    {
+      "id": 203007,
+      "name": "R. Reitz",
+      "age": 23,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/203007.png"
+    },
+    {
+      "id": 161921,
+      "name": "G. Reyna",
+      "age": 23,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/161921.png"
+    },
+    {
+      "id": 24969,
+      "name": "P. Sander",
+      "age": 27,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/24969.png"
+    },
+    {
+      "id": 25461,
+      "name": "K. Stöger",
+      "age": 32,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/25461.png"
+    },
+    {
+      "id": 442151,
+      "name": "Niklas Swider",
+      "age": 18,
+      "number": 39,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/442151.png"
+    },
+    {
+      "id": 585704,
+      "name": "F. Fleck",
+      "age": 18,
+      "number": 24,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/585704.png"
+    },
+    {
+      "id": 725,
+      "name": "R. Hack",
+      "age": 27,
+      "number": 25,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/725.png"
+    },
+    {
+      "id": 20784,
+      "name": "F. Honorat",
+      "age": 29,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/20784.png"
+    },
+    {
+      "id": 26256,
+      "name": "T. Kleindienst",
+      "age": 30,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/26256.png"
+    },
+    {
+      "id": 106851,
+      "name": "S. Machino",
+      "age": 26,
+      "number": 18,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/106851.png"
+    },
+    {
+      "id": 414384,
+      "name": "A. Sarco",
+      "age": 19,
+      "number": 8,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/414384.png"
+    },
+    {
+      "id": 28382,
+      "name": "H. Tabaković",
+      "age": 31,
+      "number": 15,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/28382.png"
+    },
+    {
+      "id": 428913,
+      "name": "Jan Urbich",
+      "age": 21,
+      "number": 40,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/428913.png"
+    }
+  ]
+}

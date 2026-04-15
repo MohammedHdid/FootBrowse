@@ -1,0 +1,168 @@
+{
+  "team_id": 12733,
+  "team_slug": "ballkani",
+  "team_name": "Ballkani",
+  "fetched_at": "2026-04-14T22:42:04.855Z",
+  "players": [
+    {
+      "id": 90389,
+      "name": "A. Golubović",
+      "age": 30,
+      "number": 25,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/90389.png"
+    },
+    {
+      "id": 163582,
+      "name": "A. Iljazi",
+      "age": 26,
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/163582.png"
+    },
+    {
+      "id": 79923,
+      "name": "I. Batarelo",
+      "age": 27,
+      "number": 28,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/79923.png"
+    },
+    {
+      "id": 54597,
+      "name": "Bruno Oliveira",
+      "age": 29,
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/54597.png"
+    },
+    {
+      "id": 544785,
+      "name": "B. Jashanica",
+      "age": 35,
+      "number": 32,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544785.png"
+    },
+    {
+      "id": 282961,
+      "name": "E. Letaj",
+      "age": 20,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/282961.png"
+    },
+    {
+      "id": 91621,
+      "name": "A. Potoku",
+      "age": 31,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/91621.png"
+    },
+    {
+      "id": 321420,
+      "name": "G. Smajli",
+      "age": 23,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/321420.png"
+    },
+    {
+      "id": 544870,
+      "name": "D. Vokrri",
+      "age": 21,
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544870.png"
+    },
+    {
+      "id": 3576,
+      "name": "A. Deliu",
+      "age": 28,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/3576.png"
+    },
+    {
+      "id": 544796,
+      "name": "A. Diene",
+      "age": 27,
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/544796.png"
+    },
+    {
+      "id": 1003,
+      "name": "T. Domgjoni",
+      "age": 27,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1003.png"
+    },
+    {
+      "id": 273555,
+      "name": "Giovanni Manson",
+      "age": 23,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/273555.png"
+    },
+    {
+      "id": 291654,
+      "name": "A. Kryeziu",
+      "age": 27,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/291654.png"
+    },
+    {
+      "id": 653640,
+      "name": "Arens Mateli",
+      "age": 25,
+      "number": 20,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/653640.png"
+    },
+    {
+      "id": 596267,
+      "name": "Anel Sabanadzovic",
+      "age": 26,
+      "number": 44,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/596267.png"
+    },
+    {
+      "id": 119152,
+      "name": "F. Alidema",
+      "age": 28,
+      "number": 97,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/119152.png"
+    },
+    {
+      "id": 74683,
+      "name": "W. Hamidi",
+      "age": 29,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/74683.png"
+    },
+    {
+      "id": 454492,
+      "name": "Valentin Serebe",
+      "age": 23,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/454492.png"
+    },
+    {
+      "id": 14607,
+      "name": "B. Tolaj",
+      "age": 25,
+      "number": 7,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/14607.png"
+    }
+  ]
+}

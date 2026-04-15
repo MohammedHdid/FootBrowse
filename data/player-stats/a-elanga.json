@@ -1,0 +1,21 @@
+{
+  "player_id": 153430,
+  "slug": "a-elanga",
+  "name": "A. Elanga",
+  "api_photo": "https://media.api-sports.io/football/players/153430.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Newcastle",
+      "club_logo": "https://media.api-sports.io/football/teams/34.png",
+      "league": "Premier League",
+      "league_id": 39,
+      "appearances": 38,
+      "goals": 6,
+      "assists": 11,
+      "minutes": 2508,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

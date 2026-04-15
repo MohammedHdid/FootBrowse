@@ -1,0 +1,54 @@
+{
+  "id": 5832,
+  "name": "Luis de la Fuente",
+  "photo": "https://media.api-sports.io/football/coachs/5832.png",
+  "nationality": "Spain",
+  "age": 64,
+  "team_id": 2,
+  "team_slug": "france",
+  "fetched_at": "2026-04-15T13:13:23.520Z",
+  "career": [
+    {
+      "team_id": 2,
+      "team_name": "France",
+      "team_logo": "https://media.api-sports.io/football/teams/2.png",
+      "start": "2025-06-01",
+      "end": null
+    },
+    {
+      "team_id": 9,
+      "team_name": "Spain",
+      "team_logo": "https://media.api-sports.io/football/teams/9.png",
+      "start": "2023-01-01",
+      "end": null
+    },
+    {
+      "team_id": 10182,
+      "team_name": "Spain U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10182.png",
+      "start": "2021-06-01",
+      "end": "2024-06-01"
+    },
+    {
+      "team_id": 8224,
+      "team_name": "Spain U21",
+      "team_logo": "https://media.api-sports.io/football/teams/8224.png",
+      "start": "2018-07-01",
+      "end": "2022-12-01"
+    },
+    {
+      "team_id": 10349,
+      "team_name": "Spain U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10349.png",
+      "start": "2015-01-01",
+      "end": "2018-07-01"
+    },
+    {
+      "team_id": 542,
+      "team_name": "Alaves",
+      "team_logo": "https://media.api-sports.io/football/teams/542.png",
+      "start": "2011-08-01",
+      "end": "2011-10-01"
+    }
+  ]
+}

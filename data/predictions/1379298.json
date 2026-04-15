@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379298,
+  "fetched_at": "2026-04-15T20:56:57.826Z",
+  "advice": "Double chance : draw or Brighton",
+  "winner_id": 51,
+  "winner_name": "Brighton",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "0%",
+    "draw": "50%",
+    "away": "50%"
+  },
+  "under_over": null,
+  "goals_home": "-1.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "8%",
+      "away": "92%"
+    },
+    "att": {
+      "home": "30%",
+      "away": "70%"
+    },
+    "def": {
+      "home": "23%",
+      "away": "77%"
+    },
+    "poisson_distribution": {
+      "home": "36%",
+      "away": "64%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "39%",
+      "away": "61%"
+    },
+    "total": {
+      "home": "27.5%",
+      "away": "72.5%"
+    }
+  }
+}

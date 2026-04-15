@@ -1,0 +1,33 @@
+{
+  "id": 1601,
+  "name": "Celades",
+  "photo": "https://media.api-sports.io/football/coachs/1601.png",
+  "nationality": "Spain",
+  "age": 50,
+  "team_id": 532,
+  "team_slug": "valencia",
+  "fetched_at": "2026-04-14T22:36:58.488Z",
+  "career": [
+    {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_logo": "https://media.api-sports.io/football/teams/532.png",
+      "start": "2019-09-01",
+      "end": "2020-06-01"
+    },
+    {
+      "team_id": 12520,
+      "team_name": "Spain U17",
+      "team_logo": "https://media.api-sports.io/football/teams/12520.png",
+      "start": "2017-10-01",
+      "end": "2017-11-01"
+    },
+    {
+      "team_id": 8224,
+      "team_name": "Spain U21",
+      "team_logo": "https://media.api-sports.io/football/teams/8224.png",
+      "start": "2014-05-01",
+      "end": "2018-07-01"
+    }
+  ]
+}

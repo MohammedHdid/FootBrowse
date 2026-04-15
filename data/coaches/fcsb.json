@@ -1,0 +1,33 @@
+{
+  "id": 1210,
+  "name": "V. Andronache",
+  "photo": "https://media.api-sports.io/football/coachs/1210.png",
+  "nationality": "Romania",
+  "age": 55,
+  "team_id": 559,
+  "team_slug": "fcsb",
+  "fetched_at": "2026-04-15T08:16:24.975Z",
+  "career": [
+    {
+      "team_id": 559,
+      "team_name": "FCSB",
+      "team_logo": "https://media.api-sports.io/football/teams/559.png",
+      "start": "2019-08-01",
+      "end": "2019-08-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Sportul Studențesc",
+      "team_logo": null,
+      "start": "2013-06-01",
+      "end": "2013-07-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Sportul Studențesc",
+      "team_logo": null,
+      "start": "2012-09-01",
+      "end": "2013-03-01"
+    }
+  ]
+}

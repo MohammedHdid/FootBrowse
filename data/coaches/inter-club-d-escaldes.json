@@ -1,0 +1,40 @@
+{
+  "id": 3245,
+  "name": "Antonio Rodríguez",
+  "photo": "https://media.api-sports.io/football/coachs/3245.png",
+  "nationality": "Spain",
+  "age": 54,
+  "team_id": 3342,
+  "team_slug": "inter-club-d-escaldes",
+  "fetched_at": "2026-04-15T08:18:25.210Z",
+  "career": [
+    {
+      "team_id": 3342,
+      "team_name": "Inter Club d'Escaldes",
+      "team_logo": "https://media.api-sports.io/football/teams/3342.png",
+      "start": "2020-10-01",
+      "end": "2021-02-01"
+    },
+    {
+      "team_id": 860,
+      "team_name": "Extremadura UD",
+      "team_logo": "https://media.api-sports.io/football/teams/860.png",
+      "start": "2018-11-01",
+      "end": "2019-02-01"
+    },
+    {
+      "team_id": 714,
+      "team_name": "Gimnàstic Tarragona",
+      "team_logo": "https://media.api-sports.io/football/teams/714.png",
+      "start": "2017-09-01",
+      "end": "2018-01-01"
+    },
+    {
+      "team_id": 9403,
+      "team_name": "Olot",
+      "team_logo": "https://media.api-sports.io/football/teams/9403.png",
+      "start": "2014-11-01",
+      "end": "2016-02-01"
+    }
+  ]
+}

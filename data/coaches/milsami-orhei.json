@@ -1,0 +1,47 @@
+{
+  "id": 12069,
+  "name": "S. Dubrovin",
+  "photo": "https://media.api-sports.io/football/coachs/12069.png",
+  "nationality": "Moldova",
+  "age": 73,
+  "team_id": 691,
+  "team_slug": "milsami-orhei",
+  "fetched_at": "2026-04-15T08:20:37.272Z",
+  "career": [
+    {
+      "team_id": 691,
+      "team_name": "Milsami",
+      "team_logo": "https://media.api-sports.io/football/teams/691.png",
+      "start": "2020-02-01",
+      "end": "2023-07-01"
+    },
+    {
+      "team_id": 647,
+      "team_name": "Zaria",
+      "team_logo": "https://media.api-sports.io/football/teams/647.png",
+      "start": "2015-03-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Speranţa Cahul",
+      "team_logo": null,
+      "start": "2013-10-01",
+      "end": "2014-06-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Speranţa Cahul",
+      "team_logo": null,
+      "start": "2013-08-01",
+      "end": "2013-08-01"
+    },
+    {
+      "team_id": 4633,
+      "team_name": "Zimbru",
+      "team_logo": "https://media.api-sports.io/football/teams/4633.png",
+      "start": "2012-12-01",
+      "end": "2013-03-01"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "team_id": 691,
+  "team_slug": "milsami-orhei",
+  "team_name": "Milsami Orhei",
+  "fetched_at": "2026-04-15T08:20:31.231Z",
+  "players": [
+    {
+      "id": 163476,
+      "name": "F. Dujmović",
+      "age": 26,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/163476.png"
+    },
+    {
+      "id": 363540,
+      "name": "D. Vornic",
+      "age": 21,
+      "number": 35,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/363540.png"
+    },
+    {
+      "id": 112930,
+      "name": "I. Arhirii",
+      "age": 28,
+      "number": 17,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/112930.png"
+    },
+    {
+      "id": 37820,
+      "name": "Hennos Asmelash",
+      "age": 26,
+      "number": 29,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/37820.png"
+    },
+    {
+      "id": 112959,
+      "name": "I. Ghimp",
+      "age": 29,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/112959.png"
+    },
+    {
+      "id": 106009,
+      "name": "V. Jardan",
+      "age": 32,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/106009.png"
+    },
+    {
+      "id": 544003,
+      "name": "D. Koy Lupano",
+      "age": 25,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544003.png"
+    },
+    {
+      "id": 37924,
+      "name": "D. Muringen",
+      "age": 26,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/37924.png"
+    },
+    {
+      "id": 56063,
+      "name": "V. Posmac",
+      "age": 35,
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/56063.png"
+    },
+    {
+      "id": 196940,
+      "name": "F. Takyi",
+      "age": 25,
+      "number": 30,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/196940.png"
+    },
+    {
+      "id": 561997,
+      "name": "L. Bulmaga",
+      "age": 18,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/561997.png"
+    },
+    {
+      "id": 430925,
+      "name": "S. Chele",
+      "age": 22,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/430925.png"
+    },
+    {
+      "id": 353679,
+      "name": "N. Fonkeu",
+      "age": 26,
+      "number": 33,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/353679.png"
+    },
+    {
+      "id": 8644,
+      "name": "S. Keita",
+      "age": 24,
+      "number": 27,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/8644.png"
+    },
+    {
+      "id": 543975,
+      "name": "D. Lisu",
+      "age": 23,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/543975.png"
+    },
+    {
+      "id": 544797,
+      "name": "V. Luchita",
+      "age": 21,
+      "number": 13,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/544797.png"
+    },
+    {
+      "id": 655178,
+      "name": "Philip Odubia",
+      "age": 19,
+      "number": null,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/655178.png"
+    },
+    {
+      "id": 37832,
+      "name": "O. Rommens",
+      "age": 30,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/37832.png"
+    },
+    {
+      "id": 268743,
+      "name": "W. Simba",
+      "age": 24,
+      "number": 3,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/268743.png"
+    },
+    {
+      "id": 278450,
+      "name": "A. Yoda",
+      "age": 25,
+      "number": 18,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/278450.png"
+    },
+    {
+      "id": 544765,
+      "name": "A. Cobet",
+      "age": 28,
+      "number": 9,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/544765.png"
+    },
+    {
+      "id": 216948,
+      "name": "M. Iosipoi",
+      "age": 25,
+      "number": 34,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/216948.png"
+    },
+    {
+      "id": 47916,
+      "name": "S. Izountouemoi",
+      "age": 26,
+      "number": 21,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/47916.png"
+    },
+    {
+      "id": 199652,
+      "name": "K. Kalabatama",
+      "age": 23,
+      "number": 28,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/199652.png"
+    },
+    {
+      "id": 616309,
+      "name": "Philip Odubia",
+      "age": null,
+      "number": 14,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/616309.png"
+    },
+    {
+      "id": 161787,
+      "name": "J. Ohajunwa",
+      "age": 24,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/161787.png"
+    },
+    {
+      "id": 646654,
+      "name": "D. Sirbu",
+      "age": 19,
+      "number": 15,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/646654.png"
+    },
+    {
+      "id": 608246,
+      "name": "I. Souza",
+      "age": 20,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/608246.png"
+    }
+  ]
+}

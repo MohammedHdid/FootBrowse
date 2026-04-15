@@ -1,0 +1,1874 @@
+[
+  {
+    "fixture_id": 1489369,
+    "slug": "mexico-vs-south-africa-2026-06-11",
+    "date": "2026-06-11",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 16,
+      "name": "Mexico",
+      "slug": "mexico",
+      "logo": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away_team": {
+      "id": 1531,
+      "name": "South Africa",
+      "slug": "south-africa",
+      "logo": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1538999,
+    "slug": "south-korea-vs-czech-republic-2026-06-12",
+    "date": "2026-06-12",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "away_team": {
+      "id": 770,
+      "name": "Czech Republic",
+      "slug": "czech-republic",
+      "logo": "https://media.api-sports.io/football/teams/770.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539000,
+    "slug": "canada-vs-bosnia-herzegovina-2026-06-12",
+    "date": "2026-06-12",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 5529,
+      "name": "Canada",
+      "slug": "canada",
+      "logo": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away_team": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "slug": "bosnia-herzegovina",
+      "logo": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489370,
+    "slug": "usa-vs-paraguay-2026-06-13",
+    "date": "2026-06-13",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away_team": {
+      "id": 2380,
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "logo": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489373,
+    "slug": "qatar-vs-switzerland-2026-06-13",
+    "date": "2026-06-13",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1569,
+      "name": "Qatar",
+      "slug": "qatar",
+      "logo": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "away_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489371,
+    "slug": "brazil-vs-morocco-2026-06-13",
+    "date": "2026-06-13",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489372,
+    "slug": "haiti-vs-scotland-2026-06-14",
+    "date": "2026-06-14",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2386,
+      "name": "Haiti",
+      "slug": "haiti",
+      "logo": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "away_team": {
+      "id": 1108,
+      "name": "Scotland",
+      "slug": "scotland",
+      "logo": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539001,
+    "slug": "australia-vs-turkiye-2026-06-14",
+    "date": "2026-06-14",
+    "kickoff_utc": "04:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "away_team": {
+      "id": 777,
+      "name": "Türkiye",
+      "slug": "turkiye",
+      "logo": "https://media.api-sports.io/football/teams/777.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489374,
+    "slug": "germany-vs-curacao-2026-06-14",
+    "date": "2026-06-14",
+    "kickoff_utc": "17:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 25,
+      "name": "Germany",
+      "slug": "germany",
+      "logo": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "away_team": {
+      "id": 5530,
+      "name": "Curaçao",
+      "slug": "curacao",
+      "logo": "https://media.api-sports.io/football/teams/5530.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489376,
+    "slug": "netherlands-vs-japan-2026-06-14",
+    "date": "2026-06-14",
+    "kickoff_utc": "20:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489375,
+    "slug": "ivory-coast-vs-ecuador-2026-06-14",
+    "date": "2026-06-14",
+    "kickoff_utc": "23:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "slug": "ivory-coast",
+      "logo": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "away_team": {
+      "id": 2382,
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "logo": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539002,
+    "slug": "sweden-vs-tunisia-2026-06-15",
+    "date": "2026-06-15",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 5,
+      "name": "Sweden",
+      "slug": "sweden",
+      "logo": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "away_team": {
+      "id": 28,
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "logo": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489380,
+    "slug": "spain-vs-cape-verde-islands-2026-06-15",
+    "date": "2026-06-15",
+    "kickoff_utc": "16:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away_team": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "slug": "cape-verde-islands",
+      "logo": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489377,
+    "slug": "belgium-vs-egypt-2026-06-15",
+    "date": "2026-06-15",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1,
+      "name": "Belgium",
+      "slug": "belgium",
+      "logo": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away_team": {
+      "id": 32,
+      "name": "Egypt",
+      "slug": "egypt",
+      "logo": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489379,
+    "slug": "saudi-arabia-vs-uruguay-2026-06-15",
+    "date": "2026-06-15",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "logo": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "away_team": {
+      "id": 7,
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "logo": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489378,
+    "slug": "iran-vs-new-zealand-2026-06-16",
+    "date": "2026-06-16",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 22,
+      "name": "Iran",
+      "slug": "iran",
+      "logo": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "away_team": {
+      "id": 4673,
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "logo": "https://media.api-sports.io/football/teams/4673.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489383,
+    "slug": "france-vs-senegal-2026-06-16",
+    "date": "2026-06-16",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539016,
+    "slug": "iraq-vs-norway-2026-06-16",
+    "date": "2026-06-16",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1567,
+      "name": "Iraq",
+      "slug": "iraq",
+      "logo": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "away_team": {
+      "id": 1090,
+      "name": "Norway",
+      "slug": "norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489381,
+    "slug": "argentina-vs-algeria-2026-06-17",
+    "date": "2026-06-17",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 1532,
+      "name": "Algeria",
+      "slug": "algeria",
+      "logo": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489382,
+    "slug": "austria-vs-jordan-2026-06-17",
+    "date": "2026-06-17",
+    "kickoff_utc": "04:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 775,
+      "name": "Austria",
+      "slug": "austria",
+      "logo": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "away_team": {
+      "id": 1548,
+      "name": "Jordan",
+      "slug": "jordan",
+      "logo": "https://media.api-sports.io/football/teams/1548.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539003,
+    "slug": "portugal-vs-congo-dr-2026-06-17",
+    "date": "2026-06-17",
+    "kickoff_utc": "17:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away_team": {
+      "id": 1508,
+      "name": "Congo DR",
+      "slug": "congo-dr",
+      "logo": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489384,
+    "slug": "england-vs-croatia-2026-06-17",
+    "date": "2026-06-17",
+    "kickoff_utc": "20:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489385,
+    "slug": "ghana-vs-panama-2026-06-17",
+    "date": "2026-06-17",
+    "kickoff_utc": "23:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1504,
+      "name": "Ghana",
+      "slug": "ghana",
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "away_team": {
+      "id": 11,
+      "name": "Panama",
+      "slug": "panama",
+      "logo": "https://media.api-sports.io/football/teams/11.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489386,
+    "slug": "uzbekistan-vs-colombia-2026-06-18",
+    "date": "2026-06-18",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "logo": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "away_team": {
+      "id": 8,
+      "name": "Colombia",
+      "slug": "colombia",
+      "logo": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "venue_id": null,
+    "matchday": 1,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539004,
+    "slug": "czech-republic-vs-south-africa-2026-06-18",
+    "date": "2026-06-18",
+    "kickoff_utc": "16:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 770,
+      "name": "Czech Republic",
+      "slug": "czech-republic",
+      "logo": "https://media.api-sports.io/football/teams/770.png"
+    },
+    "away_team": {
+      "id": 1531,
+      "name": "South Africa",
+      "slug": "south-africa",
+      "logo": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539005,
+    "slug": "switzerland-vs-bosnia-herzegovina-2026-06-18",
+    "date": "2026-06-18",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away_team": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "slug": "bosnia-herzegovina",
+      "logo": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489387,
+    "slug": "canada-vs-qatar-2026-06-18",
+    "date": "2026-06-18",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 5529,
+      "name": "Canada",
+      "slug": "canada",
+      "logo": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "away_team": {
+      "id": 1569,
+      "name": "Qatar",
+      "slug": "qatar",
+      "logo": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489388,
+    "slug": "mexico-vs-south-korea-2026-06-19",
+    "date": "2026-06-19",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 16,
+      "name": "Mexico",
+      "slug": "mexico",
+      "logo": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "away_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489391,
+    "slug": "usa-vs-australia-2026-06-19",
+    "date": "2026-06-19",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "away_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489390,
+    "slug": "scotland-vs-morocco-2026-06-19",
+    "date": "2026-06-19",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1108,
+      "name": "Scotland",
+      "slug": "scotland",
+      "logo": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "away_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489389,
+    "slug": "brazil-vs-haiti-2026-06-20",
+    "date": "2026-06-20",
+    "kickoff_utc": "00:30",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "away_team": {
+      "id": 2386,
+      "name": "Haiti",
+      "slug": "haiti",
+      "logo": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539006,
+    "slug": "turkiye-vs-paraguay-2026-06-20",
+    "date": "2026-06-20",
+    "kickoff_utc": "03:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 777,
+      "name": "Türkiye",
+      "slug": "turkiye",
+      "logo": "https://media.api-sports.io/football/teams/777.png"
+    },
+    "away_team": {
+      "id": 2380,
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "logo": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539007,
+    "slug": "netherlands-vs-sweden-2026-06-20",
+    "date": "2026-06-20",
+    "kickoff_utc": "17:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "away_team": {
+      "id": 5,
+      "name": "Sweden",
+      "slug": "sweden",
+      "logo": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489393,
+    "slug": "germany-vs-ivory-coast-2026-06-20",
+    "date": "2026-06-20",
+    "kickoff_utc": "20:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 25,
+      "name": "Germany",
+      "slug": "germany",
+      "logo": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "away_team": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "slug": "ivory-coast",
+      "logo": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489392,
+    "slug": "ecuador-vs-curacao-2026-06-21",
+    "date": "2026-06-21",
+    "kickoff_utc": "00:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2382,
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "logo": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "away_team": {
+      "id": 5530,
+      "name": "Curaçao",
+      "slug": "curacao",
+      "logo": "https://media.api-sports.io/football/teams/5530.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489394,
+    "slug": "tunisia-vs-japan-2026-06-21",
+    "date": "2026-06-21",
+    "kickoff_utc": "04:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 28,
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "logo": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "away_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489397,
+    "slug": "spain-vs-saudi-arabia-2026-06-21",
+    "date": "2026-06-21",
+    "kickoff_utc": "16:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "away_team": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "logo": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489395,
+    "slug": "belgium-vs-iran-2026-06-21",
+    "date": "2026-06-21",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1,
+      "name": "Belgium",
+      "slug": "belgium",
+      "logo": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "away_team": {
+      "id": 22,
+      "name": "Iran",
+      "slug": "iran",
+      "logo": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489398,
+    "slug": "uruguay-vs-cape-verde-islands-2026-06-21",
+    "date": "2026-06-21",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 7,
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "logo": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "away_team": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "slug": "cape-verde-islands",
+      "logo": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489396,
+    "slug": "new-zealand-vs-egypt-2026-06-22",
+    "date": "2026-06-22",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 4673,
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "logo": "https://media.api-sports.io/football/teams/4673.png"
+    },
+    "away_team": {
+      "id": 32,
+      "name": "Egypt",
+      "slug": "egypt",
+      "logo": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489399,
+    "slug": "argentina-vs-austria-2026-06-22",
+    "date": "2026-06-22",
+    "kickoff_utc": "17:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "away_team": {
+      "id": 775,
+      "name": "Austria",
+      "slug": "austria",
+      "logo": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539017,
+    "slug": "france-vs-iraq-2026-06-22",
+    "date": "2026-06-22",
+    "kickoff_utc": "21:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "away_team": {
+      "id": 1567,
+      "name": "Iraq",
+      "slug": "iraq",
+      "logo": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489401,
+    "slug": "norway-vs-senegal-2026-06-23",
+    "date": "2026-06-23",
+    "kickoff_utc": "00:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1090,
+      "name": "Norway",
+      "slug": "norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "away_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489400,
+    "slug": "jordan-vs-algeria-2026-06-23",
+    "date": "2026-06-23",
+    "kickoff_utc": "03:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1548,
+      "name": "Jordan",
+      "slug": "jordan",
+      "logo": "https://media.api-sports.io/football/teams/1548.png"
+    },
+    "away_team": {
+      "id": 1532,
+      "name": "Algeria",
+      "slug": "algeria",
+      "logo": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489404,
+    "slug": "portugal-vs-uzbekistan-2026-06-23",
+    "date": "2026-06-23",
+    "kickoff_utc": "17:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "away_team": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "logo": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489402,
+    "slug": "england-vs-ghana-2026-06-23",
+    "date": "2026-06-23",
+    "kickoff_utc": "20:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "away_team": {
+      "id": 1504,
+      "name": "Ghana",
+      "slug": "ghana",
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489403,
+    "slug": "panama-vs-croatia-2026-06-23",
+    "date": "2026-06-23",
+    "kickoff_utc": "23:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 11,
+      "name": "Panama",
+      "slug": "panama",
+      "logo": "https://media.api-sports.io/football/teams/11.png"
+    },
+    "away_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539008,
+    "slug": "colombia-vs-congo-dr-2026-06-24",
+    "date": "2026-06-24",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 8,
+      "name": "Colombia",
+      "slug": "colombia",
+      "logo": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "away_team": {
+      "id": 1508,
+      "name": "Congo DR",
+      "slug": "congo-dr",
+      "logo": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "venue_id": null,
+    "matchday": 2,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489408,
+    "slug": "switzerland-vs-canada-2026-06-24",
+    "date": "2026-06-24",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 15,
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "logo": "https://media.api-sports.io/football/teams/15.png"
+    },
+    "away_team": {
+      "id": 5529,
+      "name": "Canada",
+      "slug": "canada",
+      "logo": "https://media.api-sports.io/football/teams/5529.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539009,
+    "slug": "bosnia-herzegovina-vs-qatar-2026-06-24",
+    "date": "2026-06-24",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1113,
+      "name": "Bosnia & Herzegovina",
+      "slug": "bosnia-herzegovina",
+      "logo": "https://media.api-sports.io/football/teams/1113.png"
+    },
+    "away_team": {
+      "id": 1569,
+      "name": "Qatar",
+      "slug": "qatar",
+      "logo": "https://media.api-sports.io/football/teams/1569.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489405,
+    "slug": "morocco-vs-haiti-2026-06-24",
+    "date": "2026-06-24",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 31,
+      "name": "Morocco",
+      "slug": "morocco",
+      "logo": "https://media.api-sports.io/football/teams/31.png"
+    },
+    "away_team": {
+      "id": 2386,
+      "name": "Haiti",
+      "slug": "haiti",
+      "logo": "https://media.api-sports.io/football/teams/2386.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489406,
+    "slug": "scotland-vs-brazil-2026-06-24",
+    "date": "2026-06-24",
+    "kickoff_utc": "22:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1108,
+      "name": "Scotland",
+      "slug": "scotland",
+      "logo": "https://media.api-sports.io/football/teams/1108.png"
+    },
+    "away_team": {
+      "id": 6,
+      "name": "Brazil",
+      "slug": "brazil",
+      "logo": "https://media.api-sports.io/football/teams/6.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539010,
+    "slug": "czech-republic-vs-mexico-2026-06-25",
+    "date": "2026-06-25",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 770,
+      "name": "Czech Republic",
+      "slug": "czech-republic",
+      "logo": "https://media.api-sports.io/football/teams/770.png"
+    },
+    "away_team": {
+      "id": 16,
+      "name": "Mexico",
+      "slug": "mexico",
+      "logo": "https://media.api-sports.io/football/teams/16.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489407,
+    "slug": "south-africa-vs-south-korea-2026-06-25",
+    "date": "2026-06-25",
+    "kickoff_utc": "01:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1531,
+      "name": "South Africa",
+      "slug": "south-africa",
+      "logo": "https://media.api-sports.io/football/teams/1531.png"
+    },
+    "away_team": {
+      "id": 17,
+      "name": "South Korea",
+      "slug": "south-korea",
+      "logo": "https://media.api-sports.io/football/teams/17.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489410,
+    "slug": "ecuador-vs-germany-2026-06-25",
+    "date": "2026-06-25",
+    "kickoff_utc": "20:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2382,
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "logo": "https://media.api-sports.io/football/teams/2382.png"
+    },
+    "away_team": {
+      "id": 25,
+      "name": "Germany",
+      "slug": "germany",
+      "logo": "https://media.api-sports.io/football/teams/25.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489409,
+    "slug": "curacao-vs-ivory-coast-2026-06-25",
+    "date": "2026-06-25",
+    "kickoff_utc": "20:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 5530,
+      "name": "Curaçao",
+      "slug": "curacao",
+      "logo": "https://media.api-sports.io/football/teams/5530.png"
+    },
+    "away_team": {
+      "id": 1501,
+      "name": "Ivory Coast",
+      "slug": "ivory-coast",
+      "logo": "https://media.api-sports.io/football/teams/1501.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539011,
+    "slug": "japan-vs-sweden-2026-06-25",
+    "date": "2026-06-25",
+    "kickoff_utc": "23:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 12,
+      "name": "Japan",
+      "slug": "japan",
+      "logo": "https://media.api-sports.io/football/teams/12.png"
+    },
+    "away_team": {
+      "id": 5,
+      "name": "Sweden",
+      "slug": "sweden",
+      "logo": "https://media.api-sports.io/football/teams/5.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489412,
+    "slug": "tunisia-vs-netherlands-2026-06-25",
+    "date": "2026-06-25",
+    "kickoff_utc": "23:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 28,
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "logo": "https://media.api-sports.io/football/teams/28.png"
+    },
+    "away_team": {
+      "id": 1118,
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "logo": "https://media.api-sports.io/football/teams/1118.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539012,
+    "slug": "turkiye-vs-usa-2026-06-26",
+    "date": "2026-06-26",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 777,
+      "name": "Türkiye",
+      "slug": "turkiye",
+      "logo": "https://media.api-sports.io/football/teams/777.png"
+    },
+    "away_team": {
+      "id": 2384,
+      "name": "USA",
+      "slug": "usa",
+      "logo": "https://media.api-sports.io/football/teams/2384.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489411,
+    "slug": "paraguay-vs-australia-2026-06-26",
+    "date": "2026-06-26",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 2380,
+      "name": "Paraguay",
+      "slug": "paraguay",
+      "logo": "https://media.api-sports.io/football/teams/2380.png"
+    },
+    "away_team": {
+      "id": 20,
+      "name": "Australia",
+      "slug": "australia",
+      "logo": "https://media.api-sports.io/football/teams/20.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539074,
+    "slug": "senegal-vs-iraq-2026-06-26",
+    "date": "2026-06-26",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 13,
+      "name": "Senegal",
+      "slug": "senegal",
+      "logo": "https://media.api-sports.io/football/teams/13.png"
+    },
+    "away_team": {
+      "id": 1567,
+      "name": "Iraq",
+      "slug": "iraq",
+      "logo": "https://media.api-sports.io/football/teams/1567.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489416,
+    "slug": "norway-vs-france-2026-06-26",
+    "date": "2026-06-26",
+    "kickoff_utc": "19:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1090,
+      "name": "Norway",
+      "slug": "norway",
+      "logo": "https://media.api-sports.io/football/teams/1090.png"
+    },
+    "away_team": {
+      "id": 2,
+      "name": "France",
+      "slug": "france",
+      "logo": "https://media.api-sports.io/football/teams/2.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489417,
+    "slug": "uruguay-vs-spain-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "00:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 7,
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "logo": "https://media.api-sports.io/football/teams/7.png"
+    },
+    "away_team": {
+      "id": 9,
+      "name": "Spain",
+      "slug": "spain",
+      "logo": "https://media.api-sports.io/football/teams/9.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489413,
+    "slug": "cape-verde-islands-vs-saudi-arabia-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "00:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1533,
+      "name": "Cape Verde Islands",
+      "slug": "cape-verde-islands",
+      "logo": "https://media.api-sports.io/football/teams/1533.png"
+    },
+    "away_team": {
+      "id": 23,
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "logo": "https://media.api-sports.io/football/teams/23.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489414,
+    "slug": "egypt-vs-iran-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "03:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 32,
+      "name": "Egypt",
+      "slug": "egypt",
+      "logo": "https://media.api-sports.io/football/teams/32.png"
+    },
+    "away_team": {
+      "id": 22,
+      "name": "Iran",
+      "slug": "iran",
+      "logo": "https://media.api-sports.io/football/teams/22.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489415,
+    "slug": "new-zealand-vs-belgium-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "03:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 4673,
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "logo": "https://media.api-sports.io/football/teams/4673.png"
+    },
+    "away_team": {
+      "id": 1,
+      "name": "Belgium",
+      "slug": "belgium",
+      "logo": "https://media.api-sports.io/football/teams/1.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489420,
+    "slug": "croatia-vs-ghana-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "21:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 3,
+      "name": "Croatia",
+      "slug": "croatia",
+      "logo": "https://media.api-sports.io/football/teams/3.png"
+    },
+    "away_team": {
+      "id": 1504,
+      "name": "Ghana",
+      "slug": "ghana",
+      "logo": "https://media.api-sports.io/football/teams/1504.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489422,
+    "slug": "panama-vs-england-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "21:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 11,
+      "name": "Panama",
+      "slug": "panama",
+      "logo": "https://media.api-sports.io/football/teams/11.png"
+    },
+    "away_team": {
+      "id": 10,
+      "name": "England",
+      "slug": "england",
+      "logo": "https://media.api-sports.io/football/teams/10.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489419,
+    "slug": "colombia-vs-portugal-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "23:30",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 8,
+      "name": "Colombia",
+      "slug": "colombia",
+      "logo": "https://media.api-sports.io/football/teams/8.png"
+    },
+    "away_team": {
+      "id": 27,
+      "name": "Portugal",
+      "slug": "portugal",
+      "logo": "https://media.api-sports.io/football/teams/27.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1539013,
+    "slug": "congo-dr-vs-uzbekistan-2026-06-27",
+    "date": "2026-06-27",
+    "kickoff_utc": "23:30",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1508,
+      "name": "Congo DR",
+      "slug": "congo-dr",
+      "logo": "https://media.api-sports.io/football/teams/1508.png"
+    },
+    "away_team": {
+      "id": 1568,
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "logo": "https://media.api-sports.io/football/teams/1568.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489418,
+    "slug": "algeria-vs-austria-2026-06-28",
+    "date": "2026-06-28",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1532,
+      "name": "Algeria",
+      "slug": "algeria",
+      "logo": "https://media.api-sports.io/football/teams/1532.png"
+    },
+    "away_team": {
+      "id": 775,
+      "name": "Austria",
+      "slug": "austria",
+      "logo": "https://media.api-sports.io/football/teams/775.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  },
+  {
+    "fixture_id": 1489421,
+    "slug": "jordan-vs-argentina-2026-06-28",
+    "date": "2026-06-28",
+    "kickoff_utc": "02:00",
+    "status": "NS",
+    "score": {
+      "home": null,
+      "away": null
+    },
+    "home_team": {
+      "id": 1548,
+      "name": "Jordan",
+      "slug": "jordan",
+      "logo": "https://media.api-sports.io/football/teams/1548.png"
+    },
+    "away_team": {
+      "id": 26,
+      "name": "Argentina",
+      "slug": "argentina",
+      "logo": "https://media.api-sports.io/football/teams/26.png"
+    },
+    "venue_id": null,
+    "matchday": 3,
+    "stage": "Group Stage"
+  }
+]

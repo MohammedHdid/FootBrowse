@@ -1,0 +1,21 @@
+{
+  "player_id": 794,
+  "slug": "p-schick",
+  "name": "P. Schick",
+  "api_photo": "https://media.api-sports.io/football/players/794.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Bayer Leverkusen",
+      "club_logo": "https://media.api-sports.io/football/teams/168.png",
+      "league": "Bundesliga",
+      "league_id": 78,
+      "appearances": 33,
+      "goals": 21,
+      "assists": 0,
+      "minutes": 1693,
+      "yellow_cards": 4,
+      "red_cards": 0
+    }
+  ]
+}

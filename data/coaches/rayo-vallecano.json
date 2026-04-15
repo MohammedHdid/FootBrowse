@@ -1,0 +1,19 @@
+{
+  "id": 21839,
+  "name": "Iñigo Pérez",
+  "photo": "https://media.api-sports.io/football/coachs/21839.png",
+  "nationality": "Spain",
+  "age": 37,
+  "team_id": 728,
+  "team_slug": "rayo-vallecano",
+  "fetched_at": "2026-04-14T22:35:58.440Z",
+  "career": [
+    {
+      "team_id": 728,
+      "team_name": "Rayo Vallecano",
+      "team_logo": "https://media.api-sports.io/football/teams/728.png",
+      "start": "2024-02-01",
+      "end": null
+    }
+  ]
+}

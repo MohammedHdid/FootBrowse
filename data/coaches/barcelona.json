@@ -1,0 +1,26 @@
+{
+  "id": 1888,
+  "name": "Xavi",
+  "photo": "https://media.api-sports.io/football/coachs/1888.png",
+  "nationality": "Spain",
+  "age": 45,
+  "team_id": 529,
+  "team_slug": "barcelona",
+  "fetched_at": "2026-04-14T22:34:10.320Z",
+  "career": [
+    {
+      "team_id": 529,
+      "team_name": "Barcelona",
+      "team_logo": "https://media.api-sports.io/football/teams/529.png",
+      "start": "2021-11-01",
+      "end": "2024-05-01"
+    },
+    {
+      "team_id": 2895,
+      "team_name": "Al Sadd",
+      "team_logo": "https://media.api-sports.io/football/teams/2895.png",
+      "start": "2019-05-01",
+      "end": "2021-11-01"
+    }
+  ]
+}

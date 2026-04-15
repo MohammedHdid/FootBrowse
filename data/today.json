@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-15",
+  "fetched_at": "2026-04-15T21:18:27.133Z",
+  "fixtures_by_league": {
+    "uefa-champions-league": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "slug": "uefa-champions-league",
+        "logo": "https://media.api-sports.io/football/leagues/2.png"
+      },
+      "fixtures": [
+        {
+          "fixture_id": 1534571,
+          "slug": "arsenal-vs-sporting-cp-2026-04-15",
+          "date": "2026-04-15",
+          "kickoff_utc": "19:00",
+          "status": "FT",
+          "score": {
+            "home": 0,
+            "away": 0
+          },
+          "home_team": {
+            "id": 42,
+            "name": "Arsenal",
+            "slug": "arsenal",
+            "logo": "https://media.api-sports.io/football/teams/42.png"
+          },
+          "away_team": {
+            "id": 228,
+            "name": "Sporting CP",
+            "slug": "sporting-cp",
+            "logo": "https://media.api-sports.io/football/teams/228.png"
+          },
+          "round": "Quarter-finals"
+        },
+        {
+          "fixture_id": 1534911,
+          "slug": "bayern-munchen-vs-real-madrid-2026-04-15",
+          "date": "2026-04-15",
+          "kickoff_utc": "19:00",
+          "status": "FT",
+          "score": {
+            "home": 4,
+            "away": 3
+          },
+          "home_team": {
+            "id": 157,
+            "name": "Bayern München",
+            "slug": "bayern-munchen",
+            "logo": "https://media.api-sports.io/football/teams/157.png"
+          },
+          "away_team": {
+            "id": 541,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "logo": "https://media.api-sports.io/football/teams/541.png"
+          },
+          "round": "Quarter-finals"
+        }
+      ]
+    }
+  }
+}

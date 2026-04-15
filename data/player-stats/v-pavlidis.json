@@ -1,0 +1,21 @@
+{
+  "player_id": 36798,
+  "slug": "v-pavlidis",
+  "name": "V. Pavlidis",
+  "api_photo": "https://media.api-sports.io/football/players/36798.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Benfica",
+      "club_logo": "https://media.api-sports.io/football/teams/211.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 12,
+      "goals": 7,
+      "assists": 2,
+      "minutes": 905,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

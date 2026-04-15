@@ -1,0 +1,391 @@
+{
+  "league_id": 140,
+  "season": 2025,
+  "groups": [
+    {
+      "group": "Primera División",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 529,
+            "name": "Barcelona",
+            "slug": "barcelona",
+            "logo": "https://media.api-sports.io/football/teams/529.png"
+          },
+          "points": 79,
+          "played": 31,
+          "won": 26,
+          "drawn": 1,
+          "lost": 4,
+          "goals_for": 84,
+          "goals_against": 30,
+          "goal_diff": 54,
+          "form": "WWWWW",
+          "description": "Promotion - Champions League (League phase)"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 541,
+            "name": "Real Madrid",
+            "slug": "real-madrid",
+            "logo": "https://media.api-sports.io/football/teams/541.png"
+          },
+          "points": 70,
+          "played": 31,
+          "won": 22,
+          "drawn": 4,
+          "lost": 5,
+          "goals_for": 65,
+          "goals_against": 29,
+          "goal_diff": 36,
+          "form": "DLWWW",
+          "description": "Promotion - Champions League (League phase)"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 533,
+            "name": "Villarreal",
+            "slug": "villarreal",
+            "logo": "https://media.api-sports.io/football/teams/533.png"
+          },
+          "points": 61,
+          "played": 31,
+          "won": 19,
+          "drawn": 4,
+          "lost": 8,
+          "goals_for": 56,
+          "goals_against": 36,
+          "goal_diff": 20,
+          "form": "WLWDW",
+          "description": "Promotion - Champions League (League phase)"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 530,
+            "name": "Atletico Madrid",
+            "slug": "atletico-madrid",
+            "logo": "https://media.api-sports.io/football/teams/530.png"
+          },
+          "points": 57,
+          "played": 31,
+          "won": 17,
+          "drawn": 6,
+          "lost": 8,
+          "goals_for": 51,
+          "goals_against": 32,
+          "goal_diff": 19,
+          "form": "LLLWW",
+          "description": "Promotion - Champions League (League phase)"
+        },
+        {
+          "rank": 5,
+          "team": {
+            "id": 543,
+            "name": "Real Betis",
+            "slug": "real-betis",
+            "logo": "https://media.api-sports.io/football/teams/543.png"
+          },
+          "points": 46,
+          "played": 31,
+          "won": 11,
+          "drawn": 13,
+          "lost": 7,
+          "goals_for": 45,
+          "goals_against": 38,
+          "goal_diff": 7,
+          "form": "DDLDL",
+          "description": "Promotion - Europa League (League phase)"
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "slug": "celta-vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png"
+          },
+          "points": 44,
+          "played": 31,
+          "won": 11,
+          "drawn": 11,
+          "lost": 9,
+          "goals_for": 44,
+          "goals_against": 40,
+          "goal_diff": 4,
+          "form": "LWLDL",
+          "description": "Promotion - Conference League (Qualification)"
+        },
+        {
+          "rank": 7,
+          "team": {
+            "id": 548,
+            "name": "Real Sociedad",
+            "slug": "real-sociedad",
+            "logo": "https://media.api-sports.io/football/teams/548.png"
+          },
+          "points": 42,
+          "played": 31,
+          "won": 11,
+          "drawn": 9,
+          "lost": 11,
+          "goals_for": 49,
+          "goals_against": 48,
+          "goal_diff": 1,
+          "form": "DWLWL",
+          "description": null
+        },
+        {
+          "rank": 8,
+          "team": {
+            "id": 546,
+            "name": "Getafe",
+            "slug": "getafe",
+            "logo": "https://media.api-sports.io/football/teams/546.png"
+          },
+          "points": 41,
+          "played": 31,
+          "won": 12,
+          "drawn": 5,
+          "lost": 14,
+          "goals_for": 27,
+          "goals_against": 32,
+          "goal_diff": -5,
+          "form": "LWWLW",
+          "description": null
+        },
+        {
+          "rank": 9,
+          "team": {
+            "id": 727,
+            "name": "Osasuna",
+            "slug": "osasuna",
+            "logo": "https://media.api-sports.io/football/teams/727.png"
+          },
+          "points": 39,
+          "played": 31,
+          "won": 10,
+          "drawn": 9,
+          "lost": 12,
+          "goals_for": 37,
+          "goals_against": 38,
+          "goal_diff": -1,
+          "form": "DDWLD",
+          "description": null
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 540,
+            "name": "Espanyol",
+            "slug": "espanyol",
+            "logo": "https://media.api-sports.io/football/teams/540.png"
+          },
+          "points": 38,
+          "played": 31,
+          "won": 10,
+          "drawn": 8,
+          "lost": 13,
+          "goals_for": 37,
+          "goals_against": 48,
+          "goal_diff": -11,
+          "form": "LDLLD",
+          "description": null
+        },
+        {
+          "rank": 11,
+          "team": {
+            "id": 531,
+            "name": "Athletic Club",
+            "slug": "athletic-club",
+            "logo": "https://media.api-sports.io/football/teams/531.png"
+          },
+          "points": 38,
+          "played": 31,
+          "won": 11,
+          "drawn": 5,
+          "lost": 15,
+          "goals_for": 33,
+          "goals_against": 45,
+          "goal_diff": -12,
+          "form": "LLWLL",
+          "description": null
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 547,
+            "name": "Girona",
+            "slug": "girona",
+            "logo": "https://media.api-sports.io/football/teams/547.png"
+          },
+          "points": 38,
+          "played": 31,
+          "won": 9,
+          "drawn": 11,
+          "lost": 11,
+          "goals_for": 33,
+          "goals_against": 45,
+          "goal_diff": -12,
+          "form": "DWLWD",
+          "description": null
+        },
+        {
+          "rank": 13,
+          "team": {
+            "id": 728,
+            "name": "Rayo Vallecano",
+            "slug": "rayo-vallecano",
+            "logo": "https://media.api-sports.io/football/teams/728.png"
+          },
+          "points": 35,
+          "played": 31,
+          "won": 8,
+          "drawn": 11,
+          "lost": 12,
+          "goals_for": 29,
+          "goals_against": 38,
+          "goal_diff": -9,
+          "form": "LWLDD",
+          "description": null
+        },
+        {
+          "rank": 14,
+          "team": {
+            "id": 532,
+            "name": "Valencia",
+            "slug": "valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png"
+          },
+          "points": 35,
+          "played": 31,
+          "won": 9,
+          "drawn": 8,
+          "lost": 14,
+          "goals_for": 34,
+          "goals_against": 46,
+          "goal_diff": -12,
+          "form": "LLWLW",
+          "description": null
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 798,
+            "name": "Mallorca",
+            "slug": "mallorca",
+            "logo": "https://media.api-sports.io/football/teams/798.png"
+          },
+          "points": 34,
+          "played": 31,
+          "won": 9,
+          "drawn": 7,
+          "lost": 15,
+          "goals_for": 39,
+          "goals_against": 48,
+          "goal_diff": -9,
+          "form": "WWLWD",
+          "description": null
+        },
+        {
+          "rank": 16,
+          "team": {
+            "id": 536,
+            "name": "Sevilla",
+            "slug": "sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png"
+          },
+          "points": 34,
+          "played": 31,
+          "won": 9,
+          "drawn": 7,
+          "lost": 15,
+          "goals_for": 39,
+          "goals_against": 51,
+          "goal_diff": -12,
+          "form": "WLLLD",
+          "description": null
+        },
+        {
+          "rank": 17,
+          "team": {
+            "id": 542,
+            "name": "Alaves",
+            "slug": "alaves",
+            "logo": "https://media.api-sports.io/football/teams/542.png"
+          },
+          "points": 33,
+          "played": 31,
+          "won": 8,
+          "drawn": 9,
+          "lost": 14,
+          "goals_for": 35,
+          "goals_against": 46,
+          "goal_diff": -11,
+          "form": "DDWDL",
+          "description": null
+        },
+        {
+          "rank": 18,
+          "team": {
+            "id": 797,
+            "name": "Elche",
+            "slug": "elche",
+            "logo": "https://media.api-sports.io/football/teams/797.png"
+          },
+          "points": 32,
+          "played": 31,
+          "won": 7,
+          "drawn": 11,
+          "lost": 13,
+          "goals_for": 39,
+          "goals_against": 47,
+          "goal_diff": -8,
+          "form": "WLWLL",
+          "description": "Relegation - LaLiga2"
+        },
+        {
+          "rank": 19,
+          "team": {
+            "id": 539,
+            "name": "Levante",
+            "slug": "levante",
+            "logo": "https://media.api-sports.io/football/teams/539.png"
+          },
+          "points": 29,
+          "played": 31,
+          "won": 7,
+          "drawn": 8,
+          "lost": 16,
+          "goals_for": 35,
+          "goals_against": 50,
+          "goal_diff": -15,
+          "form": "WLWDD",
+          "description": "Relegation - LaLiga2"
+        },
+        {
+          "rank": 20,
+          "team": {
+            "id": 718,
+            "name": "Oviedo",
+            "slug": "oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png"
+          },
+          "points": 27,
+          "played": 31,
+          "won": 6,
+          "drawn": 9,
+          "lost": 16,
+          "goals_for": 24,
+          "goals_against": 48,
+          "goal_diff": -24,
+          "form": "WWLWD",
+          "description": "Relegation - LaLiga2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 28251,
+  "name": "Hubert Velud",
+  "photo": "https://media.api-sports.io/football/coachs/28251.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 1524,
+  "team_slug": "dr-congo",
+  "fetched_at": "2026-04-15T13:15:10.865Z",
+  "career": [
+    {
+      "team_id": 1524,
+      "team_name": "Comoros",
+      "team_logo": "https://media.api-sports.io/football/teams/1524.png",
+      "start": "2026-03-01",
+      "end": null
+    }
+  ]
+}

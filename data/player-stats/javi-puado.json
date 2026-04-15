@@ -1,0 +1,21 @@
+{
+  "player_id": 47349,
+  "slug": "javi-puado",
+  "name": "Javi Puado",
+  "api_photo": "https://media.api-sports.io/football/players/47349.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Espanyol",
+      "club_logo": "https://media.api-sports.io/football/teams/540.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 35,
+      "goals": 12,
+      "assists": 4,
+      "minutes": 2989,
+      "yellow_cards": 7,
+      "red_cards": 0
+    }
+  ]
+}

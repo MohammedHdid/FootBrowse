@@ -1,0 +1,75 @@
+{
+  "id": 861,
+  "name": "G. Alfaro",
+  "photo": "https://media.api-sports.io/football/coachs/861.png",
+  "nationality": "Argentina",
+  "age": 63,
+  "team_id": 2380,
+  "team_slug": "paraguay",
+  "fetched_at": "2026-04-15T13:12:04.359Z",
+  "career": [
+    {
+      "team_id": 2380,
+      "team_name": "Paraguay",
+      "team_logo": "https://media.api-sports.io/football/teams/2380.png",
+      "start": "2024-08-01",
+      "end": null
+    },
+    {
+      "team_id": 29,
+      "team_name": "Costa Rica",
+      "team_logo": "https://media.api-sports.io/football/teams/29.png",
+      "start": "2023-11-01",
+      "end": "2024-08-01"
+    },
+    {
+      "team_id": 2380,
+      "team_name": "Paraguay",
+      "team_logo": "https://media.api-sports.io/football/teams/2380.png",
+      "start": "2023-09-01",
+      "end": "2023-11-01"
+    },
+    {
+      "team_id": 2382,
+      "team_name": "Ecuador",
+      "team_logo": "https://media.api-sports.io/football/teams/2382.png",
+      "start": "2020-08-01",
+      "end": "2023-02-01"
+    },
+    {
+      "team_id": 451,
+      "team_name": "Boca Juniors",
+      "team_logo": "https://media.api-sports.io/football/teams/451.png",
+      "start": "2019-01-01",
+      "end": "2019-12-01"
+    },
+    {
+      "team_id": 445,
+      "team_name": "Huracán",
+      "team_logo": "https://media.api-sports.io/football/teams/445.png",
+      "start": "2017-07-01",
+      "end": "2018-12-01"
+    },
+    {
+      "team_id": 434,
+      "team_name": "Gimnasia La Plata",
+      "team_logo": "https://media.api-sports.io/football/teams/434.png",
+      "start": "2016-03-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 452,
+      "team_name": "Tigre",
+      "team_logo": "https://media.api-sports.io/football/teams/452.png",
+      "start": "2014-09-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 459,
+      "team_name": "Arsenal",
+      "team_logo": "https://media.api-sports.io/football/teams/459.png",
+      "start": "2010-07-01",
+      "end": "2014-04-01"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1545,
+  "name": "J. Nagelsmann",
+  "photo": "https://media.api-sports.io/football/coachs/1545.png",
+  "nationality": "Germany",
+  "age": 38,
+  "team_id": 25,
+  "team_slug": "germany",
+  "fetched_at": "2026-04-15T13:13:46.692Z",
+  "career": [
+    {
+      "team_id": 25,
+      "team_name": "Germany",
+      "team_logo": "https://media.api-sports.io/football/teams/25.png",
+      "start": "2023-09-01",
+      "end": null
+    },
+    {
+      "team_id": 157,
+      "team_name": "Bayern Munich",
+      "team_logo": "https://media.api-sports.io/football/teams/157.png",
+      "start": "2021-07-01",
+      "end": "2023-03-01"
+    },
+    {
+      "team_id": 173,
+      "team_name": "RB Leipzig",
+      "team_logo": "https://media.api-sports.io/football/teams/173.png",
+      "start": "2019-07-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 167,
+      "team_name": "Hoffenheim",
+      "team_logo": "https://media.api-sports.io/football/teams/167.png",
+      "start": "2016-02-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 7955,
+      "team_name": "Hoffenheim U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7955.png",
+      "start": "2013-07-01",
+      "end": "2016-02-01"
+    }
+  ]
+}

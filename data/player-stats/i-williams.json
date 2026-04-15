@@ -1,0 +1,21 @@
+{
+  "player_id": 47294,
+  "slug": "i-williams",
+  "name": "I. Williams",
+  "api_photo": "https://media.api-sports.io/football/players/47294.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Athletic Club",
+      "club_logo": "https://media.api-sports.io/football/teams/531.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 35,
+      "goals": 6,
+      "assists": 8,
+      "minutes": 2653,
+      "yellow_cards": 1,
+      "red_cards": 0
+    }
+  ]
+}

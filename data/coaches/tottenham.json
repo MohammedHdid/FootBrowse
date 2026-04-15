@@ -1,0 +1,47 @@
+{
+  "id": 90,
+  "name": "T. Frank",
+  "photo": "https://media.api-sports.io/football/coachs/90.png",
+  "nationality": "Denmark",
+  "age": 52,
+  "team_id": 47,
+  "team_slug": "tottenham",
+  "fetched_at": "2026-04-14T22:40:58.717Z",
+  "career": [
+    {
+      "team_id": 47,
+      "team_name": "Tottenham",
+      "team_logo": "https://media.api-sports.io/football/teams/47.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 55,
+      "team_name": "Brentford",
+      "team_logo": "https://media.api-sports.io/football/teams/55.png",
+      "start": "2018-10-01",
+      "end": null
+    },
+    {
+      "team_id": 407,
+      "team_name": "Brøndby",
+      "team_logo": "https://media.api-sports.io/football/teams/407.png",
+      "start": "2013-06-01",
+      "end": "2016-03-01"
+    },
+    {
+      "team_id": 10331,
+      "team_name": "Denmark U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10331.png",
+      "start": "2012-07-01",
+      "end": "2013-06-01"
+    },
+    {
+      "team_id": 17948,
+      "team_name": "Denmark U17",
+      "team_logo": "https://media.api-sports.io/football/teams/17948.png",
+      "start": "2011-06-01",
+      "end": "2012-06-01"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 6444,
+  "name": "F. Schmid",
+  "photo": "https://media.api-sports.io/football/coachs/6444.png",
+  "nationality": "Switzerland",
+  "age": 60,
+  "team_id": 4673,
+  "team_slug": "new-zealand",
+  "fetched_at": "2026-04-15T13:11:29.620Z",
+  "career": [
+    {
+      "team_id": 4673,
+      "team_name": "New Zealand",
+      "team_logo": "https://media.api-sports.io/football/teams/4673.png",
+      "start": "2018-02-22",
+      "end": null
+    }
+  ]
+}

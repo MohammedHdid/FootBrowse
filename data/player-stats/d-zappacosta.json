@@ -1,0 +1,21 @@
+{
+  "player_id": 2286,
+  "slug": "d-zappacosta",
+  "name": "D. Zappacosta",
+  "api_photo": "https://media.api-sports.io/football/players/2286.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Atalanta",
+      "club_logo": "https://media.api-sports.io/football/teams/499.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 9,
+      "goals": 0,
+      "assists": 5,
+      "minutes": 698,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 17696,
+  "name": "F. Ingolitsch",
+  "photo": "https://media.api-sports.io/football/coachs/17696.png",
+  "nationality": "Austria",
+  "age": 33,
+  "team_id": 637,
+  "team_slug": "sturm-graz",
+  "fetched_at": "2026-04-15T08:25:01.871Z",
+  "career": [
+    {
+      "team_id": 637,
+      "team_name": "Sturm Graz",
+      "team_logo": "https://media.api-sports.io/football/teams/637.png",
+      "start": "2025-08-01",
+      "end": null
+    },
+    {
+      "team_id": 618,
+      "team_name": "Rheindorf Altach",
+      "team_logo": "https://media.api-sports.io/football/teams/618.png",
+      "start": "2024-10-01",
+      "end": null
+    },
+    {
+      "team_id": 1400,
+      "team_name": "Liefering",
+      "team_logo": "https://media.api-sports.io/football/teams/1400.png",
+      "start": "2022-05-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": 7928,
+      "team_name": "Salzburg U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7928.png",
+      "start": "2022-03-01",
+      "end": "2023-06-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "Red Bull Akademie U18",
+      "team_logo": null,
+      "start": "2021-01-01",
+      "end": "2022-06-01"
+    }
+  ]
+}

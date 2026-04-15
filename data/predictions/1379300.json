@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379300,
+  "fetched_at": "2026-04-15T20:57:21.376Z",
+  "advice": "Combo Double chance : Bournemouth or draw and -3.5 goals",
+  "winner_id": 35,
+  "winner_name": "Bournemouth",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": "-3.5",
+  "goals_home": "-2.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "58%",
+      "away": "42%"
+    },
+    "att": {
+      "home": "71%",
+      "away": "29%"
+    },
+    "def": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "poisson_distribution": {
+      "home": "66%",
+      "away": "34%"
+    },
+    "h2h": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "goals": {
+      "home": "48%",
+      "away": "52%"
+    },
+    "total": {
+      "home": "52.5%",
+      "away": "47.5%"
+    }
+  }
+}

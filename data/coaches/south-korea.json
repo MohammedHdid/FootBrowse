@@ -1,0 +1,68 @@
+{
+  "id": 10461,
+  "name": "Myung-Bo Hong",
+  "photo": "https://media.api-sports.io/football/coachs/10461.png",
+  "nationality": "Korea Republic",
+  "age": 56,
+  "team_id": 17,
+  "team_slug": "south-korea",
+  "fetched_at": "2026-04-15T13:11:32.934Z",
+  "career": [
+    {
+      "team_id": 17,
+      "team_name": "Korea Republic",
+      "team_logo": "https://media.api-sports.io/football/teams/17.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 17,
+      "team_name": "South Korea",
+      "team_logo": "https://media.api-sports.io/football/teams/17.png",
+      "start": "2023-11-01",
+      "end": "2026-03-01"
+    },
+    {
+      "team_id": null,
+      "team_name": "K-League XI",
+      "team_logo": null,
+      "start": "2023-07-01",
+      "end": "2023-07-01"
+    },
+    {
+      "team_id": 2767,
+      "team_name": "Ulsan HD",
+      "team_logo": "https://media.api-sports.io/football/teams/2767.png",
+      "start": "2020-12-01",
+      "end": "2024-07-01"
+    },
+    {
+      "team_id": 848,
+      "team_name": "Zhejiang",
+      "team_logo": "https://media.api-sports.io/football/teams/848.png",
+      "start": "2016-01-01",
+      "end": "2017-05-01"
+    },
+    {
+      "team_id": 17,
+      "team_name": "Korea Republic",
+      "team_logo": "https://media.api-sports.io/football/teams/17.png",
+      "start": "2013-07-01",
+      "end": "2014-07-01"
+    },
+    {
+      "team_id": 10177,
+      "team_name": "Korea Republic U23",
+      "team_logo": "https://media.api-sports.io/football/teams/10177.png",
+      "start": "2009-10-01",
+      "end": "2012-12-01"
+    },
+    {
+      "team_id": 10291,
+      "team_name": "Korea Republic U20",
+      "team_logo": "https://media.api-sports.io/football/teams/10291.png",
+      "start": "2009-02-01",
+      "end": "2009-10-01"
+    }
+  ]
+}

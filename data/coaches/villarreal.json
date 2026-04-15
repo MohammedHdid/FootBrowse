@@ -1,0 +1,82 @@
+{
+  "id": 1585,
+  "name": "Marcelino",
+  "photo": "https://media.api-sports.io/football/coachs/1585.png",
+  "nationality": "Spain",
+  "age": 60,
+  "team_id": 533,
+  "team_slug": "villarreal",
+  "fetched_at": "2026-04-14T22:37:22.488Z",
+  "career": [
+    {
+      "team_id": 533,
+      "team_name": "Villarreal",
+      "team_logo": "https://media.api-sports.io/football/teams/533.png",
+      "start": "2023-11-01",
+      "end": null
+    },
+    {
+      "team_id": 81,
+      "team_name": "Marseille",
+      "team_logo": "https://media.api-sports.io/football/teams/81.png",
+      "start": "2023-06-01",
+      "end": "2023-09-01"
+    },
+    {
+      "team_id": 531,
+      "team_name": "Athletic Bilbao",
+      "team_logo": "https://media.api-sports.io/football/teams/531.png",
+      "start": "2021-01-01",
+      "end": "2022-05-01"
+    },
+    {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_logo": "https://media.api-sports.io/football/teams/532.png",
+      "start": "2017-07-01",
+      "end": "2019-09-01"
+    },
+    {
+      "team_id": 533,
+      "team_name": "Villarreal",
+      "team_logo": "https://media.api-sports.io/football/teams/533.png",
+      "start": "2013-01-01",
+      "end": "2016-08-01"
+    },
+    {
+      "team_id": 536,
+      "team_name": "Sevilla",
+      "team_logo": "https://media.api-sports.io/football/teams/536.png",
+      "start": "2011-06-01",
+      "end": "2012-02-01"
+    },
+    {
+      "team_id": 4665,
+      "team_name": "Racing Santander",
+      "team_logo": "https://media.api-sports.io/football/teams/4665.png",
+      "start": "2011-02-01",
+      "end": "2011-05-01"
+    },
+    {
+      "team_id": 732,
+      "team_name": "Real Zaragoza",
+      "team_logo": "https://media.api-sports.io/football/teams/732.png",
+      "start": "2008-07-01",
+      "end": "2009-12-01"
+    },
+    {
+      "team_id": 4665,
+      "team_name": "Racing Santander",
+      "team_logo": "https://media.api-sports.io/football/teams/4665.png",
+      "start": "2007-06-01",
+      "end": "2008-06-01"
+    },
+    {
+      "team_id": 9410,
+      "team_name": "Recreativo Huelva",
+      "team_logo": "https://media.api-sports.io/football/teams/9410.png",
+      "start": "2005-07-01",
+      "end": "2007-06-01"
+    }
+  ]
+}

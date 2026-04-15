@@ -1,0 +1,192 @@
+{
+  "team_id": 5308,
+  "team_slug": "virtus",
+  "team_name": "Virtus",
+  "fetched_at": "2026-04-15T08:25:43.981Z",
+  "players": [
+    {
+      "id": 544914,
+      "name": "S. Guddo",
+      "age": 26,
+      "number": 12,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/544914.png"
+    },
+    {
+      "id": 544026,
+      "name": "A. Passaniti",
+      "age": 26,
+      "number": 39,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/544026.png"
+    },
+    {
+      "id": 544027,
+      "name": "M. Battistini",
+      "age": 31,
+      "number": 7,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/544027.png"
+    },
+    {
+      "id": 337489,
+      "name": "U. De Lucia",
+      "age": 33,
+      "number": 34,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/337489.png"
+    },
+    {
+      "id": 644480,
+      "name": "Mirco De Santis",
+      "age": 22,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/644480.png"
+    },
+    {
+      "id": 104393,
+      "name": "A. Giacomoni",
+      "age": 38,
+      "number": 26,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/104393.png"
+    },
+    {
+      "id": 152594,
+      "name": "N. Gori",
+      "age": 28,
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/152594.png"
+    },
+    {
+      "id": 31331,
+      "name": "M. Legittimo",
+      "age": 36,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/31331.png"
+    },
+    {
+      "id": 535679,
+      "name": "M. Rinaldi",
+      "age": 38,
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/535679.png"
+    },
+    {
+      "id": 535642,
+      "name": "R. Sabato",
+      "age": 38,
+      "number": 6,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/535642.png"
+    },
+    {
+      "id": 535660,
+      "name": "A. Amati",
+      "age": 30,
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/535660.png"
+    },
+    {
+      "id": 535659,
+      "name": "I. Buonocunto",
+      "age": 39,
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/535659.png"
+    },
+    {
+      "id": 204176,
+      "name": "E. Ciacci",
+      "age": 24,
+      "number": 45,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/204176.png"
+    },
+    {
+      "id": 543987,
+      "name": "A. Golinucci",
+      "age": 31,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/543987.png"
+    },
+    {
+      "id": 543986,
+      "name": "A. Montanari",
+      "age": 38,
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/543986.png"
+    },
+    {
+      "id": 543998,
+      "name": "J. Muggeo",
+      "age": 35,
+      "number": 16,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/543998.png"
+    },
+    {
+      "id": 505700,
+      "name": "M. Zenoni",
+      "age": 23,
+      "number": 33,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/505700.png"
+    },
+    {
+      "id": 385087,
+      "name": "S. Benincasa",
+      "age": 24,
+      "number": 25,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/385087.png"
+    },
+    {
+      "id": 394191,
+      "name": "G. Capicchioni",
+      "age": 19,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/394191.png"
+    },
+    {
+      "id": 406515,
+      "name": "T. Lombardi",
+      "age": 24,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/406515.png"
+    },
+    {
+      "id": 440113,
+      "name": "A. Niang",
+      "age": 23,
+      "number": 19,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/440113.png"
+    },
+    {
+      "id": 640128,
+      "name": "G. Piscitella",
+      "age": 32,
+      "number": 11,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/640128.png"
+    },
+    {
+      "id": 30668,
+      "name": "S. Scappini",
+      "age": 37,
+      "number": 90,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/30668.png"
+    }
+  ]
+}

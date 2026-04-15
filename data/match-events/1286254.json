@@ -1,0 +1,193 @@
+{
+  "fixture_id": 1286254,
+  "fetched_at": "2026-04-14T21:37:04.365Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 16,
+      "extra": null,
+      "team_id": 375,
+      "player": "Nils Zätterström",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 17,
+      "extra": null,
+      "team_id": 375,
+      "player": "Pontus Jansson",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 19,
+      "extra": null,
+      "team_id": 628,
+      "player": "Veljko Birmančević",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Missed Penalty"
+    },
+    {
+      "minute": 25,
+      "extra": null,
+      "team_id": 628,
+      "player": "Martin Vitík",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 27,
+      "extra": null,
+      "team_id": 375,
+      "player": "Anders Christiansen",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Missed Penalty"
+    },
+    {
+      "minute": 41,
+      "extra": null,
+      "team_id": 375,
+      "player": "Sergio Peña",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 45,
+      "extra": 1,
+      "team_id": 628,
+      "player": "Filip Panák",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 45,
+      "extra": 2,
+      "team_id": 375,
+      "player": "Anders Christiansen",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 375,
+      "player": "S. Rieks",
+      "assist": "E. Botheim",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 628,
+      "player": "V. Olatunji",
+      "assist": "A. Rrahmani",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 628,
+      "player": "T. Wiesner",
+      "assist": "Á. Preciado",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 73,
+      "extra": null,
+      "team_id": 375,
+      "player": "C. Rösler",
+      "assist": "H. Bolin",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 73,
+      "extra": null,
+      "team_id": 375,
+      "player": "A. Christiansen",
+      "assist": "T. Ali",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 628,
+      "player": "L. Haraslín",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 628,
+      "player": "A. Rrahmani",
+      "assist": "L. Haraslín",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 628,
+      "player": "Albion Rrahmani",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 375,
+      "player": "L. Berg Johnsen",
+      "assist": "Z. Loukili",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 628,
+      "player": "L. Haraslín",
+      "assist": "E. Krasniqi",
+      "type": "subst",
+      "detail": "Substitution 3"
+    }
+  ],
+  "home_stats": {
+    "team_id": 628,
+    "possession": 43,
+    "shots_on": 4,
+    "shots_total": 13,
+    "corners": 1,
+    "fouls": 11,
+    "yellow_cards": 3,
+    "red_cards": null
+  },
+  "away_stats": {
+    "team_id": 375,
+    "possession": 57,
+    "shots_on": 4,
+    "shots_total": 14,
+    "corners": 7,
+    "fouls": 16,
+    "yellow_cards": 4,
+    "red_cards": null
+  }
+}

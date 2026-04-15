@@ -1,0 +1,117 @@
+{
+  "id": 67,
+  "name": "Rafael Benítez",
+  "photo": "https://media.api-sports.io/football/coachs/67.png",
+  "nationality": "Spain",
+  "age": 65,
+  "team_id": 617,
+  "team_slug": "panathinaikos",
+  "fetched_at": "2026-04-15T08:22:01.360Z",
+  "career": [
+    {
+      "team_id": 617,
+      "team_name": "Panathinaikos",
+      "team_logo": "https://media.api-sports.io/football/teams/617.png",
+      "start": "2025-07-01",
+      "end": null
+    },
+    {
+      "team_id": 538,
+      "team_name": "Celta Vigo",
+      "team_logo": "https://media.api-sports.io/football/teams/538.png",
+      "start": "2023-07-01",
+      "end": "2024-03-01"
+    },
+    {
+      "team_id": 45,
+      "team_name": "Everton",
+      "team_logo": "https://media.api-sports.io/football/teams/45.png",
+      "start": "2021-06-01",
+      "end": "2022-01-01"
+    },
+    {
+      "team_id": 831,
+      "team_name": "Dalian Pro",
+      "team_logo": "https://media.api-sports.io/football/teams/831.png",
+      "start": "2019-07-01",
+      "end": "2021-01-01"
+    },
+    {
+      "team_id": 34,
+      "team_name": "Newcastle United",
+      "team_logo": "https://media.api-sports.io/football/teams/34.png",
+      "start": "2016-03-01",
+      "end": "2019-07-01"
+    },
+    {
+      "team_id": 541,
+      "team_name": "Real Madrid",
+      "team_logo": "https://media.api-sports.io/football/teams/541.png",
+      "start": "2015-06-01",
+      "end": "2016-01-01"
+    },
+    {
+      "team_id": 492,
+      "team_name": "Napoli",
+      "team_logo": "https://media.api-sports.io/football/teams/492.png",
+      "start": "2013-07-01",
+      "end": "2015-06-01"
+    },
+    {
+      "team_id": 49,
+      "team_name": "Chelsea",
+      "team_logo": "https://media.api-sports.io/football/teams/49.png",
+      "start": "2012-11-01",
+      "end": "2013-05-01"
+    },
+    {
+      "team_id": 505,
+      "team_name": "Inter Milan",
+      "team_logo": "https://media.api-sports.io/football/teams/505.png",
+      "start": "2010-07-01",
+      "end": "2010-12-01"
+    },
+    {
+      "team_id": 40,
+      "team_name": "Liverpool",
+      "team_logo": "https://media.api-sports.io/football/teams/40.png",
+      "start": "2004-07-01",
+      "end": "2010-06-01"
+    },
+    {
+      "team_id": 532,
+      "team_name": "Valencia",
+      "team_logo": "https://media.api-sports.io/football/teams/532.png",
+      "start": "2001-07-01",
+      "end": "2004-06-01"
+    },
+    {
+      "team_id": 719,
+      "team_name": "Tenerife",
+      "team_logo": "https://media.api-sports.io/football/teams/719.png",
+      "start": "2000-07-01",
+      "end": "2001-06-01"
+    },
+    {
+      "team_id": 860,
+      "team_name": "CF Extremadura",
+      "team_logo": "https://media.api-sports.io/football/teams/860.png",
+      "start": "1997-07-01",
+      "end": "1999-06-01"
+    },
+    {
+      "team_id": 727,
+      "team_name": "Osasuna",
+      "team_logo": "https://media.api-sports.io/football/teams/727.png",
+      "start": "1996-07-01",
+      "end": "1996-11-01"
+    },
+    {
+      "team_id": 720,
+      "team_name": "Real Valladolid",
+      "team_logo": "https://media.api-sports.io/football/teams/720.png",
+      "start": "1995-07-01",
+      "end": "1996-02-01"
+    }
+  ]
+}

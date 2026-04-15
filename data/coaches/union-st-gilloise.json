@@ -1,0 +1,33 @@
+{
+  "id": 18414,
+  "name": "S. Pocognoli",
+  "photo": "https://media.api-sports.io/football/coachs/18414.png",
+  "nationality": "Belgium",
+  "age": 38,
+  "team_id": 1393,
+  "team_slug": "union-st-gilloise",
+  "fetched_at": "2026-04-15T08:25:26.004Z",
+  "career": [
+    {
+      "team_id": 1393,
+      "team_name": "Union Saint-Gilloise",
+      "team_logo": "https://media.api-sports.io/football/teams/1393.png",
+      "start": "2024-07-01",
+      "end": null
+    },
+    {
+      "team_id": 22425,
+      "team_name": "Belgium U18",
+      "team_logo": "https://media.api-sports.io/football/teams/22425.png",
+      "start": "2023-08-01",
+      "end": null
+    },
+    {
+      "team_id": 7901,
+      "team_name": "Genk U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7901.png",
+      "start": "2022-08-01",
+      "end": "2023-08-01"
+    }
+  ]
+}

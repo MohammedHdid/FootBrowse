@@ -1,0 +1,47 @@
+{
+  "id": 6413,
+  "name": "H. Steffen",
+  "photo": "https://media.api-sports.io/football/coachs/6413.png",
+  "nationality": "Germany",
+  "age": 56,
+  "team_id": 1660,
+  "team_slug": "sv-elversberg",
+  "fetched_at": "2026-04-14T22:32:22.118Z",
+  "career": [
+    {
+      "team_id": 1660,
+      "team_name": "Elversberg",
+      "team_logo": "https://media.api-sports.io/football/teams/1660.png",
+      "start": "2018-10-01",
+      "end": null
+    },
+    {
+      "team_id": 1328,
+      "team_name": "Chemnitzer FC",
+      "team_logo": "https://media.api-sports.io/football/teams/1328.png",
+      "start": "2017-07-01",
+      "end": "2018-01-01"
+    },
+    {
+      "team_id": 1313,
+      "team_name": "Preußen Münster",
+      "team_logo": "https://media.api-sports.io/football/teams/1313.png",
+      "start": "2015-12-01",
+      "end": "2016-10-01"
+    },
+    {
+      "team_id": 12868,
+      "team_name": "Stuttgarter Kickers",
+      "team_logo": "https://media.api-sports.io/football/teams/12868.png",
+      "start": "2013-09-01",
+      "end": "2015-11-01"
+    },
+    {
+      "team_id": 10249,
+      "team_name": "Borussia M'bach U19",
+      "team_logo": "https://media.api-sports.io/football/teams/10249.png",
+      "start": "2010-07-01",
+      "end": "2013-09-01"
+    }
+  ]
+}

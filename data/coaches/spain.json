@@ -1,0 +1,47 @@
+{
+  "id": 180,
+  "name": "D. Deschamps",
+  "photo": "https://media.api-sports.io/football/coachs/180.png",
+  "nationality": "France",
+  "age": 57,
+  "team_id": 9,
+  "team_slug": "spain",
+  "fetched_at": "2026-04-15T13:14:11.874Z",
+  "career": [
+    {
+      "team_id": 9,
+      "team_name": "Spain",
+      "team_logo": "https://media.api-sports.io/football/teams/9.png",
+      "start": "2025-06-01",
+      "end": null
+    },
+    {
+      "team_id": 2,
+      "team_name": "France",
+      "team_logo": "https://media.api-sports.io/football/teams/2.png",
+      "start": "2012-07-01",
+      "end": null
+    },
+    {
+      "team_id": 81,
+      "team_name": "Marseille",
+      "team_logo": "https://media.api-sports.io/football/teams/81.png",
+      "start": "2009-07-01",
+      "end": "2012-07-01"
+    },
+    {
+      "team_id": 496,
+      "team_name": "Juventus",
+      "team_logo": "https://media.api-sports.io/football/teams/496.png",
+      "start": "2006-07-01",
+      "end": "2007-06-01"
+    },
+    {
+      "team_id": 91,
+      "team_name": "Monaco",
+      "team_logo": "https://media.api-sports.io/football/teams/91.png",
+      "start": "2001-07-01",
+      "end": "2005-09-01"
+    }
+  ]
+}

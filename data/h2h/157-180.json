@@ -1,0 +1,91 @@
+{
+  "team1_id": 157,
+  "team2_id": 180,
+  "fetched_at": "2026-04-15T20:53:22.609Z",
+  "played": 6,
+  "team1_wins": 5,
+  "team2_wins": 1,
+  "draws": 0,
+  "team1_goals": 23,
+  "team2_goals": 11,
+  "last_matches": [
+    {
+      "fixture_id": 1388438,
+      "date": "2025-12-21",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "1. FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 157,
+      "away_name": "Bayern München",
+      "away_logo": "https://media.api-sports.io/football/teams/157.png",
+      "home_score": 0,
+      "away_score": 4
+    },
+    {
+      "fixture_id": 1224238,
+      "date": "2025-04-19",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "1. FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 157,
+      "away_name": "Bayern München",
+      "away_logo": "https://media.api-sports.io/football/teams/157.png",
+      "home_score": 0,
+      "away_score": 4
+    },
+    {
+      "fixture_id": 1224085,
+      "date": "2024-12-07",
+      "league": "Bundesliga",
+      "home_id": 157,
+      "home_name": "Bayern München",
+      "home_logo": "https://media.api-sports.io/football/teams/157.png",
+      "away_id": 180,
+      "away_name": "1. FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 4,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1049132,
+      "date": "2024-04-06",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 157,
+      "away_name": "Bayern Munich",
+      "away_logo": "https://media.api-sports.io/football/teams/157.png",
+      "home_score": 3,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1048971,
+      "date": "2023-11-11",
+      "league": "Bundesliga",
+      "home_id": 157,
+      "home_name": "Bayern Munich",
+      "home_logo": "https://media.api-sports.io/football/teams/157.png",
+      "away_id": 180,
+      "away_name": "FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 4,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 107273,
+      "date": "2019-04-03",
+      "league": "DFB Pokal",
+      "home_id": 157,
+      "home_name": "Bayern Munich",
+      "home_logo": "https://media.api-sports.io/football/teams/157.png",
+      "away_id": 180,
+      "away_name": "FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 5,
+      "away_score": 4
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1391136,
+  "fetched_at": "2026-04-15T20:59:51.587Z",
+  "advice": "Double chance : Oviedo or draw",
+  "winner_id": 718,
+  "winner_name": "Oviedo",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "45%",
+    "draw": "45%",
+    "away": "10%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "63%",
+      "away": "38%"
+    },
+    "att": {
+      "home": "62%",
+      "away": "38%"
+    },
+    "def": {
+      "home": "62%",
+      "away": "38%"
+    },
+    "poisson_distribution": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "h2h": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "goals": {
+      "home": "43%",
+      "away": "57%"
+    },
+    "total": {
+      "home": "54.0%",
+      "away": "46.2%"
+    }
+  }
+}

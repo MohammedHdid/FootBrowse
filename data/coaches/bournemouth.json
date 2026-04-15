@@ -1,0 +1,26 @@
+{
+  "id": 85,
+  "name": "J. Woodgate",
+  "photo": "https://media.api-sports.io/football/coachs/85.png",
+  "nationality": "England",
+  "age": 45,
+  "team_id": 35,
+  "team_slug": "bournemouth",
+  "fetched_at": "2026-04-14T22:37:58.508Z",
+  "career": [
+    {
+      "team_id": 35,
+      "team_name": "AFC Bournemouth",
+      "team_logo": "https://media.api-sports.io/football/teams/35.png",
+      "start": "2021-02-01",
+      "end": "2021-06-01"
+    },
+    {
+      "team_id": 70,
+      "team_name": "Middlesbrough",
+      "team_logo": "https://media.api-sports.io/football/teams/70.png",
+      "start": "2019-06-01",
+      "end": "2020-06-01"
+    }
+  ]
+}

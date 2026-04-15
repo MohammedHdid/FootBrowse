@@ -1,0 +1,19 @@
+{
+  "id": 10399,
+  "name": "P. Vasiljević",
+  "photo": "https://media.api-sports.io/football/coachs/10399.png",
+  "nationality": "Serbia",
+  "age": 55,
+  "team_id": 727,
+  "team_slug": "osasuna",
+  "fetched_at": "2026-04-14T22:35:46.375Z",
+  "career": [
+    {
+      "team_id": 727,
+      "team_name": "Osasuna",
+      "team_logo": "https://media.api-sports.io/football/teams/727.png",
+      "start": "2017-01-01",
+      "end": "2017-06-01"
+    }
+  ]
+}

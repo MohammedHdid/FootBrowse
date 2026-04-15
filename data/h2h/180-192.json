@@ -1,0 +1,78 @@
+{
+  "team1_id": 180,
+  "team2_id": 192,
+  "fetched_at": "2026-04-15T20:55:04.674Z",
+  "played": 5,
+  "team1_wins": 1,
+  "team2_wins": 1,
+  "draws": 3,
+  "team1_goals": 8,
+  "team2_goals": 7,
+  "last_matches": [
+    {
+      "fixture_id": 1388448,
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "1. FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 192,
+      "away_name": "1. FC Köln",
+      "away_logo": "https://media.api-sports.io/football/teams/192.png",
+      "home_score": 2,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1049186,
+      "date": "2024-05-18",
+      "league": "Bundesliga",
+      "home_id": 180,
+      "home_name": "FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 192,
+      "away_name": "1. FC Köln",
+      "away_logo": "https://media.api-sports.io/football/teams/192.png",
+      "home_score": 4,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1049030,
+      "date": "2024-01-13",
+      "league": "Bundesliga",
+      "home_id": 192,
+      "home_name": "1. FC Köln",
+      "home_logo": "https://media.api-sports.io/football/teams/192.png",
+      "away_id": 180,
+      "away_name": "FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 3067,
+      "date": "2019-04-07",
+      "league": "2. Bundesliga",
+      "home_id": 180,
+      "home_name": "FC Heidenheim",
+      "home_logo": "https://media.api-sports.io/football/teams/180.png",
+      "away_id": 192,
+      "away_name": "1. FC Köln",
+      "away_logo": "https://media.api-sports.io/football/teams/192.png",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 2914,
+      "date": "2018-10-27",
+      "league": "2. Bundesliga",
+      "home_id": 192,
+      "home_name": "1. FC Köln",
+      "home_logo": "https://media.api-sports.io/football/teams/192.png",
+      "away_id": 180,
+      "away_name": "FC Heidenheim",
+      "away_logo": "https://media.api-sports.io/football/teams/180.png",
+      "home_score": 1,
+      "away_score": 1
+    }
+  ]
+}

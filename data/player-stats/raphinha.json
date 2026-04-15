@@ -1,0 +1,34 @@
+{
+  "player_id": 1496,
+  "slug": "raphinha",
+  "name": "Raphinha",
+  "api_photo": "https://media.api-sports.io/football/players/1496.png",
+  "seasons": [
+    {
+      "season": 2024,
+      "club": "Barcelona",
+      "club_logo": "https://media.api-sports.io/football/teams/529.png",
+      "league": "La Liga",
+      "league_id": 140,
+      "appearances": 37,
+      "goals": 18,
+      "assists": 9,
+      "minutes": 2844,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "season": 2024,
+      "club": "Barcelona",
+      "club_logo": "https://media.api-sports.io/football/teams/529.png",
+      "league": "UEFA Champions League",
+      "league_id": 2,
+      "appearances": 14,
+      "goals": 13,
+      "assists": 8,
+      "minutes": 1225,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ]
+}

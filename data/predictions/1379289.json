@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1379289,
+  "fetched_at": "2026-04-15T20:56:58.138Z",
+  "advice": "Double chance : Aston Villa or draw",
+  "winner_id": 66,
+  "winner_name": "Aston Villa",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "35%",
+    "draw": "35%",
+    "away": "30%"
+  },
+  "under_over": null,
+  "goals_home": "-2.5",
+  "goals_away": "-1.5",
+  "comparison": {
+    "form": {
+      "home": "29%",
+      "away": "71%"
+    },
+    "att": {
+      "home": "50%",
+      "away": "50%"
+    },
+    "def": {
+      "home": "23%",
+      "away": "77%"
+    },
+    "poisson_distribution": {
+      "home": "74%",
+      "away": "26%"
+    },
+    "h2h": {
+      "home": "62%",
+      "away": "38%"
+    },
+    "goals": {
+      "home": "56%",
+      "away": "44%"
+    },
+    "total": {
+      "home": "49.0%",
+      "away": "51.0%"
+    }
+  }
+}

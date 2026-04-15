@@ -1,0 +1,54 @@
+{
+  "id": 1535,
+  "name": "A. Beierlorzer",
+  "photo": "https://media.api-sports.io/football/coachs/1535.png",
+  "nationality": "Germany",
+  "age": 58,
+  "team_id": 173,
+  "team_slug": "rb-leipzig",
+  "fetched_at": "2026-04-14T22:31:58.167Z",
+  "career": [
+    {
+      "team_id": 173,
+      "team_name": "RB Leipzig",
+      "team_logo": "https://media.api-sports.io/football/teams/173.png",
+      "start": "2021-12-01",
+      "end": "2021-12-01"
+    },
+    {
+      "team_id": 164,
+      "team_name": "Mainz",
+      "team_logo": "https://media.api-sports.io/football/teams/164.png",
+      "start": "2019-11-01",
+      "end": "2020-09-01"
+    },
+    {
+      "team_id": 192,
+      "team_name": "FC Cologne",
+      "team_logo": "https://media.api-sports.io/football/teams/192.png",
+      "start": "2019-07-01",
+      "end": "2019-11-01"
+    },
+    {
+      "team_id": 177,
+      "team_name": "Jahn Regensburg",
+      "team_logo": "https://media.api-sports.io/football/teams/177.png",
+      "start": "2017-07-01",
+      "end": "2019-06-01"
+    },
+    {
+      "team_id": 7924,
+      "team_name": "RB Leipzig U19",
+      "team_logo": "https://media.api-sports.io/football/teams/7924.png",
+      "start": "2016-07-01",
+      "end": "2017-06-01"
+    },
+    {
+      "team_id": 173,
+      "team_name": "RB Leipzig",
+      "team_logo": "https://media.api-sports.io/football/teams/173.png",
+      "start": "2015-02-01",
+      "end": "2015-06-01"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fixture_id": 1388575,
+  "fetched_at": "2026-04-15T21:00:16.002Z",
+  "advice": "Double chance : draw or 1. FC Köln",
+  "winner_id": 192,
+  "winner_name": "1. FC Köln",
+  "winner_comment": "Win or draw",
+  "percent": {
+    "home": "10%",
+    "draw": "45%",
+    "away": "45%"
+  },
+  "under_over": null,
+  "goals_home": "-1.5",
+  "goals_away": "-2.5",
+  "comparison": {
+    "form": {
+      "home": "25%",
+      "away": "75%"
+    },
+    "att": {
+      "home": "17%",
+      "away": "83%"
+    },
+    "def": {
+      "home": "47%",
+      "away": "53%"
+    },
+    "poisson_distribution": {
+      "home": "44%",
+      "away": "56%"
+    },
+    "h2h": {
+      "home": "7%",
+      "away": "93%"
+    },
+    "goals": {
+      "home": "23%",
+      "away": "77%"
+    },
+    "total": {
+      "home": "27.2%",
+      "away": "72.8%"
+    }
+  }
+}

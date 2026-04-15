@@ -1,0 +1,240 @@
+{
+  "team_id": 611,
+  "team_slug": "fenerbahce",
+  "team_name": "Fenerbahçe",
+  "fetched_at": "2026-04-15T08:16:30.980Z",
+  "players": [
+    {
+      "id": 500088,
+      "name": "E. Biterge",
+      "age": 19,
+      "number": 39,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/500088.png"
+    },
+    {
+      "id": 62401,
+      "name": "T. Çetin",
+      "age": 29,
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/62401.png"
+    },
+    {
+      "id": 643580,
+      "name": "Hulusi Efe Ceylan",
+      "age": 17,
+      "number": 92,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/643580.png"
+    },
+    {
+      "id": 617,
+      "name": "Ederson",
+      "age": 32,
+      "number": 31,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/617.png"
+    },
+    {
+      "id": 49837,
+      "name": "M. Günok",
+      "age": 36,
+      "number": 34,
+      "position": "Goalkeeper",
+      "photo": "https://media.api-sports.io/football/players/49837.png"
+    },
+    {
+      "id": 161661,
+      "name": "A. Brown",
+      "age": 23,
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/161661.png"
+    },
+    {
+      "id": 364594,
+      "name": "Y. Demir",
+      "age": 21,
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/364594.png"
+    },
+    {
+      "id": 127609,
+      "name": "L. Mercan",
+      "age": 25,
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/127609.png"
+    },
+    {
+      "id": 1719,
+      "name": "M. Müldür",
+      "age": 26,
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/1719.png"
+    },
+    {
+      "id": 272721,
+      "name": "J. Oosterwolde",
+      "age": 24,
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/272721.png"
+    },
+    {
+      "id": 130,
+      "name": "Nélson Semedo",
+      "age": 32,
+      "number": 27,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/130.png"
+    },
+    {
+      "id": 198,
+      "name": "M. Škriniar",
+      "age": 30,
+      "number": 37,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/198.png"
+    },
+    {
+      "id": 18776,
+      "name": "Ç. Söyüncü",
+      "age": 29,
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/18776.png"
+    },
+    {
+      "id": 625426,
+      "name": "Kamil Efe Üregen",
+      "age": 17,
+      "number": 67,
+      "position": "Defender",
+      "photo": "https://media.api-sports.io/football/players/625426.png"
+    },
+    {
+      "id": 2869,
+      "name": "E. Álvarez",
+      "age": 28,
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2869.png"
+    },
+    {
+      "id": 134590,
+      "name": "O. Aydın",
+      "age": 25,
+      "number": 70,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/134590.png"
+    },
+    {
+      "id": 630584,
+      "name": "Alaettin Ekici",
+      "age": 17,
+      "number": 54,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/630584.png"
+    },
+    {
+      "id": 905,
+      "name": "Fred",
+      "age": 32,
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/905.png"
+    },
+    {
+      "id": 1454,
+      "name": "M. Guendouzi",
+      "age": 26,
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/1454.png"
+    },
+    {
+      "id": 2290,
+      "name": "N. Kanté",
+      "age": 34,
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/2290.png"
+    },
+    {
+      "id": 302869,
+      "name": "N. Dorgeles",
+      "age": 23,
+      "number": 45,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/302869.png"
+    },
+    {
+      "id": 12724,
+      "name": "Talisca",
+      "age": 32,
+      "number": 94,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/12724.png"
+    },
+    {
+      "id": 50097,
+      "name": "M. Yandaş",
+      "age": 31,
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/50097.png"
+    },
+    {
+      "id": 214463,
+      "name": "İ. Yüksek",
+      "age": 27,
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/214463.png"
+    },
+    {
+      "id": 142959,
+      "name": "K. Aktürkoğlu",
+      "age": 27,
+      "number": 9,
+      "position": "Midfielder",
+      "photo": "https://media.api-sports.io/football/players/142959.png"
+    },
+    {
+      "id": 746,
+      "name": "Marco Asensio",
+      "age": 30,
+      "number": 21,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/746.png"
+    },
+    {
+      "id": 421875,
+      "name": "S. Cherif",
+      "age": 19,
+      "number": 26,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/421875.png"
+    },
+    {
+      "id": 37380,
+      "name": "A. Musaba",
+      "age": 25,
+      "number": 20,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/37380.png"
+    },
+    {
+      "id": 634143,
+      "name": "E. Sancakli",
+      "age": 17,
+      "number": 79,
+      "position": "Attacker",
+      "photo": "https://media.api-sports.io/football/players/634143.png"
+    }
+  ]
+}

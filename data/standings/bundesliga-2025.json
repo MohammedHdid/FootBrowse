@@ -1,0 +1,353 @@
+{
+  "league_id": 78,
+  "season": 2025,
+  "groups": [
+    {
+      "group": "Bundesliga ",
+      "table": [
+        {
+          "rank": 1,
+          "team": {
+            "id": 157,
+            "name": "Bayern München",
+            "slug": "bayern-munchen",
+            "logo": "https://media.api-sports.io/football/teams/157.png"
+          },
+          "points": 76,
+          "played": 29,
+          "won": 24,
+          "drawn": 4,
+          "lost": 1,
+          "goals_for": 105,
+          "goals_against": 27,
+          "goal_diff": 78,
+          "form": "WWWDW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 2,
+          "team": {
+            "id": 165,
+            "name": "Borussia Dortmund",
+            "slug": "borussia-dortmund",
+            "logo": "https://media.api-sports.io/football/teams/165.png"
+          },
+          "points": 64,
+          "played": 29,
+          "won": 19,
+          "drawn": 7,
+          "lost": 3,
+          "goals_for": 60,
+          "goals_against": 29,
+          "goal_diff": 31,
+          "form": "LWWWW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 3,
+          "team": {
+            "id": 172,
+            "name": "VfB Stuttgart",
+            "slug": "vfb-stuttgart",
+            "logo": "https://media.api-sports.io/football/teams/172.png"
+          },
+          "points": 56,
+          "played": 29,
+          "won": 17,
+          "drawn": 5,
+          "lost": 7,
+          "goals_for": 60,
+          "goals_against": 38,
+          "goal_diff": 22,
+          "form": "WLWWD",
+          "description": "Champions League"
+        },
+        {
+          "rank": 4,
+          "team": {
+            "id": 173,
+            "name": "RB Leipzig",
+            "slug": "rb-leipzig",
+            "logo": "https://media.api-sports.io/football/teams/173.png"
+          },
+          "points": 56,
+          "played": 29,
+          "won": 17,
+          "drawn": 5,
+          "lost": 7,
+          "goals_for": 56,
+          "goals_against": 36,
+          "goal_diff": 20,
+          "form": "WWWLW",
+          "description": "Champions League"
+        },
+        {
+          "rank": 5,
+          "team": {
+            "id": 168,
+            "name": "Bayer Leverkusen",
+            "slug": "bayer-leverkusen",
+            "logo": "https://media.api-sports.io/football/teams/168.png"
+          },
+          "points": 52,
+          "played": 29,
+          "won": 15,
+          "drawn": 7,
+          "lost": 7,
+          "goals_for": 59,
+          "goals_against": 39,
+          "goal_diff": 20,
+          "form": "WWDDD",
+          "description": "UEFA Europa League"
+        },
+        {
+          "rank": 6,
+          "team": {
+            "id": 167,
+            "name": "1899 Hoffenheim",
+            "slug": "1899-hoffenheim",
+            "logo": "https://media.api-sports.io/football/teams/167.png"
+          },
+          "points": 51,
+          "played": 29,
+          "won": 15,
+          "drawn": 6,
+          "lost": 8,
+          "goals_for": 57,
+          "goals_against": 43,
+          "goal_diff": 14,
+          "form": "DLLDW",
+          "description": "Conference League Qualification"
+        },
+        {
+          "rank": 7,
+          "team": {
+            "id": 169,
+            "name": "Eintracht Frankfurt",
+            "slug": "eintracht-frankfurt",
+            "logo": "https://media.api-sports.io/football/teams/169.png"
+          },
+          "points": 42,
+          "played": 29,
+          "won": 11,
+          "drawn": 9,
+          "lost": 9,
+          "goals_for": 54,
+          "goals_against": 54,
+          "goal_diff": 0,
+          "form": "WDLWD",
+          "description": null
+        },
+        {
+          "rank": 8,
+          "team": {
+            "id": 160,
+            "name": "SC Freiburg",
+            "slug": "sc-freiburg",
+            "logo": "https://media.api-sports.io/football/teams/160.png"
+          },
+          "points": 40,
+          "played": 29,
+          "won": 11,
+          "drawn": 7,
+          "lost": 11,
+          "goals_for": 42,
+          "goals_against": 47,
+          "goal_diff": -5,
+          "form": "WLWLD",
+          "description": null
+        },
+        {
+          "rank": 9,
+          "team": {
+            "id": 164,
+            "name": "FSV Mainz 05",
+            "slug": "fsv-mainz-05",
+            "logo": "https://media.api-sports.io/football/teams/164.png"
+          },
+          "points": 33,
+          "played": 29,
+          "won": 8,
+          "drawn": 9,
+          "lost": 12,
+          "goals_for": 35,
+          "goals_against": 44,
+          "goal_diff": -9,
+          "form": "LWWWD",
+          "description": null
+        },
+        {
+          "rank": 10,
+          "team": {
+            "id": 170,
+            "name": "FC Augsburg",
+            "slug": "fc-augsburg",
+            "logo": "https://media.api-sports.io/football/teams/170.png"
+          },
+          "points": 33,
+          "played": 29,
+          "won": 9,
+          "drawn": 6,
+          "lost": 14,
+          "goals_for": 36,
+          "goals_against": 53,
+          "goal_diff": -17,
+          "form": "DDLLL",
+          "description": null
+        },
+        {
+          "rank": 11,
+          "team": {
+            "id": 182,
+            "name": "Union Berlin",
+            "slug": "union-berlin",
+            "logo": "https://media.api-sports.io/football/teams/182.png"
+          },
+          "points": 32,
+          "played": 29,
+          "won": 8,
+          "drawn": 8,
+          "lost": 13,
+          "goals_for": 33,
+          "goals_against": 50,
+          "goal_diff": -17,
+          "form": "LDLWL",
+          "description": null
+        },
+        {
+          "rank": 12,
+          "team": {
+            "id": 175,
+            "name": "Hamburger SV",
+            "slug": "hamburger-sv",
+            "logo": "https://media.api-sports.io/football/teams/175.png"
+          },
+          "points": 31,
+          "played": 29,
+          "won": 7,
+          "drawn": 10,
+          "lost": 12,
+          "goals_for": 32,
+          "goals_against": 45,
+          "goal_diff": -13,
+          "form": "LDLDW",
+          "description": null
+        },
+        {
+          "rank": 13,
+          "team": {
+            "id": 192,
+            "name": "1. FC Köln",
+            "slug": "1-fc-koln",
+            "logo": "https://media.api-sports.io/football/teams/192.png"
+          },
+          "points": 30,
+          "played": 29,
+          "won": 7,
+          "drawn": 9,
+          "lost": 13,
+          "goals_for": 43,
+          "goals_against": 50,
+          "goal_diff": -7,
+          "form": "WDDDL",
+          "description": null
+        },
+        {
+          "rank": 14,
+          "team": {
+            "id": 163,
+            "name": "Borussia Mönchengladbach",
+            "slug": "borussia-monchengladbach",
+            "logo": "https://media.api-sports.io/football/teams/163.png"
+          },
+          "points": 30,
+          "played": 29,
+          "won": 7,
+          "drawn": 9,
+          "lost": 13,
+          "goals_for": 35,
+          "goals_against": 49,
+          "goal_diff": -14,
+          "form": "LDDWL",
+          "description": null
+        },
+        {
+          "rank": 15,
+          "team": {
+            "id": 162,
+            "name": "Werder Bremen",
+            "slug": "werder-bremen",
+            "logo": "https://media.api-sports.io/football/teams/162.png"
+          },
+          "points": 28,
+          "played": 29,
+          "won": 7,
+          "drawn": 7,
+          "lost": 15,
+          "goals_for": 32,
+          "goals_against": 52,
+          "goal_diff": -20,
+          "form": "LLWLW",
+          "description": null
+        },
+        {
+          "rank": 16,
+          "team": {
+            "id": 186,
+            "name": "FC St. Pauli",
+            "slug": "fc-st-pauli",
+            "logo": "https://media.api-sports.io/football/teams/186.png"
+          },
+          "points": 25,
+          "played": 29,
+          "won": 6,
+          "drawn": 7,
+          "lost": 16,
+          "goals_for": 25,
+          "goals_against": 50,
+          "goal_diff": -25,
+          "form": "LDLLD",
+          "description": "Relegation Playoffs"
+        },
+        {
+          "rank": 17,
+          "team": {
+            "id": 161,
+            "name": "VfL Wolfsburg",
+            "slug": "vfl-wolfsburg",
+            "logo": "https://media.api-sports.io/football/teams/161.png"
+          },
+          "points": 21,
+          "played": 29,
+          "won": 5,
+          "drawn": 6,
+          "lost": 18,
+          "goals_for": 39,
+          "goals_against": 65,
+          "goal_diff": -26,
+          "form": "LLLDL",
+          "description": "Relegation"
+        },
+        {
+          "rank": 18,
+          "team": {
+            "id": 180,
+            "name": "1. FC Heidenheim",
+            "slug": "1-fc-heidenheim",
+            "logo": "https://media.api-sports.io/football/teams/180.png"
+          },
+          "points": 19,
+          "played": 29,
+          "won": 4,
+          "drawn": 7,
+          "lost": 18,
+          "goals_for": 32,
+          "goals_against": 64,
+          "goal_diff": -32,
+          "form": "WDDLL",
+          "description": "Relegation"
+        }
+      ]
+    }
+  ]
+}

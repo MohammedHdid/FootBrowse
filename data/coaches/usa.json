@@ -1,0 +1,19 @@
+{
+  "id": 28250,
+  "name": "Mauricio Pochettino",
+  "photo": "https://media.api-sports.io/football/coachs/28250.png",
+  "nationality": null,
+  "age": null,
+  "team_id": 2384,
+  "team_slug": "usa",
+  "fetched_at": "2026-04-15T13:11:28.574Z",
+  "career": [
+    {
+      "team_id": 2384,
+      "team_name": "USA",
+      "team_logo": "https://media.api-sports.io/football/teams/2384.png",
+      "start": "2026-03-01",
+      "end": null
+    }
+  ]
+}
