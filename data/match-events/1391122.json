@@ -1,0 +1,154 @@
+{
+  "fixture_id": 1391122,
+  "fetched_at": "2026-04-16T09:02:29.312Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 797,
+      "player": "Buba Sangare",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 532,
+      "player": "L. Rioja",
+      "assist": "D. Lopez",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 532,
+      "player": "U. Sadiq",
+      "assist": "H. Duro",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 532,
+      "player": "Guido Rodríguez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 797,
+      "player": "Buba Sangare",
+      "assist": "J. Donald",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 797,
+      "player": "Andre Silva",
+      "assist": "A. Rodriguez",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 797,
+      "player": "G. Villar",
+      "assist": "A. Pedrosa",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 797,
+      "player": "M. Neto",
+      "assist": "L. Cepeda",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 73,
+      "extra": null,
+      "team_id": 797,
+      "player": "L. Cepeda",
+      "assist": "A. Febas",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 532,
+      "player": "E. Comert",
+      "assist": "Pepelu",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 532,
+      "player": "J. Gaya",
+      "assist": "J. Vazquez",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 532,
+      "player": "L. Beltran",
+      "assist": "A. Danjuma",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 797,
+      "player": "G. Valera",
+      "assist": "V. Chust",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 797,
+    "possession": 57,
+    "shots_on": 2,
+    "shots_total": 8,
+    "corners": 5,
+    "fouls": 15,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 4,
+    "saves": 7,
+    "xg": 0.59
+  },
+  "away_stats": {
+    "team_id": 532,
+    "possession": 43,
+    "shots_on": 8,
+    "shots_total": 22,
+    "corners": 9,
+    "fouls": 18,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 3,
+    "saves": 2,
+    "xg": 2.54
+  }
+}

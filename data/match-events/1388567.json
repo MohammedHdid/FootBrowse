@@ -1,0 +1,199 @@
+{
+  "fixture_id": 1388567,
+  "fetched_at": "2026-04-16T09:05:45.268Z",
+  "status": "FT",
+  "score": {
+    "home": 4,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 21,
+      "extra": null,
+      "team_id": 172,
+      "player": "A. Stiller",
+      "assist": "J. Leweling",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 24,
+      "extra": null,
+      "team_id": 172,
+      "player": "Chema Andrés",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 32,
+      "extra": null,
+      "team_id": 172,
+      "player": "C. Fuhrich",
+      "assist": "E. Demirovic",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 56,
+      "extra": null,
+      "team_id": 172,
+      "player": "M. Mittelstadt",
+      "assist": "C. Fuhrich",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 175,
+      "player": "R. Philippe",
+      "assist": "O. Stange",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 175,
+      "player": "A. Gronbaek",
+      "assist": "R. Glatzel",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 172,
+      "player": "Ermedin Demirović",
+      "assist": null,
+      "type": "Var",
+      "detail": "Goal cancelled"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 172,
+      "player": "C. Andres",
+      "assist": "N. Nartey",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 172,
+      "player": "E. Demirovic",
+      "assist": "T. Tomas",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 172,
+      "player": "C. Fuhrich",
+      "assist": "B. El Khannouss",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 175,
+      "player": "F. Balde",
+      "assist": "G. Gocholeishvili",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 175,
+      "player": "D. Elfadli",
+      "assist": "N. Capaldo",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 172,
+      "player": "Deniz Undav",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 175,
+      "player": "Nicolás Capaldo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 172,
+      "player": "Tiago Tomás",
+      "assist": null,
+      "type": "Var",
+      "detail": "Penalty confirmed"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 172,
+      "player": "B. El Khannouss",
+      "assist": "T. Tomas",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 172,
+      "player": "L. Assignon",
+      "assist": "J. Vagnoman",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 172,
+      "player": "D. Undav",
+      "assist": "Jeremy Arevalo",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 172,
+    "possession": 65,
+    "shots_on": 11,
+    "shots_total": 23,
+    "corners": 8,
+    "fouls": 10,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 5,
+    "saves": 4,
+    "xg": 3.48
+  },
+  "away_stats": {
+    "team_id": 175,
+    "possession": 35,
+    "shots_on": 5,
+    "shots_total": 9,
+    "corners": 2,
+    "fouls": 14,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 7,
+    "xg": 0.71
+  }
+}

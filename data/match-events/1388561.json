@@ -1,0 +1,154 @@
+{
+  "fixture_id": 1388561,
+  "fetched_at": "2026-04-16T09:04:47.335Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 5,
+      "extra": null,
+      "team_id": 165,
+      "player": "Ramy Bensebaini",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 42,
+      "extra": null,
+      "team_id": 168,
+      "player": "R. Andrich",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 45,
+      "extra": null,
+      "team_id": 165,
+      "player": "Serhou Guirassy",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 168,
+      "player": "C. Kofane",
+      "assist": "P. Schick",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 165,
+      "player": "D. Svensson",
+      "assist": "M. Beier",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 165,
+      "player": "Maximilian Beier",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 165,
+      "player": "F. Silva",
+      "assist": "S. Inacio",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 165,
+      "player": "M. Sabitzer",
+      "assist": "C. Chukwuemeka",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 168,
+      "player": "M. Culbreath",
+      "assist": "Lucas",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 168,
+      "player": "N. Tella",
+      "assist": "E. Poku",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 165,
+      "player": "J. Ryerson",
+      "assist": "A. Kabar",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 165,
+      "player": "J. Bellingham",
+      "assist": "S. Ozcan",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 168,
+      "player": "I. Maza",
+      "assist": "M. Tillman",
+      "type": "subst",
+      "detail": "Substitution 4"
+    }
+  ],
+  "home_stats": {
+    "team_id": 165,
+    "possession": 53,
+    "shots_on": 1,
+    "shots_total": 14,
+    "corners": 5,
+    "fouls": 5,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 1.3
+  },
+  "away_stats": {
+    "team_id": 168,
+    "possession": 47,
+    "shots_on": 4,
+    "shots_total": 11,
+    "corners": 5,
+    "fouls": 6,
+    "yellow_cards": 0,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 0,
+    "xg": 0.63
+  }
+}

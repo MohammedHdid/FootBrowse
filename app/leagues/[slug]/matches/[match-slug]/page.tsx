@@ -12,10 +12,13 @@ import { getUniqueTeamInjuries } from "@/lib/injuries";
 import { getClubSquad, getClubTeam, type ClubSquad } from "@/lib/club-teams";
 import { getPrediction } from "@/lib/predictions";
 import { getMatchOdds } from "@/lib/odds";
+import { getLineup } from "@/lib/lineups";
+import { getWcFixtureId, getWcTeamId } from "@/lib/wc-ids";
 import type { SyncedPlayer } from "@/lib/types";
 import InjuryList from "@/components/InjuryList";
 import AdSlot from "@/components/AdSlot";
 import MatchSquads from "@/components/MatchSquads";
+import MatchLineup from "@/components/MatchLineup";
 import MatchFlagImg from "@/components/MatchFlagImg";
 
 interface Props {
@@ -25,11 +28,12 @@ interface Props {
 // ── Static params ─────────────────────────────────────────────────────────────
 
 export function generateStaticParams() {
+  // Handcrafted WC slugs (backward compat for Google-indexed URLs like /leagues/world-cup/matches/france-vs-brazil)
   const wcParams = matches.map((m) => ({ slug: "world-cup", "match-slug": m.slug }));
-  const clubParams = getAllLeagues()
-    .filter((l) => l.slug !== "world-cup")
+  // All league fixture slugs — includes WC API date-based slugs (mexico-vs-south-africa-2026-06-11)
+  const fixtureParams = getAllLeagues()
     .flatMap((league) => getFixtures(league).map((f) => ({ slug: league.slug, "match-slug": f.slug })));
-  return [...wcParams, ...clubParams];
+  return [...wcParams, ...fixtureParams];
 }
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
@@ -172,34 +176,36 @@ function adaptClubSquad(squad: ClubSquad | null): SyncedPlayer[] {
 
 export default function LeagueMatchPage({ params }: Props) {
   const matchSlug = params["match-slug"];
-  const isWC      = params.slug === "world-cup";
+  const isWcSlug  = params.slug === "world-cup";
   const league    = getLeague(params.slug);
   if (!league) notFound();
 
   // ── Resolve match data ────────────────────────────────────────────────────
-  const wcMatch   = isWC ? getMatch(matchSlug) : null;
+  // isWC is only true for handcrafted WC matches (data/matches.json).
+  // WC date-based API slugs (e.g. mexico-vs-south-africa-2026-06-11) fall through to club rendering.
+  const wcMatch = isWcSlug ? getMatch(matchSlug) : null;
+  const isWC    = isWcSlug && wcMatch != null;
   let clubFixture: Fixture | null = null;
 
   if (!isWC) {
+    // Club leagues AND WC date-based API slugs
     clubFixture = getFixtures(league).find((f) => f.slug === matchSlug) ?? null;
     if (!clubFixture) notFound();
-  } else if (!wcMatch) {
-    notFound();
   }
 
   // ── Unified team identity ─────────────────────────────────────────────────
-  const homeId    = isWC ? (wcMatch!.team_a as unknown as { api_id?: number }).api_id ?? 0 : clubFixture!.home_team.id;
-  const awayId    = isWC ? (wcMatch!.team_b as unknown as { api_id?: number }).api_id ?? 0 : clubFixture!.away_team.id;
+  const homeId    = isWC ? (getWcTeamId(wcMatch!.team_a.slug) ?? 0) : clubFixture!.home_team.id;
+  const awayId    = isWC ? (getWcTeamId(wcMatch!.team_b.slug) ?? 0) : clubFixture!.away_team.id;
   const homeName  = isWC ? wcMatch!.team_a.name  : clubFixture!.home_team.name;
   const awayName  = isWC ? wcMatch!.team_b.name  : clubFixture!.away_team.name;
-  const homeLogo  = isWC ? `https://flagcdn.com/w160/${wcMatch!.team_a.code}.png` : clubFixture!.home_team.logo;
-  const awayLogo  = isWC ? `https://flagcdn.com/w160/${wcMatch!.team_b.code}.png` : clubFixture!.away_team.logo;
+  let homeLogo    = isWC ? `https://flagcdn.com/w320/${wcMatch!.team_a.code}.png` : clubFixture!.home_team.logo;
+  let awayLogo    = isWC ? `https://flagcdn.com/w320/${wcMatch!.team_b.code}.png` : clubFixture!.away_team.logo;
   const homeSlug  = isWC ? wcMatch!.team_a.slug  : clubFixture!.home_team.slug;
   const awaySlug  = isWC ? wcMatch!.team_b.slug  : clubFixture!.away_team.slug;
   const matchDate = isWC ? wcMatch!.date          : clubFixture!.date;
   const kickoffUtc = isWC ? wcMatch!.kickoff_utc  : clubFixture!.kickoff_utc;
   const fixtureStatus = isWC ? "NS" : clubFixture!.status;
-  const fixtureId     = isWC ? null : clubFixture!.fixture_id;
+  const fixtureId     = isWC ? getWcFixtureId(matchSlug) : clubFixture!.fixture_id;
 
   // ── Status flags ──────────────────────────────────────────────────────────
   const finished = isFinished(fixtureStatus);
@@ -212,35 +218,61 @@ export default function LeagueMatchPage({ params }: Props) {
   const clubScore    = matchEvents?.score ?? clubFixture?.score ?? { home: null, away: null };
   const homeStats    = matchEvents?.home_stats ?? null;
   const awayStats    = matchEvents?.away_stats ?? null;
-  const goalEvents   = events.filter((e) => e.type === "Goal");
-  const homeGoals    = goalEvents.filter((e) => e.team_id === clubFixture?.home_team.id);
-  const awayGoals    = goalEvents.filter((e) => e.team_id === clubFixture?.away_team.id);
+  const goalEvents         = events.filter((e) => e.type === "Goal");
+  const homeTeamId         = clubFixture?.home_team.id ?? 0;
+  const homeGoals          = goalEvents.filter((e) => e.team_id === homeTeamId);
+  const awayGoals          = goalEvents.filter((e) => e.team_id === (clubFixture?.away_team.id ?? -1));
+  // ── Derived event groups for finished mode ────────────────────────────────
+  const yellowCardEvents   = events.filter((e) => e.type === "Card" && e.detail === "Yellow Card");
+  const redCardEvents      = events.filter((e) => e.type === "Card" && (e.detail === "Red Card" || e.detail === "Yellow-Red Card"));
+  const substitutionEvents = events.filter((e) => e.type === "subst");
+  const firstHalfEvents    = events.filter((e) => e.minute <= 45);
+  const secondHalfEvents   = events.filter((e) => e.minute > 45 && e.minute <= 90);
+  const extraTimeEvents    = events.filter((e) => e.minute > 90);
+  const timelineEvents     = events.filter((e) => e.type === "Goal" || e.type === "Card");
+  const timelineMaxMin     = events.length > 0 ? Math.max(90, ...events.map((e) => e.minute)) : 90;
+
+  // ── National team enrichment ──────────────────────────────────────────────
+  // isNational: any national-team competition (WC API fixtures, future Copa América, etc.)
+  // Uses data/teams.json for flags + FIFA rank. Falls back to API logo if team not found.
+  const isNational       = !isWC && !!league.national;
+  const homeNationalTeam = (isWC || isNational) ? getTeam(homeSlug) : null;
+  const awayNationalTeam = (isWC || isNational) ? getTeam(awaySlug) : null;
+  if (isNational && homeNationalTeam?.flag_large) homeLogo = homeNationalTeam.flag_large;
+  if (isNational && awayNationalTeam?.flag_large) awayLogo = awayNationalTeam.flag_large;
+  const homeFifaRank = isWC ? wcMatch!.team_a.fifa_rank : (homeNationalTeam?.fifa_rank ?? null);
+  const awayFifaRank = isWC ? wcMatch!.team_b.fifa_rank : (awayNationalTeam?.fifa_rank ?? null);
+  // True when the team logo is a rectangular flag image (not a square crest)
+  const homeIsFlag = isWC || (isNational && !!homeNationalTeam?.flag_large);
+  const awayIsFlag = isWC || (isNational && !!awayNationalTeam?.flag_large);
 
   // ── Team form ─────────────────────────────────────────────────────────────
-  const wcTeamA    = isWC ? getTeam(homeSlug) : null;
-  const wcTeamB    = isWC ? getTeam(awaySlug) : null;
-  const homeTeamStats = !isWC ? getTeamStats(homeSlug).find((s) => s.league_slug === params.slug) : null;
-  const awayTeamStats = !isWC ? getTeamStats(awaySlug).find((s) => s.league_slug === params.slug) : null;
-  const homeForm   = isWC ? (wcTeamA?.form ?? []).join("") : (homeTeamStats?.form ?? "");
-  const awayForm   = isWC ? (wcTeamB?.form ?? []).join("") : (awayTeamStats?.form ?? "");
+  const wcTeamA    = isWC ? homeNationalTeam : null;
+  const wcTeamB    = isWC ? awayNationalTeam : null;
+  const homeTeamStats = !isWC && !isNational ? getTeamStats(homeSlug).find((s) => s.league_slug === params.slug) : null;
+  const awayTeamStats = !isWC && !isNational ? getTeamStats(awaySlug).find((s) => s.league_slug === params.slug) : null;
+  const homeForm   = (isWC || isNational) ? (homeNationalTeam?.form ?? []).join("") : (homeTeamStats?.form ?? "");
+  const awayForm   = (isWC || isNational) ? (awayNationalTeam?.form ?? []).join("") : (awayTeamStats?.form ?? "");
 
-  // ── H2H ──────────────────────────────────────────────────────────────────
-  const wcH2H   = isWC ? wcMatch!.h2h : null;
-  const clubH2H = !isWC && homeId && awayId ? getH2HForTeams(homeId, awayId) : null;
+  // ── H2H (unified — all leagues including WC once bootstrapped) ───────────
+  const h2h = homeId && awayId ? getH2HForTeams(homeId, awayId) : null;
 
   // ── Squads ────────────────────────────────────────────────────────────────
-  const wcSquadA      = isWC ? getTeamPlayers(homeSlug) : [];
-  const wcSquadB      = isWC ? getTeamPlayers(awaySlug) : [];
-  const clubSquadHome = !isWC ? getClubSquad(homeSlug) : null;
-  const clubSquadAway = !isWC ? getClubSquad(awaySlug) : null;
+  const wcSquadA      = (isWC || isNational) ? getTeamPlayers(homeSlug) : [];
+  const wcSquadB      = (isWC || isNational) ? getTeamPlayers(awaySlug) : [];
+  const clubSquadHome = (!isWC && !isNational) ? getClubSquad(homeSlug) : null;
+  const clubSquadAway = (!isWC && !isNational) ? getClubSquad(awaySlug) : null;
 
   // ── Injuries ──────────────────────────────────────────────────────────────
   const homeInjuries = !isWC ? getUniqueTeamInjuries(params.slug, homeSlug) : [];
   const awayInjuries = !isWC ? getUniqueTeamInjuries(params.slug, awaySlug) : [];
 
-  // ── Predictions & Odds (club — from API sync) ──────────────────────────────
-  const prediction = !isWC && fixtureId ? getPrediction(fixtureId) : null;
-  const oddsData   = !isWC && fixtureId ? getMatchOdds(fixtureId)  : null;
+  // ── Predictions & Odds (all leagues — from API sync) ─────────────────────
+  const prediction = fixtureId ? getPrediction(fixtureId) : null;
+  const oddsData   = fixtureId ? getMatchOdds(fixtureId)  : null;
+
+  // ── Lineup (all API-backed matches — available ~60–90 min before kickoff) ──
+  const lineup = fixtureId && !isWC ? getLineup(fixtureId) : null;
 
   // ── Venue ─────────────────────────────────────────────────────────────────
   const stadium     = isWC ? getStadium(wcMatch!.stadium_slug) : null;
@@ -288,9 +320,9 @@ export default function LeagueMatchPage({ params }: Props) {
       q: `Where is ${homeName} vs ${awayName} being played?`,
       a: `The match will be played at ${homeClubTeam.venue.name}${homeClubTeam.venue.city ? `, ${homeClubTeam.venue.city}` : ""}${homeClubTeam.venue.capacity ? ` (capacity ${homeClubTeam.venue.capacity.toLocaleString()})` : ""}.`,
     }] : []),
-    ...(clubH2H && clubH2H.played > 0 ? [{
+    ...(h2h && h2h.played > 0 ? [{
       q: `What is the head-to-head record between ${homeName} and ${awayName}?`,
-      a: `In their last ${clubH2H.played} meetings, ${homeName} won ${clubH2H.homeWins} times, ${awayName} won ${clubH2H.awayWins} times, and ${clubH2H.draws} matches ended in a draw.`,
+      a: `In their last ${h2h.played} meetings, ${homeName} won ${h2h.homeWins} times, ${awayName} won ${h2h.awayWins} times, and ${h2h.draws} matches ended in a draw.`,
     }] : []),
     ...(homeForm || awayForm ? [{
       q: `What is the current form of ${homeName} and ${awayName}?`,
@@ -385,7 +417,7 @@ export default function LeagueMatchPage({ params }: Props) {
             {/* Home */}
             <div className="flex-1 text-center">
               <Link href={`/leagues/${league.slug}/teams/${homeSlug}`}>
-                {isWC ? (
+                {homeIsFlag ? (
                   <Image src={homeLogo} alt={homeName} width={160} height={107} priority
                     className="mx-auto rounded shadow-lg object-cover" style={{ height: 72, width: "auto" }} />
                 ) : (
@@ -397,7 +429,7 @@ export default function LeagueMatchPage({ params }: Props) {
                   {homeName}
                 </p>
               </Link>
-              {isWC && <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest">FIFA #{wcMatch!.team_a.fifa_rank}</p>}
+              {homeFifaRank != null && <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest">FIFA #{homeFifaRank}</p>}
               {homeTeamStats && (
                 <p className="text-xs text-zinc-500 mt-1">
                   {homeTeamStats.wins}W {homeTeamStats.draws}D {homeTeamStats.losses}L
@@ -427,7 +459,7 @@ export default function LeagueMatchPage({ params }: Props) {
             {/* Away */}
             <div className="flex-1 text-center">
               <Link href={`/leagues/${league.slug}/teams/${awaySlug}`}>
-                {isWC ? (
+                {awayIsFlag ? (
                   <Image src={awayLogo} alt={awayName} width={160} height={107} priority
                     className="mx-auto rounded shadow-lg object-cover" style={{ height: 72, width: "auto" }} />
                 ) : (
@@ -439,7 +471,7 @@ export default function LeagueMatchPage({ params }: Props) {
                   {awayName}
                 </p>
               </Link>
-              {isWC && <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest">FIFA #{wcMatch!.team_b.fifa_rank}</p>}
+              {awayFifaRank != null && <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest">FIFA #{awayFifaRank}</p>}
               {awayTeamStats && (
                 <p className="text-xs text-zinc-500 mt-1">
                   {awayTeamStats.wins}W {awayTeamStats.draws}D {awayTeamStats.losses}L
@@ -473,80 +505,196 @@ export default function LeagueMatchPage({ params }: Props) {
             ════════════════════════════════════════════════ */}
         {(finished || live) && (
           <>
-            {/* Goal scorers */}
-            {(homeGoals.length > 0 || awayGoals.length > 0) && (
+            {/* ── Match Summary ── */}
+            {(homeGoals.length > 0 || awayGoals.length > 0 || yellowCardEvents.length > 0 || redCardEvents.length > 0) && (
               <section className="section-block">
-                <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">Goal Scorers</h2>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-1.5">
-                    {homeGoals.map((e, i) => (
-                      <p key={i} className="text-sm text-zinc-300 flex items-center gap-2">
-                        <span>⚽</span>
-                        <span className="font-semibold">{e.player}</span>
-                        <span className="text-zinc-600 text-xs tabular-nums">{e.minute}{e.extra ? `+${e.extra}` : ""}&apos;</span>
-                      </p>
-                    ))}
+                <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">Match Summary</h2>
+
+                {/* Goal scorers with assists */}
+                {(homeGoals.length > 0 || awayGoals.length > 0) && (
+                  <div className={`grid grid-cols-2 gap-4 ${yellowCardEvents.length > 0 || redCardEvents.length > 0 || substitutionEvents.length > 0 ? "mb-4 pb-4" : ""}`}
+                    style={yellowCardEvents.length > 0 || redCardEvents.length > 0 || substitutionEvents.length > 0 ? { borderBottom: "1px solid rgba(255,255,255,0.05)" } : {}}>
+                    <div className="space-y-2.5">
+                      {homeGoals.map((e, i) => (
+                        <div key={i} className="flex items-start gap-2">
+                          <span className="text-sm leading-none mt-0.5">⚽</span>
+                          <div>
+                            <p className="text-sm font-semibold text-zinc-200 leading-tight">{e.player}</p>
+                            <p className="text-[11px] text-zinc-600 tabular-nums">
+                              {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
+                              {e.assist && <span className="ml-1 text-zinc-500">· {e.assist}</span>}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="space-y-2.5 text-right">
+                      {awayGoals.map((e, i) => (
+                        <div key={i} className="flex items-start gap-2 flex-row-reverse">
+                          <span className="text-sm leading-none mt-0.5">⚽</span>
+                          <div>
+                            <p className="text-sm font-semibold text-zinc-200 leading-tight">{e.player}</p>
+                            <p className="text-[11px] text-zinc-600 tabular-nums">
+                              {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
+                              {e.assist && <span className="mr-1 text-zinc-500">{e.assist} ·</span>}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                  <div className="space-y-1.5 text-right">
-                    {awayGoals.map((e, i) => (
-                      <p key={i} className="text-sm text-zinc-300 flex items-center justify-end gap-2">
-                        <span className="text-zinc-600 text-xs tabular-nums">{e.minute}{e.extra ? `+${e.extra}` : ""}&apos;</span>
-                        <span className="font-semibold">{e.player}</span>
-                        <span>⚽</span>
-                      </p>
-                    ))}
+                )}
+
+                {/* Cards + subs summary */}
+                {(yellowCardEvents.length > 0 || redCardEvents.length > 0 || substitutionEvents.length > 0) && (
+                  <div className="flex flex-wrap gap-x-5 gap-y-2">
+                    {yellowCardEvents.length > 0 && (
+                      <span className="flex items-center gap-1.5 text-xs text-zinc-400">
+                        <span className="inline-block w-2.5 h-3.5 rounded-[2px]" style={{ backgroundColor: "#EAB308", opacity: 0.85 }} />
+                        {yellowCardEvents.length} yellow {yellowCardEvents.length === 1 ? "card" : "cards"}
+                      </span>
+                    )}
+                    {redCardEvents.length > 0 && (
+                      <span className="flex items-center gap-1.5 text-xs text-zinc-400">
+                        <span className="inline-block w-2.5 h-3.5 rounded-[2px]" style={{ backgroundColor: "#EF4444", opacity: 0.85 }} />
+                        {redCardEvents.length} red {redCardEvents.length === 1 ? "card" : "cards"}
+                      </span>
+                    )}
+                    {substitutionEvents.length > 0 && (
+                      <span className="text-xs text-zinc-500">
+                        🔄 {substitutionEvents.length} substitutions
+                      </span>
+                    )}
                   </div>
-                </div>
+                )}
               </section>
             )}
 
-            {/* Events timeline */}
+            {/* ── Match Timeline ── */}
             {events.length > 0 && (
               <section className="section-block">
-                <h2 className="section-title text-xl mb-4">Match Events</h2>
-                <div className="space-y-1">
-                  {events.map((e, i) => {
-                    const isHome = e.team_id === clubFixture?.home_team.id;
-                    const icon =
-                      e.type === "Goal"             ? "⚽" :
-                      e.detail === "Yellow Card"     ? "🟨" :
-                      e.detail === "Red Card"        ? "🟥" :
-                      e.detail === "Yellow-Red Card" ? "🟥" :
-                      e.type === "subst"             ? "🔄" : "•";
-                    return (
-                      <div key={i} className={`flex items-center gap-3 text-sm py-2 px-3 rounded-lg ${isHome ? "" : "flex-row-reverse"}`}
-                        style={{ backgroundColor: "rgba(255,255,255,0.02)" }}>
-                        <span className="text-zinc-500 tabular-nums text-xs w-8 shrink-0">
-                          {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
-                        </span>
-                        <span className="shrink-0">{icon}</span>
-                        <div className={`flex-1 ${isHome ? "" : "text-right"}`}>
-                          <span className="font-semibold text-zinc-200">{e.player}</span>
-                          {e.type === "subst" && e.assist && <span className="text-zinc-600 text-xs"> ↑ {e.assist}</span>}
-                          {e.detail && e.type !== "subst" && e.type !== "Goal" && <span className="text-zinc-600 text-xs"> — {e.detail}</span>}
+                <h2 className="section-title text-xl mb-4">Match Timeline</h2>
+
+                {/* Visual timeline bar */}
+                {timelineEvents.length > 0 && (
+                  <div className="relative mb-6" style={{ height: 40, paddingBottom: 14 }}>
+                    {/* Background bar */}
+                    <div className="absolute left-0 right-0 rounded-full"
+                      style={{ top: "38%", height: 2, backgroundColor: "rgba(255,255,255,0.07)" }} />
+                    {/* HT divider */}
+                    <div className="absolute" style={{
+                      left: `${(45 / timelineMaxMin) * 100}%`,
+                      top: "20%", height: "36%", width: 1,
+                      backgroundColor: "rgba(255,255,255,0.15)",
+                    }} />
+                    {/* Event markers */}
+                    {timelineEvents.map((e, i) => {
+                      const isHome = e.team_id === homeTeamId;
+                      const isGoal = e.type === "Goal";
+                      const isRed  = e.detail === "Red Card" || e.detail === "Yellow-Red Card";
+                      const pct    = `${Math.min((e.minute / timelineMaxMin) * 100, 97)}%`;
+                      return (
+                        <div key={i} className="absolute -translate-x-1/2"
+                          style={{ left: pct, top: "calc(38% - 5px)" }}>
+                          <div className="rounded-[2px]" style={{
+                            width: isGoal ? 10 : 7,
+                            height: 10,
+                            backgroundColor: isGoal
+                              ? (isHome ? "#00FF87" : "#3B82F6")
+                              : isRed ? "#EF4444" : "#EAB308",
+                          }} />
                         </div>
-                        <span className="text-[10px] text-zinc-700 shrink-0">{isHome ? "H" : "A"}</span>
-                      </div>
-                    );
-                  })}
+                      );
+                    })}
+                    {/* Minute labels */}
+                    <div className="absolute bottom-0 left-0 text-[9px] text-zinc-700">0&apos;</div>
+                    <div className="absolute bottom-0 text-[9px] text-zinc-700"
+                      style={{ left: `${(45 / timelineMaxMin) * 100}%`, transform: "translateX(-50%)" }}>HT</div>
+                    <div className="absolute bottom-0 right-0 text-[9px] text-zinc-700">{timelineMaxMin}&apos;</div>
+                  </div>
+                )}
+
+                {/* Team legend */}
+                <div className="flex gap-4 mb-3">
+                  <span className="flex items-center gap-1.5 text-[10px] text-zinc-500">
+                    <span className="w-2 h-2 rounded-[1px]" style={{ backgroundColor: "#00FF87" }} />
+                    {homeName}
+                  </span>
+                  <span className="flex items-center gap-1.5 text-[10px] text-zinc-500">
+                    <span className="w-2 h-2 rounded-[1px]" style={{ backgroundColor: "#3B82F6" }} />
+                    {awayName}
+                  </span>
                 </div>
+
+                {/* Events grouped by half */}
+                {[
+                  { label: "1st Half",   halfEvents: firstHalfEvents },
+                  { label: "2nd Half",   halfEvents: secondHalfEvents },
+                  { label: "Extra Time", halfEvents: extraTimeEvents },
+                ].filter(({ halfEvents }) => halfEvents.length > 0).map(({ label, halfEvents }, hi) => (
+                  <div key={hi} className="mb-3 last:mb-0">
+                    <div className="flex items-center gap-3 mb-1.5">
+                      <span className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600">{label}</span>
+                      <div className="flex-1 h-px" style={{ backgroundColor: "rgba(255,255,255,0.05)" }} />
+                      <span className="text-[9px] text-zinc-700">{halfEvents.length}</span>
+                    </div>
+                    <div className="space-y-0.5">
+                      {halfEvents.map((e, i) => {
+                        const isHome = e.team_id === homeTeamId;
+                        const icon =
+                          e.type === "Goal"                                           ? "⚽" :
+                          e.detail === "Yellow Card"                                  ? "🟨" :
+                          (e.detail === "Red Card" || e.detail === "Yellow-Red Card") ? "🟥" :
+                          e.type === "subst"                                          ? "🔄" : null;
+                        if (icon === null) return null;
+                        return (
+                          <div key={i}
+                            className={`flex items-center gap-3 py-2 px-3 rounded-lg text-sm ${isHome ? "" : "flex-row-reverse"}`}
+                            style={{
+                              backgroundColor: "rgba(255,255,255,0.025)",
+                              borderLeft:  isHome  ? "2px solid rgba(0,255,135,0.25)"  : "2px solid transparent",
+                              borderRight: !isHome ? "2px solid rgba(59,130,246,0.25)" : "2px solid transparent",
+                            }}>
+                            <span className="text-zinc-500 tabular-nums text-xs w-8 shrink-0 text-center">
+                              {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
+                            </span>
+                            <span className="shrink-0">{icon}</span>
+                            <div className={`flex-1 min-w-0 ${isHome ? "" : "text-right"}`}>
+                              <span className="font-semibold text-zinc-200">{e.player}</span>
+                              {e.type === "Goal" && e.assist && (
+                                <p className="text-[11px] text-zinc-500 mt-0.5">Assist: {e.assist}</p>
+                              )}
+                              {e.type === "subst" && e.assist && (
+                                <p className="text-[11px] text-zinc-500 mt-0.5">↑ {e.assist}</p>
+                              )}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
               </section>
             )}
 
-            {/* Match statistics */}
+            {/* ── Match Statistics ── */}
             {homeStats && awayStats && (
               <section className="section-block">
                 <h2 className="section-title text-xl mb-4">Match Statistics</h2>
+                <div className="flex justify-between text-[10px] font-bold mb-3">
+                  <span style={{ color: "#00FF87" }}>{homeName}</span>
+                  <span style={{ color: "#3B82F6" }}>{awayName}</span>
+                </div>
                 {homeStats.possession !== null && awayStats.possession !== null && (
-                  <div className="mb-5">
-                    <div className="flex justify-between text-xs mb-1.5">
+                  <div className="py-2.5 border-b border-white/[0.04]">
+                    <div className="flex justify-between items-center text-xs mb-1.5">
                       <span className="font-bold" style={{ color: "#00FF87" }}>{homeStats.possession}%</span>
                       <span className="text-zinc-500 uppercase tracking-widest text-[10px]">Possession</span>
                       <span className="font-bold" style={{ color: "#3B82F6" }}>{awayStats.possession}%</span>
                     </div>
                     <div className="flex h-2 rounded-full overflow-hidden">
-                      <div style={{ width: `${homeStats.possession}%`, backgroundColor: "#00FF87", opacity: 0.8 }} />
-                      <div style={{ flex: 1, backgroundColor: "#3B82F6", opacity: 0.8 }} />
+                      <div style={{ width: `${homeStats.possession}%`, backgroundColor: "#00FF87", opacity: 0.7 }} />
+                      <div style={{ flex: 1, backgroundColor: "#3B82F6", opacity: 0.7 }} />
                     </div>
                   </div>
                 )}
@@ -554,8 +702,13 @@ export default function LeagueMatchPage({ params }: Props) {
                 <StatBar home={homeStats.shots_total}  away={awayStats.shots_total}  label="Total Shots" />
                 <StatBar home={homeStats.corners}      away={awayStats.corners}      label="Corner Kicks" />
                 <StatBar home={homeStats.fouls}        away={awayStats.fouls}        label="Fouls" />
+                <StatBar home={homeStats.offsides}     away={awayStats.offsides}     label="Offsides" />
+                <StatBar home={homeStats.saves}        away={awayStats.saves}        label="Saves" />
                 <StatBar home={homeStats.yellow_cards} away={awayStats.yellow_cards} label="Yellow Cards" />
                 <StatBar home={homeStats.red_cards}    away={awayStats.red_cards}    label="Red Cards" />
+                {(homeStats.xg != null || awayStats.xg != null) && (
+                  <StatBar home={homeStats.xg} away={awayStats.xg} label="Expected Goals (xG)" />
+                )}
               </section>
             )}
           </>
@@ -599,27 +752,31 @@ export default function LeagueMatchPage({ params }: Props) {
 
               <div className="section-block !mb-0">
                 <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">
-                  {isWC ? "Team Comparison" : "Season Stats"}
+                  {(isWC || isNational) ? "Team Comparison" : "Season Stats"}
                 </h2>
                 <div className="space-y-2">
-                  {isWC ? (
+                  {(isWC || isNational) && (homeNationalTeam || awayNationalTeam || homeFifaRank != null) ? (
                     <>
-                      {[
-                        { label: "FIFA Rank",   a: `#${wcMatch!.team_a.fifa_rank}`, b: `#${wcMatch!.team_b.fifa_rank}` },
-                        { label: "Established", a: wcTeamA?.year_formed || "—",     b: wcTeamB?.year_formed || "—" },
-                        { label: "WC Titles",   a: wcTeamA?.wc_titles ?? 0,          b: wcTeamB?.wc_titles ?? 0,
-                          ca: (wcTeamA?.wc_titles ?? 0) > 0 ? "#00FF87" : undefined,
-                          cb: (wcTeamB?.wc_titles ?? 0) > 0 ? "#00FF87" : undefined },
-                      ].map(({ label, a, b, ca, cb }: { label: string; a: string | number; b: string | number; ca?: string; cb?: string }) => (
-                        <div key={label} className="flex items-center justify-between text-xs py-1.5 border-b border-white/[0.04] last:border-0">
-                          <span className="text-zinc-500">{label}</span>
-                          <div className="flex items-center gap-4">
-                            <span className="font-bold text-white" style={{ color: ca }}>{a}</span>
-                            <span className="text-zinc-700">·</span>
-                            <span className="font-bold text-white" style={{ color: cb }}>{b}</span>
+                      {([
+                        homeFifaRank != null || awayFifaRank != null
+                          ? { label: "FIFA Rank",   a: homeFifaRank != null ? `#${homeFifaRank}` : "—", b: awayFifaRank != null ? `#${awayFifaRank}` : "—" }
+                          : null,
+                        { label: "Established", a: homeNationalTeam?.year_formed || "—", b: awayNationalTeam?.year_formed || "—" },
+                        { label: "WC Titles",
+                          a: homeNationalTeam?.wc_titles ?? "—", b: awayNationalTeam?.wc_titles ?? "—",
+                          ca: (homeNationalTeam?.wc_titles ?? 0) > 0 ? "#00FF87" : undefined,
+                          cb: (awayNationalTeam?.wc_titles  ?? 0) > 0 ? "#00FF87" : undefined },
+                      ].filter(Boolean) as Array<{ label: string; a: string | number; b: string | number; ca?: string; cb?: string }>)
+                        .map(({ label, a, b, ca, cb }) => (
+                          <div key={label} className="flex items-center justify-between text-xs py-1.5 border-b border-white/[0.04] last:border-0">
+                            <span className="text-zinc-500">{label}</span>
+                            <div className="flex items-center gap-4">
+                              <span className="font-bold text-white" style={{ color: ca }}>{a}</span>
+                              <span className="text-zinc-700">·</span>
+                              <span className="font-bold text-white" style={{ color: cb }}>{b}</span>
+                            </div>
                           </div>
-                        </div>
-                      ))}
+                        ))}
                     </>
                   ) : homeTeamStats && awayTeamStats ? (
                     <>
@@ -646,90 +803,17 @@ export default function LeagueMatchPage({ params }: Props) {
               </div>
             </section>
 
-            {/* ── H2H — WC (handcrafted) ── */}
-            {isWC && wcH2H && (
+            {/* ── H2H — All leagues (API data) ── */}
+            {h2h && h2h.played > 0 && (
               <section className="section-block">
                 <h2 className="section-title text-xl mb-1">Head-to-Head</h2>
-                <p className="text-xs text-zinc-600 mb-4">{wcH2H.played} historical meetings</p>
-                <div className="relative rounded-2xl overflow-hidden mb-3" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
-                  <div className="absolute inset-0 pointer-events-none flex">
-                    <div className="flex-1" style={{ background: `linear-gradient(to right, ${colorA}22 0%, transparent 75%)` }} />
-                    <div className="flex-1" style={{ background: `linear-gradient(to left, ${colorB}22 0%, transparent 75%)` }} />
-                  </div>
-                  <div className="relative grid grid-cols-3 pt-6 pb-4 px-3">
-                    {[
-                      { flag: wcMatch!.team_a.flag_url, code: wcMatch!.team_a.code, wins: wcH2H.team_a_wins, color: colorA },
-                      null,
-                      { flag: wcMatch!.team_b.flag_url, code: wcMatch!.team_b.code, wins: wcH2H.team_b_wins, color: colorB },
-                    ].map((item, idx) => item ? (
-                      <div key={idx} className="flex flex-col items-center gap-2">
-                        <MatchFlagImg src={item.flag} alt={item.code} width={28} />
-                        <span className="text-[9px] font-black uppercase tracking-[0.18em] text-zinc-500">{item.code.toUpperCase()}</span>
-                        <span className="text-6xl font-black tabular-nums leading-none text-white"
-                          style={{ letterSpacing: "-0.05em", textShadow: `0 0 32px ${item.color}90` }}>
-                          {item.wins}
-                        </span>
-                        <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-600">wins</span>
-                      </div>
-                    ) : (
-                      <div key={idx} className="flex flex-col items-center gap-2">
-                        <span style={{ height: 19 }} />
-                        <span className="text-[9px] font-black uppercase tracking-[0.18em] text-zinc-700">—</span>
-                        <span className="text-6xl font-black tabular-nums leading-none" style={{ letterSpacing: "-0.05em", color: "#52525b" }}>
-                          {wcH2H.draws}
-                        </span>
-                        <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-600">draws</span>
-                      </div>
-                    ))}
-                  </div>
-                  {wcH2H.played > 0 && (() => {
-                    const w1 = Math.round((wcH2H.team_a_wins / wcH2H.played) * 100);
-                    const wx = Math.round((wcH2H.draws / wcH2H.played) * 100);
-                    const w2 = 100 - w1 - wx;
-                    return (
-                      <>
-                        <div className="flex h-1.5 gap-px">
-                          <div style={{ width: `${w1}%`, background: `linear-gradient(to right, ${colorA}, ${colorA}bb)` }} />
-                          <div style={{ width: `${wx}%`, backgroundColor: "#3f3f46" }} />
-                          <div style={{ width: `${w2}%`, background: `linear-gradient(to left, ${colorB}, ${colorB}bb)` }} />
-                        </div>
-                        <div className="flex items-center justify-between px-4 py-2 text-[9px] font-bold">
-                          <span style={{ color: colorA }}>{w1}%</span>
-                          <span className="text-zinc-700">{wcH2H.played} played · {wx}% draws</span>
-                          <span style={{ color: colorB }}>{w2}%</span>
-                        </div>
-                      </>
-                    );
-                  })()}
-                </div>
-                <div className="space-y-2">
-                  <div className="rounded-xl px-4 py-3 flex items-center justify-between gap-4"
-                    style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.07)" }}>
-                    <span className="text-xs text-zinc-500 shrink-0">Last meeting</span>
-                    <span className="text-sm font-bold text-white text-right">{wcH2H.last_match}</span>
-                  </div>
-                  {wcH2H.last_wc_meeting && (
-                    <div className="rounded-xl px-4 py-3 flex items-center justify-between gap-4"
-                      style={{ backgroundColor: "rgba(0,255,135,0.03)", border: "1px solid rgba(0,255,135,0.12)" }}>
-                      <span className="text-xs text-zinc-500 shrink-0">Last WC meeting</span>
-                      <span className="text-sm font-bold text-right" style={{ color: "#00FF87" }}>{wcH2H.last_wc_meeting}</span>
-                    </div>
-                  )}
-                </div>
-              </section>
-            )}
-
-            {/* ── H2H — Club (API data) ── */}
-            {!isWC && clubH2H && clubH2H.played > 0 && (
-              <section className="section-block">
-                <h2 className="section-title text-xl mb-1">Head-to-Head</h2>
-                <p className="text-xs text-zinc-600 mb-4">Last {clubH2H.played} meetings</p>
+                <p className="text-xs text-zinc-600 mb-4">Last {h2h.played} meetings</p>
                 <div className="rounded-2xl overflow-hidden mb-4" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
                   <div className="grid grid-cols-3 pt-5 pb-4 px-3">
                     {[
-                      { logo: homeLogo, name: homeName, wins: clubH2H.homeWins },
+                      { logo: homeLogo, name: homeName, wins: h2h.homeWins },
                       null,
-                      { logo: awayLogo, name: awayName, wins: clubH2H.awayWins },
+                      { logo: awayLogo, name: awayName, wins: h2h.awayWins },
                     ].map((item, idx) => item ? (
                       <div key={idx} className="flex flex-col items-center gap-2">
                         <Image src={item.logo} alt={item.name} width={28} height={28} className="object-contain" unoptimized />
@@ -744,29 +828,29 @@ export default function LeagueMatchPage({ params }: Props) {
                     ) : (
                       <div key={idx} className="flex flex-col items-center gap-2 justify-center">
                         <span className="text-5xl font-black tabular-nums leading-none" style={{ color: "#52525b", letterSpacing: "-0.04em" }}>
-                          {clubH2H.draws}
+                          {h2h.draws}
                         </span>
                         <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-zinc-600">draws</span>
                       </div>
                     ))}
                   </div>
                   {(() => {
-                    const w1 = Math.round((clubH2H.homeWins / clubH2H.played) * 100);
-                    const wx = Math.round((clubH2H.draws / clubH2H.played) * 100);
+                    const w1 = Math.round((h2h.homeWins / h2h.played) * 100);
+                    const wx = Math.round((h2h.draws / h2h.played) * 100);
                     const w2 = 100 - w1 - wx;
                     return (
                       <div className="flex items-center justify-between px-4 py-2 text-[9px] font-bold border-t border-white/[0.04]">
                         <span style={{ color: "#00FF87" }}>{w1}%</span>
-                        <span className="text-zinc-700">{clubH2H.played} played · {wx}% draws</span>
+                        <span className="text-zinc-700">{h2h.played} played · {wx}% draws</span>
                         <span style={{ color: "#3B82F6" }}>{w2}%</span>
                       </div>
                     );
                   })()}
                 </div>
-                {clubH2H.lastMatches.length > 0 && (
+                {h2h.lastMatches.length > 0 && (
                   <div className="space-y-2">
                     <p className="text-[10px] font-bold uppercase tracking-widest text-zinc-600 mb-2">Recent Meetings</p>
-                    {clubH2H.lastMatches.slice(0, 5).map((m) => {
+                    {h2h.lastMatches.slice(0, 5).map((m) => {
                       const homeWon = (m.home_score ?? 0) > (m.away_score ?? 0);
                       const awayWon = (m.away_score ?? 0) > (m.home_score ?? 0);
                       return (
@@ -795,54 +879,8 @@ export default function LeagueMatchPage({ params }: Props) {
               </section>
             )}
 
-            {/* ── Prediction — WC (handcrafted) ── */}
-            {isWC && wcMatch!.content.prediction && (
-              <section className="section-block">
-                <h2 className="section-title text-xl mb-5">Our Prediction</h2>
-                <div className="rounded-xl p-5 mb-4"
-                  style={{ background: "linear-gradient(135deg, rgba(0,255,135,0.07) 0%, rgba(0,255,135,0.02) 100%)", border: "1px solid rgba(0,255,135,0.18)" }}>
-                  <div className="flex items-start justify-between gap-4 mb-4">
-                    <div>
-                      <p className="text-[9px] font-bold uppercase tracking-[0.15em] text-zinc-500 mb-1.5">Predicted Result</p>
-                      <p className="text-3xl font-black" style={{ color: "#00FF87", letterSpacing: "-0.04em" }}>{wcMatch!.content.prediction}</p>
-                    </div>
-                    {wcMatch!.content.prediction_confidence && (
-                      <div className="rounded-lg px-3 py-2 text-center shrink-0"
-                        style={{ backgroundColor: "rgba(0,255,135,0.1)", border: "1px solid rgba(0,255,135,0.2)" }}>
-                        <p className="text-[9px] font-bold uppercase tracking-[0.12em] text-zinc-500 mb-0.5">Confidence</p>
-                        <p className="text-sm font-black" style={{ color: "#00FF87" }}>{wcMatch!.content.prediction_confidence}</p>
-                      </div>
-                    )}
-                  </div>
-                  {wcMatch!.content.key_battle && (
-                    <div style={{ borderTop: "1px solid rgba(0,255,135,0.1)", paddingTop: "1rem" }}>
-                      <p className="text-[9px] font-bold uppercase tracking-[0.15em] text-zinc-600 mb-1.5">Key Battle</p>
-                      <p className="text-sm font-semibold text-zinc-200 leading-relaxed">{wcMatch!.content.key_battle}</p>
-                    </div>
-                  )}
-                </div>
-                {wcMatch!.content.stats_to_watch?.length > 0 && (
-                  <div>
-                    <p className="text-[9px] font-bold uppercase tracking-[0.15em] text-zinc-600 mb-3">Stats to Watch</p>
-                    <ul className="space-y-2">
-                      {wcMatch!.content.stats_to_watch.map((stat, i) => (
-                        <li key={i} className="flex items-start gap-3 text-sm text-zinc-300 rounded-lg px-3 py-2.5"
-                          style={{ backgroundColor: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)" }}>
-                          <span className="shrink-0 text-xs font-black w-5 h-5 rounded flex items-center justify-center mt-0.5"
-                            style={{ backgroundColor: "rgba(0,255,135,0.1)", color: "#00FF87", border: "1px solid rgba(0,255,135,0.2)" }}>
-                            {i + 1}
-                          </span>
-                          {stat}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-              </section>
-            )}
-
-            {/* ── Prediction — Club (API data) ── */}
-            {!isWC && prediction && (
+            {/* ── Prediction — All leagues (API data) ── */}
+            {prediction && (
               <section className="section-block">
                 <h2 className="section-title text-xl mb-5">Our Prediction</h2>
                 <div className="rounded-xl p-5 mb-4"
@@ -909,62 +947,8 @@ export default function LeagueMatchPage({ params }: Props) {
               </section>
             )}
 
-            {/* ── Betting Odds — WC (handcrafted) ── */}
-            {isWC && (wcMatch!.odds?.length ?? 0) > 0 && (() => {
-              const BRAND: Record<string, { color: string; label: string; affiliateUrl?: string }> = {
-                "William Hill": { color: "#1452c8", label: "1xBet", affiliateUrl: "https://reffpa.com/L?tag=d_5477761m_1599c_&site=5477761&ad=1599" },
-              };
-              const displayOdds = (wcMatch!.odds ?? []).filter((o) => Object.keys(BRAND).includes(o.bookmaker)).slice(0, 2);
-              if (!displayOdds.length) return null;
-              const GOLD = "#e8c45a";
-              return (
-                <section className="section-block">
-                  <h2 className="section-title text-xl mb-4">Betting Odds</h2>
-                  <div className="space-y-3">
-                    {displayOdds.map((odd) => {
-                      const brand = BRAND[odd.bookmaker];
-                      const r1 = 1/odd.team_a_win, rX = 1/odd.draw, r2 = 1/odd.team_b_win;
-                      const total = r1+rX+r2;
-                      const p1 = Math.round((r1/total)*100), pX = Math.round((rX/total)*100), p2 = 100-p1-pX;
-                      return (
-                        <div key={odd.bookmaker} className="rounded-xl p-3"
-                          style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)" }}>
-                          <div className="flex justify-end mb-3">
-                            <span className="text-xs font-black" style={{ color: brand.color }}>{brand.label}</span>
-                          </div>
-                          <div className="grid grid-cols-3 gap-2">
-                            {([{ k:"1", v:odd.team_a_win },{ k:"X", v:odd.draw },{ k:"2", v:odd.team_b_win }] as {k:string;v:number}[]).map(({k,v}) => (
-                              <a key={k} href={brand.affiliateUrl ?? odd.affiliate_url} target="_blank" rel="noopener noreferrer nofollow"
-                                className="flex flex-col items-center rounded-lg px-2 py-2.5 gap-1.5"
-                                style={{ backgroundColor: "rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.1)" }}>
-                                <span className="text-[10px] font-bold text-zinc-500">{k}</span>
-                                <span className="text-base font-black tabular-nums leading-none" style={{ color: GOLD }}>{v.toFixed(2)}</span>
-                              </a>
-                            ))}
-                          </div>
-                          <div className="mt-3">
-                            <div className="flex overflow-hidden h-px rounded-full mb-1.5" style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
-                              <div style={{ width:`${p1}%`, backgroundColor: GOLD, opacity: 0.8 }} />
-                              <div style={{ width:`${pX}%`, backgroundColor: "rgba(255,255,255,0.15)" }} />
-                              <div style={{ width:`${p2}%`, backgroundColor: GOLD, opacity: 0.5 }} />
-                            </div>
-                            <div className="grid grid-cols-3 text-[9px] tabular-nums text-zinc-700">
-                              <span className="text-center">{p1}%</span>
-                              <span className="text-center">{pX}%</span>
-                              <span className="text-center">{p2}%</span>
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                  <p className="text-[10px] text-zinc-700 pt-2">18+ · Gamble responsibly · Odds subject to change</p>
-                </section>
-              );
-            })()}
-
-            {/* ── Betting Odds — Club (API data) ── */}
-            {!isWC && oddsData && (
+            {/* ── Betting Odds — All leagues (API data) ── */}
+            {oddsData && (
               <section className="section-block">
                 <h2 className="section-title text-xl mb-4">Betting Odds</h2>
                 {(() => {
@@ -1069,10 +1053,15 @@ export default function LeagueMatchPage({ params }: Props) {
               </section>
             )}
 
+            {/* ── Lineups — all API-backed matches (club + national competitions) ── */}
+            {!isWC && (
+              <MatchLineup lineup={lineup} homeName={homeName} awayName={awayName} />
+            )}
+
             {/* ── Squad Preview — ALL leagues (same MatchSquads component) ── */}
             {(() => {
-              const squadAPlayers = isWC ? wcSquadA : adaptClubSquad(clubSquadHome);
-              const squadBPlayers = isWC ? wcSquadB : adaptClubSquad(clubSquadAway);
+              const squadAPlayers = (isWC || isNational) ? wcSquadA : adaptClubSquad(clubSquadHome);
+              const squadBPlayers = (isWC || isNational) ? wcSquadB : adaptClubSquad(clubSquadAway);
               if (squadAPlayers.length === 0 && squadBPlayers.length === 0) return null;
               const teamAInfo = isWC
                 ? wcMatch!.team_a

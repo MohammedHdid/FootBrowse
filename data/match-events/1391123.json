@@ -1,0 +1,226 @@
+{
+  "fixture_id": 1391123,
+  "fetched_at": "2026-04-16T09:04:46.411Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 10,
+      "extra": null,
+      "team_id": 539,
+      "player": "Carlos Espí",
+      "assist": null,
+      "type": "Var",
+      "detail": "Red card cancelled"
+    },
+    {
+      "minute": 11,
+      "extra": null,
+      "team_id": 539,
+      "player": "Carlos Espí",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 546,
+      "player": "Luis Vázquez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 55,
+      "extra": null,
+      "team_id": 546,
+      "player": "L. Vazquez",
+      "assist": "M. Martin",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 58,
+      "extra": null,
+      "team_id": 546,
+      "player": "Djene Dakonam",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 539,
+      "player": "U. Raghouber",
+      "assist": "K. Arriaga",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 539,
+      "player": "P. Martinez",
+      "assist": "C. Alvarez",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 546,
+      "player": "A. Liso",
+      "assist": "V. Birmancevic",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 546,
+      "player": "A. Abqar",
+      "assist": "Davinchi",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 546,
+      "player": "Zaid Romero",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 546,
+      "player": "Domingos Duarte",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 539,
+      "player": "J. A. Olasagasti",
+      "assist": "V. Garcia",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 539,
+      "player": "K. Tunde",
+      "assist": "K. Etta Eyong",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 546,
+      "player": "Kiko Femenia",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 539,
+      "player": "C. Espi",
+      "assist": "M. Sanchez",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 546,
+      "player": "Kiko Femenia",
+      "assist": "A. Kamara",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 539,
+      "player": "C. Espi",
+      "assist": "A. Matturro",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 546,
+      "player": "Djene",
+      "assist": "S. Boselli",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 3,
+      "team_id": 539,
+      "player": "Iván Romero",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 1,
+      "team_id": 546,
+      "player": "Zaid Romero",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 1,
+      "team_id": 546,
+      "player": "Zaid Romero",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    }
+  ],
+  "home_stats": {
+    "team_id": 539,
+    "possession": 63,
+    "shots_on": 4,
+    "shots_total": 22,
+    "corners": 8,
+    "fouls": 12,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "offsides": 1,
+    "saves": 1,
+    "xg": 2.9
+  },
+  "away_stats": {
+    "team_id": 546,
+    "possession": 37,
+    "shots_on": 1,
+    "shots_total": 5,
+    "corners": 2,
+    "fouls": 24,
+    "yellow_cards": 6,
+    "red_cards": 1,
+    "offsides": 4,
+    "saves": 3,
+    "xg": 0.29
+  }
+}

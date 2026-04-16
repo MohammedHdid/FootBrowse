@@ -1,0 +1,199 @@
+{
+  "fixture_id": 1391125,
+  "fetched_at": "2026-04-16T09:03:05.316Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 7,
+      "extra": null,
+      "team_id": 543,
+      "player": "A. Ezzalzouli",
+      "assist": "H. Bellerin",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 24,
+      "extra": null,
+      "team_id": 543,
+      "player": "Sergi Altimira",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 29,
+      "extra": null,
+      "team_id": 543,
+      "player": "Héctor Bellerín",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 34,
+      "extra": null,
+      "team_id": 727,
+      "player": "Alejandro Catena",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 39,
+      "extra": null,
+      "team_id": 543,
+      "player": "Antony",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 40,
+      "extra": null,
+      "team_id": 727,
+      "player": "A. Budimir",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 44,
+      "extra": null,
+      "team_id": 727,
+      "player": "Jorge Herrando",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 727,
+      "player": "J. Herrando",
+      "assist": "J. Cruz",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 543,
+      "player": "H. Bellerin",
+      "assist": "A. Ruibal",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 543,
+      "player": "Antony",
+      "assist": "R. Riquelme",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 727,
+      "player": "Juan Cruz",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 543,
+      "player": "Cucho Hernández",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 727,
+      "player": "R. Garcia",
+      "assist": "R. Moro",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 543,
+      "player": "S. Altimira",
+      "assist": "N. Deossa",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 543,
+      "player": "P. Fornals",
+      "assist": "G. Lo Celso",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 727,
+      "player": "A. Budimir",
+      "assist": "R. Garcia",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 727,
+      "player": "A. Oroz",
+      "assist": "K. Barja",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": 3,
+      "team_id": 727,
+      "player": "I. Munoz",
+      "assist": "L. Torro",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 727,
+    "possession": 51,
+    "shots_on": 4,
+    "shots_total": 12,
+    "corners": 6,
+    "fouls": 14,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 4,
+    "saves": 2,
+    "xg": 1.45
+  },
+  "away_stats": {
+    "team_id": 543,
+    "possession": 49,
+    "shots_on": 3,
+    "shots_total": 8,
+    "corners": 3,
+    "fouls": 12,
+    "yellow_cards": 4,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 0.41
+  }
+}

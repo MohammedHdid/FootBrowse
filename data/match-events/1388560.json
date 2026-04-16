@@ -1,0 +1,226 @@
+{
+  "fixture_id": 1388560,
+  "fetched_at": "2026-04-16T09:04:46.778Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 11,
+      "extra": null,
+      "team_id": 170,
+      "player": "A. Claude-Maurice",
+      "assist": "R. Fellhauer",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 14,
+      "extra": null,
+      "team_id": 170,
+      "player": "M. Gregoritsch",
+      "assist": "J. Gouweleeuw",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 16,
+      "extra": null,
+      "team_id": 170,
+      "player": "Dimitrios Giannoulis",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 24,
+      "extra": null,
+      "team_id": 170,
+      "player": "Cedric Zesiger",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 35,
+      "extra": null,
+      "team_id": 167,
+      "player": "R. Hranac",
+      "assist": "V. Coufal",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 42,
+      "extra": null,
+      "team_id": 167,
+      "player": "B. Toure",
+      "assist": "F. Asllani",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 167,
+      "player": "Grischa Prömel",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 170,
+      "player": "Arthur Chaves",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 170,
+      "player": "Jeffrey Gouweleeuw",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 167,
+      "player": "Albian Hajdari",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 170,
+      "player": "J. Gouweleeuw",
+      "assist": "K. Jakic",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 170,
+      "player": "M. Gregoritsch",
+      "assist": "R. Ribeiro",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 170,
+      "player": "Marius Wolf",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 167,
+      "player": "Fisnik Asllani",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 167,
+      "player": "A. Hajdari",
+      "assist": "Bernardo",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 73,
+      "extra": null,
+      "team_id": 167,
+      "player": "A. Kramaric",
+      "assist": "A. Prass",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 170,
+      "player": "M. Wolf",
+      "assist": "E. Rexhbecaj",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 170,
+      "player": "A. Kade",
+      "assist": "I. Gharbi",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 170,
+      "player": "A. Claude-Maurice",
+      "assist": "M. Komur",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 167,
+      "player": "T. Lemperle",
+      "assist": "M. Damar",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 167,
+      "player": "V. Coufal",
+      "assist": "K. Akpoguma",
+      "type": "subst",
+      "detail": "Substitution 4"
+    }
+  ],
+  "home_stats": {
+    "team_id": 170,
+    "possession": 34,
+    "shots_on": 8,
+    "shots_total": 17,
+    "corners": 4,
+    "fouls": 6,
+    "yellow_cards": 5,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 2,
+    "xg": 1.93
+  },
+  "away_stats": {
+    "team_id": 167,
+    "possession": 66,
+    "shots_on": 4,
+    "shots_total": 13,
+    "corners": 4,
+    "fouls": 18,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 4,
+    "xg": 0.99
+  }
+}

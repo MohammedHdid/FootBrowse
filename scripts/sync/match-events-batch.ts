@@ -97,7 +97,7 @@ function mapStats(raw: ApiStat | undefined, teamId: number) {
   if (!raw) return null
   const s = raw.statistics
   return {
-    team_id: teamId,
+    team_id:      teamId,
     possession:   getStatVal(s, 'Ball Possession'),
     shots_on:     getStatVal(s, 'Shots on Goal'),
     shots_total:  getStatVal(s, 'Total Shots'),
@@ -105,6 +105,9 @@ function mapStats(raw: ApiStat | undefined, teamId: number) {
     fouls:        getStatVal(s, 'Fouls'),
     yellow_cards: getStatVal(s, 'Yellow Cards'),
     red_cards:    getStatVal(s, 'Red Cards'),
+    offsides:     getStatVal(s, 'Offsides'),
+    saves:        getStatVal(s, 'Goalkeeper Saves'),
+    xg:           getStatVal(s, 'expected_goals'),
   }
 }
 
@@ -119,9 +122,10 @@ async function main() {
     process.exit(1)
   }
 
-  const args = process.argv.slice(2)
-  const LIMIT = parseInt(parseArg(args, 'limit') ?? '5', 10)
-  const DAYS  = parseInt(parseArg(args, 'days')  ?? '7', 10)
+  const args  = process.argv.slice(2)
+  const LIMIT = parseInt(parseArg(args, 'limit') ?? '20', 10)
+  const DAYS  = parseInt(parseArg(args, 'days')  ?? '7',  10)
+  const STALE = args.includes('--stale') // re-sync cached files with 0 events
 
   const outDir = path.resolve(process.cwd(), 'data', 'match-events')
   fs.mkdirSync(outDir, { recursive: true })
@@ -145,7 +149,14 @@ async function main() {
       if (!FINISHED.has(f.status)) continue
       if (new Date(f.date) < cutoff) continue
       const cachedPath = path.join(outDir, `${f.fixture_id}.json`)
-      if (fs.existsSync(cachedPath)) continue
+      if (fs.existsSync(cachedPath)) {
+        // With --stale, re-sync files that were cached with 0 events (API may have had a delay)
+        if (!STALE) continue
+        try {
+          const cached = JSON.parse(fs.readFileSync(cachedPath, 'utf-8'))
+          if ((cached.events?.length ?? 0) > 0) continue // already has data, skip
+        } catch { continue }
+      }
       pending.push(f)
     }
   }

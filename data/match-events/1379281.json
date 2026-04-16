@@ -1,0 +1,163 @@
+{
+  "fixture_id": 1379281,
+  "fetched_at": "2026-04-16T09:00:31.537Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 30,
+      "extra": null,
+      "team_id": 44,
+      "player": "Maxime Estève",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 43,
+      "extra": null,
+      "team_id": 51,
+      "player": "M. Wieffer",
+      "assist": "P. Gross",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 48,
+      "extra": null,
+      "team_id": 51,
+      "player": "Jan Paul van Hecke",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 44,
+      "player": "Florentino Luís",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 44,
+      "player": "L. Ugochukwu",
+      "assist": "J. Bruun Larsen",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 44,
+      "player": "M. Edwards",
+      "assist": "M. Tresor Ndayishimiye",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 51,
+      "player": "J. Hinshelwood",
+      "assist": "C. Baleba",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 51,
+      "player": "D. Welbeck",
+      "assist": "G. Rutter",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 51,
+      "player": "Y. Minteh",
+      "assist": "K. Mitoma",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 44,
+      "player": "B. Humphreys",
+      "assist": "K. Walker",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 44,
+      "player": "Florentino",
+      "assist": "A. Broja",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 44,
+      "player": "Q. Hartman",
+      "assist": "Lucas Pires",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 51,
+      "player": "D. Gomez",
+      "assist": "J. Veltman",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 51,
+      "player": "M. Wieffer",
+      "assist": "Y. Ayari",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    }
+  ],
+  "home_stats": {
+    "team_id": 44,
+    "possession": 50,
+    "shots_on": 5,
+    "shots_total": 10,
+    "corners": 8,
+    "fouls": 7,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 0.88
+  },
+  "away_stats": {
+    "team_id": 51,
+    "possession": 50,
+    "shots_on": 6,
+    "shots_total": 13,
+    "corners": 2,
+    "fouls": 11,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 4,
+    "xg": 1.93
+  }
+}

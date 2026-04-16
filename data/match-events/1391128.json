@@ -1,0 +1,217 @@
+{
+  "fixture_id": 1391128,
+  "fetched_at": "2026-04-16T09:02:52.886Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": -5,
+      "extra": null,
+      "team_id": 530,
+      "player": "Antoine Griezmann",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 8,
+      "extra": null,
+      "team_id": 536,
+      "player": "Isaac Romero",
+      "assist": null,
+      "type": "Var",
+      "detail": "Penalty confirmed"
+    },
+    {
+      "minute": 10,
+      "extra": null,
+      "team_id": 536,
+      "player": "A. Adams",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 35,
+      "extra": null,
+      "team_id": 530,
+      "player": "J. Bonar",
+      "assist": "J. Diaz",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 36,
+      "extra": null,
+      "team_id": 536,
+      "player": "Manu Bueno",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 44,
+      "extra": null,
+      "team_id": 530,
+      "player": "Julio Díaz",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 45,
+      "extra": null,
+      "team_id": 536,
+      "player": "N. Gudelj",
+      "assist": "R. Vargas",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 536,
+      "player": "Juanlu Sánchez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 536,
+      "player": "M. Bueno",
+      "assist": "D. Sow",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 536,
+      "player": "I. Romero",
+      "assist": "Peque",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 530,
+      "player": "R. Belaid",
+      "assist": "A. Lookman",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 530,
+      "player": "R. Mendoza",
+      "assist": "J. Morcillo",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 530,
+      "player": "Alejandro Baena",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 536,
+      "player": "R. Vargas",
+      "assist": "A. Sanchez",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 530,
+      "player": "J. Diaz",
+      "assist": "J. Monserrate",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 536,
+      "player": "Nemanja Gudelj",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 6,
+      "team_id": 536,
+      "player": "Peque Fernández",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 5,
+      "team_id": 530,
+      "player": "Javi Morcillo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 4,
+      "team_id": 536,
+      "player": "J. Sanchez",
+      "assist": "G. Suazo",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": 4,
+      "team_id": 536,
+      "player": "A. Adams",
+      "assist": "B. Mendy",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 536,
+    "possession": 32,
+    "shots_on": 2,
+    "shots_total": 11,
+    "corners": 6,
+    "fouls": 7,
+    "yellow_cards": 4,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 1,
+    "xg": 1.85
+  },
+  "away_stats": {
+    "team_id": 530,
+    "possession": 68,
+    "shots_on": 2,
+    "shots_total": 13,
+    "corners": 6,
+    "fouls": 12,
+    "yellow_cards": 4,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 0,
+    "xg": 0.84
+  }
+}

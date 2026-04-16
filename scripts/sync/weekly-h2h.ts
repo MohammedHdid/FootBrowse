@@ -87,6 +87,18 @@ interface LeagueEntry {
   season: number
 }
 
+interface WcMatchTeam {
+  slug: string
+  name: string
+}
+
+interface WcMatch {
+  slug: string
+  date: string
+  team_a: WcMatchTeam
+  team_b: WcMatchTeam
+}
+
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 const DATA_DIR = path.join(process.cwd(), 'data')
@@ -112,7 +124,27 @@ function getPriorityLeagues(): LeagueEntry[] {
   const leagues: LeagueEntry[] = JSON.parse(
     fs.readFileSync(path.join(DATA_DIR, 'leagues.json'), 'utf-8'),
   )
-  return leagues.filter((l) => l.slug !== 'world-cup') // WC H2H is handcrafted
+  return leagues.filter((l) => l.slug !== 'world-cup')
+}
+
+/** Adds WC 2026 team pairings if wc-team-ids.json is bootstrapped */
+function addWcPairings(pairs: Map<string, { id1: number; id2: number; label: string }>) {
+  const wcTeamIdsPath = path.join(DATA_DIR, 'wc-team-ids.json')
+  const wcMatchesPath = path.join(DATA_DIR, 'matches.json')
+  if (!fs.existsSync(wcTeamIdsPath) || !fs.existsSync(wcMatchesPath)) return
+
+  const wcTeamIds: Record<string, number> = JSON.parse(fs.readFileSync(wcTeamIdsPath, 'utf-8'))
+  const wcMatches: WcMatch[] = JSON.parse(fs.readFileSync(wcMatchesPath, 'utf-8'))
+
+  for (const m of wcMatches) {
+    const id1 = wcTeamIds[m.team_a.slug]
+    const id2 = wcTeamIds[m.team_b.slug]
+    if (!id1 || !id2) continue
+    const key = h2hKey(id1, id2)
+    if (!pairs.has(key)) {
+      pairs.set(key, { id1, id2, label: `${m.team_a.name} vs ${m.team_b.name}` })
+    }
+  }
 }
 
 function getUpcomingFixtures(league: LeagueEntry): StoredFixture[] {
@@ -154,6 +186,9 @@ async function main() {
       }
     }
   }
+
+  // Add WC 2026 pairings if bootstrapped
+  addWcPairings(pairs)
 
   const targets = forceAll
     ? Array.from(pairs.values())

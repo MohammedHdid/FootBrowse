@@ -1,0 +1,172 @@
+{
+  "fixture_id": 1391126,
+  "fetched_at": "2026-04-16T09:02:04.826Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 35,
+      "extra": null,
+      "team_id": 541,
+      "player": "Kylian Mbappé",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 51,
+      "extra": null,
+      "team_id": 541,
+      "player": "F. Valverde",
+      "assist": "B. Diaz",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 547,
+      "player": "T. Lemar",
+      "assist": "A. Martinez",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 541,
+      "player": "Eder Militao",
+      "assist": "D. Huijsen",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 541,
+      "player": "J. Bellingham",
+      "assist": "A. Guler",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 547,
+      "player": "C. Echeverri",
+      "assist": "A. Ruiz",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 547,
+      "player": "A. Ounahi",
+      "assist": "B. Gil",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 547,
+      "player": "T. Lemar",
+      "assist": "H. Rincon",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 541,
+      "player": "Federico Valverde",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 541,
+      "player": "E. Camavinga",
+      "assist": "A. Tchouameni",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 541,
+      "player": "F. Garcia",
+      "assist": "F. Mendy",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 541,
+      "player": "B. Diaz",
+      "assist": "G. Garcia",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 547,
+      "player": "I. Martin",
+      "assist": "F. Beltran",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 547,
+      "player": null,
+      "assist": "C. Stuani",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 547,
+      "player": "Hugo Rincón",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    }
+  ],
+  "home_stats": {
+    "team_id": 541,
+    "possession": 61,
+    "shots_on": 9,
+    "shots_total": 22,
+    "corners": 10,
+    "fouls": 9,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 3,
+    "saves": 1,
+    "xg": 2.3
+  },
+  "away_stats": {
+    "team_id": 547,
+    "possession": 39,
+    "shots_on": 2,
+    "shots_total": 10,
+    "corners": 1,
+    "fouls": 13,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 7,
+    "xg": 0.52
+  }
+}

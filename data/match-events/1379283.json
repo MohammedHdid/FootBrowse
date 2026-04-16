@@ -1,0 +1,181 @@
+{
+  "fixture_id": 1379283,
+  "fetched_at": "2026-04-16T09:01:04.752Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 43,
+      "extra": null,
+      "team_id": 34,
+      "player": "William Osula",
+      "assist": "Lewis Miley",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 52,
+      "player": "Will Hughes",
+      "assist": "Adam Wharton",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 52,
+      "player": "Brennan Johnson",
+      "assist": "Ismaïla Sarr",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 52,
+      "player": "Jørgen Strand Larsen",
+      "assist": "Jean-Philippe Mateta",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 34,
+      "player": "Malick Thiaw",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 34,
+      "player": "Anthony Gordon",
+      "assist": "Harvey Barnes",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 34,
+      "player": "Joelinton",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 52,
+      "player": "Yéremy Pino",
+      "assist": "Daichi Kamada",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 52,
+      "player": "Jean-Philippe Mateta",
+      "assist": "Tyrick Mitchell",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 34,
+      "player": "William Osula",
+      "assist": "Nick Woltemade",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 34,
+      "player": "Joelinton",
+      "assist": "Jacob Ramsey",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 90,
+      "extra": 4,
+      "team_id": 52,
+      "player": "Jean-Philippe Mateta",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 90,
+      "extra": 3,
+      "team_id": 34,
+      "player": "Aaron Ramsdale",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 52,
+      "player": "Tyrick Mitchell",
+      "assist": "Borna Sosa",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 34,
+      "player": "Jacob Murphy",
+      "assist": "Yoane Wissa",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 34,
+      "player": "Sandro Tonali",
+      "assist": "Anthony Elanga",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 52,
+    "possession": 41,
+    "shots_on": 5,
+    "shots_total": 11,
+    "corners": 2,
+    "fouls": 17,
+    "yellow_cards": 0,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 2,
+    "xg": 2.56
+  },
+  "away_stats": {
+    "team_id": 34,
+    "possession": 59,
+    "shots_on": 3,
+    "shots_total": 7,
+    "corners": 4,
+    "fouls": 12,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 3,
+    "xg": 1.13
+  }
+}

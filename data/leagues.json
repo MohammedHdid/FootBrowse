@@ -11,6 +11,7 @@
     "seasonStart": "2026-06-11",
     "seasonEnd": "2026-06-28",
     "type": "Cup",
+    "national": true,
     "current": true,
     "standings": true,
     "topScorers": false,

@@ -1,0 +1,190 @@
+{
+  "fixture_id": 1388563,
+  "fetched_at": "2026-04-16T09:05:09.224Z",
+  "status": "FT",
+  "score": {
+    "home": 3,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 9,
+      "extra": null,
+      "team_id": 180,
+      "player": "M. Honsak",
+      "assist": "M. Pieringer",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 31,
+      "extra": null,
+      "team_id": 182,
+      "player": "Oliver Burke",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 36,
+      "extra": null,
+      "team_id": 180,
+      "player": "M. Honsak",
+      "assist": "P. Mainka",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 182,
+      "player": "O. Burke",
+      "assist": "T. Skarke",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 182,
+      "player": "D. Kohn",
+      "assist": "T. Rothe",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 180,
+      "player": "S. Schimmer",
+      "assist": "B. Zivzivadze",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 182,
+      "player": "A. Schafer",
+      "assist": "I. Ansah",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 182,
+      "player": "D. Leite",
+      "assist": "L. Burcu",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 182,
+      "player": "L. Querfeld",
+      "assist": "R. Khedira",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 180,
+      "player": "M. Pieringer",
+      "assist": "N. Dorsch",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 180,
+      "player": "M. Honsak",
+      "assist": "A. Ibrahimovic",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 180,
+      "player": "B. Zivzivadze",
+      "assist": "J. Schoppner",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 182,
+      "player": "A. Kral",
+      "assist": "L. Guther",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 182,
+      "player": "Linus Guther",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 180,
+      "player": "E. Dinkci",
+      "assist": "A. Beck",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 180,
+      "player": "J. Schoppner",
+      "assist": "L. Kerber",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 6,
+      "team_id": 180,
+      "player": "Budu Zivzivadze",
+      "assist": null,
+      "type": "Var",
+      "detail": "Goal cancelled"
+    }
+  ],
+  "home_stats": {
+    "team_id": 180,
+    "possession": 45,
+    "shots_on": 3,
+    "shots_total": 7,
+    "corners": 3,
+    "fouls": 7,
+    "yellow_cards": 0,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 2,
+    "xg": 1.85
+  },
+  "away_stats": {
+    "team_id": 182,
+    "possession": 55,
+    "shots_on": 3,
+    "shots_total": 10,
+    "corners": 5,
+    "fouls": 13,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 0,
+    "xg": 0.99
+  }
+}

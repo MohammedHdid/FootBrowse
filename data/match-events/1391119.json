@@ -1,0 +1,208 @@
+{
+  "fixture_id": 1391119,
+  "fetched_at": "2026-04-16T09:04:45.700Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 19,
+      "extra": null,
+      "team_id": 533,
+      "player": "Pau Navarro",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 26,
+      "extra": null,
+      "team_id": 533,
+      "player": "S. Cardona",
+      "assist": "T. Oluwaseyi",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 45,
+      "extra": null,
+      "team_id": 533,
+      "player": "A. Gonzalez",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 531,
+      "player": "I. Lekue",
+      "assist": "A. Gorosabel",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 533,
+      "player": "P. Navarro",
+      "assist": "R. Marin",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 531,
+      "player": "O. Sancet",
+      "assist": "A. Berenguer",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 531,
+      "player": "N. Williams",
+      "assist": "R. Navarro",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 531,
+      "player": "I. Ruiz de Galarreta",
+      "assist": "A. Rego",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 533,
+      "player": "A. Gonzalez",
+      "assist": "N. Pepe",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 533,
+      "player": "T. Oluwaseyi",
+      "assist": "G. Mikautadze",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 533,
+      "player": "Santi Comesaña",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 533,
+      "player": "Tajon Buchanan",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 533,
+      "player": "T. Buchanan",
+      "assist": "A. Moleiro",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 531,
+      "player": "I. Williams",
+      "assist": "N. Serrano",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 533,
+      "player": "P. Gueye",
+      "assist": "D. Parejo",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 531,
+      "player": "G. Guruzeta",
+      "assist": "Y. Berchiche",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 90,
+      "extra": 1,
+      "team_id": 531,
+      "player": "Gorka Guruzeta",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 1,
+      "team_id": 531,
+      "player": "Andoni Gorosabel",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 533,
+      "player": "Nicolas Pépé",
+      "assist": null,
+      "type": "Var",
+      "detail": "Goal cancelled"
+    }
+  ],
+  "home_stats": {
+    "team_id": 531,
+    "possession": 61,
+    "shots_on": 6,
+    "shots_total": 18,
+    "corners": 15,
+    "fouls": 15,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 5,
+    "xg": 1.2
+  },
+  "away_stats": {
+    "team_id": 533,
+    "possession": 39,
+    "shots_on": 6,
+    "shots_total": 12,
+    "corners": 3,
+    "fouls": 8,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 3,
+    "saves": 5,
+    "xg": 1.29
+  }
+}

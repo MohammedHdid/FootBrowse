@@ -56,6 +56,11 @@ interface StoredFixture {
   status: string
 }
 
+interface WcMatch {
+  slug: string
+  date: string
+}
+
 interface LeagueEntry {
   id: number
   slug: string
@@ -102,6 +107,21 @@ function getUpcomingFixtures(): Array<StoredFixture & { leagueSlug: string }> {
       results.push({ ...f, leagueSlug: league.slug })
     }
   }
+
+  // ── WC 2026 fixtures (via bootstrap lookup) ───────────────────────────────
+  const wcIdsPath = path.join(DATA_DIR, 'wc-fixture-ids.json')
+  const wcMatchesPath = path.join(DATA_DIR, 'matches.json')
+  if (fs.existsSync(wcIdsPath) && fs.existsSync(wcMatchesPath)) {
+    const wcIds: Record<string, number> = JSON.parse(fs.readFileSync(wcIdsPath, 'utf-8'))
+    const wcMatches: WcMatch[] = JSON.parse(fs.readFileSync(wcMatchesPath, 'utf-8'))
+    for (const m of wcMatches) {
+      const fixtureId = wcIds[m.slug]
+      if (!fixtureId) continue
+      if (new Date(m.date).getTime() > horizon) continue
+      results.push({ fixture_id: fixtureId, slug: m.slug, date: m.date, status: 'NS', leagueSlug: 'world-cup' })
+    }
+  }
+
   return results
 }
 

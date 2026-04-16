@@ -1,0 +1,172 @@
+{
+  "fixture_id": 1388564,
+  "fetched_at": "2026-04-16T09:05:57.461Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 33,
+      "extra": null,
+      "team_id": 160,
+      "player": "Bruno Ogbus",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 45,
+      "extra": 4,
+      "team_id": 160,
+      "player": "Maximilian Eggestein",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 160,
+      "player": "B. Ogbus",
+      "assist": "P. Lienhart",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 47,
+      "extra": null,
+      "team_id": 160,
+      "player": "L. Holer",
+      "assist": "M. Ginter",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 55,
+      "extra": null,
+      "team_id": 164,
+      "player": "Nikolas Veratschnig",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 164,
+      "player": "N. Veratschnig",
+      "assist": "S. Widmer",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 164,
+      "player": "S. Kawasaki",
+      "assist": "N. Amiri",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 160,
+      "player": "C. Irie",
+      "assist": "J. Beste",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 160,
+      "player": "L. Kubler",
+      "assist": "P. Treu",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 73,
+      "extra": null,
+      "team_id": 160,
+      "player": "Lucas Höler",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 164,
+      "player": "P. Mwene",
+      "assist": "A. Caci",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 164,
+      "player": "P. Nebel",
+      "assist": "A. Sieb",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 160,
+      "player": "D. Scherhant",
+      "assist": "V. Grifo",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 164,
+      "player": "D. da Costa",
+      "assist": "N. Weiper",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 160,
+      "player": "M. Ginter",
+      "assist": "J. Makengo",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 164,
+    "possession": 51,
+    "shots_on": 3,
+    "shots_total": 10,
+    "corners": 6,
+    "fouls": 10,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 3,
+    "saves": 2,
+    "xg": 0.55
+  },
+  "away_stats": {
+    "team_id": 160,
+    "possession": 49,
+    "shots_on": 3,
+    "shots_total": 8,
+    "corners": 4,
+    "fouls": 13,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 0.56
+  }
+}

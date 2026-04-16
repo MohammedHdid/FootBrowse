@@ -1,0 +1,181 @@
+{
+  "fixture_id": 1391121,
+  "fetched_at": "2026-04-16T09:03:29.461Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 3
+  },
+  "events": [
+    {
+      "minute": 4,
+      "extra": null,
+      "team_id": 718,
+      "player": "A. Reina",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 45,
+      "extra": null,
+      "team_id": 718,
+      "player": "F. Vinas",
+      "assist": "I. Chaira",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 538,
+      "player": "M. Vecino",
+      "assist": "I. Moriba",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 538,
+      "player": "A. Antanon",
+      "assist": "I. Aspas",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 56,
+      "extra": null,
+      "team_id": 538,
+      "player": "Fer López",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 57,
+      "extra": null,
+      "team_id": 718,
+      "player": "F. Vinas",
+      "assist": "T. Fernandez",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 538,
+      "player": "P. Duran",
+      "assist": "B. Iglesias",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 538,
+      "player": "A. Nunez",
+      "assist": "O. Mingueza",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 538,
+      "player": "W. Swedberg",
+      "assist": "F. Jutgla",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 718,
+      "player": "T. Fernandez",
+      "assist": "H. Hassan",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 718,
+      "player": "Nicolas Fonseca",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 718,
+      "player": "A. Reina",
+      "assist": "D. Costas",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 718,
+      "player": "N. Fonseca",
+      "assist": "S. Colombatto",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 718,
+      "player": "F. Vinas",
+      "assist": "T. Borbas",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 718,
+      "player": "I. Chaira",
+      "assist": "R. Alhassane",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 718,
+      "player": "Abdel Rahim",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    }
+  ],
+  "home_stats": {
+    "team_id": 538,
+    "possession": 68,
+    "shots_on": 6,
+    "shots_total": 9,
+    "corners": 4,
+    "fouls": 9,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 0.91
+  },
+  "away_stats": {
+    "team_id": 718,
+    "possession": 32,
+    "shots_on": 5,
+    "shots_total": 8,
+    "corners": 1,
+    "fouls": 13,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 6,
+    "xg": 1.71
+  }
+}

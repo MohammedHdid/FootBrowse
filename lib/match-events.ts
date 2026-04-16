@@ -20,6 +20,9 @@ export interface MatchStatGroup {
   fouls: number | null
   yellow_cards: number | null
   red_cards: number | null
+  offsides: number | null
+  saves: number | null
+  xg: number | null
 }
 
 export interface MatchEvents {

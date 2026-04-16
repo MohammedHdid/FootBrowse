@@ -1,0 +1,145 @@
+{
+  "fixture_id": 1379284,
+  "fetched_at": "2026-04-16T09:00:53.353Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 36,
+      "extra": null,
+      "team_id": 40,
+      "player": "R. Ngumoha",
+      "assist": "F. Wirtz",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 40,
+      "extra": null,
+      "team_id": 40,
+      "player": "M. Salah",
+      "assist": "C. Gakpo",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 40,
+      "player": "C. Jones",
+      "assist": "R. Gravenberch",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 36,
+      "player": "O. Bobb",
+      "assist": "S. Lukic",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 36,
+      "player": "J. King",
+      "assist": "E. Smith Rowe",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 40,
+      "player": "F. Wirtz",
+      "assist": "A. Mac Allister",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 40,
+      "player": "J. Frimpong",
+      "assist": "J. Gomez",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 40,
+      "player": "R. Ngumoha",
+      "assist": "A. Isak",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 36,
+      "player": "A. Robinson",
+      "assist": "R. Sessegnon",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 36,
+      "player": "Rodrigo Muniz",
+      "assist": "R. Jimenez",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 36,
+      "player": "H. Wilson",
+      "assist": "S. Chukwueze",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 40,
+      "player": "M. Salah",
+      "assist": "T. Nyoni",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 40,
+    "possession": 53,
+    "shots_on": 5,
+    "shots_total": 18,
+    "corners": 6,
+    "fouls": 10,
+    "yellow_cards": null,
+    "red_cards": null,
+    "offsides": 4,
+    "saves": 4,
+    "xg": 1.59
+  },
+  "away_stats": {
+    "team_id": 36,
+    "possession": 47,
+    "shots_on": 4,
+    "shots_total": 19,
+    "corners": 9,
+    "fouls": 4,
+    "yellow_cards": null,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 1.04
+  }
+}

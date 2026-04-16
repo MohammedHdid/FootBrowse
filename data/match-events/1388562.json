@@ -1,0 +1,226 @@
+{
+  "fixture_id": 1388562,
+  "fetched_at": "2026-04-16T09:05:33.418Z",
+  "status": "FT",
+  "score": {
+    "home": 3,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 7,
+      "extra": null,
+      "team_id": 192,
+      "player": "S. El Mala",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 24,
+      "extra": null,
+      "team_id": 162,
+      "player": "Marco Friedl",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 192,
+      "player": "K. Lund",
+      "assist": "A. Castro-Montes",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 162,
+      "player": "Y. Sugawara",
+      "assist": "K. Coulibaly",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 162,
+      "player": "M. Grull",
+      "assist": "S. Musah",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 49,
+      "extra": null,
+      "team_id": 192,
+      "player": "Alessio Castro-Montes",
+      "assist": null,
+      "type": "Var",
+      "detail": "Goal cancelled"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 192,
+      "player": "R. Ache",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 192,
+      "player": "S. El Mala",
+      "assist": "L. Maina",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 192,
+      "player": "J. Thielmann",
+      "assist": "M. Bulter",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 192,
+      "player": "Ragnar Ache",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 162,
+      "player": "Olivier Deman",
+      "assist": null,
+      "type": "Var",
+      "detail": "Penalty confirmed"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 162,
+      "player": "R. Schmid",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 192,
+      "player": "R. Ache",
+      "assist": "L. Waldschmidt",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 162,
+      "player": "Leonardo Bittencourt",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 162,
+      "player": "F. Agu",
+      "assist": "I. Schmidt",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 192,
+      "player": "Jahmai Simpson-Pusey",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 162,
+      "player": "L. Bittencourt",
+      "assist": "J. Milosevic",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 192,
+      "player": "S. Sebulonsen",
+      "assist": "T. Krauss",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 1,
+      "team_id": 192,
+      "player": "Eric Martel",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 162,
+      "player": "Amos Pieper",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 192,
+      "player": "M. Backhaus",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Own Goal"
+    }
+  ],
+  "home_stats": {
+    "team_id": 192,
+    "possession": 58,
+    "shots_on": 8,
+    "shots_total": 25,
+    "corners": 8,
+    "fouls": 16,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "offsides": 3,
+    "saves": 1,
+    "xg": 3.33
+  },
+  "away_stats": {
+    "team_id": 162,
+    "possession": 42,
+    "shots_on": 2,
+    "shots_total": 6,
+    "corners": 5,
+    "fouls": 7,
+    "yellow_cards": 2,
+    "red_cards": 1,
+    "offsides": 3,
+    "saves": 6,
+    "xg": 0.99
+  }
+}

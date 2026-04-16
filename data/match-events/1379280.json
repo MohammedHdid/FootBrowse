@@ -1,0 +1,127 @@
+{
+  "fixture_id": 1379280,
+  "fetched_at": "2026-04-16T09:00:40.974Z",
+  "status": "FT",
+  "score": {
+    "home": 2,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 2,
+      "extra": null,
+      "team_id": 45,
+      "player": "Jordan Pickford",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 3,
+      "extra": null,
+      "team_id": 55,
+      "player": "I. Thiago",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 26,
+      "extra": null,
+      "team_id": 45,
+      "player": "Beto",
+      "assist": "I. Gueye",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 55,
+      "player": "M. Damsgaard",
+      "assist": "R. Nelson",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 47,
+      "extra": null,
+      "team_id": 45,
+      "player": "James Garner",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 45,
+      "player": "D. McNeil",
+      "assist": "T. George",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 45,
+      "player": "Beto",
+      "assist": "T. Barry",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 45,
+      "player": "I. Gueye",
+      "assist": "T. Iroegbunam",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 55,
+      "player": "I. Thiago",
+      "assist": "M. Kayode",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 45,
+      "player": "K. Dewsbury-Hall",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    }
+  ],
+  "home_stats": {
+    "team_id": 55,
+    "possession": 55,
+    "shots_on": 4,
+    "shots_total": 17,
+    "corners": 2,
+    "fouls": 6,
+    "yellow_cards": 0,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 4,
+    "xg": 2.84
+  },
+  "away_stats": {
+    "team_id": 45,
+    "possession": 45,
+    "shots_on": 7,
+    "shots_total": 14,
+    "corners": 3,
+    "fouls": 7,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 2,
+    "xg": 1.53
+  }
+}

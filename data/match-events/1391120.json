@@ -1,0 +1,253 @@
+{
+  "fixture_id": 1391120,
+  "fetched_at": "2026-04-16T09:02:40.911Z",
+  "status": "FT",
+  "score": {
+    "home": 4,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 9,
+      "extra": null,
+      "team_id": 529,
+      "player": "F. Torres",
+      "assist": "Lamine Yamal",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 25,
+      "extra": null,
+      "team_id": 529,
+      "player": "F. Torres",
+      "assist": "Lamine Yamal",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 32,
+      "extra": null,
+      "team_id": 529,
+      "player": "Pablo Gavi",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 32,
+      "extra": null,
+      "team_id": 540,
+      "player": "Omar El Hilali",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 34,
+      "extra": null,
+      "team_id": 540,
+      "player": "Edu Expósito",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 45,
+      "extra": 3,
+      "team_id": 529,
+      "player": "Eric García",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 45,
+      "extra": null,
+      "team_id": 540,
+      "player": "Cyril Ngonge",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 529,
+      "player": "G. Martin",
+      "assist": "M. Casado",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 540,
+      "player": "T. Dolan",
+      "assist": "R. Fernandez Jaen",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 49,
+      "extra": null,
+      "team_id": 529,
+      "player": "Marc Casadó",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 56,
+      "extra": null,
+      "team_id": 540,
+      "player": "P. Lozano",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 58,
+      "extra": null,
+      "team_id": 540,
+      "player": "Pol Lozano",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 529,
+      "player": "A. Balde",
+      "assist": "J. Cancelo",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 529,
+      "player": "Gavi",
+      "assist": "M. Rashford",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 540,
+      "player": "C. Ngonge",
+      "assist": "R. Sanchez",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 540,
+      "player": "K. Garcia",
+      "assist": "P. Milla",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 540,
+      "player": "Exposito",
+      "assist": "R. Terrats",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 529,
+      "player": "F. Torres",
+      "assist": "D. Olmo",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 540,
+      "player": "P. Lozano",
+      "assist": "C. Pickel",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 540,
+      "player": "Fernando Calero",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 529,
+      "player": "Fermín",
+      "assist": "F. de Jong",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 529,
+      "player": "Lamine Yamal",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 529,
+      "player": "M. Rashford",
+      "assist": "F. de Jong",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 540,
+      "player": "Urko González",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    }
+  ],
+  "home_stats": {
+    "team_id": 529,
+    "possession": 77,
+    "shots_on": 10,
+    "shots_total": 20,
+    "corners": 7,
+    "fouls": 10,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 4,
+    "saves": 2,
+    "xg": 2.81
+  },
+  "away_stats": {
+    "team_id": 540,
+    "possession": 23,
+    "shots_on": 2,
+    "shots_total": 10,
+    "corners": 5,
+    "fouls": 18,
+    "yellow_cards": 6,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 5,
+    "xg": 1.17
+  }
+}

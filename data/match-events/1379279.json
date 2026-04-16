@@ -1,0 +1,190 @@
+{
+  "fixture_id": 1379279,
+  "fetched_at": "2026-04-16T09:00:30.954Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 17,
+      "extra": null,
+      "team_id": 35,
+      "player": "Eli Junior Kroupi",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 35,
+      "extra": null,
+      "team_id": 42,
+      "player": "Viktor Gyökeres",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Penalty"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 42,
+      "player": "Gabriel Martinelli",
+      "assist": "Leandro Trossard",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 42,
+      "player": "Noni Madueke",
+      "assist": "Max Dowman",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 42,
+      "player": "Kai Havertz",
+      "assist": "Eberechi Eze",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 35,
+      "player": "Rayan",
+      "assist": "David Brooks",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 35,
+      "player": "Ryan Christie",
+      "assist": "Tyler Adams",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 35,
+      "player": "Alex Scott",
+      "assist": "Evanilson",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 42,
+      "player": "Martín Zubimendi",
+      "assist": "Gabriel Jesus",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 42,
+      "player": "Ben White",
+      "assist": "Cristhian Mosquera",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 35,
+      "player": "Adrien Truffert",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 35,
+      "player": "Eli Junior Kroupi",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 42,
+      "player": "Viktor Gyökeres",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 35,
+      "player": "Eli Junior Kroupi",
+      "assist": "Alex Tóth",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 90,
+      "extra": 6,
+      "team_id": 35,
+      "player": "James Hill",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 35,
+      "player": "Álex Jiménez",
+      "assist": "Adam Smith",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 35,
+      "player": "Evanilson",
+      "assist": "Enes Ünal",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 42,
+    "possession": 52,
+    "shots_on": 3,
+    "shots_total": 15,
+    "corners": 10,
+    "fouls": 12,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 1,
+    "xg": 2.32
+  },
+  "away_stats": {
+    "team_id": 35,
+    "possession": 48,
+    "shots_on": 3,
+    "shots_total": 8,
+    "corners": 1,
+    "fouls": 18,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 2,
+    "xg": 1.19
+  }
+}

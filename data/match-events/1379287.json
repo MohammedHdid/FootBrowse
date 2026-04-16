@@ -1,0 +1,181 @@
+{
+  "fixture_id": 1379287,
+  "fetched_at": "2026-04-16T09:01:28.749Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 22,
+      "extra": null,
+      "team_id": 47,
+      "player": "Randal Kolo Muani",
+      "assist": null,
+      "type": "Var",
+      "detail": "Penalty cancelled"
+    },
+    {
+      "minute": 28,
+      "extra": null,
+      "team_id": 47,
+      "player": "Cristian Romero",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 33,
+      "extra": null,
+      "team_id": 746,
+      "player": "Brian Brobbey",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 37,
+      "extra": null,
+      "team_id": 47,
+      "player": "Pedro Porro",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 37,
+      "extra": null,
+      "team_id": 47,
+      "player": "Micky van de Ven",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 746,
+      "player": "Nordi Mukiele",
+      "assist": "Habib Diarra",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 47,
+      "player": "Richarlison",
+      "assist": "Mathys Tel",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 47,
+      "player": "Lucas Bergvall",
+      "assist": "Pape Matar Sarr",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 47,
+      "player": "Archie Gray",
+      "assist": "João Palhinha",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 47,
+      "player": "Cristian Romero",
+      "assist": "Kevin Danso",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 75,
+      "extra": null,
+      "team_id": 746,
+      "player": "Chris Rigg",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 746,
+      "player": "Chris Rigg",
+      "assist": "Chemsdine Talbi",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 746,
+      "player": "Nordi Mukiele",
+      "assist": "Trai Hume",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 47,
+      "player": "Conor Gallagher",
+      "assist": "Xavi Simons",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 1,
+      "team_id": 746,
+      "player": "Trai Hume",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 746,
+      "player": "Brian Brobbey",
+      "assist": "Wilson Isidor",
+      "type": "subst",
+      "detail": "Substitution 3"
+    }
+  ],
+  "home_stats": {
+    "team_id": 746,
+    "possession": 52,
+    "shots_on": 2,
+    "shots_total": 13,
+    "corners": 2,
+    "fouls": 14,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": null,
+    "saves": 7,
+    "xg": 1.33
+  },
+  "away_stats": {
+    "team_id": 47,
+    "possession": 48,
+    "shots_on": 7,
+    "shots_total": 11,
+    "corners": 6,
+    "fouls": 15,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": null,
+    "saves": 1,
+    "xg": 0.84
+  }
+}

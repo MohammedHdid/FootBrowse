@@ -1,0 +1,154 @@
+{
+  "fixture_id": 1534912,
+  "fetched_at": "2026-04-16T09:00:29.087Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 31,
+      "extra": null,
+      "team_id": 40,
+      "player": "H. Ekitike",
+      "assist": "M. Salah",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 38,
+      "extra": null,
+      "team_id": 85,
+      "player": "N. Mendes",
+      "assist": "L. Hernandez",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 45,
+      "extra": 1,
+      "team_id": 40,
+      "player": "Alexis Mac Allister",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 40,
+      "player": "A. Isak",
+      "assist": "C. Gakpo",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 40,
+      "player": "J. Frimpong",
+      "assist": "J. Gomez",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 52,
+      "extra": null,
+      "team_id": 85,
+      "player": "D. Doue",
+      "assist": "B. Barcola",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 40,
+      "player": "Alexis Mac Allister",
+      "assist": null,
+      "type": "Var",
+      "detail": "Penalty cancelled"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 40,
+      "player": null,
+      "assist": "R. Ngumoha",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 85,
+      "player": "O. Dembele",
+      "assist": "K. Kvaratskhelia",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 40,
+      "player": "A. Mac Allister",
+      "assist": "C. Jones",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 85,
+      "player": "W. Zaire-Emery",
+      "assist": "L. Beraldo",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 40,
+      "player": "Ibrahima Konaté",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 85,
+      "player": "O. Dembele",
+      "assist": "B. Barcola",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    }
+  ],
+  "home_stats": {
+    "team_id": 40,
+    "possession": 53,
+    "shots_on": 5,
+    "shots_total": 21,
+    "corners": 8,
+    "fouls": 9,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 4,
+    "saves": 3,
+    "xg": 1.94
+  },
+  "away_stats": {
+    "team_id": 85,
+    "possession": 47,
+    "shots_on": 6,
+    "shots_total": 12,
+    "corners": 2,
+    "fouls": 10,
+    "yellow_cards": 0,
+    "red_cards": null,
+    "offsides": 4,
+    "saves": 6,
+    "xg": 1.25
+  }
+}

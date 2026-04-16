@@ -1,0 +1,172 @@
+{
+  "fixture_id": 1379285,
+  "fetched_at": "2026-04-16T09:01:53.340Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 5,
+      "extra": null,
+      "team_id": 63,
+      "player": "N. Okafor",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 18,
+      "extra": null,
+      "team_id": 33,
+      "player": "Matheus Cunha",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 29,
+      "extra": null,
+      "team_id": 63,
+      "player": "N. Okafor",
+      "assist": "B. Aaronson",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 39,
+      "extra": null,
+      "team_id": 63,
+      "player": "James Justin",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 49,
+      "extra": null,
+      "team_id": 33,
+      "player": "Luke Shaw",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 55,
+      "extra": null,
+      "team_id": 33,
+      "player": "Lisandro Martínez",
+      "assist": null,
+      "type": "Var",
+      "detail": "Card upgrade"
+    },
+    {
+      "minute": 56,
+      "extra": null,
+      "team_id": 33,
+      "player": "Lisandro Martínez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 33,
+      "player": "Bruno Fernandes",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 33,
+      "player": "Casemiro",
+      "assist": "B. Fernandes",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 33,
+      "player": "N. Mazraoui",
+      "assist": "D. Dalot",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 33,
+      "player": "A. Diallo",
+      "assist": "B. Mbeumo",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 63,
+      "player": "A. Tanaka",
+      "assist": "I. Gruev",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 74,
+      "extra": null,
+      "team_id": 63,
+      "player": "N. Okafor",
+      "assist": "W. Gnonto",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 63,
+      "player": "Ethan Ampadu",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 63,
+      "player": "B. Aaronson",
+      "assist": "S. Longstaff",
+      "type": "subst",
+      "detail": "Substitution 3"
+    }
+  ],
+  "home_stats": {
+    "team_id": 33,
+    "possession": 53,
+    "shots_on": 9,
+    "shots_total": 20,
+    "corners": 11,
+    "fouls": 12,
+    "yellow_cards": 3,
+    "red_cards": 1,
+    "offsides": 1,
+    "saves": 3,
+    "xg": 1.27
+  },
+  "away_stats": {
+    "team_id": 63,
+    "possession": 47,
+    "shots_on": 6,
+    "shots_total": 15,
+    "corners": 4,
+    "fouls": 15,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "offsides": 0,
+    "saves": 6,
+    "xg": 2.57
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "fixture_id": 1534571,
+  "fetched_at": "2026-04-16T09:09:04.869Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 56,
+      "extra": null,
+      "team_id": 42,
+      "player": "V. Gyökeres",
+      "assist": "K. Havertz",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 42,
+      "player": "N. Madueke",
+      "assist": "M. Dowman",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 228,
+      "player": "P. Goncalves",
+      "assist": "D. Braganca",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 228,
+      "player": "G. Catamo",
+      "assist": "G. Quenda",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 228,
+      "player": "H. Morita",
+      "assist": "J. Simoes",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 228,
+      "player": "Maximiliano Araújo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 42,
+      "player": "E. Eze",
+      "assist": "Gabriel Jesus",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 42,
+      "player": "G. Martinelli",
+      "assist": "L. Trossard",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 228,
+      "player": "Trincao",
+      "assist": "R. Nel",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 228,
+      "player": "E. Quaresma",
+      "assist": "G. Vagiannidis",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 42,
+    "possession": 50,
+    "shots_on": 1,
+    "shots_total": 15,
+    "corners": 8,
+    "fouls": 7,
+    "yellow_cards": 0,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 1,
+    "xg": 0.64
+  },
+  "away_stats": {
+    "team_id": 228,
+    "possession": 50,
+    "shots_on": 1,
+    "shots_total": 8,
+    "corners": 3,
+    "fouls": 11,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 1,
+    "xg": 0.29
+  }
+}

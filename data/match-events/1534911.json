@@ -1,0 +1,199 @@
+{
+  "fixture_id": 1534911,
+  "fetched_at": "2026-04-16T09:09:05.064Z",
+  "status": "FT",
+  "score": {
+    "home": 4,
+    "away": 3
+  },
+  "events": [
+    {
+      "minute": 1,
+      "extra": null,
+      "team_id": 541,
+      "player": "A. Guler",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 6,
+      "extra": null,
+      "team_id": 157,
+      "player": "A. Pavlovic",
+      "assist": "J. Kimmich",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 29,
+      "extra": null,
+      "team_id": 157,
+      "player": "Josip Stanišić",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 29,
+      "extra": null,
+      "team_id": 541,
+      "player": "A. Guler",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 38,
+      "extra": null,
+      "team_id": 157,
+      "player": "H. Kane",
+      "assist": "D. Upamecano",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 40,
+      "extra": null,
+      "team_id": 541,
+      "player": "Éder Militão",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 42,
+      "extra": null,
+      "team_id": 541,
+      "player": "K. Mbappe",
+      "assist": "Vinicius Junior",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 157,
+      "player": "J. Stanisic",
+      "assist": "A. Davies",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 157,
+      "player": "S. Gnabry",
+      "assist": "J. Musiala",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 541,
+      "player": "B. Diaz",
+      "assist": "E. Camavinga",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 70,
+      "extra": null,
+      "team_id": 541,
+      "player": "Antonio Rudiger",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 541,
+      "player": "Eduardo Camavinga",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 541,
+      "player": "Eduardo Camavinga",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 541,
+      "player": "Eduardo Camavinga",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 157,
+      "player": "L. Diaz",
+      "assist": "J. Musiala",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 541,
+      "player": "A. Guler",
+      "assist": "F. Mastantuono",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 541,
+      "player": "T. Alexander-Arnold",
+      "assist": "T. Pitarch",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 157,
+      "player": "M. Olise",
+      "assist": "H. Kane",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    }
+  ],
+  "home_stats": {
+    "team_id": 157,
+    "possession": 69,
+    "shots_on": 9,
+    "shots_total": 21,
+    "corners": 9,
+    "fouls": 10,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "offsides": 2,
+    "saves": 2,
+    "xg": 2.14
+  },
+  "away_stats": {
+    "team_id": 541,
+    "possession": 31,
+    "shots_on": 5,
+    "shots_total": 12,
+    "corners": 2,
+    "fouls": 12,
+    "yellow_cards": 6,
+    "red_cards": 2,
+    "offsides": 1,
+    "saves": 4,
+    "xg": 2.25
+  }
+}

@@ -7128,10 +7128,10 @@
     "slug": "arsenal-vs-sporting-cp-2026-04-15",
     "date": "2026-04-15",
     "kickoff_utc": "19:00",
-    "status": "NS",
+    "status": "FT",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     },
     "home_team": {
       "id": 42,
@@ -7154,10 +7154,10 @@
     "slug": "bayern-munchen-vs-real-madrid-2026-04-15",
     "date": "2026-04-15",
     "kickoff_utc": "19:00",
-    "status": "NS",
+    "status": "FT",
     "score": {
-      "home": null,
-      "away": null
+      "home": 4,
+      "away": 3
     },
     "home_team": {
       "id": 157,

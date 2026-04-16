@@ -35,6 +35,11 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
 
+      - name: Patch yesterday's scores into season fixture files
+        run: npm run sync:patch-results
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
       - name: Sync predictions for upcoming fixtures
         run: npm run sync:predictions
         env:
@@ -45,10 +50,15 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
 
+      - name: Sync match events for recently finished fixtures
+        run: npm run sync:match-events
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet data/today.json data/predictions/ data/odds/ \
+          git diff --quiet data/today.json data/fixtures/ data/predictions/ data/odds/ data/match-events/ \
             || echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit updated data
@@ -56,8 +66,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/today.json data/predictions/ data/odds/
-          git commit -m "chore: sync daily fixtures, predictions and odds [skip ci]"
+          git add data/today.json data/fixtures/ data/predictions/ data/odds/ data/match-events/
+          git commit -m "chore: sync daily fixtures, predictions, odds and match events [skip ci]"
           git push
 
       - name: Trigger Vercel redeploy

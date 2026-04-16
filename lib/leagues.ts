@@ -12,6 +12,7 @@ export interface League {
   seasonStart: string
   seasonEnd: string
   type: string
+  national?: boolean
   current: boolean
   standings: boolean
   topScorers: boolean

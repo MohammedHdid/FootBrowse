@@ -1,0 +1,181 @@
+{
+  "fixture_id": 1388565,
+  "fetched_at": "2026-04-16T09:04:57.195Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 33,
+      "extra": null,
+      "team_id": 173,
+      "player": "Ridle Baku",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 33,
+      "extra": null,
+      "team_id": 163,
+      "player": "L. Ullrich",
+      "assist": "H. Bolin",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 35,
+      "extra": null,
+      "team_id": 163,
+      "player": "Joseph Scally",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 47,
+      "extra": null,
+      "team_id": 173,
+      "player": "Nicolas Seiwald",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 163,
+      "player": "K. Diks",
+      "assist": "F. C. Chiarodia",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 173,
+      "player": "Romulo Cardoso",
+      "assist": "J. Bakayoko",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 173,
+      "player": "A. Nusa",
+      "assist": "A. Ouedraogo",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 173,
+      "player": "Xaver Schlager",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 173,
+      "player": "N. Seiwald",
+      "assist": "B. Gruda",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 173,
+      "player": "R. Baku",
+      "assist": "B. Henrichs",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 173,
+      "player": "Y. Diomande",
+      "assist": "C. Baumgartner",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 173,
+      "player": "Brajan Gruda",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 163,
+      "player": "J. Castrop",
+      "assist": "K. Stoger",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 163,
+      "player": "Y. Engelhardt",
+      "assist": "S. Machino",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 163,
+      "player": "F. Honorat",
+      "assist": "W. Mohya",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 173,
+      "player": "Y. Diomande",
+      "assist": "M. Finkgrafe",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 173,
+    "possession": 52,
+    "shots_on": 11,
+    "shots_total": 24,
+    "corners": 11,
+    "fouls": 9,
+    "yellow_cards": 4,
+    "red_cards": null,
+    "offsides": 3,
+    "saves": 2,
+    "xg": 2.43
+  },
+  "away_stats": {
+    "team_id": 163,
+    "possession": 48,
+    "shots_on": 3,
+    "shots_total": 15,
+    "corners": 4,
+    "fouls": 6,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 11,
+    "xg": 1.78
+  }
+}

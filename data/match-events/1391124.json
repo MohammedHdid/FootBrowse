@@ -1,0 +1,199 @@
+{
+  "fixture_id": 1391124,
+  "fetched_at": "2026-04-16T09:03:17.029Z",
+  "status": "FT",
+  "score": {
+    "home": 3,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 23,
+      "extra": null,
+      "team_id": 728,
+      "player": "Nobel Mendy",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 32,
+      "extra": null,
+      "team_id": 728,
+      "player": "Florian Lejeune",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 36,
+      "extra": null,
+      "team_id": 798,
+      "player": "V. Muriqi",
+      "assist": "Samu Costa",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 40,
+      "extra": null,
+      "team_id": 798,
+      "player": "V. Muriqi",
+      "assist": "Z. Luvumbo",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 728,
+      "player": "N. Mendy",
+      "assist": "J. de Frutos",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 728,
+      "player": "O. Valentin",
+      "assist": "P. Ciss",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 53,
+      "extra": null,
+      "team_id": 728,
+      "player": "Randy Nteka",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 62,
+      "extra": null,
+      "team_id": 798,
+      "player": "Z. Luvumbo",
+      "assist": "J. Virgili",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 728,
+      "player": "Andrei Rațiu",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 798,
+      "player": "J. Virgili",
+      "assist": "P. Torre",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 728,
+      "player": "I. Akhomach",
+      "assist": "P. Chavarria",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 798,
+      "player": "P. Torre",
+      "assist": "T. Asano",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 798,
+      "player": "Samu Costa",
+      "assist": "M. Kumbulla",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 728,
+      "player": "A. Garcia",
+      "assist": "S. Camello",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 80,
+      "extra": null,
+      "team_id": 798,
+      "player": "David López",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 798,
+      "player": "P. Maffeo",
+      "assist": "A. Prats",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 798,
+      "player": "M. Morlanes",
+      "assist": "A. Sanchez",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 728,
+      "player": "R. Nteka",
+      "assist": "Alemao",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 798,
+    "possession": 45,
+    "shots_on": 4,
+    "shots_total": 12,
+    "corners": 6,
+    "fouls": 13,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 1.68
+  },
+  "away_stats": {
+    "team_id": 728,
+    "possession": 55,
+    "shots_on": 3,
+    "shots_total": 17,
+    "corners": 7,
+    "fouls": 11,
+    "yellow_cards": 4,
+    "red_cards": null,
+    "offsides": 6,
+    "saves": 1,
+    "xg": 1.95
+  }
+}

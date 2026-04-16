@@ -1,0 +1,199 @@
+{
+  "fixture_id": 1388566,
+  "fetched_at": "2026-04-16T09:05:21.303Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 5
+  },
+  "events": [
+    {
+      "minute": 9,
+      "extra": null,
+      "team_id": 157,
+      "player": "J. Musiala",
+      "assist": "K. Laimer",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 19,
+      "extra": null,
+      "team_id": 157,
+      "player": "Konrad Laimer",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 52,
+      "extra": null,
+      "team_id": 186,
+      "player": "Joel Chima Fujita",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 52,
+      "extra": null,
+      "team_id": 157,
+      "player": "Michael Olise",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 53,
+      "extra": null,
+      "team_id": 157,
+      "player": "L. Goretzka",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 55,
+      "extra": null,
+      "team_id": 157,
+      "player": "M. Olise",
+      "assist": "L. Goretzka",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 58,
+      "extra": null,
+      "team_id": 157,
+      "player": "K. Laimer",
+      "assist": "J. Stanisic",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 157,
+      "player": "M. Olise",
+      "assist": "L. Diaz",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 157,
+      "player": "J. Kimmich",
+      "assist": "A. Davies",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 157,
+      "player": "N. Jackson",
+      "assist": "J. Musiala",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 186,
+      "player": "J. Fujita",
+      "assist": "C. Metcalfe",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 157,
+      "player": "H. Ito",
+      "assist": "J. Tah",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 186,
+      "player": "A. Hountondji",
+      "assist": "M. Kaars",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 186,
+      "player": "L. Ritzka",
+      "assist": "L. Oppie",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 157,
+      "player": "J. Musiala",
+      "assist": "B. Ndiaye",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 157,
+      "player": "R. Guerreiro",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 186,
+      "player": "M. Pereira Lage",
+      "assist": "T. Hara",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": 6,
+      "team_id": 157,
+      "player": "Leon Goretzka",
+      "assist": null,
+      "type": "Var",
+      "detail": "Goal cancelled"
+    }
+  ],
+  "home_stats": {
+    "team_id": 186,
+    "possession": 23,
+    "shots_on": 3,
+    "shots_total": 6,
+    "corners": 3,
+    "fouls": 9,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 3,
+    "xg": 0.49
+  },
+  "away_stats": {
+    "team_id": 157,
+    "possession": 77,
+    "shots_on": 8,
+    "shots_total": 20,
+    "corners": 4,
+    "fouls": 7,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 3,
+    "saves": 3,
+    "xg": 3.84
+  }
+}

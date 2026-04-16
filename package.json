@@ -25,7 +25,10 @@
     "sync:injuries": "tsx scripts/sync/weekly-injuries.ts",
     "sync:h2h": "tsx scripts/sync/weekly-h2h.ts",
     "sync:predictions": "tsx scripts/sync/daily-predictions.ts",
-    "sync:odds": "tsx scripts/sync/daily-odds.ts"
+    "sync:odds": "tsx scripts/sync/daily-odds.ts",
+    "bootstrap:wc-ids": "tsx scripts/sync/bootstrap-wc-api-ids.ts",
+    "sync:lineups": "tsx scripts/sync/pre-match-lineups.ts",
+    "sync:patch-results": "tsx scripts/sync/patch-results.ts"
   },
   "dependencies": {
     "next": "14.2.35",

@@ -1,0 +1,172 @@
+{
+  "fixture_id": 1379286,
+  "fetched_at": "2026-04-16T09:01:16.854Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 1
+  },
+  "events": [
+    {
+      "minute": 11,
+      "extra": null,
+      "team_id": 66,
+      "player": "Matty Cash",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 23,
+      "extra": null,
+      "team_id": 66,
+      "player": "Murillo",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Own Goal"
+    },
+    {
+      "minute": 38,
+      "extra": null,
+      "team_id": 65,
+      "player": "Neco Williams",
+      "assist": "Callum Hudson-Odoi",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 45,
+      "extra": null,
+      "team_id": 65,
+      "player": "Omari Hutchinson",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 63,
+      "extra": null,
+      "team_id": 65,
+      "player": "Murillo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 65,
+      "extra": null,
+      "team_id": 65,
+      "player": "Omari Hutchinson",
+      "assist": "Chris Wood",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 66,
+      "player": "John McGinn",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 77,
+      "extra": null,
+      "team_id": 66,
+      "player": "Ross Barkley",
+      "assist": "Douglas Luiz",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 66,
+      "player": "Morgan Rogers",
+      "assist": "Emiliano Buendía",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 66,
+      "player": "Lucas Digne",
+      "assist": "Ian Maatsen",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 84,
+      "extra": null,
+      "team_id": 65,
+      "player": "Morgan Gibbs-White",
+      "assist": "Nicolás Domínguez",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 87,
+      "extra": null,
+      "team_id": 66,
+      "player": "Ollie Watkins",
+      "assist": "Tammy Abraham",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 65,
+      "player": "Ola Aina",
+      "assist": "Dan Ndoye",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 65,
+      "player": "Igor Jesus",
+      "assist": "Ryan Yates",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 66,
+      "player": "Matty Cash",
+      "assist": "Andrés García",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 65,
+    "possession": 41,
+    "shots_on": 4,
+    "shots_total": 15,
+    "corners": 7,
+    "fouls": 15,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 5,
+    "xg": 1.15
+  },
+  "away_stats": {
+    "team_id": 66,
+    "possession": 59,
+    "shots_on": 5,
+    "shots_total": 12,
+    "corners": 3,
+    "fouls": 10,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 2,
+    "saves": 4,
+    "xg": 1.02
+  }
+}

@@ -1,9 +1,9 @@
 # READ THIS FILE FIRST BEFORE DOING ANYTHING
 # FootBrowse — Claude Session Memory
 
-Last updated: 2026-04-15  
+Last updated: 2026-04-16  
 Current Phase: **Phase 5 — Match Experience + Homepage**  
-Next task: **TASK 30 — Homepage Date Navigation**
+Next task: **TASK 20 — WC 2026 Hub Page**
 
 ---
 
@@ -104,9 +104,9 @@ data/club-squads/{team-slug}.json  club squad files
 | TASK 23 | Top Scorers Leaderboard Page | ⬜ TODO | `/stats` — cross-league leaderboards, 0 API calls |
 | TASK 23b | Players Directory Redesign | ⬜ TODO | League filter + search bar; 0 API calls |
 | TASK 24 | Final Polish + Performance Audit | ⬜ TODO | SEO meta, Schema.org, sitemap, mobile, 404s |
-| TASK 30 | Homepage Date Navigation | ⬜ TODO | Sofascore-style: today + prev/next day arrows, client-side date filtering |
-| TASK 31 | Pre-Match Lineup Widget | ⬜ TODO | Sync `GET /fixtures/lineups` 2h before kickoff every 30 min; formation + XI on match page |
-| TASK 32 | Finished Match Page Enhancement | ⬜ TODO | Richer events timeline, better stats bars, player highlights from events |
+| TASK 30 | Homepage Date Navigation | ✅ DONE | 2026-04-16 — `DateMatchesSection.tsx`, `lib/date-fixtures.ts`, `lib/wc-ids.ts`; prev/next day arrows + today reset |
+| TASK 31 | Pre-Match Lineup Widget | ✅ DONE | 2026-04-16 — `lib/lineups.ts`, `scripts/sync/pre-match-lineups.ts`, `components/MatchLineup.tsx`, `.github/workflows/pre-match.yml`; shows on club match preview pages |
+| TASK 32 | Finished Match Page Enhancement | ✅ DONE | 2026-04-16 — Match Summary (goals+assists+cards), visual timeline bar with half grouping, expanded stats (offsides/saves/xG), sync default limit 5→20 + --stale flag |
 | TASK 33 | LLM Content Generation | ⬜ TODO | AI-generated match previews, team bios, player insights, coach descriptions — unique text per page for SEO |
 | TASK 34 | Supabase Schema Setup | ⬜ TODO | Phase 7 — after LLM content |
 | TASK 35 | Data Migration: JSON → Supabase | ⬜ TODO | Phase 7 |

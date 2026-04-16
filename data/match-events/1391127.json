@@ -1,0 +1,244 @@
+{
+  "fixture_id": 1391127,
+  "fetched_at": "2026-04-16T09:02:16.828Z",
+  "status": "FT",
+  "score": {
+    "home": 3,
+    "away": 3
+  },
+  "events": [
+    {
+      "minute": -5,
+      "extra": null,
+      "team_id": 542,
+      "player": "Youssef Enriquez Lekhedim",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 3,
+      "extra": null,
+      "team_id": 542,
+      "player": "D. Caleta-Car",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Own Goal"
+    },
+    {
+      "minute": 14,
+      "extra": null,
+      "team_id": 548,
+      "player": "L. Sucic",
+      "assist": "A. Barrenetxea",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 24,
+      "extra": null,
+      "team_id": 542,
+      "player": "I. Diabate",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 27,
+      "extra": null,
+      "team_id": 548,
+      "player": "A. Sivera",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Own Goal"
+    },
+    {
+      "minute": 46,
+      "extra": null,
+      "team_id": 548,
+      "player": "A. Barrenetxea",
+      "assist": "G. Guedes",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 548,
+      "player": "B. Mendez",
+      "assist": "T. Kubo",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 59,
+      "extra": null,
+      "team_id": 542,
+      "player": "Abderrahman Rebbach",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 542,
+      "player": "I. Diabate",
+      "assist": "L. Boye",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 60,
+      "extra": null,
+      "team_id": 548,
+      "player": "O. Oskarsson",
+      "assist": "T. Kubo",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 548,
+      "player": "Takefusa Kubo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 542,
+      "player": "Ángel Pérez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 542,
+      "player": "J. Guridi",
+      "assist": "C. Alena",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 542,
+      "player": "P. Ibanez",
+      "assist": "A. Guevara",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 72,
+      "extra": null,
+      "team_id": 548,
+      "player": "O. Oskarsson",
+      "assist": "P. Marin",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 548,
+      "player": "L. Sucic",
+      "assist": "L. Beitia",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 548,
+      "player": "A. Elustondo",
+      "assist": "A. Munoz",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 86,
+      "extra": null,
+      "team_id": 542,
+      "player": "A. Perez",
+      "assist": "D. Suarez",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 90,
+      "extra": 9,
+      "team_id": 548,
+      "player": "Gonçalo Guedes",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": 3,
+      "team_id": 548,
+      "player": "Sergio Gómez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 90,
+      "extra": 2,
+      "team_id": 548,
+      "player": "Sergio Gómez",
+      "assist": null,
+      "type": "Var",
+      "detail": "Card upgrade"
+    },
+    {
+      "minute": 90,
+      "extra": 10,
+      "team_id": 542,
+      "player": "Denis Suárez",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 90,
+      "extra": null,
+      "team_id": 542,
+      "player": "L. Boye",
+      "assist": "D. Suarez",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    }
+  ],
+  "home_stats": {
+    "team_id": 548,
+    "possession": 54,
+    "shots_on": 4,
+    "shots_total": 12,
+    "corners": 9,
+    "fouls": 11,
+    "yellow_cards": 2,
+    "red_cards": 1,
+    "offsides": 1,
+    "saves": 0,
+    "xg": 0.94
+  },
+  "away_stats": {
+    "team_id": 542,
+    "possession": 46,
+    "shots_on": 2,
+    "shots_total": 12,
+    "corners": 5,
+    "fouls": 18,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "offsides": 1,
+    "saves": 2,
+    "xg": 1.13
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "fixture_id": 1534910,
+  "fetched_at": "2026-04-16T09:00:29.792Z",
+  "status": "FT",
+  "score": {
+    "home": 1,
+    "away": 2
+  },
+  "events": [
+    {
+      "minute": 4,
+      "extra": null,
+      "team_id": 529,
+      "player": "Lamine Yamal",
+      "assist": "F. Torres",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 24,
+      "extra": null,
+      "team_id": 529,
+      "player": "F. Torres",
+      "assist": "D. Olmo",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 31,
+      "extra": null,
+      "team_id": 530,
+      "player": "A. Lookman",
+      "assist": "M. Llorente",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 57,
+      "extra": null,
+      "team_id": 529,
+      "player": "Ferran Torres",
+      "assist": null,
+      "type": "Var",
+      "detail": "Goal cancelled"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 530,
+      "player": "A. Lookman",
+      "assist": "N. Gonzalez",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 530,
+      "player": "G. Simeone",
+      "assist": "A. Baena",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 529,
+      "player": "F. Torres",
+      "assist": "R. Lewandowski",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 529,
+      "player": "Fermín",
+      "assist": "M. Rashford",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 69,
+      "extra": null,
+      "team_id": 529,
+      "player": "Pablo Gavi",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 530,
+      "player": "A. Griezmann",
+      "assist": "A. Sorloth",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 529,
+      "player": "Eric García",
+      "assist": null,
+      "type": "Card",
+      "detail": "Red Card"
+    },
+    {
+      "minute": 79,
+      "extra": null,
+      "team_id": 529,
+      "player": "Eric García",
+      "assist": null,
+      "type": "Var",
+      "detail": "Card upgrade"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 529,
+      "player": "Gavi",
+      "assist": "F. de Jong",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 530,
+      "player": "Koke",
+      "assist": "J. Cardoso",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 529,
+      "player": "J. Cancelo",
+      "assist": "R. Araujo",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 89,
+      "extra": null,
+      "team_id": 529,
+      "player": "D. Olmo",
+      "assist": "R. Bardghji",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 530,
+    "possession": 29,
+    "shots_on": 5,
+    "shots_total": 15,
+    "corners": 2,
+    "fouls": 15,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "offsides": 1,
+    "saves": 7,
+    "xg": 1.77
+  },
+  "away_stats": {
+    "team_id": 529,
+    "possession": 71,
+    "shots_on": 8,
+    "shots_total": 15,
+    "corners": 4,
+    "fouls": 8,
+    "yellow_cards": 1,
+    "red_cards": 1,
+    "offsides": 1,
+    "saves": 4,
+    "xg": 2.22
+  }
+}

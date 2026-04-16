@@ -1,0 +1,181 @@
+{
+  "fixture_id": 1379282,
+  "fetched_at": "2026-04-16T09:01:40.782Z",
+  "status": "FT",
+  "score": {
+    "home": 0,
+    "away": 3
+  },
+  "events": [
+    {
+      "minute": 12,
+      "extra": null,
+      "team_id": 49,
+      "player": "Estêvão",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 38,
+      "extra": null,
+      "team_id": 50,
+      "player": "Antoine Semenyo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 51,
+      "extra": null,
+      "team_id": 50,
+      "player": "Nico O'Reilly",
+      "assist": "Rayan Cherki",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 54,
+      "extra": null,
+      "team_id": 49,
+      "player": "Marc Cucurella",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 57,
+      "extra": null,
+      "team_id": 50,
+      "player": "Marc Guéhi",
+      "assist": "Rayan Cherki",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 64,
+      "extra": null,
+      "team_id": 50,
+      "player": "Nico O'Reilly",
+      "assist": "Rayan Aït-Nouri",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 49,
+      "player": "Andrey Santos",
+      "assist": "Roméo Lavia",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 67,
+      "extra": null,
+      "team_id": 49,
+      "player": "Estêvão",
+      "assist": "Alejandro Garnacho",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 50,
+      "player": "Jérémy Doku",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 50,
+      "player": "Rayan Cherki",
+      "assist": "Phil Foden",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 76,
+      "extra": null,
+      "team_id": 50,
+      "player": "Jérémy Doku",
+      "assist": "Savinho",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 49,
+      "player": "João Pedro",
+      "assist": "Liam Delap",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 81,
+      "extra": null,
+      "team_id": 50,
+      "player": "Bernardo Silva",
+      "assist": "Mateo Kovačić",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 49,
+      "player": "Moisés Caicedo",
+      "assist": "Dário Essugo",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 88,
+      "extra": null,
+      "team_id": 49,
+      "player": "Malo Gusto",
+      "assist": "Josh Acheampong",
+      "type": "subst",
+      "detail": "Substitution 5"
+    },
+    {
+      "minute": 90,
+      "extra": 8,
+      "team_id": 49,
+      "player": "Dário Essugo",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    }
+  ],
+  "home_stats": {
+    "team_id": 49,
+    "possession": 37,
+    "shots_on": 3,
+    "shots_total": 12,
+    "corners": 4,
+    "fouls": 10,
+    "yellow_cards": 3,
+    "red_cards": null,
+    "offsides": 6,
+    "saves": 5,
+    "xg": 1.14
+  },
+  "away_stats": {
+    "team_id": 50,
+    "possession": 63,
+    "shots_on": 8,
+    "shots_total": 18,
+    "corners": 12,
+    "fouls": 15,
+    "yellow_cards": 1,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 3,
+    "xg": 2.29
+  }
+}

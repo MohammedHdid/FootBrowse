@@ -1,0 +1,190 @@
+{
+  "fixture_id": 1379288,
+  "fetched_at": "2026-04-16T09:00:30.315Z",
+  "status": "FT",
+  "score": {
+    "home": 4,
+    "away": 0
+  },
+  "events": [
+    {
+      "minute": 9,
+      "extra": null,
+      "team_id": 39,
+      "player": "Jean-Ricner Bellegarde",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 20,
+      "extra": null,
+      "team_id": 39,
+      "player": "Yerson Mosquera",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 31,
+      "extra": null,
+      "team_id": 48,
+      "player": "Mateus Fernandes",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 42,
+      "extra": null,
+      "team_id": 48,
+      "player": "K. Mavropanos",
+      "assist": "J. Bowen",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 52,
+      "extra": null,
+      "team_id": 48,
+      "player": "Valentín Castellanos",
+      "assist": null,
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 39,
+      "player": "A. Gomes",
+      "assist": "R. Gomes",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 61,
+      "extra": null,
+      "team_id": 39,
+      "player": "J. Bellegarde",
+      "assist": "M. Mane",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 66,
+      "extra": null,
+      "team_id": 48,
+      "player": "T. Castellanos",
+      "assist": "Pablo",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 68,
+      "extra": null,
+      "team_id": 48,
+      "player": "T. Castellanos",
+      "assist": "J. Bowen",
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 39,
+      "player": "A. Armstrong",
+      "assist": "Hwang Hee-Chan",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 71,
+      "extra": null,
+      "team_id": 39,
+      "player": "Y. Mosquera",
+      "assist": "T. Arokodare",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 48,
+      "player": "C. Summerville",
+      "assist": "A. Traore",
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "minute": 78,
+      "extra": null,
+      "team_id": 48,
+      "player": "Pablo",
+      "assist": "F. Potts",
+      "type": "subst",
+      "detail": "Substitution 2"
+    },
+    {
+      "minute": 82,
+      "extra": null,
+      "team_id": 48,
+      "player": "T. Castellanos",
+      "assist": "C. Wilson",
+      "type": "subst",
+      "detail": "Substitution 3"
+    },
+    {
+      "minute": 83,
+      "extra": null,
+      "team_id": 48,
+      "player": "K. Mavropanos",
+      "assist": null,
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 48,
+      "player": "M. Fernandes",
+      "assist": "S. Magassa",
+      "type": "subst",
+      "detail": "Substitution 4"
+    },
+    {
+      "minute": 85,
+      "extra": null,
+      "team_id": 39,
+      "player": null,
+      "assist": "T. Edozie",
+      "type": "subst",
+      "detail": "Substitution 5"
+    }
+  ],
+  "home_stats": {
+    "team_id": 48,
+    "possession": 44,
+    "shots_on": 7,
+    "shots_total": 18,
+    "corners": 5,
+    "fouls": 11,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 0,
+    "saves": 4,
+    "xg": 2.35
+  },
+  "away_stats": {
+    "team_id": 39,
+    "possession": 56,
+    "shots_on": 3,
+    "shots_total": 14,
+    "corners": 2,
+    "fouls": 7,
+    "yellow_cards": 2,
+    "red_cards": null,
+    "offsides": 1,
+    "saves": 3,
+    "xg": 0.59
+  }
+}

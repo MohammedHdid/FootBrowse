@@ -1,0 +1,54 @@
+# Required GitHub Secrets:
+#   API_FOOTBALL_KEY       — your API-Football v3 key
+#   VERCEL_DEPLOY_HOOK_URL — deploy hook URL from Vercel project settings
+
+name: Pre-Match Lineup Sync
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # every 30 minutes
+  workflow_dispatch:         # allow manual run from Actions tab
+
+jobs:
+  sync:
+    name: Fetch pre-match lineups
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync lineups (fixtures kicking off in next 3 hours)
+        run: npm run sync:lineups
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/lineups/ \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit updated lineups
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/lineups/
+          git commit -m "chore: sync pre-match lineups [skip ci]"
+          git push
+
+      - name: Trigger Vercel redeploy
+        if: steps.changes.outputs.changed == 'true'
+        run: curl -s -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"
