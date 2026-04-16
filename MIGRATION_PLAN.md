@@ -1,470 +1,1011 @@
-# FootBrowse Migration Plan
-## Architecture: API-Football v3 Multi-League Platform
-### Last updated: 2026-04-15 | Status: Phase 5 — Match Experience + Homepage
+# FootBrowse — Full Product & Migration Plan
+### Last updated: 2026-04-16 | Current: Phase 5 — UX Overhaul
 
 ---
 
-## READ THIS BEFORE EXECUTING ANY TASK
+## READ BEFORE EXECUTING ANY TASK
 
-- Read `/CLAUDE_CONTEXT.md` first — task log, current status, design system
+- Read `CLAUDE_CONTEXT.md` first — task status, design system, key decisions
 - Never touch `/data/` or `/lib/` unless the task explicitly says to
-- Each TASK is a self-contained session
-- Mark the TASK complete in `CLAUDE_CONTEXT.md` when done
+- Each TASK is a self-contained session — mark complete in `CLAUDE_CONTEXT.md` when done
+- Phase order matters: UX → Supabase → Scripts → LLM → SEO → Live Scores
 
 ---
 
-## Vision
+## Architecture
 
-A multi-league football platform with:
-1. **Homepage** — today's matches grouped by league, browseable by date (Sofascore-style)
-2. **League pages** — fixtures, standings, teams, top scorers
-3. **Match pages** — two modes: Preview (lineup, H2H, prediction, odds, where to watch, travel) and Finished (timeline, stats, scorers)
-4. **Team pages** — squad, coach, form, stats, injury report
-5. **Player pages** — bio, career stats, AI-generated insights
-6. **5,000+ Google-indexed pages** each with unique AI-generated editorial content
+```
+API-Football v3
+    │  GitHub Actions (scheduled + event-based)
+    ▼
+scripts/sync/          → data/ JSON  (Phases 1–5)
+                       → Supabase    (Phase 6+)
+    ▼
+Next.js 14 App Router  SSG → ISR (Phase 10)
+    ▼
+Vercel CDN
+```
 
----
-
-## API-Football Endpoint Reference
-
-| Endpoint | Returns | Phase |
-|---|---|---|
-| `GET /leagues` | League metadata | Phase 1 |
-| `GET /fixtures?date=` | All fixtures for a date | Daily |
-| `GET /fixtures?league=&season=` | All fixtures in league | Phase 1 |
-| `GET /fixtures/statistics?fixture=` | Shots, possession, corners etc. | Phase 3 |
-| `GET /fixtures/events?fixture=` | Goals, cards, subs | Phase 3 |
-| `GET /fixtures/lineups?fixture=` | Starting XI, bench, formation | **TASK 31** |
-| `GET /fixtures/headtohead?h2h=` | H2H history | Phase 4 |
-| `GET /standings?league=&season=` | League table | Phase 2 |
-| `GET /teams?league=&season=` | Team list | Phase 1 |
-| `GET /teams/statistics?team=&league=&season=` | Team aggregated stats | Phase 3 |
-| `GET /players/squads?team=` | Squad list | Phase 2 |
-| `GET /players/topscorers?league=&season=` | Top 20 scorers | Phase 2 |
-| `GET /injuries?league=&season=` | Injuries/suspensions | Phase 4 |
-| `GET /predictions?fixture=` | Win probability + tips | **DONE** |
-| `GET /odds?fixture=&bookmaker=` | Pre-match odds | **DONE** |
-| `GET /coachs?team=` | Coach + career | Phase 4 |
-
-**Current plan: Pro (7,500 req/day)**
+**Priority leagues:** World Cup 2026 (id=1), UCL (id=2), Premier League (id=39), La Liga (id=140), Bundesliga (id=78)
 
 ---
 
-## Priority Leagues
+## ✅ Phases 1–4 Complete
 
-| League | ID | Season |
-|---|---|---|
-| FIFA World Cup | 1 | 2026 |
-| UEFA Champions League | 2 | 2025 |
-| Premier League | 39 | 2025 |
-| La Liga | 140 | 2025 |
-| Bundesliga | 78 | 2025 |
+API client · 5 leagues · 1,411 fixtures · standings · top scorers · unified match page (Preview + Finished, ALL leagues) · 172 club teams · 3,269 club players · 193 coaches · injuries · H2H + predictions + odds (WC + clubs unified) · Where to Watch · Travel & Tickets · WC bootstrap (wc-fixture-ids.json + wc-team-ids.json)
+
+## ✅ Phase 5 partial
+
+TASK 30: Homepage date navigation — `DateMatchesSection` client component, ±3/7 day window from fixture files, replaces `today.json` dependency.
 
 ---
 
-## Completed Phases
-
-### ✅ Phase 1–3: Foundation + League Layer + Entity Enrichment (Tasks 1–14)
-API client, league pages, fixtures, standings, top scorers, homepage, nav, match events, team stats, player stats, squad sync.
-
-### ✅ Phase 4: Club Teams + Match Unification (Tasks 15–19b, 21, 22)
-- Club team pages, club player pages, coach sync, injuries widget
-- Unified match page template (Preview + Finished modes, all leagues)
-- H2H sync + lib, predictions sync + lib, odds sync + lib
-- Where to Watch (static per league), Travel & Tickets for club matches
-- All match sections now work for ALL leagues identically
+## Phase 5 — UX Overhaul
+*Mobile-first. Match Forza Football / Sofascore patterns. No new data dependencies.*
 
 ---
 
-## Phase 5: Match Experience + Homepage
-*Goal: Best-in-class match pages and Sofascore-style homepage.*
+### TASK 40 — Match Page: Sticky Hero + Horizontal Tab Navigation
+
+**The single biggest UX upgrade. Every match page benefits immediately.**
+
+**Pattern (from Forza Football / Sofascore):**
+```
+┌──────────────────────────────────────────┐  ← sticky, compresses on scroll
+│  🏆 Premier League · Matchday 34         │
+│  🔴 Arsenal   2 ─── 1   Chelsea 🔵       │  ← always visible when compressed
+│  FT · Emirates Stadium · Apr 16          │
+├──────────────────────────────────────────┤  ← sticky tab bar
+│  Overview │ Events │ Stats │ Lineups │ H2H │ Odds │ Squad  │
+└──────────────────────────────────────────┘
+│  [scrollable tab content]                │
+```
+
+**URL tab routing:**
+- `?tab=overview` (default), `?tab=events`, `?tab=stats`, `?tab=lineups`, `?tab=h2h`, `?tab=odds`, `?tab=squad`
+- Use `useSearchParams()` in a `"use client"` wrapper inside `<Suspense>`
+- `<link rel="canonical">` always points to base URL without `?tab=`
+- Each tab URL is indexable — Google sees unique content per tab
+
+**Shrinking header behaviour:**
+- Full state (top of page): large logos ~72px, full team names, score, date/venue/time below
+- Compressed state (scrolled > 80px): logos shrink to 32px, one-line layout, score only
+- CSS `transition` on height + opacity — no JS reflow, no layout shift
+- Tab bar detaches from hero and becomes `position: sticky; top: 0` once compressed
+
+**Tab definitions:**
+
+*Preview mode (status = NS):*
+| Tab | Content |
+|---|---|
+| Overview | Form pills + team comparison + venue card + broadcaster list |
+| Lineups | Starting XI + formation (from TASK 31) or "Not yet announced" |
+| H2H | Head-to-head history + recent meetings |
+| Odds | Bet365 widget with affiliate links |
+| Squad | Squad comparison (existing MatchSquads component) |
+
+*Finished / Live mode (status = FT / 1H / 2H / HT):*
+| Tab | Content |
+|---|---|
+| Overview | Goal scorers + key events summary + player highlights |
+| Events | Full match timeline (TASK 32) |
+| Statistics | Stat bars — shots, possession, corners, cards, xG (TASK 32) |
+| Lineups | Confirmed starting XI |
+| Squad | Squad comparison |
+
+**Component architecture:**
+```
+app/leagues/[slug]/matches/[match-slug]/
+  page.tsx                    ← server component: data loading + metadata only
+  MatchPageClient.tsx         ← "use client": receives all data as props, owns tab state
+  components/
+    MatchHero.tsx             ← sticky shrinking hero (useScrollY hook)
+    MatchTabBar.tsx           ← horizontal scrollable tab strip
+    tabs/
+      OverviewTab.tsx
+      EventsTab.tsx
+      StatsTab.tsx
+      LineupsTab.tsx
+      H2HTab.tsx
+      OddsTab.tsx
+      SquadTab.tsx
+```
+
+**Strategy:** `page.tsx` stays a pure server component — loads all data, passes everything as serialisable props to `<MatchPageClient>`. No data fetching in client components. Tab switch = zero network requests.
+
+**Migration:** Move existing section JSX from `page.tsx` into the appropriate tab components. No logic changes — same `lib/*` readers, same props.
 
 ---
 
-### TASK 30 — Homepage Date Navigation
-**Goal:** Allow users to browse matches by date — today, tomorrow, yesterday — with prev/next arrows, exactly like Sofascore or FlashScore.
+### TASK 41 — Homepage: Vertical Stacked Match Cards
 
-**Current state:** Homepage shows `data/today.json` (today only). No way to browse to tomorrow's or yesterday's fixtures.
+**Current (side-by-side, desktop pattern):**
+```
+[19:45]  [Arsenal logo + name ——————] [VS] [—————— Chelsea logo + name]
+```
 
-**Approach:**
-- Make homepage a Client Component (`"use client"`)
-- Store selected date in state (default: today)
-- Filter `data/fixtures/*.json` client-side by selected date
-- Prev/next arrow buttons + "Today" reset button
-- Display: `← Apr 14 | Today, Apr 15 | Apr 16 →`
-- Group by league, same visual as current homepage
-- Pre-generate match data as a flat index at build time (or use `data/today.json` pattern extended to a rolling 7-day window)
+**New (vertical stacked, mobile-first — industry standard):**
+```
+┌────────────────────────────────────────────┐
+│  19:45          Premier League             │
+│  🔴  Arsenal                         2     │
+│  🔵  Chelsea                         1     │
+│  FT                                        │
+└────────────────────────────────────────────┘
+```
 
-**Files to modify:**
-- `app/page.tsx` — add date picker state + date filtering logic
-- `scripts/sync/daily-fixtures.ts` — extend `data/today.json` to a 7-day window (`data/schedule.json`) so client can filter without extra API calls
-- OR keep SSG + use `?date=` search param with `useSearchParams`
+Details:
+- Left column (w-12): kickoff time when NS · live minute when 1H/2H · "HT" · "FT"
+- Center: crest (24×24) + full team name — two rows
+- Right: one score number per row (or "—" if NS)
+- Live matches: green left border pulse
+- Status badge replaces time when live: pulsing "LIVE" or "HT"
+- Compact padding: `py-2.5 px-4` per card
 
-**Expected output:** User can navigate through days, sees all matches per day grouped by league.
+**Files:** `components/DateMatchesSection.tsx` — redesign fixture row JSX only.
+
+---
+
+### TASK 42 — Entity Pages: Sticky Header + Horizontal Tabs
+
+**Same shrinking header + tab pattern as TASK 40, applied to League / Team / Player pages.**
+
+**League page (`/leagues/[slug]`):**
+```
+Header: league logo + name + season badge
+Tabs:   Overview | Fixtures | Standings | Teams | Top Scorers
+```
+- Overview: next 5 fixtures + current top 5 standings + top scorer
+- Other tabs: existing page sections moved into tab components
+
+**Team page (`/leagues/[slug]/teams/[teamSlug]`):**
+```
+Header: club crest (or flag) + team name + league badge
+Tabs:   Overview | Squad | Fixtures | Stats
+```
+- Overview: form + coach + venue + injury summary
+
+**Player page (`/players/[slug]`):**
+```
+Header: player photo (or initial avatar) + name + position + club crest
+Tabs:   Overview | Stats | Matches
+```
+- Overview: bio (LLM text when available) + key season stats
+- Stats: career stats table
+- Matches: recent appearances
+
+**Shared pattern across all entity pages:**
+- `useSearchParams` + `?tab=` URL routing
+- `<Suspense>` wrapper around tab content area
+- `position: sticky; top: 0` tab bar after hero compresses
+
+**Files:** `app/leagues/[slug]/page.tsx`, `app/leagues/[slug]/teams/[teamSlug]/page.tsx`, `app/players/[slug]/page.tsx`
 
 ---
 
 ### TASK 31 — Pre-Match Lineup Widget
-**Goal:** Show the confirmed starting XI and formation on match preview pages, ~2 hours before kickoff.
 
-**How lineups work:**
-- API Football releases lineups via `GET /fixtures/lineups?fixture={id}` roughly 60–90 minutes before kickoff
-- Before lineup release: returns empty array → show "Lineup TBA"
-- After release: returns starting XI (11 players), bench, formation, coach
+**Sync script:** `scripts/sync/pre-match-lineups.ts`
+- Runs every 30 min via GitHub Actions
+- Finds fixtures with kickoff within next 4 hours
+- Calls `GET /fixtures/lineups?fixture={id}`
+- Saves to `data/lineups/{fixture_id}.json`
+- Skips if lineup already has 11 confirmed starters
+- WC fixtures: uses `wc-fixture-ids.json`
 
-**Files to create:**
-- `scripts/sync/pre-match-lineups.ts` — fetches lineups for matches starting in the next 3 hours; skips if already stored and complete
-- `data/lineups/{fixture_id}.json` — lineup file per fixture
-- `lib/lineups.ts` — `getLineup(fixtureId)` reader
-- `components/MatchLineup.tsx` — visual: formation label, two columns (home/away), starting XI with shirt numbers + positions, bench list
-
-**Files to modify:**
-- `app/leagues/[slug]/matches/[match-slug]/page.tsx` — load lineup, show "Lineups" section in Preview mode (above Squad Preview)
-- `.github/workflows/pre-match.yml` — NEW workflow: runs every 30 minutes, calls `sync:lineups`
-- `package.json` — add `"sync:lineups": "tsx scripts/sync/pre-match-lineups.ts"`
-
-**GitHub Actions cron:** Every 30 min is `*/30 * * * *`. Only ~2 API calls per run (matches starting within 3h).
-
-**Lineup section design:**
-```
-[ Formation: 4-3-3 ]
-Home XI              Away XI
-#1 GK Alisson        Courtois #1 GK
-#66 CB Alexander-A.  Carvajal #2 RB
-...
-[ Bench ]
+**Data format:**
+```json
+{
+  "fixture_id": 12345,
+  "fetched_at": "2026-04-16T17:30:00Z",
+  "home": {
+    "team_id": 33, "team_name": "Arsenal", "formation": "4-3-3",
+    "start_xi": [{ "player_id": 1, "name": "Raya", "number": 22, "pos": "G", "grid": "1:1" }],
+    "bench": [{ "player_id": 2, "name": "Turner", "number": 30, "pos": "G" }],
+    "coach": { "id": 100, "name": "Mikel Arteta" }
+  },
+  "away": { "..." }
+}
 ```
 
-**Expected output:** Match preview for a game starting in 90 min shows confirmed starting XI. Shows "Lineup not yet announced" until available.
+**Component:** `components/MatchLineup.tsx`
+- Two-column: home left, away right
+- Formation label centred between columns
+- Player rows: shirt number + name + position badge
+- Bench section collapsed by default (show/hide)
+- Fallback: "Lineup not yet announced" card with expected kickoff time
+
+**GitHub Action:** `.github/workflows/pre-match.yml` — `*/30 * * * *`
+
+**`lib/lineups.ts`:** `getLineup(fixtureId: number): LineupFile | null`
+
+**package.json:** add `"sync:lineups": "tsx scripts/sync/pre-match-lineups.ts"`
 
 ---
 
 ### TASK 32 — Finished Match Page Enhancement
-**Goal:** Make the finished match page visually richer — better timeline, better stats, player highlights.
 
-**Current state:** Finished mode has goal scorers, events timeline, match statistics. Good but basic.
+**Goal:** Make the finished match experience visually rich. No new data — everything comes from existing `data/match-events/*.json`.
 
-**Improvements:**
+**1. Events timeline (EventsTab):**
+- Visual timeline bar at the top: 90-min progress bar with event markers (⚽🟨🟥🔄) at correct minute positions
+- Events grouped by half: "1st Half" / "2nd Half" / "Extra Time" headers
+- Each event row: left team-color stripe + minute pill + icon + player name
+- Substitutions: one row, "↑ Player In · ↓ Player Out · 72'"
 
-1. **Events timeline redesign:**
-   - Group events by half (1st Half / 2nd Half / Extra Time)
-   - Visual match timeline bar at top showing when goals/cards happened (like a progress bar with markers)
-   - Cleaner event rows: team color stripe on left side
+**2. Statistics (StatsTab):**
+- ALL stat rows have percentage bar (currently only possession does)
+- Home = #00FF87 bar, Away = #3B82F6 bar
+- Show xG, pass accuracy, offsides, saves if present in API response
+- Possession shown as large split bar at top (stays as-is)
 
-2. **Stats section improvements:**
-   - Add percentage bars to ALL stat rows (not just possession)
-   - Show "xG" if available from API
-   - Add pass accuracy, offsides, saves if available in match stats
-
-3. **Player highlights section (derived from events):**
-   - Highest-impact players: goal scorers with minute, assist givers
-   - Cards section: yellow/red card recipients
-   - Substitutions summary: who came on/off and when
-   - No extra API calls — all from existing `data/match-events/`
-
-4. **Match events sync improvement:**
-   - `scripts/sync/match-events-batch.ts` — ensure it catches ALL recently finished matches
-   - Currently may miss matches that finished between syncs
-
-**Files to modify:**
-- `app/leagues/[slug]/matches/[match-slug]/page.tsx` — restructure Finished mode sections
-- `scripts/sync/match-events-batch.ts` — audit and improve reliability
+**3. Player highlights (OverviewTab — new section):**
+- "Match Highlights" card: goal scorers with minute + assist name
+- Cards summary: yellow/red with player name + minute
+- Key substitutions: sub + minute + team
+- Zero extra API calls — all derived from existing events array
 
 ---
 
-### TASK 20 — WC 2026 Dedicated Section (`/world-cup`)
-**Goal:** Tournament hub at `/world-cup` for maximum SEO traffic during June–July 2026.
+### TASK 20 — WC 2026 Hub (`/world-cup`)
 
-**All data from existing JSON — zero API calls.**
-
-**Files to create:**
-- `app/world-cup/page.tsx` — hub page
-
-**Hub page sections:**
-1. Hero: WC 2026 logo, USA/Canada/Mexico, countdown to June 11
-2. Groups grid: 12 groups × 4 teams (link to `/leagues/world-cup/teams/[slug]`)
-3. Next 7 upcoming fixtures
-4. All 48 qualified teams grid with crests
-5. 19 stadiums grid
-6. Navigation links to league-scoped WC pages
-
-**Note:** All team/player/match/stadium pages already live under `/leagues/world-cup/*`. This hub is purely a landing page + SEO aggregator.
-
----
-
-### TASK 23 — Top Scorers Leaderboard Page
-**Goal:** Cross-league stats leaderboard.
-
-**Files to create:**
-- `app/stats/page.tsx` — tabbed: Top Scorers | Top Assists | Most Cards
-
-**0 API calls** — reuses `data/topscorers/*.json`
+**Standalone page at `/world-cup` — not under `/leagues/`.**
 
 **Sections:**
-- League filter tabs (All / PL / La Liga / UCL / Bundesliga)
-- Ranked player cards: photo, name, team, goals/assists, minutes
+1. Hero: countdown to June 11 2026 (client component, live countdown) + "48 Teams · 104 Matches · USA, Canada & Mexico"
+2. Group stage grid: all 12 groups × 4 teams with flags, links to `/leagues/world-cup/teams/[slug]`
+3. Next 7 upcoming WC fixtures
+4. All 48 teams grid: flag + name + FIFA rank
+5. All 19 stadiums: city + capacity + photo
+6. Quick nav: → All WC fixtures | → WC standings | → WC squads
+
+**Zero API calls** — all from `data/matches.json`, `data/teams.json`, `data/stadiums.json`
+
+**Files:** `app/world-cup/page.tsx`
 
 ---
 
-### TASK 23b — Players Directory Redesign
-**Goal:** `/players` currently shows WC squads only. Needs to work for all leagues.
+### TASK 23 — Top Scorers Leaderboard (`/stats`)
 
-**Files to modify:**
-- `app/players/page.tsx` — add league filter dropdown + name search bar
-- Uses existing `data/club-players.json` + `data/players.json` (0 API calls)
+**Cross-league stats at `/stats`.**
 
-**Filters:** League (All / PL / La Liga / UCL / Bundesliga / WC) + Name search
+**Tabs:** Top Scorers | Top Assists | Most Cards
+**Filter:** All Leagues | Premier League | La Liga | UCL | Bundesliga
 
----
+**Data:** `data/topscorers/*.json` — zero API calls.
 
-### TASK 24 — Final Polish + Performance Audit
-**Checklist:**
-- [ ] All pages have `generateMetadata` (title, description, canonical)
-- [ ] All pages have Schema.org JSON-LD (SportsEvent, SportsTeam, Person, FAQPage)
-- [ ] All pages in `sitemap.ts` — verify count matches expected
-- [ ] Mobile layout review on all pages
-- [ ] 404 pages work for unknown league/team/player slugs
-- [ ] Vercel build time under 3 minutes
-- [ ] `data/today.json` freshness indicator on homepage
-- [ ] No broken images (fallback for missing logos/photos)
+Ranked list: position number + player photo + name + club crest + goals/assists + minutes played
+
+**Files:** `app/stats/page.tsx`
 
 ---
 
-## Phase 6: LLM Content Generation
-*Goal: Make every page unique and valuable. Pure API data looks identical across thousands of pages — Google's Helpful Content system penalises this. AI-generated editorial text is the #1 SEO differentiator.*
+### TASK 23b — Players Directory Redesign (`/players`)
+
+**Current state:** WC squads only.
+
+**New state:** All leagues searchable.
+
+**Filters (client-side, no API):**
+- League dropdown: All | Premier League | La Liga | UCL | Bundesliga | World Cup
+- Name search: instant filter as you type
+
+**Data:** `data/club-players.json` + `data/players.json` — zero API calls.
+
+**Files:** `app/players/page.tsx`
 
 ---
 
-### TASK 33 — LLM Content Generation Pipeline
-**Goal:** Generate unique, readable editorial content for every team, player, match, and coach page using an LLM (Claude API). Store as JSON. Surface on pages.
+### TASK 43 — Site-Wide Search (`/search`)
 
-**Why this matters:**
-- A page about Arsenal vs Barcelona with only raw stats looks like 50 other sites
-- A page with a 200-word match preview, team form analysis, and key battle narrative gets Google trust
-- Google's E-E-A-T signals reward original, useful text
-- This single task could 10x organic traffic
+**Goal:** Instant search across all teams, players, and matches.
 
-**Content types to generate:**
+**Implementation:**
+- At build time, generate `public/search-index.json` — flat array of all searchable entities
+- Client-side fuzzy filter with `?q=` URL param (shareable, back-button works)
+- Result categories: Teams · Players · Matches
+- Each result: entity name + league/team + link
 
-| Page | Content | Prompt inputs |
-|---|---|---|
-| Match preview | 150–200 word preview + 3 key stats to watch | Teams, form, H2H, odds, prediction, injuries |
-| Match recap (finished) | 150–200 word match report | Final score, scorers, events, stats |
-| Team bio | 100–150 word team description | Team name, founded, league, form, coach, style |
-| Coach bio | 100 word coaching philosophy + career highlight | Coach name, career, team, formation |
-| Player insight | 80–100 word player highlight | Name, position, goals, assists, nationality, age |
-
-**Technical approach:**
-- `scripts/sync/generate-ai-content.ts` — batch LLM content generator
-  - Uses Anthropic API (`claude-haiku-4-5` for speed/cost, `claude-sonnet-4-6` for quality)
-  - Rate limit: ~1 req/sec to stay within API limits
-  - Skip if content already exists and is less than 7 days old
-  - 3-retry logic for failures
-- `data/ai-content/matches/{slug}.json` — `{ preview, recap, generated_at }`
-- `data/ai-content/teams/{slug}.json` — `{ bio, generated_at }`
-- `data/ai-content/players/{slug}.json` — `{ insight, generated_at }`
-- `data/ai-content/coaches/{slug}.json` — `{ bio, generated_at }`
-
-**New env var needed:**
-- `ANTHROPIC_API_KEY` — set in `.env.local` and GitHub Secrets
-
-**GitHub Actions:**
-- Add to `weekly-league-data.yml` — regenerate content for upcoming matches each Monday
-- Separate `generate-ai-content.yml` — runs weekly, only regenerates stale content
-
-**Surfaces on pages:**
-- Match preview page: "Match Preview" section shows AI text (replaces WC-only handcrafted preview)
-- Finished match page: "Match Report" section
-- Team page: bio paragraph under hero
-- Player page: insight paragraph
-- Coach section: bio paragraph on team page
-
-**Cost estimate:**
-- claude-haiku-4-5: ~$0.25 per 1M input tokens
-- Average prompt: ~500 tokens, output: ~200 tokens
-- 1,000 pages: ~$0.35 total — negligible
-
-**Expected output:** Every page has 100–200 words of unique editorial. Google indexes the text, not just the data tables.
-
----
-
-## Phase 7: Database + Live Scores
-*Goal: Move beyond static JSON for real-time data.*
-
----
-
-### TASK 34 — Supabase Schema Setup
-
-**Tables:**
-```sql
-leagues (id, name, slug, country, logo, season, type, priority)
-teams (id, name, slug, logo, league_id, founded, venue_id, api_football_id)
-players (id, name, slug, photo, position, nationality, team_id, api_football_id)
-matches (id, slug, home_id, away_id, league_id, date, status, score_home, score_away)
-standings (league_id, team_id, position, points, played, won, drawn, lost, gf, ga, form)
-venues (id, name, slug, city, country, capacity, image)
-player_stats (player_id, season, league_id, goals, assists, minutes, appearances)
-match_events (match_id, type, minute, player_id, team_id, detail)
-coaches (team_id, name, photo, nationality, contract_start)
-injuries (player_id, league_id, type, reason, fixture_id)
-lineups (match_id, team_id, formation, players jsonb, bench jsonb)
-live_events (id, match_id, minute, type, player, team_id, detail, created_at)
-ai_content (entity_type, entity_slug, content_type, text, generated_at)
+**Search index entry:**
+```json
+{ "type": "team",   "name": "Arsenal", "slug": "arsenal", "league": "premier-league", "logo": "..." }
+{ "type": "player", "name": "Bukayo Saka", "slug": "bukayo-saka-1234", "team": "Arsenal", "photo": "..." }
+{ "type": "match",  "name": "Arsenal vs Chelsea", "slug": "arsenal-vs-chelsea-2026-04-16", "league": "premier-league", "date": "..." }
 ```
 
-**`live_events` table is separate** — high write volume, purged after match ends and merged to `match_events`.
+Index size: ~5,000 entries at ~500 bytes each = ~2.5MB — acceptable for a one-time load.
+
+**Search input in navbar** (always visible) — links to `/search?q=`
+
+**Files:** `app/search/page.tsx`, `scripts/build/generate-search-index.ts` (run at build time via `next.config.js` or `prebuild` script), update `app/layout.tsx` for search input in nav.
+
+---
+
+## Phase 6 — Supabase Setup
+*Moved before Scripts Audit and LLM so that both can target Supabase from day one — no double migration.*
+
+---
+
+### TASK 34 — Supabase Database Schema
+
+**Use Supabase MCP** (`@supabase/mcp-server-supabase`) for all schema operations.
+
+**New env vars needed:**
+```
+NEXT_PUBLIC_SUPABASE_URL
+SUPABASE_SERVICE_ROLE_KEY
+NEXT_PUBLIC_SUPABASE_ANON_KEY
+```
+
+---
+
+#### Permanent tables (core data — always populated)
+
+```sql
+leagues (
+  id uuid PK DEFAULT gen_random_uuid(),
+  slug text UNIQUE NOT NULL,
+  name text NOT NULL,
+  country text,
+  logo text,
+  api_id integer,           -- API-Football league ID
+  season integer,
+  type text,                -- 'League' | 'Cup' | 'Tournament'
+  priority integer DEFAULT 99,
+  created_at timestamptz DEFAULT now(),
+  updated_at timestamptz DEFAULT now()
+)
+
+venues (
+  id uuid PK DEFAULT gen_random_uuid(),
+  slug text UNIQUE NOT NULL,
+  name text,
+  city text,
+  state text,
+  country text,
+  capacity integer,
+  photo text,
+  api_football_id integer,
+  created_at timestamptz DEFAULT now()
+)
+
+teams (
+  id uuid PK DEFAULT gen_random_uuid(),
+  slug text UNIQUE NOT NULL,
+  name text NOT NULL,
+  logo text,
+  country text,
+  api_football_id integer,
+  league_id uuid REFERENCES leagues(id),
+  venue_id uuid REFERENCES venues(id),
+  founded integer,
+  color_primary text,       -- WC teams
+  fifa_rank integer,        -- WC teams
+  wc_titles integer,        -- WC teams
+  wc_group text,            -- WC teams
+  created_at timestamptz DEFAULT now(),
+  updated_at timestamptz DEFAULT now(),
+  synced_at timestamptz
+)
+
+players (
+  id uuid PK DEFAULT gen_random_uuid(),
+  slug text UNIQUE NOT NULL,
+  name text NOT NULL,
+  photo text,
+  position text,
+  nationality text,
+  date_of_birth date,
+  shirt_number integer,
+  api_football_id integer,
+  team_id uuid REFERENCES teams(id),
+  created_at timestamptz DEFAULT now(),
+  updated_at timestamptz DEFAULT now(),
+  synced_at timestamptz
+)
+
+coaches (
+  id uuid PK DEFAULT gen_random_uuid(),
+  team_id uuid REFERENCES teams(id) UNIQUE,
+  name text,
+  photo text,
+  nationality text,
+  api_football_id integer,
+  career jsonb,             -- [{ team, start, end }]
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz
+)
+
+matches (
+  id uuid PK DEFAULT gen_random_uuid(),
+  slug text UNIQUE NOT NULL,
+  league_id uuid REFERENCES leagues(id),
+  home_id uuid REFERENCES teams(id),
+  away_id uuid REFERENCES teams(id),
+  venue_id uuid REFERENCES venues(id),
+  date date NOT NULL,
+  kickoff_utc text,
+  status text DEFAULT 'NS', -- NS | 1H | HT | 2H | ET | PEN | FT | AET | PEN
+  score_home integer,
+  score_away integer,
+  stage text,
+  matchday integer,
+  group_name text,
+  api_football_id integer,
+  created_at timestamptz DEFAULT now(),
+  updated_at timestamptz DEFAULT now(),
+  synced_at timestamptz
+)
+
+standings (
+  id uuid PK DEFAULT gen_random_uuid(),
+  league_id uuid REFERENCES leagues(id),
+  team_id uuid REFERENCES teams(id),
+  season integer NOT NULL,
+  position integer,
+  points integer,
+  played integer, won integer, drawn integer, lost integer,
+  goals_for integer, goals_against integer, goal_diff integer,
+  form text,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  UNIQUE(league_id, team_id, season)
+)
+
+player_stats (
+  id uuid PK DEFAULT gen_random_uuid(),
+  player_id uuid REFERENCES players(id),
+  league_id uuid REFERENCES leagues(id),
+  season integer NOT NULL,
+  appearances integer, minutes integer,
+  goals integer, assists integer,
+  yellow_cards integer, red_cards integer,
+  rating numeric(4,2),
+  shots_on integer, key_passes integer,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  UNIQUE(player_id, league_id, season)
+)
+
+team_stats (
+  id uuid PK DEFAULT gen_random_uuid(),
+  team_id uuid REFERENCES teams(id),
+  league_id uuid REFERENCES leagues(id),
+  season integer NOT NULL,
+  played integer, wins integer, draws integer, losses integer,
+  goals_for integer, goals_against integer, clean_sheets integer,
+  form text,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  UNIQUE(team_id, league_id, season)
+)
+
+match_events (
+  id uuid PK DEFAULT gen_random_uuid(),
+  match_id uuid REFERENCES matches(id),
+  type text,                -- 'Goal' | 'Card' | 'subst' | 'Var'
+  detail text,
+  minute integer,
+  extra_minute integer,
+  player_name text,
+  player_id uuid REFERENCES players(id),
+  assist_name text,
+  assist_id uuid REFERENCES players(id),
+  team_id uuid REFERENCES teams(id),
+  created_at timestamptz DEFAULT now()
+)
+
+match_stats (
+  id uuid PK DEFAULT gen_random_uuid(),
+  match_id uuid REFERENCES matches(id),
+  team_id uuid REFERENCES teams(id),
+  possession integer,
+  shots_on integer, shots_total integer,
+  corners integer, fouls integer,
+  yellow_cards integer, red_cards integer,
+  xg numeric(4,2),
+  pass_accuracy integer,
+  offsides integer, saves integer,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  UNIQUE(match_id, team_id)
+)
+
+lineups (
+  id uuid PK DEFAULT gen_random_uuid(),
+  match_id uuid REFERENCES matches(id),
+  team_id uuid REFERENCES teams(id),
+  formation text,
+  start_xi jsonb,           -- [{ player_id, name, number, pos, grid }]
+  bench jsonb,
+  coach_name text,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  UNIQUE(match_id, team_id)
+)
+
+h2h (
+  id uuid PK DEFAULT gen_random_uuid(),
+  team1_id uuid REFERENCES teams(id),  -- always min(api_id)
+  team2_id uuid REFERENCES teams(id),  -- always max(api_id)
+  played integer,
+  team1_wins integer, team2_wins integer, draws integer,
+  last_matches jsonb,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  UNIQUE(team1_id, team2_id)
+)
+
+injuries (
+  id uuid PK DEFAULT gen_random_uuid(),
+  player_id uuid REFERENCES players(id),
+  team_id uuid REFERENCES teams(id),
+  league_id uuid REFERENCES leagues(id),
+  type text,
+  reason text,
+  match_id uuid REFERENCES matches(id),
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz
+)
+
+-- Time-limited: stale after 48h (checked by sync script via valid_until)
+predictions (
+  id uuid PK DEFAULT gen_random_uuid(),
+  match_id uuid REFERENCES matches(id) UNIQUE,
+  advice text,
+  winner_api_id integer, winner_name text, winner_comment text,
+  percent_home text, percent_draw text, percent_away text,
+  under_over text, goals_home text, goals_away text,
+  comparison jsonb,
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  valid_until timestamptz  -- synced_at + 48h
+)
+
+-- Time-limited: stale after 24h
+odds (
+  id uuid PK DEFAULT gen_random_uuid(),
+  match_id uuid REFERENCES matches(id) UNIQUE,
+  bookmaker_id integer, bookmaker_name text,
+  home_win numeric(6,2), draw numeric(6,2), away_win numeric(6,2),
+  created_at timestamptz DEFAULT now(),
+  synced_at timestamptz,
+  valid_until timestamptz  -- synced_at + 24h
+)
+
+-- LLM-generated content — written by TASK 33, read by all pages
+ai_content (
+  id uuid PK DEFAULT gen_random_uuid(),
+  entity_type text NOT NULL,    -- 'match' | 'team' | 'player' | 'coach'
+  entity_slug text NOT NULL,
+  content_type text NOT NULL,   -- 'preview' | 'recap' | 'bio' | 'insight'
+  text text NOT NULL,
+  model text,                   -- 'claude-haiku-4-5' | 'claude-sonnet-4-6'
+  generated_at timestamptz DEFAULT now(),
+  valid_until timestamptz,      -- matches: 7d | teams/players: 30d
+  UNIQUE(entity_type, entity_slug, content_type)
+)
+```
+
+---
+
+#### Ephemeral table — live matches only
+
+```sql
+-- Written every 2 min during live matches. Cleared to match_events after FT.
+live_events (
+  id uuid PK DEFAULT gen_random_uuid(),
+  match_id uuid REFERENCES matches(id),
+  type text,
+  detail text,
+  minute integer,
+  extra_minute integer,
+  player_name text,
+  team_id uuid REFERENCES teams(id),
+  created_at timestamptz DEFAULT now()
+)
+-- Enable Supabase Realtime on this table only
+-- RLS: service_role write, anon read
+```
+
+---
+
+#### Staleness rules (used by all sync scripts in Phase 7)
+
+| Table | Stale after | Skip condition |
+|---|---|---|
+| matches (status) | 1 hour | status is FT/AET/PEN |
+| standings | 7 days | — |
+| player_stats / team_stats | 7 days | — |
+| injuries | 7 days | — |
+| h2h | 30 days | — |
+| coaches | 30 days | — |
+| predictions | 48 hours | `valid_until < now()` |
+| odds | 24 hours | `valid_until < now()` |
+| lineups | — | start_xi has 11 players |
+| match_events | never | exists and match is FT |
+| ai_content (matches) | 7 days | `valid_until > now()` |
+| ai_content (teams/players) | 30 days | `valid_until > now()` |
 
 ---
 
 ### TASK 35 — Data Migration: JSON → Supabase
-- `scripts/migrate/seed-supabase.ts` — one-time runner
-- `lib/supabase.ts` — typed client
-- Strategy: sync scripts write to both JSON AND Supabase during transition; cut over once verified
+
+**Seed scripts (run in this order — respects FK constraints):**
+```
+scripts/migrate/01-seed-leagues.ts
+scripts/migrate/02-seed-venues.ts
+scripts/migrate/03-seed-teams.ts
+scripts/migrate/04-seed-fixtures.ts
+scripts/migrate/05-seed-players.ts
+scripts/migrate/06-seed-stats.ts
+scripts/migrate/07-seed-events.ts
+scripts/migrate/08-seed-predictions-odds.ts
+```
+
+**`lib/supabase.ts`:**
+```typescript
+import { createClient } from '@supabase/supabase-js'
+export const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.SUPABASE_SERVICE_ROLE_KEY!
+)
+```
+
+**Transition strategy (3 phases):**
+- A: Seed scripts write to BOTH JSON + Supabase — verify parity
+- B: Pages read from Supabase with JSON fallback if null
+- C: Remove JSON reads entirely — JSON files become backup only
 
 ---
 
-### TASK 36 — ISR for League + Match Pages
-- League pages: `export const revalidate = 300` (5 min)
-- Live match pages: `revalidate = 30`
-- Static entity pages (teams, players): remain fully static
+## Phase 7 — Scripts Audit + Full Automation
+*Rewrite sync scripts to write to Supabase. Define complete automated schedule.*
+
+---
+
+### TASK 50 — Sync Scripts Full Audit
+
+**Current inventory:**
+
+| Script | Purpose | Schedule | Action |
+|---|---|---|---|
+| `daily-fixtures.ts` | Today's fixtures + status updates | Daily 06:00 | ✅ Keep — add Supabase write |
+| `daily-predictions.ts` | Predictions for next 14d | Daily 06:00 | ✅ Keep — add Supabase write |
+| `daily-odds.ts` | Bet365 odds next 7d | Daily 06:00 | ✅ Keep — add Supabase write |
+| `weekly-standings.ts` | League tables | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-topscorers.ts` | Top scorers/assists | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-team-stats.ts` | Team stats per league | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-player-stats.ts` | Player career stats | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-squads.ts` | Club squad rosters | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-injuries.ts` | Injuries/suspensions | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-h2h.ts` | H2H for upcoming pairings | Mon 03:00 | ✅ Keep — add Supabase write |
+| `weekly-coaches.ts` | Coach data per team | Mon 03:00 | ✅ Keep — add Supabase write |
+| `match-events-batch.ts` | Events for finished matches | Daily 06:00 | ⚠️ Change to hourly — currently misses same-day finishes |
+| `pre-match-lineups.ts` | Lineups ~90 min before kickoff | Every 30 min | ⬜ TASK 31 |
+| `generate-ai-content.ts` | LLM content batch | Weekly | ⬜ TASK 33 |
+| `sync-players.ts` | WC players (old) | Manual | ❌ DELETE — superseded by weekly-squads.ts |
+| `sync-sportsdb.ts` | TheSportsDB enrichment (old) | Manual | ❌ DELETE — API-Football is sole source |
+| `bootstrap-*.ts` | One-time setup | Once done | ✅ Keep as bootstrap scripts, don't run again |
+
+**Staleness check pattern (add to every script in Phase 7):**
+```typescript
+// Before any API call, check if data is still fresh in Supabase
+const { data } = await supabase
+  .from('standings')
+  .select('synced_at')
+  .eq('league_id', leagueId)
+  .single()
+
+if (data && Date.now() - new Date(data.synced_at).getTime() < STALE_MS) {
+  console.log('  ↩ Fresh — skipping API call')
+  continue
+}
+```
+
+---
+
+### TASK 51 — Pre-Match GitHub Action
+
+**File:** `.github/workflows/pre-match.yml`
+```yaml
+name: Pre-Match Lineups
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+jobs:
+  lineups:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci
+      - run: npm run sync:lineups
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - name: Commit JSON if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/lineups/
+          git diff --staged --quiet || (git commit -m "chore: sync lineups" && git push)
+```
+
+---
+
+### TASK 52 — Post-Match GitHub Action
+
+**File:** `.github/workflows/post-match.yml`
+- Runs every hour (`0 * * * *`)
+- Finds fixtures with FT status in the last 2 hours that have no events file
+- Calls match-events-batch.ts for those fixtures
+- Triggers AI content generation for match recap (calls generate-ai-content.ts --type=match --slug=...)
+
+---
+
+### Full Automation Schedule
+
+```
+Every 30 min:  pre-match-lineups.ts     (skips if no match within 4h)
+Every 1 hour:  match-events-batch.ts    (only recently finished matches)
+               post-match AI recap      (triggers generate-ai-content for FT matches)
+Daily 06:00:   daily-fixtures.ts
+               daily-predictions.ts
+               daily-odds.ts
+Weekly Mon:    weekly-standings.ts
+               weekly-topscorers.ts
+               weekly-team-stats.ts
+               weekly-player-stats.ts
+               weekly-squads.ts
+               weekly-injuries.ts
+               weekly-h2h.ts
+               weekly-coaches.ts
+Weekly Sun:    generate-ai-content.ts   (batch regen of stale content)
+```
+
+**API quota budget (Pro: 7,500 req/day):**
+
+| Scripts | Daily calls |
+|---|---|
+| Daily scripts | ~70 |
+| Pre-match lineups (48 runs × ~2) | ~96 |
+| Post-match events (24 runs × ~5) | ~120 |
+| Weekly average per day | ~29 |
+| **Total** | **~315/day** |
+
+7,185 req/day headroom for Phase 10 live scores.
+
+---
+
+## Phase 8 — LLM Content
+*Unique editorial text per page. The #1 SEO differentiator vs pure-API clones.*
+
+---
+
+### TASK 33 — LLM Content Generation Pipeline
+
+**Model selection:**
+- `claude-haiku-4-5` — team bios, coach bios, player insights (fast, low cost)
+- `claude-sonnet-4-6` — match previews, match recaps (quality matters for high-traffic pages)
+
+**Content types:**
+
+| Entity | Type | Words | Inputs | Model |
+|---|---|---|---|---|
+| Upcoming match | preview | 150–200 | teams, form, H2H, odds, injuries | Sonnet |
+| Finished match | recap | 150–200 | score, scorers, events, stats | Sonnet |
+| Team | bio | 100–150 | name, league, founded, coach, form | Haiku |
+| Coach | bio | 80–100 | name, career highlights, current club | Haiku |
+| Player | insight | 80–100 | position, season stats, nationality, age | Haiku |
+
+**Script:** `scripts/sync/generate-ai-content.ts`
+```bash
+npm run gen:ai -- --type=matches      # upcoming match previews
+npm run gen:ai -- --type=recaps       # finished match recaps
+npm run gen:ai -- --type=teams        # team bios
+npm run gen:ai -- --type=players      # player insights
+npm run gen:ai -- --type=coaches      # coach bios
+npm run gen:ai -- --force             # regenerate all (ignore valid_until)
+```
+
+**Storage:** Writes to Supabase `ai_content` table (not JSON files).
+
+**Reads on pages (all tabs already defined in TASK 40–42):**
+- Match Overview tab: "Match Preview" / "Match Report" block (Sonnet output)
+- Team Overview tab: bio paragraph below hero stats
+- Player Overview tab: insight paragraph
+- Coach widget on team page: bio
+
+**GitHub Actions:**
+- `generate-ai-content.yml` — weekly Sunday 02:00 UTC (full batch, skip if valid_until > now)
+- Called from `post-match.yml` for individual match recaps
+
+**Rate limiting:** 1 req/sec. Script is resumable — writes each item before moving to next.
+
+**Cost:** `claude-haiku-4-5` at $0.80/M input tokens — ~$0.50 for 5,000 pages. Negligible.
+
+**New env var:** `ANTHROPIC_API_KEY` → `.env.local` + GitHub Secrets
+
+---
+
+## Phase 9 — SEO Audit
+*Maximize Google indexing for all 5,000+ pages.*
+
+---
+
+### TASK 24 — Full SEO Audit
+
+**Metadata (every page):**
+- [ ] `generateMetadata()` with unique `title`, `description`, `alternates.canonical`
+- [ ] Title format: `{Home} vs {Away} — {League} {Date} | FootBrowse`
+- [ ] Description: 130–155 chars, unique, includes key entity names
+- [ ] `og:title`, `og:description`, `og:image`, `og:type`
+
+**og:image (social cards):**
+- [ ] Dynamic via `app/opengraph-image.tsx` using Next.js `ImageResponse`
+- Match pages: team logos + VS/score + league badge
+- Team pages: club crest + team name + league
+- Player pages: player photo + name + stat
+
+**Schema.org JSON-LD:**
+- [ ] Homepage: `WebSite` + `Organization` + `SearchAction`
+- [ ] Match pages: `SportsEvent` (already partial — audit completeness)
+- [ ] Team pages: `SportsTeam`
+- [ ] Player pages: `Person`
+- [ ] League pages: `SportsOrganization`
+- [ ] All pages: `BreadcrumbList`
+- [ ] Match pages: `FAQPage` (already partial)
+
+**Sitemap (`app/sitemap.ts`):**
+- [ ] All league pages
+- [ ] All match pages (1,411 club + 104 WC + more leagues)
+- [ ] All team pages (172 club + 48 WC)
+- [ ] All player pages (3,269 club + 1,637 WC)
+- [ ] All stadium pages
+- [ ] `/stats`, `/world-cup`, `/players`, `/search`
+- [ ] `changefreq`: upcoming matches = `daily`, finished = `weekly`, teams = `weekly`
+- [ ] `priority`: match pages = 0.8, team/player = 0.6, league = 0.9
+
+**Technical SEO:**
+- [ ] `robots.txt` — allow all, block `/api/`
+- [ ] All `next/image` have `width` + `height` (prevent CLS)
+- [ ] Priority images use `priority` prop (prevent LCP issues)
+- [ ] No layout shift on tab switch (`min-height` on tab content area)
+- [ ] Breadcrumb on every page (already partial — audit missing ones)
+
+**Error pages:**
+- [ ] `app/not-found.tsx` — custom 404 with navigation
+- [ ] `app/error.tsx` — custom error boundary
+- [ ] `app/leagues/[slug]/not-found.tsx` — unknown league slug
+- [ ] `app/players/[slug]/not-found.tsx` — unknown player slug
+
+**Analytics + monitoring:**
+- [ ] Add `@vercel/analytics` — one-line in `app/layout.tsx`
+- [ ] Add `@vercel/speed-insights` — Core Web Vitals in Vercel dashboard
+
+**PWA manifest:**
+- [ ] `app/manifest.ts` — name, icons, theme_color `#0a0a0a`, background `#0a0a0a`
+- [ ] Makes site installable on Android/iOS home screen
+- [ ] Good mobile-first signal for Google ranking
+
+---
+
+## Phase 10 — ISR + Live Scores
+
+---
+
+### TASK 36 — ISR Configuration
+
+```typescript
+// Upcoming/live match pages
+export const revalidate = 60          // 1 minute
+
+// Finished match pages
+export const revalidate = 86400       // 24 hours (data never changes)
+
+// League pages (standings, fixtures)
+export const revalidate = 300         // 5 minutes
+
+// Team + player pages
+export const revalidate = 86400       // 24 hours
+
+// Homepage
+export const revalidate = 60          // 1 minute (match statuses change)
+```
 
 ---
 
 ### TASK 37 — Live Scores System
-**Goal:** Real-time events for live matches. Fires when a match goes live, polls aggressively, archives on FT.
 
 **Architecture:**
-
 ```
-GitHub Actions cron (every 2 min during match windows)
+GitHub Actions (*/2 * * * *)
   └── scripts/live/poll-live-matches.ts
-        ├── GET /fixtures?live=all
-        ├── For each live match:
+        ├── GET /fixtures?live=all        (1 call to check if anything live)
+        ├── If nothing live: exit
+        ├── For each live fixture:
         │     ├── GET /fixtures/events?fixture={id}
-        │     └── Write to Supabase live_events table
-        └── For each just-finished match (status changed to FT):
-              ├── Copy live_events → match_events (permanent store)
-              ├── Delete from live_events
-              └── Trigger Vercel redeploy for that match page
+        │     └── Upsert → Supabase live_events
+        └── For each match that just reached FT:
+              ├── Copy live_events → match_events (permanent)
+              ├── Delete live_events for that match_id
+              ├── Trigger Vercel revalidation webhook for match page
+              └── Trigger generate-ai-content.ts for match recap
 ```
 
-**Polling frequency:**
-- Match not started: 0 polls
-- 0–89 min: every 2 minutes (30 calls/match for full 90 min)
-- 90+ min (injury time): every 30 seconds
-- Status = FT/AET/PEN: archive + stop
+**Polling schedule:**
+- Minutes 1–89: every 2 minutes (`*/2 * * * *`)
+- Minutes 90+: every 1 minute (`* * * * *`) — separate action triggered when status = 2H and minute > 89
 
-**GitHub Actions approach:**
-- `live-scores.yml` — runs every 2 min (`*/2 * * * *`)
-- Checks `data/today.json` for matches with status 1H/2H/HT/ET
-- Only polls if at least one match is live (saves API quota)
+**Client (Supabase Realtime):**
+```typescript
+// In MatchPageClient.tsx when match is live:
+const channel = supabase
+  .channel(`match-${matchId}`)
+  .on('postgres_changes', {
+    event: 'INSERT', schema: 'public', table: 'live_events',
+    filter: `match_id=eq.${matchId}`
+  }, (payload) => updateEvents(payload.new))
+  .subscribe()
+```
 
-**API calls estimate:**
-- 2 live matches × 45 polls = 90 calls per match (well within Pro tier)
+**API quota for live matches:**
+- 1 live status check + 2 event calls per match × 45 polls = ~135 calls per 90-min match
+- 5 simultaneous live matches = ~675 calls per match window
+- Well within 7,500/day Pro limit
 
 ---
 
-## Phase 8: Scale
+## Phase 11 — Scale
+
 ---
 
 ### TASK 38 — Add More Leagues
 
 **Priority order:**
-1. Serie A (id=135, Italy)
-2. Ligue 1 (id=61, France)
-3. Eredivisie (id=88, Netherlands)
-4. MLS (id=253, USA/Canada)
-5. Copa Libertadores (id=13)
-6. Domestic cups: FA Cup (id=45), Copa del Rey (id=143), DFB-Pokal (id=81)
+1. Serie A (id=135, Italy) — ~380 matches, ~20 teams
+2. Ligue 1 (id=61, France) — ~380 matches, ~20 teams
+3. Eredivisie (id=88, Netherlands) — ~306 matches, ~18 teams
+4. MLS (id=253, USA/Canada) — ~450 matches, ~30 teams
+5. Copa Libertadores (id=13) — ~125 matches
 
-**Per new league:**
-- Add to `data/leagues.json`
-- Run `bootstrap:fixtures`, `bootstrap:teams`, `bootstrap:club-players`
-- Add to `LEAGUE_BROADCASTS` in match page
-- Add to `generateStaticParams` (already dynamic — no code changes needed)
+**Per new league (no code changes — routes already dynamic):**
+```bash
+# 1. Add entry to data/leagues.json
+# 2. Run bootstrap scripts:
+npm run bootstrap:fixtures    # all season fixtures
+npm run bootstrap:teams       # team metadata
+npm run bootstrap:club-players # squad rosters
+# 3. Add to LEAGUE_BROADCASTS in match page
+# 4. Add to generate-ai-content queue
+```
 
-**Expected output:** Each new league adds ~400 match pages + ~100 team pages + ~600 player pages.
+Each new league adds ~400 match pages + ~20 team pages + ~600 player pages.
 
 ---
 
-## Data Flow (Current)
+## Summary: Full Task List
 
-```
-API-Football v3
-     │  (GitHub Actions crons)
-     ▼
-scripts/sync/
-  ├── daily-fixtures.ts       (daily 06:00 UTC)
-  ├── daily-predictions.ts    (daily 06:00 UTC — next 14 days)
-  ├── daily-odds.ts           (daily 06:00 UTC — next 7 days)
-  ├── pre-match-lineups.ts    (every 30 min — TASK 31)
-  ├── weekly-standings.ts     (Mon 03:00 UTC)
-  ├── weekly-topscorers.ts    (Mon 03:00 UTC)
-  ├── weekly-squads.ts        (Mon 03:00 UTC)
-  ├── weekly-team-stats.ts    (Mon 03:00 UTC)
-  ├── weekly-injuries.ts      (Mon 03:00 UTC)
-  ├── weekly-h2h.ts           (Mon 03:00 UTC)
-  ├── weekly-coaches.ts       (Mon 03:00 UTC)
-  └── generate-ai-content.ts  (weekly — TASK 33)
-     │  writes JSON
-     ▼
-data/  (JSON cache — Phases 1–6)
-     │  import at build time
-     ▼
-Next.js 14 App Router (SSG → ISR in Phase 7)
-     │
-     ▼
-Vercel — footbrowse.com
-
-Phase 7 (future):
-API-Football → scripts → Supabase DB → Next.js ISR/API routes
-```
-
----
-
-## API Call Budget
-
-| Sync | Frequency | Calls |
-|---|---|---|
-| `daily-fixtures` | Daily | 1 |
-| `daily-predictions` | Daily | ~10 (upcoming fixtures) |
-| `daily-odds` | Daily | ~10 |
-| `pre-match-lineups` | Every 30 min | ~2–4 (when matches near) |
-| `weekly-standings` | Monday | 5 |
-| `weekly-topscorers` | Monday | 10 |
-| `weekly-squads` | Monday | 48 |
-| `weekly-team-stats` | Monday | ~150 |
-| `weekly-injuries` | Monday | 5 |
-| `weekly-h2h` | Monday | ~30 (new pairs only) |
-| `weekly-coaches` | Monday | ~20 (stale only) |
-| **Total typical week** | | **~400 calls (Pro: 7,500/day)** |
-
----
-
-## Timeline
-
-```
-✅ Phase 1–3 (Apr 14): Foundation → League → Entity enrichment
-✅ Phase 4 (Apr 15):   Club teams + players + unified match page + predictions + odds
-
-🔄 Phase 5 (Apr 16–22): Match experience + homepage UX
-   TASK 30 — Homepage date navigation (Sofascore-style)
-   TASK 31 — Pre-match lineup widget
-   TASK 32 — Finished match page enhancement
-   TASK 20 — WC 2026 hub page
-   TASK 23 — Top Scorers leaderboard
-   TASK 23b — Players directory redesign
-   TASK 24 — Final polish + SEO audit
-
-⬜ Phase 6 (Apr 23–30): LLM content
-   TASK 33 — AI-generated match previews, team/player/coach bios
-
-⬜ Phase 7 (May+): Database + live scores
-   TASK 34–37 — Supabase, ISR, live scores system
-
-⬜ Phase 8 (May+): Scale
-   TASK 38 — Serie A, Ligue 1, more leagues
-
-World Cup 2026 starts: June 11, 2026
-Hard deadline: All features live by May 25, 2026
-```
+| Phase | Task | Description | Dependencies |
+|---|---|---|---|
+| 5 | 40 | Match page tabs | none |
+| 5 | 41 | Homepage vertical cards | none |
+| 5 | 42 | Entity page tabs | none |
+| 5 | 31 | Lineup widget + sync | none |
+| 5 | 32 | Finished match enhancement | none |
+| 5 | 20 | WC hub page | none |
+| 5 | 23 | Stats leaderboard | none |
+| 5 | 23b | Players directory | none |
+| 5 | 43 | Site-wide search | none |
+| 6 | 34 | Supabase schema | none |
+| 6 | 35 | Data migration | TASK 34 |
+| 7 | 50 | Scripts audit | TASK 35 |
+| 7 | 51 | Pre-match action | TASK 31 |
+| 7 | 52 | Post-match action | TASK 50 |
+| 8 | 33 | LLM content pipeline | TASK 35 (Supabase) |
+| 9 | 24 | SEO audit | TASK 33 (LLM text) |
+| 10 | 36 | ISR | TASK 35 |
+| 10 | 37 | Live scores | TASK 36 |
+| 11 | 38 | More leagues | TASK 37 |

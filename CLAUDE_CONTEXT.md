@@ -1,197 +1,152 @@
 # READ THIS FILE FIRST BEFORE DOING ANYTHING
 # FootBrowse — Claude Session Memory
 
-Last updated: 2026-04-16  
-Current Phase: **Phase 5 — Match Experience + Homepage**  
-Next task: **TASK 20 — WC 2026 Hub Page**
+Last updated: 2026-04-16
+Current Phase: **Phase 5 — UX Overhaul**
+Next task: **TASK 41 — Homepage Vertical Stacked Match Cards**
 
 ---
 
 ## Vision
 
-Full navigation flow:
-1. **Homepage** → today's matches grouped by league, browse prev/next day
-2. **Click league header** → `/leagues/[slug]` (fixtures, standings, teams, scorers)
-3. **Click match** → `/leagues/[slug]/matches/[match-slug]` (Preview or Finished mode)
-4. **Click team** → `/leagues/[slug]/teams/[team-slug]`
-5. **Click player** → `/players/[slug]`
+1. **Homepage** → date-navigable match list, vertical stacked cards (home/away top-bottom)
+2. **Match page** → sticky shrinking hero (logos + score always visible) + horizontal tab menu
+3. **League/Team/Player pages** → sticky identity header + horizontal tabs
+4. **5,000+ SEO pages** — each with unique AI-generated editorial text
+5. **Live scores** — real-time events via Supabase during matches (WC 2026 priority)
 
-**Google target:** 5,000+ indexed pages (leagues × teams × players × matches), each with unique AI-generated content — not just raw data tables.
-
-**World Cup 2026:** Lives at `/leagues/world-cup` (already canonical). Dedicated `/world-cup` hub section for SEO traffic during tournament (June–July 2026).
+**WC 2026 starts: June 11, 2026 | Hard deadline: May 25, 2026**
 
 ---
 
 ## API Keys
 
 ```
-API_FOOTBALL_KEY=f02e9ab608ec4ab3d42b1e82af607e35   ← set in .env.local ✅
+API_FOOTBALL_KEY=f02e9ab608ec4ab3d42b1e82af607e35   ← .env.local ✅
+ANTHROPIC_API_KEY=<to add>                           ← TASK 33
+NEXT_PUBLIC_SUPABASE_URL=<to add>                    ← TASK 34
+SUPABASE_SERVICE_ROLE_KEY=<to add>                   ← TASK 34
 ```
 
-API-Football account: https://dashboard.api-football.com  
-**Current plan: Pro (7,500 requests/day)**
-
-**GitHub Secrets:**
-- `API_FOOTBALL_KEY`
-- `VERCEL_DEPLOY_HOOK_URL`
+GitHub Secrets: `API_FOOTBALL_KEY`, `VERCEL_DEPLOY_HOOK_URL`, `ANTHROPIC_API_KEY`, `SUPABASE_SERVICE_ROLE_KEY`
+API-Football: Pro plan — 7,500 req/day
 
 ---
 
-## Current Architecture
+## Stack
 
-**Stack:** Next.js 14 App Router · TypeScript · Tailwind CSS · Vercel · Git-committed JSON  
+Next.js 14 App Router · TypeScript · Tailwind CSS · Vercel · Git JSON (→ Supabase Phase 6)
 **Local path:** `C:\Users\Dell\.antigravity\Footbrowse\`
-
-**Data files:**
-```
-data/leagues.json                  5 priority leagues
-data/fixtures/*.json               1,411 fixtures across 5 leagues
-data/standings/*.json              league tables
-data/topscorers/*.json             top scorers/assists per league
-data/today.json                    today's fixtures (rebuilt daily)
-data/teams.json                    48 WC national teams (handcrafted, DO NOT REPLACE)
-data/club-teams.json               172 club teams
-data/players.json                  1,637 WC national team players
-data/club-players.json             3,269 club players
-data/players-by-team.json          keyed by teamSlug
-data/player-stats/*.json           career stat files
-data/team-stats/*.json             team stats per league
-data/match-events/*.json           cached events for completed matches
-data/matches.json                  104 WC 2026 fixtures (handcrafted, DO NOT REPLACE)
-data/stadiums.json                 19 WC stadiums
-data/coaches/*.json                coach files per team-slug
-data/injuries/{league-slug}.json   injury/suspension data
-data/h2h/{id1}-{id2}.json          head-to-head history
-data/predictions/{fixture_id}.json AI win probability + advice
-data/odds/{fixture_id}.json        Bet365 Match Winner odds
-data/club-squads/{team-slug}.json  club squad files
-```
-
-**Active GitHub Actions:**
-- `daily-fixtures.yml` — 06:00 UTC daily: fixtures + predictions + odds
-- `weekly-league-data.yml` — Mon 03:00 UTC: standings + topscorers + coaches + injuries + h2h
-- `sync-players.yml` — Mon 03:00 UTC: WC squad sync
-
----
-
-## Task Completion Log
-
-| Task | Description | Status | Notes |
-|---|---|---|---|
-| TASK 1 | API Client + Environment Setup | ✅ DONE | 2026-04-14 |
-| TASK 2 | Bootstrap League Data | ✅ DONE | 2026-04-14 |
-| TASK 3 | `/leagues/[slug]` Page Shell | ✅ DONE | 2026-04-14 |
-| TASK 4 | Fixtures Sync + `/leagues/[slug]/matches` | ✅ DONE | 2026-04-14 — 1,411 fixtures |
-| TASK 5 | Standings Sync + `/leagues/[slug]/standings` | ✅ DONE | 2026-04-14 |
-| TASK 6 | Teams Per League | ✅ DONE | 2026-04-14 — 172 club teams metadata |
-| TASK 7 | Top Players / Scorers | ✅ DONE | 2026-04-14 |
-| TASK 8 | Homepage Redesign | ✅ DONE | 2026-04-14 — multi-league, today's matches |
-| TASK 9 | Navigation + Sitemap Update | ✅ DONE | 2026-04-14 |
-| TASK 10 | GitHub Actions: New Sync Workflows | ✅ DONE | 2026-04-14 |
-| TASK 11 | Match Page: Live Events + Score | ✅ DONE | 2026-04-14 |
-| TASK 12 | Team Page: League Context + Stats | ✅ DONE | 2026-04-14 |
-| TASK 13 | Player Page: Career Stats | ✅ DONE | 2026-04-14 |
-| TASK 14 | Replace football-data.org with API-Football | ✅ DONE | 2026-04-14 — 1,637 players |
-| TASK 15 | Bootstrap Club Teams | ✅ DONE | 2026-04-15 — Unified `/leagues/[slug]/teams/[teamSlug]`; `/teams/[slug]` redirects to WC |
-| TASK 16 | Bootstrap Club Players | ✅ DONE | 2026-04-15 — 3,269 club players, 4,880 total player pages |
-| TASK 17 | Coach Sync | ✅ DONE | 2026-04-15 — 193 coach files; `scripts/sync/weekly-coaches.ts` |
-| TASK 18 | Injuries Widget | ✅ DONE | 2026-04-15 — `lib/injuries.ts`, `components/InjuryList.tsx`; on team + match pages |
-| TASK 19 | Match Routes Under League Path | ✅ DONE | 2026-04-15 — `/leagues/[slug]/matches/[match-slug]` canonical; `/matches/[slug]` 308 redirects |
-| TASK 19b | Match Page Unification | ✅ DONE | 2026-04-15 — Single template, Preview/Finished modes, all sections for all leagues |
-| TASK 21 | Predictions Integration | ✅ DONE | 2026-04-15 — `lib/predictions.ts`, `scripts/sync/daily-predictions.ts`, integrated into match page |
-| TASK 22 | Odds Integration | ✅ DONE | 2026-04-15 — `lib/odds.ts`, `scripts/sync/daily-odds.ts`, Bet365 odds on all match pages |
-| TASK 20 | WC 2026 Dedicated Section (`/world-cup`) | ⬜ TODO | Hub page: groups, fixtures, stadiums, countdown |
-| TASK 23 | Top Scorers Leaderboard Page | ⬜ TODO | `/stats` — cross-league leaderboards, 0 API calls |
-| TASK 23b | Players Directory Redesign | ⬜ TODO | League filter + search bar; 0 API calls |
-| TASK 24 | Final Polish + Performance Audit | ⬜ TODO | SEO meta, Schema.org, sitemap, mobile, 404s |
-| TASK 30 | Homepage Date Navigation | ✅ DONE | 2026-04-16 — `DateMatchesSection.tsx`, `lib/date-fixtures.ts`, `lib/wc-ids.ts`; prev/next day arrows + today reset |
-| TASK 31 | Pre-Match Lineup Widget | ✅ DONE | 2026-04-16 — `lib/lineups.ts`, `scripts/sync/pre-match-lineups.ts`, `components/MatchLineup.tsx`, `.github/workflows/pre-match.yml`; shows on club match preview pages |
-| TASK 32 | Finished Match Page Enhancement | ✅ DONE | 2026-04-16 — Match Summary (goals+assists+cards), visual timeline bar with half grouping, expanded stats (offsides/saves/xG), sync default limit 5→20 + --stale flag |
-| TASK 33 | LLM Content Generation | ⬜ TODO | AI-generated match previews, team bios, player insights, coach descriptions — unique text per page for SEO |
-| TASK 34 | Supabase Schema Setup | ⬜ TODO | Phase 7 — after LLM content |
-| TASK 35 | Data Migration: JSON → Supabase | ⬜ TODO | Phase 7 |
-| TASK 36 | ISR for League + Match Pages | ⬜ TODO | Phase 7 |
-| TASK 37 | Live Scores System | ⬜ TODO | Phase 7 — trigger on match start, poll 2-3 min (90+ min: 30 sec), archive on FT |
-| TASK 38 | Add More Leagues | ⬜ TODO | Serie A, Ligue 1, Eredivisie, MLS, Copa Libertadores |
-
----
-
-## Phase Progress
-
-| Phase | Tasks | Status | Goal |
-|---|---|---|---|
-| Phase 1: Foundation | 1–5 | ✅ DONE | API + league pages |
-| Phase 2: League Layer | 6–10 | ✅ DONE | Fixtures, standings, nav |
-| Phase 3: Entity Enrichment | 11–14 | ✅ DONE | Match events, stats, squads |
-| Phase 4: Club Teams + Match Unification | 15–19b, 21, 22 | ✅ DONE | Club teams/players, unified match page, predictions, odds |
-| Phase 5: Match Experience + Homepage | 20, 23, 23b, 24, 30, 31, 32 | 🔄 CURRENT | Best-in-class match pages + homepage UX |
-| Phase 6: LLM Content | 33 | ⬜ TODO | Unique AI content on every page for SEO trust |
-| Phase 7: Database + Live Scores | 34–37 | ⬜ TODO | Supabase, ISR, real-time live scores |
-| Phase 8: Scale | 38 | ⬜ TODO | More leagues, more pages |
-
-**World Cup 2026 starts: June 11, 2026**  
-**Hard deadline: All features live by May 25, 2026 (2+ weeks buffer before tournament)**
-
----
-
-## Key Decisions
-
-1. **Zero URL breakage** — All existing slugs preserved. `/matches/[slug]` 308-redirects to `/leagues/[slug]/matches/[match-slug]`.
-
-2. **JSON-first, Supabase in Phase 7** — Keep git-committed JSON through Phase 6. Supabase is Phase 7 (after LLM content is stable).
-
-3. **Single API source** — API-Football v3 only.
-
-4. **WC 2026 handcrafted data is ground truth** — `data/matches.json` and `data/teams.json` are NOT replaced by API until tournament starts.
-
-5. **LLM content is Phase 6 priority** — Google penalises pure-API content that looks duplicated across thousands of pages. Every team/player/match page needs unique editorial text generated by LLM. This is the single biggest SEO differentiator.
-
-6. **Live scores require Supabase** — Polling every 30 seconds during 90+ min cannot commit to git. Phase 7 only.
-
-7. **Lineup data is time-sensitive** — Lineups appear ~2h before kickoff. Needs a frequent GitHub Actions cron (every 30 min) NOT a daily one.
 
 ---
 
 ## Design System (DO NOT CHANGE)
 
 ```
-Brand color:       #00FF87 (green)
-Background:        #0a0a0a
-Card bg:           rgba(255,255,255,0.03–0.05)
-Card border:       rgba(255,255,255,0.07–0.10)
-Text primary:      #FFFFFF
-Text secondary:    #A1A1AA (zinc-400)
-Text muted:        #71717A (zinc-500)
-Font weight hero:  font-black (900)
-Letter spacing:    -0.04em (headings), -0.02em (cards)
-Badge green:       .badge-green class
-Badge blue:        .badge-blue class
-Tag:               .tag class
+Brand:        #00FF87 (green)
+Background:   #0a0a0a
+Card bg:      rgba(255,255,255,0.03–0.05)
+Card border:  rgba(255,255,255,0.07–0.10)
+Text:         #FFFFFF / #A1A1AA (zinc-400) / #71717A (zinc-500)
+Font:         font-black (900) heroes · -0.04em headings · -0.02em cards
 ```
 
-All new pages MUST use the existing design system.
+---
+
+## Completed Work (Phases 1–4 + partial 5)
+
+Phases 1–4 DONE: API client · 5 leagues · 1,411 fixtures · standings · top scorers · 172 club teams · 3,269 club players · 193 coaches · injuries · unified match page (Preview + Finished, all leagues) · H2H + predictions + odds (WC + clubs) · Where to Watch · Travel & Tickets · WC API ID bootstrap (wc-fixture-ids.json + wc-team-ids.json)
+
+Phase 5 partial: TASK 30 ✅ (homepage date navigation — DateMatchesSection, ±3/7 day window)
+TASK 40 ✅ (match page sticky hero + horizontal tab navigation — MatchPageClient + 7 tab components)
+
+---
+
+## Full Task Plan
+
+### Phase 5 — UX Overhaul (CURRENT)
+
+| # | Task | Description | Priority |
+|---|---|---|---|
+| 40 | Match page tabs | Sticky shrinking hero + URL tab menu (?tab=) | ✅ DONE |
+| 41 | Homepage cards | Vertical stacked match cards (home top / away bottom) | 🔴 NEXT |
+| 42 | Entity page tabs | Sticky header + tabs on League / Team / Player pages | 🔴 HIGH |
+| 31 | Lineup widget | Pre-match sync script + GitHub Action + MatchLineup component | 🟡 MED |
+| 32 | Finished match | Richer timeline, stat bars, player highlights section | 🟡 MED |
+| 20 | WC hub | `/world-cup` hub page (countdown, groups, fixtures, stadiums) | 🟡 MED |
+| 23 | Stats page | Cross-league top scorers / assists leaderboard at `/stats` | 🟢 LOW |
+| 23b | Players dir | `/players` with league filter + name search | 🟢 LOW |
+| 43 | Site search | Instant JSON-indexed search for teams / players / matches | 🟢 LOW |
+
+### Phase 6 — Supabase (moved up — before LLM + scripts)
+
+| # | Task | Description |
+|---|---|---|
+| 34 | Supabase schema | Full DB design + setup via Supabase MCP |
+| 35 | Data migration | Seed scripts: JSON → Supabase (leagues, teams, players, fixtures, stats) |
+
+### Phase 7 — Scripts Audit + Full Automation
+
+| # | Task | Description |
+|---|---|---|
+| 50 | Scripts audit | Remove redundancy, rewrite scripts to write to Supabase |
+| 51 | Pre-match action | `.github/workflows/pre-match.yml` — 30-min cron for lineups |
+| 52 | Post-match action | `.github/workflows/post-match.yml` — hourly catch for FT events |
+
+### Phase 8 — LLM Content
+
+| # | Task | Description |
+|---|---|---|
+| 33 | LLM pipeline | Claude API — match previews, team bios, player insights, coach bios → Supabase ai_content |
+
+### Phase 9 — SEO Audit
+
+| # | Task | Description |
+|---|---|---|
+| 24 | SEO audit | Metadata, Schema.org, sitemap, og:image, 404s, Core Web Vitals, PWA manifest, Vercel Analytics |
+
+### Phase 10 — ISR + Live Scores
+
+| # | Task | Description |
+|---|---|---|
+| 36 | ISR | Revalidate strategy per page type (match/league/player) |
+| 37 | Live scores | Poll during matches → Supabase live_events → Realtime on client |
+
+### Phase 11 — Scale
+
+| # | Task | Description |
+|---|---|---|
+| 38 | More leagues | Serie A, Ligue 1, Eredivisie, MLS, Copa Libertadores |
+
+---
+
+## Key Decisions
+
+1. **Tab state in URL** — `?tab=events` (SEO crawlable, shareable)
+2. **Shrinking sticky hero** — compresses on scroll, score always visible
+3. **JSON → Supabase Phase 6** — Supabase comes BEFORE LLM and scripts audit
+4. **LLM writes to Supabase** — `ai_content` table, never to JSON files
+5. **Scripts audit WITH Supabase target** — no double migration
+6. **Live scores = Supabase Realtime** — Phase 10 only
+7. **Single API source** — API-Football v3 only. `data/matches.json` + `data/teams.json` are handcrafted ground truth until WC starts.
 
 ---
 
 ## Critical Files
 
 ```
-/MIGRATION_PLAN.md                             ← Full phased spec for each task
-/CLAUDE_CONTEXT.md                             ← This file
-/data/                                         ← DO NOT TOUCH unless task says so
-/lib/data.ts                                   ← DO NOT TOUCH unless task says so
-/app/page.tsx                                  ← Homepage
-/app/layout.tsx                                ← Global layout
-/app/leagues/[slug]/matches/[match-slug]/page.tsx ← Unified match page (Preview + Finished)
-/app/leagues/[slug]/teams/[teamSlug]/page.tsx  ← Team page
-/app/players/[slug]/page.tsx                   ← Player page
-/lib/predictions.ts                            ← Reads data/predictions/
-/lib/odds.ts                                   ← Reads data/odds/
-/lib/h2h.ts                                    ← Reads data/h2h/
-/lib/injuries.ts                               ← Reads data/injuries/
-/scripts/sync/daily-predictions.ts            ← 14-day window, stale after 48h
-/scripts/sync/daily-odds.ts                   ← 7-day window, stale after 24h
-/scripts/sync/weekly-h2h.ts                   ← Upcoming fixture pairings
-/scripts/sync/weekly-injuries.ts              ← Per league
-/scripts/sync/weekly-coaches.ts               ← Stale after 7 days
+/MIGRATION_PLAN.md                                  ← full spec for every task
+/CLAUDE_CONTEXT.md                                  ← this file
+/app/page.tsx                                       ← homepage
+/app/layout.tsx
+/app/leagues/[slug]/matches/[match-slug]/page.tsx   ← unified match page
+/app/leagues/[slug]/page.tsx                        ← league page
+/app/leagues/[slug]/teams/[teamSlug]/page.tsx       ← team page
+/app/players/[slug]/page.tsx                        ← player page
+/components/DateMatchesSection.tsx                  ← homepage date nav
+/lib/date-fixtures.ts                               ← multi-day fixture loader
+/lib/wc-ids.ts                                      ← WC slug → API ID lookups
+/lib/predictions.ts · /lib/odds.ts · /lib/h2h.ts · /lib/injuries.ts
+/scripts/sync/                                      ← all sync scripts
+/data/                                              ← JSON source of truth (until Phase 6)
 ```
