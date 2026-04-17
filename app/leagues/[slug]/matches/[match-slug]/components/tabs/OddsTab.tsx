@@ -1,18 +1,34 @@
 "use client";
+import MatchFixedBottom from "../MatchFixedBottom";
 import type { MatchPageData } from "../../MatchPageClient";
 
 const AFFILIATE_URL = "https://reffpa.com/L?tag=d_5477761m_1599c_&site=5477761&ad=1599";
+const BLUE  = "#41AEFF";
+const NAVY  = "#1a3d6f";
+
+function isPredictedScore(val: string | null): boolean {
+  if (!val) return false;
+  const n = parseFloat(val);
+  return !isNaN(n) && n >= 0;
+}
 
 export default function OddsTab({ data }: { data: MatchPageData }) {
   const { prediction, oddsData, homeName, awayName } = data;
 
   if (!prediction && !oddsData) {
     return (
-      <div className="section-block py-10 text-center">
-        <p className="text-zinc-600 text-sm">Predictions and odds not yet available.</p>
-      </div>
+      <>
+        <div className="section-block py-10 text-center">
+          <p className="text-zinc-600 text-sm">Predictions and odds not yet available.</p>
+        </div>
+        <MatchFixedBottom data={data} />
+      </>
     );
   }
+
+  const showGoals = isPredictedScore(prediction?.goals_home ?? null) && isPredictedScore(prediction?.goals_away ?? null);
+  const goalsHome = showGoals ? Math.round(parseFloat(prediction!.goals_home!)) : null;
+  const goalsAway = showGoals ? Math.round(parseFloat(prediction!.goals_away!)) : null;
 
   return (
     <div className="space-y-6">
@@ -35,12 +51,13 @@ export default function OddsTab({ data }: { data: MatchPageData }) {
                   <p className="text-xs text-zinc-500 mt-1">{prediction.winner_comment}</p>
                 )}
               </div>
-              {(prediction.goals_home || prediction.goals_away) && (
+              {/* Only show Goals if both values are readable positive numbers */}
+              {showGoals && goalsHome !== null && goalsAway !== null && (
                 <div className="rounded-lg px-3 py-2 text-center shrink-0"
                   style={{ backgroundColor: "rgba(0,255,135,0.1)", border: "1px solid rgba(0,255,135,0.2)" }}>
-                  <p className="text-[9px] font-bold uppercase tracking-[0.12em] text-zinc-500 mb-0.5">Goals</p>
+                  <p className="text-[9px] font-bold uppercase tracking-[0.12em] text-zinc-500 mb-0.5">Predicted Score</p>
                   <p className="text-sm font-black tabular-nums" style={{ color: "#00FF87" }}>
-                    {prediction.goals_home ?? "?"} – {prediction.goals_away ?? "?"}
+                    {goalsHome} – {goalsAway}
                   </p>
                 </div>
               )}
@@ -86,12 +103,11 @@ export default function OddsTab({ data }: { data: MatchPageData }) {
         </section>
       )}
 
-      {/* Betting Odds */}
+      {/* Betting Odds — 1xBet branded */}
       {oddsData && (
         <section className="section-block">
           <h2 className="section-title text-xl mb-4">Betting Odds</h2>
           {(() => {
-            const GOLD = "#e8c45a";
             const r1 = 1 / oddsData.home_win, rX = 1 / oddsData.draw, r2 = 1 / oddsData.away_win;
             const total = r1 + rX + r2;
             const p1 = Math.round((r1 / total) * 100);
@@ -100,8 +116,12 @@ export default function OddsTab({ data }: { data: MatchPageData }) {
             return (
               <div className="rounded-xl p-3"
                 style={{ backgroundColor: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)" }}>
+                {/* 1xBet badge */}
                 <div className="flex justify-end mb-3">
-                  <span className="text-xs font-black" style={{ color: GOLD }}>{oddsData.bookmaker_name}</span>
+                  <span className="text-xs font-black px-2 py-0.5 rounded"
+                    style={{ backgroundColor: NAVY }}>
+                    <span className="text-white">1X</span><span style={{ color: BLUE }}>BET</span>
+                  </span>
                 </div>
                 <div className="grid grid-cols-3 gap-2">
                   {[
@@ -110,22 +130,21 @@ export default function OddsTab({ data }: { data: MatchPageData }) {
                     { k: "2", label: awayName.split(" ")[0], v: oddsData.away_win },
                   ].map(({ k, label, v }) => (
                     <a key={k} href={AFFILIATE_URL} target="_blank" rel="noopener noreferrer nofollow"
-                      className="flex flex-col items-center rounded-lg px-2 py-2.5 gap-1"
-                      style={{ backgroundColor: "rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.1)" }}>
-                      <span className="text-[9px] font-bold text-zinc-600">{label}</span>
-                      <span className="text-[10px] font-bold text-zinc-500">{k}</span>
-                      <span className="text-base font-black tabular-nums leading-none" style={{ color: GOLD }}>
+                      className="flex flex-col items-center rounded-lg px-2 py-3 gap-1 transition-opacity hover:opacity-80"
+                      style={{ backgroundColor: NAVY }}>
+                      <span className="text-[9px] font-bold text-zinc-300">{label}</span>
+                      <span className="text-[10px] font-bold text-zinc-400">{k}</span>
+                      <span className="text-xl font-black tabular-nums leading-none" style={{ color: BLUE }}>
                         {v.toFixed(2)}
                       </span>
                     </a>
                   ))}
                 </div>
                 <div className="mt-3">
-                  <div className="flex overflow-hidden h-px rounded-full mb-1.5"
-                    style={{ backgroundColor: "rgba(255,255,255,0.06)" }}>
-                    <div style={{ width: `${p1}%`, backgroundColor: GOLD, opacity: 0.8 }} />
+                  <div className="flex overflow-hidden h-1.5 rounded-full mb-1.5">
+                    <div style={{ width: `${p1}%`, backgroundColor: "#00FF87", opacity: 0.7 }} />
                     <div style={{ width: `${pX}%`, backgroundColor: "rgba(255,255,255,0.15)" }} />
-                    <div style={{ width: `${p2}%`, backgroundColor: GOLD, opacity: 0.5 }} />
+                    <div style={{ width: `${p2}%`, backgroundColor: BLUE, opacity: 0.7 }} />
                   </div>
                   <div className="grid grid-cols-3 text-[9px] tabular-nums text-zinc-700">
                     <span className="text-center">{p1}%</span>
@@ -139,6 +158,8 @@ export default function OddsTab({ data }: { data: MatchPageData }) {
           <p className="text-[10px] text-zinc-700 pt-2">18+ · Gamble responsibly · Odds subject to change</p>
         </section>
       )}
+
+      <MatchFixedBottom data={data} />
     </div>
   );
 }

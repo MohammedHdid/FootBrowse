@@ -1,5 +1,4 @@
 "use client";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -35,51 +34,9 @@ interface Props {
 }
 
 export default function MatchHero(p: Props) {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const h = () => setScrolled(window.scrollY > 80);
-    h(); // run once on mount in case page is already scrolled
-    window.addEventListener("scroll", h, { passive: true });
-    return () => window.removeEventListener("scroll", h);
-  }, []);
-
   const statusColor = p.live ? "#EF4444" : p.finished ? "#71717A" : "#00FF87";
   const statusBg    = p.live ? "rgba(239,68,68,0.1)" : p.finished ? "rgba(255,255,255,0.06)" : "rgba(0,255,135,0.1)";
 
-  // ── Compressed state ────────────────────────────────────────────────────────
-  if (scrolled) {
-    return (
-      <div className="flex items-center gap-2 px-4 py-2.5"
-        style={{ backgroundColor: "#0a0a0a", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
-        <div className="flex items-center gap-1.5 flex-1 min-w-0">
-          <Image src={p.homeLogo} alt={p.homeName} width={20} height={20} unoptimized
-            className="object-contain shrink-0" style={{ height: p.homeIsFlag ? 14 : 20, width: "auto" }} />
-          <span className="text-sm font-bold text-white truncate">{p.homeName.split(" ")[0]}</span>
-        </div>
-        <div className="text-center shrink-0 px-3">
-          {p.finished || p.live ? (
-            <span className="text-base font-black tabular-nums text-white" style={{ letterSpacing: "-0.04em" }}>
-              {p.score.home ?? 0}–{p.score.away ?? 0}
-            </span>
-          ) : (
-            <span className="text-xs font-bold text-zinc-500">{p.kickoffUtc}</span>
-          )}
-        </div>
-        <div className="flex items-center gap-1.5 flex-1 min-w-0 justify-end">
-          <span className="text-sm font-bold text-white truncate text-right">{p.awayName.split(" ")[0]}</span>
-          <Image src={p.awayLogo} alt={p.awayName} width={20} height={20} unoptimized
-            className="object-contain shrink-0" style={{ height: p.awayIsFlag ? 14 : 20, width: "auto" }} />
-        </div>
-        <span className="shrink-0 text-[9px] font-bold px-2 py-0.5 rounded-full ml-1"
-          style={{ color: statusColor, backgroundColor: statusBg }}>
-          {p.fixtureStatusLabel}
-        </span>
-      </div>
-    );
-  }
-
-  // ── Full state ───────────────────────────────────────────────────────────────
   return (
     <div className="px-4 pt-4 pb-5"
       style={{ backgroundColor: "#0a0a0a", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>

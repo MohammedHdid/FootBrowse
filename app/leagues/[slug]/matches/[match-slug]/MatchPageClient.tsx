@@ -1,10 +1,12 @@
 "use client";
 
-import { Suspense } from "react";
+import { Suspense, useState, useEffect, useRef } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import Link from "next/link";
 import AdSlot from "@/components/AdSlot";
 import MatchHero from "./components/MatchHero";
+import MatchMiniBar from "./components/MatchMiniBar";
+import MatchOddsStrip from "./components/MatchOddsStrip";
 import MatchTabBar from "./components/MatchTabBar";
 import OverviewTab from "./components/tabs/OverviewTab";
 import EventsTab from "./components/tabs/EventsTab";
@@ -111,6 +113,17 @@ export interface TeamInfoData {
   code: string;
   logo?: string;
   teamHrefPrefix?: string;
+}
+
+export interface StandingRowData {
+  rank: number;
+  points: number;
+  played: number;
+  won: number;
+  drawn: number;
+  lost: number;
+  goal_diff: number;
+  description: string | null;
 }
 
 export interface MatchPageData {
@@ -255,6 +268,10 @@ export interface MatchPageData {
     flight_affiliate_url: string;
   } | null;
 
+  // Standings (club leagues only)
+  homeStandingRow: StandingRowData | null;
+  awayStandingRow: StandingRowData | null;
+
   // Related + FAQ
   relatedMatches: Array<{ label: string; href: string; meta: string }>;
   faqItems: Array<{ q: string; a: string }>;
@@ -265,7 +282,7 @@ export interface MatchPageData {
 function buildTabs(data: MatchPageData): Array<{ id: string; label: string }> {
   if (data.finished || data.live) {
     return [
-      { id: "overview",  label: "Overview" },
+      { id: "match-info", label: "Match Info" },
       ...(data.events.length > 0               ? [{ id: "events",  label: "Events" }]     : []),
       ...(data.homeStats || data.awayStats      ? [{ id: "stats",   label: "Statistics" }] : []),
       { id: "lineups",   label: "Lineups" },
@@ -273,7 +290,7 @@ function buildTabs(data: MatchPageData): Array<{ id: string; label: string }> {
     ];
   }
   return [
-    { id: "overview", label: "Overview" },
+    { id: "match-info", label: "Match Info" },
     ...(data.h2h && data.h2h.played > 0        ? [{ id: "h2h",     label: "H2H" }]        : []),
     ...(data.prediction || data.oddsData        ? [{ id: "odds",    label: "Odds" }]        : []),
     { id: "lineups",  label: "Lineups" },
@@ -287,14 +304,34 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
   const searchParams = useSearchParams();
   const router       = useRouter();
   const pathname     = usePathname();
+  const contentRef   = useRef<HTMLDivElement>(null);
+  const stickyRef    = useRef<HTMLDivElement>(null);
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const h = () => setScrolled(window.scrollY > 80);
+    h();
+    window.addEventListener("scroll", h, { passive: true });
+    return () => window.removeEventListener("scroll", h);
+  }, []);
 
   const tabs     = buildTabs(data);
-  const rawTab   = searchParams.get("tab") ?? "overview";
-  const activeTab = tabs.find((t) => t.id === rawTab)?.id ?? "overview";
+  const rawTab   = searchParams.get("tab") ?? "match-info";
+  const activeTab = tabs.find((t) => t.id === rawTab)?.id ?? "match-info";
 
   const handleTabChange = (tabId: string) => {
-    const url = tabId === "overview" ? pathname : `${pathname}?tab=${tabId}`;
+    const url = tabId === "match-info" ? pathname : `${pathname}?tab=${tabId}`;
     router.replace(url, { scroll: false });
+    // Scroll content to just below the sticky block — never back to full-hero top
+    if (contentRef.current && stickyRef.current) {
+      const stickyH = stickyRef.current.offsetHeight;
+      const contentTop = contentRef.current.getBoundingClientRect().top + window.scrollY;
+      const target = contentTop - stickyH - 8; // 8px breathing room
+      if (window.scrollY > target || window.scrollY + window.innerHeight < contentTop) {
+        window.scrollTo({ top: Math.max(0, target), behavior: "smooth" });
+      }
+    }
   };
 
   const homeRecord = data.homeTeamRecord
@@ -306,44 +343,62 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
 
   return (
     <>
-      {/* ── Sticky hero + tab bar ── */}
-      <div className="sticky top-0 z-40">
-        <MatchHero
-          leagueSlug={data.leagueSlug}
-          leagueName={data.leagueName}
-          leagueLogo={data.leagueLogo}
-          isWC={data.isWC}
-          group={data.group}
-          stage={data.stage}
-          fixtureStatusLabel={data.fixtureStatusLabel}
-          finished={data.finished}
-          live={data.live}
-          matchday={data.matchday}
-          homeName={data.homeName}
-          awayName={data.awayName}
-          homeLogo={data.homeLogo}
-          awayLogo={data.awayLogo}
-          homeSlug={data.homeSlug}
-          awaySlug={data.awaySlug}
-          homeIsFlag={data.homeIsFlag}
-          awayIsFlag={data.awayIsFlag}
-          homeFifaRank={data.homeFifaRank}
-          awayFifaRank={data.awayFifaRank}
-          homeRecord={homeRecord}
-          awayRecord={awayRecord}
-          score={data.score}
-          kickoffUtc={data.kickoffUtc}
-          kickoffEst={data.kickoffEst}
-          matchDate={data.matchDate}
-          city={data.city}
-          venueName={data.venueName}
-        />
+      {/* ── Sticky hero + tab bar (top-14 = 56px to clear the site navbar) ── */}
+      <div ref={stickyRef} className="sticky top-14 z-40">
+        {scrolled ? (
+          <MatchMiniBar
+            homeName={data.homeName}
+            awayName={data.awayName}
+            homeLogo={data.homeLogo}
+            awayLogo={data.awayLogo}
+            homeIsFlag={data.homeIsFlag}
+            awayIsFlag={data.awayIsFlag}
+            score={data.score}
+            kickoffUtc={data.kickoffUtc}
+            matchDate={data.matchDate}
+            finished={data.finished}
+            live={data.live}
+            fixtureStatusLabel={data.fixtureStatusLabel}
+          />
+        ) : (
+          <MatchHero
+            leagueSlug={data.leagueSlug}
+            leagueName={data.leagueName}
+            leagueLogo={data.leagueLogo}
+            isWC={data.isWC}
+            group={data.group}
+            stage={data.stage}
+            fixtureStatusLabel={data.fixtureStatusLabel}
+            finished={data.finished}
+            live={data.live}
+            matchday={data.matchday}
+            homeName={data.homeName}
+            awayName={data.awayName}
+            homeLogo={data.homeLogo}
+            awayLogo={data.awayLogo}
+            homeSlug={data.homeSlug}
+            awaySlug={data.awaySlug}
+            homeIsFlag={data.homeIsFlag}
+            awayIsFlag={data.awayIsFlag}
+            homeFifaRank={data.homeFifaRank}
+            awayFifaRank={data.awayFifaRank}
+            homeRecord={homeRecord}
+            awayRecord={awayRecord}
+            score={data.score}
+            kickoffUtc={data.kickoffUtc}
+            kickoffEst={data.kickoffEst}
+            matchDate={data.matchDate}
+            city={data.city}
+            venueName={data.venueName}
+          />
+        )}
+        <MatchOddsStrip oddsData={data.oddsData} />
         <MatchTabBar tabs={tabs} activeTab={activeTab} onTabChange={handleTabChange} />
       </div>
 
       {/* ── Tab content ── */}
-      <div className="pt-6 pb-8 space-y-6 max-w-2xl mx-auto px-4">
-        {activeTab === "overview"  && <OverviewTab  data={data} />}
+      <div ref={contentRef} className="pt-6 pb-8 space-y-6 max-w-2xl mx-auto px-4">
+        {activeTab === "match-info" && <OverviewTab  data={data} />}
         {activeTab === "events"    && <EventsTab    data={data} />}
         {activeTab === "stats"     && <StatsTab     data={data} />}
         {activeTab === "lineups"   && <LineupsTab   data={data} />}

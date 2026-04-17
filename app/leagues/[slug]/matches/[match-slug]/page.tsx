@@ -4,6 +4,7 @@ import Link from "next/link";
 import { matches, getMatch, getStadium, getTeamPlayers, getTeam } from "@/lib/data";
 import { getAllLeagues, getLeague } from "@/lib/leagues";
 import { getFixtures, isFinished, isLive, isUpcoming, statusLabel, type Fixture } from "@/lib/fixtures";
+import { getStandings } from "@/lib/standings";
 import { getMatchEvents } from "@/lib/match-events";
 import { getTeamStats } from "@/lib/team-stats";
 import { getH2HForTeams } from "@/lib/h2h";
@@ -18,6 +19,7 @@ import MatchPageClient, { type MatchPageData } from "./MatchPageClient";
 
 interface Props {
   params: { slug: string; "match-slug": string };
+  searchParams?: { tab?: string };
 }
 
 // ── Static params ─────────────────────────────────────────────────────────────
@@ -31,23 +33,40 @@ export function generateStaticParams() {
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
 
-export function generateMetadata({ params }: Props): Metadata {
+const TAB_META: Record<string, { suffix: string; descFn: (h: string, a: string) => string }> = {
+  "events":   { suffix: "Events & Timeline",    descFn: (h, a) => `Live events, goals and timeline for ${h} vs ${a}.` },
+  "stats":    { suffix: "Match Statistics",     descFn: (h, a) => `In-depth match stats for ${h} vs ${a}: shots, possession, xG and more.` },
+  "h2h":      { suffix: "Head-to-Head",         descFn: (h, a) => `Head-to-head record between ${h} and ${a}. Historical meetings, win rates and recent results.` },
+  "odds":     { suffix: "Prediction & Odds",    descFn: (h, a) => `${h} vs ${a} prediction, betting odds and AI probability analysis.` },
+  "lineups":  { suffix: "Lineups & Availability", descFn: (h, a) => `Starting XIs, formations and injury availability for ${h} vs ${a}.` },
+  "squad":    { suffix: "Squad",                descFn: (h, a) => `Full squad rosters and player profiles for ${h} vs ${a}.` },
+};
+
+export function generateMetadata({ params, searchParams }: Props): Metadata {
   const matchSlug = params["match-slug"];
+  const tab = searchParams?.tab ?? "";
   const canonical = `https://footbrowse.com/leagues/${params.slug}/matches/${matchSlug}`;
+  const tabCanonical = tab ? `${canonical}?tab=${tab}` : canonical;
 
   if (params.slug === "world-cup") {
     const wc = getMatch(matchSlug);
-    if (wc) return { title: wc.meta_title, description: wc.meta_description, alternates: { canonical } };
+    if (wc) return { title: wc.meta_title, description: wc.meta_description, alternates: { canonical: tabCanonical } };
   }
 
   const league = getLeague(params.slug);
   if (league) {
     const f = getFixtures(league).find((f) => f.slug === matchSlug);
-    if (f) return {
-      title: `${f.home_team.name} vs ${f.away_team.name} — ${league.name} | FootBrowse`,
-      description: `Match preview, events and stats for ${f.home_team.name} vs ${f.away_team.name} in the ${f.home_team.name}.`,
-      alternates: { canonical },
-    };
+    if (f) {
+      const h = f.home_team.name, a = f.away_team.name;
+      const tabInfo = TAB_META[tab];
+      const title = tabInfo
+        ? `${h} vs ${a} ${tabInfo.suffix} — ${league.name} | FootBrowse`
+        : `${h} vs ${a} Prediction, Odds & Analysis — ${league.name} | FootBrowse`;
+      const description = tabInfo
+        ? tabInfo.descFn(h, a)
+        : `AI-powered prediction, betting odds, head-to-head and full match analysis for ${h} vs ${a} in ${league.name}.`;
+      return { title, description, alternates: { canonical: tabCanonical } };
+    }
   }
   return {};
 }
@@ -122,7 +141,7 @@ function adaptClubSquad(squad: ClubSquad | null): SyncedPlayer[] {
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
-export default function LeagueMatchPage({ params }: Props) {
+export default function LeagueMatchPage({ params }: { params: Props["params"] }) {
   const matchSlug = params["match-slug"];
   const isWcSlug  = params.slug === "world-cup";
   const league    = getLeague(params.slug);
@@ -259,11 +278,9 @@ export default function LeagueMatchPage({ params }: Props) {
   const breadcrumbJsonLd = {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home",    item: "https://footbrowse.com" },
-      { "@type": "ListItem", position: 2, name: "Leagues", item: "https://footbrowse.com/leagues" },
-      { "@type": "ListItem", position: 3, name: league.name, item: `https://footbrowse.com/leagues/${league.slug}` },
-      { "@type": "ListItem", position: 4, name: "Fixtures", item: `https://footbrowse.com/leagues/${league.slug}/matches` },
-      { "@type": "ListItem", position: 5, name: `${homeName} vs ${awayName}`,
+      { "@type": "ListItem", position: 1, name: "Home",       item: "https://footbrowse.com" },
+      { "@type": "ListItem", position: 2, name: league.name,  item: `https://footbrowse.com/leagues/${league.slug}` },
+      { "@type": "ListItem", position: 3, name: `${homeName} vs ${awayName}`,
         item: `https://footbrowse.com/leagues/${league.slug}/matches/${matchSlug}` },
     ],
   };
@@ -291,6 +308,30 @@ export default function LeagueMatchPage({ params }: Props) {
     awayTeam: { "@type": "SportsTeam", name: awayName },
     sport: "Football",
   };
+
+  // ── Standings (club leagues only) ────────────────────────────────────────
+  let homeStandingRow = null;
+  let awayStandingRow = null;
+  if (!isWC && !isNational) {
+    const standingsData = getStandings(league);
+    const allRows = standingsData?.groups.flatMap((g) => g.table) ?? [];
+    const homeRow = allRows.find((r) => r.team.slug === homeSlug) ?? null;
+    const awayRow = allRows.find((r) => r.team.slug === awaySlug) ?? null;
+    if (homeRow) {
+      homeStandingRow = {
+        rank: homeRow.rank, points: homeRow.points, played: homeRow.played,
+        won: homeRow.won, drawn: homeRow.drawn, lost: homeRow.lost,
+        goal_diff: homeRow.goal_diff, description: homeRow.description,
+      };
+    }
+    if (awayRow) {
+      awayStandingRow = {
+        rank: awayRow.rank, points: awayRow.points, played: awayRow.played,
+        won: awayRow.won, drawn: awayRow.drawn, lost: awayRow.lost,
+        goal_diff: awayRow.goal_diff, description: awayRow.description,
+      };
+    }
+  }
 
   // ── Build MatchPageData ───────────────────────────────────────────────────
   const squadA = (isWC || isNational) ? (wcSquadA as SyncedPlayer[]) : adaptClubSquad(clubSquadHome);
@@ -416,6 +457,8 @@ export default function LeagueMatchPage({ params }: Props) {
       hotel_affiliate_url:  wcMatch!.travel?.hotel_affiliate_url ?? "",
       flight_affiliate_url: wcMatch!.travel?.flight_affiliate_url ?? "",
     } : null,
+    homeStandingRow,
+    awayStandingRow,
     relatedMatches,
     faqItems,
   };
@@ -431,11 +474,7 @@ export default function LeagueMatchPage({ params }: Props) {
       <nav className="breadcrumb px-4 pt-3 pb-2 max-w-2xl mx-auto">
         <Link href="/">Home</Link>
         <span className="breadcrumb-sep">›</span>
-        <Link href="/leagues">Leagues</Link>
-        <span className="breadcrumb-sep">›</span>
         <Link href={`/leagues/${league.slug}`}>{league.name}</Link>
-        <span className="breadcrumb-sep">›</span>
-        <Link href={`/leagues/${league.slug}/matches`}>Fixtures</Link>
         <span className="breadcrumb-sep">›</span>
         <span className="breadcrumb-current">{homeName} vs {awayName}</span>
       </nav>
