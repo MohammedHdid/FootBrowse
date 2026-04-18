@@ -8,8 +8,8 @@
   }
 
   body {
-    background-color: #0a0a0a;
-    @apply text-zinc-100 antialiased;
+    background-color: #0f172a;
+    @apply text-slate-100 antialiased;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,
       Helvetica, sans-serif;
   }
@@ -34,40 +34,38 @@
   /* ── Match card — left green accent border ── */
   .match-card {
     @apply relative rounded-lg p-5 transition-all duration-200;
-    background-color: rgba(24, 24, 27, 0.8);
-    border-top: 1px solid #27272a;
-    border-right: 1px solid #27272a;
-    border-bottom: 1px solid #27272a;
+    background-color: #1e293b;
+    border-top: 1px solid #334155;
+    border-right: 1px solid #334155;
+    border-bottom: 1px solid #334155;
     border-left: 3px solid #00FF87;
   }
   .match-card:hover {
-    background-color: rgba(24, 24, 27, 1);
-    border-top-color: rgba(0, 255, 135, 0.3);
-    border-right-color: rgba(0, 255, 135, 0.3);
-    border-bottom-color: rgba(0, 255, 135, 0.3);
+    background-color: #1e293b;
+    border-color: rgba(0, 255, 135, 0.4);
   }
 
   /* ── Entity card (teams / players / stadiums) — glow on hover ── */
   .entity-card {
-    @apply rounded-lg border border-zinc-800 p-5 transition-all duration-200;
-    background-color: rgba(24, 24, 27, 0.8);
+    @apply rounded-lg border border-slate-700 p-5 transition-all duration-200;
+    background-color: #1e293b;
   }
   .entity-card:hover {
-    border-color: rgba(59, 130, 246, 0.45);
-    box-shadow: 0 0 22px rgba(59, 130, 246, 0.08);
-    background-color: rgba(24, 24, 27, 1);
+    border-color: rgba(59, 130, 246, 0.5);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #1e293b;
   }
 
   /* ── Generic content block ── */
   .section-block {
-    @apply rounded-lg border border-zinc-800 p-5;
-    background-color: rgba(24, 24, 27, 0.6);
+    @apply rounded-lg border border-slate-700 p-5;
+    background-color: rgba(30, 41, 59, 0.5);
   }
 
   /* ── Stat cards ── */
   .stat-card {
-    @apply rounded-lg border border-zinc-800 p-4;
-    background-color: rgba(24, 24, 27, 0.9);
+    @apply rounded-lg border border-slate-700 p-4;
+    background-color: #1e293b;
   }
 
   .stat-label {
@@ -82,7 +80,7 @@
   /* ── Badges / Tags ── */
   .tag {
     @apply inline-block rounded px-2 py-0.5 text-xs font-bold tracking-wide
-           bg-zinc-800 text-zinc-300;
+           bg-slate-800 text-slate-300;
   }
 
   .badge-green {
@@ -99,11 +97,11 @@
 
   /* ── Link cards ── */
   .link-card {
-    @apply block rounded-lg border border-zinc-800 px-4 py-3
+    @apply block rounded-lg border border-slate-800 px-4 py-3
            text-sm font-semibold text-blue-400
-           hover:border-blue-500/50 hover:bg-zinc-800/60
+           hover:border-blue-500/50 hover:bg-slate-800/60
            transition-all duration-200;
-    background-color: rgba(24, 24, 27, 0.6);
+    background-color: rgba(15, 23, 42, 0.5);
   }
 
   /* ── Arrow / CTA link ── */
@@ -132,7 +130,7 @@
 
   /* ── Breadcrumb ── */
   .breadcrumb {
-    @apply flex items-center gap-1.5 text-xs font-semibold text-zinc-600 mb-8;
+    @apply flex items-center gap-1.5 text-xs font-semibold text-slate-500 mb-8;
   }
   .breadcrumb a {
     @apply hover:text-zinc-300 transition-colors;
@@ -147,8 +145,8 @@
   /* ── Ad slot placeholder ── */
   .ad-slot {
     @apply my-6 rounded-lg py-8 px-4 text-center;
-    background-color: rgba(24, 24, 27, 0.4);
-    border: 2px dashed #3f3f46;
+    background-color: rgba(15, 23, 42, 0.3);
+    border: 2px dashed #334155;
   }
   .ad-slot-label {
     @apply block text-[10px] uppercase tracking-[0.2em] text-zinc-600 font-bold mb-1;
