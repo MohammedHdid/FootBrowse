@@ -17,9 +17,10 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
   }
 
   const timelineEvents  = events.filter((e) => e.type === "Goal" || e.type === "Card");
-  const firstHalf       = events.filter((e) => e.minute <= 45);
-  const secondHalf      = events.filter((e) => e.minute > 45 && e.minute <= 90);
-  const extraTime       = events.filter((e) => e.minute > 90);
+  // Reversed: newest events at top, oldest at bottom (live feed order)
+  const firstHalf       = [...events].filter((e) => e.minute <= 45).reverse();
+  const secondHalf      = [...events].filter((e) => e.minute > 45 && e.minute <= 90).reverse();
+  const extraTime       = [...events].filter((e) => e.minute > 90).reverse();
   const timelineMaxMin  = Math.max(90, ...events.map((e) => e.minute));
 
   return (
@@ -40,12 +41,17 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
               const isGoal = e.type === "Goal";
               const isRed  = e.detail === "Red Card" || e.detail === "Yellow-Red Card";
               const pct    = `${Math.min((e.minute / timelineMaxMin) * 100, 97)}%`;
+              const color  = isGoal ? (isHome ? "#00FF87" : "#3B82F6") : isRed ? "#EF4444" : "#EAB308";
               return (
-                <div key={i} className="absolute -translate-x-1/2"
-                  style={{ left: pct, top: "calc(38% - 5px)" }}>
+                <div key={i} className="absolute -translate-x-1/2 flex flex-col items-center"
+                  style={{ left: pct, top: "calc(38% - 8px)" }}>
+                  {isGoal && (
+                    <span className="text-[10px] leading-none mb-0.5">⚽</span>
+                  )}
                   <div className="rounded-[2px]" style={{
-                    width: isGoal ? 10 : 7, height: 10,
-                    backgroundColor: isGoal ? (isHome ? "#00FF87" : "#3B82F6") : isRed ? "#EF4444" : "#EAB308",
+                    width: isGoal ? 8 : 6, height: isGoal ? 8 : 7,
+                    backgroundColor: color,
+                    boxShadow: isGoal ? `0 0 6px ${color}80` : "none",
                   }} />
                 </div>
               );
@@ -67,11 +73,11 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
           </span>
         </div>
 
-        {/* Events by half */}
+        {/* Events by half — newest section first, newest event at top within each half */}
         {[
-          { label: "1st Half",   halfEvents: firstHalf },
-          { label: "2nd Half",   halfEvents: secondHalf },
           { label: "Extra Time", halfEvents: extraTime },
+          { label: "2nd Half",   halfEvents: secondHalf },
+          { label: "1st Half",   halfEvents: firstHalf },
         ].filter(({ halfEvents }) => halfEvents.length > 0).map(({ label, halfEvents }, hi) => (
           <div key={hi} className="mb-3 last:mb-0">
             <div className="flex items-center gap-3 mb-1.5">
@@ -88,6 +94,7 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
                   (e.detail === "Red Card" || e.detail === "Yellow-Red Card") ? "🟥" :
                   e.type === "subst"                                          ? "🔄" : null;
                 if (icon === null) return null;
+                const isSub = e.type === "subst";
                 return (
                   <div key={i}
                     className={`flex items-center gap-3 py-2 px-3 rounded-lg text-sm ${isHome ? "" : "flex-row-reverse"}`}
@@ -101,12 +108,18 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
                     </span>
                     <span className="shrink-0">{icon}</span>
                     <div className={`flex-1 min-w-0 ${isHome ? "" : "text-right"}`}>
-                      <span className="font-semibold text-zinc-200">{e.player}</span>
-                      {e.type === "Goal" && e.assist && (
-                        <p className="text-[11px] text-zinc-500 mt-0.5">Assist: {e.assist}</p>
-                      )}
-                      {e.type === "subst" && e.assist && (
-                        <p className="text-[11px] text-zinc-500 mt-0.5">↑ {e.assist}</p>
+                      {isSub ? (
+                        <>
+                          {e.assist && <p className="text-sm font-semibold text-zinc-200 leading-tight"><span className="text-green-400 mr-1">↑</span>{e.assist}</p>}
+                          <p className="text-[11px] text-zinc-500 mt-0.5 leading-tight"><span className="mr-1">↓</span>{e.player}</p>
+                        </>
+                      ) : (
+                        <>
+                          <span className="font-semibold text-zinc-200">{e.player}</span>
+                          {e.type === "Goal" && e.assist && (
+                            <p className="text-[11px] text-zinc-500 mt-0.5">Assist: {e.assist}</p>
+                          )}
+                        </>
                       )}
                     </div>
                   </div>

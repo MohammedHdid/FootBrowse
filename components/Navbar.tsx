@@ -11,6 +11,21 @@ const navLinks = [
   { href: "/players", label: "Players" },
 ];
 
+function SearchIcon() {
+  return (
+    <Link
+      href="/search"
+      aria-label="Search"
+      className="p-1.5 rounded-md text-zinc-400 hover:text-white hover:bg-white/[0.06] transition-all duration-150"
+    >
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+    </Link>
+  );
+}
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,10 +41,12 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
+        <SearchIcon />
       </nav>
 
       {/* Hamburger Menu (Mobile Only) */}
-      <div className="sm:hidden flex items-center">
+      <div className="sm:hidden flex items-center gap-1">
+        <SearchIcon />
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="text-zinc-400 hover:text-white p-1 focus:outline-none transition-colors"
@@ -64,6 +81,17 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <Link
+              href="/search"
+              className="px-4 py-3 rounded-md text-base font-semibold text-zinc-300 hover:text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              onClick={() => setIsOpen(false)}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              Search
+            </Link>
           </div>
         )}
       </div>

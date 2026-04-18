@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/build/generate-search-index.ts",
     "build": "next build",
+    "build:search": "tsx scripts/build/generate-search-index.ts",
     "start": "next start",
     "lint": "next lint",
     "sync:players": "tsx scripts/sync-players.ts",

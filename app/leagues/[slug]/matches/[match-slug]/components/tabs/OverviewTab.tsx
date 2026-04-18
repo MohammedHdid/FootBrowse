@@ -13,6 +13,10 @@ function zoneColor(description: string | null): string | null {
   return null;
 }
 
+function minStr(e: { minute: number; extra?: number | null }) {
+  return `${e.minute}${e.extra ? `+${e.extra}` : ""}′`;
+}
+
 export default function OverviewTab({ data }: { data: MatchPageData }) {
   // ── Finished / Live ──────────────────────────────────────────────────────────
   if (data.finished || data.live) {
@@ -22,73 +26,131 @@ export default function OverviewTab({ data }: { data: MatchPageData }) {
     const yellowCards   = data.events.filter((e) => e.type === "Card" && e.detail === "Yellow Card");
     const redCards      = data.events.filter((e) => e.type === "Card" && (e.detail === "Red Card" || e.detail === "Yellow-Red Card"));
     const substitutions = data.events.filter((e) => e.type === "subst");
-    const hasSummary    = homeGoals.length > 0 || awayGoals.length > 0 || yellowCards.length > 0 || redCards.length > 0;
-    const hasCards      = yellowCards.length > 0 || redCards.length > 0 || substitutions.length > 0;
+    const hasSummary    = goalEvents.length > 0 || yellowCards.length > 0 || redCards.length > 0;
+    const homeCards     = [...yellowCards, ...redCards].filter((e) => e.team_id === data.homeTeamId);
+    const awayCards     = [...yellowCards, ...redCards].filter((e) => e.team_id !== data.homeTeamId);
+    const homeSubs      = substitutions.filter((e) => e.team_id === data.homeTeamId);
+    const awaySubs      = substitutions.filter((e) => e.team_id !== data.homeTeamId);
 
     return (
       <div className="space-y-6">
-        {hasSummary ? (
+        {/* ── Goals ─────────────────────────────────────────────────────── */}
+        {goalEvents.length > 0 && (
           <section className="section-block">
-            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">Match Summary</h2>
-            {(homeGoals.length > 0 || awayGoals.length > 0) && (
-              <div
-                className={`grid grid-cols-2 gap-4 ${hasCards ? "mb-4 pb-4" : ""}`}
-                style={hasCards ? { borderBottom: "1px solid rgba(255,255,255,0.05)" } : {}}>
-                <div className="space-y-2.5">
-                  {homeGoals.map((e, i) => (
-                    <div key={i} className="flex items-start gap-2">
-                      <span className="text-sm leading-none mt-0.5">⚽</span>
-                      <div>
-                        <p className="text-sm font-semibold text-zinc-200 leading-tight">{e.player}</p>
-                        <p className="text-[11px] text-zinc-600 tabular-nums">
-                          {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
-                          {e.assist && <span className="ml-1 text-zinc-500">· {e.assist}</span>}
-                        </p>
-                      </div>
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">Goals</h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2.5">
+                {homeGoals.map((e, i) => (
+                  <div key={i} className="flex items-start gap-2">
+                    <span className="text-sm leading-none mt-0.5">⚽</span>
+                    <div>
+                      <p className="text-sm font-semibold text-zinc-200 leading-tight">{e.player}</p>
+                      <p className="text-[11px] text-zinc-600 tabular-nums">
+                        {minStr(e)}
+                        {e.assist && <span className="ml-1 text-zinc-500">· {e.assist}</span>}
+                      </p>
                     </div>
-                  ))}
-                </div>
-                <div className="space-y-2.5 text-right">
-                  {awayGoals.map((e, i) => (
-                    <div key={i} className="flex items-start gap-2 flex-row-reverse">
-                      <span className="text-sm leading-none mt-0.5">⚽</span>
-                      <div>
-                        <p className="text-sm font-semibold text-zinc-200 leading-tight">{e.player}</p>
-                        <p className="text-[11px] text-zinc-600 tabular-nums">
-                          {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
-                          {e.assist && <span className="mr-1 text-zinc-500">{e.assist} ·</span>}
-                        </p>
-                      </div>
+                  </div>
+                ))}
+              </div>
+              <div className="space-y-2.5 text-right">
+                {awayGoals.map((e, i) => (
+                  <div key={i} className="flex items-start gap-2 flex-row-reverse">
+                    <span className="text-sm leading-none mt-0.5">⚽</span>
+                    <div>
+                      <p className="text-sm font-semibold text-zinc-200 leading-tight">{e.player}</p>
+                      <p className="text-[11px] text-zinc-600 tabular-nums">
+                        {minStr(e)}
+                        {e.assist && <span className="ml-1 text-zinc-500">· {e.assist}</span>}
+                      </p>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
-            )}
-            {hasCards && (
-              <div className="flex flex-wrap gap-x-5 gap-y-2">
-                {yellowCards.length > 0 && (
-                  <span className="flex items-center gap-1.5 text-xs text-zinc-400">
-                    <span className="inline-block w-2.5 h-3.5 rounded-[2px]" style={{ backgroundColor: "#EAB308", opacity: 0.85 }} />
-                    {yellowCards.length} yellow {yellowCards.length === 1 ? "card" : "cards"}
-                  </span>
-                )}
-                {redCards.length > 0 && (
-                  <span className="flex items-center gap-1.5 text-xs text-zinc-400">
-                    <span className="inline-block w-2.5 h-3.5 rounded-[2px]" style={{ backgroundColor: "#EF4444", opacity: 0.85 }} />
-                    {redCards.length} red {redCards.length === 1 ? "card" : "cards"}
-                  </span>
-                )}
-                {substitutions.length > 0 && (
-                  <span className="text-xs text-zinc-500">🔄 {substitutions.length} substitutions</span>
-                )}
-              </div>
-            )}
+            </div>
           </section>
-        ) : (
+        )}
+
+        {/* ── Cards ─────────────────────────────────────────────────────── */}
+        {(homeCards.length > 0 || awayCards.length > 0) && (
+          <section className="section-block">
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">Cards</h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2">
+                {homeCards.map((e, i) => {
+                  const isRed = e.detail !== "Yellow Card";
+                  return (
+                    <div key={i} className="flex items-center gap-2">
+                      <span className="inline-block shrink-0 w-2.5 h-3.5 rounded-[2px]"
+                        style={{ backgroundColor: isRed ? "#EF4444" : "#EAB308", opacity: 0.9 }} />
+                      <span className="text-xs text-zinc-300 truncate">{e.player}</span>
+                      <span className="text-[10px] text-zinc-600 tabular-nums shrink-0 ml-auto">{minStr(e)}</span>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="space-y-2">
+                {awayCards.map((e, i) => {
+                  const isRed = e.detail !== "Yellow Card";
+                  return (
+                    <div key={i} className="flex items-center gap-2 flex-row-reverse">
+                      <span className="inline-block shrink-0 w-2.5 h-3.5 rounded-[2px]"
+                        style={{ backgroundColor: isRed ? "#EF4444" : "#EAB308", opacity: 0.9 }} />
+                      <span className="text-xs text-zinc-300 truncate text-right">{e.player}</span>
+                      <span className="text-[10px] text-zinc-600 tabular-nums shrink-0 mr-auto">{minStr(e)}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* ── Substitutions ─────────────────────────────────────────────── */}
+        {(homeSubs.length > 0 || awaySubs.length > 0) && (
+          <section className="section-block">
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 mb-4">Substitutions</h2>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2.5">
+                {homeSubs.map((e, i) => (
+                  <div key={i} className="text-xs space-y-0.5">
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-green-400 font-bold shrink-0">↑</span>
+                      <span className="text-zinc-200 truncate">{e.assist ?? "—"}</span>
+                      <span className="text-zinc-600 tabular-nums shrink-0 ml-auto">{minStr(e)}</span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-zinc-600 font-bold shrink-0">↓</span>
+                      <span className="text-zinc-500 truncate">{e.player}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="space-y-2.5">
+                {awaySubs.map((e, i) => (
+                  <div key={i} className="text-xs space-y-0.5 text-right">
+                    <div className="flex items-center gap-1.5 flex-row-reverse">
+                      <span className="text-green-400 font-bold shrink-0">↑</span>
+                      <span className="text-zinc-200 truncate">{e.assist ?? "—"}</span>
+                      <span className="text-zinc-600 tabular-nums shrink-0 mr-auto">{minStr(e)}</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 flex-row-reverse">
+                      <span className="text-zinc-600 font-bold shrink-0">↓</span>
+                      <span className="text-zinc-500 truncate">{e.player}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {!hasSummary && homeSubs.length === 0 && awaySubs.length === 0 && (
           <div className="section-block py-8 text-center">
             <p className="text-zinc-600 text-sm">No match summary available yet.</p>
           </div>
         )}
+
         <MatchFixedBottom data={data} />
       </div>
     );
@@ -161,10 +223,10 @@ export default function OverviewTab({ data }: { data: MatchPageData }) {
         </section>
       )}
 
-      {/* Availability */}
+      {/* Injuries &amp; Suspensions */}
       {(data.homeInjuries.length > 0 || data.awayInjuries.length > 0) && (
         <section className="section-block">
-          <h2 className="section-title text-xl mb-5">Availability</h2>
+          <h2 className="section-title text-xl mb-5">Injuries &amp; Suspensions</h2>
           <div className="grid grid-cols-2 gap-6">
             {[
               { name: data.homeName, logo: data.homeLogo, injuries: data.homeInjuries },

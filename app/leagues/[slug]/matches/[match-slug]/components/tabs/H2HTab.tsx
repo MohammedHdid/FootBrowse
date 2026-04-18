@@ -1,9 +1,11 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
 import MatchFixedBottom from "../MatchFixedBottom";
 import type { MatchPageData } from "../../MatchPageClient";
 
 export default function H2HTab({ data }: { data: MatchPageData }) {
+  const [hoveredId, setHoveredId] = useState<number | null>(null);
   const { h2h, homeName, awayName, homeLogo, awayLogo, homeId, awayId } = data;
 
   if (!h2h || h2h.played === 0) {
@@ -108,16 +110,14 @@ export default function H2HTab({ data }: { data: MatchPageData }) {
                 <div key={m.fixture_id}
                   className="flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors"
                   style={{
-                    backgroundColor: "rgba(255,255,255,0.02)",
+                    backgroundColor: hoveredId === m.fixture_id
+                      ? ourHomeWon ? "rgba(0,255,135,0.06)" : ourAwayWon ? "rgba(239,68,68,0.06)" : "rgba(255,255,255,0.04)"
+                      : "rgba(255,255,255,0.02)",
                     border: "1px solid rgba(255,255,255,0.06)",
                     borderLeft: `3px solid ${borderColor}`,
                   }}
-                  onMouseEnter={(e) => {
-                    const el = e.currentTarget as HTMLElement;
-                    if (ourHomeWon) el.style.backgroundColor = "rgba(0,255,135,0.04)";
-                    else if (ourAwayWon) el.style.backgroundColor = "rgba(239,68,68,0.04)";
-                  }}
-                  onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.02)"; }}
+                  onMouseEnter={() => setHoveredId(m.fixture_id)}
+                  onMouseLeave={() => setHoveredId(null)}
                 >
                   <span className="text-[10px] text-zinc-600 shrink-0 w-16 tabular-nums">
                     {new Date(m.date).toLocaleDateString("en-US", { month: "short", year: "2-digit" })}

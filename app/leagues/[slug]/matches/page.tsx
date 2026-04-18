@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllLeagues, getLeague, formatSeason } from "@/lib/leagues";
 import { getFixtures, isFinished, isUpcoming, isLive, statusLabel } from "@/lib/fixtures";
+import LeagueTabBar from "@/components/LeagueTabBar";
 
 interface Props {
   params: { slug: string };
@@ -72,8 +73,6 @@ export default function LeagueMatchesPage({ params, searchParams }: Props) {
       <nav className="breadcrumb">
         <Link href="/">Home</Link>
         <span className="breadcrumb-sep">›</span>
-        <Link href="/leagues">Leagues</Link>
-        <span className="breadcrumb-sep">›</span>
         <Link href={`/leagues/${league.slug}`}>{league.name}</Link>
         <span className="breadcrumb-sep">›</span>
         <span className="breadcrumb-current">Fixtures</span>
@@ -95,25 +94,7 @@ export default function LeagueMatchesPage({ params, searchParams }: Props) {
         </div>
       </div>
 
-      {/* League tab nav */}
-      <div className="flex gap-1 overflow-x-auto pb-1 -mb-2" style={{ borderBottom: "1px solid rgba(39,39,42,0.7)" }}>
-        {TABS.map((tab) => {
-          const active = tab.label === "Fixtures";
-          return (
-            <Link
-              key={tab.label}
-              href={tab.href(league.slug)}
-              className={[
-                "shrink-0 px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors rounded-t",
-                active ? "text-white border-b-2" : "text-zinc-500 hover:text-zinc-300",
-              ].join(" ")}
-              style={active ? { borderBottomColor: "#00FF87" } : {}}
-            >
-              {tab.label}
-            </Link>
-          );
-        })}
-      </div>
+      <LeagueTabBar slug={league.slug} active="Fixtures" />
 
       {/* Filter pills */}
       <div className="flex gap-2 flex-wrap">

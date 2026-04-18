@@ -327,7 +327,7 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
     if (contentRef.current && stickyRef.current) {
       const stickyH = stickyRef.current.offsetHeight;
       const contentTop = contentRef.current.getBoundingClientRect().top + window.scrollY;
-      const target = contentTop - stickyH - 8; // 8px breathing room
+      const target = contentTop - stickyH - 48; // extra offset so first section title is fully visible
       if (window.scrollY > target || window.scrollY + window.innerHeight < contentTop) {
         window.scrollTo({ top: Math.max(0, target), behavior: "smooth" });
       }

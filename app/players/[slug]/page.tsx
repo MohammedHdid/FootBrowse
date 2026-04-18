@@ -7,7 +7,7 @@ import { getClubTeamPlayers } from "@/lib/club-players";
 import { getPositionStyle } from "@/lib/positions";
 import { getPlayerStats } from "@/lib/player-stats";
 import FlagImg from "@/components/FlagImg";
-import AdSlot from "@/components/AdSlot";
+import PlayerPageClient, { type PlayerPageData } from "./PlayerPageClient";
 
 interface Props {
   params: { slug: string };
@@ -115,8 +115,6 @@ export default function PlayerPage({ params }: Props) {
       {/* Breadcrumb */}
       <nav className="breadcrumb">
         <Link href="/">Home</Link>
-        <span className="breadcrumb-sep">›</span>
-        <Link href="/players">Players</Link>
         <span className="breadcrumb-sep">›</span>
         <span className="breadcrumb-current">{player.name}</span>
       </nav>
@@ -245,190 +243,53 @@ export default function PlayerPage({ params }: Props) {
         </div>
       </header>
 
-      <AdSlot slot="1234567890" format="auto" />
+      <PlayerPageClient data={{
+        slug:            player.slug,
+        name:            player.name,
+        position:        player.position,
+        posLabel:        pos.label,
+        posColor:        pos.color,
+        posBg:           pos.bg,
+        posBorder:       pos.border,
+        photoSrc,
+        shirtNumber:     player.shirtNumber ?? null,
+        dateOfBirth:     player.dateOfBirth ?? null,
+        age,
+        nationality:     player.nationality,
+        teamName:        player.teamName,
+        teamSlug:        player.teamSlug,
+        teamCrest:       player.teamCrest,
+        teamHref,
+        marketValueFmt:  formatMarketValue(player.marketValue),
+        bio:             player.bio ?? null,
+        isClub,
+        seasons: playerStats?.seasons.map((s) => ({
+          season:      s.season,
+          club:        s.club,
+          club_logo:   s.club_logo,
+          league:      s.league,
+          appearances: s.appearances,
+          goals:       s.goals,
+          assists:     s.assists,
+          minutes:     s.minutes,
+        })) ?? [],
+        relatedPlayers: relatedPlayers.map((r) => {
+          const rpos = getPositionStyle(r.position);
+          return {
+            slug:      r.slug,
+            name:      r.name,
+            position:  r.position,
+            posLabel:  rpos.label,
+            posColor:  rpos.color,
+            posBg:     rpos.bg,
+            posBorder: rpos.border,
+            photo_url: r.photo_url ?? null,
+            teamCrest: player.teamCrest,
+            teamName:  player.teamName,
+          };
+        }),
+      } satisfies PlayerPageData} />
 
-      {/* ── STATS GRID ────────────────────────────────────────── */}
-      <section>
-        <h2 className="section-title text-xl mb-4">Player Details</h2>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="stat-card">
-            <p className="stat-label">Position</p>
-            <p className="text-sm font-bold mt-0.5" style={{ color: pos.color }}>{pos.label}</p>
-            <p className="text-xs text-zinc-600 mt-0.5">{player.position}</p>
-          </div>
-          <div className="stat-card">
-            <p className="stat-label">Market Value</p>
-            <p className="stat-value text-blue-400">
-              {formatMarketValue(player.marketValue)}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ── BIO ───────────────────────────────────────────────── */}
-      <section className="section-block">
-        <h2 className="section-title text-xl mb-4">Player Profile</h2>
-        <p className="text-zinc-300 leading-relaxed text-sm">{player.bio || `${player.name} is a professional footballer playing as ${player.position} for ${player.teamName} at the FIFA World Cup 2026.`}</p>
-      </section>
-
-      {/* ── SEASON STATS ──────────────────────────────────────── */}
-      {playerStats && playerStats.seasons.length > 0 && (
-        <section className="section-block">
-          <h2 className="section-title text-xl mb-4">Season Stats</h2>
-          <div className="overflow-x-auto -mx-1">
-            <table className="w-full text-sm min-w-[480px]">
-              <thead>
-                <tr className="text-[10px] font-black uppercase tracking-[0.15em] text-zinc-600">
-                  <th className="text-left pb-3 pr-3">Season</th>
-                  <th className="text-left pb-3 pr-3">Club</th>
-                  <th className="text-left pb-3 pr-3">League</th>
-                  <th className="text-right pb-3 pr-3">Apps</th>
-                  <th className="text-right pb-3 pr-3">Goals</th>
-                  <th className="text-right pb-3 pr-3">Assists</th>
-                  <th className="text-right pb-3">Mins</th>
-                </tr>
-              </thead>
-              <tbody>
-                {playerStats.seasons.map((s, i) => (
-                  <tr
-                    key={i}
-                    className="border-t border-white/[0.04]"
-                  >
-                    <td className="py-2.5 pr-3 text-zinc-400 tabular-nums">
-                      {s.season}/{String(s.season + 1).slice(2)}
-                    </td>
-                    <td className="py-2.5 pr-3">
-                      <div className="flex items-center gap-2">
-                        <Image
-                          src={s.club_logo}
-                          alt={s.club}
-                          width={16}
-                          height={16}
-                          className="object-contain shrink-0"
-                        />
-                        <span className="font-semibold text-zinc-200 truncate max-w-[100px]">
-                          {s.club}
-                        </span>
-                      </div>
-                    </td>
-                    <td className="py-2.5 pr-3 text-zinc-400 text-xs">{s.league}</td>
-                    <td className="py-2.5 pr-3 text-right tabular-nums text-zinc-300">
-                      {s.appearances}
-                    </td>
-                    <td className="py-2.5 pr-3 text-right tabular-nums font-bold"
-                      style={{ color: s.goals > 0 ? "#00FF87" : "#52525b" }}>
-                      {s.goals}
-                    </td>
-                    <td className="py-2.5 pr-3 text-right tabular-nums font-bold"
-                      style={{ color: s.assists > 0 ? "#3B82F6" : "#52525b" }}>
-                      {s.assists}
-                    </td>
-                    <td className="py-2.5 text-right tabular-nums text-zinc-500 text-xs">
-                      {s.minutes.toLocaleString()}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
-
-      <AdSlot slot="1234567890" format="auto" />
-
-      {/* ── RELATED PLAYERS ───────────────────────────────────── */}
-      {relatedPlayers.length > 0 && (
-        <section>
-          <h2 className="section-title text-xl mb-4">
-            More {player.teamName} Players
-          </h2>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {relatedPlayers.map((related) => {
-              const rpos = getPositionStyle(related.position);
-              return (
-                <Link
-                  key={related.slug}
-                  href={`/players/${related.slug}`}
-                  className="entity-card block"
-                >
-                  {/* Mini photo or fallback */}
-                  <div
-                    className="w-full aspect-square rounded-lg overflow-hidden flex items-center justify-center mb-2"
-                    style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
-                  >
-                    {related.photo_url ? (
-                      <Image
-                        src={related.photo_url}
-                        alt={`${related.name} photo`}
-                        width={120}
-                        height={120}
-                        className="w-full h-full object-cover object-top"
-                      />
-                    ) : (
-                      <span
-                        className="text-2xl font-black tabular-nums"
-                        style={{ color: rpos.color, opacity: 0.6 }}
-                      >
-                        {related.shirtNumber ?? "—"}
-                      </span>
-                    )}
-                  </div>
-                  <p
-                    className="font-black text-white text-sm truncate"
-                    style={{ letterSpacing: "-0.02em" }}
-                  >
-                    {related.name}
-                  </p>
-                  <div className="flex items-center gap-1.5 mt-1">
-                    <span
-                      className="text-[10px] font-bold px-1.5 py-0.5 rounded"
-                      style={{
-                        backgroundColor: rpos.bg,
-                        color: rpos.color,
-                        border: `1px solid ${rpos.border}`,
-                      }}
-                    >
-                      {rpos.label}
-                    </span>
-                    <FlagImg nationality={related.nationality} size={16} />
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* ── BACK TO TEAM ──────────────────────────────────────── */}
-      <section className="section-block">
-        <Link
-          href={teamHref}
-          className="group flex items-center justify-between"
-        >
-          <div className="flex items-center gap-3">
-            <Image
-              src={player.teamCrest}
-              alt={`${player.teamName} crest`}
-              width={40}
-              height={40}
-              className="object-contain shrink-0"
-              style={{ width: 40, height: 40 }}
-            />
-            <div>
-              <p
-                className="font-black text-white group-hover:opacity-70 transition-opacity"
-                style={{ letterSpacing: "-0.02em" }}
-              >
-                {player.teamName}
-              </p>
-              <p className="text-sm text-zinc-500 mt-0.5">View full team profile</p>
-            </div>
-          </div>
-          <span className="arrow-link shrink-0 ml-4">Team profile →</span>
-        </Link>
-      </section>
-
-      <AdSlot slot="1234567890" format="auto" />
     </article>
     </>
   );

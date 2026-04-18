@@ -207,84 +207,62 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                 {group.fixtures.map((f) => {
                   const live = isLive(f.status);
                   const finished = isFinished(f.status);
+                  const homeWon = finished && (f.score.home ?? 0) > (f.score.away ?? 0);
+                  const awayWon = finished && (f.score.away ?? 0) > (f.score.home ?? 0);
                   return (
                     <Link
                       key={f.fixture_id}
                       href={`/leagues/${group.leagueSlug}/matches/${f.slug}`}
-                      className="flex items-center gap-3 rounded-lg px-4 py-3 border hover:border-white/20 transition-colors"
+                      className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
                       style={{
                         backgroundColor: "rgba(24,24,27,0.8)",
-                        borderColor: live
-                          ? "rgba(0,255,135,0.25)"
-                          : "rgba(39,39,42,0.8)",
+                        border: "1px solid rgba(39,39,42,0.8)",
+                        borderLeft: live ? "3px solid rgba(0,255,135,0.6)" : "1px solid rgba(39,39,42,0.8)",
                       }}
                     >
-                      {/* Status / kickoff */}
-                      <div className="shrink-0 w-12 text-center">
+                      {/* Left: status / time */}
+                      <div className="shrink-0 w-11 flex flex-col items-center justify-center gap-0.5">
                         {live ? (
                           <span className="status-pill text-[9px]">LIVE</span>
                         ) : finished ? (
-                          <span
-                            className="text-[10px] font-bold"
-                            style={{ color: "#00FF87" }}
-                          >
+                          <span className="text-[10px] font-bold" style={{ color: "#00FF87" }}>
                             {STATUS_LABEL[f.status] ?? f.status}
                           </span>
                         ) : (
-                          <span className="text-xs font-bold text-zinc-400">
+                          <span className="text-[11px] font-bold text-zinc-400 tabular-nums">
                             {f.kickoff_utc}
                           </span>
                         )}
                       </div>
 
-                      {/* Home */}
-                      <div className="flex items-center gap-2 flex-1 min-w-0 justify-end">
-                        <span className="text-xs font-bold text-white truncate text-right">
-                          {f.home_team.name}
-                        </span>
-                        <Image
-                          src={f.home_team.logo}
-                          alt={f.home_team.name}
-                          width={20}
-                          height={20}
-                          className="object-contain shrink-0"
-                          unoptimized
-                        />
+                      {/* Center: home + away rows */}
+                      <div className="flex-1 flex flex-col gap-1.5 min-w-0">
+                        {/* Home */}
+                        <div className="flex items-center gap-2">
+                          <Image src={f.home_team.logo} alt={f.home_team.name}
+                            width={16} height={16} className="object-contain shrink-0" unoptimized />
+                          <span className={`text-xs truncate flex-1 ${homeWon ? "font-bold text-white" : "font-medium text-zinc-400"}`}>
+                            {f.home_team.name}
+                          </span>
+                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${homeWon ? "text-white" : live ? "text-zinc-300" : "text-zinc-500"}`}>
+                            {finished || live ? (f.score.home ?? 0) : "—"}
+                          </span>
+                        </div>
+                        {/* Away */}
+                        <div className="flex items-center gap-2">
+                          <Image src={f.away_team.logo} alt={f.away_team.name}
+                            width={16} height={16} className="object-contain shrink-0" unoptimized />
+                          <span className={`text-xs truncate flex-1 ${awayWon ? "font-bold text-white" : "font-medium text-zinc-400"}`}>
+                            {f.away_team.name}
+                          </span>
+                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${awayWon ? "text-white" : live ? "text-zinc-300" : "text-zinc-500"}`}>
+                            {finished || live ? (f.score.away ?? 0) : "—"}
+                          </span>
+                        </div>
                       </div>
 
-                      {/* Score / VS */}
-                      <div className="shrink-0 w-14 text-center">
-                        {finished || live ? (
-                          <span
-                            className="text-sm font-black text-white tabular-nums"
-                            style={{ letterSpacing: "0.05em" }}
-                          >
-                            {f.score.home ?? 0} — {f.score.away ?? 0}
-                          </span>
-                        ) : (
-                          <span
-                            className="text-xs font-black"
-                            style={{ color: "#00FF87", letterSpacing: "0.1em" }}
-                          >
-                            VS
-                          </span>
-                        )}
-                      </div>
-
-                      {/* Away */}
-                      <div className="flex items-center gap-2 flex-1 min-w-0">
-                        <Image
-                          src={f.away_team.logo}
-                          alt={f.away_team.name}
-                          width={20}
-                          height={20}
-                          className="object-contain shrink-0"
-                          unoptimized
-                        />
-                        <span className="text-xs font-bold text-white truncate">
-                          {f.away_team.name}
-                        </span>
-                      </div>
+                      {/* Right: chevron */}
+                      <span className="shrink-0 text-zinc-700 text-xs font-bold">›</span>
                     </Link>
                   );
                 })}

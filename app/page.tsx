@@ -6,6 +6,7 @@ import { getAllLeagues, formatSeason } from "@/lib/leagues";
 import { getFixturesByDateRange } from "@/lib/date-fixtures";
 import FlagImg from "@/components/FlagImg";
 import DateMatchesSection from "@/components/DateMatchesSection";
+import HomeHeroClient from "@/components/HomeHeroClient";
 
 export const metadata: Metadata = {
   title: "FootBrowse — Live Football, World Cup 2026 & Top Leagues",
@@ -42,6 +43,12 @@ export default function HomePage() {
   // Leagues
   const leagues = getAllLeagues();
 
+  // WC 2026 countdown (days remaining, server-computed)
+  const wcKickoff = new Date("2026-06-11T00:00:00Z");
+  const now = new Date();
+  const daysUntilWC = Math.ceil((wcKickoff.getTime() - now.getTime()) / 86_400_000);
+  const wcStarted = daysUntilWC <= 0;
+
   // WC spotlight players
   const spotlightPlayers = Object.values(playersByTeam)
     .filter((squad) => squad.length > 0)
@@ -54,69 +61,21 @@ export default function HomePage() {
     .slice(0, 6);
 
   return (
-    <div className="space-y-14">
+    <>
+      {/* JSON-LD outside space-y div so script tags don't add unwanted spacing */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
 
-      {/* ── Hero ── */}
-      <section className="page-header pt-4">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="badge-green">Multi-League Coverage</span>
-          <span className="badge-blue">WC 2026 Ready</span>
-        </div>
-        <h1 className="text-4xl sm:text-5xl font-black text-white leading-none" style={{ letterSpacing: "-0.04em" }}>
-          Live Football
-          <br />
-          <span style={{ color: "#00FF87" }}>Stats, Fixtures</span> &amp; Data
-        </h1>
-        <p className="mt-4 text-zinc-400 max-w-xl leading-relaxed">
-          Premier League, La Liga, Bundesliga, Champions League and FIFA World Cup 2026 —
-          standings, fixtures, teams and player stats in one place.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link href="/leagues" className="rounded-lg px-5 py-2.5 text-sm font-bold transition-all duration-200 hover:opacity-90" style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}>
-            Browse Leagues
-          </Link>
-          <Link href="/matches" className="rounded-lg border border-zinc-700 px-5 py-2.5 text-sm font-bold text-zinc-300 hover:border-zinc-500 hover:text-white transition-all duration-200">
-            WC 2026 Matches
-          </Link>
-        </div>
-      </section>
+    <div className="space-y-10">
+      {/* ── Hero (client — handles sticky mini bar on scroll) ── */}
+      <HomeHeroClient
+        leagues={leagues.map((l) => ({ slug: l.slug, name: l.name, logo: l.logo }))}
+        wcStarted={wcStarted}
+        daysUntilWC={daysUntilWC}
+      />
 
       {/* ── Matches (date nav) ── */}
       <DateMatchesSection days={days} todayStr={todayStr} />
-
-      {/* ── Leagues ── */}
-      <section>
-        <div className="section-row">
-          <h2 className="section-title text-xl">Leagues</h2>
-          <Link href="/leagues" className="arrow-link">All leagues →</Link>
-        </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {leagues.map((league) => {
-            const todayDay = days.find((d) => d.date === todayStr);
-            const todayCount = todayDay?.leagues.find((l) => l.leagueSlug === league.slug)?.fixtures.length ?? 0;
-            return (
-              <Link key={league.slug} href={`/leagues/${league.slug}`} className="entity-card flex items-center gap-4 group">
-                <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl bg-white/[0.03] border border-white/[0.06] p-2">
-                  <Image src={league.logo} alt={league.name} width={36} height={36} className="object-contain" unoptimized />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className="font-black text-white text-sm truncate" style={{ letterSpacing: "-0.02em" }}>{league.name}</p>
-                  <div className="flex items-center gap-2 mt-1">
-                    <span className="text-xs text-zinc-500">{league.country}</span>
-                    <span className="tag text-[10px]">{formatSeason(league)}</span>
-                    {todayCount > 0 && (
-                      <span className="status-pill text-[9px]">{todayCount} today</span>
-                    )}
-                  </div>
-                </div>
-                <span className="text-sm font-bold shrink-0 opacity-30 group-hover:opacity-100 transition-opacity" style={{ color: "#00FF87" }}>→</span>
-              </Link>
-            );
-          })}
-        </div>
-      </section>
 
       {/* ── World Cup 2026 ── */}
       <section>
@@ -238,5 +197,6 @@ export default function HomePage() {
         </section>
       )}
     </div>
+    </>
   );
 }

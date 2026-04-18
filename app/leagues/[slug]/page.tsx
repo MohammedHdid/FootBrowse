@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { getAllLeagues, getLeague, formatSeason } from "@/lib/leagues";
+import { getFixtures, isUpcoming, isFinished } from "@/lib/fixtures";
+import { getStandings, zoneColor } from "@/lib/standings";
+import LeagueTabBar from "@/components/LeagueTabBar";
 
 interface Props {
   params: { slug: string };
@@ -23,19 +26,30 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-const TABS = [
-  { label: "Overview",  href: (slug: string) => `/leagues/${slug}` },
-  { label: "Fixtures",  href: (slug: string) => `/leagues/${slug}/matches` },
-  { label: "Standings", href: (slug: string) => `/leagues/${slug}/standings` },
-  { label: "Teams",     href: (slug: string) => `/leagues/${slug}/teams` },
-  { label: "Players",   href: (slug: string) => `/leagues/${slug}/players` },
-];
+function fmtDate(d: string) {
+  return new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
 
 export default function LeaguePage({ params }: Props) {
   const league = getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
+
+  // Upcoming fixtures
+  const allFixtures = getFixtures(league);
+  const upcoming = allFixtures
+    .filter((f) => isUpcoming(f.status))
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    .slice(0, 5);
+  const recentResults = allFixtures
+    .filter((f) => isFinished(f.status))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 5);
+
+  // Standings
+  const standings = getStandings(league);
+  const topRows = standings?.groups?.[0]?.table?.slice(0, 8) ?? [];
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -54,13 +68,11 @@ export default function LeaguePage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <div className="space-y-8">
+      <div className="space-y-6">
 
         {/* Breadcrumb */}
         <nav className="breadcrumb">
           <Link href="/">Home</Link>
-          <span className="breadcrumb-sep">›</span>
-          <Link href="/leagues">Leagues</Link>
           <span className="breadcrumb-sep">›</span>
           <span className="breadcrumb-current">{league.name}</span>
         </nav>
@@ -68,7 +80,6 @@ export default function LeaguePage({ params }: Props) {
         {/* Hero */}
         <div className="page-header">
           <div className="flex items-start gap-5">
-            {/* Logo */}
             <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl bg-white/[0.04] border border-white/[0.08] p-2.5">
               <Image
                 src={league.logo}
@@ -79,26 +90,16 @@ export default function LeaguePage({ params }: Props) {
                 unoptimized
               />
             </div>
-
-            {/* Title block */}
             <div className="flex-1 min-w-0">
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <span className="badge-green">{league.type}</span>
                 <span className="tag">{season}</span>
-                {league.flag && (
+                {league.flag ? (
                   <span className="flex items-center gap-1.5 text-xs text-zinc-500">
-                    <Image
-                      src={league.flag}
-                      alt={league.country}
-                      width={14}
-                      height={10}
-                      className="rounded-sm object-cover"
-                      unoptimized
-                    />
+                    <Image src={league.flag} alt={league.country} width={14} height={10} className="rounded-sm object-cover" unoptimized />
                     {league.country}
                   </span>
-                )}
-                {!league.flag && (
+                ) : (
                   <span className="text-xs text-zinc-500">{league.country}</span>
                 )}
               </div>
@@ -114,79 +115,127 @@ export default function LeaguePage({ params }: Props) {
           </div>
         </div>
 
-        {/* Tab navigation */}
-        <div
-          className="flex gap-1 overflow-x-auto pb-1 -mb-2"
-          style={{ borderBottom: "1px solid rgba(39,39,42,0.7)" }}
-        >
-          {TABS.map((tab) => {
-            const isOverview = tab.label === "Overview";
-            return (
-              <Link
-                key={tab.label}
-                href={tab.href(league.slug)}
-                className={[
-                  "shrink-0 px-4 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors rounded-t",
-                  isOverview
-                    ? "text-white border-b-2"
-                    : "text-zinc-500 hover:text-zinc-300",
-                ].join(" ")}
-                style={isOverview ? { borderBottomColor: "#00FF87" } : {}}
-              >
-                {tab.label}
-              </Link>
-            );
-          })}
-        </div>
+        {/* Sticky tab bar */}
+        <LeagueTabBar slug={league.slug} active="Overview" />
 
-        {/* Coming soon placeholders */}
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Fixtures placeholder */}
-          <div className="section-block flex flex-col gap-3">
-            <p className="section-title text-sm">Upcoming Fixtures</p>
-            <p className="text-xs text-zinc-600">
-              Fixtures sync coming in the next update.
-            </p>
-            <Link
-              href={`/leagues/${league.slug}/matches`}
-              className="arrow-link text-xs mt-auto"
-            >
-              View all fixtures →
-            </Link>
-          </div>
-
-          {/* Standings placeholder */}
-          <div className="section-block flex flex-col gap-3">
-            <p className="section-title text-sm">Standings</p>
-            <p className="text-xs text-zinc-600">
-              League table coming in the next update.
-            </p>
-            <Link
-              href={`/leagues/${league.slug}/standings`}
-              className="arrow-link text-xs mt-auto"
-            >
-              View full table →
-            </Link>
-          </div>
-
-          {/* Top scorers placeholder */}
-          {league.topScorers && (
-            <div className="section-block flex flex-col gap-3">
-              <p className="section-title text-sm">Top Scorers</p>
-              <p className="text-xs text-zinc-600">
-                Scorer stats coming in the next update.
-              </p>
-              <Link
-                href={`/leagues/${league.slug}/players`}
-                className="arrow-link text-xs mt-auto"
-              >
-                View top scorers →
-              </Link>
+        {/* ── Standings snippet ── */}
+        {topRows.length > 0 && (
+          <section>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="section-title text-lg">Standings</h2>
+              <Link href={`/leagues/${league.slug}/standings`} className="arrow-link text-xs">Full table →</Link>
             </div>
-          )}
-        </div>
+            <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(255,255,255,0.07)" }}>
+              <div
+                className="grid px-3 py-2 text-[9px] font-black uppercase tracking-widest text-zinc-600"
+                style={{ gridTemplateColumns: "24px 1fr 28px 28px 36px", borderBottom: "1px solid rgba(255,255,255,0.05)" }}
+              >
+                <span>Pos</span>
+                <span>Club</span>
+                <span className="text-center">P</span>
+                <span className="text-center">GD</span>
+                <span className="text-center">Pts</span>
+              </div>
+              {topRows.map((row, idx) => {
+                const rankColor = zoneColor(row.description ?? null);
+                return (
+                  <Link
+                    key={row.team.slug}
+                    href={`/leagues/${league.slug}/teams/${row.team.slug}`}
+                    className="grid px-3 py-2 items-center hover:bg-white/[0.03] transition-colors"
+                    style={{
+                      gridTemplateColumns: "24px 1fr 28px 28px 36px",
+                      borderBottom: idx < topRows.length - 1 ? "1px solid rgba(255,255,255,0.04)" : undefined,
+                    }}
+                  >
+                    <span className="text-xs font-black" style={{ color: rankColor ?? "#52525b" }}>{row.rank}</span>
+                    <div className="flex items-center gap-2 min-w-0">
+                      <Image src={row.team.logo} alt={row.team.name} width={16} height={16} className="object-contain shrink-0" unoptimized />
+                      <span className="text-xs font-semibold text-zinc-200 truncate">{row.team.name}</span>
+                    </div>
+                    <span className="text-center text-xs text-zinc-500 tabular-nums">{row.played}</span>
+                    <span className="text-center text-xs font-bold tabular-nums"
+                      style={{ color: row.goal_diff > 0 ? "#00FF87" : row.goal_diff < 0 ? "#EF4444" : "#52525b" }}>
+                      {row.goal_diff > 0 ? "+" : ""}{row.goal_diff}
+                    </span>
+                    <span className="text-center text-xs font-black text-white tabular-nums">{row.points}</span>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
-        {/* Season info block */}
+        {/* ── Upcoming Fixtures ── */}
+        {upcoming.length > 0 && (
+          <section>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="section-title text-lg">Upcoming Fixtures</h2>
+              <Link href={`/leagues/${league.slug}/matches`} className="arrow-link text-xs">All fixtures →</Link>
+            </div>
+            <div className="space-y-1.5">
+              {upcoming.map((f) => (
+                <Link
+                  key={f.fixture_id}
+                  href={`/leagues/${league.slug}/matches/${f.slug}`}
+                  className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
+                  style={{ backgroundColor: "rgba(24,24,27,0.8)", border: "1px solid rgba(39,39,42,0.8)" }}
+                >
+                  <span className="shrink-0 text-[11px] font-bold text-zinc-500 tabular-nums w-14">{fmtDate(f.date)}</span>
+                  <div className="flex-1 flex flex-col gap-1 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <Image src={f.home_team.logo} alt={f.home_team.name} width={14} height={14} className="object-contain shrink-0" unoptimized />
+                      <span className="text-xs font-medium text-zinc-300 truncate">{f.home_team.name}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Image src={f.away_team.logo} alt={f.away_team.name} width={14} height={14} className="object-contain shrink-0" unoptimized />
+                      <span className="text-xs font-medium text-zinc-300 truncate">{f.away_team.name}</span>
+                    </div>
+                  </div>
+                  <span className="text-[11px] font-bold text-zinc-500 tabular-nums shrink-0">{f.kickoff_utc}</span>
+                  <span className="shrink-0 text-zinc-700 text-xs font-bold">›</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* ── Recent Results ── */}
+        {recentResults.length > 0 && upcoming.length === 0 && (
+          <section>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="section-title text-lg">Recent Results</h2>
+              <Link href={`/leagues/${league.slug}/matches`} className="arrow-link text-xs">All fixtures →</Link>
+            </div>
+            <div className="space-y-1.5">
+              {recentResults.map((f) => (
+                <Link
+                  key={f.fixture_id}
+                  href={`/leagues/${league.slug}/matches/${f.slug}`}
+                  className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
+                  style={{ backgroundColor: "rgba(24,24,27,0.8)", border: "1px solid rgba(39,39,42,0.8)" }}
+                >
+                  <span className="shrink-0 text-[11px] font-bold text-zinc-500 tabular-nums w-14">{fmtDate(f.date)}</span>
+                  <div className="flex-1 flex flex-col gap-1 min-w-0">
+                    <div className="flex items-center gap-2">
+                      <Image src={f.home_team.logo} alt={f.home_team.name} width={14} height={14} className="object-contain shrink-0" unoptimized />
+                      <span className="text-xs font-medium text-zinc-300 truncate">{f.home_team.name}</span>
+                      <span className="ml-auto text-xs font-black text-white tabular-nums shrink-0">{f.score.home ?? "—"}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Image src={f.away_team.logo} alt={f.away_team.name} width={14} height={14} className="object-contain shrink-0" unoptimized />
+                      <span className="text-xs font-medium text-zinc-300 truncate">{f.away_team.name}</span>
+                      <span className="ml-auto text-xs font-black text-white tabular-nums shrink-0">{f.score.away ?? "—"}</span>
+                    </div>
+                  </div>
+                  <span className="shrink-0 text-zinc-700 text-xs font-bold">›</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Season info */}
         <div className="section-block">
           <p className="section-title text-sm mb-4">Season Info</p>
           <dl className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -203,13 +252,8 @@ export default function LeaguePage({ params }: Props) {
               <dd className="text-sm font-black text-white mt-1">{league.country}</dd>
             </div>
             <div>
-              <dt className="stat-label">Standings</dt>
-              <dd
-                className="text-sm font-black mt-1"
-                style={{ color: league.standings ? "#00FF87" : "#71717A" }}
-              >
-                {league.standings ? "Available" : "N/A"}
-              </dd>
+              <dt className="stat-label">Fixtures</dt>
+              <dd className="text-sm font-black mt-1" style={{ color: "#00FF87" }}>{allFixtures.length}</dd>
             </div>
           </dl>
         </div>
