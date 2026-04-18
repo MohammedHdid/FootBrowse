@@ -60,16 +60,38 @@ export default function LeagueStandingsPage({ params }: Props) {
 
       {/* Hero */}
       <div className="page-header">
-        <div className="flex items-center gap-4">
-          <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl bg-white/[0.04] border border-white/[0.08] p-2">
-            <Image src={league.logo} alt={league.name} width={32} height={32} className="object-contain" unoptimized />
+        <div className="flex items-start gap-5">
+          <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl bg-slate-50 shadow-inner p-1.5">
+            <Image
+              src={league.logo}
+              alt={`${league.name} logo`}
+              width={68}
+              height={68}
+              className="object-contain"
+              unoptimized
+            />
           </div>
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="badge-green">League Table</span>
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <span className="badge-green">{league.type}</span>
               <span className="tag">{season}</span>
+              {league.flag ? (
+                <span className="flex items-center gap-1.5 text-xs text-zinc-500">
+                  <Image src={league.flag} alt={league.country} width={14} height={10} className="rounded-sm object-cover" unoptimized />
+                  {league.country}
+                </span>
+              ) : (
+                <span className="text-xs text-zinc-500">{league.country}</span>
+              )}
             </div>
-            <h1 style={{ fontSize: "1.4rem" }}>{league.name} — Standings</h1>
+            <h1>{league.name}</h1>
+            {league.seasonStart && league.seasonEnd && (
+              <p className="mt-1.5 text-xs text-zinc-500">
+                {new Date(league.seasonStart).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                {" "}–{" "}
+                {new Date(league.seasonEnd).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+              </p>
+            )}
           </div>
         </div>
       </div>
@@ -97,109 +119,89 @@ export default function LeagueStandingsPage({ params }: Props) {
 
               {/* Table */}
               <div className="rounded-lg border overflow-hidden" style={{ borderColor: "rgba(39,39,42,0.8)" }}>
-                {/* Table header */}
-                <div
-                  className="grid text-[10px] uppercase tracking-[0.12em] font-bold text-zinc-500 px-3 py-2.5"
-                  style={{
-                    backgroundColor: "rgba(24,24,27,0.95)",
-                    borderBottom: "1px solid rgba(39,39,42,0.8)",
-                    gridTemplateColumns: "2rem 1fr 2.2rem 2.2rem 2.2rem 2.2rem 2.8rem 2.8rem 2.8rem 2.8rem 5rem",
-                  }}
-                >
-                  <span className="text-center">#</span>
-                  <span>Team</span>
-                  <span className="text-center">P</span>
-                  <span className="text-center">W</span>
-                  <span className="text-center">D</span>
-                  <span className="text-center">L</span>
-                  <span className="text-center">GF</span>
-                  <span className="text-center">GA</span>
-                  <span className="text-center">GD</span>
-                  <span className="text-center font-black text-zinc-300">Pts</span>
-                  <span className="text-center hidden sm:block">Form</span>
-                </div>
+                <div>
+                  {/* Table header */}
+                  <div
+                    className="grid text-[10px] uppercase tracking-[0.12em] font-bold text-zinc-500 px-3 py-2.5"
+                    style={{
+                      backgroundColor: "#0f172a",
+                      borderBottom: "1px solid #334155",
+                      gridTemplateColumns: "1.8rem 1fr 1.8rem 1.8rem 1.8rem 1.8rem 2rem 2.2rem",
+                    }}
+                  >
+                    <span className="text-center">#</span>
+                    <span>Team</span>
+                    <span className="text-center">P</span>
+                    <span className="text-center">W</span>
+                    <span className="text-center">D</span>
+                    <span className="text-center">L</span>
+                    <span className="text-center">GD</span>
+                    <span className="text-center font-black text-zinc-300">Pts</span>
+                  </div>
 
-                {/* Rows */}
-                {group.table.map((row, i) => {
-                  const zone = zoneColor(row.description);
-                  const isEven = i % 2 === 0;
-                  return (
-                    <div
-                      key={row.team.id}
-                      className="grid items-center px-3 py-2.5 transition-colors hover:bg-white/[0.02]"
-                      style={{
-                        backgroundColor: isEven ? "rgba(24,24,27,0.6)" : "rgba(18,18,20,0.6)",
-                        borderBottom: "1px solid rgba(39,39,42,0.4)",
-                        gridTemplateColumns: "2rem 1fr 2.2rem 2.2rem 2.2rem 2.2rem 2.8rem 2.8rem 2.8rem 2.8rem 5rem",
-                      }}
-                    >
-                      {/* Rank */}
-                      <div className="flex items-center justify-center gap-1">
-                        {zone && (
-                          <div
-                            className="w-0.5 h-4 rounded-full shrink-0"
-                            style={{ backgroundColor: zone }}
-                          />
-                        )}
-                        <span
-                          className="text-xs font-bold tabular-nums"
-                          style={{ color: zone ?? "#71717A" }}
-                        >
-                          {row.rank}
-                        </span>
-                      </div>
-
-                      {/* Team */}
-                      <div className="flex items-center gap-2 min-w-0">
-                        <Image
-                          src={row.team.logo}
-                          alt={row.team.name}
-                          width={18}
-                          height={18}
-                          className="object-contain shrink-0"
-                          unoptimized
-                        />
-                        <span
-                          className="text-xs font-bold text-white truncate"
-                          style={{ letterSpacing: "-0.01em" }}
-                        >
-                          {row.team.name}
-                        </span>
-                      </div>
-
-                      {/* Stats */}
-                      <span className="text-xs text-zinc-400 text-center tabular-nums">{row.played}</span>
-                      <span className="text-xs text-zinc-400 text-center tabular-nums">{row.won}</span>
-                      <span className="text-xs text-zinc-400 text-center tabular-nums">{row.drawn}</span>
-                      <span className="text-xs text-zinc-400 text-center tabular-nums">{row.lost}</span>
-                      <span className="text-xs text-zinc-400 text-center tabular-nums">{row.goals_for}</span>
-                      <span className="text-xs text-zinc-400 text-center tabular-nums">{row.goals_against}</span>
-                      <span
-                        className="text-xs text-center tabular-nums font-semibold"
-                        style={{ color: row.goal_diff > 0 ? "#00FF87" : row.goal_diff < 0 ? "#EF4444" : "#71717A" }}
+                  {/* Rows */}
+                  {group.table.map((row, i) => {
+                    const zone = zoneColor(row.description);
+                    return (
+                      <div
+                        key={row.team.id}
+                        className="grid items-center px-3 py-2.5 transition-colors hover:bg-slate-800"
+                        style={{
+                          backgroundColor: "transparent",
+                          borderBottom: "1px solid #1e293b",
+                          gridTemplateColumns: "1.8rem 1fr 1.8rem 1.8rem 1.8rem 1.8rem 2rem 2.2rem",
+                        }}
                       >
-                        {row.goal_diff > 0 ? `+${row.goal_diff}` : row.goal_diff}
-                      </span>
-                      <span className="text-sm font-black text-white text-center tabular-nums">{row.points}</span>
+                        {/* Rank */}
+                        <div className="flex items-center justify-center gap-1">
+                          {zone && (
+                            <div
+                              className="w-0.5 h-4 rounded-full shrink-0"
+                              style={{ backgroundColor: zone }}
+                            />
+                          )}
+                          <span
+                            className="text-xs font-bold tabular-nums"
+                            style={{ color: zone ?? "#71717A" }}
+                          >
+                            {row.rank}
+                          </span>
+                        </div>
 
-                      {/* Form */}
-                      <div className="hidden sm:flex items-center justify-center gap-0.5">
-                        {row.form.slice(-5).split("").map((r, fi) => {
-                          const style = FORM_COLORS[r] ?? { bg: "rgba(113,113,122,0.15)", color: "#71717A" };
-                          return (
-                            <span
-                              key={fi}
-                              className="w-4 h-4 rounded-sm text-[8px] font-black flex items-center justify-center"
-                              style={{ backgroundColor: style.bg, color: style.color }}
-                            >
-                              {r}
-                            </span>
-                          );
-                        })}
+                        {/* Team */}
+                        <div className="flex items-center gap-2 min-w-0">
+                          <Image
+                            src={row.team.logo}
+                            alt={row.team.name}
+                            width={16}
+                            height={16}
+                            className="object-contain shrink-0"
+                            unoptimized
+                          />
+                          <span
+                            className="text-xs font-bold text-white truncate"
+                            style={{ letterSpacing: "-0.01em" }}
+                          >
+                            {row.team.name}
+                          </span>
+                        </div>
+
+                        {/* Stats */}
+                        <span className="text-[11px] text-zinc-400 text-center tabular-nums">{row.played}</span>
+                        <span className="text-[11px] text-zinc-400 text-center tabular-nums">{row.won}</span>
+                        <span className="text-[11px] text-zinc-400 text-center tabular-nums">{row.drawn}</span>
+                        <span className="text-[11px] text-zinc-400 text-center tabular-nums">{row.lost}</span>
+                        <span
+                          className="text-[11px] text-center tabular-nums font-semibold"
+                          style={{ color: row.goal_diff > 0 ? "#00FF87" : row.goal_diff < 0 ? "#EF4444" : "#71717A" }}
+                        >
+                          {row.goal_diff > 0 ? `+${row.goal_diff}` : row.goal_diff}
+                        </span>
+                        <span className="text-xs font-black text-white text-center tabular-nums">{row.points}</span>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
+                </div>
               </div>
 
               {/* Zone legend */}

@@ -39,12 +39,12 @@ export default function MatchHero(p: Props) {
 
   return (
     <div className="px-4 pt-4 pb-5"
-      style={{ backgroundColor: "#0a0a0a", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
+      style={{ backgroundColor: "#0f172a", borderBottom: "1px solid rgba(51, 65, 85, 0.4)" }}>
       {/* League + status row */}
       <div className="flex items-center gap-2 mb-5 flex-wrap">
         <Image src={p.leagueLogo} alt={p.leagueName} width={18} height={18} className="object-contain rounded-sm" unoptimized />
         <Link href={`/leagues/${p.leagueSlug}`}
-          className="text-xs font-bold text-zinc-400 hover:text-white transition-colors">
+          className="text-xs font-bold text-slate-400 hover:text-white transition-colors">
           {p.leagueName}
         </Link>
         {p.isWC && p.group && <span className="badge-green">Group {p.group}</span>}
@@ -70,9 +70,9 @@ export default function MatchHero(p: Props) {
               style={{ letterSpacing: "-0.03em" }}>{p.homeName}</p>
           </Link>
           {p.homeFifaRank != null && (
-            <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest">FIFA #{p.homeFifaRank}</p>
+            <p className="text-xs text-slate-500 mt-1 uppercase tracking-widest">FIFA #{p.homeFifaRank}</p>
           )}
-          {p.homeRecord && <p className="text-xs text-zinc-500 mt-1">{p.homeRecord}</p>}
+          {p.homeRecord && <p className="text-xs text-slate-500 mt-1">{p.homeRecord}</p>}
         </div>
 
         <div className="text-center px-2 sm:px-6 shrink-0">
@@ -80,7 +80,7 @@ export default function MatchHero(p: Props) {
             <>
               <p className="text-4xl sm:text-5xl font-black text-white tabular-nums"
                 style={{ letterSpacing: "-0.05em" }}>
-                {p.score.home ?? 0}<span className="mx-2 text-zinc-600">–</span>{p.score.away ?? 0}
+                {p.score.home ?? 0}<span className="mx-2 text-slate-600">–</span>{p.score.away ?? 0}
               </p>
               <p className="text-xs font-bold mt-1 uppercase tracking-widest" style={{ color: statusColor }}>
                 {p.fixtureStatusLabel}
@@ -89,7 +89,7 @@ export default function MatchHero(p: Props) {
           ) : (
             <>
               <p className="text-4xl sm:text-5xl font-black" style={{ color: "#00FF87", letterSpacing: "-0.04em" }}>VS</p>
-              <p className="text-xs text-zinc-600 mt-1 uppercase tracking-widest">{p.kickoffUtc} UTC</p>
+              <p className="text-xs text-slate-600 mt-1 uppercase tracking-widest">{p.kickoffUtc} UTC</p>
             </>
           )}
         </div>
@@ -107,22 +107,22 @@ export default function MatchHero(p: Props) {
               style={{ letterSpacing: "-0.03em" }}>{p.awayName}</p>
           </Link>
           {p.awayFifaRank != null && (
-            <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest">FIFA #{p.awayFifaRank}</p>
+            <p className="text-xs text-slate-500 mt-1 uppercase tracking-widest">FIFA #{p.awayFifaRank}</p>
           )}
-          {p.awayRecord && <p className="text-xs text-zinc-500 mt-1">{p.awayRecord}</p>}
+          {p.awayRecord && <p className="text-xs text-slate-500 mt-1">{p.awayRecord}</p>}
         </div>
       </div>
 
       {/* Meta row */}
-      <div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-zinc-400"
-        style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "1.25rem" }}>
+      <div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-400"
+        style={{ borderTop: "1px solid rgba(51, 65, 85, 0.4)", paddingTop: "1.25rem" }}>
         <span>📅 {new Date(p.matchDate).toLocaleDateString("en-US", {
           weekday: "long", month: "long", day: "numeric", year: "numeric",
         })}</span>
         <span>🕐 {p.kickoffUtc} UTC{p.kickoffEst ? ` · ${p.kickoffEst} EST` : ""}</span>
         {p.city && <span>📍 {p.city}</span>}
         {!p.city && p.venueName && <span>📍 {p.venueName}</span>}
-        {p.matchday != null && <span className="text-zinc-500">Matchday {p.matchday}</span>}
+        {p.matchday != null && <span className="text-slate-500">Matchday {p.matchday}</span>}
       </div>
     </div>
   );

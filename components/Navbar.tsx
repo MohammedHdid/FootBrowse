@@ -16,7 +16,7 @@ function SearchIcon() {
     <Link
       href="/search"
       aria-label="Search"
-      className="p-1.5 rounded-md text-zinc-400 hover:text-white hover:bg-white/[0.06] transition-all duration-150"
+      className="p-1.5 rounded-md text-slate-400 hover:text-white hover:bg-white/[0.06] transition-all duration-150"
     >
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link
             key={link.href}
             href={link.href}
-            className="px-3 py-1.5 rounded-md text-sm font-semibold text-zinc-400 hover:text-white hover:bg-white/[0.06] transition-all duration-150"
+            className="px-3 py-1.5 rounded-md text-sm font-semibold text-slate-400 hover:text-white hover:bg-white/[0.06] transition-all duration-150"
           >
             {link.label}
           </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
         <SearchIcon />
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-zinc-400 hover:text-white p-1 focus:outline-none transition-colors"
+          className="text-slate-400 hover:text-white p-1 focus:outline-none transition-colors"
           aria-label="Toggle menu"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -65,17 +65,17 @@ export default function Navbar() {
           <div 
             className="absolute top-14 left-0 w-full p-4 flex flex-col gap-2 shadow-xl"
             style={{
-              backgroundColor: "rgba(10,10,10,0.95)",
+              backgroundColor: "rgba(15, 23, 42, 0.95)",
               backdropFilter: "blur(12px)",
               WebkitBackdropFilter: "blur(12px)",
-              borderBottom: "1px solid rgba(39,39,42,0.7)",
+              borderBottom: "1px solid #334155",
             }}
           >
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-4 py-3 rounded-md text-base font-semibold text-zinc-300 hover:text-white hover:bg-white/10 transition-colors"
+                className="px-4 py-3 rounded-md text-base font-semibold text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}
@@ -83,7 +83,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/search"
-              className="px-4 py-3 rounded-md text-base font-semibold text-zinc-300 hover:text-white hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="px-4 py-3 rounded-md text-base font-semibold text-slate-300 hover:text-white hover:bg-white/10 transition-colors flex items-center gap-2"
               onClick={() => setIsOpen(false)}
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -8,8 +8,8 @@
   }
 
   body {
-    background-color: #0a0a0a;
-    @apply text-zinc-100 antialiased;
+    background-color: #0f172a;
+    @apply text-slate-100 antialiased;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,
       Helvetica, sans-serif;
   }
@@ -25,7 +25,7 @@
   }
 
   h3 {
-    @apply text-base font-bold text-zinc-100;
+    @apply text-base font-bold text-slate-100;
   }
 }
 
@@ -34,44 +34,42 @@
   /* ── Match card — left green accent border ── */
   .match-card {
     @apply relative rounded-lg p-5 transition-all duration-200;
-    background-color: rgba(24, 24, 27, 0.8);
-    border-top: 1px solid #27272a;
-    border-right: 1px solid #27272a;
-    border-bottom: 1px solid #27272a;
+    background-color: #1e293b;
+    border-top: 1px solid #334155;
+    border-right: 1px solid #334155;
+    border-bottom: 1px solid #334155;
     border-left: 3px solid #00FF87;
   }
   .match-card:hover {
-    background-color: rgba(24, 24, 27, 1);
-    border-top-color: rgba(0, 255, 135, 0.3);
-    border-right-color: rgba(0, 255, 135, 0.3);
-    border-bottom-color: rgba(0, 255, 135, 0.3);
+    background-color: #1e293b;
+    border-color: rgba(0, 255, 135, 0.4);
   }
 
   /* ── Entity card (teams / players / stadiums) — glow on hover ── */
   .entity-card {
-    @apply rounded-lg border border-zinc-800 p-5 transition-all duration-200;
-    background-color: rgba(24, 24, 27, 0.8);
+    @apply rounded-lg border border-slate-700 p-5 transition-all duration-200;
+    background-color: #1e293b;
   }
   .entity-card:hover {
-    border-color: rgba(59, 130, 246, 0.45);
-    box-shadow: 0 0 22px rgba(59, 130, 246, 0.08);
-    background-color: rgba(24, 24, 27, 1);
+    border-color: rgba(59, 130, 246, 0.5);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #1e293b;
   }
 
   /* ── Generic content block ── */
   .section-block {
-    @apply rounded-lg border border-zinc-800 p-5;
-    background-color: rgba(24, 24, 27, 0.6);
+    @apply rounded-lg border border-slate-700 p-5;
+    background-color: #1e293b;
   }
 
   /* ── Stat cards ── */
   .stat-card {
-    @apply rounded-lg border border-zinc-800 p-4;
-    background-color: rgba(24, 24, 27, 0.9);
+    @apply rounded-lg border border-slate-700 p-4;
+    background-color: #1e293b;
   }
 
   .stat-label {
-    @apply block text-[10px] uppercase tracking-[0.15em] text-zinc-500 font-semibold;
+    @apply block text-[10px] uppercase tracking-[0.15em] text-slate-500 font-semibold;
   }
 
   .stat-value {
@@ -117,14 +115,14 @@
 
   /* ── Section heading with left accent bar ── */
   .section-title {
-    @apply flex items-center gap-3 font-black text-white;
+    @apply flex items-center gap-2.5 font-black text-white;
     letter-spacing: -0.02em;
   }
   .section-title::before {
     content: "";
     display: block;
-    width: 4px;
-    height: 22px;
+    width: 3px;
+    height: 18px;
     border-radius: 9999px;
     background-color: #00FF87;
     flex-shrink: 0;
@@ -132,35 +130,35 @@
 
   /* ── Breadcrumb ── */
   .breadcrumb {
-    @apply flex items-center gap-1.5 text-xs font-semibold text-zinc-600 mb-8;
+    @apply flex items-center gap-1.5 text-xs font-semibold text-slate-500 mb-8;
   }
   .breadcrumb a {
-    @apply hover:text-zinc-300 transition-colors;
+    @apply hover:text-slate-300 transition-colors;
   }
   .breadcrumb-sep {
-    @apply text-zinc-700;
+    @apply text-slate-700;
   }
   .breadcrumb-current {
-    @apply text-zinc-400;
+    @apply text-slate-400;
   }
 
   /* ── Ad slot placeholder ── */
   .ad-slot {
     @apply my-6 rounded-lg py-8 px-4 text-center;
-    background-color: rgba(24, 24, 27, 0.4);
-    border: 2px dashed #3f3f46;
+    background-color: rgba(30, 41, 59, 0.3);
+    border: 2px dashed #334155;
   }
   .ad-slot-label {
-    @apply block text-[10px] uppercase tracking-[0.2em] text-zinc-600 font-bold mb-1;
+    @apply block text-[10px] uppercase tracking-[0.2em] text-slate-600 font-bold mb-1;
   }
   .ad-slot-dims {
-    @apply block text-xs text-zinc-700 mt-0.5;
+    @apply block text-xs text-slate-700 mt-0.5;
   }
 
   /* ── Page header section ── */
   .page-header {
     @apply pb-6 mb-2;
-    border-bottom: 1px solid rgba(39, 39, 42, 0.9);
+    border-bottom: 1px solid #334155;
   }
 
   /* ── "All → " section row ── */

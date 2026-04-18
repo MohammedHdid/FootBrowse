@@ -31,19 +31,19 @@ export default function CookieConsent() {
       <div
         className="mx-auto max-w-3xl rounded-xl px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4"
         style={{
-          backgroundColor: "rgba(18,18,18,0.97)",
-          border: "1px solid rgba(255,255,255,0.1)",
+          backgroundColor: "rgba(15, 23, 42, 0.97)",
+          border: "1px solid #334155",
           backdropFilter: "blur(12px)",
           WebkitBackdropFilter: "blur(12px)",
           boxShadow: "0 -4px 32px rgba(0,0,0,0.5)",
         }}
       >
-        <p className="flex-1 text-sm text-zinc-400 leading-relaxed">
+        <p className="flex-1 text-sm text-slate-400 leading-relaxed">
           We use cookies for analytics and personalised ads. By continuing you
           agree to our{" "}
           <Link
             href="/privacy"
-            className="underline text-zinc-300 hover:text-white transition-colors"
+            className="underline text-slate-300 hover:text-white transition-colors"
           >
             cookie policy
           </Link>
@@ -53,14 +53,14 @@ export default function CookieConsent() {
         <div className="flex items-center gap-3 shrink-0">
           <Link
             href="/privacy"
-            className="text-sm text-zinc-500 hover:text-zinc-300 transition-colors font-semibold"
+            className="text-sm text-slate-500 hover:text-slate-300 transition-colors font-semibold"
           >
             Learn more
           </Link>
           <button
             onClick={accept}
             className="rounded-lg px-5 py-2 text-sm font-bold transition-opacity hover:opacity-80"
-            style={{ backgroundColor: "#00FF87", color: "#0a0a0a" }}
+            style={{ backgroundColor: "#00FF87", color: "#0f172a" }}
           >
             Accept
           </button>

@@ -34,32 +34,30 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
   const totalMatches =
     selectedDay?.leagues.reduce((n, g) => n + g.fixtures.length, 0) ?? 0;
 
-  // Visible window: 5 date pills centred on the selected day
-  const VISIBLE = 5;
-  const half = Math.floor(VISIBLE / 2);
-  const startIdx = Math.max(
-    0,
-    Math.min(selectedIdx - half, days.length - VISIBLE)
-  );
-  const visibleDays = days.slice(startIdx, startIdx + VISIBLE);
-
   function prev() {
-    if (selectedIdx > 0) setSelectedDate(days[selectedIdx - 1].date);
+    if (selectedIdx > 0) {
+      const newDate = days[selectedIdx - 1].date;
+      setSelectedDate(newDate);
+      document.getElementById(`date-pill-${newDate}`)?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
   }
   function next() {
-    if (selectedIdx < days.length - 1) setSelectedDate(days[selectedIdx + 1].date);
+    if (selectedIdx < days.length - 1) {
+      const newDate = days[selectedIdx + 1].date;
+      setSelectedDate(newDate);
+      document.getElementById(`date-pill-${newDate}`)?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
   }
 
   return (
-    <section>
+    <section className="pt-6">
       {/* Header */}
       <div className="section-row mb-3">
         <h2 className="section-title text-xl">
           Matches
           {totalMatches > 0 && (
             <span
-              className="ml-2 text-[9px] font-black px-1.5 py-0.5 rounded-full"
-              style={{ backgroundColor: "rgba(0,255,135,0.15)", color: "#00FF87" }}
+              className="ml-2 bg-slate-800 text-slate-400 text-[10px] font-bold px-2 py-0.5 rounded-full border border-slate-700"
             >
               {totalMatches}
             </span>
@@ -71,7 +69,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
       </div>
 
       {/* Date strip */}
-      <div className="flex items-center gap-1.5 mb-5">
+      <div className="flex items-center gap-1.5 mb-5 w-full">
         {/* Prev arrow */}
         <button
           onClick={prev}
@@ -83,12 +81,12 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
             border: "1px solid rgba(255,255,255,0.08)",
           }}
         >
-          <span className="text-sm font-bold text-zinc-300 leading-none">‹</span>
+          <span className="text-sm font-bold text-slate-300 leading-none">‹</span>
         </button>
 
         {/* Date pills */}
-        <div className="flex gap-1.5 flex-1">
-          {visibleDays.map((day) => {
+        <div className="flex gap-1.5 flex-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden snap-x scroll-smooth">
+          {days.map((day) => {
             const isToday = day.date === todayStr;
             const isSelected = day.date === selectedDate;
             const hasMatches = day.leagues.some((l) => l.fixtures.length > 0);
@@ -96,15 +94,19 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
             return (
               <button
                 key={day.date}
-                onClick={() => setSelectedDate(day.date)}
-                className="flex-1 flex flex-col items-center py-2 px-1 rounded-xl transition-all"
+                id={`date-pill-${day.date}`}
+                onClick={() => {
+                  setSelectedDate(day.date);
+                  document.getElementById(`date-pill-${day.date}`)?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+                }}
+                className="snap-center flex flex-col items-center justify-center shrink-0 w-12 h-14 sm:w-14 sm:h-16 rounded-xl transition-all"
                 style={
                   isSelected
                     ? { backgroundColor: "#00FF87", color: "#0a0a0a" }
                     : {
                         backgroundColor: "rgba(255,255,255,0.03)",
-                        border: "1px solid rgba(255,255,255,0.07)",
-                        color: "#a1a1aa",
+                        border: "1px solid #334155",
+                        color: "#94a3b8",
                       }
                 }
               >
@@ -148,7 +150,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
             border: "1px solid rgba(255,255,255,0.08)",
           }}
         >
-          <span className="text-sm font-bold text-zinc-300 leading-none">›</span>
+          <span className="text-sm font-bold text-slate-300 leading-none">›</span>
         </button>
       </div>
 
@@ -158,11 +160,11 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
           className="text-center py-10 rounded-xl"
           style={{
             backgroundColor: "rgba(255,255,255,0.02)",
-            border: "1px solid rgba(255,255,255,0.06)",
+            border: "1px solid #334155",
           }}
         >
-          <p className="text-zinc-400 text-sm font-bold">No matches on this date.</p>
-          <p className="text-zinc-600 text-xs mt-1">
+          <p className="text-slate-400 text-sm font-bold">No matches on this date.</p>
+          <p className="text-slate-600 text-xs mt-1">
             Try another day or browse fixtures by league.
           </p>
           <Link
@@ -177,25 +179,32 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
           {selectedDay.leagues.map((group) => (
             <div key={group.leagueSlug}>
               {/* League header row */}
-              <div className="flex items-center gap-2 mb-2">
-                <Image
-                  src={group.leagueLogo}
-                  alt={group.leagueName}
-                  width={18}
-                  height={18}
-                  className="object-contain shrink-0"
-                  unoptimized
-                />
-                <span className="text-xs font-bold text-zinc-300">
-                  {group.leagueName}
-                </span>
+              <div className="flex items-center gap-2 mb-3">
+                <Link
+                  href={`/leagues/${group.leagueSlug}`}
+                  className="flex items-center gap-2 group min-w-0"
+                >
+                  <div className="shrink-0 w-6 h-6 flex items-center justify-center rounded-lg bg-slate-50 shadow-inner p-0.5">
+                    <Image
+                      src={group.leagueLogo}
+                      alt={group.leagueName}
+                      width={18}
+                      height={18}
+                      className="object-contain"
+                      unoptimized
+                    />
+                  </div>
+                  <span className="text-xs font-bold text-slate-300 group-hover:text-white transition-colors truncate">
+                    {group.leagueName}
+                  </span>
+                </Link>
                 <div
                   className="flex-1 h-px"
-                  style={{ backgroundColor: "rgba(39,39,42,0.6)" }}
+                  style={{ backgroundColor: "#334155" }}
                 />
                 <Link
                   href={`/leagues/${group.leagueSlug}/matches`}
-                  className="text-[10px] font-bold"
+                  className="text-[10px] font-bold shrink-0"
                   style={{ color: "#00FF87" }}
                 >
                   All fixtures →
@@ -215,9 +224,9 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                       href={`/leagues/${group.leagueSlug}/matches/${f.slug}`}
                       className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
                       style={{
-                        backgroundColor: "rgba(24,24,27,0.8)",
-                        border: "1px solid rgba(39,39,42,0.8)",
-                        borderLeft: live ? "3px solid rgba(0,255,135,0.6)" : "1px solid rgba(39,39,42,0.8)",
+                        backgroundColor: "#1e293b",
+                        border: "1px solid #334155",
+                        borderLeft: "3px solid #00FF87",
                       }}
                     >
                       {/* Left: status / time */}
@@ -229,7 +238,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                             {STATUS_LABEL[f.status] ?? f.status}
                           </span>
                         ) : (
-                          <span className="text-[11px] font-bold text-zinc-400 tabular-nums">
+                          <span className="text-[11px] font-bold text-slate-400 tabular-nums">
                             {f.kickoff_utc}
                           </span>
                         )}
@@ -241,10 +250,10 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                         <div className="flex items-center gap-2">
                           <Image src={f.home_team.logo} alt={f.home_team.name}
                             width={16} height={16} className="object-contain shrink-0" unoptimized />
-                          <span className={`text-xs truncate flex-1 ${homeWon ? "font-bold text-white" : "font-medium text-zinc-400"}`}>
+                          <span className={`text-xs truncate flex-1 ${homeWon ? "font-bold text-white" : "font-medium text-slate-400"}`}>
                             {f.home_team.name}
                           </span>
-                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${homeWon ? "text-white" : live ? "text-zinc-300" : "text-zinc-500"}`}>
+                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${homeWon ? "text-white" : live ? "text-slate-300" : "text-slate-500"}`}>
                             {finished || live ? (f.score.home ?? 0) : "—"}
                           </span>
                         </div>
@@ -252,17 +261,17 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                         <div className="flex items-center gap-2">
                           <Image src={f.away_team.logo} alt={f.away_team.name}
                             width={16} height={16} className="object-contain shrink-0" unoptimized />
-                          <span className={`text-xs truncate flex-1 ${awayWon ? "font-bold text-white" : "font-medium text-zinc-400"}`}>
+                          <span className={`text-xs truncate flex-1 ${awayWon ? "font-bold text-white" : "font-medium text-slate-400"}`}>
                             {f.away_team.name}
                           </span>
-                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${awayWon ? "text-white" : live ? "text-zinc-300" : "text-zinc-500"}`}>
+                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${awayWon ? "text-white" : live ? "text-slate-300" : "text-slate-500"}`}>
                             {finished || live ? (f.score.away ?? 0) : "—"}
                           </span>
                         </div>
                       </div>
 
                       {/* Right: chevron */}
-                      <span className="shrink-0 text-zinc-700 text-xs font-bold">›</span>
+                      <span className="shrink-0 text-slate-600 text-xs font-bold">›</span>
                     </Link>
                   );
                 })}

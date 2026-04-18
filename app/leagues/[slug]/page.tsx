@@ -80,12 +80,12 @@ export default function LeaguePage({ params }: Props) {
         {/* Hero */}
         <div className="page-header">
           <div className="flex items-start gap-5">
-            <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl bg-white/[0.04] border border-white/[0.08] p-2.5">
+            <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl bg-slate-50 shadow-inner p-1.5">
               <Image
                 src={league.logo}
                 alt={`${league.name} logo`}
-                width={60}
-                height={60}
+                width={68}
+                height={68}
                 className="object-contain"
                 unoptimized
               />
@@ -179,7 +179,7 @@ export default function LeaguePage({ params }: Props) {
                   key={f.fixture_id}
                   href={`/leagues/${league.slug}/matches/${f.slug}`}
                   className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
-                  style={{ backgroundColor: "rgba(24,24,27,0.8)", border: "1px solid rgba(39,39,42,0.8)" }}
+                  style={{ backgroundColor: "#1e293b", border: "1px solid #334155" }}
                 >
                   <span className="shrink-0 text-[11px] font-bold text-zinc-500 tabular-nums w-14">{fmtDate(f.date)}</span>
                   <div className="flex-1 flex flex-col gap-1 min-w-0">
@@ -213,7 +213,7 @@ export default function LeaguePage({ params }: Props) {
                   key={f.fixture_id}
                   href={`/leagues/${league.slug}/matches/${f.slug}`}
                   className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-white/[0.03]"
-                  style={{ backgroundColor: "rgba(24,24,27,0.8)", border: "1px solid rgba(39,39,42,0.8)" }}
+                  style={{ backgroundColor: "#1e293b", border: "1px solid #334155" }}
                 >
                   <span className="shrink-0 text-[11px] font-bold text-zinc-500 tabular-nums w-14">{fmtDate(f.date)}</span>
                   <div className="flex-1 flex flex-col gap-1 min-w-0">

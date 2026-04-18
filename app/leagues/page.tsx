@@ -43,12 +43,12 @@ export default function LeaguesPage() {
             className="entity-card flex items-center gap-4 group"
           >
             {/* Logo */}
-            <div className="shrink-0 w-14 h-14 flex items-center justify-center rounded-xl bg-white/[0.03] border border-white/[0.06] p-2">
+            <div className="shrink-0 w-14 h-14 flex items-center justify-center rounded-xl bg-slate-50 shadow-inner p-1.5">
               <Image
                 src={league.logo}
                 alt={`${league.name} logo`}
-                width={40}
-                height={40}
+                width={48}
+                height={48}
                 className="object-contain"
                 unoptimized
               />

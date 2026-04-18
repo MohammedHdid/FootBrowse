@@ -22,7 +22,7 @@ export default function MatchMiniBar(p: Props) {
 
   return (
     <div className="flex items-center justify-center gap-4 px-4 py-2.5"
-      style={{ backgroundColor: "#0a0a0a", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
+      style={{ backgroundColor: "#0f172a", borderBottom: "1px solid rgba(51, 65, 85, 0.4)" }}>
       <Image src={p.homeLogo} alt={p.homeName} width={28} height={28} unoptimized
         className="object-contain shrink-0" style={{ height: p.homeIsFlag ? 18 : 28, width: "auto" }} />
 
@@ -36,7 +36,7 @@ export default function MatchMiniBar(p: Props) {
             <span className="text-xl font-black" style={{ color: "#00FF87", letterSpacing: "-0.03em" }}>
               {p.kickoffUtc}
             </span>
-            <span className="block text-[10px] text-zinc-500 mt-0.5">
+            <span className="block text-[10px] text-slate-500 mt-0.5">
               {new Date(p.matchDate).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
             </span>
           </>

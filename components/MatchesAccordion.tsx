@@ -67,10 +67,10 @@ function MatchRow({ match }: { match: Match }) {
 
       {/* Centre: date · time · VS · city */}
       <div className="flex flex-col items-center shrink-0 w-20 sm:w-28">
-        <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">
+        <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest">
           {date}
         </span>
-        <span className="text-[9px] text-zinc-500 mt-0.5 tabular-nums">
+        <span className="text-[9px] text-slate-500 mt-0.5 tabular-nums">
           {match.kickoff_utc} UTC
         </span>
         <span
@@ -79,7 +79,7 @@ function MatchRow({ match }: { match: Match }) {
         >
           VS
         </span>
-        <span className="text-[9px] text-zinc-400 mt-0.5 text-center leading-tight truncate max-w-full">
+        <span className="text-[9px] text-slate-400 mt-0.5 text-center leading-tight truncate max-w-full">
           {city}
         </span>
       </div>
@@ -100,7 +100,7 @@ function MatchRow({ match }: { match: Match }) {
         {match.odds && match.odds.length > 0 && (
           <div className="flex gap-2 text-[10px] font-bold tabular-nums">
             <span style={{ color: "#00FF87" }}>{match.odds[0].team_a_win.toFixed(2)}</span>
-            <span className="text-zinc-500">{match.odds[0].draw.toFixed(2)}</span>
+            <span className="text-slate-500">{match.odds[0].draw.toFixed(2)}</span>
             <span className="text-blue-400">{match.odds[0].team_b_win.toFixed(2)}</span>
           </div>
         )}
@@ -137,13 +137,13 @@ function AccordionSection({
   return (
     <div
       className="rounded-xl overflow-hidden"
-      style={{ border: "1px solid rgba(255,255,255,0.07)" }}
+      style={{ border: "1px solid #334155" }}
     >
       {/* Header */}
       <button
         onClick={() => setOpen((v) => !v)}
-        className="w-full flex items-center justify-between px-4 py-3 transition-colors hover:bg-white/[0.03]"
-        style={{ backgroundColor: "rgba(255,255,255,0.03)" }}
+        className="w-full flex items-center justify-between px-4 py-3 transition-colors hover:bg-slate-700/50"
+        style={{ backgroundColor: "#1e293b" }}
       >
         <div className="flex items-center gap-2.5">
           <span
@@ -164,7 +164,7 @@ function AccordionSection({
           </span>
         </div>
         <span
-          className="text-zinc-400 text-sm transition-transform duration-200"
+          className="text-slate-400 text-sm transition-transform duration-200"
           style={{ transform: open ? "rotate(180deg)" : "rotate(0deg)" }}
         >
           ▾

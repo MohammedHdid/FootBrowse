@@ -80,16 +80,38 @@ export default function LeagueMatchesPage({ params, searchParams }: Props) {
 
       {/* Hero */}
       <div className="page-header">
-        <div className="flex items-center gap-4">
-          <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl bg-white/[0.04] border border-white/[0.08] p-2">
-            <Image src={league.logo} alt={league.name} width={32} height={32} className="object-contain" unoptimized />
+        <div className="flex items-start gap-5">
+          <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl bg-slate-50 shadow-inner p-1.5">
+            <Image
+              src={league.logo}
+              alt={`${league.name} logo`}
+              width={68}
+              height={68}
+              className="object-contain"
+              unoptimized
+            />
           </div>
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="badge-green">{filtered.length} Fixtures</span>
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <span className="badge-green">{league.type}</span>
               <span className="tag">{season}</span>
+              {league.flag ? (
+                <span className="flex items-center gap-1.5 text-xs text-zinc-500">
+                  <Image src={league.flag} alt={league.country} width={14} height={10} className="rounded-sm object-cover" unoptimized />
+                  {league.country}
+                </span>
+              ) : (
+                <span className="text-xs text-zinc-500">{league.country}</span>
+              )}
             </div>
-            <h1 style={{ fontSize: "1.4rem" }}>{league.name} — Fixtures & Results</h1>
+            <h1>{league.name}</h1>
+            {league.seasonStart && league.seasonEnd && (
+              <p className="mt-1.5 text-xs text-zinc-500">
+                {new Date(league.seasonStart).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                {" "}–{" "}
+                {new Date(league.seasonEnd).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+              </p>
+            )}
           </div>
         </div>
       </div>
@@ -150,8 +172,8 @@ export default function LeagueMatchesPage({ params, searchParams }: Props) {
                         href={`/leagues/${league.slug}/matches/${fixture.slug}`}
                         className="flex items-center gap-3 rounded-lg px-4 py-3 border transition-colors hover:border-white/20"
                         style={{
-                          backgroundColor: "rgba(24,24,27,0.8)",
-                          borderColor: live ? "rgba(0,255,135,0.2)" : "rgba(39,39,42,0.8)",
+                          backgroundColor: "#1e293b",
+                          borderColor: live ? "#00FF87" : "#334155",
                         }}
                       >
                         {/* Time / Status */}

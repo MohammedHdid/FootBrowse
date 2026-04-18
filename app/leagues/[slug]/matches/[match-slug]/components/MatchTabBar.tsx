@@ -14,10 +14,10 @@ interface Props {
 export default function MatchTabBar({ tabs, activeTab, onTabChange }: Props) {
   return (
     <div
-      className="flex justify-center overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-      style={{ backgroundColor: "#0a0a0a", borderBottom: "1px solid rgba(255,255,255,0.07)" }}
+      className="flex overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden px-2 sm:px-4"
+      style={{ backgroundColor: "#0f172a", borderBottom: "1px solid rgba(51, 65, 85, 0.4)" }}
     >
-      <div className="flex shrink-0">
+      <div className="flex shrink-0 w-full md:w-auto">
         {tabs.map((tab) => {
           const isActive = tab.id === activeTab;
           return (
@@ -27,7 +27,7 @@ export default function MatchTabBar({ tabs, activeTab, onTabChange }: Props) {
               className={`relative px-4 py-3 text-xs font-bold uppercase tracking-wider whitespace-nowrap transition-all duration-150 shrink-0 rounded-md mx-0.5 ${
                 isActive
                   ? "text-[#00FF87]"
-                  : "text-zinc-500 hover:text-zinc-300 hover:bg-white/[0.06]"
+                  : "text-slate-500 hover:text-slate-300 hover:bg-white/[0.06]"
               }`}
             >
               {tab.label}

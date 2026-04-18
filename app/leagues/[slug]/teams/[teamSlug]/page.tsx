@@ -224,18 +224,16 @@ export default function TeamPage({ params }: Props) {
                 </>
               ) : (
                 <div
-                  className="rounded-2xl overflow-hidden flex items-center justify-center p-3 shrink-0"
+                  className="rounded-2xl overflow-hidden flex items-center justify-center bg-slate-50 shadow-inner p-1.5 shrink-0"
                   style={{
                     width: 110, height: 110,
-                    backgroundColor: "rgba(255,255,255,0.04)",
-                    border: "1px solid rgba(255,255,255,0.08)",
                   }}
                 >
                   <Image
                     src={teamLogo}
                     alt={`${teamName} crest`}
-                    width={88}
-                    height={88}
+                    width={98}
+                    height={98}
                     priority
                     className="object-contain"
                     unoptimized

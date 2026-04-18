@@ -114,10 +114,10 @@ export default function RootLayout({
         <header
           className="sticky top-0 z-50 border-b"
           style={{
-            backgroundColor: "rgba(10,10,10,0.82)",
+            backgroundColor: "rgba(15, 23, 42, 0.9)",
             backdropFilter: "blur(12px)",
             WebkitBackdropFilter: "blur(12px)",
-            borderBottomColor: "rgba(39,39,42,0.7)",
+            borderBottomColor: "#334155",
           }}
         >
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
@@ -152,8 +152,8 @@ export default function RootLayout({
         <footer
           className="mt-auto border-t"
           style={{
-            backgroundColor: "rgba(12,12,12,0.95)",
-            borderTopColor: "rgba(39,39,42,0.8)",
+            backgroundColor: "#0f172a",
+            borderTopColor: "#334155",
           }}
         >
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
@@ -172,7 +172,7 @@ export default function RootLayout({
                   />
                   FootBrowse
                 </p>
-                <p className="text-xs text-zinc-500 mt-2 max-w-xs leading-relaxed mx-auto sm:mx-0">
+                <p className="text-xs text-slate-500 mt-2 max-w-xs leading-relaxed mx-auto sm:mx-0">
                   Your data-driven guide to the FIFA World Cup 2026.
                   Stats, fixtures, and profiles for every match, team,
                   player, and stadium.
@@ -205,19 +205,19 @@ export default function RootLayout({
                   <nav className="flex flex-col gap-2">
                     <a
                       href="#"
-                      className="text-sm text-zinc-400 hover:text-white transition-colors"
+                      className="text-sm text-slate-400 hover:text-white transition-colors"
                     >
                       X / Twitter
                     </a>
                     <a
                       href="#"
-                      className="text-sm text-zinc-400 hover:text-white transition-colors"
+                      className="text-sm text-slate-400 hover:text-white transition-colors"
                     >
                       Instagram
                     </a>
                     <a
                       href="#"
-                      className="text-sm text-zinc-400 hover:text-white transition-colors"
+                      className="text-sm text-slate-400 hover:text-white transition-colors"
                     >
                       YouTube
                     </a>

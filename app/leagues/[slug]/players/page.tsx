@@ -57,10 +57,10 @@ function PlayerRow({ player, statValue, statLabel, rank, href }: {
   return (
     <Wrapper>
     <div
-      className="flex items-center gap-3 px-4 py-3 transition-colors hover:bg-white/[0.04] cursor-pointer"
+      className="flex items-center gap-3 px-4 py-3 transition-colors hover:bg-slate-800 cursor-pointer"
       style={{
-        borderBottom: "1px solid rgba(39,39,42,0.5)",
-        backgroundColor: isTop3 ? "rgba(0,255,135,0.02)" : "transparent",
+        borderBottom: "1px solid #1e293b",
+        backgroundColor: isTop3 ? "rgba(0,255,135,0.05)" : "transparent",
       }}
     >
       {/* Rank */}
@@ -179,16 +179,38 @@ export default function LeaguePlayersPage({ params, searchParams }: Props) {
 
       {/* Hero */}
       <div className="page-header">
-        <div className="flex items-center gap-4">
-          <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-xl bg-white/[0.04] border border-white/[0.08] p-2">
-            <Image src={league.logo} alt={league.name} width={32} height={32} className="object-contain" unoptimized />
+        <div className="flex items-start gap-5">
+          <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center rounded-2xl bg-slate-50 shadow-inner p-1.5">
+            <Image
+              src={league.logo}
+              alt={`${league.name} logo`}
+              width={68}
+              height={68}
+              className="object-contain"
+              unoptimized
+            />
           </div>
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="badge-green">Top Players</span>
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
+              <span className="badge-green">{league.type}</span>
               <span className="tag">{season}</span>
+              {league.flag ? (
+                <span className="flex items-center gap-1.5 text-xs text-zinc-500">
+                  <Image src={league.flag} alt={league.country} width={14} height={10} className="rounded-sm object-cover" unoptimized />
+                  {league.country}
+                </span>
+              ) : (
+                <span className="text-xs text-zinc-500">{league.country}</span>
+              )}
             </div>
-            <h1 style={{ fontSize: "1.4rem" }}>{league.name} — Player Stats</h1>
+            <h1>{league.name}</h1>
+            {league.seasonStart && league.seasonEnd && (
+              <p className="mt-1.5 text-xs text-zinc-500">
+                {new Date(league.seasonStart).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                {" "}–{" "}
+                {new Date(league.seasonEnd).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+              </p>
+            )}
           </div>
         </div>
       </div>
@@ -243,8 +265,8 @@ export default function LeaguePlayersPage({ params, searchParams }: Props) {
           <div
             className="flex items-center gap-3 px-4 py-2.5 text-[10px] uppercase tracking-[0.12em] font-bold text-zinc-500"
             style={{
-              backgroundColor: "rgba(24,24,27,0.95)",
-              borderBottom: "1px solid rgba(39,39,42,0.8)",
+              backgroundColor: "#0f172a",
+              borderBottom: "1px solid #334155",
             }}
           >
             <span className="w-7 text-center">#</span>

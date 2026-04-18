@@ -16,15 +16,12 @@ interface Props {
   daysUntilWC: number;
 }
 
-const HERO_BG = {
-  background: "linear-gradient(135deg, rgba(0,255,135,0.09) 0%, rgba(0,255,135,0.03) 40%, transparent 70%)",
-  borderBottom: "1px solid rgba(0,255,135,0.1)",
-};
+// (HERO_BG removed, using inline gradient)
 
-// Dark forest green — football-app feel
+// Professional Navy — live score app feel
 const MINI_BG = {
-  background: "linear-gradient(135deg, #0d2318 0%, #071410 100%)",
-  borderBottom: "1px solid rgba(0,255,135,0.25)",
+  background: "rgba(15, 23, 42, 0.95)", // Slate 900
+  borderBottom: "1px solid rgba(51, 65, 85, 0.6)",
   backdropFilter: "blur(12px)",
   WebkitBackdropFilter: "blur(12px)",
 } as React.CSSProperties;
@@ -47,61 +44,62 @@ export default function HomeHeroClient({ leagues, wcStarted, daysUntilWC }: Prop
 
   return (
     <>
-      {/* ── Full hero ── */}
+      {/* ── Full premium hero ── */}
       <section
         ref={heroRef}
-        className="-mt-8 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 pt-4 pb-5"
-        style={HERO_BG}
+        className="-mt-8 -mx-4 sm:-mx-6 lg:-mx-8 relative overflow-hidden"
+        style={{
+          background: "linear-gradient(180deg, rgba(0, 255, 135, 0.05) 0%, rgba(15, 23, 42, 0) 100%)",
+          borderBottom: "1px solid rgba(51, 65, 85, 0.4)",
+        }}
       >
-        <div className="flex items-start justify-between gap-4 flex-wrap">
-          <div>
-            <h1
-              className="text-2xl sm:text-3xl font-black text-white leading-tight"
-              style={{ letterSpacing: "-0.04em" }}
-            >
-              Football Scores, Stats &amp; Fixtures
-            </h1>
-            <p className="text-zinc-500 text-xs mt-1 tracking-wide">{SUBTITLE}</p>
-          </div>
-
-          {/* WC countdown pill */}
-          <Link
-            href="/leagues/world-cup"
-            className="shrink-0 flex items-center gap-2 rounded-xl px-3 py-2 transition-opacity hover:opacity-80"
-            style={{
-              backgroundColor: wcStarted ? "rgba(0,255,135,0.15)" : "rgba(0,255,135,0.08)",
-              border: "1px solid rgba(0,255,135,0.25)",
-            }}
+        <div className="px-4 sm:px-6 lg:px-8 pt-6 pb-6 relative z-10">
+          <h1
+            className="text-3xl sm:text-4xl font-black text-white leading-tight"
+            style={{ letterSpacing: "-0.04em" }}
           >
-            <span className="text-base leading-none">🏆</span>
-            <div>
-              <p className="text-[10px] font-bold text-zinc-400 uppercase tracking-widest leading-none">WC 2026</p>
-              <p className="text-sm font-black leading-tight mt-0.5" style={{ color: "#00FF87" }}>
-                {wcStarted ? "Underway" : `${daysUntilWC}d to go`}
-              </p>
-            </div>
-          </Link>
-        </div>
+            Football Scores, Stats &amp; Fixtures
+          </h1>
+          <p className="text-slate-400 text-sm mt-1.5 tracking-wide max-w-xl">{SUBTITLE}</p>
 
-        {/* League quick-nav pills */}
-        <div className="flex items-center gap-2 mt-4">
-          {leagues.slice(0, 3).map((league) => (
+          {/* Quick nav & Integrated WC Pill */}
+          <div className="flex items-center gap-2 mt-6 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden w-full pb-1">
+            {/* Premium WC Action Pill */}
             <Link
-              key={league.slug}
-              href={`/leagues/${league.slug}`}
-              className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-bold text-zinc-400 border border-white/[0.08] hover:text-white hover:border-white/20 hover:bg-white/[0.04] transition-all whitespace-nowrap"
+              href="/leagues/world-cup"
+              className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-xs font-black transition-colors whitespace-nowrap shadow-sm hover:opacity-80 shrink-0"
+              style={{
+                backgroundColor: "rgba(0, 255, 135, 0.12)",
+                color: "#00FF87",
+                border: "1px solid rgba(0, 255, 135, 0.25)",
+              }}
             >
-              <Image src={league.logo} alt={league.name} width={14} height={14} className="object-contain shrink-0" unoptimized />
-              {league.name}
+              <span className="text-base leading-none drop-shadow-sm">🏆</span>
+              <span>World Cup 2026</span>
+              <span className="opacity-70 mx-0.5">·</span>
+              <span className="opacity-90">{wcStarted ? "Underway" : `${daysUntilWC}d left`}</span>
             </Link>
-          ))}
-          <Link
-            href="/leagues"
-            className="text-xs font-bold whitespace-nowrap transition-opacity hover:opacity-70"
-            style={{ color: "#00FF87" }}
-          >
-            All leagues →
-          </Link>
+
+            {leagues.slice(0, 3).map((league) => (
+              <Link
+                key={league.slug}
+                href={`/leagues/${league.slug}`}
+                className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-xs font-bold text-slate-300 bg-slate-800 hover:bg-slate-700 hover:text-white transition-colors whitespace-nowrap shrink-0"
+              >
+                <div className="bg-slate-50 p-0.5 rounded flex items-center justify-center shrink-0">
+                  <Image src={league.logo} alt={league.name} width={18} height={18} className="object-contain shrink-0" unoptimized />
+                </div>
+                {league.name}
+              </Link>
+            ))}
+            <Link
+              href="/leagues"
+              className="text-xs font-bold whitespace-nowrap transition-opacity hover:opacity-70 ml-2 shrink-0"
+              style={{ color: "#00FF87" }}
+            >
+              Browse all →
+            </Link>
+          </div>
         </div>
       </section>
 

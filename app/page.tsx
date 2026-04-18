@@ -67,15 +67,15 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
 
     <div className="space-y-10">
-      {/* ── Hero (client — handles sticky mini bar on scroll) ── */}
-      <HomeHeroClient
-        leagues={leagues.map((l) => ({ slug: l.slug, name: l.name, logo: l.logo }))}
-        wcStarted={wcStarted}
-        daysUntilWC={daysUntilWC}
-      />
-
-      {/* ── Matches (date nav) ── */}
-      <DateMatchesSection days={days} todayStr={todayStr} />
+      {/* ── Hero & Matches (grouped to remove gap) ── */}
+      <div>
+        <HomeHeroClient
+          leagues={leagues.map((l) => ({ slug: l.slug, name: l.name, logo: l.logo }))}
+          wcStarted={wcStarted}
+          daysUntilWC={daysUntilWC}
+        />
+        <DateMatchesSection days={days} todayStr={todayStr} />
+      </div>
 
       {/* ── World Cup 2026 ── */}
       <section>

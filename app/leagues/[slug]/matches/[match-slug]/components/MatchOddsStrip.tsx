@@ -13,7 +13,7 @@ export default function MatchOddsStrip({ oddsData }: Props) {
 
   return (
     <div className="flex items-center justify-center gap-2 px-4 py-2.5"
-      style={{ backgroundColor: "#0a0a0a", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
+      style={{ backgroundColor: "#0f172a", borderBottom: "1px solid rgba(51, 65, 85, 0.4)" }}>
       {/* 1 — Home */}
       <a href={AFFILIATE_URL} target="_blank" rel="noopener noreferrer nofollow"
         className="flex items-center gap-2 rounded-lg px-3 py-1.5 transition-opacity hover:opacity-80"
@@ -21,7 +21,7 @@ export default function MatchOddsStrip({ oddsData }: Props) {
         <span className="text-sm font-black tabular-nums" style={{ color: BLUE }}>
           {oddsData.home_win.toFixed(2)}
         </span>
-        <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest">1</span>
+        <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">1</span>
       </a>
 
       {/* X — Draw */}
@@ -31,7 +31,7 @@ export default function MatchOddsStrip({ oddsData }: Props) {
         <span className="text-sm font-black tabular-nums" style={{ color: BLUE }}>
           {oddsData.draw.toFixed(2)}
         </span>
-        <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest">X</span>
+        <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">X</span>
       </a>
 
       {/* 2 — Away */}
@@ -41,7 +41,7 @@ export default function MatchOddsStrip({ oddsData }: Props) {
         <span className="text-sm font-black tabular-nums" style={{ color: BLUE }}>
           {oddsData.away_win.toFixed(2)}
         </span>
-        <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest">2</span>
+        <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">2</span>
       </a>
 
       {/* 1xBet label */}
