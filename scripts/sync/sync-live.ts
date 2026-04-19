@@ -99,6 +99,7 @@ async function main() {
           score_away:  scoreAway,
           updated_at:  new Date().toISOString(),
         }, { onConflict: 'fixture_id' })
+      }
     }
   }
 
