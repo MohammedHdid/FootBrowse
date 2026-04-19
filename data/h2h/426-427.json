@@ -1,0 +1,78 @@
+{
+  "team1_id": 426,
+  "team2_id": 427,
+  "fetched_at": "2026-04-19T17:19:08.537Z",
+  "played": 5,
+  "team1_wins": 2,
+  "team2_wins": 0,
+  "draws": 3,
+  "team1_goals": 5,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1380951,
+      "date": "2025-10-25",
+      "league": "Eredivisie",
+      "home_id": 426,
+      "home_name": "Sparta Rotterdam",
+      "home_logo": "https://media.api-sports.io/football/teams/426.png",
+      "away_id": 427,
+      "away_name": "Telstar",
+      "away_logo": "https://media.api-sports.io/football/teams/427.png",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 737523,
+      "date": "2021-07-13",
+      "league": "Friendlies Clubs",
+      "home_id": 427,
+      "home_name": "Telstar",
+      "home_logo": "https://media.api-sports.io/football/teams/427.png",
+      "away_id": 426,
+      "away_name": "Sparta Rotterdam",
+      "away_logo": "https://media.api-sports.io/football/teams/426.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 596996,
+      "date": "2020-08-18",
+      "league": "Friendlies Clubs",
+      "home_id": 427,
+      "home_name": "Telstar",
+      "home_logo": "https://media.api-sports.io/football/teams/427.png",
+      "away_id": 426,
+      "away_name": "Sparta Rotterdam",
+      "away_logo": "https://media.api-sports.io/football/teams/426.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 6306,
+      "date": "2019-01-25",
+      "league": "Eerste Divisie",
+      "home_id": 427,
+      "home_name": "Telstar",
+      "home_logo": "https://media.api-sports.io/football/teams/427.png",
+      "away_id": 426,
+      "away_name": "Sparta Rotterdam",
+      "away_logo": "https://media.api-sports.io/football/teams/426.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 6194,
+      "date": "2018-10-26",
+      "league": "Eerste Divisie",
+      "home_id": 426,
+      "home_name": "Sparta Rotterdam",
+      "home_logo": "https://media.api-sports.io/football/teams/426.png",
+      "away_id": 427,
+      "away_name": "Telstar",
+      "away_logo": "https://media.api-sports.io/football/teams/427.png",
+      "home_score": 3,
+      "away_score": 2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "team1_id": 495,
+  "team2_id": 801,
+  "fetched_at": "2026-04-19T18:46:32.124Z",
+  "played": 4,
+  "team1_wins": 2,
+  "team2_wins": 0,
+  "draws": 2,
+  "team1_goals": 4,
+  "team2_goals": 2,
+  "last_matches": [
+    {
+      "fixture_id": 1378189,
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "home_id": 801,
+      "home_name": "Pisa",
+      "home_logo": "https://media.api-sports.io/football/teams/801.png",
+      "away_id": 495,
+      "away_name": "Genoa",
+      "away_logo": "https://media.api-sports.io/football/teams/495.png",
+      "home_score": 1,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1378038,
+      "date": "2026-01-03",
+      "league": "Serie A",
+      "home_id": 495,
+      "home_name": "Genoa",
+      "home_logo": "https://media.api-sports.io/football/teams/495.png",
+      "away_id": 801,
+      "away_name": "Pisa",
+      "away_logo": "https://media.api-sports.io/football/teams/801.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 903758,
+      "date": "2023-01-28",
+      "league": "Serie B",
+      "home_id": 495,
+      "home_name": "Genoa",
+      "home_logo": "https://media.api-sports.io/football/teams/495.png",
+      "away_id": 801,
+      "away_name": "Pisa",
+      "away_logo": "https://media.api-sports.io/football/teams/801.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 903569,
+      "date": "2022-08-28",
+      "league": "Serie B",
+      "home_id": 801,
+      "home_name": "Pisa",
+      "home_logo": "https://media.api-sports.io/football/teams/801.png",
+      "away_id": 495,
+      "away_name": "Genoa",
+      "away_logo": "https://media.api-sports.io/football/teams/495.png",
+      "home_score": 0,
+      "away_score": 1
+    }
+  ]
+}

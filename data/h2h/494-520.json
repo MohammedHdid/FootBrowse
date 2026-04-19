@@ -1,0 +1,65 @@
+{
+  "team1_id": 494,
+  "team2_id": 520,
+  "fetched_at": "2026-04-19T17:18:52.410Z",
+  "played": 4,
+  "team1_wins": 2,
+  "team2_wins": 0,
+  "draws": 2,
+  "team1_goals": 7,
+  "team2_goals": 2,
+  "last_matches": [
+    {
+      "fixture_id": 1377927,
+      "date": "2025-10-20",
+      "league": "Serie A",
+      "home_id": 520,
+      "home_name": "Cremonese",
+      "home_logo": "https://media.api-sports.io/football/teams/520.png",
+      "away_id": 494,
+      "away_name": "Udinese",
+      "away_logo": "https://media.api-sports.io/football/teams/494.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 882087,
+      "date": "2023-04-23",
+      "league": "Serie A",
+      "home_id": 494,
+      "home_name": "Udinese",
+      "home_logo": "https://media.api-sports.io/football/teams/494.png",
+      "away_id": 520,
+      "away_name": "Cremonese",
+      "away_logo": "https://media.api-sports.io/football/teams/520.png",
+      "home_score": 3,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 979628,
+      "date": "2022-12-29",
+      "league": "Friendlies Clubs",
+      "home_id": 520,
+      "home_name": "Cremonese",
+      "home_logo": "https://media.api-sports.io/football/teams/520.png",
+      "away_id": 494,
+      "away_name": "Udinese",
+      "away_logo": "https://media.api-sports.io/football/teams/494.png",
+      "home_score": 1,
+      "away_score": 3
+    },
+    {
+      "fixture_id": 881890,
+      "date": "2022-10-30",
+      "league": "Serie A",
+      "home_id": 520,
+      "home_name": "Cremonese",
+      "home_logo": "https://media.api-sports.io/football/teams/520.png",
+      "away_id": 494,
+      "away_name": "Udinese",
+      "away_logo": "https://media.api-sports.io/football/teams/494.png",
+      "home_score": 0,
+      "away_score": 0
+    }
+  ]
+}

@@ -1,10 +1,9 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import { supabase } from '@/lib/supabase'
 import type { League } from '@/lib/leagues'
 
 export interface StandingRow {
   rank: number
-  team: { id: number; name: string; slug: string; logo: string }
+  team: { id: string; name: string; slug: string; logo: string }
   points: number
   played: number
   won: number
@@ -23,23 +22,46 @@ export interface StandingsGroup {
 }
 
 export interface StandingsFile {
-  league_id: number
+  league_id: string
   season: number
   groups: StandingsGroup[]
 }
 
-export function getStandings(league: League): StandingsFile | null {
-  const filePath = path.join(
-    process.cwd(), 'data', 'standings', `${league.slug}-${league.season}.json`
-  )
-  if (!fs.existsSync(filePath)) return null
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as StandingsFile
+export async function getStandings(league: League): Promise<StandingsFile | null> {
+  const { data } = await supabase
+    .from('standings')
+    .select(`
+      rank, points, played, won, drawn, lost, goals_for, goals_against, goal_diff, form, description,
+      team:teams!team_id(id, name, slug, logo)
+    `)
+    .eq('league_id', league.id)
+    .eq('season', league.season)
+    .order('rank', { ascending: true })
+
+  if (!data?.length) return null
+
+  const table: StandingRow[] = data.map((r: any) => ({
+    rank:          r.rank,
+    team:          { id: r.team?.id ?? '', name: r.team?.name ?? '', slug: r.team?.slug ?? '', logo: r.team?.logo ?? '' },
+    points:        r.points,
+    played:        r.played,
+    won:           r.won,
+    drawn:         r.drawn,
+    lost:          r.lost,
+    goals_for:     r.goals_for,
+    goals_against: r.goals_against,
+    goal_diff:     r.goal_diff,
+    form:          r.form ?? '',
+    description:   r.description ?? null,
+  }))
+
+  return {
+    league_id: league.id,
+    season:    league.season,
+    groups:    [{ group: 'Overall', table }],
+  }
 }
 
-/**
- * Determine the highlight zone colour for a table row based on description text.
- * Returns a CSS colour string or null.
- */
 export function zoneColor(description: string | null): string | null {
   if (!description) return null
   const d = description.toLowerCase()

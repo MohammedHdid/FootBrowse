@@ -12,7 +12,13 @@ export default function LineupsTab({ data }: { data: MatchPageData }) {
     <div className="space-y-6">
       {data.lineup ? (
         /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-        <MatchLineup lineup={data.lineup as any} homeName={data.homeName} awayName={data.awayName} />
+        <MatchLineup 
+          lineup={data.lineup as any} 
+          homeName={data.homeName} 
+          awayName={data.awayName}
+          homeSquad={data.squadA}
+          awaySquad={data.squadB}
+        />
       ) : (
         <div className="section-block py-10 text-center">
           <p className="text-sm font-bold text-zinc-500 mb-1">Lineups Not Yet Announced</p>
@@ -20,10 +26,10 @@ export default function LineupsTab({ data }: { data: MatchPageData }) {
         </div>
       )}
 
-      {/* Availability / Injuries */}
+      {/* Injuries & Suspensions */}
       {hasInjuries && (
         <section className="section-block">
-          <h2 className="section-title text-xl mb-5">Availability</h2>
+          <h2 className="section-title text-xl mb-5">Injuries & Suspensions</h2>
           <div className="grid grid-cols-2 gap-6">
             {[
               { name: data.homeName, logo: data.homeLogo, injuries: data.homeInjuries },

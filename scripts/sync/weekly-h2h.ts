@@ -1,36 +1,22 @@
 /**
- * TASK 19b — H2H Sync
+ * TASK 19b — H2H Sync (Supabase edition)
  *
  * Fetches head-to-head history for all upcoming fixtures across priority leagues.
- * Caches to data/h2h/{min_team_id}-{max_team_id}.json
+ * Reads upcoming fixtures from Supabase. Caches to data/h2h/{min}-{max}.json
  *
  * Usage:
- *   npx tsx scripts/sync/weekly-h2h.ts           # all upcoming fixtures
- *   npx tsx scripts/sync/weekly-h2h.ts --all     # force-refresh all existing
+ *   npx tsx scripts/sync/weekly-h2h.ts           # missing only
+ *   npx tsx scripts/sync/weekly-h2h.ts --all     # force-refresh all
  *   npx tsx scripts/sync/weekly-h2h.ts --dry-run # show plan, no writes
- *
- * API calls: 1 per unique team pairing with upcoming fixture
- * Rate limit: 10 req/min (handled by api-client)
  */
 
 import fs from 'node:fs'
 import path from 'node:path'
+import { getDb } from '../utils/db.js'
 import { createApiClient } from '../utils/api-client.js'
+import { loadEnv } from '../utils/env.js'
 
-// ── Load .env.local ──────────────────────────────────────────────────────────
-
-const envPath = path.resolve(process.cwd(), '.env.local')
-if (fs.existsSync(envPath)) {
-  for (const line of fs.readFileSync(envPath, 'utf-8').split('\n')) {
-    const t = line.trim()
-    if (!t || t.startsWith('#')) continue
-    const eq = t.indexOf('=')
-    if (eq === -1) continue
-    const k = t.slice(0, eq).trim()
-    const v = t.slice(eq + 1).trim()
-    if (!process.env[k]) process.env[k] = v
-  }
-}
+loadEnv()
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -72,37 +58,9 @@ export interface H2HFile {
   last_matches: H2HMatch[]
 }
 
-interface StoredFixture {
-  fixture_id: number
-  slug: string
-  date: string
-  status: string
-  home_team: { id: number; name: string; slug: string; logo: string }
-  away_team: { id: number; name: string; slug: string; logo: string }
-}
-
-interface LeagueEntry {
-  id: number
-  slug: string
-  season: number
-}
-
-interface WcMatchTeam {
-  slug: string
-  name: string
-}
-
-interface WcMatch {
-  slug: string
-  date: string
-  team_a: WcMatchTeam
-  team_b: WcMatchTeam
-}
-
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
-const DATA_DIR = path.join(process.cwd(), 'data')
-const H2H_DIR  = path.join(DATA_DIR, 'h2h')
+const H2H_DIR = path.join(process.cwd(), 'data', 'h2h')
 
 function ensureDir() {
   if (!fs.existsSync(H2H_DIR)) fs.mkdirSync(H2H_DIR, { recursive: true })
@@ -120,40 +78,6 @@ function h2hExists(id1: number, id2: number): boolean {
   return fs.existsSync(h2hPath(id1, id2))
 }
 
-function getPriorityLeagues(): LeagueEntry[] {
-  const leagues: LeagueEntry[] = JSON.parse(
-    fs.readFileSync(path.join(DATA_DIR, 'leagues.json'), 'utf-8'),
-  )
-  return leagues.filter((l) => l.slug !== 'world-cup')
-}
-
-/** Adds WC 2026 team pairings if wc-team-ids.json is bootstrapped */
-function addWcPairings(pairs: Map<string, { id1: number; id2: number; label: string }>) {
-  const wcTeamIdsPath = path.join(DATA_DIR, 'wc-team-ids.json')
-  const wcMatchesPath = path.join(DATA_DIR, 'matches.json')
-  if (!fs.existsSync(wcTeamIdsPath) || !fs.existsSync(wcMatchesPath)) return
-
-  const wcTeamIds: Record<string, number> = JSON.parse(fs.readFileSync(wcTeamIdsPath, 'utf-8'))
-  const wcMatches: WcMatch[] = JSON.parse(fs.readFileSync(wcMatchesPath, 'utf-8'))
-
-  for (const m of wcMatches) {
-    const id1 = wcTeamIds[m.team_a.slug]
-    const id2 = wcTeamIds[m.team_b.slug]
-    if (!id1 || !id2) continue
-    const key = h2hKey(id1, id2)
-    if (!pairs.has(key)) {
-      pairs.set(key, { id1, id2, label: `${m.team_a.name} vs ${m.team_b.name}` })
-    }
-  }
-}
-
-function getUpcomingFixtures(league: LeagueEntry): StoredFixture[] {
-  const fp = path.join(DATA_DIR, 'fixtures', `${league.slug}-${league.season}.json`)
-  if (!fs.existsSync(fp)) return []
-  const all: StoredFixture[] = JSON.parse(fs.readFileSync(fp, 'utf-8'))
-  return all.filter((f) => f.status === 'NS')
-}
-
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -163,40 +87,51 @@ async function main() {
   const forceAll = args.includes('--all')
   const dryRun  = args.includes('--dry-run')
 
-  const apiKey = process.env.API_FOOTBALL_KEY ?? ''
-  if (!apiKey) {
-    console.error('❌  API_FOOTBALL_KEY not set in .env.local')
-    process.exit(1)
-  }
-  const api = createApiClient(apiKey)
+  const db  = getDb()
+  const api = createApiClient(process.env.API_FOOTBALL_KEY ?? '')
 
-  const leagues = getPriorityLeagues()
+  const today  = new Date().toISOString().slice(0, 10)
+  const horizon = new Date(Date.now() + 90 * 86_400_000).toISOString().slice(0, 10)
 
-  // Collect unique team pairings from upcoming fixtures
+  // Fetch upcoming fixtures with both team api_football_ids
+  const { data: rows, error } = await db
+    .from('matches')
+    .select(`
+      fixture_id, slug,
+      home_team:teams!home_id(api_football_id, name),
+      away_team:teams!away_id(api_football_id, name)
+    `)
+    .in('status', ['NS', 'TBD', '1H', '2H', 'HT', 'FT', 'PEN', 'AET', 'P', 'LIVE'])
+    .gte('date', today)
+    .lte('date', horizon)
+    .not('home_id', 'is', null)
+    .not('away_id', 'is', null)
+
+  if (error) throw new Error(error.message)
+
+  // Collect unique team pairings
   const pairs = new Map<string, { id1: number; id2: number; label: string }>()
-  for (const league of leagues) {
-    for (const f of getUpcomingFixtures(league)) {
-      const key = h2hKey(f.home_team.id, f.away_team.id)
-      if (!pairs.has(key)) {
-        pairs.set(key, {
-          id1:   f.home_team.id,
-          id2:   f.away_team.id,
-          label: `${f.home_team.name} vs ${f.away_team.name}`,
-        })
-      }
+  for (const r of (rows ?? []) as any[]) {
+    const homeApiId = r.home_team?.api_football_id
+    const awayApiId = r.away_team?.api_football_id
+    if (!homeApiId || !awayApiId) continue
+    const key = h2hKey(homeApiId, awayApiId)
+    if (!pairs.has(key)) {
+      pairs.set(key, {
+        id1:   homeApiId,
+        id2:   awayApiId,
+        label: `${r.home_team.name} vs ${r.away_team.name}`,
+      })
     }
   }
-
-  // Add WC 2026 pairings if bootstrapped
-  addWcPairings(pairs)
 
   const targets = forceAll
     ? Array.from(pairs.values())
     : Array.from(pairs.values()).filter((p) => !h2hExists(p.id1, p.id2))
 
   console.log(`\nH2H sync`)
-  console.log(`  Unique pairings in upcoming fixtures: ${pairs.size}`)
-  console.log(`  To fetch: ${targets.length}${forceAll ? ' (force refresh)' : ' (missing only)'}`)
+  console.log(`  Upcoming pairings (next 14d): ${pairs.size}`)
+  console.log(`  To fetch: ${targets.length}${forceAll ? ' (force)' : ' (missing only)'}`)
 
   if (dryRun) {
     for (const t of targets) console.log(`    ${t.label}`)
@@ -228,9 +163,7 @@ async function main() {
         const homeScore = f.goals.home ?? 0
         const awayScore = f.goals.away ?? 0
         const homeId    = f.teams.home.id
-        const awayId    = f.teams.away.id
 
-        // Accumulate from t1's perspective
         const t1IsHome = homeId === t1
         const t1Goals  = t1IsHome ? homeScore : awayScore
         const t2Goals  = t1IsHome ? awayScore : homeScore
@@ -241,7 +174,7 @@ async function main() {
         if (homeScore > awayScore) {
           if (homeId === t1) team1Wins++; else team2Wins++
         } else if (awayScore > homeScore) {
-          if (awayId === t1) team1Wins++; else team2Wins++
+          if (f.teams.away.id === t1) team1Wins++; else team2Wins++
         } else {
           draws++
         }
@@ -274,6 +207,22 @@ async function main() {
         last_matches: lastMatches,
       }
 
+      // Write to Supabase
+      const { error: dbErr } = await db.from('h2h').upsert({
+        team1_api_id:  t1,
+        team2_api_id:  t2,
+        played:        finished.length,
+        team1_wins:    team1Wins,
+        team2_wins:    team2Wins,
+        draws,
+        team1_goals:   team1Goals,
+        team2_goals:   team2Goals,
+        last_matches:  lastMatches,
+        synced_at:     new Date().toISOString(),
+      }, { onConflict: 'team1_api_id,team2_api_id' })
+      if (dbErr) console.warn(`  db warn: ${dbErr.message}`)
+
+      // Keep JSON file as local cache
       fs.writeFileSync(h2hPath(t1, t2), JSON.stringify(h2hFile, null, 2))
       console.log(`  ✅ ${pair.label} — ${finished.length} meetings`)
       saved++
@@ -283,9 +232,7 @@ async function main() {
     }
   }
 
-  console.log(`\n✅ Done`)
-  console.log(`   Saved:  ${saved}`)
-  console.log(`   Errors: ${errors}`)
+  console.log(`\n✅ Done — saved: ${saved}, errors: ${errors}`)
 }
 
 main().catch((err) => { console.error(err); process.exit(1) })

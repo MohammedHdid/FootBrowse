@@ -11,12 +11,13 @@ interface Props {
   searchParams: { filter?: string };
 }
 
-export function generateStaticParams() {
-  return getAllLeagues().map((l) => ({ slug: l.slug }));
+export async function generateStaticParams() {
+  const leagues = await getAllLeagues();
+  return leagues.map((l) => ({ slug: l.slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const league = getLeague(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const league = await getLeague(params.slug);
   if (!league) return {};
   const season = formatSeason(league);
   return {
@@ -37,12 +38,12 @@ const TABS = [
 const FILTERS = ["All", "Upcoming", "Results"] as const;
 type Filter = (typeof FILTERS)[number];
 
-export default function LeagueMatchesPage({ params, searchParams }: Props) {
-  const league = getLeague(params.slug);
+export default async function LeagueMatchesPage({ params, searchParams }: Props) {
+  const league = await getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
-  const allFixtures = getFixtures(league);
+  const allFixtures = await getFixtures(league);
 
   const activeFilter: Filter =
     (searchParams.filter as Filter) && FILTERS.includes(searchParams.filter as Filter)

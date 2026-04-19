@@ -26,8 +26,9 @@ interface Props {
 
 // ── Static params ─────────────────────────────────────────────────────────────
 
-export function generateStaticParams() {
-  const clubParams = getAllClubTeams().map((t) => ({
+export async function generateStaticParams() {
+  const clubTeams = await getAllClubTeams();
+  const clubParams = clubTeams.map((t) => ({
     slug:     t.primary_league_slug,
     teamSlug: t.slug,
   }));
@@ -40,12 +41,12 @@ export function generateStaticParams() {
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
 
-export function generateMetadata({ params }: Props): Metadata {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const isWC   = params.slug === "world-cup";
   const wcTeam = isWC ? getTeam(params.teamSlug) : null;
-  const club   = !wcTeam ? getClubTeam(params.teamSlug) : null;
+  const club   = !wcTeam ? await getClubTeam(params.teamSlug) : null;
   const name   = wcTeam?.name ?? club?.name ?? params.teamSlug;
-  const league = getLeague(params.slug);
+  const league = await getLeague(params.slug);
   const leagueName = league?.name ?? params.slug;
   const season = league ? formatSeason(league) : "";
   return {
@@ -59,19 +60,19 @@ export function generateMetadata({ params }: Props): Metadata {
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
-export default function TeamPage({ params }: Props) {
+export default async function TeamPage({ params }: Props) {
   const isWC   = params.slug === "world-cup";
   const wcTeam = isWC ? getTeam(params.teamSlug) : null;
-  const club   = !wcTeam ? getClubTeam(params.teamSlug) : null;
+  const club   = !wcTeam ? await getClubTeam(params.teamSlug) : null;
   if (!wcTeam && !club) notFound();
 
-  const league = getLeague(params.slug);
+  const league = await getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
 
   // ── Coach (API-first, then WC fallback) ────────────────────────────────────
-  const apiCoach = getCoach(params.teamSlug);
+  const apiCoach = await getCoach(params.teamSlug);
   const coachName   = apiCoach?.name   ?? wcTeam?.coach   ?? null;
   const coachPhoto  = apiCoach?.photo  ?? wcTeam?.coach_photo ?? null;
   const coachNat    = apiCoach?.nationality ?? null;
@@ -94,11 +95,11 @@ export default function TeamPage({ params }: Props) {
   }));
   const wcGroups = groupByPosition(wcSquadPlayers);
 
-  const clubSquad = !isWC ? getClubSquad(params.teamSlug) : null;
+  const clubSquad = !isWC ? await getClubSquad(params.teamSlug) : null;
   // Build id→slug map from club-players.json so squad cards link to player pages
   const clubPlayerSlugs = new Map<number, string>();
   if (!isWC) {
-    for (const p of getClubTeamPlayers(params.teamSlug)) {
+    for (const p of await getClubTeamPlayers(params.teamSlug)) {
       clubPlayerSlugs.set(p.id, p.slug);
     }
   }
@@ -116,7 +117,7 @@ export default function TeamPage({ params }: Props) {
   const formChars = formStr.slice(-10).split("").filter((c) => ["W", "D", "L"].includes(c));
 
   // ── Fixtures ───────────────────────────────────────────────────────────────
-  const allFixtures = getFixtures(league);
+  const allFixtures = await getFixtures(league);
   const teamFixtures = allFixtures.filter(
     (f) => f.home_team.slug === params.teamSlug || f.away_team.slug === params.teamSlug,
   );
@@ -139,7 +140,7 @@ export default function TeamPage({ params }: Props) {
   } : null;
 
   // ── Injuries ───────────────────────────────────────────────────────────────
-  const injuries = !isWC ? getUniqueTeamInjuries(params.slug, params.teamSlug) : [];
+  const injuries = !isWC ? await getUniqueTeamInjuries(params.slug, params.teamSlug) : [];
 
   // ── Hero display ───────────────────────────────────────────────────────────
   const teamName  = wcTeam?.name ?? club!.name;

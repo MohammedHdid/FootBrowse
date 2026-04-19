@@ -1,7 +1,22 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node -e ':*)"
+      "Bash(node -e ':*)",
+      "Bash(xargs -I{} head -30 {})",
+      "Bash(mkdir -p _obsolete/data)",
+      "Bash(mv data/fixtures data/standings data/match-events data/injuries data/predictions data/odds data/topscorers data/player-stats data/club-teams.json data/club-players.json data/club-squads data/coaches data/teams-by-league data/leagues.json data/today.json _obsolete/data/)",
+      "Bash(mkdir -p _obsolete/scripts/build _obsolete/scripts/migrate _obsolete/scripts/root)",
+      "Bash(mv scripts/build/generate-search-index.ts _obsolete/scripts/build/)",
+      "Bash(mv scripts/migrate/ _obsolete/scripts/)",
+      "Bash(mv scripts/sync-players.ts scripts/sync-sportsdb.ts scripts/test-sync-refinement.ts scripts/fix-nicknames.js scripts/manual-stadium-search-v2.js scripts/manual-stadium-search.js scripts/research-h2h.js _obsolete/scripts/root/)",
+      "mcp__supabase__apply_migration",
+      "mcp__supabase__list_tables",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('C:/Users/Dell/.antigravity/Footbrowse/data/h2h/496-500.json'\\)\\); print\\('played:', d.get\\('played'\\), 'last_matches:', len\\(d.get\\('last_matches',[]\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('C:/Users/Dell/.antigravity/Footbrowse/data/h2h/523-801.json'\\)\\); print\\('played:', d.get\\('played'\\), 'last_matches:', len\\(d.get\\('last_matches',[]\\)\\)\\)\")"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
 }

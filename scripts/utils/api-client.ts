@@ -4,7 +4,7 @@
  * Auth: x-apisports-key header
  *
  * Features:
- * - 10 req/min token-bucket rate limiter
+ * - 300 req/min token-bucket rate limiter (Pro plan)
  * - 3 retries with exponential backoff on 429
  * - Per-call logging: endpoint + params + response time
  * - Typed ApiError with HTTP status code
@@ -105,8 +105,8 @@ export function createApiClient(apiKey: string): ApiClient {
     throw new Error('API_FOOTBALL_KEY is missing. Add it to .env.local.')
   }
 
-  // 10 requests per 60 000 ms
-  const bucket = new TokenBucket(10, 60_000)
+  // 300 requests per 60 000 ms (Pro plan)
+  const bucket = new TokenBucket(300, 60_000)
 
   async function get<T>(
     path: string,

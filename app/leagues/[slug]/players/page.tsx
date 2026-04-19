@@ -12,12 +12,13 @@ interface Props {
   searchParams: { tab?: string };
 }
 
-export function generateStaticParams() {
-  return getAllLeagues().map((l) => ({ slug: l.slug }));
+export async function generateStaticParams() {
+  const leagues = await getAllLeagues();
+  return leagues.map((l) => ({ slug: l.slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const league = getLeague(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const league = await getLeague(params.slug);
   if (!league) return {};
   const season = formatSeason(league);
   return {
@@ -133,12 +134,12 @@ function PlayerRow({ player, statValue, statLabel, rank, href }: {
   );
 }
 
-export default function LeaguePlayersPage({ params, searchParams }: Props) {
-  const league = getLeague(params.slug);
+export default async function LeaguePlayersPage({ params, searchParams }: Props) {
+  const league = await getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
-  const data = getTopScorers(league);
+  const data = await getTopScorers(league);
 
   const activeTab: StatTab =
     searchParams.tab === "Assists" ? "Assists"
@@ -147,7 +148,7 @@ export default function LeaguePlayersPage({ params, searchParams }: Props) {
 
   // Build player_id → slug lookup across WC + club players
   const playerSlugMap = new Map<number, string>();
-  for (const p of getAllPlayers()) playerSlugMap.set(p.id, p.slug);
+  for (const p of await getAllPlayers()) playerSlugMap.set(p.id, p.slug);
 
   const scorers  = data?.scorers ?? [];
   const assisters = data?.assisters ?? [];
@@ -242,11 +243,11 @@ export default function LeaguePlayersPage({ params, searchParams }: Props) {
       {!data ? (
         <div className="section-block text-center py-12 space-y-2">
           <p className="text-zinc-400 text-sm font-bold">
-            {league.id === 1
+            {league.slug === "world-cup"
               ? "World Cup 2026 player stats will be available from June 11, 2026."
               : "Player stats not available for this league yet."}
           </p>
-          {league.id === 1 && (
+          {league.slug === "world-cup" && (
             <p className="text-zinc-600 text-xs">
               WC 2026 qualification data is excluded — it would mix non-tournament goals into the rankings.
             </p>

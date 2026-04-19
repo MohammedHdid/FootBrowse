@@ -1,15 +1,4 @@
-/**
- * Date-range fixture loader
- *
- * Reads all league fixture JSON files and returns fixtures grouped by
- * date → league for a window around today. Used by the homepage date nav.
- *
- * Server-only — uses fs directly.
- */
-
-import fs from 'fs'
-import path from 'path'
-import { getAllLeagues } from './leagues'
+import { supabase } from '@/lib/supabase'
 
 export interface DateFixtureEntry {
   fixture_id: number
@@ -29,78 +18,67 @@ export interface DateLeagueGroup {
 }
 
 export interface DayFixtures {
-  date: string // YYYY-MM-DD
+  date: string
   leagues: DateLeagueGroup[]
 }
 
-// Shift a Date by N days and return YYYY-MM-DD string
 function addDays(base: Date, n: number): string {
   const d = new Date(base)
   d.setDate(d.getDate() + n)
   return d.toISOString().split('T')[0]
 }
 
-/**
- * Returns fixture data for the range [today - backDays … today + forwardDays].
- * Each item covers one calendar date with its league groups.
- */
-export function getFixturesByDateRange(backDays = 3, forwardDays = 7): DayFixtures[] {
+export async function getFixturesByDateRange(backDays = 3, forwardDays = 7): Promise<DayFixtures[]> {
   const today = new Date()
   today.setHours(0, 0, 0, 0)
 
-  // Build ordered date list
-  const dates: string[] = []
-  for (let i = -backDays; i <= forwardDays; i++) {
-    dates.push(addDays(today, i))
-  }
+  const startDate = addDays(today, -backDays)
+  const endDate   = addDays(today, forwardDays)
 
-  const dateSet = new Set(dates)
-  // date → leagueSlug → group
+  const { data } = await supabase
+    .from('matches')
+    .select(`
+      fixture_id, slug, date, kickoff_utc, status, score_home, score_away,
+      home_team:teams!home_id(name, logo, slug),
+      away_team:teams!away_id(name, logo, slug),
+      league:leagues!league_id(slug, name, logo)
+    `)
+    .gte('date', startDate)
+    .lte('date', endDate)
+    .not('league_id', 'is', null)
+    .order('date', { ascending: true })
+    .order('kickoff_utc', { ascending: true })
+
+  const dates: string[] = []
+  for (let i = -backDays; i <= forwardDays; i++) dates.push(addDays(today, i))
+
   const byDate: Record<string, Record<string, DateLeagueGroup>> = {}
   for (const d of dates) byDate[d] = {}
 
-  const DATA_DIR = path.join(process.cwd(), 'data')
-  const leagues = getAllLeagues()
-
-  for (const league of leagues) {
-    if (league.slug === 'world-cup') continue
-    const fp = path.join(DATA_DIR, 'fixtures', `${league.slug}-${league.season}.json`)
-    if (!fs.existsSync(fp)) continue
-
-    const fixtures = JSON.parse(fs.readFileSync(fp, 'utf-8')) as Array<{
-      fixture_id: number
-      slug: string
-      date: string
-      kickoff_utc: string
-      status: string
-      score: { home: number | null; away: number | null }
-      home_team: { id: number; name: string; slug: string; logo: string }
-      away_team: { id: number; name: string; slug: string; logo: string }
-    }>
-
-    for (const f of fixtures) {
-      if (!dateSet.has(f.date)) continue
-      if (!byDate[f.date][league.slug]) {
-        byDate[f.date][league.slug] = {
-          leagueSlug: league.slug,
-          leagueName: league.name,
-          leagueLogo: league.logo,
-          fixtures: [],
-        }
+  for (const r of (data ?? []) as any[]) {
+    const d = r.date as string
+    if (!byDate[d]) byDate[d] = {}
+    const leagueSlug = r.league?.slug
+    if (!leagueSlug) continue
+    if (!byDate[d][leagueSlug]) {
+      byDate[d][leagueSlug] = {
+        leagueSlug,
+        leagueName: r.league?.name ?? '',
+        leagueLogo: r.league?.logo ?? '',
+        fixtures: [],
       }
-      byDate[f.date][league.slug].fixtures.push({
-        fixture_id: f.fixture_id,
-        slug: f.slug,
-        kickoff_utc: f.kickoff_utc,
-        status: f.status,
-        score: f.score,
-        home_team: { name: f.home_team.name, logo: f.home_team.logo, slug: f.home_team.slug },
-        away_team: { name: f.away_team.name, logo: f.away_team.logo, slug: f.away_team.slug },
-      })
     }
+    byDate[d][leagueSlug].fixtures.push({
+      fixture_id:  r.fixture_id,
+      slug:        r.slug,
+      kickoff_utc: r.kickoff_utc ?? '',
+      status:      r.status,
+      score:       { home: r.score_home ?? null, away: r.score_away ?? null },
+      home_team:   { name: r.home_team?.name ?? '', logo: r.home_team?.logo ?? '', slug: r.home_team?.slug ?? '' },
+      away_team:   { name: r.away_team?.name ?? '', logo: r.away_team?.logo ?? '', slug: r.away_team?.slug ?? '' },
+    })
   }
 
-  // Sort fixtures within each league group by kickoff time
   return dates.map((date) => {
     const leagues = Object.values(byDate[date]).map((g) => ({
       ...g,

@@ -1,0 +1,26 @@
+{
+  "team1_id": 218,
+  "team2_id": 4716,
+  "fetched_at": "2026-04-19T17:19:14.491Z",
+  "played": 1,
+  "team1_wins": 0,
+  "team2_wins": 1,
+  "draws": 0,
+  "team1_goals": 1,
+  "team2_goals": 2,
+  "last_matches": [
+    {
+      "fixture_id": 1396368,
+      "date": "2025-12-21",
+      "league": "Primeira Liga",
+      "home_id": 218,
+      "home_name": "Tondela",
+      "home_logo": "https://media.api-sports.io/football/teams/218.png",
+      "away_id": 4716,
+      "away_name": "Casa Pia",
+      "away_logo": "https://media.api-sports.io/football/teams/4716.png",
+      "home_score": 1,
+      "away_score": 2
+    }
+  ]
+}

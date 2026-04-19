@@ -1,0 +1,78 @@
+{
+  "team1_id": 225,
+  "team2_id": 21595,
+  "fetched_at": "2026-04-19T17:19:13.560Z",
+  "played": 5,
+  "team1_wins": 3,
+  "team2_wins": 0,
+  "draws": 2,
+  "team1_goals": 9,
+  "team2_goals": 5,
+  "last_matches": [
+    {
+      "fixture_id": 1396363,
+      "date": "2025-12-21",
+      "league": "Primeira Liga",
+      "home_id": 21595,
+      "home_name": "AVS",
+      "home_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "away_id": 225,
+      "away_name": "Nacional",
+      "away_logo": "https://media.api-sports.io/football/teams/225.png",
+      "home_score": 2,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1231890,
+      "date": "2025-01-19",
+      "league": "Primeira Liga",
+      "home_id": 225,
+      "home_name": "Nacional",
+      "home_logo": "https://media.api-sports.io/football/teams/225.png",
+      "away_id": 21595,
+      "away_name": "AVS",
+      "away_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "home_score": 3,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1231737,
+      "date": "2024-08-10",
+      "league": "Primeira Liga",
+      "home_id": 21595,
+      "home_name": "AVS",
+      "home_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "away_id": 225,
+      "away_name": "Nacional",
+      "away_logo": "https://media.api-sports.io/football/teams/225.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1067765,
+      "date": "2024-04-06",
+      "league": "Segunda Liga",
+      "home_id": 225,
+      "home_name": "Nacional",
+      "home_logo": "https://media.api-sports.io/football/teams/225.png",
+      "away_id": 21595,
+      "away_name": "AVS",
+      "away_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1067609,
+      "date": "2023-11-19",
+      "league": "Segunda Liga",
+      "home_id": 21595,
+      "home_name": "AVS",
+      "home_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "away_id": 225,
+      "away_name": "Nacional",
+      "away_logo": "https://media.api-sports.io/football/teams/225.png",
+      "home_score": 0,
+      "away_score": 1
+    }
+  ]
+}

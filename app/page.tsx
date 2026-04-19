@@ -23,7 +23,7 @@ const POS_PRIORITY: Record<string, number> = {
   "Goalkeeper": 5,
 };
 
-export default function HomePage() {
+export default async function HomePage() {
   const siteUrl = "https://footbrowse.com";
 
   const websiteJsonLd = {
@@ -36,12 +36,12 @@ export default function HomePage() {
     "sameAs": ["https://twitter.com/footbrowse","https://instagram.com/footbrowse","https://youtube.com/@footbrowse"],
   };
 
-  // Multi-day fixture window for date nav (server-side, no API calls)
-  const days = getFixturesByDateRange(3, 7);
+  // Multi-day fixture window for date nav
+  const [days, leagues] = await Promise.all([
+    getFixturesByDateRange(3, 7),
+    getAllLeagues(),
+  ]);
   const todayStr = new Date().toISOString().split("T")[0];
-
-  // Leagues
-  const leagues = getAllLeagues();
 
   // WC 2026 countdown (days remaining, server-computed)
   const wcKickoff = new Date("2026-06-11T00:00:00Z");

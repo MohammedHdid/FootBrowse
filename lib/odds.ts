@@ -1,5 +1,4 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import { supabase } from '@/lib/supabase'
 
 export interface MatchOdds {
   fixture_id: number
@@ -11,12 +10,24 @@ export interface MatchOdds {
   away_win: number
 }
 
-export function getMatchOdds(fixtureId: number): MatchOdds | null {
-  const fp = path.join(process.cwd(), 'data', 'odds', `${fixtureId}.json`)
-  if (!fs.existsSync(fp)) return null
-  try {
-    return JSON.parse(fs.readFileSync(fp, 'utf-8')) as MatchOdds
-  } catch {
-    return null
+export async function getMatchOdds(fixtureId: number): Promise<MatchOdds | null> {
+  const { data } = await supabase
+    .from('odds')
+    .select('fixture_id, bookmaker_id, bookmaker_name, home_win, draw, away_win, synced_at')
+    .eq('fixture_id', fixtureId)
+    .order('bookmaker_id')
+    .limit(1)
+    .single()
+
+  if (!data) return null
+
+  return {
+    fixture_id:     data.fixture_id,
+    fetched_at:     data.synced_at ?? new Date().toISOString(),
+    bookmaker_id:   data.bookmaker_id,
+    bookmaker_name: data.bookmaker_name ?? '',
+    home_win:       Number(data.home_win),
+    draw:           Number(data.draw),
+    away_win:       Number(data.away_win),
   }
 }

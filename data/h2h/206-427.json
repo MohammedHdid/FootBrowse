@@ -1,0 +1,78 @@
+{
+  "team1_id": 206,
+  "team2_id": 427,
+  "fetched_at": "2026-04-19T17:19:19.105Z",
+  "played": 5,
+  "team1_wins": 4,
+  "team2_wins": 0,
+  "draws": 1,
+  "team1_goals": 18,
+  "team2_goals": 1,
+  "last_matches": [
+    {
+      "fixture_id": 1380998,
+      "date": "2025-12-06",
+      "league": "Eredivisie",
+      "home_id": 206,
+      "home_name": "Heracles",
+      "home_logo": "https://media.api-sports.io/football/teams/206.png",
+      "away_id": 427,
+      "away_name": "Telstar",
+      "away_logo": "https://media.api-sports.io/football/teams/427.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 867816,
+      "date": "2023-02-24",
+      "league": "Eerste Divisie",
+      "home_id": 206,
+      "home_name": "Heracles",
+      "home_logo": "https://media.api-sports.io/football/teams/206.png",
+      "away_id": 427,
+      "away_name": "Telstar",
+      "away_logo": "https://media.api-sports.io/football/teams/427.png",
+      "home_score": 7,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 867630,
+      "date": "2022-09-16",
+      "league": "Eerste Divisie",
+      "home_id": 427,
+      "home_name": "Telstar",
+      "home_logo": "https://media.api-sports.io/football/teams/427.png",
+      "away_id": 206,
+      "away_name": "Heracles",
+      "away_logo": "https://media.api-sports.io/football/teams/206.png",
+      "home_score": 0,
+      "away_score": 3
+    },
+    {
+      "fixture_id": 640169,
+      "date": "2020-10-28",
+      "league": "KNVB Beker",
+      "home_id": 206,
+      "home_name": "Heracles",
+      "home_logo": "https://media.api-sports.io/football/teams/206.png",
+      "away_id": 427,
+      "away_name": "Telstar",
+      "away_logo": "https://media.api-sports.io/football/teams/427.png",
+      "home_score": 3,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 597287,
+      "date": "2020-08-25",
+      "league": "Friendlies Clubs",
+      "home_id": 206,
+      "home_name": "Heracles",
+      "home_logo": "https://media.api-sports.io/football/teams/206.png",
+      "away_id": 427,
+      "away_name": "Telstar",
+      "away_logo": "https://media.api-sports.io/football/teams/427.png",
+      "home_score": 4,
+      "away_score": 0
+    }
+  ]
+}

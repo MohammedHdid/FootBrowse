@@ -1,11 +1,21 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import type { MatchLineupData, LineupPlayer } from "@/lib/lineups";
+
+interface SquadPlayerLight {
+  id: number;
+  slug: string;
+  photo_url: string | null;
+}
 
 interface Props {
   lineup: MatchLineupData | null;
   homeName: string;
   awayName: string;
+  homeSquad?: SquadPlayerLight[];
+  awaySquad?: SquadPlayerLight[];
 }
 
 const POS_LABEL: Record<string, string> = {
@@ -15,11 +25,15 @@ const POS_LABEL: Record<string, string> = {
   F: "FWD",
 };
 
-function PlayerRow({ player, reverse = false }: { player: LineupPlayer; reverse?: boolean }) {
+function PlayerRow({ player, squadPlayer, reverse = false }: { player: LineupPlayer; squadPlayer?: SquadPlayerLight; reverse?: boolean }) {
   const posLabel = POS_LABEL[player.pos] ?? player.pos;
+  const Wrapper = squadPlayer?.slug ? Link : "div";
+  const href = squadPlayer?.slug ? `/players/${squadPlayer.slug}` : undefined;
+
   return (
-    <div
-      className={`flex items-center gap-2 py-1.5 px-2 rounded-lg ${reverse ? "flex-row-reverse" : ""}`}
+    <Wrapper
+      href={href as any}
+      className={`flex items-center gap-2 py-1.5 px-2 rounded-lg group transition-colors hover:bg-white/[0.04] ${reverse ? "flex-row-reverse" : ""}`}
       style={{ backgroundColor: "rgba(255,255,255,0.02)" }}
     >
       <span
@@ -28,17 +42,30 @@ function PlayerRow({ player, reverse = false }: { player: LineupPlayer; reverse?
       >
         {player.number}
       </span>
-      <span className={`flex-1 text-xs font-semibold text-zinc-200 truncate ${reverse ? "text-right" : ""}`}>
+      {squadPlayer?.photo_url ? (
+        <Image 
+          src={squadPlayer.photo_url} 
+          alt={player.name} 
+          width={24} height={24} 
+          className="w-6 h-6 rounded-full object-cover shrink-0" 
+          unoptimized
+        />
+      ) : (
+        <div className="w-6 h-6 rounded-full shrink-0 flex items-center justify-center bg-slate-800 border border-slate-700">
+          <span className="text-[8px] font-black text-slate-500">{player.name.charAt(0)}</span>
+        </div>
+      )}
+      <span className={`flex-1 text-xs font-semibold text-zinc-200 group-hover:text-white transition-colors truncate ${reverse ? "text-right" : ""}`}>
         {player.name}
       </span>
       <span className="shrink-0 text-[9px] font-bold text-zinc-600 w-7 text-center">
         {posLabel}
       </span>
-    </div>
+    </Wrapper>
   );
 }
 
-export default function MatchLineup({ lineup, homeName, awayName }: Props) {
+export default function MatchLineup({ lineup, homeName, awayName, homeSquad = [], awaySquad = [] }: Props) {
   return (
     <section className="section-block">
       <h2 className="section-title text-xl mb-5">Lineups</h2>
@@ -79,13 +106,17 @@ export default function MatchLineup({ lineup, homeName, awayName }: Props) {
           </div>
 
           {/* Starting XI */}
-          <div className="grid grid-cols-2 gap-x-3 gap-y-0.5">
-            {lineup.home.startXI.map((p) => (
-              <PlayerRow key={p.id} player={p} />
-            ))}
-            {lineup.away.startXI.map((p) => (
-              <PlayerRow key={p.id} player={p} reverse />
-            ))}
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex flex-col gap-1">
+              {lineup.home.startXI.map((p) => (
+                <PlayerRow key={p.id} player={p} squadPlayer={homeSquad.find(s => s.id === p.id)} />
+              ))}
+            </div>
+            <div className="flex flex-col gap-1">
+              {lineup.away.startXI.map((p) => (
+                <PlayerRow key={p.id} player={p} squadPlayer={awaySquad.find(s => s.id === p.id)} reverse />
+              ))}
+            </div>
           </div>
 
           {/* Coaches */}
@@ -106,13 +137,17 @@ export default function MatchLineup({ lineup, homeName, awayName }: Props) {
           {(lineup.home.substitutes.length > 0 || lineup.away.substitutes.length > 0) && (
             <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(255,255,255,0.05)" }}>
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-zinc-600 mb-2">Bench</p>
-              <div className="grid grid-cols-2 gap-x-3 gap-y-0.5">
-                {lineup.home.substitutes.map((p) => (
-                  <PlayerRow key={p.id} player={p} />
-                ))}
-                {lineup.away.substitutes.map((p) => (
-                  <PlayerRow key={p.id} player={p} reverse />
-                ))}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="flex flex-col gap-1">
+                  {lineup.home.substitutes.map((p) => (
+                    <PlayerRow key={p.id} player={p} squadPlayer={homeSquad.find(s => s.id === p.id)} />
+                  ))}
+                </div>
+                <div className="flex flex-col gap-1">
+                  {lineup.away.substitutes.map((p) => (
+                    <PlayerRow key={p.id} player={p} squadPlayer={awaySquad.find(s => s.id === p.id)} reverse />
+                  ))}
+                </div>
               </div>
             </div>
           )}

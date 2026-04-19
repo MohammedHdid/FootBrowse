@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { matches, getMatch, getStadium, getTeamPlayers, getTeam } from "@/lib/data";
-import { getAllLeagues, getLeague } from "@/lib/leagues";
+import { getLeague } from "@/lib/leagues";
 import { getFixtures, isFinished, isLive, isUpcoming, statusLabel, type Fixture } from "@/lib/fixtures";
 import { getStandings } from "@/lib/standings";
 import { getMatchEvents } from "@/lib/match-events";
@@ -14,6 +14,7 @@ import { getPrediction } from "@/lib/predictions";
 import { getMatchOdds } from "@/lib/odds";
 import { getLineup } from "@/lib/lineups";
 import { getWcFixtureId, getWcTeamId } from "@/lib/wc-ids";
+import { supabase } from "@/lib/supabase";
 import type { SyncedPlayer } from "@/lib/types";
 import MatchPageClient, { type MatchPageData } from "./MatchPageClient";
 
@@ -24,10 +25,15 @@ interface Props {
 
 // ── Static params ─────────────────────────────────────────────────────────────
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   const wcParams = matches.map((m) => ({ slug: "world-cup", "match-slug": m.slug }));
-  const fixtureParams = getAllLeagues()
-    .flatMap((league) => getFixtures(league).map((f) => ({ slug: league.slug, "match-slug": f.slug })));
+  const { data } = await supabase
+    .from("matches")
+    .select("slug, league:leagues!league_id(slug)");
+  const fixtureParams = (data ?? []).map((m: any) => ({
+    slug: (m.league as any)?.slug as string | undefined,
+    "match-slug": m.slug as string,
+  })).filter((p): p is { slug: string; "match-slug": string } => !!p.slug);
   return [...wcParams, ...fixtureParams];
 }
 
@@ -42,7 +48,7 @@ const TAB_META: Record<string, { suffix: string; descFn: (h: string, a: string) 
   "squad":    { suffix: "Squad",                descFn: (h, a) => `Full squad rosters and player profiles for ${h} vs ${a}.` },
 };
 
-export function generateMetadata({ params, searchParams }: Props): Metadata {
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
   const matchSlug = params["match-slug"];
   const tab = searchParams?.tab ?? "";
   const canonical = `https://footbrowse.com/leagues/${params.slug}/matches/${matchSlug}`;
@@ -53,9 +59,10 @@ export function generateMetadata({ params, searchParams }: Props): Metadata {
     if (wc) return { title: wc.meta_title, description: wc.meta_description, alternates: { canonical: tabCanonical } };
   }
 
-  const league = getLeague(params.slug);
+  const league = await getLeague(params.slug);
   if (league) {
-    const f = getFixtures(league).find((f) => f.slug === matchSlug);
+    const fixtures = await getFixtures(league);
+    const f = fixtures.find((f) => f.slug === matchSlug);
     if (f) {
       const h = f.home_team.name, a = f.away_team.name;
       const tabInfo = TAB_META[tab];
@@ -141,10 +148,10 @@ function adaptClubSquad(squad: ClubSquad | null): SyncedPlayer[] {
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
-export default function LeagueMatchPage({ params }: { params: Props["params"] }) {
+export default async function LeagueMatchPage({ params }: { params: Props["params"] }) {
   const matchSlug = params["match-slug"];
   const isWcSlug  = params.slug === "world-cup";
-  const league    = getLeague(params.slug);
+  const league    = await getLeague(params.slug);
   if (!league) notFound();
 
   // ── Resolve match data ───────────────────────────────────────────────────
@@ -153,9 +160,13 @@ export default function LeagueMatchPage({ params }: { params: Props["params"] })
   let clubFixture: Fixture | null = null;
 
   if (!isWC) {
-    clubFixture = getFixtures(league).find((f) => f.slug === matchSlug) ?? null;
+    const allFixtures = await getFixtures(league);
+    clubFixture = allFixtures.find((f) => f.slug === matchSlug) ?? null;
     if (!clubFixture) notFound();
   }
+
+  // league.national doesn't exist in new League type — national team support is WC-only for now
+  const isNational = false;
 
   // ── Team identity ────────────────────────────────────────────────────────
   const homeId    = isWC ? (getWcTeamId(wcMatch!.team_a.slug) ?? 0) : clubFixture!.home_team.id;
@@ -176,82 +187,113 @@ export default function LeagueMatchPage({ params }: { params: Props["params"] })
   const live     = isLive(fixtureStatus);
   const upcoming = isUpcoming(fixtureStatus) || isWC;
 
-  // ── Match events ─────────────────────────────────────────────────────────
-  const matchEvents = fixtureId ? getMatchEvents(fixtureId) : null;
-  const events      = matchEvents?.events ?? [];
-  const clubScore   = matchEvents?.score ?? clubFixture?.score ?? { home: null, away: null };
-  const homeStats   = matchEvents?.home_stats ?? null;
-  const awayStats   = matchEvents?.away_stats ?? null;
-  const homeTeamId  = clubFixture?.home_team.id ?? 0;
-
   // ── National team enrichment ─────────────────────────────────────────────
-  const isNational       = !isWC && !!league.national;
-  const homeNationalTeam = (isWC || isNational) ? getTeam(homeSlug) : null;
-  const awayNationalTeam = (isWC || isNational) ? getTeam(awaySlug) : null;
-  if (isNational && homeNationalTeam?.flag_large) homeLogo = homeNationalTeam.flag_large;
-  if (isNational && awayNationalTeam?.flag_large) awayLogo = awayNationalTeam.flag_large;
-  const homeFifaRank = isWC ? wcMatch!.team_a.fifa_rank : (homeNationalTeam?.fifa_rank ?? null);
-  const awayFifaRank = isWC ? wcMatch!.team_b.fifa_rank : (awayNationalTeam?.fifa_rank ?? null);
-  const homeIsFlag = isWC || (isNational && !!homeNationalTeam?.flag_large);
-  const awayIsFlag = isWC || (isNational && !!awayNationalTeam?.flag_large);
+  const homeNationalTeam = isWC ? getTeam(homeSlug) : null;
+  const awayNationalTeam = isWC ? getTeam(awaySlug) : null;
+  const homeFifaRank = isWC ? wcMatch!.team_a.fifa_rank : null;
+  const awayFifaRank = isWC ? wcMatch!.team_b.fifa_rank : null;
+  const homeIsFlag = isWC;
+  const awayIsFlag = isWC;
 
-  // ── Team form / record ───────────────────────────────────────────────────
-  const homeTeamStats = !isWC && !isNational ? getTeamStats(homeSlug).find((s) => s.league_slug === params.slug) : null;
-  const awayTeamStats = !isWC && !isNational ? getTeamStats(awaySlug).find((s) => s.league_slug === params.slug) : null;
-  const homeForm = (isWC || isNational) ? (homeNationalTeam?.form ?? []).join("") : (homeTeamStats?.form ?? "");
-  const awayForm = (isWC || isNational) ? (awayNationalTeam?.form ?? []).join("") : (awayTeamStats?.form ?? "");
+  // ── Team form / record (still reads static files) ─────────────────────────
+  const homeTeamStats = !isWC ? getTeamStats(homeSlug).find((s) => s.league_slug === params.slug) : null;
+  const awayTeamStats = !isWC ? getTeamStats(awaySlug).find((s) => s.league_slug === params.slug) : null;
+  const homeForm = isWC ? (homeNationalTeam?.form ?? []).join("") : (homeTeamStats?.form ?? "");
+  const awayForm = isWC ? (awayNationalTeam?.form ?? []).join("") : (awayTeamStats?.form ?? "");
 
-  // ── H2H ──────────────────────────────────────────────────────────────────
-  const h2h = homeId && awayId ? getH2HForTeams(homeId, awayId) : null;
+  // ── H2H (reads Supabase, falls back to local JSON) ────────────────────────
+  const h2h = homeId && awayId ? await getH2HForTeams(homeId, awayId) : null;
 
-  // ── Squads ───────────────────────────────────────────────────────────────
-  const wcSquadA      = (isWC || isNational) ? getTeamPlayers(homeSlug) : [];
-  const wcSquadB      = (isWC || isNational) ? getTeamPlayers(awaySlug) : [];
-  const clubSquadHome = (!isWC && !isNational) ? getClubSquad(homeSlug) : null;
-  const clubSquadAway = (!isWC && !isNational) ? getClubSquad(awaySlug) : null;
+  // ── WC squads (sync) ──────────────────────────────────────────────────────
+  const wcSquadA = isWC ? getTeamPlayers(homeSlug) : [];
+  const wcSquadB = isWC ? getTeamPlayers(awaySlug) : [];
 
-  // ── Injuries ─────────────────────────────────────────────────────────────
-  const homeInjuries = !isWC ? getUniqueTeamInjuries(params.slug, homeSlug) : [];
-  const awayInjuries = !isWC ? getUniqueTeamInjuries(params.slug, awaySlug) : [];
+  // ── Parallel async fetches ────────────────────────────────────────────────
+  const [
+    matchEventsData,
+    clubSquadHome,
+    clubSquadAway,
+    homeInjuries,
+    awayInjuries,
+    prediction,
+    oddsData,
+    lineup,
+    homeClubTeam,
+    standingsData,
+  ] = await Promise.all([
+    fixtureId ? getMatchEvents(fixtureId) : Promise.resolve(null),
+    !isWC ? getClubSquad(homeSlug) : Promise.resolve(null),
+    !isWC ? getClubSquad(awaySlug) : Promise.resolve(null),
+    !isWC ? getUniqueTeamInjuries(params.slug, homeSlug) : Promise.resolve([]),
+    !isWC ? getUniqueTeamInjuries(params.slug, awaySlug) : Promise.resolve([]),
+    fixtureId ? getPrediction(fixtureId) : Promise.resolve(null),
+    fixtureId ? getMatchOdds(fixtureId) : Promise.resolve(null),
+    (fixtureId && !isWC) ? getLineup(fixtureId) : Promise.resolve(null),
+    !isWC ? getClubTeam(homeSlug) : Promise.resolve(null),
+    !isWC ? getStandings(league) : Promise.resolve(null),
+  ]);
 
-  // ── Predictions & Odds ───────────────────────────────────────────────────
-  const prediction = fixtureId ? getPrediction(fixtureId) : null;
-  const oddsData   = fixtureId ? getMatchOdds(fixtureId)  : null;
+  // ── Match events ─────────────────────────────────────────────────────────
+  const events    = matchEventsData?.events ?? [];
+  const clubScore = matchEventsData?.score ?? clubFixture?.score ?? { home: null, away: null };
+  const homeStats = matchEventsData?.home_stats ?? null;
+  const awayStats = matchEventsData?.away_stats ?? null;
+  const homeTeamId = clubFixture?.home_team.id ?? 0;
 
-  // ── Lineup ───────────────────────────────────────────────────────────────
-  const lineup = fixtureId && !isWC ? getLineup(fixtureId) : null;
-
-  // ── Venue ────────────────────────────────────────────────────────────────
-  const stadium      = isWC ? getStadium(wcMatch!.stadium_slug) : null;
-  const homeClubTeam = !isWC ? getClubTeam(homeSlug) : null;
+  // ── Standings ─────────────────────────────────────────────────────────────
+  let homeStandingRow = null;
+  let awayStandingRow = null;
+  if (standingsData) {
+    const allRows = standingsData.groups.flatMap((g) => g.table);
+    const homeRow = allRows.find((r) => r.team.slug === homeSlug) ?? null;
+    const awayRow = allRows.find((r) => r.team.slug === awaySlug) ?? null;
+    if (homeRow) {
+      homeStandingRow = {
+        rank: homeRow.rank, points: homeRow.points, played: homeRow.played,
+        won: homeRow.won, drawn: homeRow.drawn, lost: homeRow.lost,
+        goal_diff: homeRow.goal_diff, description: homeRow.description,
+      };
+    }
+    if (awayRow) {
+      awayStandingRow = {
+        rank: awayRow.rank, points: awayRow.points, played: awayRow.played,
+        won: awayRow.won, drawn: awayRow.drawn, lost: awayRow.lost,
+        goal_diff: awayRow.goal_diff, description: awayRow.description,
+      };
+    }
+  }
 
   // ── Related matches ──────────────────────────────────────────────────────
-  const relatedMatches: Array<{ label: string; href: string; meta: string }> = isWC
-    ? matches
-        .filter((m) => m.slug !== wcMatch!.slug)
-        .sort((a, b) => {
-          let sa = 0, sb = 0;
-          if (wcMatch!.group && a.group === wcMatch!.group) sa += 100;
-          if (wcMatch!.group && b.group === wcMatch!.group) sb += 100;
-          if (a.stage === wcMatch!.stage) sa += 50;
-          if (b.stage === wcMatch!.stage) sb += 50;
-          return sb - sa;
-        })
-        .slice(0, 5)
-        .map((m) => ({
-          label: `${m.team_a.name} vs ${m.team_b.name}`,
-          href:  `/leagues/world-cup/matches/${m.slug}`,
-          meta:  new Date(m.date).toLocaleDateString("en-US", { month: "short", day: "numeric" }),
-        }))
-    : getFixtures(league)
-        .filter((f) => f.slug !== matchSlug && (f.status === "NS" || isFinished(f.status)))
-        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
-        .slice(0, 5)
-        .map((f) => ({
-          label: `${f.home_team.name} vs ${f.away_team.name}`,
-          href:  `/leagues/${league.slug}/matches/${f.slug}`,
-          meta:  new Date(f.date).toLocaleDateString("en-US", { month: "short", day: "numeric" }),
-        }));
+  let relatedMatches: Array<{ label: string; href: string; meta: string }> = [];
+  if (isWC) {
+    relatedMatches = matches
+      .filter((m) => m.slug !== wcMatch!.slug)
+      .sort((a, b) => {
+        let sa = 0, sb = 0;
+        if (wcMatch!.group && a.group === wcMatch!.group) sa += 100;
+        if (wcMatch!.group && b.group === wcMatch!.group) sb += 100;
+        if (a.stage === wcMatch!.stage) sa += 50;
+        if (b.stage === wcMatch!.stage) sb += 50;
+        return sb - sa;
+      })
+      .slice(0, 5)
+      .map((m) => ({
+        label: `${m.team_a.name} vs ${m.team_b.name}`,
+        href:  `/leagues/world-cup/matches/${m.slug}`,
+        meta:  new Date(m.date).toLocaleDateString("en-US", { month: "short", day: "numeric" }),
+      }));
+  } else {
+    const allFixtures = await getFixtures(league);
+    relatedMatches = allFixtures
+      .filter((f) => f.slug !== matchSlug && (f.status === "NS" || isFinished(f.status)))
+      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+      .slice(0, 5)
+      .map((f) => ({
+        label: `${f.home_team.name} vs ${f.away_team.name}`,
+        href:  `/leagues/${league.slug}/matches/${f.slug}`,
+        meta:  new Date(f.date).toLocaleDateString("en-US", { month: "short", day: "numeric" }),
+      }));
+  }
 
   // ── FAQ ──────────────────────────────────────────────────────────────────
   const clubFaq: Array<{ q: string; a: string }> = !isWC ? [
@@ -275,6 +317,8 @@ export default function LeagueMatchPage({ params }: { params: Props["params"] })
   const faqItems = isWC ? (wcMatch!.content.faq ?? []) : clubFaq;
 
   // ── JSON-LD ───────────────────────────────────────────────────────────────
+  const stadium = isWC ? getStadium(wcMatch!.stadium_slug) : null;
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
@@ -309,33 +353,9 @@ export default function LeagueMatchPage({ params }: { params: Props["params"] })
     sport: "Football",
   };
 
-  // ── Standings (club leagues only) ────────────────────────────────────────
-  let homeStandingRow = null;
-  let awayStandingRow = null;
-  if (!isWC && !isNational) {
-    const standingsData = getStandings(league);
-    const allRows = standingsData?.groups.flatMap((g) => g.table) ?? [];
-    const homeRow = allRows.find((r) => r.team.slug === homeSlug) ?? null;
-    const awayRow = allRows.find((r) => r.team.slug === awaySlug) ?? null;
-    if (homeRow) {
-      homeStandingRow = {
-        rank: homeRow.rank, points: homeRow.points, played: homeRow.played,
-        won: homeRow.won, drawn: homeRow.drawn, lost: homeRow.lost,
-        goal_diff: homeRow.goal_diff, description: homeRow.description,
-      };
-    }
-    if (awayRow) {
-      awayStandingRow = {
-        rank: awayRow.rank, points: awayRow.points, played: awayRow.played,
-        won: awayRow.won, drawn: awayRow.drawn, lost: awayRow.lost,
-        goal_diff: awayRow.goal_diff, description: awayRow.description,
-      };
-    }
-  }
-
   // ── Build MatchPageData ───────────────────────────────────────────────────
-  const squadA = (isWC || isNational) ? (wcSquadA as SyncedPlayer[]) : adaptClubSquad(clubSquadHome);
-  const squadB = (isWC || isNational) ? (wcSquadB as SyncedPlayer[]) : adaptClubSquad(clubSquadAway);
+  const squadA = isWC ? (wcSquadA as SyncedPlayer[]) : adaptClubSquad(clubSquadHome);
+  const squadB = isWC ? (wcSquadB as SyncedPlayer[]) : adaptClubSquad(clubSquadAway);
 
   const matchData: MatchPageData = {
     leagueSlug:   league.slug,
@@ -377,12 +397,12 @@ export default function LeagueMatchPage({ params }: { params: Props["params"] })
     awayForm,
     homeTeamRecord: homeTeamStats ?? null,
     awayTeamRecord: awayTeamStats ?? null,
-    homeNationalInfo: (isWC || isNational) ? {
+    homeNationalInfo: isWC ? {
       fifaRank:   homeFifaRank ?? null,
       yearFormed: homeNationalTeam?.year_formed ?? null,
       wcTitles:   homeNationalTeam?.wc_titles ?? 0,
     } : null,
-    awayNationalInfo: (isWC || isNational) ? {
+    awayNationalInfo: isWC ? {
       fifaRank:   awayFifaRank ?? null,
       yearFormed: awayNationalTeam?.year_formed ?? null,
       wcTitles:   awayNationalTeam?.wc_titles ?? 0,

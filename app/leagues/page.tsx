@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://footbrowse.com/leagues" },
 };
 
-export default function LeaguesPage() {
-  const leagues = getAllLeagues();
+export default async function LeaguesPage() {
+  const leagues = await getAllLeagues();
 
   return (
     <div className="space-y-8">

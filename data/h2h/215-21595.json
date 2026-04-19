@@ -1,0 +1,52 @@
+{
+  "team1_id": 215,
+  "team2_id": 21595,
+  "fetched_at": "2026-04-19T17:18:23.192Z",
+  "played": 3,
+  "team1_wins": 2,
+  "team2_wins": 0,
+  "draws": 1,
+  "team1_goals": 6,
+  "team2_goals": 1,
+  "last_matches": [
+    {
+      "fixture_id": 1396381,
+      "date": "2026-01-03",
+      "league": "Primeira Liga",
+      "home_id": 21595,
+      "home_name": "AVS",
+      "home_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "away_id": 215,
+      "away_name": "Moreirense",
+      "away_logo": "https://media.api-sports.io/football/teams/215.png",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "fixture_id": 1232028,
+      "date": "2025-05-17",
+      "league": "Primeira Liga",
+      "home_id": 21595,
+      "home_name": "AVS",
+      "home_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "away_id": 215,
+      "away_name": "Moreirense",
+      "away_logo": "https://media.api-sports.io/football/teams/215.png",
+      "home_score": 0,
+      "away_score": 3
+    },
+    {
+      "fixture_id": 1231877,
+      "date": "2025-01-04",
+      "league": "Primeira Liga",
+      "home_id": 215,
+      "home_name": "Moreirense",
+      "home_logo": "https://media.api-sports.io/football/teams/215.png",
+      "away_id": 21595,
+      "away_name": "AVS",
+      "away_logo": "https://media.api-sports.io/football/teams/21595.png",
+      "home_score": 1,
+      "away_score": 1
+    }
+  ]
+}

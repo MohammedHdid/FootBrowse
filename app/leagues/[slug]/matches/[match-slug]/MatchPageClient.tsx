@@ -280,20 +280,17 @@ export interface MatchPageData {
 // ── Tab config ────────────────────────────────────────────────────────────────
 
 function buildTabs(data: MatchPageData): Array<{ id: string; label: string }> {
-  if (data.finished || data.live) {
-    return [
-      { id: "match-info", label: "Match Info" },
-      ...(data.events.length > 0               ? [{ id: "events",  label: "Events" }]     : []),
-      ...(data.homeStats || data.awayStats      ? [{ id: "stats",   label: "Statistics" }] : []),
-      { id: "lineups",   label: "Lineups" },
-      ...(data.squadA.length > 0 || data.squadB.length > 0 ? [{ id: "squad", label: "Squad" }] : []),
-    ];
-  }
   return [
     { id: "match-info", label: "Match Info" },
-    ...(data.h2h && data.h2h.played > 0        ? [{ id: "h2h",     label: "H2H" }]        : []),
-    ...(data.prediction || data.oddsData        ? [{ id: "odds",    label: "Odds" }]        : []),
-    { id: "lineups",  label: "Lineups" },
+    ...(data.finished || data.live
+      ? [
+          ...(data.events.length > 0 ? [{ id: "events", label: "Events" }] : []),
+          ...(data.homeStats || data.awayStats ? [{ id: "stats", label: "Statistics" }] : []),
+        ]
+      : []),
+    ...(data.h2h && data.h2h.played > 0 ? [{ id: "h2h", label: "H2H" }] : []),
+    ...(data.prediction || data.oddsData ? [{ id: "odds", label: "Odds" }] : []),
+    { id: "lineups", label: "Lineups" },
     ...(data.squadA.length > 0 || data.squadB.length > 0 ? [{ id: "squad", label: "Squad" }] : []),
   ];
 }

@@ -11,12 +11,13 @@ interface Props {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return getAllLeagues().map((l) => ({ slug: l.slug }));
+export async function generateStaticParams() {
+  const leagues = await getAllLeagues();
+  return leagues.map((l) => ({ slug: l.slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const league = getLeague(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const league = await getLeague(params.slug);
   if (!league) return {};
   const season = formatSeason(league);
   return {
@@ -30,14 +31,14 @@ function fmtDate(d: string) {
   return new Date(d).toLocaleDateString("en-US", { month: "short", day: "numeric" });
 }
 
-export default function LeaguePage({ params }: Props) {
-  const league = getLeague(params.slug);
+export default async function LeaguePage({ params }: Props) {
+  const league = await getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
 
   // Upcoming fixtures
-  const allFixtures = getFixtures(league);
+  const allFixtures = await getFixtures(league);
   const upcoming = allFixtures
     .filter((f) => isUpcoming(f.status))
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
@@ -48,7 +49,7 @@ export default function LeaguePage({ params }: Props) {
     .slice(0, 5);
 
   // Standings
-  const standings = getStandings(league);
+  const standings = await getStandings(league);
   const topRows = standings?.groups?.[0]?.table?.slice(0, 8) ?? [];
 
   const breadcrumbJsonLd = {

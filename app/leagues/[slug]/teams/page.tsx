@@ -12,12 +12,13 @@ interface Props {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return getAllLeagues().map((l) => ({ slug: l.slug }));
+export async function generateStaticParams() {
+  const leagues = await getAllLeagues();
+  return leagues.map((l) => ({ slug: l.slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const league = getLeague(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const league = await getLeague(params.slug);
   if (!league) return {};
   const season = formatSeason(league);
   return {
@@ -35,18 +36,18 @@ const TABS = [
   { label: "Players",   href: (s: string) => `/leagues/${s}/players` },
 ];
 
-export default function LeagueTeamsPage({ params }: Props) {
-  const league = getLeague(params.slug);
+export default async function LeagueTeamsPage({ params }: Props) {
+  const league = await getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
-  let teams = getLeagueTeams(league);
+  let teams = await getLeagueTeams(league);
 
   // Build club team slug lookup for profile page links
-  const clubTeamSlugs = new Set(getAllClubTeams().map((t) => t.slug));
+  const clubTeamSlugs = new Set((await getAllClubTeams()).map((t) => t.slug));
 
   // Sort by standings position if available
-  const standings = getStandings(league);
+  const standings = await getStandings(league);
   if (standings && standings.groups.length > 0) {
     // Build rank lookup: team slug → rank (use first group for single-table leagues)
     const rankMap = new Map<string, number>();

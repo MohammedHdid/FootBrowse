@@ -10,12 +10,13 @@ interface Props {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return getAllLeagues().map((l) => ({ slug: l.slug }));
+export async function generateStaticParams() {
+  const leagues = await getAllLeagues();
+  return leagues.map((l) => ({ slug: l.slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const league = getLeague(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const league = await getLeague(params.slug);
   if (!league) return {};
   const season = formatSeason(league);
   return {
@@ -39,12 +40,12 @@ const FORM_COLORS: Record<string, { bg: string; color: string }> = {
   L: { bg: "rgba(239,68,68,0.15)",  color: "#EF4444" },
 };
 
-export default function LeagueStandingsPage({ params }: Props) {
-  const league = getLeague(params.slug);
+export default async function LeagueStandingsPage({ params }: Props) {
+  const league = await getLeague(params.slug);
   if (!league) notFound();
 
   const season = formatSeason(league);
-  const standings = getStandings(league);
+  const standings = await getStandings(league);
 
   return (
     <div className="space-y-8">

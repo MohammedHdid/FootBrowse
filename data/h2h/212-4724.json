@@ -1,0 +1,26 @@
+{
+  "team1_id": 212,
+  "team2_id": 4724,
+  "fetched_at": "2026-04-19T17:19:12.972Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 3,
+  "team2_goals": 0,
+  "last_matches": [
+    {
+      "fixture_id": 1396364,
+      "date": "2025-12-22",
+      "league": "Primeira Liga",
+      "home_id": 4724,
+      "home_name": "Alverca",
+      "home_logo": "https://media.api-sports.io/football/teams/4724.png",
+      "away_id": 212,
+      "away_name": "FC Porto",
+      "away_logo": "https://media.api-sports.io/football/teams/212.png",
+      "home_score": 0,
+      "away_score": 3
+    }
+  ]
+}

@@ -1,5 +1,4 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import { supabase } from '@/lib/supabase'
 
 export interface MatchPrediction {
   fixture_id: number
@@ -20,12 +19,26 @@ export interface MatchPrediction {
   } | null
 }
 
-export function getPrediction(fixtureId: number): MatchPrediction | null {
-  const fp = path.join(process.cwd(), 'data', 'predictions', `${fixtureId}.json`)
-  if (!fs.existsSync(fp)) return null
-  try {
-    return JSON.parse(fs.readFileSync(fp, 'utf-8')) as MatchPrediction
-  } catch {
-    return null
+export async function getPrediction(fixtureId: number): Promise<MatchPrediction | null> {
+  const { data } = await supabase
+    .from('predictions')
+    .select('*')
+    .eq('fixture_id', fixtureId)
+    .single()
+
+  if (!data) return null
+
+  return {
+    fixture_id:      data.fixture_id,
+    fetched_at:      data.synced_at ?? new Date().toISOString(),
+    advice:          data.advice ?? '',
+    winner_id:       data.winner_api_id ?? null,
+    winner_name:     data.winner_name ?? null,
+    winner_comment:  data.winner_comment ?? null,
+    percent:         { home: data.percent_home ?? '0%', draw: data.percent_draw ?? '0%', away: data.percent_away ?? '0%' },
+    under_over:      data.under_over ?? null,
+    goals_home:      data.goals_home ?? null,
+    goals_away:      data.goals_away ?? null,
+    comparison:      data.comparison ?? null,
   }
 }

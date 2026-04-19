@@ -1,0 +1,91 @@
+{
+  "team1_id": 240,
+  "team2_id": 15130,
+  "fetched_at": "2026-04-19T18:46:33.110Z",
+  "played": 6,
+  "team1_wins": 3,
+  "team2_wins": 2,
+  "draws": 1,
+  "team1_goals": 8,
+  "team2_goals": 6,
+  "last_matches": [
+    {
+      "fixture_id": 1396498,
+      "date": "2026-04-19",
+      "league": "Primeira Liga",
+      "home_id": 240,
+      "home_name": "Arouca",
+      "home_logo": "https://media.api-sports.io/football/teams/240.png",
+      "away_id": 15130,
+      "away_name": "Estrela",
+      "away_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1396349,
+      "date": "2025-12-07",
+      "league": "Primeira Liga",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 240,
+      "away_name": "Arouca",
+      "away_logo": "https://media.api-sports.io/football/teams/240.png",
+      "home_score": 3,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1231991,
+      "date": "2025-04-19",
+      "league": "Primeira Liga",
+      "home_id": 240,
+      "home_name": "Arouca",
+      "home_logo": "https://media.api-sports.io/football/teams/240.png",
+      "away_id": 15130,
+      "away_name": "Estrela",
+      "away_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1231839,
+      "date": "2024-12-09",
+      "league": "Primeira Liga",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 240,
+      "away_name": "Arouca",
+      "away_logo": "https://media.api-sports.io/football/teams/240.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1063755,
+      "date": "2024-05-05",
+      "league": "Primeira Liga",
+      "home_id": 240,
+      "home_name": "Arouca",
+      "home_logo": "https://media.api-sports.io/football/teams/240.png",
+      "away_id": 15130,
+      "away_name": "Estrela",
+      "away_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1063602,
+      "date": "2023-12-28",
+      "league": "Primeira Liga",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 240,
+      "away_name": "Arouca",
+      "away_logo": "https://media.api-sports.io/football/teams/240.png",
+      "home_score": 1,
+      "away_score": 4
+    }
+  ]
+}

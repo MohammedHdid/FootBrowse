@@ -1,0 +1,65 @@
+{
+  "team1_id": 492,
+  "team2_id": 895,
+  "fetched_at": "2026-04-19T17:18:48.754Z",
+  "played": 4,
+  "team1_wins": 1,
+  "team2_wins": 1,
+  "draws": 2,
+  "team1_goals": 5,
+  "team2_goals": 4,
+  "last_matches": [
+    {
+      "fixture_id": 1514890,
+      "date": "2026-02-10",
+      "league": "Coppa Italia",
+      "home_id": 492,
+      "home_name": "Napoli",
+      "home_logo": "https://media.api-sports.io/football/teams/492.png",
+      "away_id": 895,
+      "away_name": "Como",
+      "away_logo": "https://media.api-sports.io/football/teams/895.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1377958,
+      "date": "2025-11-01",
+      "league": "Serie A",
+      "home_id": 492,
+      "home_name": "Napoli",
+      "home_logo": "https://media.api-sports.io/football/teams/492.png",
+      "away_id": 895,
+      "away_name": "Como",
+      "away_logo": "https://media.api-sports.io/football/teams/895.png",
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1223846,
+      "date": "2025-02-23",
+      "league": "Serie A",
+      "home_id": 895,
+      "home_name": "Como",
+      "home_logo": "https://media.api-sports.io/football/teams/895.png",
+      "away_id": 492,
+      "away_name": "Napoli",
+      "away_logo": "https://media.api-sports.io/football/teams/492.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1223663,
+      "date": "2024-10-04",
+      "league": "Serie A",
+      "home_id": 492,
+      "home_name": "Napoli",
+      "home_logo": "https://media.api-sports.io/football/teams/492.png",
+      "away_id": 895,
+      "away_name": "Como",
+      "away_logo": "https://media.api-sports.io/football/teams/895.png",
+      "home_score": 3,
+      "away_score": 1
+    }
+  ]
+}

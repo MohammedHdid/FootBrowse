@@ -1,5 +1,4 @@
-import fs from 'fs'
-import path from 'path'
+import { supabase } from '@/lib/supabase'
 
 export interface H2HMatch {
   fixture_id: number
@@ -20,9 +19,7 @@ export interface H2HRecord {
   team2_id: number
   fetched_at: string
   played: number
-  /** wins for min(id1,id2) team */
   team1_wins: number
-  /** wins for max(id1,id2) team */
   team2_wins: number
   draws: number
   team1_goals: number
@@ -30,27 +27,34 @@ export interface H2HRecord {
   last_matches: H2HMatch[]
 }
 
-const H2H_DIR = path.join(process.cwd(), 'data', 'h2h')
+export async function getH2H(teamId1: number, teamId2: number): Promise<H2HRecord | null> {
+  const t1 = Math.min(teamId1, teamId2)
+  const t2 = Math.max(teamId1, teamId2)
 
-function key(id1: number, id2: number): string {
-  return `${Math.min(id1, id2)}-${Math.max(id1, id2)}`
-}
+  const { data } = await supabase
+    .from('h2h')
+    .select('*')
+    .eq('team1_api_id', t1)
+    .eq('team2_api_id', t2)
+    .single()
 
-export function getH2H(teamId1: number, teamId2: number): H2HRecord | null {
-  const fp = path.join(H2H_DIR, `${key(teamId1, teamId2)}.json`)
-  if (!fs.existsSync(fp)) return null
-  try {
-    return JSON.parse(fs.readFileSync(fp, 'utf-8')) as H2HRecord
-  } catch {
-    return null
+  if (!data) return null
+
+  return {
+    team1_id:     (data as any).team1_api_id,
+    team2_id:     (data as any).team2_api_id,
+    fetched_at:   (data as any).synced_at ?? '',
+    played:       (data as any).played ?? 0,
+    team1_wins:   (data as any).team1_wins ?? 0,
+    team2_wins:   (data as any).team2_wins ?? 0,
+    draws:        (data as any).draws ?? 0,
+    team1_goals:  (data as any).team1_goals ?? 0,
+    team2_goals:  (data as any).team2_goals ?? 0,
+    last_matches: (data as any).last_matches ?? [],
   }
 }
 
-/**
- * Returns H2H stats from the perspective of the given team (homeId).
- * wins/losses/draws are relative to homeId.
- */
-export function getH2HForTeams(homeId: number, awayId: number): {
+export async function getH2HForTeams(homeId: number, awayId: number): Promise<{
   played: number
   homeWins: number
   awayWins: number
@@ -58,8 +62,8 @@ export function getH2HForTeams(homeId: number, awayId: number): {
   homeGoals: number
   awayGoals: number
   lastMatches: H2HMatch[]
-} | null {
-  const raw = getH2H(homeId, awayId)
+} | null> {
+  const raw = await getH2H(homeId, awayId)
   if (!raw) return null
 
   const homeIsTeam1 = Math.min(homeId, awayId) === homeId

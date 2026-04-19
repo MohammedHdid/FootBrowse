@@ -75,57 +75,64 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
 
         {/* Events by half — newest section first, newest event at top within each half */}
         {[
-          { label: "Extra Time", halfEvents: extraTime },
-          { label: "2nd Half",   halfEvents: secondHalf },
-          { label: "1st Half",   halfEvents: firstHalf },
-        ].filter(({ halfEvents }) => halfEvents.length > 0).map(({ label, halfEvents }, hi) => (
+          { label: "Extra Time", halfEvents: extraTime, alwaysShow: false },
+          { label: "2nd Half",   halfEvents: secondHalf, alwaysShow: true },
+          { label: "1st Half",   halfEvents: firstHalf, alwaysShow: true },
+        ].filter(({ halfEvents, alwaysShow }) => halfEvents.length > 0 || alwaysShow).map(({ label, halfEvents }, hi) => (
           <div key={hi} className="mb-3 last:mb-0">
             <div className="flex items-center gap-3 mb-1.5">
               <span className="text-[9px] font-black uppercase tracking-[0.2em] text-zinc-600">{label}</span>
               <div className="flex-1 h-px" style={{ backgroundColor: "rgba(255,255,255,0.05)" }} />
               <span className="text-[9px] text-zinc-700">{halfEvents.length}</span>
             </div>
-            <div className="space-y-0.5">
-              {halfEvents.map((e, i) => {
-                const isHome = e.team_id === homeTeamId;
-                const icon =
-                  e.type === "Goal"                                           ? "⚽" :
-                  e.detail === "Yellow Card"                                  ? "🟨" :
-                  (e.detail === "Red Card" || e.detail === "Yellow-Red Card") ? "🟥" :
-                  e.type === "subst"                                          ? "🔄" : null;
-                if (icon === null) return null;
-                const isSub = e.type === "subst";
-                return (
-                  <div key={i}
-                    className={`flex items-center gap-3 py-2 px-3 rounded-lg text-sm ${isHome ? "" : "flex-row-reverse"}`}
-                    style={{
-                      backgroundColor: "rgba(255,255,255,0.025)",
-                      borderLeft:  isHome  ? "2px solid rgba(0,255,135,0.25)"  : "2px solid transparent",
-                      borderRight: !isHome ? "2px solid rgba(59,130,246,0.25)" : "2px solid transparent",
-                    }}>
-                    <span className="text-zinc-500 tabular-nums text-xs w-8 shrink-0 text-center">
-                      {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
-                    </span>
-                    <span className="shrink-0">{icon}</span>
-                    <div className={`flex-1 min-w-0 ${isHome ? "" : "text-right"}`}>
-                      {isSub ? (
-                        <>
-                          {e.assist && <p className="text-sm font-semibold text-zinc-200 leading-tight"><span className="text-green-400 mr-1">↑</span>{e.assist}</p>}
-                          <p className="text-[11px] text-zinc-500 mt-0.5 leading-tight"><span className="mr-1">↓</span>{e.player}</p>
-                        </>
-                      ) : (
-                        <>
-                          <span className="font-semibold text-zinc-200">{e.player}</span>
-                          {e.type === "Goal" && e.assist && (
-                            <p className="text-[11px] text-zinc-500 mt-0.5">Assist: {e.assist}</p>
-                          )}
-                        </>
-                      )}
+            
+            {halfEvents.length === 0 ? (
+              <div className="flex items-center justify-center py-4 rounded-lg" style={{ backgroundColor: "rgba(255,255,255,0.015)", border: "1px dashed rgba(255,255,255,0.05)" }}>
+                <span className="text-xs font-semibold text-zinc-600">No major events</span>
+              </div>
+            ) : (
+              <div className="space-y-0.5">
+                {halfEvents.map((e, i) => {
+                  const isHome = e.team_id === homeTeamId;
+                  const icon =
+                    e.type === "Goal"                                           ? "⚽" :
+                    e.detail === "Yellow Card"                                  ? "🟨" :
+                    (e.detail === "Red Card" || e.detail === "Yellow-Red Card") ? "🟥" :
+                    e.type === "subst"                                          ? "🔄" : null;
+                  if (icon === null) return null;
+                  const isSub = e.type === "subst";
+                  return (
+                    <div key={i}
+                      className={`flex items-center gap-3 py-2 px-3 rounded-lg text-sm ${isHome ? "" : "flex-row-reverse"}`}
+                      style={{
+                        backgroundColor: "rgba(255,255,255,0.025)",
+                        borderLeft:  isHome  ? "2px solid rgba(0,255,135,0.25)"  : "2px solid transparent",
+                        borderRight: !isHome ? "2px solid rgba(59,130,246,0.25)" : "2px solid transparent",
+                      }}>
+                      <span className="text-zinc-500 tabular-nums text-xs w-8 shrink-0 text-center">
+                        {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
+                      </span>
+                      <span className="shrink-0">{icon}</span>
+                      <div className={`flex-1 min-w-0 ${isHome ? "" : "text-right"}`}>
+                        {isSub ? (
+                          <>
+                            {e.assist && <p className="text-sm font-semibold text-zinc-200 leading-tight"><span className="text-green-400 mr-1">↑</span>{e.assist}</p>}
+                            <p className="text-[11px] text-zinc-500 mt-0.5 leading-tight"><span className="mr-1">↓</span>{e.player}</p>
+                          </>
+                        ) : (
+                          <>
+                            <span className="font-semibold text-zinc-200">{e.player}</span>
+                            {e.type === "Goal" && e.assist && (
+                              <p className="text-[11px] text-zinc-500 mt-0.5">Assist: {e.assist}</p>
+                            )}
+                          </>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
         ))}
       </section>

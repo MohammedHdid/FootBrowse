@@ -1,0 +1,26 @@
+{
+  "team1_id": 240,
+  "team2_id": 4724,
+  "fetched_at": "2026-04-19T17:19:12.136Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 1,
+  "team2_goals": 0,
+  "last_matches": [
+    {
+      "fixture_id": 1396354,
+      "date": "2025-12-14",
+      "league": "Primeira Liga",
+      "home_id": 240,
+      "home_name": "Arouca",
+      "home_logo": "https://media.api-sports.io/football/teams/240.png",
+      "away_id": 4724,
+      "away_name": "Alverca",
+      "away_logo": "https://media.api-sports.io/football/teams/4724.png",
+      "home_score": 1,
+      "away_score": 0
+    }
+  ]
+}

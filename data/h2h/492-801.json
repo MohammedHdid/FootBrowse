@@ -1,0 +1,26 @@
+{
+  "team1_id": 492,
+  "team2_id": 801,
+  "fetched_at": "2026-04-19T17:18:53.505Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 3,
+  "team2_goals": 2,
+  "last_matches": [
+    {
+      "fixture_id": 1377900,
+      "date": "2025-09-22",
+      "league": "Serie A",
+      "home_id": 492,
+      "home_name": "Napoli",
+      "home_logo": "https://media.api-sports.io/football/teams/492.png",
+      "away_id": 801,
+      "away_name": "Pisa",
+      "away_logo": "https://media.api-sports.io/football/teams/801.png",
+      "home_score": 3,
+      "away_score": 2
+    }
+  ]
+}

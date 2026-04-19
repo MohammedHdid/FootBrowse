@@ -34,8 +34,8 @@ interface Props {
 }
 
 export default function MatchHero(p: Props) {
-  const statusColor = p.live ? "#EF4444" : p.finished ? "#71717A" : "#00FF87";
-  const statusBg    = p.live ? "rgba(239,68,68,0.1)" : p.finished ? "rgba(255,255,255,0.06)" : "rgba(0,255,135,0.1)";
+  const statusColor = p.live ? "#EF4444" : p.finished ? "#64748b" : "#3B82F6";
+  const statusBg    = p.live ? "rgba(239,68,68,0.1)" : p.finished ? "rgba(255,255,255,0.04)" : "rgba(59,130,246,0.1)";
 
   return (
     <div className="px-4 pt-4 pb-5"
@@ -49,10 +49,18 @@ export default function MatchHero(p: Props) {
         </Link>
         {p.isWC && p.group && <span className="badge-green">Group {p.group}</span>}
         {!p.isWC && p.stage && <span className="tag text-xs">{p.stage}</span>}
-        <span className="text-xs font-bold px-2 py-0.5 rounded-full"
-          style={{ color: statusColor, backgroundColor: statusBg }}>
-          {p.fixtureStatusLabel}
-        </span>
+        
+        {p.live ? (
+          <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-red-500/10 border border-red-500/20">
+            <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+            <span className="text-[10px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
+          </div>
+        ) : (
+          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full border"
+            style={{ color: statusColor, backgroundColor: statusBg, borderColor: p.finished ? "rgba(100,116,139,0.3)" : "rgba(59,130,246,0.3)" }}>
+            {p.fixtureStatusLabel}
+          </span>
+        )}
       </div>
 
       {/* Teams + score/VS */}
@@ -78,17 +86,24 @@ export default function MatchHero(p: Props) {
         <div className="text-center px-2 sm:px-6 shrink-0">
           {p.finished || p.live ? (
             <>
-              <p className="text-4xl sm:text-5xl font-black text-white tabular-nums"
+              <p className={`text-4xl sm:text-5xl font-black tabular-nums ${p.live ? "text-red-500" : "text-white"}`}
                 style={{ letterSpacing: "-0.05em" }}>
                 {p.score.home ?? 0}<span className="mx-2 text-slate-600">–</span>{p.score.away ?? 0}
               </p>
-              <p className="text-xs font-bold mt-1 uppercase tracking-widest" style={{ color: statusColor }}>
-                {p.fixtureStatusLabel}
-              </p>
+              {p.live ? (
+                <div className="flex items-center justify-center gap-1.5 mt-2">
+                  <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+                  <span className="text-[11px] font-black uppercase tracking-widest text-red-500">LIVE</span>
+                </div>
+              ) : (
+                <p className="text-xs font-bold mt-1 uppercase tracking-widest text-slate-500">
+                  {p.fixtureStatusLabel}
+                </p>
+              )}
             </>
           ) : (
             <>
-              <p className="text-4xl sm:text-5xl font-black" style={{ color: "#00FF87", letterSpacing: "-0.04em" }}>VS</p>
+              <p className="text-4xl sm:text-5xl font-black" style={{ color: "#3B82F6", letterSpacing: "-0.04em" }}>VS</p>
               <p className="text-xs text-slate-600 mt-1 uppercase tracking-widest">{p.kickoffUtc} UTC</p>
             </>
           )}
@@ -116,7 +131,7 @@ export default function MatchHero(p: Props) {
       {/* Meta row */}
       <div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-slate-400"
         style={{ borderTop: "1px solid rgba(51, 65, 85, 0.4)", paddingTop: "1.25rem" }}>
-        <span>📅 {new Date(p.matchDate).toLocaleDateString("en-US", {
+        <span suppressHydrationWarning>📅 {new Date(p.matchDate + "T00:00:00").toLocaleDateString("en-US", {
           weekday: "long", month: "long", day: "numeric", year: "numeric",
         })}</span>
         <span>🕐 {p.kickoffUtc} UTC{p.kickoffEst ? ` · ${p.kickoffEst} EST` : ""}</span>

@@ -1,0 +1,39 @@
+{
+  "team1_id": 230,
+  "team2_id": 4724,
+  "fetched_at": "2026-04-19T17:19:23.496Z",
+  "played": 2,
+  "team1_wins": 1,
+  "team2_wins": 1,
+  "draws": 0,
+  "team1_goals": 5,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1396375,
+      "date": "2025-12-27",
+      "league": "Primeira Liga",
+      "home_id": 230,
+      "home_name": "Estoril",
+      "home_logo": "https://media.api-sports.io/football/teams/230.png",
+      "away_id": 4724,
+      "away_name": "Alverca",
+      "away_logo": "https://media.api-sports.io/football/teams/4724.png",
+      "home_score": 4,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1403328,
+      "date": "2025-07-19",
+      "league": "Friendlies Clubs",
+      "home_id": 230,
+      "home_name": "Estoril",
+      "home_logo": "https://media.api-sports.io/football/teams/230.png",
+      "away_id": 4724,
+      "away_name": "Alverca",
+      "away_logo": "https://media.api-sports.io/football/teams/4724.png",
+      "home_score": 1,
+      "away_score": 2
+    }
+  ]
+}

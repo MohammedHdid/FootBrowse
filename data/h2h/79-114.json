@@ -1,0 +1,26 @@
+{
+  "team1_id": 79,
+  "team2_id": 114,
+  "fetched_at": "2026-04-19T17:18:56.854Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 4,
+  "team2_goals": 2,
+  "last_matches": [
+    {
+      "fixture_id": 1387809,
+      "date": "2025-11-23",
+      "league": "Ligue 1",
+      "home_id": 79,
+      "home_name": "Lille",
+      "home_logo": "https://media.api-sports.io/football/teams/79.png",
+      "away_id": 114,
+      "away_name": "Paris FC",
+      "away_logo": "https://media.api-sports.io/football/teams/114.png",
+      "home_score": 4,
+      "away_score": 2
+    }
+  ]
+}

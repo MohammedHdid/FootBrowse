@@ -5,6 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import type { DayFixtures } from "@/lib/date-fixtures";
 
+type MatchFilter = "all" | "live" | "upcoming" | "finished";
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 const STATUS_LABEL: Record<string, string> = {
@@ -28,11 +30,25 @@ interface Props {
 
 export default function DateMatchesSection({ days, todayStr }: Props) {
   const [selectedDate, setSelectedDate] = useState(todayStr);
+  const [filter, setFilter] = useState<MatchFilter>("all");
 
   const selectedIdx = days.findIndex((d) => d.date === selectedDate);
   const selectedDay = days[selectedIdx] ?? null;
-  const totalMatches =
-    selectedDay?.leagues.reduce((n, g) => n + g.fixtures.length, 0) ?? 0;
+
+  const filteredLeagues = selectedDay?.leagues.map(group => {
+    const fixtures = group.fixtures.filter(f => {
+      const live = isLive(f.status);
+      const finished = isFinished(f.status);
+      const upcoming = !live && !finished;
+      if (filter === "live") return live;
+      if (filter === "upcoming") return upcoming;
+      if (filter === "finished") return finished;
+      return true;
+    });
+    return { ...group, fixtures };
+  }).filter(group => group.fixtures.length > 0) ?? [];
+
+  const totalFilteredMatches = filteredLeagues.reduce((n, g) => n + g.fixtures.length, 0);
 
   function prev() {
     if (selectedIdx > 0) {
@@ -55,11 +71,11 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
       <div className="section-row mb-3">
         <h2 className="section-title text-xl">
           Matches
-          {totalMatches > 0 && (
+          {totalFilteredMatches > 0 && (
             <span
               className="ml-2 bg-slate-800 text-slate-400 text-[10px] font-bold px-2 py-0.5 rounded-full border border-slate-700"
             >
-              {totalMatches}
+              {totalFilteredMatches}
             </span>
           )}
         </h2>
@@ -154,8 +170,38 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
         </button>
       </div>
 
+      {/* Filters */}
+      {selectedDay && selectedDay.leagues.length > 0 && (
+        <div className="flex items-center gap-2 mb-6 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {[
+            { id: "all", label: "All" },
+            { id: "live", label: "Live", liveDot: true },
+            { id: "upcoming", label: "Upcoming" },
+            { id: "finished", label: "Finished" }
+          ].map((f) => {
+            const isSelected = filter === f.id;
+            return (
+              <button
+                key={f.id}
+                onClick={() => setFilter(f.id as MatchFilter)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-all shrink-0 ${
+                  isSelected 
+                    ? "bg-slate-200 text-slate-900 border border-transparent" 
+                    : "bg-slate-800/50 text-slate-400 border border-slate-700/50 hover:bg-slate-800"
+                }`}
+              >
+                {f.liveDot && (
+                  <span className={`w-1.5 h-1.5 rounded-full ${isSelected ? "bg-red-500 animate-pulse" : "bg-red-500/50"}`} />
+                )}
+                {f.label}
+              </button>
+            );
+          })}
+        </div>
+      )}
+
       {/* Match list */}
-      {!selectedDay || selectedDay.leagues.length === 0 ? (
+      {(!selectedDay || selectedDay.leagues.length === 0) ? (
         <div
           className="text-center py-10 rounded-xl"
           style={{
@@ -174,9 +220,25 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
             Browse all leagues →
           </Link>
         </div>
+      ) : filteredLeagues.length === 0 ? (
+        <div
+          className="text-center py-10 rounded-xl"
+          style={{
+            backgroundColor: "rgba(255,255,255,0.02)",
+            border: "1px solid #334155",
+          }}
+        >
+          <p className="text-slate-400 text-sm font-bold">No {filter} matches found.</p>
+          <button
+            onClick={() => setFilter("all")}
+            className="text-xs text-blue-400 mt-2 font-semibold hover:underline"
+          >
+            Clear filter
+          </button>
+        </div>
       ) : (
         <div className="space-y-4">
-          {selectedDay.leagues.map((group) => (
+          {filteredLeagues.map((group) => (
             <div key={group.leagueSlug}>
               {/* League header row */}
               <div className="flex items-center gap-2 mb-3">
@@ -226,15 +288,18 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                       style={{
                         backgroundColor: "#1e293b",
                         border: "1px solid #334155",
-                        borderLeft: "3px solid #00FF87",
+                        borderLeft: live ? "3px solid #EF4444" : finished ? "3px solid #475569" : "3px solid #3B82F6",
                       }}
                     >
                       {/* Left: status / time */}
-                      <div className="shrink-0 w-11 flex flex-col items-center justify-center gap-0.5">
+                      <div className="shrink-0 w-12 flex flex-col items-center justify-center gap-0.5">
                         {live ? (
-                          <span className="status-pill text-[9px]">LIVE</span>
+                          <div className="flex items-center gap-1.5 px-1.5 py-0.5 rounded bg-red-500/10 border border-red-500/20">
+                            <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+                            <span className="text-[9px] font-black tracking-wider text-red-500">LIVE</span>
+                          </div>
                         ) : finished ? (
-                          <span className="text-[10px] font-bold" style={{ color: "#00FF87" }}>
+                          <span className="text-[10px] font-bold text-slate-500">
                             {STATUS_LABEL[f.status] ?? f.status}
                           </span>
                         ) : (
@@ -250,10 +315,10 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                         <div className="flex items-center gap-2">
                           <Image src={f.home_team.logo} alt={f.home_team.name}
                             width={16} height={16} className="object-contain shrink-0" unoptimized />
-                          <span className={`text-xs truncate flex-1 ${homeWon ? "font-bold text-white" : "font-medium text-slate-400"}`}>
+                          <span className={`text-xs truncate flex-1 ${homeWon ? "font-bold text-white" : "font-medium text-slate-300"}`}>
                             {f.home_team.name}
                           </span>
-                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${homeWon ? "text-white" : live ? "text-slate-300" : "text-slate-500"}`}>
+                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${live ? "text-red-400" : homeWon ? "text-white" : finished ? "text-slate-400" : "text-slate-600"}`}>
                             {finished || live ? (f.score.home ?? 0) : "—"}
                           </span>
                         </div>
@@ -261,10 +326,10 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                         <div className="flex items-center gap-2">
                           <Image src={f.away_team.logo} alt={f.away_team.name}
                             width={16} height={16} className="object-contain shrink-0" unoptimized />
-                          <span className={`text-xs truncate flex-1 ${awayWon ? "font-bold text-white" : "font-medium text-slate-400"}`}>
+                          <span className={`text-xs truncate flex-1 ${awayWon ? "font-bold text-white" : "font-medium text-slate-300"}`}>
                             {f.away_team.name}
                           </span>
-                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${awayWon ? "text-white" : live ? "text-slate-300" : "text-slate-500"}`}>
+                          <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${live ? "text-red-400" : awayWon ? "text-white" : finished ? "text-slate-400" : "text-slate-600"}`}>
                             {finished || live ? (f.score.away ?? 0) : "—"}
                           </span>
                         </div>

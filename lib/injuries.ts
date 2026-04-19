@@ -1,11 +1,10 @@
-import fs from 'fs'
-import path from 'path'
+import { supabase } from '@/lib/supabase'
 
 export interface InjuryRecord {
   player_id: number
   player_name: string
   player_photo: string | null
-  type: string      // "Injured" | "Suspended" | "Missing Fixture"
+  type: string
   reason: string | null
   team_id: number
   team_name: string
@@ -15,70 +14,88 @@ export interface InjuryRecord {
   fixture_date: string
 }
 
-interface InjuriesFile {
-  league_id: number
-  league_slug: string
-  season: number
-  fetched_at: string
-  injuries: InjuryRecord[]
+export async function getLeagueInjuries(leagueSlug: string): Promise<InjuryRecord[]> {
+  const { data: league } = await supabase
+    .from('leagues')
+    .select('id')
+    .eq('slug', leagueSlug)
+    .single()
+
+  if (!league) return []
+
+  const { data } = await supabase
+    .from('injuries')
+    .select(`
+      player_api_id, player_name, type, reason, fixture_date,
+      team:teams!team_id(api_football_id, name, logo, slug),
+      match:matches!match_id(fixture_id, date)
+    `)
+    .eq('league_id', (league as any).id)
+
+  return (data ?? []).map((r: any) => ({
+    player_id:    r.player_api_id ?? 0,
+    player_name:  r.player_name ?? '',
+    player_photo: null,
+    type:         r.type ?? '',
+    reason:       r.reason ?? null,
+    team_id:      r.team?.api_football_id ?? 0,
+    team_name:    r.team?.name ?? '',
+    team_logo:    r.team?.logo ?? '',
+    team_slug:    r.team?.slug ?? '',
+    fixture_id:   r.match?.fixture_id ?? 0,
+    fixture_date: r.fixture_date ?? r.match?.date ?? '',
+  }))
 }
 
-const INJURIES_DIR = path.join(process.cwd(), 'data', 'injuries')
+export async function getUniqueTeamInjuries(leagueSlug: string, teamSlug: string): Promise<InjuryRecord[]> {
+  const { data: league } = await supabase.from('leagues').select('id').eq('slug', leagueSlug).single()
+  const { data: team }   = await supabase.from('teams').select('id').eq('slug', teamSlug).single()
 
-function loadInjuriesFile(leagueSlug: string): InjuriesFile | null {
-  const filePath = path.join(INJURIES_DIR, `${leagueSlug}.json`)
-  if (!fs.existsSync(filePath)) return null
-  try {
-    return JSON.parse(fs.readFileSync(filePath, 'utf-8')) as InjuriesFile
-  } catch {
-    return null
-  }
-}
+  if (!league || !team) return []
 
-/** All injuries for a league */
-export function getLeagueInjuries(leagueSlug: string): InjuryRecord[] {
-  return loadInjuriesFile(leagueSlug)?.injuries ?? []
-}
+  const { data } = await supabase
+    .from('injuries')
+    .select(`
+      player_api_id, player_name, type, reason, fixture_date,
+      team:teams!team_id(api_football_id, name, logo, slug),
+      match:matches!match_id(fixture_id, date)
+    `)
+    .eq('league_id', (league as any).id)
+    .eq('team_id', (team as any).id)
 
-/** Injuries for a specific team within a league */
-export function getTeamInjuries(leagueSlug: string, teamId: number): InjuryRecord[] {
-  return getLeagueInjuries(leagueSlug).filter((r) => r.team_id === teamId)
-}
+  const cutoff = Date.now() - 3 * 24 * 60 * 60 * 1000
+  const records: InjuryRecord[] = (data ?? []).map((r: any) => ({
+    player_id:    r.player_api_id ?? 0,
+    player_name:  r.player_name ?? '',
+    player_photo: null,
+    type:         r.type ?? '',
+    reason:       r.reason ?? null,
+    team_id:      r.team?.api_football_id ?? 0,
+    team_name:    r.team?.name ?? '',
+    team_logo:    r.team?.logo ?? '',
+    team_slug:    r.team?.slug ?? '',
+    fixture_id:   r.match?.fixture_id ?? 0,
+    fixture_date: r.fixture_date ?? r.match?.date ?? '',
+  }))
 
-/** Injuries for a specific team by slug within a league */
-export function getTeamInjuriesBySlug(leagueSlug: string, teamSlug: string): InjuryRecord[] {
-  return getLeagueInjuries(leagueSlug).filter((r) => r.team_slug === teamSlug)
-}
+  const recent = records.filter((r) => !r.fixture_date || new Date(r.fixture_date).getTime() >= cutoff)
 
-/**
- * Deduped injuries for a team scoped to the current/upcoming gameweek.
- *
- * The /injuries endpoint returns every injury for every fixture in the season,
- * including historical ones. We only want players who are out for an upcoming
- * fixture (or a fixture played in the last 3 days, to cover the current round).
- *
- * Strategy:
- * 1. Keep only records where fixture_date >= (now - 3 days)
- * 2. Deduplicate by player_id, keeping the nearest-future fixture
- * 3. Sort alphabetically by name
- */
-export function getUniqueTeamInjuries(leagueSlug: string, teamSlug: string): InjuryRecord[] {
-  const cutoff = Date.now() - 3 * 24 * 60 * 60 * 1000 // 3 days ago
-
-  const recent = getTeamInjuriesBySlug(leagueSlug, teamSlug).filter(
-    (r) => new Date(r.fixture_date).getTime() >= cutoff,
-  )
-
-  // Keep the soonest upcoming fixture per player
   const seen = new Map<number, InjuryRecord>()
   for (const r of recent) {
     const existing = seen.get(r.player_id)
-    if (!existing || r.fixture_date < existing.fixture_date) {
-      seen.set(r.player_id, r)
+    if (!existing || r.fixture_date < existing.fixture_date) seen.set(r.player_id, r)
+  }
+
+  const uniqueRecords = Array.from(seen.values()).sort((a, b) => a.player_name.localeCompare(b.player_name))
+
+  if (uniqueRecords.length > 0) {
+    const playerApiIds = uniqueRecords.map(r => r.player_id)
+    const { data: players } = await supabase.from('players').select('api_football_id, photo').in('api_football_id', playerApiIds)
+    const photoMap = new Map((players || []).map((p: any) => [p.api_football_id, p.photo]))
+    for (const r of uniqueRecords) {
+      r.player_photo = photoMap.get(r.player_id) || null
     }
   }
 
-  return Array.from(seen.values()).sort((a, b) =>
-    (a.player_name ?? '').localeCompare(b.player_name ?? ''),
-  )
+  return uniqueRecords
 }

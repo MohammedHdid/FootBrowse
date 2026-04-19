@@ -13,12 +13,13 @@ interface Props {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return getAllPlayers().map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  const allPlayers = await getAllPlayers();
+  return allPlayers.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const player = getPlayer(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const player = await getPlayer(params.slug);
   if (!player) return {};
   const isClub = !!player.primaryLeagueSlug;
   const title = isClub
@@ -52,8 +53,8 @@ function formatMarketValue(val: number | null): string {
 }
 
 
-export default function PlayerPage({ params }: Props) {
-  const player = getPlayer(params.slug);
+export default async function PlayerPage({ params }: Props) {
+  const player = await getPlayer(params.slug);
   if (!player) notFound();
 
   const pos = getPositionStyle(player.position);
@@ -62,10 +63,12 @@ export default function PlayerPage({ params }: Props) {
   const teamHref = isClub
     ? `/leagues/${player.primaryLeagueSlug}/teams/${player.teamSlug}`
     : `/teams/${player.teamSlug}`;
-  const relatedPlayers = (
-    isClub ? getClubTeamPlayers(player.teamSlug) : getTeamPlayers(player.teamSlug)
-  ).filter((p) => p.slug !== player.slug).slice(0, 4);
-  const playerStats = getPlayerStats(player.slug);
+
+  const [relatedRaw, playerStats] = await Promise.all([
+    isClub ? getClubTeamPlayers(player.teamSlug) : Promise.resolve(getTeamPlayers(player.teamSlug)),
+    getPlayerStats(player.slug),
+  ]);
+  const relatedPlayers = relatedRaw.filter((p) => p.slug !== player.slug).slice(0, 4);
   const photoSrc = playerStats?.api_photo ?? player.photo_url;
 
 

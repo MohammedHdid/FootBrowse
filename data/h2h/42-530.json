@@ -1,0 +1,65 @@
+{
+  "team1_id": 42,
+  "team2_id": 530,
+  "fetched_at": "2026-04-19T17:18:22.423Z",
+  "played": 4,
+  "team1_wins": 1,
+  "team2_wins": 1,
+  "draws": 2,
+  "team1_goals": 6,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1451061,
+      "date": "2025-10-21",
+      "league": "UEFA Champions League",
+      "home_id": 42,
+      "home_name": "Arsenal",
+      "home_logo": "https://media.api-sports.io/football/teams/42.png",
+      "away_id": 530,
+      "away_name": "Atletico Madrid",
+      "away_logo": "https://media.api-sports.io/football/teams/530.png",
+      "home_score": 4,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 255645,
+      "date": "2018-07-26",
+      "league": "International Champions Cup",
+      "home_id": 530,
+      "home_name": "Atletico Madrid",
+      "home_logo": "https://media.api-sports.io/football/teams/530.png",
+      "away_id": 42,
+      "away_name": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 349654,
+      "date": "2018-05-03",
+      "league": "UEFA Europa League",
+      "home_id": 530,
+      "home_name": "Atletico Madrid",
+      "home_logo": "https://media.api-sports.io/football/teams/530.png",
+      "away_id": 42,
+      "away_name": "Arsenal",
+      "away_logo": "https://media.api-sports.io/football/teams/42.png",
+      "home_score": 1,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 349653,
+      "date": "2018-04-26",
+      "league": "UEFA Europa League",
+      "home_id": 42,
+      "home_name": "Arsenal",
+      "home_logo": "https://media.api-sports.io/football/teams/42.png",
+      "away_id": 530,
+      "away_name": "Atletico Madrid",
+      "away_logo": "https://media.api-sports.io/football/teams/530.png",
+      "home_score": 1,
+      "away_score": 1
+    }
+  ]
+}

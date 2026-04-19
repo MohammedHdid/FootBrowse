@@ -15,8 +15,9 @@ export const players = playersData as unknown as SyncedPlayer[];
 export const playersByTeam = playersByTeamData as unknown as PlayersByTeam;
 
 /** Combined WC + club players — use for generateStaticParams and sitemaps */
-export function getAllPlayers(): SyncedPlayer[] {
-  return [...players, ...getAllClubPlayers()];
+export async function getAllPlayers(): Promise<SyncedPlayer[]> {
+  const clubPlayers = await getAllClubPlayers();
+  return [...players, ...clubPlayers];
 }
 
 export function getMatch(slug: string): Match | undefined {
@@ -32,8 +33,8 @@ export function getStadium(slug: string): Stadium | undefined {
 }
 
 /** Look up a player by slug — checks WC players first, then club players */
-export function getPlayer(slug: string): SyncedPlayer | undefined {
-  return players.find((p) => p.slug === slug) ?? getClubPlayer(slug);
+export async function getPlayer(slug: string): Promise<SyncedPlayer | undefined> {
+  return players.find((p) => p.slug === slug) ?? (await getClubPlayer(slug));
 }
 
 /** Returns players for a team from the flat players array (uses teamSlug field). */

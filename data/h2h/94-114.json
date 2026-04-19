@@ -1,0 +1,26 @@
+{
+  "team1_id": 94,
+  "team2_id": 114,
+  "fetched_at": "2026-04-19T17:18:59.398Z",
+  "played": 1,
+  "team1_wins": 1,
+  "team2_wins": 0,
+  "draws": 0,
+  "team1_goals": 1,
+  "team2_goals": 0,
+  "last_matches": [
+    {
+      "fixture_id": 1387804,
+      "date": "2025-11-07",
+      "league": "Ligue 1",
+      "home_id": 114,
+      "home_name": "Paris FC",
+      "home_logo": "https://media.api-sports.io/football/teams/114.png",
+      "away_id": 94,
+      "away_name": "Rennes",
+      "away_logo": "https://media.api-sports.io/football/teams/94.png",
+      "home_score": 0,
+      "away_score": 1
+    }
+  ]
+}

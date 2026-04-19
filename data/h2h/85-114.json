@@ -1,0 +1,52 @@
+{
+  "team1_id": 85,
+  "team2_id": 114,
+  "fetched_at": "2026-04-19T17:19:11.227Z",
+  "played": 3,
+  "team1_wins": 2,
+  "team2_wins": 1,
+  "draws": 0,
+  "team1_goals": 4,
+  "team2_goals": 3,
+  "last_matches": [
+    {
+      "fixture_id": 1495631,
+      "date": "2026-01-12",
+      "league": "Coupe de France",
+      "home_id": 85,
+      "home_name": "Paris Saint Germain",
+      "home_logo": "https://media.api-sports.io/football/teams/85.png",
+      "away_id": 114,
+      "away_name": "Paris FC",
+      "away_logo": "https://media.api-sports.io/football/teams/114.png",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1387849,
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "home_id": 85,
+      "home_name": "Paris Saint Germain",
+      "home_logo": "https://media.api-sports.io/football/teams/85.png",
+      "away_id": 114,
+      "away_name": "Paris FC",
+      "away_logo": "https://media.api-sports.io/football/teams/114.png",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 977001,
+      "date": "2022-12-16",
+      "league": "Friendlies Clubs",
+      "home_id": 85,
+      "home_name": "Paris Saint Germain",
+      "home_logo": "https://media.api-sports.io/football/teams/85.png",
+      "away_id": 114,
+      "away_name": "Paris FC",
+      "away_logo": "https://media.api-sports.io/football/teams/114.png",
+      "home_score": 2,
+      "away_score": 1
+    }
+  ]
+}

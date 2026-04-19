@@ -1,0 +1,91 @@
+{
+  "team1_id": 217,
+  "team2_id": 15130,
+  "fetched_at": "2026-04-19T17:19:23.856Z",
+  "played": 6,
+  "team1_wins": 3,
+  "team2_wins": 0,
+  "draws": 3,
+  "team1_goals": 12,
+  "team2_goals": 6,
+  "last_matches": [
+    {
+      "fixture_id": 1396384,
+      "date": "2026-01-03",
+      "league": "Primeira Liga",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 217,
+      "away_name": "SC Braga",
+      "away_logo": "https://media.api-sports.io/football/teams/217.png",
+      "home_score": 3,
+      "away_score": 3
+    },
+    {
+      "fixture_id": 1231887,
+      "date": "2025-01-19",
+      "league": "Primeira Liga",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 217,
+      "away_name": "SC Braga",
+      "away_logo": "https://media.api-sports.io/football/teams/217.png",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1231731,
+      "date": "2024-08-11",
+      "league": "Primeira Liga",
+      "home_id": 217,
+      "home_name": "SC Braga",
+      "home_logo": "https://media.api-sports.io/football/teams/217.png",
+      "away_id": 15130,
+      "away_name": "Estrela",
+      "away_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "fixture_id": 1063686,
+      "date": "2024-03-02",
+      "league": "Primeira Liga",
+      "home_id": 217,
+      "home_name": "SC Braga",
+      "home_logo": "https://media.api-sports.io/football/teams/217.png",
+      "away_id": 15130,
+      "away_name": "Estrela",
+      "away_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "home_score": 3,
+      "away_score": 0
+    },
+    {
+      "fixture_id": 1063534,
+      "date": "2023-09-28",
+      "league": "Primeira Liga",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 217,
+      "away_name": "SC Braga",
+      "away_logo": "https://media.api-sports.io/football/teams/217.png",
+      "home_score": 2,
+      "away_score": 4
+    },
+    {
+      "fixture_id": 737515,
+      "date": "2021-07-13",
+      "league": "Friendlies Clubs",
+      "home_id": 15130,
+      "home_name": "Estrela",
+      "home_logo": "https://media.api-sports.io/football/teams/15130.png",
+      "away_id": 217,
+      "away_name": "SC Braga",
+      "away_logo": "https://media.api-sports.io/football/teams/217.png",
+      "home_score": 0,
+      "away_score": 0
+    }
+  ]
+}
