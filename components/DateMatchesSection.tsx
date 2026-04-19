@@ -54,7 +54,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
 
     const poll = async () => {
       try {
-        const res = await fetch('/api/matches/live', { cache: 'no-store' });
+        const res = await fetch(`/api/matches/live?t=${Date.now()}`, { cache: 'no-store' });
         const data: MatchUpdate[] = await res.json();
         const map: Record<number, MatchUpdate> = {};
         data.forEach(u => map[u.fixture_id] = u);
