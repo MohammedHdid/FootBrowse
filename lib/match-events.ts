@@ -28,6 +28,7 @@ export interface MatchEvents {
   fixture_id: number
   fetched_at: string
   status: string
+  elapsed: number | null
   score: { home: number | null; away: number | null }
   events: MatchEventItem[]
   home_stats: MatchStatGroup | null
@@ -38,7 +39,7 @@ export async function getMatchEvents(fixtureId: number): Promise<MatchEvents | n
   const { data: match } = await supabase
     .from('matches')
     .select(`
-      id, status, score_home, score_away,
+      id, status, elapsed, score_home, score_away,
       home:teams!home_id(api_football_id),
       away:teams!away_id(api_football_id)
     `)
@@ -65,16 +66,6 @@ export async function getMatchEvents(fixtureId: number): Promise<MatchEvents | n
       .eq('match_id', (match as any).id),
   ])
 
-  const events: MatchEventItem[] = (eventsRes.data ?? []).map((e: any) => ({
-    minute:  e.minute ?? 0,
-    extra:   e.extra_minute ?? null,
-    team_id: e.team?.api_football_id ?? 0,
-    player:  e.player_name ?? '',
-    assist:  e.assist_name ?? null,
-    type:    e.type as any,
-    detail:  e.detail ?? '',
-  }))
-
   const homeApiId = (match as any).home?.api_football_id ?? 0
   const awayApiId = (match as any).away?.api_football_id ?? 0
   const statsArr  = statsRes.data ?? []
@@ -99,10 +90,31 @@ export async function getMatchEvents(fixtureId: number): Promise<MatchEvents | n
     }
   }
 
+  const events: MatchEventItem[] = eventsRes.data?.length 
+    ? (eventsRes.data).map((e: any) => ({
+        minute:  e.minute ?? 0,
+        extra:   e.extra_minute ?? null,
+        team_id: e.team?.api_football_id ?? 0,
+        player:  e.player_name ?? '',
+        assist:  e.assist_name ?? null,
+        type:    e.type as any,
+        detail:  e.detail ?? '',
+      }))
+    : (await supabase.from('live_events').select('*').eq('match_id', (match as any).id).order('minute', { ascending: true })).data?.map((e: any) => ({
+        minute:  e.minute ?? 0,
+        extra:   e.extra_minute ?? null,
+        team_id: 0, 
+        player:  e.player_name ?? '',
+        assist:  null,
+        type:    e.type as any,
+        detail:  e.detail ?? '',
+    })) || []
+
   return {
     fixture_id: fixtureId,
     fetched_at: new Date().toISOString(),
     status:     (match as any).status,
+    elapsed:    (match as any).elapsed ?? null,
     score:      { home: (match as any).score_home ?? null, away: (match as any).score_away ?? null },
     events,
     home_stats: mapStat(homeStatRow, homeApiId),

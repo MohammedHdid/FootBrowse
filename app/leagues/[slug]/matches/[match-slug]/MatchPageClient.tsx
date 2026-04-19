@@ -166,6 +166,7 @@ export interface MatchPageData {
   finished: boolean;
   live: boolean;
   upcoming: boolean;
+  elapsed: number | null;
 
   // Score + events
   score: { home: number | null; away: number | null };
@@ -356,6 +357,7 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
             finished={data.finished}
             live={data.live}
             fixtureStatusLabel={data.fixtureStatusLabel}
+            elapsed={data.elapsed}
           />
         ) : (
           <MatchHero
@@ -387,6 +389,7 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
             matchDate={data.matchDate}
             city={data.city}
             venueName={data.venueName}
+            elapsed={data.elapsed}
           />
         )}
         <MatchOddsStrip oddsData={data.oddsData} />

@@ -14,6 +14,7 @@ interface Props {
   finished: boolean;
   live: boolean;
   fixtureStatusLabel: string;
+  elapsed: number | null;
 }
 
 export default function MatchMiniBar(p: Props) {
@@ -43,9 +44,11 @@ export default function MatchMiniBar(p: Props) {
         )}
         <div className="flex justify-center mt-0.5">
           {p.live ? (
-            <div className="flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-red-500/10 border border-red-500/20">
+            <div className="flex items-center gap-1.5 px-1.5 py-0.5 rounded-full bg-red-500/10 border border-red-500/20">
               <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-              <span className="text-[8px] font-black tracking-wider text-red-500 uppercase leading-none">LIVE</span>
+              <span className="text-[8px] font-black tracking-wider text-red-500 uppercase leading-none">
+                LIVE {p.elapsed ? `· ${p.elapsed}'` : ""}
+              </span>
             </div>
           ) : (
             <span className="block text-[9px] font-bold px-1.5 py-0.5 rounded-full w-fit mx-auto border"

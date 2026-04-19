@@ -31,6 +31,7 @@ interface Props {
   matchDate: string;
   city: string | null;
   venueName: string | null;
+  elapsed: number | null;
 }
 
 export default function MatchHero(p: Props) {
@@ -53,7 +54,7 @@ export default function MatchHero(p: Props) {
         {p.live ? (
           <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-red-500/10 border border-red-500/20">
             <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-            <span className="text-[10px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
+            <span className="text-[10px] font-black tracking-wider text-red-500 uppercase">LIVE {p.elapsed ? `· ${p.elapsed}'` : ""}</span>
           </div>
         ) : (
           <span className="text-[10px] font-bold px-2 py-0.5 rounded-full border"
@@ -91,9 +92,16 @@ export default function MatchHero(p: Props) {
                 {p.score.home ?? 0}<span className="mx-2 text-slate-600">–</span>{p.score.away ?? 0}
               </p>
               {p.live ? (
-                <div className="flex items-center justify-center gap-1.5 mt-2">
-                  <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-                  <span className="text-[11px] font-black uppercase tracking-widest text-red-500">LIVE</span>
+                <div className="flex flex-col items-center justify-center gap-1 mt-2">
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+                    <span className="text-[11px] font-black uppercase tracking-widest text-red-500">LIVE</span>
+                  </div>
+                  {p.elapsed && (
+                    <span className="text-xl font-black text-red-500 tabular-nums">
+                      {p.elapsed}'
+                    </span>
+                  )}
                 </div>
               ) : (
                 <p className="text-xs font-bold mt-1 uppercase tracking-widest text-slate-500">

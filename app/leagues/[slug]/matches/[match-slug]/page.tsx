@@ -377,6 +377,7 @@ export default async function LeagueMatchPage({ params }: { params: Props["param
     finished,
     live,
     upcoming,
+    elapsed: matchEventsData?.elapsed ?? null,
     score: clubScore,
     homeTeamId,
     events,

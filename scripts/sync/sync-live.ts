@@ -86,6 +86,7 @@ async function main() {
     if (matchId) {
       await db.from('matches').update({
         status:     f.fixture.status.short,
+        elapsed:    f.fixture.status.elapsed ?? null,
         score_home: scoreHome,
         score_away: scoreAway,
         updated_at: new Date().toISOString(),
@@ -102,6 +103,7 @@ async function main() {
           away_id:     teamById.get(f.teams.away.id) ?? null,
           date:        new Date().toISOString().slice(0, 10),
           status:      f.fixture.status.short,
+          elapsed:     f.fixture.status.elapsed ?? null,
           score_home:  scoreHome,
           score_away:  scoreAway,
           updated_at:  new Date().toISOString(),

@@ -298,9 +298,16 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                         </span>
 
                         {live ? (
-                          <div className="flex items-center gap-1 px-1.5 py-0.5 rounded bg-red-500/10 border border-red-500/20 scale-90">
-                            <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                            <span className="text-[8px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
+                          <div className="flex flex-col items-center gap-1">
+                            <div className="flex items-center gap-1 px-1.5 py-0.5 rounded bg-red-500/10 border border-red-500/20 scale-90">
+                              <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+                              <span className="text-[8px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
+                            </div>
+                            {f.elapsed && (
+                              <span className="text-[10px] font-black text-red-500 tabular-nums">
+                                {f.elapsed}'
+                              </span>
+                            )}
                           </div>
                         ) : finished ? (
                           <span className="text-[9px] font-black text-slate-500 uppercase tracking-tighter bg-slate-800 px-1 rounded">
