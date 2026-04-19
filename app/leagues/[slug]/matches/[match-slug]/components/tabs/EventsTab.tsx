@@ -94,8 +94,12 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
               <div className="space-y-0.5">
                 {halfEvents.map((e, i) => {
                   const isHome = e.team_id === homeTeamId;
+                  const isMissedGoal = e.type === "Goal" && e.detail?.toLowerCase().includes("missed");
+                  const isGoal = e.type === "Goal" && !isMissedGoal && !e.detail?.toLowerCase().includes("cancelled");
+
                   const icon =
-                    e.type === "Goal"                                           ? "⚽" :
+                    isGoal                                                      ? "⚽" :
+                    isMissedGoal                                                ? "❌" :
                     e.detail === "Yellow Card"                                  ? "🟨" :
                     (e.detail === "Red Card" || e.detail === "Yellow-Red Card") ? "🟥" :
                     e.type === "subst"                                          ? "🔄" : null;

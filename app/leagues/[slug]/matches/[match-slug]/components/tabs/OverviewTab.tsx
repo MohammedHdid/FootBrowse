@@ -20,7 +20,11 @@ function minStr(e: { minute: number; extra?: number | null }) {
 export default function OverviewTab({ data }: { data: MatchPageData }) {
   // ── Finished / Live ──────────────────────────────────────────────────────────
   if (data.finished || data.live) {
-    const goalEvents    = data.events.filter((e) => e.type === "Goal");
+    const goalEvents    = data.events.filter((e) => 
+      e.type === "Goal" && 
+      !e.detail?.toLowerCase().includes("missed") && 
+      !e.detail?.toLowerCase().includes("cancelled")
+    );
     const homeGoals     = goalEvents.filter((e) => e.team_id === data.homeTeamId);
     const awayGoals     = goalEvents.filter((e) => e.team_id !== data.homeTeamId);
     const yellowCards   = data.events.filter((e) => e.type === "Card" && e.detail === "Yellow Card");
