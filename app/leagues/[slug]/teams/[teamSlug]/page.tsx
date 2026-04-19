@@ -24,20 +24,7 @@ interface Props {
 }
 
 
-// ── Static params ─────────────────────────────────────────────────────────────
-
-export async function generateStaticParams() {
-  const clubTeams = await getAllClubTeams();
-  const clubParams = clubTeams.map((t) => ({
-    slug:     t.primary_league_slug,
-    teamSlug: t.slug,
-  }));
-  const wcParams = teams.map((t) => ({
-    slug:     "world-cup",
-    teamSlug: t.slug,
-  }));
-  return [...clubParams, ...wcParams];
-}
+export const revalidate = 3600;
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
 

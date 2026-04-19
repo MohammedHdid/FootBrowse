@@ -10,9 +10,7 @@ interface Props {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return stadiums.map((s) => ({ slug: s.slug }));
-}
+export const revalidate = 86400; // Stadiums change very rarely (daily)
 
 export function generateMetadata({ params }: Props): Metadata {
   const stadium = getStadium(params.slug);

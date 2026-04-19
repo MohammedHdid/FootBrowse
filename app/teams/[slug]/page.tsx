@@ -5,9 +5,7 @@ interface Props {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return teams.map((t) => ({ slug: t.slug }));
-}
+export const revalidate = 3600;
 
 // Permanently moved to /leagues/world-cup/teams/[slug]
 export default function TeamRedirectPage({ params }: Props) {

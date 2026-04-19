@@ -10,10 +10,7 @@ interface Props {
   params: { slug: string };
 }
 
-export async function generateStaticParams() {
-  const leagues = await getAllLeagues();
-  return leagues.map((l) => ({ slug: l.slug }));
-}
+export const revalidate = 300;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const league = await getLeague(params.slug);

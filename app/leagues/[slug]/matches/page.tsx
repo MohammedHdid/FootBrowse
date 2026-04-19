@@ -11,10 +11,7 @@ interface Props {
   searchParams: { filter?: string };
 }
 
-export async function generateStaticParams() {
-  const leagues = await getAllLeagues();
-  return leagues.map((l) => ({ slug: l.slug }));
-}
+export const revalidate = 60; // Matches list updates very frequently
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const league = await getLeague(params.slug);
