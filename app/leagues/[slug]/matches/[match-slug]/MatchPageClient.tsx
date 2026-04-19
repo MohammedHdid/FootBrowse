@@ -314,6 +314,17 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
     return () => window.removeEventListener("scroll", h);
   }, []);
 
+  // -- Auto-refresh live match data every 60s
+  useEffect(() => {
+    if (!data.live) return;
+    
+    const interval = setInterval(() => {
+      router.refresh();
+    }, 60000); // Pulse every 60 seconds
+
+    return () => clearInterval(interval);
+  }, [data.live, router]);
+
   const tabs     = buildTabs(data);
   const rawTab   = searchParams.get("tab") ?? "match-info";
   const activeTab = tabs.find((t) => t.id === rawTab)?.id ?? "match-info";

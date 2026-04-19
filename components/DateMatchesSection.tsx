@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { DayFixtures } from "@/lib/date-fixtures";
@@ -29,11 +30,20 @@ interface Props {
 }
 
 export default function DateMatchesSection({ days, todayStr }: Props) {
+  const router = useRouter();
   const [selectedDate, setSelectedDate] = useState(todayStr);
   const [filter, setFilter] = useState<MatchFilter>("all");
 
   const selectedIdx = days.findIndex((d) => d.date === selectedDate);
   const selectedDay = days[selectedIdx] ?? null;
+
+  // Auto-refresh the dashboard every 60s
+  useEffect(() => {
+    const interval = setInterval(() => {
+      router.refresh();
+    }, 60000);
+    return () => clearInterval(interval);
+  }, [router]);
 
   const filteredLeagues = selectedDay?.leagues.map(group => {
     const fixtures = group.fixtures.filter(f => {

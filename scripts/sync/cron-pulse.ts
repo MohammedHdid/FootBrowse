@@ -27,7 +27,13 @@ async function main() {
 
   switch (pulse) {
     case 'live':
-      // Real-time scores and events
+      // Real-time scores and events - Pulse 1
+      run('scripts/sync/sync-live.ts');
+
+      console.log("\n[CRON] Resting 150s (2.5m) for second pulse...");
+      await new Promise(resolve => setTimeout(resolve, 150000));
+
+      // Pulse 2
       run('scripts/sync/sync-live.ts');
       break;
 
