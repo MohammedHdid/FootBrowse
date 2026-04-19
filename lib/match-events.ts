@@ -100,10 +100,18 @@ export async function getMatchEvents(fixtureId: number): Promise<MatchEvents | n
         type:    e.type as any,
         detail:  e.detail ?? '',
       }))
-    : (await supabase.from('live_events').select('*').eq('match_id', (match as any).id).order('minute', { ascending: true })).data?.map((e: any) => ({
+    : (await supabase
+        .from('live_events')
+        .select(`
+          minute, extra_minute, type, detail, player_name,
+          team:teams!team_id(api_football_id)
+        `)
+        .eq('match_id', (match as any).id)
+        .order('minute', { ascending: true })
+      ).data?.map((e: any) => ({
         minute:  e.minute ?? 0,
         extra:   e.extra_minute ?? null,
-        team_id: 0, 
+        team_id: (e.team as any)?.api_football_id ?? 0, 
         player:  e.player_name ?? '',
         assist:  null,
         type:    e.type as any,

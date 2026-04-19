@@ -314,7 +314,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                               <span className="text-[8px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
                             </div>
                             {f.elapsed && (
-                              <span className="text-[10px] font-black text-red-500 tabular-nums">
+                              <span className="text-[10px] font-black text-red-500 tabular-nums animate-pulse">
                                 {f.elapsed}'
                               </span>
                             )}

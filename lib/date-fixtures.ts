@@ -5,6 +5,7 @@ export interface DateFixtureEntry {
   slug: string
   kickoff_utc: string
   status: string
+  elapsed: number | null
   score: { home: number | null; away: number | null }
   home_team: { name: string; logo: string; slug: string }
   away_team: { name: string; logo: string; slug: string }
@@ -38,7 +39,7 @@ export async function getFixturesByDateRange(backDays = 3, forwardDays = 7): Pro
   const { data } = await supabase
     .from('matches')
     .select(`
-      fixture_id, slug, date, kickoff_utc, status, score_home, score_away,
+      fixture_id, slug, date, kickoff_utc, status, elapsed, score_home, score_away,
       home_team:teams!home_id(name, logo, slug),
       away_team:teams!away_id(name, logo, slug),
       league:leagues!league_id(slug, name, logo)
@@ -73,6 +74,7 @@ export async function getFixturesByDateRange(backDays = 3, forwardDays = 7): Pro
       slug:        r.slug,
       kickoff_utc: r.kickoff_utc ?? '',
       status:      r.status,
+      elapsed:     r.elapsed ?? null,
       score:       { home: r.score_home ?? null, away: r.score_away ?? null },
       home_team:   { name: r.home_team?.name ?? '', logo: r.home_team?.logo ?? '', slug: r.home_team?.slug ?? '' },
       away_team:   { name: r.away_team?.name ?? '', logo: r.away_team?.logo ?? '', slug: r.away_team?.slug ?? '' },

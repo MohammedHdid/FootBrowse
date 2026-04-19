@@ -98,7 +98,7 @@ export default function MatchHero(p: Props) {
                     <span className="text-[11px] font-black uppercase tracking-widest text-red-500">LIVE</span>
                   </div>
                   {p.elapsed && (
-                    <span className="text-xl font-black text-red-500 tabular-nums">
+                    <span className="text-xl font-black text-red-500 tabular-nums animate-pulse">
                       {p.elapsed}'
                     </span>
                   )}
