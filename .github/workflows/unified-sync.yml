@@ -1,6 +1,8 @@
 name: FootBrowse Data Sync
 
 on:
+  push:
+    branches: [ Version-1 ]
   schedule:
     # Run every 5 minutes for live scores
     - cron: "*/5 * * * *"
