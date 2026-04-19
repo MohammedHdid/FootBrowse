@@ -1,0 +1,50 @@
+name: FootBrowse Data Sync
+
+on:
+  schedule:
+    # Run every 5 minutes for live scores
+    - cron: "*/5 * * * *"
+    # Run every 30 minutes for lineups
+    - cron: "0,30 * * * *"
+    # Run daily at 3 AM UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+jobs:
+  sync:
+    name: Sync Pulse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine Pulse Type
+        id: pulse
+        run: |
+          # Use GitHub's schedule to decide which pulse to run
+          CRON="${{ github.event.schedule }}"
+          if [[ "$CRON" == "0 3 * * *" ]]; then
+            echo "type=daily" >> "$GITHUB_OUTPUT"
+          elif [[ "$CRON" == "0,30 * * * *" ]]; then
+            echo "type=matchday" >> "$GITHUB_OUTPUT"
+          else
+            echo "type=live" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Execute Pulse
+        run: npx tsx scripts/sync/cron-pulse.ts --pulse ${{ steps.pulse.outputs.type }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          # Some scripts might use NEXT_PUBLIC_SUPABASE_URL
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

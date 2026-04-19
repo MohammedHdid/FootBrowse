@@ -37,34 +37,43 @@ async function main() {
   const api = createApiClient(process.env.API_FOOTBALL_KEY ?? '')
 
   const fixtureFlt = arg('--fixture')
+  const nextHrs    = parseInt(arg('--next') || '24')
+  const force      = process.argv.includes('--force')
 
   const now    = new Date().toISOString().slice(0, 10)
-  const in48h  = new Date(Date.now() + 48 * 3_600_000).toISOString().slice(0, 10)
+  const future = new Date(Date.now() + nextHrs * 3_600_000).toISOString().slice(0, 10)
 
   const { data: teams } = await db.from('teams').select('id, api_football_id')
   const teamById = new Map((teams ?? []).map((t: any) => [t.api_football_id, t.id]))
 
   let query = db
     .from('matches')
-    .select('id, fixture_id')
-    .in('status', ['NS', 'TBD', '1H', 'HT', '2H', 'ET', 'BT', 'P', 'FT', 'AET', 'PEN'])
+    .select('id, fixture_id, home_id, away_id, status, date, kickoff_utc, home_team:teams!home_id(name), away_team:teams!away_id(name)')
+    .in('status', ['NS', '1H', 'HT', '2H', 'ET', 'BT', 'P', 'FT', 'AET', 'PEN'])
     .gte('date', now)
-    .lte('date', in48h)
+    .lte('date', future)
 
   if (fixtureFlt) query = query.eq('fixture_id', parseInt(fixtureFlt)) as any
 
-  const { data: matches, error } = await query.order('date').limit(50)
+  const { data: matches, error } = await query.order('date').limit(100)
   if (error) throw new Error(error.message)
 
-  const targets = matches ?? []
-  console.log(`${targets.length} upcoming matches to check for lineups`)
+  const targets = (matches ?? []).filter((m: any) => {
+    // If not forced, we might want to skip if both teams already have lineups
+    // But lineups can change last minute (warmup injuries), so we usually sync until match is deep in play.
+    return true 
+  })
+
+  console.log(`Checking ${targets.length} matches for lineups (Window: ${nextHrs}h)`)
 
   let done = 0
   for (const match of targets as any[]) {
-    process.stdout.write(`  fixture ${match.fixture_id} ... `)
+    const homeName = match.home_team?.name || 'Home'
+    const awayName = match.away_team?.name || 'Away'
+    process.stdout.write(`  [${match.status}] ${homeName} vs ${awayName} (${match.fixture_id}) ... `)
 
     const lineups = await api.get<ApiLineup[]>('/fixtures/lineups', { fixture: String(match.fixture_id) })
-    if (!lineups?.length) { console.log('not announced yet'); continue }
+    if (!lineups?.length) { console.log('not announced'); continue }
 
     for (const lineup of lineups) {
       const teamId = teamById.get(lineup.team.id) ?? null
