@@ -45,9 +45,10 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
   const selectedIdx = days.findIndex((d) => d.date === selectedDate);
   const selectedDay = days[selectedIdx] ?? null;
 
-  // Snappier polling for live scores every 30s
+  // Fast 20s polling for live scores today
   useEffect(() => {
-    if (selectedDate !== todayStr) {
+    const isToday = selectedDate === todayStr;
+    if (!isToday) {
       setLiveUpdates({});
       return;
     }
@@ -60,12 +61,12 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
         data.forEach(u => map[u.fixture_id] = u);
         setLiveUpdates(map);
       } catch (err) {
-        console.error("Polling failed", err);
+        console.error("Home polling failed", err);
       }
     };
 
     poll();
-    const interval = setInterval(poll, 30000); 
+    const interval = setInterval(poll, 20000); 
     return () => clearInterval(interval);
   }, [selectedDate, todayStr]);
 

@@ -318,8 +318,8 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
   // -- Smooth live updates polling 
   const [liveInfo, setLiveInfo] = useState<{ score: {home:number; away:number}; elapsed: number|null; status: string } | null>(null);
 
+  // Force automatic background refresh for all matches
   useEffect(() => {
-    if (!data.live) return;
     const poll = async () => {
       try {
         const res = await fetch(`/api/matches/live?t=${Date.now()}`, { cache: 'no-store' });
@@ -332,12 +332,15 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
             status: match.status
           });
         }
-      } catch (e) {}
+      } catch (e) {
+        console.error("Match polling failed", e);
+      }
     };
+
     poll();
-    const interval = setInterval(poll, 30000); // 30s pulse
+    const interval = setInterval(poll, 20000); // Faster 20s pulse for maximum sync
     return () => clearInterval(interval);
-  }, [data.live, data.matchId]);
+  }, [data.matchId]);
 
   const currentScore   = liveInfo?.score ?? data.score;
   const currentElapsed = liveInfo?.elapsed ?? data.elapsed;
