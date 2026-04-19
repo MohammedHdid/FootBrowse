@@ -41,6 +41,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
   const [selectedDate, setSelectedDate] = useState(todayStr);
   const [filter, setFilter] = useState<MatchFilter>("all");
   const [liveUpdates, setLiveUpdates] = useState<Record<number, MatchUpdate>>({});
+  const [lastPolled, setLastPolled] = useState<string>('');
 
   const selectedIdx = days.findIndex((d) => d.date === selectedDate);
   const selectedDay = days[selectedIdx] ?? null;
@@ -53,15 +54,21 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
       return;
     }
 
+    console.log('[FootBrowse] Starting live polling...');
+
     const poll = async () => {
       try {
-        const res = await fetch(`/api/matches/live?t=${Date.now()}`, { cache: 'no-store' });
+        const url = `/api/matches/live?t=${Date.now()}`;
+        console.log('[FootBrowse] Polling:', url);
+        const res = await fetch(url, { cache: 'no-store' });
         const data: MatchUpdate[] = await res.json();
         const map: Record<number, MatchUpdate> = {};
         data.forEach(u => map[u.fixture_id] = u);
         setLiveUpdates(map);
+        setLastPolled(new Date().toLocaleTimeString());
+        console.log(`[FootBrowse] Poll OK: ${data.length} matches updated`);
       } catch (err) {
-        console.error("Home polling failed", err);
+        console.error("[FootBrowse] Home polling failed", err);
       }
     };
 

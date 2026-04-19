@@ -320,25 +320,31 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
 
   // Force automatic background refresh for all matches
   useEffect(() => {
+    console.log('[FootBrowse] Match page: starting polling for fixture', data.matchId);
     const poll = async () => {
       try {
-        const res = await fetch(`/api/matches/live?t=${Date.now()}`, { cache: 'no-store' });
+        const url = `/api/matches/live?t=${Date.now()}`;
+        console.log('[FootBrowse] Match polling:', url);
+        const res = await fetch(url, { cache: 'no-store' });
         const updates: any[] = await res.json();
         const match = updates.find((u) => u.fixture_id === data.matchId);
         if (match) {
+          console.log(`[FootBrowse] Match ${data.matchId}: elapsed=${match.elapsed}, status=${match.status}, score=${match.score_home}-${match.score_away}`);
           setLiveInfo({
             score: { home: match.score_home, away: match.score_away },
             elapsed: match.elapsed,
             status: match.status
           });
+        } else {
+          console.log(`[FootBrowse] Match ${data.matchId}: not found in ${updates.length} results`);
         }
       } catch (e) {
-        console.error("Match polling failed", e);
+        console.error("[FootBrowse] Match polling failed", e);
       }
     };
 
     poll();
-    const interval = setInterval(poll, 20000); // Faster 20s pulse for maximum sync
+    const interval = setInterval(poll, 20000);
     return () => clearInterval(interval);
   }, [data.matchId]);
 
