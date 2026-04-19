@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -22,9 +25,6 @@ interface Props {
   params: { slug: string; "match-slug": string };
   searchParams?: { tab?: string };
 }
-
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
 
