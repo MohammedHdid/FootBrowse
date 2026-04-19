@@ -30,36 +30,57 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
 
         {/* Visual bar */}
         {timelineEvents.length > 0 && (
-          <div className="relative mb-6" style={{ height: 40, paddingBottom: 14 }}>
-            <div className="absolute left-0 right-0 rounded-full"
-              style={{ top: "38%", height: 2, backgroundColor: "rgba(255,255,255,0.07)" }} />
-            <div className="absolute"
-              style={{ left: `${(45 / timelineMaxMin) * 100}%`, top: "20%", height: "36%", width: 1,
-                backgroundColor: "rgba(255,255,255,0.15)" }} />
+          <div className="relative mb-10 mt-4 px-1" style={{ height: 44 }}>
+            {/* The main track */}
+            <div className="absolute left-0 right-0 rounded-full overflow-hidden"
+              style={{ top: "18px", height: 6, background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.05)" }}>
+              <div className="h-full w-full" style={{ background: "linear-gradient(90deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0.02) 100%)" }} />
+            </div>
+
+            {/* Half-time marker */}
+            <div className="absolute z-10"
+              style={{ left: `${(45 / timelineMaxMin) * 100}%`, top: "10px", height: "22px", width: 1,
+                backgroundColor: "rgba(255,255,255,0.3)", boxShadow: "0 0 10px rgba(255,255,255,0.2)" }} />
+
+            {/* Events mapping */}
             {timelineEvents.map((e, i) => {
               const isHome = e.team_id === homeTeamId;
-              const isGoal = e.type === "Goal";
+              const isMissed = e.type === "Goal" && e.detail?.toLowerCase().includes("missed");
+              const isGoal = e.type === "Goal" && !isMissed && !e.detail?.toLowerCase().includes("cancelled");
               const isRed  = e.detail === "Red Card" || e.detail === "Yellow-Red Card";
-              const pct    = `${Math.min((e.minute / timelineMaxMin) * 100, 97)}%`;
-              const color  = isGoal ? (isHome ? "#00FF87" : "#3B82F6") : isRed ? "#EF4444" : "#EAB308";
+              const isCard = e.type === "Card";
+              const pct    = `${Math.min((e.minute / timelineMaxMin) * 100, 98)}%`;
+              
+              const color  = isGoal ? (isHome ? "#00FF87" : "#3B82F6") : isRed ? "#EF4444" : isCard ? "#EAB308" : "#94A3B8";
+
               return (
                 <div key={i} className="absolute -translate-x-1/2 flex flex-col items-center"
-                  style={{ left: pct, top: "calc(38% - 8px)" }}>
-                  {isGoal && (
-                    <span className="text-[10px] leading-none mb-0.5">⚽</span>
+                  style={{ left: pct, top: isGoal ? "0px" : "10px" }}>
+                  
+                  {isGoal ? (
+                    <>
+                      <span className="text-[12px] leading-none mb-1 drop-shadow-md">⚽</span>
+                      <div className="rounded-full blur-[4px]" style={{ width: 12, height: 12, backgroundColor: color, position: 'absolute', top: 0, opacity: 0.5 }} />
+                      <div className="rounded-full border-2 border-slate-900" style={{ width: 10, height: 10, backgroundColor: color, position: 'relative', zIndex: 1 }} />
+                    </>
+                  ) : (
+                    <div className="rounded-[1px]" style={{
+                      width: 3, 
+                      height: 18,
+                      backgroundColor: color,
+                      boxShadow: `0 0 4px ${color}40`,
+                      opacity: 0.8
+                    }} />
                   )}
-                  <div className="rounded-[2px]" style={{
-                    width: isGoal ? 8 : 6, height: isGoal ? 8 : 7,
-                    backgroundColor: color,
-                    boxShadow: isGoal ? `0 0 6px ${color}80` : "none",
-                  }} />
                 </div>
               );
             })}
-            <div className="absolute bottom-0 left-0 text-[9px] text-zinc-700">0&apos;</div>
-            <div className="absolute bottom-0 text-[9px] text-zinc-700"
+
+            {/* Time markers */}
+            <div className="absolute -bottom-6 left-0 text-[10px] font-bold text-zinc-600">0&apos;</div>
+            <div className="absolute -bottom-6 font-bold text-[10px] text-[#00FF87] opacity-60"
               style={{ left: `${(45 / timelineMaxMin) * 100}%`, transform: "translateX(-50%)" }}>HT</div>
-            <div className="absolute bottom-0 right-0 text-[9px] text-zinc-700">{timelineMaxMin}&apos;</div>
+            <div className="absolute -bottom-6 right-0 text-[10px] font-bold text-zinc-600">{timelineMaxMin}&apos;</div>
           </div>
         )}
 
@@ -91,46 +112,51 @@ export default function EventsTab({ data }: { data: MatchPageData }) {
                 <span className="text-xs font-semibold text-zinc-600">No major events</span>
               </div>
             ) : (
-              <div className="space-y-0.5">
+              <div className="space-y-1.5">
                 {halfEvents.map((e, i) => {
                   const isHome = e.team_id === homeTeamId;
                   const isMissedGoal = e.type === "Goal" && e.detail?.toLowerCase().includes("missed");
                   const isGoal = e.type === "Goal" && !isMissedGoal && !e.detail?.toLowerCase().includes("cancelled");
 
-                  const icon =
-                    isGoal                                                      ? "⚽" :
-                    isMissedGoal                                                ? "❌" :
-                    e.detail === "Yellow Card"                                  ? "🟨" :
-                    (e.detail === "Red Card" || e.detail === "Yellow-Red Card") ? "🟥" :
-                    e.type === "subst"                                          ? "🔄" : null;
-                  if (icon === null) return null;
-                  const isSub = e.type === "subst";
+                  // Premium SVG Icons
+                  const GoalIcon = () => (
+                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-800/50 border border-slate-700/50">
+                      <span className="text-[12px]">⚽</span>
+                    </div>
+                  );
+                  const CardIcon = ({ color }: { color: string }) => (
+                    <div className="w-4 h-5 rounded-[2px] shadow-sm" style={{ backgroundColor: color }} />
+                  );
+                  const SubsIcon = () => (
+                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-blue-500/10 border border-blue-500/20">
+                      <span className="text-[14px]">🔄</span>
+                    </div>
+                  );
+                  const MissedIcon = () => (
+                    <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-500/10 border border-red-500/20">
+                      <span className="text-[10px]">❌</span>
+                    </div>
+                  );
+
                   return (
-                    <div key={i}
-                      className={`flex items-center gap-3 py-2 px-3 rounded-lg text-sm ${isHome ? "" : "flex-row-reverse"}`}
-                      style={{
-                        backgroundColor: "rgba(255,255,255,0.025)",
-                        borderLeft:  isHome  ? "2px solid rgba(0,255,135,0.25)"  : "2px solid transparent",
-                        borderRight: !isHome ? "2px solid rgba(59,130,246,0.25)" : "2px solid transparent",
-                      }}>
-                      <span className="text-zinc-500 tabular-nums text-xs w-8 shrink-0 text-center">
-                        {e.minute}{e.extra ? `+${e.extra}` : ""}&apos;
-                      </span>
-                      <span className="shrink-0">{icon}</span>
-                      <div className={`flex-1 min-w-0 ${isHome ? "" : "text-right"}`}>
-                        {isSub ? (
-                          <>
-                            {e.assist && <p className="text-sm font-semibold text-zinc-200 leading-tight"><span className="text-green-400 mr-1">↑</span>{e.assist}</p>}
-                            <p className="text-[11px] text-zinc-500 mt-0.5 leading-tight"><span className="mr-1">↓</span>{e.player}</p>
-                          </>
-                        ) : (
-                          <>
-                            <span className="font-semibold text-zinc-200">{e.player}</span>
-                            {e.type === "Goal" && e.assist && (
-                              <p className="text-[11px] text-zinc-500 mt-0.5">Assist: {e.assist}</p>
-                            )}
-                          </>
-                        )}
+                    <div key={i} className={`group flex items-center gap-3 p-2.5 rounded-xl transition-all hover:bg-slate-800/30 border border-transparent hover:border-slate-700/30 ${!isHome ? "flex-row-reverse text-right" : ""}`}>
+                      <div className="flex flex-col items-center min-w-[32px]">
+                        <span className="text-[11px] font-bold text-slate-500 mb-0.5">{e.minute}&apos;</span>
+                        {isGoal && <GoalIcon />}
+                        {isMissedGoal && <MissedIcon />}
+                        {e.detail === "Yellow Card" && <CardIcon color="#EAB308" />}
+                        {(e.detail === "Red Card" || e.detail === "Yellow-Red Card") && <CardIcon color="#EF4444" />}
+                        {e.type === "subst" && <SubsIcon />}
+                      </div>
+                      
+                      <div className="flex-1">
+                        <div className="text-sm font-bold text-slate-200 group-hover:text-white transition-colors">
+                          {e.player}
+                        </div>
+                        <div className={`text-[10px] uppercase font-black tracking-widest ${isHome ? "text-[#00FF87]" : "text-[#3B82F6]"}`}>
+                          {e.detail}
+                          {e.assist && <span className="normal-case font-medium text-zinc-500 ml-1.5">• Assist: {e.assist}</span>}
+                        </div>
                       </div>
                     </div>
                   );
