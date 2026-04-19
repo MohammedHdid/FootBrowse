@@ -292,19 +292,23 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                       }}
                     >
                       {/* Left: status / time */}
-                      <div className="shrink-0 w-12 flex flex-col items-center justify-center gap-0.5">
+                      <div className="shrink-0 w-14 flex flex-col items-center justify-center gap-1.5 py-1">
+                        <span className="text-[10px] font-bold text-zinc-500 tabular-nums">
+                          {f.kickoff_utc}
+                        </span>
+
                         {live ? (
-                          <div className="flex items-center gap-1.5 px-1.5 py-0.5 rounded bg-red-500/10 border border-red-500/20">
+                          <div className="flex items-center gap-1 px-1.5 py-0.5 rounded bg-red-500/10 border border-red-500/20 scale-90">
                             <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                            <span className="text-[9px] font-black tracking-wider text-red-500">LIVE</span>
+                            <span className="text-[8px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
                           </div>
                         ) : finished ? (
-                          <span className="text-[10px] font-bold text-slate-500">
+                          <span className="text-[9px] font-black text-slate-500 uppercase tracking-tighter bg-slate-800 px-1 rounded">
                             {STATUS_LABEL[f.status] ?? f.status}
                           </span>
                         ) : (
-                          <span className="text-[11px] font-bold text-slate-400 tabular-nums">
-                            {f.kickoff_utc}
+                          <span className="text-[9px] font-bold text-zinc-600 uppercase tracking-widest">
+                            —
                           </span>
                         )}
                       </div>

@@ -48,16 +48,28 @@ async function main() {
   const { data: teams }   = await db.from('teams').select('id, api_football_id')
   const teamById  = new Map((teams ?? []).map((t: any) => [t.api_football_id, t.id]))
 
-  // 1 API call — all live matches across all leagues
-  const liveFixtures = await api.get<ApiLiveFixture[]>('/fixtures', { live: 'all' })
+  // 1. Fetch matches for today for each of our leagues to catch transitions (Live -> FT)
+  const today = new Date().toISOString().slice(0, 10)
+  const allFixtures: ApiLiveFixture[] = []
 
-  if (!liveFixtures?.length) {
-    console.log('No live matches right now')
-    return
+  console.log(`Checking fixtures for ${today} in our leagues...`)
+  
+  for (const leagueId of ourLeagueIds) {
+    const results = await api.get<ApiLiveFixture[]>('/fixtures', { 
+      league: String(leagueId), 
+      season: '2025', 
+      date: today 
+    })
+    if (results) allFixtures.push(...results)
   }
 
-  const ours = liveFixtures.filter((f) => ourLeagueIds.has(f.league.id))
-  console.log(`${liveFixtures.length} total live matches, ${ours.length} in our leagues`)
+  // Filter to matches that are either LIVE or JUST FINISHED (to catch the transition)
+  const ours = allFixtures.filter((f) => {
+    const s = f.fixture.status.short
+    return ['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'FT', 'AET', 'PEN'].includes(s)
+  })
+
+  console.log(`${allFixtures.length} today fixtures, ${ours.length} needing live-sync check`)
 
   if (!ours.length) return
 

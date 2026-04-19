@@ -175,21 +175,26 @@ export default async function LeagueMatchesPage({ params, searchParams }: Props)
                         }}
                       >
                         {/* Time / Status */}
-                        <div className="shrink-0 w-14 text-center">
+                        <div className="shrink-0 w-16 text-center flex flex-col items-center justify-center gap-1">
+                          <span className="text-[10px] font-bold text-zinc-500 tabular-nums">
+                            {fixture.kickoff_utc}
+                          </span>
+                          
                           {upcoming ? (
-                            <span className="text-xs font-bold text-zinc-400">{fixture.kickoff_utc}</span>
+                             <span className="text-[9px] uppercase tracking-wider text-zinc-600">Upcoming</span>
                           ) : live ? (
-                            <span className="status-pill text-[9px]">LIVE</span>
+                             <span className="status-pill text-[9px] scale-90">LIVE</span>
                           ) : (
-                            <span
-                              className="text-[10px] font-bold uppercase tracking-wide"
-                              style={{ color: "#00FF87" }}
-                            >
-                              {label}
-                            </span>
+                             <span
+                               className="text-[10px] font-bold uppercase tracking-wide"
+                               style={{ color: "#00FF87" }}
+                             >
+                               {label}
+                             </span>
                           )}
+                          
                           {fixture.matchday && (
-                            <p className="text-[9px] text-zinc-600 mt-0.5">MD {fixture.matchday}</p>
+                            <p className="text-[8px] text-zinc-600 font-medium">MD {fixture.matchday}</p>
                           )}
                         </div>
 
