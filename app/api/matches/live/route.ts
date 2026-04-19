@@ -8,11 +8,18 @@ export async function GET() {
     process.env.SUPABASE_SERVICE_ROLE_KEY!
   )
 
-  // Fetch all matches that are currently 'Live'
+  const today = new Date().toISOString().slice(0, 10);
+
+  // Fetch all matches for today to ensure smooth transitions (Live -> FT)
   const { data } = await supabase
     .from('matches')
     .select('fixture_id, score_home, score_away, elapsed, status')
-    .in('status', ['1H', '2H', 'HT', 'ET', 'BT', 'P', 'LIVE'])
+    .eq('date', today);
 
-  return NextResponse.json(data ?? [])
+  return new NextResponse(JSON.stringify(data ?? []), {
+    headers: {
+      'Cache-Control': 'no-store, max-age=0, must-revalidate',
+      'Content-Type': 'application/json',
+    }
+  });
 }

@@ -48,13 +48,22 @@ async function main() {
   const { data: teams }   = await db.from('teams').select('id, api_football_id')
   const teamById  = new Map((teams ?? []).map((t: any) => [t.api_football_id, t.id]))
 
-  // 1. Fetch ALL live matches globally in ONE call (much faster)
+  // 1. Fetch ALL live matches globally in ONE call (for speed)
   console.log(`Fetching all live fixtures globally...`)
-  const allFixtures = await api.get<ApiLiveFixture[]>('/fixtures', { live: 'all' })
+  const liveFixtures = await api.get<ApiLiveFixture[]>('/fixtures', { live: 'all' }) || []
   
-  if (!allFixtures) {
-    console.log("No live fixtures found globally or API error.")
-    return
+  // 2. Also fetch any matches currently in our DB that are 'ACTIVE' but might have just ended
+  const { data: dbActive } = await db.from('matches').select('fixture_id').not('status', 'in', '("FT", "NS", "TBD", "CANC", "POST", "AET", "PEN")')
+  const activeFixtureIds = (dbActive ?? []).map(m => m.fixture_id)
+
+  const allFixtures: ApiLiveFixture[] = [...liveFixtures]
+
+  // If we have active matches in DB not in live feed, fetch them specifically to catch FT
+  const missingIds = activeFixtureIds.filter(id => !liveFixtures.some(f => f.fixture.id === id))
+  if (missingIds.length > 0) {
+    console.log(`Checking ${missingIds.length} potentially finished matches...`)
+    const results = await api.get<ApiLiveFixture[]>('/fixtures', { ids: missingIds.join('-') })
+    if (results) allFixtures.push(...results)
   }
 
   // Filter to only the matches from our leagues
