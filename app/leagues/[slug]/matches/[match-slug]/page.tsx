@@ -23,19 +23,8 @@ interface Props {
   searchParams?: { tab?: string };
 }
 
-// ── Static params ─────────────────────────────────────────────────────────────
-
-export async function generateStaticParams() {
-  const wcParams = matches.map((m) => ({ slug: "world-cup", "match-slug": m.slug }));
-  const { data } = await supabase
-    .from("matches")
-    .select("slug, league:leagues!league_id(slug)");
-  const fixtureParams = (data ?? []).map((m: any) => ({
-    slug: (m.league as any)?.slug as string | undefined,
-    "match-slug": m.slug as string,
-  })).filter((p): p is { slug: string; "match-slug": string } => !!p.slug);
-  return [...wcParams, ...fixtureParams];
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 // ── Metadata ──────────────────────────────────────────────────────────────────
 

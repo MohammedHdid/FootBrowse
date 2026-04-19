@@ -13,10 +13,7 @@ interface Props {
   params: { slug: string };
 }
 
-export async function generateStaticParams() {
-  const allPlayers = await getAllPlayers();
-  return allPlayers.map((p) => ({ slug: p.slug }));
-}
+export const revalidate = 3600; // Revalidate player data every hour
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const player = await getPlayer(params.slug);
