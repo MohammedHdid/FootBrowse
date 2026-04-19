@@ -322,7 +322,7 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
     if (!data.live) return;
     const poll = async () => {
       try {
-        const res = await fetch('/api/matches/live');
+        const res = await fetch('/api/matches/live', { cache: 'no-store' });
         const updates: any[] = await res.json();
         const match = updates.find((u) => u.fixture_id === data.matchId);
         if (match) {
@@ -335,7 +335,7 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
       } catch (e) {}
     };
     poll();
-    const interval = setInterval(poll, 45000); // 45s pulse
+    const interval = setInterval(poll, 30000); // 30s pulse
     return () => clearInterval(interval);
   }, [data.live, data.matchId]);
 

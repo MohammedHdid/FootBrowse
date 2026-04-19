@@ -45,11 +45,16 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
   const selectedIdx = days.findIndex((d) => d.date === selectedDate);
   const selectedDay = days[selectedIdx] ?? null;
 
-  // Smooth polling for live scores every 45s
+  // Snappier polling for live scores every 30s
   useEffect(() => {
+    if (selectedDate !== todayStr) {
+      setLiveUpdates({});
+      return;
+    }
+
     const poll = async () => {
       try {
-        const res = await fetch('/api/matches/live');
+        const res = await fetch('/api/matches/live', { cache: 'no-store' });
         const data: MatchUpdate[] = await res.json();
         const map: Record<number, MatchUpdate> = {};
         data.forEach(u => map[u.fixture_id] = u);
@@ -60,9 +65,9 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
     };
 
     poll();
-    const interval = setInterval(poll, 45000);
+    const interval = setInterval(poll, 30000); 
     return () => clearInterval(interval);
-  }, []);
+  }, [selectedDate, todayStr]);
 
   const filteredLeagues = selectedDay?.leagues.map(group => {
     const fixtures = group.fixtures.filter(f => {
