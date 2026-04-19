@@ -108,13 +108,16 @@ async function main() {
           score_away:  scoreAway,
           updated_at:  new Date().toISOString(),
         }, { onConflict: 'fixture_id' })
-      }
     }
   }
 
-  // Fetch events for each live match and update live_events table
+  // REFRESH matchById map to include any newly created matches for the events loop
+  const { data: dbMatchesFinal } = await db.from('matches').select('id, fixture_id').in('fixture_id', ours.map(f => f.fixture.id))
+  const finalMatchMap = new Map((dbMatchesFinal ?? []).map((m: any) => [m.fixture_id, m.id]))
+
+  // 2. Fetch events for each live match and update live_events table
   for (const f of ours) {
-    const matchId = matchById.get(f.fixture.id)
+    const matchId = finalMatchMap.get(f.fixture.id)
     if (!matchId) continue
 
     const events = await api.get<ApiEvent[]>('/fixtures/events', { fixture: String(f.fixture.id) })
