@@ -90,20 +90,22 @@ export async function getMatchEvents(fixtureId: number): Promise<MatchEvents | n
     }
   }
 
-  const events: MatchEventItem[] = eventsRes.data?.length 
-    ? (eventsRes.data).map((e: any) => ({
-        minute:  e.minute ?? 0,
-        extra:   e.extra_minute ?? null,
-        team_id: e.team?.api_football_id ?? 0,
-        player:  e.player_name ?? '',
-        assist:  e.assist_name ?? null,
-        type:    e.type as any,
-        detail:  e.detail ?? '',
-      }))
-    const matchId = (match as any).id;
-    if (!matchId) return [];
+  let events: MatchEventItem[] = [];
 
-    const liveRes = await supabase
+  if (eventsRes.data?.length) {
+    events = eventsRes.data.map((e: any) => ({
+      minute:  e.minute ?? 0,
+      extra:   e.extra_minute ?? null,
+      team_id: e.team?.api_football_id ?? 0,
+      player:  e.player_name ?? '',
+      assist:  e.assist_name ?? null,
+      type:    e.type as any,
+      detail:  e.detail ?? '',
+    }));
+  } else {
+    const matchId = (match as any).id;
+    if (matchId) {
+      const liveRes = await supabase
         .from('live_events')
         .select(`
           minute, extra_minute, type, detail, player_name,
@@ -111,16 +113,20 @@ export async function getMatchEvents(fixtureId: number): Promise<MatchEvents | n
         `)
         .eq('match_id', matchId)
         .order('minute', { ascending: true });
-    
-    return liveRes.data?.map((e: any) => ({
-        minute:  e.minute ?? 0,
-        extra:   e.extra_minute ?? null,
-        team_id: (e.team as any)?.api_football_id ?? 0, 
-        player:  e.player_name ?? '',
-        assist:  null,
-        type:    e.type as any,
-        detail:  e.detail ?? '',
-    })) || []
+      
+      if (liveRes.data) {
+        events = liveRes.data.map((e: any) => ({
+          minute:  e.minute ?? 0,
+          extra:   e.extra_minute ?? null,
+          team_id: (e.team as any)?.api_football_id ?? 0, 
+          player:  e.player_name ?? '',
+          assist:  null,
+          type:    e.type as any,
+          detail:  e.detail ?? '',
+        }));
+      }
+    }
+  }
 
   return {
     fixture_id: fixtureId,
