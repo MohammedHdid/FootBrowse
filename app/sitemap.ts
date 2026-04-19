@@ -1,96 +1,67 @@
 import { MetadataRoute } from "next";
-import { matches, teams, stadiums, getAllPlayers } from "@/lib/data";
-import { getAllLeagues } from "@/lib/leagues";
-import { getAllClubTeams } from "@/lib/club-teams";
-import { getFixtures } from "@/lib/fixtures";
+import { supabase } from "@/lib/supabase";
 
 const BASE_URL = "https://footbrowse.com";
-const BUILT_AT = new Date("2026-04-14");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // 1. Fetch all data from Supabase in parallel
+  const [
+    { data: leagues },
+    { data: teams },
+    { data: players },
+    { data: matches }
+  ] = await Promise.all([
+    supabase.from("leagues").select("slug, updated_at"),
+    supabase.from("teams").select("slug, updated_at, leagues!league_id(slug)"),
+    supabase.from("players").select("slug, updated_at"),
+    supabase.from("matches").select("slug, date, leagues!league_id(slug)")
+  ]);
+
+  const now = new Date();
+
+  // Static core routes
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: BASE_URL,                    lastModified: BUILT_AT, changeFrequency: "weekly",  priority: 1 },
-    { url: `${BASE_URL}/matches`,       lastModified: BUILT_AT, changeFrequency: "weekly",  priority: 0.9 },
-    { url: `${BASE_URL}/teams`,         lastModified: BUILT_AT, changeFrequency: "weekly",  priority: 0.9 },
-    { url: `${BASE_URL}/stadiums`,      lastModified: BUILT_AT, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${BASE_URL}/players`,       lastModified: BUILT_AT, changeFrequency: "weekly",  priority: 0.9 },
-    { url: `${BASE_URL}/leagues`,       lastModified: BUILT_AT, changeFrequency: "weekly",  priority: 0.9 },
+    { url: BASE_URL,             lastModified: now, changeFrequency: "daily",   priority: 1 },
+    { url: `${BASE_URL}/leagues`, lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
+    { url: `${BASE_URL}/players`, lastModified: now, changeFrequency: "weekly",  priority: 0.8 },
   ];
 
-  const [leagues, clubTeams, allPlayers] = await Promise.all([
-    getAllLeagues(),
-    getAllClubTeams(),
-    getAllPlayers(),
+  // League routes
+  const leagueRoutes: MetadataRoute.Sitemap = (leagues ?? []).flatMap((l) => [
+    { url: `${BASE_URL}/leagues/${l.slug}`,            lastModified: l.updated_at, changeFrequency: "daily",  priority: 0.9 },
+    { url: `${BASE_URL}/leagues/${l.slug}/standings`,  lastModified: l.updated_at, changeFrequency: "daily",  priority: 0.8 },
+    { url: `${BASE_URL}/leagues/${l.slug}/matches`,    lastModified: l.updated_at, changeFrequency: "always", priority: 0.8 },
   ]);
 
-  // Club fixture pages — fetch per league in parallel
-  const clubMatchRoutes: MetadataRoute.Sitemap = (
-    await Promise.all(
-      leagues
-        .filter((l) => l.slug !== "world-cup")
-        .map(async (league) => {
-          const fixtures = await getFixtures(league);
-          return fixtures.map((f) => ({
-            url:             `${BASE_URL}/leagues/${league.slug}/matches/${f.slug}`,
-            lastModified:    new Date(f.date),
-            changeFrequency: "weekly" as const,
-            priority:        0.8,
-          }));
-        })
-    )
-  ).flat();
-
-  const wcMatchRoutes: MetadataRoute.Sitemap = matches.map((match) => ({
-    url:             `${BASE_URL}/leagues/world-cup/matches/${match.slug}`,
-    lastModified:    new Date(match.date),
-    changeFrequency: "weekly" as const,
-    priority:        0.85,
+  // Team routes
+  const teamRoutes: MetadataRoute.Sitemap = (teams ?? []).map((t) => ({
+    url: `${BASE_URL}/leagues/${(t.leagues as any)?.slug || 'misc'}/teams/${t.slug}`,
+    lastModified: t.updated_at,
+    changeFrequency: "weekly",
+    priority: 0.7,
   }));
 
-  const leagueRoutes: MetadataRoute.Sitemap = leagues.flatMap((league) => [
-    { url: `${BASE_URL}/leagues/${league.slug}`,            lastModified: BUILT_AT, changeFrequency: "weekly"  as const, priority: 0.85 },
-    { url: `${BASE_URL}/leagues/${league.slug}/matches`,    lastModified: BUILT_AT, changeFrequency: "daily"   as const, priority: 0.8  },
-    { url: `${BASE_URL}/leagues/${league.slug}/standings`,  lastModified: BUILT_AT, changeFrequency: "weekly"  as const, priority: 0.8  },
-    { url: `${BASE_URL}/leagues/${league.slug}/teams`,      lastModified: BUILT_AT, changeFrequency: "monthly" as const, priority: 0.75 },
-    { url: `${BASE_URL}/leagues/${league.slug}/players`,    lastModified: BUILT_AT, changeFrequency: "weekly"  as const, priority: 0.75 },
-  ]);
-
-  const clubTeamRoutes: MetadataRoute.Sitemap = clubTeams.map((team) => ({
-    url:             `${BASE_URL}/leagues/${team.primary_league_slug}/teams/${team.slug}`,
-    lastModified:    BUILT_AT,
-    changeFrequency: "weekly" as const,
-    priority:        0.8,
+  // Match routes
+  const matchRoutes: MetadataRoute.Sitemap = (matches ?? []).map((m) => ({
+    url: `${BASE_URL}/leagues/${(m.leagues as any)?.slug || 'misc'}/matches/${m.slug}`,
+    lastModified: new Date(m.date),
+    changeFrequency: "daily",
+    priority: 0.6,
   }));
 
-  const teamRoutes: MetadataRoute.Sitemap = teams.map((team) => ({
-    url:             `${BASE_URL}/teams/${team.slug}`,
-    lastModified:    BUILT_AT,
-    changeFrequency: "weekly" as const,
-    priority:        0.8,
-  }));
-
-  const stadiumRoutes: MetadataRoute.Sitemap = stadiums.map((stadium) => ({
-    url:             `${BASE_URL}/stadiums/${stadium.slug}`,
-    lastModified:    BUILT_AT,
-    changeFrequency: "monthly" as const,
-    priority:        0.7,
-  }));
-
-  const playerRoutes: MetadataRoute.Sitemap = allPlayers.map((player) => ({
-    url:             `${BASE_URL}/players/${player.slug}`,
-    lastModified:    BUILT_AT,
-    changeFrequency: "weekly" as const,
-    priority:        player.primaryLeagueSlug ? 0.65 : 0.7,
+  // Player routes
+  const playerRoutes: MetadataRoute.Sitemap = (players ?? []).map((p) => ({
+    url: `${BASE_URL}/players/${p.slug}`,
+    lastModified: p.updated_at,
+    changeFrequency: "monthly",
+    priority: 0.5,
   }));
 
   return [
     ...staticRoutes,
     ...leagueRoutes,
-    ...clubTeamRoutes,
-    ...wcMatchRoutes,
-    ...clubMatchRoutes,
     ...teamRoutes,
-    ...stadiumRoutes,
+    ...matchRoutes,
     ...playerRoutes,
   ];
 }
