@@ -1,12 +1,20 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import type { DayFixtures } from "@/lib/date-fixtures";
+import LocalMatchTime from "./LocalMatchTime";
 
 type MatchFilter = "all" | "live" | "upcoming" | "finished";
+
+type MatchUpdate = {
+  fixture_id: number;
+  score_home: number | null;
+  score_away: number | null;
+  elapsed: number | null;
+  status: string;
+};
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -30,20 +38,31 @@ interface Props {
 }
 
 export default function DateMatchesSection({ days, todayStr }: Props) {
-  const router = useRouter();
   const [selectedDate, setSelectedDate] = useState(todayStr);
   const [filter, setFilter] = useState<MatchFilter>("all");
+  const [liveUpdates, setLiveUpdates] = useState<Record<number, MatchUpdate>>({});
 
   const selectedIdx = days.findIndex((d) => d.date === selectedDate);
   const selectedDay = days[selectedIdx] ?? null;
 
-  // Auto-refresh the dashboard every 60s
+  // Smooth polling for live scores every 45s
   useEffect(() => {
-    const interval = setInterval(() => {
-      router.refresh();
-    }, 60000);
+    const poll = async () => {
+      try {
+        const res = await fetch('/api/matches/live');
+        const data: MatchUpdate[] = await res.json();
+        const map: Record<number, MatchUpdate> = {};
+        data.forEach(u => map[u.fixture_id] = u);
+        setLiveUpdates(map);
+      } catch (err) {
+        console.error("Polling failed", err);
+      }
+    };
+
+    poll();
+    const interval = setInterval(poll, 45000);
     return () => clearInterval(interval);
-  }, [router]);
+  }, []);
 
   const filteredLeagues = selectedDay?.leagues.map(group => {
     const fixtures = group.fixtures.filter(f => {
@@ -286,10 +305,18 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
               {/* Fixture rows */}
               <div className="space-y-1.5">
                 {group.fixtures.map((f) => {
-                  const live = isLive(f.status);
-                  const finished = isFinished(f.status);
-                  const homeWon = finished && (f.score.home ?? 0) > (f.score.away ?? 0);
-                  const awayWon = finished && (f.score.away ?? 0) > (f.score.home ?? 0);
+                  const update = liveUpdates[f.fixture_id];
+                  const status = update?.status ?? f.status;
+                  const live = isLive(status);
+                  const finished = isFinished(status);
+                  const score = {
+                    home: update?.score_home ?? f.score.home,
+                    away: update?.score_away ?? f.score.away,
+                  };
+                  const elapsed = update?.elapsed ?? f.elapsed;
+                  const homeWon = finished && (score.home ?? 0) > (score.away ?? 0);
+                  const awayWon = finished && (score.away ?? 0) > (score.home ?? 0);
+
                   return (
                     <Link
                       key={f.fixture_id}
@@ -304,7 +331,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                       {/* Left: status / time */}
                       <div className="shrink-0 w-14 flex flex-col items-center justify-center gap-1.5 py-1">
                         <span className="text-[10px] font-bold text-zinc-500 tabular-nums">
-                          {f.kickoff_utc}
+                          <LocalMatchTime utcTime={f.kickoff_utc} date={selectedDate} />
                         </span>
 
                         {live ? (
@@ -313,15 +340,15 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                               <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
                               <span className="text-[8px] font-black tracking-wider text-red-500 uppercase">LIVE</span>
                             </div>
-                            {f.elapsed && (
+                            {elapsed && (
                               <span className="text-[10px] font-black text-red-500 tabular-nums animate-pulse">
-                                {f.elapsed}'
+                                {elapsed}'
                               </span>
                             )}
                           </div>
                         ) : finished ? (
                           <span className="text-[9px] font-black text-slate-500 uppercase tracking-tighter bg-slate-800 px-1 rounded">
-                            {STATUS_LABEL[f.status] ?? f.status}
+                            {STATUS_LABEL[status] ?? status}
                           </span>
                         ) : (
                           <span className="text-[9px] font-bold text-zinc-600 uppercase tracking-widest">
@@ -340,7 +367,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                             {f.home_team.name}
                           </span>
                           <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${live ? "text-red-400" : homeWon ? "text-white" : finished ? "text-slate-400" : "text-slate-600"}`}>
-                            {finished || live ? (f.score.home ?? 0) : "—"}
+                            {finished || live ? (score.home ?? 0) : "—"}
                           </span>
                         </div>
                         {/* Away */}
@@ -351,7 +378,7 @@ export default function DateMatchesSection({ days, todayStr }: Props) {
                             {f.away_team.name}
                           </span>
                           <span className={`text-sm font-black tabular-nums shrink-0 ml-2 ${live ? "text-red-400" : awayWon ? "text-white" : finished ? "text-slate-400" : "text-slate-600"}`}>
-                            {finished || live ? (f.score.away ?? 0) : "—"}
+                            {finished || live ? (score.away ?? 0) : "—"}
                           </span>
                         </div>
                       </div>

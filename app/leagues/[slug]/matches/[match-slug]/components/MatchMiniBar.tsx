@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import LocalMatchTime from "@/components/LocalMatchTime";
 
 interface Props {
   homeName: string;
@@ -35,7 +36,7 @@ export default function MatchMiniBar(p: Props) {
         ) : (
           <>
             <span className="text-xl font-black" style={{ color: "#00FF87", letterSpacing: "-0.03em" }}>
-              {p.kickoffUtc}
+              <LocalMatchTime utcTime={p.kickoffUtc} date={p.matchDate} />
             </span>
             <span className="block text-[10px] text-slate-500 mt-0.5">
               {new Date(p.matchDate).toLocaleDateString("en-US", { month: "short", day: "numeric" })}

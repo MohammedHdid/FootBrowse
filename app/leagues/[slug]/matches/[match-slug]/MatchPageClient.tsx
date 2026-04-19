@@ -6,6 +6,7 @@ import Link from "next/link";
 import AdSlot from "@/components/AdSlot";
 import MatchHero from "./components/MatchHero";
 import MatchMiniBar from "./components/MatchMiniBar";
+import LocalMatchTime from "@/components/LocalMatchTime";
 import MatchOddsStrip from "./components/MatchOddsStrip";
 import MatchTabBar from "./components/MatchTabBar";
 import OverviewTab from "./components/tabs/OverviewTab";
@@ -314,16 +315,33 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
     return () => window.removeEventListener("scroll", h);
   }, []);
 
-  // -- Auto-refresh live match data every 60s
+  // -- Smooth live updates polling 
+  const [liveInfo, setLiveInfo] = useState<{ score: {home:number; away:number}; elapsed: number|null; status: string } | null>(null);
+
   useEffect(() => {
     if (!data.live) return;
-    
-    const interval = setInterval(() => {
-      router.refresh();
-    }, 60000); // Pulse every 60 seconds
-
+    const poll = async () => {
+      try {
+        const res = await fetch('/api/matches/live');
+        const updates: any[] = await res.json();
+        const match = updates.find((u) => u.fixture_id === data.matchId);
+        if (match) {
+          setLiveInfo({
+            score: { home: match.score_home, away: match.score_away },
+            elapsed: match.elapsed,
+            status: match.status
+          });
+        }
+      } catch (e) {}
+    };
+    poll();
+    const interval = setInterval(poll, 45000); // 45s pulse
     return () => clearInterval(interval);
-  }, [data.live, router]);
+  }, [data.live, data.matchId]);
+
+  const currentScore   = liveInfo?.score ?? data.score;
+  const currentElapsed = liveInfo?.elapsed ?? data.elapsed;
+  const currentStatus  = liveInfo?.status ?? data.fixtureStatusLabel;
 
   const tabs     = buildTabs(data);
   const rawTab   = searchParams.get("tab") ?? "match-info";
@@ -362,13 +380,13 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
             awayLogo={data.awayLogo}
             homeIsFlag={data.homeIsFlag}
             awayIsFlag={data.awayIsFlag}
-            score={data.score}
+            score={currentScore}
             kickoffUtc={data.kickoffUtc}
             matchDate={data.matchDate}
             finished={data.finished}
             live={data.live}
-            fixtureStatusLabel={data.fixtureStatusLabel}
-            elapsed={data.elapsed}
+            fixtureStatusLabel={currentStatus}
+            elapsed={currentElapsed}
           />
         ) : (
           <MatchHero
@@ -378,7 +396,7 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
             isWC={data.isWC}
             group={data.group}
             stage={data.stage}
-            fixtureStatusLabel={data.fixtureStatusLabel}
+            fixtureStatusLabel={currentStatus}
             finished={data.finished}
             live={data.live}
             matchday={data.matchday}
@@ -394,13 +412,13 @@ function MatchPageInner({ data }: { data: MatchPageData }) {
             awayFifaRank={data.awayFifaRank}
             homeRecord={homeRecord}
             awayRecord={awayRecord}
-            score={data.score}
+            score={currentScore}
             kickoffUtc={data.kickoffUtc}
             kickoffEst={data.kickoffEst}
             matchDate={data.matchDate}
             city={data.city}
             venueName={data.venueName}
-            elapsed={data.elapsed}
+            elapsed={currentElapsed}
           />
         )}
         <MatchOddsStrip oddsData={data.oddsData} />

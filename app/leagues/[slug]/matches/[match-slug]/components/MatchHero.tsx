@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import LocalMatchTime from "@/components/LocalMatchTime";
 
 interface Props {
   leagueSlug: string;
@@ -112,7 +113,9 @@ export default function MatchHero(p: Props) {
           ) : (
             <>
               <p className="text-4xl sm:text-5xl font-black" style={{ color: "#3B82F6", letterSpacing: "-0.04em" }}>VS</p>
-              <p className="text-xs text-slate-600 mt-1 uppercase tracking-widest">{p.kickoffUtc} UTC</p>
+              <p className="text-xs text-slate-600 mt-1 uppercase tracking-widest">
+                <LocalMatchTime utcTime={p.kickoffUtc} date={p.matchDate} />
+              </p>
             </>
           )}
         </div>
