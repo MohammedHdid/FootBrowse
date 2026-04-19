@@ -48,26 +48,17 @@ async function main() {
   const { data: teams }   = await db.from('teams').select('id, api_football_id')
   const teamById  = new Map((teams ?? []).map((t: any) => [t.api_football_id, t.id]))
 
-  // 1. Fetch matches for today for each of our leagues to catch transitions (Live -> FT)
-  const today = new Date().toISOString().slice(0, 10)
-  const allFixtures: ApiLiveFixture[] = []
-
-  console.log(`Checking fixtures for ${today} in our leagues...`)
+  // 1. Fetch ALL live matches globally in ONE call (much faster)
+  console.log(`Fetching all live fixtures globally...`)
+  const allFixtures = await api.get<ApiLiveFixture[]>('/fixtures', { live: 'all' })
   
-  for (const leagueId of ourLeagueIds) {
-    const results = await api.get<ApiLiveFixture[]>('/fixtures', { 
-      league: String(leagueId), 
-      season: '2025', 
-      date: today 
-    })
-    if (results) allFixtures.push(...results)
+  if (!allFixtures) {
+    console.log("No live fixtures found globally or API error.")
+    return
   }
 
-  // Filter to matches that are either LIVE or JUST FINISHED (to catch the transition)
-  const ours = allFixtures.filter((f) => {
-    const s = f.fixture.status.short
-    return ['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE', 'FT', 'AET', 'PEN'].includes(s)
-  })
+  // Filter to only the matches from our leagues
+  const ours = allFixtures.filter((f) => ourLeagueIds.has(f.league.id))
 
   console.log(`${allFixtures.length} today fixtures, ${ours.length} needing live-sync check`)
 
